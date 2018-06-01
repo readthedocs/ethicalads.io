@@ -17,4 +17,8 @@ The static content appears in www/bundle
 Deploying the site
 ------------------
 
-TBD
+The following command will run a production asset build,
+commit the resulting ``www/`` directory to the ``gh-pages`` branch,
+and push to ``origin/gh-pages``.
+
+    % npm run deploy

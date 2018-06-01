@@ -6,7 +6,8 @@
   "scripts": {
     "build": "webpack --config webpack.config.js --mode=development --progress --colors",
     "watch": "webpack --config webpack.config.js --mode=development --watch",
-    "build-production": "webpack --config webpack.config.js --mode=production --progress --colors"
+    "build-production": "webpack --config webpack.config.js --mode=production --progress --colors",
+    "deploy": "npm run build-production && gh-pages -d www"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,7 @@
   "devDependencies": {
     "css-loader": "^0.28.11",
     "file-loader": "^1.1.11",
+    "gh-pages": "^1.2.0",
     "mini-css-extract-plugin": "^0.4.0",
     "node-sass": "^4.9.0",
     "optimize-css-assets-webpack-plugin": "^4.0.2",
