@@ -1,0 +1,47 @@
+body {
+  background-color: $gray-100;
+}
+.jumbotron {
+  border-radius: 0;
+  color: $gray-100;
+  text-align: center;
+  height: $jumbotron-height;
+  background-color: transparent;
+
+  &:before {
+    content: "";
+    background-color: $primary;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: $jumbotron-height;
+    z-index: -1;
+  }
+
+  &:after {
+    content: "";
+    background: center / cover no-repeat url("../img/background.jpg");
+    opacity: 0.1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: $jumbotron-height;
+    z-index: -1;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    font-weight: $font-weight-light;
+  }
+
+  form {
+    justify-content: center;
+    margin-top: 2.5rem;
+  }
+}

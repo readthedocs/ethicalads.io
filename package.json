@@ -1,0 +1,38 @@
+{
+  "name": "ethicalads.io",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js --mode=development --progress --colors",
+    "watch": "webpack --config webpack.config.js --mode=development --watch",
+    "build-production": "webpack --config webpack.config.js --mode=production --progress --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rtfd/ethicalads.io.git"
+  },
+  "author": "David Fischer",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/rtfd/ethicalads.io/issues"
+  },
+  "homepage": "https://github.com/rtfd/ethicalads.io#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
+    "mini-css-extract-plugin": "^0.4.0",
+    "node-sass": "^4.9.0",
+    "optimize-css-assets-webpack-plugin": "^4.0.2",
+    "sass-loader": "^7.0.1",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.8.1",
+    "webpack-cli": "^2.1.3"
+  }
+}
