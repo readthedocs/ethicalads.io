@@ -19,10 +19,10 @@ The static content appears in www/bundle
 Deploying the site
 ------------------
 
-The following command will run a production asset build,
-commit the resulting ``www/`` directory to the ``gh-pages`` branch,
-and push to ``origin/gh-pages``.
+The site is generated automatically by GitHub Actions
+whenever there's new commits on the ``master`` branch.
+It is served by GitHub pages at https://www.ethicalads.io.
 
-.. code-block:: bash
+For more details on the deployment actions, see workflows_.
 
-    $ npm run deploy
+.. _workflows: https://github.com/readthedocs/ethicalads.io/tree/master/.github/workflows
