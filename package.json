@@ -6,35 +6,35 @@
   "scripts": {
     "build": "webpack --config webpack.config.js --mode=development --progress --colors",
     "watch": "webpack --config webpack.config.js --mode=development --watch",
-    "build-production": "webpack --config webpack.config.js --mode=production --progress --colors",
-    "deploy": "npm run build-production && gh-pages -d www"
+    "dist": "webpack --config webpack.config.js --mode=production --progress --colors",
+    "deploy": "npm run dist && gh-pages -d www"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rtfd/ethicalads.io.git"
   },
-  "author": "David Fischer",
+  "author": "Read the Docs, Inc.",
   "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/rtfd/ethicalads.io/issues"
   },
   "homepage": "https://github.com/rtfd/ethicalads.io#readme",
   "dependencies": {
-    "bootstrap": "^4.1.1",
+    "bootstrap": "^4.4.1",
     "font-awesome": "^4.7.0",
-    "jquery": "^3.3.1",
+    "jquery": "^3.4.1",
     "popper.js": "^1.14.3"
   },
   "devDependencies": {
-    "css-loader": "^0.28.11",
-    "file-loader": "^1.1.11",
+    "css-loader": "^3.2.0",
+    "file-loader": "^2.0.0",
     "gh-pages": "^1.2.0",
-    "mini-css-extract-plugin": "^0.4.0",
-    "node-sass": "^4.9.0",
-    "optimize-css-assets-webpack-plugin": "^4.0.2",
-    "sass-loader": "^7.0.1",
-    "style-loader": "^0.21.0",
-    "webpack": "^4.8.1",
-    "webpack-cli": "^2.1.3"
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.12.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "sass-loader": "^7.3.1",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7"
   }
 }
