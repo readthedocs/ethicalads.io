@@ -8,8 +8,10 @@ the developer network coming soon from Read the Docs.
 Building the site
 -----------------
 
-    % npm install
-    % npm run build     # use "npm run build-production" for minified builds
+.. code-block:: bash
+
+    $ npm install
+    $ npm run build     # use "npm run dist" for minified builds
 
 The static content appears in www/bundle
 
@@ -21,4 +23,6 @@ The following command will run a production asset build,
 commit the resulting ``www/`` directory to the ``gh-pages`` branch,
 and push to ``origin/gh-pages``.
 
-    % npm run deploy
+.. code-block:: bash
+
+    $ npm run deploy
