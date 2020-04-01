@@ -23,7 +23,13 @@ $.ajax({
   data: data,
   dataType: "jsonp",
   success: function (data) {
-    $("#" + SAMPLEAD_DIV).html(data.html);
+    var ad_selector = "#" + SAMPLEAD_DIV;
+
+    $(ad_selector).html(data.html);
+    $("<img />")
+      .attr("src", data.view_url)
+      .css("display", "none")
+      .appendTo(ad_selector);
   },
   error: function () {
     console.error('Failed to load an ad - check your ad blocker');
