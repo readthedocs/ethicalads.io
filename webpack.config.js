@@ -6,16 +6,26 @@ const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
 const TerserPlugin = require("terser-webpack-plugin");
 
 module.exports = {
-  entry: "./static-src/index.js",
+  entry: {
+    bundle: ["./static-src/scss/index.scss", "./static-src/index.js"],
+    client: ["./static-src/client.js"],
+  },
   output: {
     path: path.resolve(__dirname, "./www/bundle"),
-    filename: "bundle.js",
+    filename: "[name].js?[hash]",
   },
   module: {
     rules: [
       {
         test: /\.scss$/,
+        exclude: /static-src\/scss\/ad.scss$/,
         use: [MiniCssExtractPlugin.loader, "css-loader", "sass-loader"],
+      },
+      // This file is used directly by `client.js`. It loads as a string to save
+      // on a secondary request just for stylesheets.
+      {
+        test: /ad.scss$/,
+        use: ["to-string-loader", "css-loader", "sass-loader"],
       },
       {
         // the file-loader emits files directly to OUTPUT_DIR/fonts
@@ -27,6 +37,16 @@ module.exports = {
         // the file-loader emits files directly to OUTPUT_DIR/img
         test: /\.(png|gif|jpg|jpeg)$/,
         loaders: ["file-loader?name=./img/[name].[ext]"],
+      },
+      {
+        test: /\.js$/,
+        exclude: /(node_modules)/,
+        use: {
+          loader: "babel-loader",
+          options: {
+            presets: ["@babel/preset-env"],
+          },
+        },
       },
     ],
   },

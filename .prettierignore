@@ -6,4 +6,5 @@
 *.yaml
 # Actually check these files
 !static-src/client.js
+!static-src/scss/ad.scss
 !webpack.config.js
