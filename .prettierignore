@@ -1,0 +1,9 @@
+*.html
+*.css
+*.scss
+*.js
+*.yml
+*.yaml
+# Actually check these files
+!static-src/client.js
+!webpack.config.js
