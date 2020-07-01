@@ -12,32 +12,31 @@
     <title>Ethical Ads: A developer-focused, privacy-obsessed ad network</title>
   </head>
   <body>
-    <main>
 
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">EthicalAds</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="advertisers.html">Advertisers</a>
-            <a class="nav-item nav-link" href="publishers.html">Publishers</a>
-          </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">EthicalAds</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav mr-auto">
+          <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="advertisers.html">Advertisers</a>
+          <a class="nav-item nav-link" href="publishers.html">Publishers</a>
         </div>
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="https://server.ethicalads.io/">User Login</a>
-          </li>
-        </ul>
-      </nav>
+        <div class="navbar-nav justify-content-end">
+          <a class="nav-item nav-link" href="https://server.ethicalads.io/">User Login</a>
+        </div>
+      </div>
+    </nav>
+
+    <main>
 
       <section class="jumbotron d-flex flex-column justify-content-center">
         <div class="container">
           <h1>
-            <strong>Ethical</strong><span class="font-weight-light">Ads</span></h1>
-            <br>
+            <strong>Ethical</strong><span class="font-weight-light">Ads</span>
+          </h1>
           <h2>A developer-focused, privacy-obsessed ad network from the fine folks at Read the Docs</h2>
 
           <!--
@@ -53,20 +52,14 @@
             </div>
           </form>
           -->
-            <div class="form-group mt-5">
-             <a href="advertisers.html">
-                <button type="submit" class="btn btn-warning shadow-none mr-5">
-                  <span class="fa fa-bullhorn"></span>
-                   Advertiser information
-               </button>
-             </a>
-              <a href="publishers.html">
-                <button type="submit" class="btn btn-warning shadow-none">
-                 <span class="fa fa-usd"></span>
-                   Publisher information
-               </button>
-             </a>
-            </div>
+          <div class="form-group mt-2 mt-md-5">
+            <a href="advertisers.html" class="btn btn-warning shadow-none mr-md-5">
+              <span class="fa fa-bullhorn"></span> Advertiser information
+            </a>
+            <a href="publishers.html" class="btn btn-warning shadow-none mt-2 mt-md-0">
+              <span class="fa fa-usd"></span> Publisher information
+            </a>
+          </div>
         </div>
       </section>
 

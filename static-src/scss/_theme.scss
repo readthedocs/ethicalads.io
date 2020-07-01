@@ -7,30 +7,8 @@ body {
   text-align: center;
   height: $jumbotron-height;
   padding: 0;
-  background-color: transparent;
 
-  &:before {
-    content: "";
-    background-color: $primary;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: $jumbotron-height;
-    z-index: -1;
-  }
-
-  &:after {
-    content: "";
-    background: center / cover no-repeat url("../img/background.jpg");
-    opacity: 0.1;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: $jumbotron-height;
-    z-index: -1;
-  }
+  background: linear-gradient(to bottom, rgba($primary, 0.85), rgba($primary, 0.85)), url("../img/background.jpg") center / cover no-repeat;
 
   h1 {
     font-size: 3rem;
