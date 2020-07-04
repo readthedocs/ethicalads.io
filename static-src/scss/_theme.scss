@@ -1,6 +1,12 @@
 body {
   background-color: $gray-100;
 }
+.navbar-brand {
+  margin-bottom: 1rem;
+  img {
+    height: 2rem;
+  }
+}
 .jumbotron {
   border-radius: 0;
   color: $gray-100;
