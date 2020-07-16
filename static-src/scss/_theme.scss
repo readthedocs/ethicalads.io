@@ -36,3 +36,16 @@ body {
     height: 100px;
   }
 }
+
+.inbound-form {
+  background-color: $primary;
+  color: $gray-100;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+
+  .form-container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: map-get($container-max-widths, "sm");
+  }
+}
