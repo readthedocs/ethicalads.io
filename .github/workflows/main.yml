@@ -7,18 +7,40 @@ on:
 
 jobs:
   deploy:
+    name: Deploy
     runs-on: ubuntu-latest
     steps:
-
       - name: Checkout
         uses: actions/checkout@v2
         with:
           persist-credentials: false
 
-      - name: Install
+      - name: Install Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.7
+
+      - name: Build static assets
         run: |
           npm install
           npm run dist
+
+      - name: Cache dependencies
+        uses: actions/cache@v2
+        with:
+          path: ~/.cache/pip
+          key: pelican-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            pelican-
+
+      - name: Install Pelican
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run Pelican
+        id: run-pelican
+        run: |
+          pelican content --output docs --settings publishconf.py
 
       - name: Install SSH Client
         uses: webfactory/ssh-agent@v0.2.0 # This step installs the ssh client into the workflow run. There's many options available for this on the action marketplace.
@@ -30,6 +52,6 @@ jobs:
         with:
           BASE_BRANCH: master
           BRANCH: gh-pages
-          FOLDER: www
+          FOLDER: output
           CLEAN: true
           SSH: true # SSH must be set to true so the deploy action knows which protocol to deploy with.

@@ -1,0 +1,11 @@
+# Static site generation with Pelican
+pelican==4.2.0
+Markdown==3.1.1
+
+# Automate various blog actions
+invoke<1.5
+
+# Code formatters and pre-commit checks
+black==19.3b0
+reorder-python-imports<2.0
+pre-commit<2.0

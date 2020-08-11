@@ -1,0 +1,21 @@
+# https://black.readthedocs.io/
+[tool.black]
+line-length = 88
+target_version = ['py36']
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | venv
+  | _build
+  | buck-out
+  | build
+  | dist
+  | node_modules
+  | migrations
+)/
+'''

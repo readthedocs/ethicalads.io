@@ -1,0 +1,29 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="/"><img src="/theme/img/ethicalads-logo-blue.svg" alt="EthicalAds" /></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav mr-auto">
+
+      {% if DISPLAY_PAGES_ON_MENU %}
+        {% for p in pages %}
+          <a class="nav-item nav-link {% if p == page %}active{% endif %}" href="/{{ p.url }}">{{ p.title }} {% if p == page %}<span class="sr-only">(current)</span>{% endif %}</a>
+        {% endfor %}
+      {% endif %}
+      {% if DISPLAY_CATEGORIES_ON_MENU %}
+        {% for cat, null in categories %}
+          <a class="nav-item nav-link {% if cat == category %}active{% endif %}" href="/{{ cat.url }}">{{ cat }} {% if cat == category %}<span class="sr-only">(current)</span>{% endif %}</a>
+        {% endfor %}
+      {% endif %}
+      {% for title, link in MENUITEMS %}
+        <a class="nav-item nav-link" href="{{ link }}">{{ title }}</a>
+      {% endfor %}
+    </div>
+    <div class="navbar-nav justify-content-end">
+      {% for title, link in MENUITEMS_RIGHT %}
+        <a class="nav-item nav-link" href="{{ link }}">{{ title }}</a>
+      {% endfor %}
+    </div>
+  </div>
+</nav>

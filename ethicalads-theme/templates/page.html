@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+
+{% block title %}{{ page.title|striptags }} - {{ SITENAME }}{%endblock%}
+
+
+{% block metas %}
+{% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+{% endblock metas %}
+
+
+{% block content %}
+<section class="container py-5 page">
+<h1>{{ page.title }}</h1>
+
+{{ page.content }}
+</section>
+{% endblock content %}

@@ -1,0 +1,197 @@
+{% extends "page.html" %}
+
+
+{% block extrahead %}
+<!-- Ad Client -->
+<script async src="https://media.ethicalads.io/media/client/ethicalads.min.js"></script>
+{% endblock extrahead %}
+
+
+{% block title %}{{ SITENAME }}{%endblock%}
+
+
+{% block content %}
+<section class="jumbotron d-flex flex-column justify-content-center">
+  <div class="container">
+    <h1 class="mt-2 mt-sm-5">
+      <strong>Ethical</strong><span class="font-weight-light">Ads</span>
+    </h1>
+    <h2>A developer-focused, privacy-obsessed ad network from the fine folks at Read the Docs</h2>
+
+    <!--
+      <form class="form-inline validate" action="https://ethicalads.us3.list-manage.com/subscribe/post?u=a6a22369cc2b356379cf789ca&amp;id=79ffb01d18" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+      <div class="form-group mx-3">
+        <label class="sr-only" for="mce-EMAIL">Email</label>
+        <input type="email" class="form-control shadow-none required" name="EMAIL" id="mce-EMAIL" placeholder="you@domain.com" required>
+
+        <div class="d-none" aria-hidden="true"><input type="text" name="b_a6a22369cc2b356379cf789ca_79ffb01d18" tabindex="-1" value=""></div>
+      </div>
+      <div class="form-group">
+        <button type="submit" class="btn btn-warning shadow-none"><span class="fa fa-envelope-o"></span> Subscribe to updates</button>
+      </div>
+    </form>
+    -->
+    <div class="form-group mt-2 mt-sm-5">
+      <a href="/advertisers/" class="btn btn-warning shadow-none mx-5 d-block d-md-inline text-nowrap">
+        <span class="fa fa-bullhorn"></span> <span>Advertiser information</span>
+      </a>
+      <a href="/publishers/" class="btn btn-warning shadow-none mt-2 mt-md-0 mx-5 d-block d-md-inline text-nowrap">
+        <span class="fa fa-usd"></span> <span>Publisher information</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Marketing messaging and featurettes
+================================================== -->
+<!-- Wrap the rest of the page in another container to center all the content. -->
+
+<section class="container marketing py-5">
+
+  <!-- Three columns of text below the carousel -->
+  <div class="row">
+      <div class="text-center">
+      </div>
+
+    <!-- REACH -->
+    <div class="col-md-4 mb-3">
+      <div class="text-center">
+        <span class="text-primary fa fa-bullhorn fa-5x"></span>
+      </div>
+
+      <h4 class="text-center text-primary">Reach</h4>
+      <p class="text-center w-75 mx-auto">We are expanding the same great ads used by Read the Docs into a larger ad network. With reach to over <strong>35 million developer impressions</strong> each month, we are an ad network for developers by developers.</p>
+    </div><!-- /.col-md-4 -->
+
+    <!-- RELEVANT -->
+    <div class="col-md-4 mb-3">
+      <div class="text-center">
+        <span class="text-primary fa fa-bullseye fa-5x"></span>
+      </div>
+
+      <h4 class="text-center text-primary">Relevance</h4>
+      <p class="text-center w-75 mx-auto">Every advertiser and publisher is hand approved to ensure that every ad is <strong>relevant and interesting</strong> and our audience remains 100% developers.</p>
+    </div><!-- /.col-md-4 -->
+
+    <!-- TASTEFUL -->
+    <div class="col-md-4 mb-3">
+      <div class="text-center">
+        <span class="text-primary fa fa-heart-o fa-5x"></span>
+      </div>
+
+      <h4 class="text-center text-primary">Respect</h4>
+      <p class="text-center w-75 mx-auto">We believe good advertising should <strong>compliment content</strong> and never get in the way. That's why we built a network that complies with AcceptableAds, BetterAds, and DoNotTrack.</p>
+    </div><!-- /.col-md-4 -->
+  </div><!-- /.row -->
+
+</section><!-- /.container -->
+
+<!-- Social proof -->
+<!-- ================================================== -->
+<section class="container py-5">
+  <div class="row">
+    <div class="col mb-3">
+      <h4 class="text-center text-primary">Over 1 billion ads served since 2016</h4>
+      <p class="text-center">We have been running a high scale advertising network for over 4 years on our first party sites.
+      <br>
+      We're now ready to expand to additional publishers to take open source sustainability to the next level.</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- Examples
+================================================== -->
+
+<section class="container marketing py-5">
+
+  <!-- Three columns of text below the carousel -->
+  <div class="row">
+
+    <div class="col-md-4 mb-3">
+      <div class="text-center mb-3">
+        <a href="https://jsbin.com/">
+          <img src="/theme/img/jsbin.svg" alt="JSBin" />
+        </a>
+      </div>
+
+      <p class="text-center w-75 mx-auto">
+        JSBin is a live-updating text editor for Javascript. They use our fixed footer text ad to help make their open source project sustainable.
+      </p>
+    </div><!-- /.col-md-4 -->
+
+    <div class="col-md-4 mb-3">
+      <div class="text-center mb-3">
+        <a href="https://codetheweb.blog/">
+          <img src="/theme/img/codetheweb.svg" alt="Code the Web" />
+        </a>
+      </div>
+
+      <p class="text-center w-75 mx-auto">
+        Code the Web teaches people how to create content on the web. They use our text ad in their sidebar to monetize this content and keep producing.
+      </p>
+    </div><!-- /.col-md-4 -->
+
+    <div class="col-md-4 mb-3">
+      <div class="text-center mb-3">
+        <a href="https://flask.palletsprojects.com/">
+          <img src="/theme/img/flask.png" alt="Flask" />
+        </a>
+      </div>
+
+      <p class="text-center w-75 mx-auto">
+        Flask is one of the most popular Python web development frameworks. They use our image ad in their sidebar to get funding for their community to maintain their software.
+      </p>
+    </div><!-- /.col-md-4 -->
+  </div><!-- /.row -->
+
+</section><!-- /.container -->
+
+
+
+<!-- Sign up promos -->
+<!-- ================================================== -->
+<section class="container py-5">
+  <div class="row">
+    <div class="col-md-6 mb-3">
+      <h4>Interested in ads on your site?</h4>
+      <p class="lead">Our EthicalAds network is a great place to generate revenue while increasing the privacy of the internet. We value the work you do in the tech industry, and we are interested in partnering with projects that also believe privacy is important.</p>
+        <a href="/publishers/#inbound-form" class="btn btn-warning shadow-none">
+          <span class="fa fa-dollar"></span>
+          <span>Apply to be a publisher today</span>
+        </a>
+        <span>or <a href="/publishers/">learn more</a></span>
+    </div>
+    <div class="col-md-6">
+      <h4>Want to get in front of our audience?</h4>
+      <p class="lead">Reach millions of developers instantly on our advertising network. We allow targeting by topics and geography, so that you reach the exact audience that you want. Want to reach Data Scientists in the US? We can do that.</p>
+        <a href="/advertisers/#inbound-form" class="btn btn-warning shadow-none">
+          <span class="fa fa-bullhorn"></span>
+          <span>Start advertising today</span>
+        </a>
+        <span>or <a href="/advertisers/">learn more</a></span>
+    </div>
+  </div>
+</section>
+
+
+<!-- Sample Ad -->
+<!-- ================================================== -->
+<section class="container py-5">
+  <div class="row">
+    <div class="col-md-6 mb-3">
+      <h4>Technical sites only</h4>
+      <p class="lead">All of our sites are developer and open source websites. This makes all of our ads well targeted based on the specific topics the site is about, meaning more money for publishers and better results for advertisers.</p>
+    </div>
+    <div class="col-md-6">
+      <div class="text-center">
+        <div data-ea-publisher="ethicaladsio" data-ea-type="image"></div>
+      </div>
+      <p class="small text-muted text-center">(This is a real ad from our network)</p>
+    </div>
+  </div>
+
+</section>
+{% endblock content %}
