@@ -5,31 +5,37 @@
 {% block content %}
 <section class="container py-5 page">
   {% block content_title %}
-    <h1>Posts from the EthicalAds blog</h1>
+    <h1>EthicalAds blog</h1>
+    <p class="lead">Privacy-focused advertising for developers</p>
   {% endblock %}
 
 
   <div class="row">
     <div class="col-md-8">
 
-      {% for article in articles_page.object_list %}
-        <div class="post-item row no-gutters border rounded flex-md-row mb-4 shadow-sm">
-          <article class="col p-4 d-flex flex-column">
-            <h3 class="mb-2">
-              <a href="/{{ article.url }}" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a>
-            </h3>
-            <ul class="list-inline text-muted mb-2 small">
-              <li class="list-inline-item">
-                <time class="published" datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>
-              </li>
-              {% for author in article.authors %}
-                <li class="list-inline-item">{{ author }}</li>
-              {% endfor %}
-            </ul>
-            <div class="entry-content mb-0">{{ article.summary }} </div>
-          </article>
-        </div>
-      {% endfor %}
+      <div class="row row-cols-1 row-cols-lg-2">
+        {% for article in articles_page.object_list %}
+          <div class="col mb-4">
+            <article class="card h-100 shadow-sm">
+              {% if article.image %}
+                <a href="/{{ article.url }}"><div class="card-img-top" style="background-image: url('{{ article.image }}')"></div></a>
+              {% endif %}
+              <div class="card-body">
+                <h5 class="card-title">
+                  <a href="/{{ article.url }}" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a>
+                </h5>
+                <p class="text-muted strong small">
+                  <span>By {% for author in article.authors %}{{ author }}{% if not loop.last %}, {% endif %}{% endfor %} on </span>
+                  <time class="published" datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>
+                </p>
+                <p class="card-text">{{ article.summary|striptags|escape }}</p>
+
+                <p class="text-center text-muted mb-0 small"><a href="/{{ article.url }}">Read More</a></p>
+              </div>
+            </article>
+          </div>
+        {% endfor %}
+      </div>
 
       {% if articles_page.has_other_pages() %}
         {% include 'pagination.html' %}
@@ -37,22 +43,7 @@
     </div>
 
     <aside class="col-md-4">
-      <div class="p-4 mb-3 bg-light rounded">
-        <h4>Subscribe</h4>
-        <p class="small">Want more privacy-focused advertising updates in your inbox? Subscribe to our newsletter to get these and other updates on a regular basis.</p>
-
-        <form class="validate" action="https://ethicalads.us3.list-manage.com/subscribe/post?u=a6a22369cc2b356379cf789ca&amp;id=79ffb01d18" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
-          <div class="form-group">
-            <label for="mce-EMAIL"><strong>Email</strong></label>
-            <input type="email" class="form-control required" id="mce-EMAIL" placeholder="you@domain.com" required>
-            <small id="emailHelp" class="form-text text-muted">Your email, after your confirm it, will be shared with Mailchimp</small>
-            <div class="d-none" aria-hidden="true"><input type="text" name="b_a6a22369cc2b356379cf789ca_79ffb01d18" tabindex="-1" value=""></div>
-          </div>
-          <div class="form-group">
-            <button type="submit" class="btn btn-warning shadow-none"><span class="fa fa-envelope-o"></span> Subscribe</button>
-          </div>
-        </form>
-      </div>
+      {% include 'blog-sidebar.html' %}
     </aside>
 
   </div> <!-- /row -->

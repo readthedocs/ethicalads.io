@@ -13,6 +13,7 @@ PATH = "content"
 # Directories are relative to PATH
 PAGE_PATHS = ["pages"]
 ARTICLE_PATHS = ["posts"]
+STATIC_PATHS = ["images"]
 
 TIMEZONE = "US/Pacific"
 DEFAULT_LANG = "en"
@@ -20,6 +21,7 @@ DEFAULT_DATE_FORMAT = "%b %-d"
 
 
 THEME = "ethicalads-theme"
+SUMMARY_MAX_LENGTH = 20  # Words
 
 
 # Feed (RSS/Atom) settings

@@ -1,18 +1,39 @@
 {% extends "base.html" %}
+{% block html_lang %}{{ page.lang }}{% endblock %}
 
 
 {% block title %}{{ page.title|striptags }} - {{ SITENAME }}{%endblock%}
 
 
-{% block metas %}
-{% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
-{% endblock metas %}
+{% block head %}
+  {{ super() }}
+
+  {% if page.description %}
+    <meta name="description" content="{{ page.description|striptags|escape }}" />
+  {% endif %}
+
+  {% block opengraph %}
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="{{ page.title|striptags|escape }}">
+    {% if page.description %}
+      <meta property="og:description" content="{{ page.description|striptags|escape }}">
+    {% elif page.summary %}
+      <meta property="og:description" content="{{ page.summary|striptags|escape }}">
+    {% endif %}
+    {% if page.image %}
+      <meta property="og:image" content="{{ SITEURL }}{{ page.image }}">
+    {% endif %}
+  {% endblock opengraph %}
+
+{% endblock head %}
 
 
 {% block content %}
-<section class="container py-5 page">
-<h1>{{ page.title }}</h1>
+<section class="container py-5">
+  <article class="page">
+    <h1>{{ page.title }}</h1>
 
-{{ page.content }}
+    {{ page.content }}
+  </article>
 </section>
 {% endblock content %}

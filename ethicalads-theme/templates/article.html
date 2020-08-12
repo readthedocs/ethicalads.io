@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 {% block html_lang %}{{ article.lang }}{% endblock %}
 
+
 {% block title %}{{ article.title|striptags  }} - {{ SITENAME }}{% endblock %}
 
 
@@ -13,28 +14,55 @@
   {% endif %}
 
   {% if article.description %}
-    <meta name="description" content="{{ article.description }}" />
+    <meta name="description" content="{{ article.description|striptags|escape }}" />
   {% endif %}
 
   {% for tag in article.tags %}
     <meta name="tags" content="{{ tag }}" />
   {% endfor %}
 
+  {% block opengraph %}
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="{{ article.title|striptags|escape }}">
+    {% if article.description %}
+      <meta property="og:description" content="{{ article.description|striptags|escape }}">
+    {% elif article.summary %}
+      <meta property="og:description" content="{{ article.summary|striptags|escape }}">
+    {% endif %}
+    {% if article.image %}
+      <meta property="og:image" content="{{ SITEURL }}{{ article.image }}">
+    {% endif %}
+  {% endblock opengraph %}
+
 {% endblock head %}
 
 
 
 {% block content %}
-<section class="container py-5 page">
-  <article>
-    <h1>{{ article.title }}</h1>
+<section class="container py-5">
+  <div class="row">
+    <div class="col-md-8">
+      <article class="post">
+        <h1>{{ article.title }}</h1>
 
-    <p class="text-muted strong">
-      <span>By {% for author in article.authors %}{{ author }}{% if not loop.last %}, {% endif %}{% endfor %} on </span>
-      <time class="published" datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>
-    </p>
+        <p class="text-muted strong">
+          <span>By {% for author in article.authors %}{{ author }}{% if not loop.last %}, {% endif %}{% endfor %} on </span>
+          <time class="published" datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>
+        </p>
 
-    {{ article.content }}
-  </article>
+        {% if article.image %}
+          <!-- <img src="{{ article.image }}" class="img-fluid mb-3 mx-auto" style="max-width: 500px" alt="{{ article.title|striptags }}"> -->
+          <div class="jumbotron" style="background-image: url('{{ article.image }}')"></div>
+        {% endif %}
+
+        {{ article.content }}
+      </article>
+    </div>
+    <aside class="col-md-4">
+      <div class="mt-5">
+        {% include 'blog-sidebar.html' %}
+      </div>
+    </aside>
+  </div>
 </section>
 {% endblock content %}
