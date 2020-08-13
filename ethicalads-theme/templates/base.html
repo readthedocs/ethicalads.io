@@ -2,12 +2,9 @@
 <html lang="{% block html_lang %}{{ DEFAULT_LANG }}{% endblock html_lang %}">
   <head>
     {% block head %}
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <meta name="generator" content="Pelican" />
-
-      {% block metas %}{% endblock metas %}
-
+      {% block metas %}
+        {% include 'includes/metas.html' %}
+      {% endblock metas %}
 
       <!-- Bootstrap CSS -->
       <link rel="stylesheet" href="/theme/main.css">
@@ -41,12 +38,11 @@
         <link href="{{ FEED_DOMAIN }}/{% if TAG_FEED_RSS_URL %}{{ TAG_FEED_RSS_URL.format(slug=tag.slug) }}{% else %}{{ TAG_FEED_RSS.format(slug=tag.slug) }}{% endif %}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Tags RSS Feed" />
       {% endif %}
 
-      {% block extrahead %}{% endblock extrahead %}
     {% endblock head %}
   </head>
   <body>
 
-    {% include 'navigation.html' %}
+    {% include 'includes/navigation.html' %}
 
     <main>
 
@@ -54,7 +50,7 @@
 
     </main>
 
-    {% include 'footer.html' %}
+    {% include 'includes/footer.html' %}
 
     <script src="/theme/bundle.js"></script>
     {% block extrascripts %}{% endblock extrascripts %}

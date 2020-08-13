@@ -1,10 +1,12 @@
 {% extends "page.html" %}
 
 
-{% block extrahead %}
-<!-- Ad Client -->
+{% block head %}
+{{ super() }}
+
+{# Ad Client #}
 <script async src="https://media.ethicalads.io/media/client/ethicalads.min.js"></script>
-{% endblock extrahead %}
+{% endblock head %}
 
 
 {% block content %}

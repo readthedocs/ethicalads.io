@@ -1,0 +1,55 @@
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<meta name="generator" content="Pelican" />
+<meta property="og:site_name" content="{{ SITENAME }}"/>
+
+{%- if article is defined -%}
+
+  {%- if article.description -%}
+    <meta name="description" content="{{ article.description|striptags|escape }}" />
+    <meta property="og:description" content="{{ article.description|striptags|escape }}" />
+  {%- endif -%}
+
+  {%- for tag in article.tags -%}
+    <meta name="tags" content="{{ tag }}" />
+  {%- endfor -%}
+
+  {%- for author in article.authors -%}
+    <meta name="author" content="{{ author }}" />
+  {%- endfor -%}
+
+  {%- if article.url -%}
+    <link rel="canonical" href="{{ SITEURL }}/{{ article.url }}" />
+    <meta property="og:url" content="{{ SITEURL }}/{{ article.url }}" />
+  {%- endif -%}
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="{{ article.title|striptags|escape }}" />
+  <meta property="twitter:title" content="{{ article.title|striptags|escape }}" />
+  {%-if article.image -%}
+    <meta property="og:image" content="{{ SITEURL }}{{ article.image }}" />
+    <meta property="twitter:image" content="{{ SITEURL }}{{ article.image }}" />
+  {%- endif -%}
+  {%- if article.date -%}
+    <meta property="article:published_time" content="{{ article.date.strftime('%Y-%m-%d') }}" />
+  {%- endif -%}
+
+{%- elif page is defined -%}
+
+  {%- if page.description -%}
+    <meta name="description" content="{{ page.description|striptags|escape }}" />
+    <meta property="og:description" content="{{ page.description|striptags|escape }}" />
+  {%- endif -%}
+
+  {%- if page.url -%}
+    <link rel="canonical" href="{{ SITEURL }}/{{ page.url }}" />
+    <meta property="og:url" content="{{ SITEURL }}/{{ page.url }}" />
+  {%- endif -%}
+
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="{{ page.title|striptags|escape }}" />
+  {%- if page.image -%}
+    <meta property="og:image" content="{{ SITEURL }}{{ page.image }}" />
+  {%- endif -%}
+
+{%- endif -%}
