@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{# This is the blog index, not the home page template #}
+
+
+{% block content %}
+<section class="container py-5 page">
+  {% block content_title %}
+    <h1>EthicalAds blog</h1>
+    <p class="lead">Privacy-focused advertising for developers</p>
+  {% endblock %}
+
+
+  <div class="row">
+    <div class="col-md-8">
+
+      <div class="row row-cols-1 row-cols-lg-2">
+        {% for article in articles_page.object_list %}
+          <div class="col mb-4">
+            <article class="card h-100 shadow-sm">
+              {% if article.image %}
+                <a href="/{{ article.url }}"><div class="card-img-top" style="background-image: url('{{ article.image }}')"></div></a>
+              {% endif %}
+              <div class="card-body">
+                <h5 class="card-title">
+                  <a href="/{{ article.url }}" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a>
+                </h5>
+                <p class="text-muted strong small">
+                  <span>By {% for author in article.authors %}{{ author }}{% if not loop.last %}, {% endif %}{% endfor %} on </span>
+                  <time class="published" datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>
+                </p>
+                <p class="card-text">{{ article.summary|striptags|escape }}</p>
+
+                <p class="text-center text-muted mb-0 small"><a href="/{{ article.url }}">Read More</a></p>
+              </div>
+            </article>
+          </div>
+        {% endfor %}
+      </div>
+
+      {% if articles_page.has_other_pages() %}
+        {% include 'pagination.html' %}
+      {% endif %}
+    </div>
+
+    <aside class="col-md-4">
+      {% include 'includes/blog-sidebar.html' %}
+    </aside>
+
+  </div> <!-- /row -->
+
+</section>
+{% endblock content %}

@@ -50,4 +50,4 @@ docs/build/*
 node_modules
 
 # Specific to ethicalads.io
-www/bundle
+output

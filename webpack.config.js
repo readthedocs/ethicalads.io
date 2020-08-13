@@ -8,7 +8,7 @@ const TerserPlugin = require("terser-webpack-plugin");
 module.exports = {
   entry: "./static-src/index.js",
   output: {
-    path: path.resolve(__dirname, "./www/bundle"),
+    path: path.resolve(__dirname, "./ethicalads-theme/static"),
     filename: "bundle.js",
   },
   module: {
@@ -37,7 +37,7 @@ module.exports = {
     new MiniCssExtractPlugin({
       // Options similar to the same options in webpackOptions.output
       filename: "[name].css",
-      path: path.resolve(__dirname, "./www/bundle"),
+      path: path.resolve(__dirname, "./ethicalads-theme/static"),
       chunkFilename: "[id].css",
     }),
 

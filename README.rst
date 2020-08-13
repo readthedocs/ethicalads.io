@@ -1,19 +1,42 @@
 EthicalAds
 ==========
 
-This is a landing page for EthicalAds.io,
-the developer network coming soon from Read the Docs.
+This is a landing page for EthicalAds.io, the developer network from Read the Docs.
 
 
-Building the site
------------------
+Site details
+------------
+
+The site is built as a static site using `Pelican <https://blog.getpelican.com/>`_ and hosted by `GitHub pages <https://pages.github.com/>`_.
+The site is automatically built and updated when there are commits on the master branch although it can take up to 5 minutes.
+
+
+Building the site locally
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+You can build the site HTML and serve it locally with:
+
+.. code-block:: bash
+
+    $ pip install -r requirements.txt
+    $ pre-commit install  # Install a code style pre-commit hook
+    $ inv rebuild         # build one time
+    $ inv regenerate      # regenerate the site whenever you modify a page/post
+    $ inv serve           # serve the site at http://localhost:8000
+
+
+Building static assets
+~~~~~~~~~~~~~~~~~~~~~~
+
+Built static assets are checked into the repository and you only need to rebuild them
+if you modify files under ``static-src/``.
 
 .. code-block:: bash
 
     $ npm install
     $ npm run build     # use "npm run dist" for minified builds
 
-The static content appears in www/bundle
+The static content appears in ``ethicalads-theme/static/``
 
 
 Deploying the site
@@ -26,3 +49,31 @@ It is served by GitHub pages at https://www.ethicalads.io.
 For more details on the deployment actions, see workflows_.
 
 .. _workflows: https://github.com/readthedocs/ethicalads.io/tree/master/.github/workflows
+
+
+Developing the site
+-------------------
+
+Writing pages
+~~~~~~~~~~~~~
+
+Pages should be saved under ``content/pages/``.
+By default, they use the ``ethicalads-theme/templates/page.html`` template but that can be overridden.
+
+
+Writing blog posts
+~~~~~~~~~~~~~~~~~~
+
+Blog posts should be saved under ``content/posts/``.
+
+
+Updating the design
+~~~~~~~~~~~~~~~~~~~
+
+The styles and scripts for the site are built by Webpack from the sources in ``static-src/``.
+The HTML templates for the site live under ``ethical-ads-theme/``
+and extend from Pelican's `simple theme`_.
+
+The EthicalAds theme was not designed to work with relative URLs.
+
+.. _simple theme: https://github.com/getpelican/pelican/tree/master/pelican/themes/simple/templates

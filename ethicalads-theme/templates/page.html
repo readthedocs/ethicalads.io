@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block html_lang %}{{ page.lang }}{% endblock %}
+
+
+{% block title %}{{ page.title|striptags }} - {{ SITENAME }}{%endblock%}
+
+
+
+{% block content %}
+<section class="container py-5">
+  <article class="page">
+    <h1>{{ page.title }}</h1>
+
+    {{ page.content }}
+  </article>
+</section>
+{% endblock content %}
