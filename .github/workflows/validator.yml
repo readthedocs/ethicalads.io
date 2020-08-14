@@ -4,7 +4,7 @@ on: push
 
 jobs:
   deploy:
-    name: Deploy
+    name: Build and Validate
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
