@@ -1,0 +1,46 @@
+name: Build and HTML validate the Pelican site
+
+on: push
+
+jobs:
+  deploy:
+    name: Build and Validate
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+
+      - name: Install Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.7
+
+      - name: Build static assets
+        run: |
+          npm install
+          npm run dist
+
+      - name: Cache dependencies
+        uses: actions/cache@v2
+        with:
+          path: ~/.cache/pip
+          key: pelican-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            pelican-
+
+      - name: Install Pelican
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run Pelican
+        id: run-pelican
+        run: |
+          inv preview
+
+      - name: HTML5 Validator
+        uses: Cyb3r-Jak3/html5validator-action@v0.4.1
+        with:
+          root: output/
+          log_level: INFO
