@@ -10,6 +10,7 @@ Thanks for entrusting Read the Docs, Inc. ("EthicalAds", "we") with your adverti
 The controller responsible for the processing of your personal information in connection with EthicalAds is Read the Docs, Inc., 818 SW 3rd Ave #221-5841, Portland, OR 97204-2405, privacy<span>@</span>readthedocs.org.
 
 **Contents**
+
 [TOC]
 
 <!-- The Short Version -->
