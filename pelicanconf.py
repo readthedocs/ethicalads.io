@@ -23,6 +23,19 @@ DEFAULT_DATE_FORMAT = "%b %-d"
 THEME = "ethicalads-theme"
 SUMMARY_MAX_LENGTH = 20  # Words
 
+# Add non-default markdown extensions
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.codehilite': {'css_class': 'highlight'},
+        'markdown.extensions.extra': {},
+        'markdown.extensions.meta': {},
+        # This adds id's to each header. Currently only shows items with `##` header.
+        'markdown.extensions.toc': {'toc_depth': '2'},
+    },
+    'output_format': 'html5',
+}
+
+
 
 # Feed (RSS/Atom) settings
 # Feed generation is usually not desired when developing
