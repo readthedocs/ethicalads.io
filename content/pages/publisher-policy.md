@@ -8,6 +8,10 @@ The goal of this page is to set expectations between EthicalAds and our publishe
 Our goal is for these to be easily understandable and fair,
 but we're always happy to have feedback on these terms.
 
+All publishers agree that their ad display meets these terms prior to enabling paid ads on their site.
+We will do an initial review of the ad display,
+but we expect publishers to stay within these guidelines at all times.
+
 ## Ad Display
 
 We have the following around display of our ads:
