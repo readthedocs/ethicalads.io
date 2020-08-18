@@ -19,7 +19,7 @@ We have the following around display of our ads:
 * Our ad should be the only ad on your site
 * The ad should appear when the user first visits, above the fold, on both desktop and mobile. You can disable the ad on mobile if this isn't possible.
 * You are welcome to display a different ad as a fallback if EthicalAds doesn't have a paid ad to show on your property.
-* The ad placement should result in at least a .1% CTR
+* The ad placement should result in at least a .1% CTR. If your CTR falls below this, we will work with you to improve the placement. 
 
 ## Payouts
 
