@@ -12,6 +12,8 @@ All publishers agree that their ad display meets these terms prior to enabling p
 We will do an initial review of the ad display,
 but we expect publishers to stay within these guidelines at all times.
 
+**Contents**
+
 [TOC]
 
 ## Ad Display
