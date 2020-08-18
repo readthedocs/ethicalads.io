@@ -5,7 +5,7 @@ status: hidden
 Effective date: **August 19, 2020**
 
 The goal of this page is to set expectations between EthicalAds and our publishers about what is expected on each side.
-Our goal is for these to be easily understnadable and fair,
+Our goal is for these to be easily understandable and fair,
 but we're always happy to have feedback on these terms.
 
 ## Ad Display
