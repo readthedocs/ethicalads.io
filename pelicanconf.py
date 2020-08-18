@@ -29,7 +29,7 @@ MARKDOWN = {
         'markdown.extensions.codehilite': {'css_class': 'highlight'},
         'markdown.extensions.extra': {},
         'markdown.extensions.meta': {},
-        'markdown.extensions.toc': {},  # Add id's to each header, not default.
+        'markdown.extensions.toc': {'toc_depth': '2'},  # Add id's to each header, not default.
     },
     'output_format': 'html5',
 }
