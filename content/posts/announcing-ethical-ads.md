@@ -14,8 +14,10 @@ Ethical advertising as a concept was something we [originally conceived](https:/
 We have been working on building a sturdy business around advertising ever since.
 With the news that CodeFund was [shutting down](https://twitter.com/codefundio/status/1278119643937296384) on July 1,
 we moved forward our plans to launch our own ad network.
+
 We've spent the last month and a half onboarding over 50 publishers and 5 advertisers from CodeFund,
 and now we're ready for more.
+We're excited to officially announce that we're open for additional publishers and advertisers.
 
 ## The vision
 
