@@ -2,7 +2,7 @@ Title: Announcing EthicalAds
 Date: Aug 20, 2020
 tag: announcement, ads
 authors: Eric Holscher & David Fischer
-image: /images/posts/ethicalads-logo-blue.svg
+image: /images/posts/logo.png
 
 
 We're excited to announce the release of the EthicalAds network,
