@@ -65,5 +65,5 @@ and look forward to building something meaningful with you:
 
 * Become a [publisher](/publishers/) today
 * Become an [advertiser](/advertisers/) today
-* Follow our journey in our newsletter [sign up](#newsletter)
+* Follow our journey in our [newsletter](https://ethicalads.us3.list-manage.com/subscribe/post?u=a6a22369cc2b356379cf789ca&id=79ffb01d18)
 
