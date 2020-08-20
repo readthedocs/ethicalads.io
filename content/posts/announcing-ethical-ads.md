@@ -3,7 +3,7 @@ Date: Aug 20, 2020
 description: We're officially launching our EthicalAds network: a privacy-focused way to fund open source.
 tag: announcement, ads
 authors: Eric Holscher, David Fischer
-image: /images/posts/logo.png
+image: /images/posts/ethicalads-network.png
 
 
 We're excited to announce the release of the EthicalAds network,
@@ -45,7 +45,7 @@ The vision is pretty simple:
 
 As we talked about in our [2018 blog post](https://blog.readthedocs.com/ethical-advertising-works/): **ethical advertising works**.
 We're thrilled to be able to bring our vision of advertising to a larger audience,
-and help fund open source without compromise. 
+and help fund open source without compromise.
 Our [entire ad server](https://github.com/readthedocs/ethical-ad-server) is open source,
 so you can inspect how we're doing things.
 We believe strongly in open source,
@@ -66,4 +66,3 @@ and look forward to building something meaningful with you:
 * Become a [publisher](/publishers/) today
 * Become an [advertiser](/advertisers/) today
 * Follow our journey in our [newsletter](https://ethicalads.us3.list-manage.com/subscribe/post?u=a6a22369cc2b356379cf789ca&id=79ffb01d18)
-
