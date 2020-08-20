@@ -25,7 +25,7 @@ Ethical ads respect users while still providing value to advertisers.
 The overall vision is pretty simple:
 
 * We don’t track you or sell your data
-* We target ads based on the content of the current page
+* We target ads based on the content of the current page, not your past browsing history
 * We are as transparent in our business as possible
 * We only make money showing ads
 
@@ -43,4 +43,3 @@ Ethical advertising is our vision for the future of the internet,
 and we hope that you'll join us.
 We have space for additional publishers and advertisers,
 and look forward to building something meaningful with you all.
-
