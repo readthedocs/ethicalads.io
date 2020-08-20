@@ -32,7 +32,7 @@ We've spent the last month onboarding over 50 publishers,
 and now we're ready for more.
 We're excited to officially announce that we're open for additional publishers and advertisers.
 
-## The vision
+## Our vision
 
 Ethical ads respect users while still providing value to advertisers.
 The vision is pretty simple:
