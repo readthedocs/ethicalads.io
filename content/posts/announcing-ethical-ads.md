@@ -65,4 +65,4 @@ and look forward to building something meaningful with you:
 
 * Become a [publisher](/publishers/) today
 * Become an [advertiser](/advertisers/) today
-* Follow our journey in our [newsletter](https://ethicalads.us3.list-manage.com/subscribe/post?u=a6a22369cc2b356379cf789ca&id=79ffb01d18)
+* Follow our journey in our [newsletter](https://ethicalads.us17.list-manage.com/subscribe?u=ca5e74de3ea2867d373058271&id=5746f18bb8)
