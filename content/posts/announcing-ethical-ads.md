@@ -41,6 +41,7 @@ The vision is pretty simple:
 * We only make money showing ads, so our interests are fully aligned
 * We target ads based on the content of the current page, not your past browsing history
 * We are as transparent in our business as possible
+* We only show high quality ads from companies that are of interest to developers.
 
 As we talked about in our [2018 blog post](https://blog.readthedocs.com/ethical-advertising-works/): **ethical advertising works**.
 We're thrilled to be able to bring our vision of advertising to a larger audience,
