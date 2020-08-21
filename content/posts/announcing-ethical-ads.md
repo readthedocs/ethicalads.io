@@ -62,6 +62,6 @@ and we hope that you'll join us.
 We have space for additional publishers and advertisers,
 and look forward to building something meaningful with you:
 
-* Become a [publisher](/publishers/) today
-* Become an [advertiser](/advertisers/) today
+* Become a [publisher]({filename}/pages/publishers.md) today
+* Become an [advertiser]({filename}/pages/advertisers.md) today
 * Follow our journey in our [newsletter](https://ethicalads.us17.list-manage.com/subscribe?u=ca5e74de3ea2867d373058271&id=5746f18bb8)
