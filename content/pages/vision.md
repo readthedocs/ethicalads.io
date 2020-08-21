@@ -57,7 +57,6 @@ Understandably, many people have concerns about these targeting techniques.
 The modern advertising industry has built enormous value by centralizing
 massive amounts of data on as many people as possible.
 
-
 ## Our targeting details
 
 **Read the Docs doesn't use the above techniques**.
@@ -76,15 +75,13 @@ Instead, we target based solely upon:
     targeting by state or by metro area (DMA specifically).
   * We geolocate a user's IP address to a country when a request is made.
 
-Read the Docs uses GeoLite2 data created by `MaxMind <http://maxmind.com>`_.
-
+Read the Docs uses GeoLite2 data created by [MaxMind](http://maxmind.com>).
 
 ## Do Not Track Policy
 
 EthicalAds supports Do Not Track (DNT) and respects users' tracking preferences.
 For more details, see the [Do Not Track section](/privacy-policy/#our-use-of-cookies-and-tracking)
 of our privacy policy.
-
 
 ## Join us
 
