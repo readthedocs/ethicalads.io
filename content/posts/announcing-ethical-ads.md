@@ -5,13 +5,12 @@ tag: announcement, ads
 authors: Eric Holscher, David Fischer
 image: /images/posts/ethicalads-network.png
 
-
 We're excited to announce the release of the EthicalAds network,
 an ad network for privacy-focused developers.
 We think it's one of the best ways to fund open source development,
-especially since we created it to make Read the Docs sustainable.
-We're hoping to bring sustainability to other open source projects,
-while showing respect to their users.
+since we created it to make Read the Docs sustainable.
+We're now bringing ethical ads to other open source projects,
+while providing a platform for advertisers who want to reach devs.
 
 ## The background
 
@@ -28,8 +27,8 @@ We were sad when we heard CodeFund was [shutting down](https://twitter.com/codef
 We talked with Eric Berry at CodeFund,
 deciding to launch our network in beta to provide a smooth transition for the people depending on that money each month.
 
-We've spent the last month onboarding over 50 publishers,
-and now we're ready for more.
+We've spent the last month onboarding over 50 publishers.
+**Developers have already earned more than $5,000 since we launched**.
 We're excited to officially announce that we're open for additional publishers and advertisers.
 
 ## Our vision
