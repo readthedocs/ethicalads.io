@@ -1,5 +1,5 @@
 Title: Announcing EthicalAds
-Date: Aug 20, 2020
+Date: Aug 24, 2020
 description: We're officially launching our EthicalAds network: a privacy-focused way to fund open source.
 tag: announcement, ads
 authors: Eric Holscher, David Fischer
