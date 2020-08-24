@@ -38,6 +38,11 @@
         <link href="{{ FEED_DOMAIN }}/{% if TAG_FEED_RSS_URL %}{{ TAG_FEED_RSS_URL.format(slug=tag.slug) }}{% else %}{{ TAG_FEED_RSS.format(slug=tag.slug) }}{% endif %}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Tags RSS Feed" />
       {% endif %}
 
+      <!-- Favicons -->
+      <link rel="icon" href="/theme/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+      <link rel="icon" href="/theme/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+      <link rel="icon" href="/theme/img/favicons/favicon.ico">
+
     {% endblock head %}
   </head>
   <body>
