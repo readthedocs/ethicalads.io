@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds - posts</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/posts.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2020-08-24T00:00:00-07:00</updated><entry><title>Announcing EthicalAds</title><link href="https://www.ethicalads.io/blog/2020/08/announcing-ethicalads/" rel="alternate"></link><published>2020-08-24T00:00:00-07:00</published><updated>2020-08-24T00:00:00-07:00</updated><author><name>Eric Holscher</name></author><id>tag:www.ethicalads.io,2020-08-24:/blog/2020/08/announcing-ethicalads/</id><summary type="html">&lt;p&gt;We're excited to announce the release of the EthicalAds network,
-an ad network for privacy-focused developers.
-We think it's one …&lt;/p&gt;</summary><content type="html">&lt;p&gt;We're excited to announce the release of the EthicalAds network,
-an ad network for privacy-focused developers.
-We think it's one of the best ways to fund open source development,
-since we created it to make Read the Docs sustainable.
-We're now bringing ethical ads to other open source projects,
-while providing a platform for advertisers who want to reach devs.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds - posts</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/posts.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2020-08-24T00:00:00-07:00</updated><entry><title>Announcing EthicalAds</title><link href="https://www.ethicalads.io/blog/2020/08/announcing-ethicalads/" rel="alternate"></link><published>2020-08-24T00:00:00-07:00</published><updated>2020-08-24T00:00:00-07:00</updated><author><name>Eric Holscher</name></author><id>tag:www.ethicalads.io,2020-08-24:/blog/2020/08/announcing-ethicalads/</id><summary type="html">&lt;p&gt;We're excited to announce the release of EthicalAds,
+a privacy-focused ad network for developers.
+We think advertising is one of …&lt;/p&gt;</summary><content type="html">&lt;p&gt;We're excited to announce the release of EthicalAds,
+a privacy-focused ad network for developers.
+We think advertising is one of the best ways to fund open source development,
+and we have first hand experience.
+Ethical advertising was first created to make Read the Docs,
+our own open source project,
+sustainable.
+We're now bringing ethical ads to other developers.&lt;/p&gt;
+&lt;p&gt;We've found that privacy preserving ads are a win for both developers and advertisers.
+Advertisers are able to target developers on the sites they frequent without being blocked.
+Developers trust our ads because our code is open source, and we're developers ourselves.&lt;/p&gt;
 &lt;h2 id="the-background"&gt;The background&lt;/h2&gt;
 &lt;p&gt;Ethical advertising as a concept was something we &lt;a href="https://www.ericholscher.com/blog/2016/aug/31/funding-oss-marketing-money/#funding-read-the-docs"&gt;originally conceived&lt;/a&gt; for Read the Docs back in 2016.
 We were an open source project trying to find sustainability,
