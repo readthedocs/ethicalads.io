@@ -51,8 +51,7 @@ AUTHOR_FEED_RSS = None
 DISPLAY_PAGES_ON_MENU = True
 DISPLAY_CATEGORIES_ON_MENU = False
 MENUITEMS = [
-    # Add this in when we actually have blog posts
-    # ('Blog', '/blog/'),
+    ('Blog', '/blog/'),
 ]
 MENUITEMS_RIGHT = [("User Login", "https://server.ethicalads.io/")]
 
