@@ -12,7 +12,7 @@ and we have first hand experience.
 Ethical advertising was first created to make Read the Docs,
 our own open source project,
 sustainable.
-We're now bringing ethical ads to other open source projects.
+We're now bringing ethical ads to other develoeprs.
 
 We've found that privacy preserving ads are a win for both developers and advertisers.
 Advertisers are able to target developers on the sites they frequent without being blocked.
