@@ -5,12 +5,18 @@ tag: announcement, ads
 authors: Eric Holscher, David Fischer
 image: /images/posts/ethicalads-network.png
 
-We're excited to announce the release of the EthicalAds network,
-an ad network for privacy-focused developers.
-We think it's one of the best ways to fund open source development,
-since we created it to make Read the Docs sustainable.
-We're now bringing ethical ads to other open source projects,
-while providing a platform for advertisers who want to reach devs.
+We're excited to announce the release of EthicalAds,
+a privacy-focused ad network for developers.
+We think advertising is one of the best ways to fund open source development,
+and we have first hand experience.
+Ethical advertising was first created to make Read the Docs,
+our own open source project,
+sustainable.
+We're now bringing ethical ads to other developers.
+
+We've found that privacy preserving ads are a win for both developers and advertisers.
+Advertisers are able to target developers on the sites they frequent without being blocked.
+Developers trust our ads because our code is open source, and we're developers ourselves.
 
 ## The background
 
