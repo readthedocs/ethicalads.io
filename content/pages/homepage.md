@@ -1,4 +1,4 @@
-Title: Developer-focused, privacy-obsessed advertising
+Title: Privacy-focused advertising for developers
 save_as: index.html
 template: ea/homepage
 status: hidden
