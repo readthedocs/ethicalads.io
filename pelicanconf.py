@@ -5,7 +5,7 @@ https://docs.getpelican.com/en/stable/settings.html
 """
 
 AUTHOR = "Read the Docs, Inc."
-SITENAME = "EthicalAds: A developer-focused, privacy-obsessed ad network"
+SITENAME = "EthicalAds"
 SITEURL = ""
 
 PATH = "content"
@@ -25,16 +25,15 @@ SUMMARY_MAX_LENGTH = 20  # Words
 
 # Add non-default markdown extensions
 MARKDOWN = {
-    'extension_configs': {
-        'markdown.extensions.codehilite': {'css_class': 'highlight'},
-        'markdown.extensions.extra': {},
-        'markdown.extensions.meta': {},
+    "extension_configs": {
+        "markdown.extensions.codehilite": {"css_class": "highlight"},
+        "markdown.extensions.extra": {},
+        "markdown.extensions.meta": {},
         # This adds id's to each header. Currently only shows items with `##` header.
-        'markdown.extensions.toc': {'toc_depth': '2'},
+        "markdown.extensions.toc": {"toc_depth": "2"},
     },
-    'output_format': 'html5',
+    "output_format": "html5",
 }
-
 
 
 # Feed (RSS/Atom) settings
@@ -52,8 +51,7 @@ AUTHOR_FEED_RSS = None
 DISPLAY_PAGES_ON_MENU = True
 DISPLAY_CATEGORIES_ON_MENU = False
 MENUITEMS = [
-    # Add this in when we actually have blog posts
-    # ('Blog', '/blog/'),
+    ('Blog', '/blog/'),
 ]
 MENUITEMS_RIGHT = [("User Login", "https://server.ethicalads.io/")]
 

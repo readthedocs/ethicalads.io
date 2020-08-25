@@ -1,3 +1,4 @@
-Title: Publishers
-description: Make money with your developer-focused site without compromising the privacy of your visitors and readers. Try EthicalAds for privacy-focused advertising.
+Title: Join EthicalAds
+slug: publishers
+description: Earn money with your developer-focused site without compromising the privacy of your visitors. Become a publisher: worry about your content and we'll make you money.
 template: ea/publishers

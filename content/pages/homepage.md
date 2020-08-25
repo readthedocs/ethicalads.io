@@ -1,5 +1,5 @@
-Title: Home page
+Title: Privacy-focused advertising for developers
 save_as: index.html
 template: ea/homepage
 status: hidden
-description: EthicalAds: A developer-focused, privacy-obsessed ad network from the fine folks at Read the Docs
+description: Originally built to enable sustainable open source at Read the Docs, EthicalAds is a privacy-focused ad network for developers. Advertise without compromise.
