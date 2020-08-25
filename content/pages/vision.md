@@ -1,14 +1,15 @@
-title: Vision
+title: Advertising Vision
 description: We see a different future for advertising. One that harkens from the past.
 template: ea/vision
 h2: Ads that don't track you, sold by a company you can trust
 
-We realize that our name sets a high bar for what people expect,
+
+We realize that our name, EthicalAds, sets a high bar for what people expect,
 and we do our best to live up that.
 We want to define _ethical advertising_ here,
 so that you know we're talking about.
 
-## Vision
+## What is ethical advertising
 
 Ethical ads respect users while still providing value to advertisers.
 The most important parts:
@@ -25,6 +26,7 @@ we understand the [massive downsides](http://idlewords.com/talks/what_happens_ne
 This includes malware,
 slow site performance,
 and huge databases of your personal data being sold to the highest bidder.
+
 
 ## Other ad networks' targeting
 
@@ -57,6 +59,7 @@ Understandably, many people have concerns about these targeting techniques.
 The modern advertising industry has built enormous value by centralizing
 massive amounts of data on as many people as possible.
 
+
 ## Our targeting details
 
 **Read the Docs doesn't use the above techniques**.
@@ -64,24 +67,24 @@ Instead, we target based solely upon:
 
 * Details of the page where the advertisement is shown including:
 
-  * The name, keywords, or programming language associated with the project being viewed
-  * Content of the page (eg. H1, title, theme, etc.)
+  * The name and keywords associated with the publisher's content
+  * Content of the page (eg. H1, title, etc.)
   * Whether the page is being viewed from a mobile device
 
 * General geography
 
   * We allow advertisers to target ads to a list of countries or to exclude
-    countries from their advertising. For ads targeting the USA, we also support
-    targeting by state or by metro area (DMA specifically).
+    countries from their advertising.
+    For ads targeting the USA, we also support targeting by state.
   * We geolocate a user's IP address to a country when a request is made.
 
-Read the Docs uses GeoLite2 data created by [MaxMind](http://maxmind.com>).
 
 ## Do Not Track Policy
 
 EthicalAds supports Do Not Track (DNT) and respects users' tracking preferences.
-For more details, see the [Do Not Track section](/privacy-policy/#our-use-of-cookies-and-tracking)
+For more details, see the [Do Not Track section]({filename}/pages/privacy-policy.md#our-use-of-cookies-and-tracking)
 of our privacy policy.
+
 
 ## Join us
 
@@ -92,6 +95,6 @@ since we have a deep understanding of how privacy issues impact the internet.
 We have space for additional publishers and advertisers,
 and look forward to building something meaningful with you:
 
-* Become a [publisher](/publishers/) today
-* Become an [advertiser](/advertisers/) today
+* Become a [publisher]({filename}/pages/publishers.md) today
+* Become an [advertiser]({filename}/pages/advertisers.md) today
 * Follow our journey in our [newsletter](https://ethicalads.us3.list-manage.com/subscribe/post?u=a6a22369cc2b356379cf789ca&id=79ffb01d18)
