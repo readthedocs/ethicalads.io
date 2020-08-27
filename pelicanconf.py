@@ -52,6 +52,7 @@ DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
 MENUITEMS = [
     ("Blog", "/blog/"),
+    ("Our Ad Vision", "/advertising-vision/"),
     ("Join EthicalAds", "/publishers/"),
 ]
 MENUITEMS_CTA = [("Advertise with Us", "/advertisers/")]
