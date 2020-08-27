@@ -6,7 +6,7 @@ h2: Ads that don't track you, sold by a company you can trust
 
 
 We realize that our name, EthicalAds, sets a high bar for what people expect.
-and we do our best to live up that.
+We do our best to live up those expectations in all aspects of our business.
 Whether you are a prospective advertiser,
 you're looking to run our ads on your site,
 or you just care about privacy and you want to learn more,
