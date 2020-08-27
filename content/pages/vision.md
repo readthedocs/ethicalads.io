@@ -1,89 +1,103 @@
-title: Advertising Vision
-description: We see a different future for advertising. One that harkens from the past.
+title: Our Advertising Vision
+slug: advertising-vision
+description: Advertising doesn't have to involve tracking users to be successful. At EthicalAds, we see a different future for advertising that respects user privacy.
 template: ea/vision
 h2: Ads that don't track you, sold by a company you can trust
 
 
 We realize that our name, EthicalAds, sets a high bar for what people expect,
 and we do our best to live up that.
-We want to define _ethical advertising_ here,
+Whether you are a prospective advertiser,
+you're looking to run our ads on your site,
+or you just care about privacy and you want to learn more,
+we want to define *ethical advertising* here
 so that you know we're talking about.
+
 
 ## What is ethical advertising
 
 Ethical ads respect users while still providing value to advertisers.
-The most important parts:
+The most important parts are:
 
-* We don’t track you or sell your data
-* We only make money showing ads, so our interests are fully aligned
-* We target ads based on the content of the current page, not your past browsing history
-* We are as transparent in our business as possible, even our code is [open source](https://github.com/readthedocs/ethical-ad-server/)
+* Ethical advertising doesn't track you. This means no permanent advertising cookies and no indefinite storage of personal information.
+* Companies doing ethical advertising should make money showing ads, not selling user data, so their interests are fully aligned.
+* Ethical ads should target users based on what they're currently browsing, not past browsing history.
 
-As we talked about in our [2018 blog post](https://blog.readthedocs.com/ethical-advertising-works/): **ethical advertising works**.
+Some companies would like you to believe that it's impossible to do advertising
+without user tracking, but that simply isn't true.
+To paraphrase Doc Searls, the long time editor-in-chief of Linux Journal
+who has been raising the alarm about invasive advertising for years,
+traditional advertising without tracking built every brand you can name.
+
+
+## Why did we create EthicalAds
+
+We started ethical advertising
+as a way to fund sustainable open source development on Read the Docs.
+At Read the Docs, we listened to our users.
+They told us they didn't have a problem with advertising
+but they wanted their privacy respected: no tracking users around the internet and no advertising cookies.
+At that time, there wasn't an ad network out there willing to work with us on those terms (we looked).
+
+So we bootstrapped our own advertising platform.
+We built our own ad server and did our own ad sales.
+It wasn't easy,
+but as we talked about in our [2018 blog post](https://blog.readthedocs.com/ethical-advertising-works/): **ethical advertising works**.
 We're thrilled to be able to bring our vision of advertising to open source developers everywhere.
-As developers,
+
+We targeted developers first because as developers ourselves,
 we understand the [massive downsides](http://idlewords.com/talks/what_happens_next_will_amaze_you.htm) of the current advertising industry.
 This includes malware,
 slow site performance,
 and huge databases of your personal data being sold to the highest bidder.
+We didn't want to be a part of that
+and from talking to our users at Read the Docs,
+there seemed to be lots of other folks out there who didn't either.
 
 
-## Other ad networks' targeting
+## How our ads work
 
-Some ad networks build a database of user data in order to predict the types
-of ads that are likely to be clicked.
-In the advertising industry, this is called *behavioral targeting*.
-This can include data such as:
+Our ads work a bit differently than most other ad networks out there.
+Most ad networks have databases of user data
+that they use to predict the types of ads somebody is likely to click.
+This data includes sites a user has visited,
+a user's search history, personal data about users such as their likes and dislikes,
+and ads a person has interacted with in the past.
 
-* sites a user has visited
-* a user's search history
-* ads, pages, or stories a user has clicked on in the past
-* demographic information such as age, gender, or income level
-
-Typically, getting a user's page visit history is accomplished by the use of trackers
-(sometimes called beacons or pixels).
-For example, if a site uses a tracker from an ad network and a user visits that site,
-the site can now target future advertising to that user -- a known past visitor --
-with that network. This is called *retargeting*.
-
-Other ad predictions are made by grouping similar users
-together based on user data using machine learning.
-Frequently this involves an advertiser uploading personal data on users
-(often past customers of the advertiser)
-to an ad network and telling the network to target similar users.
-The idea is that two users with similar demographic information
-and similar interests would like the same products.
-In ad tech, this is known as *lookalike audiences* or *similar audiences*.
-
-Understandably, many people have concerns about these targeting techniques.
-The modern advertising industry has built enormous value by centralizing
-massive amounts of data on as many people as possible.
-
-
-## Our targeting details
-
-**Read the Docs doesn't use the above techniques**.
+At EthicalAds, **we don't use these techniques**.
 Instead, we target based solely upon:
 
 * Details of the page where the advertisement is shown including:
-
-  * The name and keywords associated with the publisher's content
-  * Content of the page (eg. H1, title, etc.)
-  * Whether the page is being viewed from a mobile device
+    - The name and keywords associated with the publisher's content
+    - Content of the page (eg. H1, title, etc.)
+    - Whether the page is being viewed on a mobile device
 
 * General geography
+    - We allow advertisers to target ads to a list of countries or to exclude
+      countries from their advertising.
+      For ads targeting the USA, we support finer geo targeting but nothing smaller than a 50 mile radius.
+    - We geolocate a user's IP address when a request is made and we don't store
+      precise locations or precise IPs for longer than a few days to detect fraud and keep our site secure.
 
-  * We allow advertisers to target ads to a list of countries or to exclude
-    countries from their advertising.
-    For ads targeting the USA, we also support targeting by state.
-  * We geolocate a user's IP address to a country when a request is made.
+It's also important to talk about *why* our ads work.
+By focusing exclusively on developers,
+we are able to ensure our ads stay relevant even without tracking and work well for our advertisers.
 
 
-## Do Not Track Policy
+## Your data
 
-EthicalAds supports Do Not Track (DNT) and respects users' tracking preferences.
+At EthicalAds, we take your privacy seriously.
+We've made a number of legally-binding pledges about how we handle data.
+We don't want you to just take our word for it, however,
+so we invite you to take a look at our [code](https://github.com/readthedocs/ethical-ad-server/) as well.
+
+EthicalAds supports Do Not Track (DNT).
+To comply with DNT, we pledge to delete user personal information such as IP addresses in server logs after no more than 10 days.
+We do this regardless of whether you set the DNT flag in your browser or not.
 For more details, see the [Do Not Track section]({filename}/pages/privacy-policy.md#our-use-of-cookies-and-tracking)
 of our privacy policy.
+
+We do not share, sell, rent, or trade personal information with third parties for their commercial purposes.
 
 
 ## Join us
