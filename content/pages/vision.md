@@ -5,7 +5,7 @@ template: ea/vision
 h2: Ads that don't track you, sold by a company you can trust
 
 
-We realize that our name, EthicalAds, sets a high bar for what people expect,
+We realize that our name, EthicalAds, sets a high bar for what people expect.
 and we do our best to live up that.
 Whether you are a prospective advertiser,
 you're looking to run our ads on your site,
