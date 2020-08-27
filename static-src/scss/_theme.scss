@@ -99,3 +99,32 @@ article {
   }
 
 }
+
+ul {
+  li {
+    // Pelican puts a paragraph tag around an item with a nested list
+    // This results in odd spacing in Bootstrap
+    p:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+}
+
+// Give blockquotes a little flourish of color
+blockquote {
+  border-left: 0.5rem solid $primary;
+  padding: 1rem;
+  background-color: $gray-200;
+
+  p {
+    font-size: 1.25rem;
+    font-weight: $font-weight-light;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: $font-weight-normal;
+  }
+}

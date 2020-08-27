@@ -17,6 +17,8 @@ The controller responsible for the processing of your personal information in co
 ## The short version
 We only collect the minimum amount of personal information that is necessary to fulfill the purpose of your interaction with us; we don't sell it to third parties; and we only use it as this Privacy Policy describes.
 
+If you're primarily interested in how advertising works on EthicalAds, see our [vision for advertising]({filename}/pages/vision.md).
+
 Of course, the short version doesn't tell you everything, so please read on for more details!
 
 

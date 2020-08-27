@@ -1,0 +1,22 @@
+{% extends "page.html" %}
+
+
+{% block content %}
+<section class="jumbotron d-flex flex-column justify-content-center">
+  <div class="container">
+
+    <h1>
+      <span class="font-weight-light">{{ page.title }}</span>
+    </h1>
+    <h2>{{ page.h2 }}</h2>
+
+  </div>
+</section>
+
+<section class="container py-5">
+  <article class="page">
+    {{ page.content }}
+  </article>
+</section>
+
+{% endblock content %}
