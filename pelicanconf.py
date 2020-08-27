@@ -51,9 +51,8 @@ AUTHOR_FEED_RSS = None
 DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
 MENUITEMS = [
-    ("Join EthicalAds", "/publishers/"),
-    ("Our Ad Vision", "/advertising-vision/"),
     ("Blog", "/blog/"),
+    ("Join EthicalAds", "/publishers/"),
 ]
 MENUITEMS_CTA = [("Advertise with Us", "/advertisers/")]
 MENUITEMS_RIGHT = [("User Login", "https://server.ethicalads.io/")]

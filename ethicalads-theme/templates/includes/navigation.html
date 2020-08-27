@@ -17,12 +17,12 @@
         {% endfor %}
       {% endif %}
 
-      {% for title, link in MENUITEMS_CTA %}
-        <a class="nav-item btn btn-outline-primary ml-3 mr-3" href="{{ link }}">{{ title }}</a>
-      {% endfor %}
-
       {% for title, link in MENUITEMS %}
         <a class="nav-item nav-link mr-2" href="{{ link }}">{{ title }}</a>
+      {% endfor %}
+
+      {% for title, link in MENUITEMS_CTA %}
+        <a class="nav-item btn btn-outline-primary ml-3 mr-3" href="{{ link }}">{{ title }}</a>
       {% endfor %}
 
     </div>
