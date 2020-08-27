@@ -30,7 +30,7 @@ who has been raising the alarm about invasive advertising for years,
 traditional advertising without tracking built every brand you can name.
 
 
-## Why did we create EthicalAds
+## Why we created EthicalAds
 
 We started ethical advertising
 as a way to fund sustainable open source development on Read the Docs.
