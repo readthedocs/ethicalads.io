@@ -10,8 +10,7 @@ We do our best to live up those expectations in all aspects of our business.
 Whether you are a prospective advertiser,
 you're looking to run our ads on your site,
 or you just care about privacy and you want to learn more,
-we want to define *ethical advertising* here
-so that you know we're talking about.
+we want to define *ethical advertising* for you here.
 
 
 ## What is ethical advertising
@@ -25,9 +24,13 @@ The most important parts are:
 
 Some companies would like you to believe that it's impossible to do advertising
 without user tracking, but that simply isn't true.
-To paraphrase Doc Searls, the long time editor-in-chief of Linux Journal
+To paraphrase [Doc Searls](http://blogs.harvard.edu/doc/the-adblock-war/),
 who has been raising the alarm about invasive advertising for years,
 traditional advertising without tracking built every brand you can name.
+
+> "Advertising [without tracking] ... created nearly every worldwide brand you can name"
+>
+> &mdash; Doc Searls, editor-in-chief of Linux Journal
 
 
 ## Why we created EthicalAds
@@ -79,15 +82,26 @@ Instead, we target based solely upon:
     - We geolocate a user's IP address when a request is made and we don't store
       precise locations or precise IPs for longer than a few days to detect fraud and keep our site secure.
 
-It's also important to talk about *why* our ads work.
-By focusing exclusively on developers,
+
+## Why our ads work
+
+In addition to how they work, it's also important to talk about *why* our ads work.
+Tracking users is one way to keep ads relevant and make sure they work for advertisers,
+but it isn't the only way. Instead we:
+
+* Focus on developers. Don't try to build another generic ad network for everyone.
+* Partner only with high-quality publishers who also focus on developers.
+
+By focusing,
 we are able to ensure our ads stay relevant even without tracking and work well for our advertisers.
+We also vet every publisher individually to make sure they're a fit for our network
+and ensure that they bring the kind of audience our advertisers want to reach.
 
 
 ## Your data
 
 At EthicalAds, we take your privacy seriously.
-We've made a number of legally-binding pledges about how we handle data.
+We've made a number of legally-binding pledges about how we handle data starting with our [privacy policy]({filename}/pages/privacy-policy.md).
 We don't want you to just take our word for it, however,
 so we invite you to take a look at our [code](https://github.com/readthedocs/ethical-ad-server/) as well.
 
