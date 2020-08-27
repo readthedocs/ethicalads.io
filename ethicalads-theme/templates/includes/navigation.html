@@ -4,7 +4,7 @@
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="ml-auto navbar-nav justify-content-end">
+    <div class="mr-auto navbar-nav">
       {% if DISPLAY_PAGES_ON_MENU %}
         {% for p in pages %}
           <a class="nav-item nav-link {% if p == page %}active{% endif %}" href="/{{ p.url }}">{{ p.title }} {% if p == page %}<span class="sr-only">(current)</span>{% endif %}</a>
@@ -17,13 +17,23 @@
         {% endfor %}
       {% endif %}
 
+      {% for title, link in MENUITEMS_CTA %}
+        <a class="nav-item btn btn-outline-primary ml-3 mr-3" href="{{ link }}">{{ title }}</a>
+      {% endfor %}
+
       {% for title, link in MENUITEMS %}
+        <a class="nav-item nav-link mr-2" href="{{ link }}">{{ title }}</a>
+      {% endfor %}
+
+    </div>
+
+    <div class="navbar-nav justify-content-end">
+
+      {% for title, link in MENUITEMS_RIGHT %}
         <a class="nav-item nav-link" href="{{ link }}">{{ title }}</a>
       {% endfor %}
 
-      {% for title, link in MENUITEMS_CTA %}
-        <a class="nav-item btn btn-outline-primary" href="{{ link }}">{{ title }}</a>
-      {% endfor %}
     </div>
+
   </div>
 </nav>

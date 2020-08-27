@@ -51,12 +51,12 @@ AUTHOR_FEED_RSS = None
 DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
 MENUITEMS = [
-    ("Login", "https://server.ethicalads.io/"),
-    ("Blog", "/blog/"),
-    ("Our Ad Vision", "/advertising-vision/"),
     ("Join EthicalAds", "/publishers/"),
+    ("Our Ad Vision", "/advertising-vision/"),
+    ("Blog", "/blog/"),
 ]
 MENUITEMS_CTA = [("Advertise with Us", "/advertisers/")]
+MENUITEMS_RIGHT = [("User Login", "https://server.ethicalads.io/")]
 
 # URL settings
 # https://docs.getpelican.com/en/stable/settings.html#url-settings
