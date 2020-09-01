@@ -234,13 +234,18 @@
             <label class="form-check-label" for="devops">DevOps</label>
           </div>
           <div class="form-check">
-            <input class="form-check-input" type="checkbox" name="audience" value="Other" id="other">
-            <label class="form-check-label" for="other">Other</label>
+            <input class="form-check-input" type="checkbox" name="audience" value="Other (explain in notes)" id="other">
+            <label class="form-check-label" for="other">Other (explain in notes)</label>
           </div>
         </div>
 
+        <div class="form-group">
+          <label for="body">Notes</label>
+          <textarea class="form-control" id="body" name="body" required>I'm excited to join the network</textarea>
+          <small class="form-text">Anything else you'd like us to know?</small>
+        </div>
+
         <div class="form-group my-5">
-          <input type="hidden" name="body" value="EthicalAds.io publisher inquiry" />
           {% if page %}<input type="hidden" name="url" value="{{ page.url }}" />{% endif %}
           <input type="submit" value="Become a publisher" class="btn btn-warning">
           <small class="form-text">We take privacy seriously and we don't share your email. You aren't going to be added to any mailing lists.</small>
