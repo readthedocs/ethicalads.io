@@ -1,12 +1,12 @@
 Title: Frequently Asked Questions
 slug: faq
 save_as: advertisers/faq/index.html
-description: 
+description: These are common questions from advertisers about the EthicalAds network including how ads are shown, where they appear, and how performance is measured.
 
 How are ads priced?
 
 :   We have [packages to simplify advertising with
-    us](/advertisers/#packages), but you can always put
+    us]({filename}advertisers.md#packages), but you can always put
     together a custom ad campaign. The exact cost will depend on your
     targeting with geography being the biggest factor. See our
     [prospectus](https://assets.readthedocs.org/sustainability/Read%20the%20Docs%20Advertising%20Prospectus.pdf)
@@ -15,36 +15,40 @@ How are ads priced?
 Can I post an ad promoting my job openings?
 
 :   Absolutely. We have [packages specifically to help you find
-    developers](/advertising/hiring/).
+    developers]({filename}advertisers-hiring.md).
 
 How can I target my ads?
 
 :   In line with our [ethical advertising
-    approach](/advertising-vision/),
+    approach]({filename}vision.md),
     we believe that ads can be well targeted while respecting users'
     privacy. We only target based on a user's country and the content
-    of the page where the ad is served. This is a very powerful approach
-    and allows combinations such as ads on Python or JavaScript
-    pages served to developers in the USA and Canada or ads on
-    C# and Visual Basic pages to developers in Austria and
-    Germany.
+    of the page where the ad is served.
+    For ads targeting the USA, we also support targeting by state.
 
-    For ads targeting the USA, we also support targeting by state or by
-    metro area (DMA specifically).
+    Advertisers may also target ads by topics.
+    Currently, these topics are:
 
-    We are beta testing targeting to specific projects or specific
-    keywords. If you are interested in participating, please let us
-    know.
+    * Data science and machine learning
+    * Backend web development
+    * Frontend web development
+    * Security and privacy
+    * DevOps
+    * Technical writing
+
+    Our
+    [prospectus](https://assets.readthedocs.org/sustainability/Read%20the%20Docs%20Advertising%20Prospectus.pdf)
+    will have the latest details and rates on keyword targeting.
+    More niche targeting is possible although campaigns may take longer to fulfill due to availability. Inquire for details.
 
 What are the ad specifications?
 
-:   For sidebar ads, we display a 240*180px image and up to 80
-    characters of supporting text. The image will be linked to the same
-    page as the supporting text.
-
-    We can also run a fixed-footer ad which is up to 80 characters of
-    text without an image. You can use the same text as a sidebar ad or
-    run something different if that makes more sense.
+:   There are two main ad placements across the EthicalAds network.
+    We support unobtrusive text &amp; image placements which use a 240 * 180px image
+    (displayed at 120 * 90) and up to 100 characters of supporting text.
+    There's also a text-only placement that uses up to 100 characters without an image.
+    Publishers choose which placement best fits with their site
+    and we have seen great performance for advertisers and publishers with both types.
 
     Our
     [prospectus](https://assets.readthedocs.org/sustainability/Read%20the%20Docs%20Advertising%20Prospectus.pdf)
@@ -75,10 +79,15 @@ How can I see how my ads are performing?
     they were viewed and clicked. We count a viewable impression when
     the ad comes into the browser viewport.
 
+How can I manage my ads?
+
+:   After you become an advertiser, you will get access to our advertising platform
+    where you can create, change, or turn off your ads as well as see live reports broken down by each ad.
+
 Where do my ads appear?
 
 :   Ads appear on sites that belong to our publisher network. Placement
-    is customizable based on their requirements, but we always ensure 
+    is customizable based on their requirements, but we always ensure
     a valuable placement.
 
 What type of ads are acceptable?
@@ -89,18 +98,12 @@ What type of ads are acceptable?
     EthicalAds has final approval for all ads with respect to
     editorial and creative content but generally this isn't an issue.
 
-Do my ads have to be in English?
-
-:   They can be in any language you like including Spanish, Chinese,
-    Java, Ruby, or French.
-
 What are the details of the EthicalAds audience?
 
 :   EthicalAds is 100% software developers of varying skill levels.
     Our peak traffic times for each region is during business hours and
     many people reading the docs are doing so while building software
-    professionally. Over 90% of pageviews are for English language
-    documentation.
+    professionally.
 
     We have some more details in our [advertising
     guide](https://assets.readthedocs.org/sustainability/Read%20the%20Docs%20Advertising%20Guide.pdf).
@@ -112,9 +115,7 @@ Do my ads support open source?
 
 How can I get started advertising?
 :   We thought you'd never ask. Simply fill out our [advertising
-    information form](/advertising/#inbound-form).
+    information form]({filename}advertisers.md#inbound-form).
     A member of our team will contact you with a detailed prospectus and
     will walk you through the process of getting started advertising on
     Read the Docs.
-
-[Advertise with us](/advertising/)
