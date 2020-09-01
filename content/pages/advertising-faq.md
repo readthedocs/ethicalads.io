@@ -3,7 +3,9 @@ slug: faq
 save_as: advertisers/faq/index.html
 description: These are common questions from advertisers about the EthicalAds network including how ads are shown, where they appear, and how performance is measured.
 
-How are ads priced?
+[TOC]
+
+## How are ads priced?
 
 :   We have [packages to simplify advertising with
     us]({filename}advertisers.md#packages), but you can always put
@@ -12,12 +14,12 @@ How are ads priced?
     [prospectus](https://assets.readthedocs.org/sustainability/Read%20the%20Docs%20Advertising%20Prospectus.pdf)
     for details.
 
-Can I post an ad promoting my job openings?
+## Can I post an ad promoting my job openings?
 
 :   Absolutely. We have [packages specifically to help you find
     developers]({filename}advertisers-hiring.md).
 
-How can I target my ads?
+## How can I target my ads?
 
 :   In line with our [ethical advertising
     approach]({filename}vision.md),
@@ -41,7 +43,7 @@ How can I target my ads?
     will have the latest details and rates on keyword targeting.
     More niche targeting is possible although campaigns may take longer to fulfill due to availability. Inquire for details.
 
-What are the ad specifications?
+## What are the ad specifications?
 
 :   There are two main ad placements across the EthicalAds network.
     We support unobtrusive text &amp; image placements which use a 240 * 180px image
@@ -54,43 +56,43 @@ What are the ad specifications?
     [prospectus](https://assets.readthedocs.org/sustainability/Read%20the%20Docs%20Advertising%20Prospectus.pdf)
     has the full details and example screenshots.
 
-Where do the ads link to?
+## Where do the ads link to?
 
 :   The ads can link to any URL. Typically they will link to your
     landing page on your website. You may include UTM parameters or
     other URL parameters to know that the traffic came from your ad on
     our site.
 
-How are my ads scheduled?
+## How are my ads scheduled?
 
 :   We attempt to schedule advertising evenly based on the length and
     size of your campaign. However, if you want to advertise as fast as
     possible, we can definitely do that.
 
-Can I run my ad JavaScript?
+## Can I run my ad JavaScript?
 
 :   In order to respect our users' privacy, we do not allow any
     third-party ad scripts.
 
-How can I see how my ads are performing?
+## How can I see how my ads are performing?
 
 :   Once you become an advertiser with us, you will have access to view
     live reports on the performance of your ads including how many times
     they were viewed and clicked. We count a viewable impression when
     the ad comes into the browser viewport.
 
-How can I manage my ads?
+## How can I manage my ads?
 
 :   After you become an advertiser, you will get access to our advertising platform
     where you can create, change, or turn off your ads as well as see live reports broken down by each ad.
 
-Where do my ads appear?
+## Where do my ads appear?
 
 :   Ads appear on sites that belong to our publisher network. Placement
     is customizable based on their requirements, but we always ensure
     a valuable placement.
 
-What type of ads are acceptable?
+## What type of ads are acceptable?
 
 :   We want ads that are of interest to our audience of millions of
     software developers.
@@ -98,7 +100,7 @@ What type of ads are acceptable?
     EthicalAds has final approval for all ads with respect to
     editorial and creative content but generally this isn't an issue.
 
-What are the details of the EthicalAds audience?
+## What are the details of the EthicalAds audience?
 
 :   EthicalAds is 100% software developers of varying skill levels.
     Our peak traffic times for each region is during business hours and
@@ -108,12 +110,13 @@ What are the details of the EthicalAds audience?
     We have some more details in our [advertising
     guide](https://assets.readthedocs.org/sustainability/Read%20the%20Docs%20Advertising%20Guide.pdf).
 
-Do my ads support open source?
+## Do my ads support open source?
 
 :   EthicalAds is open source software and the ads go to support
     development of the publishers where ads are hosted.
 
-How can I get started advertising?
+## How can I get started advertising?
+
 :   We thought you'd never ask. Simply fill out our [advertising
     information form]({filename}advertisers.md#inbound-form).
     A member of our team will contact you with a detailed prospectus and
