@@ -94,6 +94,7 @@
         </div>
 
         <div class="form-group my-5">
+          {% if page %}<input type="hidden" name="url" value="{{ page.url }}" />{% endif %}
           <input type="submit" value="Get more info" class="btn btn-warning">
           <small class="form-text">We take privacy seriously and we don't share your email. You aren't going to be added to any mailing lists.</small>
         </div>
