@@ -25,8 +25,8 @@ How can I target my ads?
     privacy. We only target based on a user's country and the content
     of the page where the ad is served. This is a very powerful approach
     and allows combinations such as ads on Python or JavaScript
-    documentation served to developers in the USA and Canada or ads on
-    C# and Visual Basic documentation to developers in Austria and
+    pages served to developers in the USA and Canada or ads on
+    C# and Visual Basic pages to developers in Austria and
     Germany.
 
     For ads targeting the USA, we also support targeting by state or by
