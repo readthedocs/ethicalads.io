@@ -52,10 +52,6 @@
             <input class="form-check-input" type="checkbox" name="geography" value="Asia Pacific" id="geo-apac">
             <label class="form-check-label" for="geo-apac">Asia Pacific</label>
           </div>
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" name="geography" value="Other" id="geo-other">
-            <label class="form-check-label" for="geo-other">Other (explain in comments)</label>
-          </div>
         </div>
 
         <div class="form-group">
@@ -81,19 +77,10 @@
             <input class="form-check-input" type="checkbox" name="audience" value="DevOps" id="devops">
             <label class="form-check-label" for="devops">DevOps</label>
           </div>
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" name="audience" value="Other (explain in comments)" id="other">
-            <label class="form-check-label" for="other">Other (explain in comments)</label>
-          </div>
-        </div>
-
-        <div class="form-group">
-          <label for="body">Comments</label>
-          <textarea class="form-control" id="body" name="body" required placeholder="I'm excited to advertise across the network"></textarea>
-          <small class="form-text">Anything other information that would be useful?</small>
         </div>
 
         <div class="form-group my-5">
+          <input type="hidden" name="body" value="EthicalAds.io advertising inquiry" />
           {% if page %}<input type="hidden" name="url" value="{{ page.url }}" />{% endif %}
           <input type="submit" value="Get more info" class="btn btn-warning">
           <small class="form-text">We take privacy seriously and we don't share your email. You aren't going to be added to any mailing lists.</small>
