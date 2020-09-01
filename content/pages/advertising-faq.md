@@ -3,119 +3,122 @@ slug: faq
 save_as: advertisers/faq/index.html
 description: These are common questions from advertisers about the EthicalAds network including how ads are shown, where they appear, and how performance is measured.
 
-How are ads priced?
+[TOC]
 
-:   We have [packages to simplify advertising with
-    us]({filename}advertisers.md#packages), but you can always put
-    together a custom ad campaign. The exact cost will depend on your
-    targeting with geography being the biggest factor. See our
-    [prospectus](https://assets.readthedocs.org/sustainability/Read%20the%20Docs%20Advertising%20Prospectus.pdf)
-    for details.
+## How are ads priced?
 
-Can I post an ad promoting my job openings?
+We have [packages to simplify advertising with
+us]({filename}advertisers.md#packages), but you can always put
+together a custom ad campaign. The exact cost will depend on your
+targeting with geography being the biggest factor. See our
+[prospectus](https://assets.readthedocs.org/sustainability/Read%20the%20Docs%20Advertising%20Prospectus.pdf)
+for details.
 
-:   Absolutely. We have [packages specifically to help you find
-    developers]({filename}advertisers-hiring.md).
+## Can I post an ad promoting my job openings?
 
-How can I target my ads?
+Absolutely. We have [packages specifically to help you find
+developers]({filename}advertisers-hiring.md).
 
-:   In line with our [ethical advertising
-    approach]({filename}vision.md),
-    we believe that ads can be well targeted while respecting users'
-    privacy. We only target based on a user's country and the content
-    of the page where the ad is served.
-    For ads targeting the USA, we also support targeting by state.
+## How can I target my ads?
 
-    Advertisers may also target ads by topics.
-    Currently, these topics are:
+In line with our [ethical advertising
+approach]({filename}vision.md),
+we believe that ads can be well targeted while respecting users'
+privacy. We only target based on a user's country and the content
+of the page where the ad is served.
+For ads targeting the USA, we also support targeting by state.
 
-    * Data science and machine learning
-    * Backend web development
-    * Frontend web development
-    * Security and privacy
-    * DevOps
-    * Technical writing
+Advertisers may also target ads by topics.
+Currently, these topics are:
 
-    Our
-    [prospectus](https://assets.readthedocs.org/sustainability/Read%20the%20Docs%20Advertising%20Prospectus.pdf)
-    will have the latest details and rates on keyword targeting.
-    More niche targeting is possible although campaigns may take longer to fulfill due to availability. Inquire for details.
+* Data science and machine learning
+* Backend web development
+* Frontend web development
+* Security and privacy
+* DevOps
+* Technical writing
 
-What are the ad specifications?
+Our
+[prospectus](https://assets.readthedocs.org/sustainability/Read%20the%20Docs%20Advertising%20Prospectus.pdf)
+will have the latest details and rates on keyword targeting.
+More niche targeting is possible although campaigns may take longer to fulfill due to availability. Inquire for details.
 
-:   There are two main ad placements across the EthicalAds network.
-    We support unobtrusive text &amp; image placements which use a 240 * 180px image
-    (displayed at 120 * 90) and up to 100 characters of supporting text.
-    There's also a text-only placement that uses up to 100 characters without an image.
-    Publishers choose which placement best fits with their site
-    and we have seen great performance for advertisers and publishers with both types.
+## What are the ad specifications?
 
-    Our
-    [prospectus](https://assets.readthedocs.org/sustainability/Read%20the%20Docs%20Advertising%20Prospectus.pdf)
-    has the full details and example screenshots.
+There are two main ad placements across the EthicalAds network.
+We support unobtrusive text &amp; image placements which use a 240 * 180px image
+(displayed at 120 * 90) and up to 100 characters of supporting text.
+There's also a text-only placement that uses up to 100 characters without an image.
+Publishers choose which placement best fits with their site
+and we have seen great performance for advertisers and publishers with both types.
 
-Where do the ads link to?
+Our
+[prospectus](https://assets.readthedocs.org/sustainability/Read%20the%20Docs%20Advertising%20Prospectus.pdf)
+has the full details and example screenshots.
 
-:   The ads can link to any URL. Typically they will link to your
-    landing page on your website. You may include UTM parameters or
-    other URL parameters to know that the traffic came from your ad on
-    our site.
+## Where do the ads link to?
 
-How are my ads scheduled?
+The ads can link to any URL. Typically they will link to your
+landing page on your website. You may include UTM parameters or
+other URL parameters to know that the traffic came from your ad on
+our site.
 
-:   We attempt to schedule advertising evenly based on the length and
-    size of your campaign. However, if you want to advertise as fast as
-    possible, we can definitely do that.
+## How are my ads scheduled?
 
-Can I run my ad JavaScript?
+We attempt to schedule advertising evenly based on the length and
+size of your campaign. However, if you want to advertise as fast as
+possible, we can definitely do that.
 
-:   In order to respect our users' privacy, we do not allow any
-    third-party ad scripts.
+## Can I run my ad JavaScript?
 
-How can I see how my ads are performing?
+In order to respect our users' privacy, we do not allow any
+third-party ad scripts.
 
-:   Once you become an advertiser with us, you will have access to view
-    live reports on the performance of your ads including how many times
-    they were viewed and clicked. We count a viewable impression when
-    the ad comes into the browser viewport.
+## How can I see how my ads are performing?
 
-How can I manage my ads?
+Once you become an advertiser with us, you will have access to view
+live reports on the performance of your ads including how many times
+they were viewed and clicked. We count a viewable impression when
+the ad comes into the browser viewport.
 
-:   After you become an advertiser, you will get access to our advertising platform
-    where you can create, change, or turn off your ads as well as see live reports broken down by each ad.
+## How can I manage my ads?
 
-Where do my ads appear?
+After you become an advertiser, you will get access to our advertising platform
+where you can create, change, or turn off your ads as well as see live reports broken down by each ad.
 
-:   Ads appear on sites that belong to our publisher network. Placement
-    is customizable based on their requirements, but we always ensure
-    a valuable placement.
+## Where do my ads appear?
 
-What type of ads are acceptable?
+Ads appear on sites that belong to our publisher network. Placement
+is customizable based on their requirements, but we always ensure
+a valuable placement.
 
-:   We want ads that are of interest to our audience of millions of
-    software developers.
+## What type of ads are acceptable?
 
-    EthicalAds has final approval for all ads with respect to
-    editorial and creative content but generally this isn't an issue.
+We want ads that are of interest to our audience of millions of
+software developers.
 
-What are the details of the EthicalAds audience?
+EthicalAds has final approval for all ads with respect to
+editorial and creative content but generally this isn't an issue.
 
-:   EthicalAds is 100% software developers of varying skill levels.
-    Our peak traffic times for each region is during business hours and
-    many people reading the docs are doing so while building software
-    professionally.
+## What are the details of the EthicalAds audience?
 
-    We have some more details in our [advertising
-    guide](https://assets.readthedocs.org/sustainability/Read%20the%20Docs%20Advertising%20Guide.pdf).
+EthicalAds is 100% software developers of varying skill levels.
+Our peak traffic times for each region is during business hours and
+many people reading the docs are doing so while building software
+professionally.
 
-Do my ads support open source?
+We have some more details in our [advertising
+guide](https://assets.readthedocs.org/sustainability/Read%20the%20Docs%20Advertising%20Guide.pdf).
 
-:   EthicalAds is open source software and the ads go to support
-    development of the publishers where ads are hosted.
+## Do my ads support open source?
 
-How can I get started advertising?
-:   We thought you'd never ask. Simply fill out our [advertising
-    information form]({filename}advertisers.md#inbound-form).
-    A member of our team will contact you with a detailed prospectus and
-    will walk you through the process of getting started advertising on
-    Read the Docs.
+EthicalAds is open source software and the ads go to support
+development of the publishers where ads are hosted.
+
+## How can I get started advertising?
+
+We thought you'd never ask. Simply fill out our [advertising
+information form]({filename}advertisers.md#inbound-form).
+A member of our team will contact you with a detailed prospectus and
+will walk you through the process of getting started advertising on
+Read the Docs.
