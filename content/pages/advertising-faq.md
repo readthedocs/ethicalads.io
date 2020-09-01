@@ -3,9 +3,6 @@ slug: faq
 save_as: advertisers/faq/index.html
 description: 
 
-Advertising FAQ
-===============
-
 How are ads priced?
 
 :   We have [packages to simplify advertising with
