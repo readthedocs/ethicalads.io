@@ -23,7 +23,7 @@ Can I post an ad promoting my job openings?
 How can I target my ads?
 
 :   In line with our [ethical advertising
-    approach](https://docs.readthedocs.io/en/latest/ethical-advertising.html),
+    approach](/advertising-vision/),
     we believe that ads can be well targeted while respecting users'
     privacy. We only target based on a user's country and the content
     of the page where the ad is served. This is a very powerful approach
