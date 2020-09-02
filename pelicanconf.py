@@ -17,7 +17,7 @@ STATIC_PATHS = ["images"]
 
 TIMEZONE = "US/Pacific"
 DEFAULT_LANG = "en"
-DEFAULT_DATE_FORMAT = "%b %-d"
+DEFAULT_DATE_FORMAT = "%b %-d, %Y"
 
 
 THEME = "ethicalads-theme"
