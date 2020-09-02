@@ -3,6 +3,7 @@ Date: May 2, 2018
 description: Ad blocking serves a legitimate goal of limiting the downsides of invasive ads. This post details ad blocking's effect on Read the Docs.
 tag: ads, adblock, readthedocs
 authors: David Fischer
+image: /images/posts/2018-adblocking.png
 
 
 > This post first appeared

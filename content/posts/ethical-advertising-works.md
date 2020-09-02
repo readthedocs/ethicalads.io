@@ -3,6 +3,7 @@ Date: April 16, 2018
 description: By 2018, we had run ethical ads on Read the Docs for two years and ethical ads -- advertising without invasive tracking -- has proven to be a working model for supporting open source.
 tag: ads, readthedocs
 authors: Eric Holscher
+image: /images/posts/2018-ethical-advertising-works.jpg
 
 
 > This post first appeared

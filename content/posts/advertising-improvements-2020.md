@@ -3,6 +3,7 @@ Date: July 1, 2020
 description: Advertising improvements and update on ads at Read the Docs including open sourcing our advertising server.
 tag: ads, opensource, readthedocs
 authors: David Fischer
+image: /images/posts/2020-ethicalads-opensource.png
 
 
 > This post first appeared
