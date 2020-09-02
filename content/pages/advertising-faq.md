@@ -56,6 +56,17 @@ Our
 [prospectus](https://assets.readthedocs.org/sustainability/Read%20the%20Docs%20Advertising%20Prospectus.pdf)
 has the full details and example screenshots.
 
+## What is the process for becoming a publisher?
+
+The process generally follows these steps:
+
+* You fill out our [publisher form](/publishers/#inbound-form) which lets us know you're interested.
+* We reply via email, telling you if you'd be a good fit. If so, we ask a few questions and confirm you want a publisher account.
+* You reply, confirming you want a publisher account.
+* We create an account for you, and send you an invite for our publisher dashboard. We also send you information about integrating the ads, which will show test ads to start.
+* You integrate the ads in your site, and let us know so we can review the placement.
+* We review the placement on your site, and then turn on paid ads for your account.
+
 ## Where do the ads link to?
 
 The ads can link to any URL. Typically they will link to your
