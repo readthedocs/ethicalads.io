@@ -57,4 +57,844 @@ and look forward to building something meaningful with you:&lt;/p&gt;
 &lt;li&gt;Become a &lt;a href="https://www.ethicalads.io/publishers/"&gt;publisher&lt;/a&gt; today&lt;/li&gt;
 &lt;li&gt;Become an &lt;a href="https://www.ethicalads.io/advertisers/"&gt;advertiser&lt;/a&gt; today&lt;/li&gt;
 &lt;li&gt;Follow our journey in our &lt;a href="https://ethicalads.us17.list-manage.com/subscribe?u=ca5e74de3ea2867d373058271&amp;amp;id=5746f18bb8"&gt;newsletter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><category term="posts"></category></entry></feed>
+&lt;/ul&gt;</content><category term="posts"></category></entry><entry><title>Advertising update and open sourcing our ad server</title><link href="https://www.ethicalads.io/blog/2020/07/advertising-update-and-open-sourcing-our-ad-server/" rel="alternate"></link><published>2020-07-01T00:00:00-07:00</published><updated>2020-07-01T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2020-07-01:/blog/2020/07/advertising-update-and-open-sourcing-our-ad-server/</id><summary type="html">&lt;blockquote&gt;
+&lt;p&gt;This post first appeared
+on the &lt;a href="https://blog.readthedocs.com/advertising-improvements-2020/"&gt;Read the Docs company blog&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;It's been a while since our
+&lt;a href="https://www.ethicalads.io/blog/2019/06/ad-funding-at-read-the-docs-and-whats-next-for-ethical-advertising/"&gt;last advertising update …&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;blockquote&gt;
+&lt;p&gt;This post first appeared
+on the &lt;a href="https://blog.readthedocs.com/advertising-improvements-2020/"&gt;Read the Docs company blog&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;It's been a while since our
+&lt;a href="https://www.ethicalads.io/blog/2019/06/ad-funding-at-read-the-docs-and-whats-next-for-ethical-advertising/"&gt;last advertising update&lt;/a&gt;
+and it felt like a good time to talk about what's working
+with our advertising model and how things are getting better.&lt;/p&gt;
+&lt;h2 id="how-advertising-is-working-for-read-the-docs"&gt;How advertising is working for Read the Docs&lt;/h2&gt;
+&lt;p&gt;In our &lt;a href="https://blog.readthedocs.com/read-the-docs-2019-stats/"&gt;2019 stats post&lt;/a&gt;,
+we broke out our advertising revenue which was fairly flat
+year over year. The way our ad business is structured, our revenue
+mostly grows with increases in traffic and Read the Docs is mature
+enough that it isn't doubling in size every year.&lt;/p&gt;
+&lt;p&gt;With that said, we're pleased with our steady and sustainable growth.
+Read the Docs doesn't have any investors putting pressure on us for
+short term growth and that has allowed us to invest in our ad business,
+commercial hosting, and in our community version for the long term.
+We've rolled out a huge number of improvements to all the sides of our
+business in the last year and we're happy with the results. Advertising
+remains the single largest source of funding for Read the Docs and one
+that scales as our costs scale.&lt;/p&gt;
+&lt;p&gt;On a real world note, Covid-19 had a short term impact on our
+advertising revenue with a number of advertisers understandably pulling
+back due to uncertainty in funding and the economy in general. While the
+world isn't completely back to normal, we have returned some degree of
+normalcy and most of these advertisers returned once there was a bit
+more clarity in the broader economy and the virus' effect on the tech
+industry specifically. Advertising on Read the Docs is now close to
+capacity in the US, Canada, and Europe which are our largest advertising
+markets.&lt;/p&gt;
+&lt;h2 id="improved-targeting-for-ads"&gt;Improved targeting for ads&lt;/h2&gt;
+&lt;p&gt;Advertising on Read the Docs is different from most ad networks out
+there. Our ad targeting is based on the content and the reader's
+geography rather than personal data about our users. Read the Docs'
+authors and readers have told us that privacy is important to them.
+That's great because it's important to us too! With that said, there
+are great ways to target specific content niches with ads relevant to
+those readers without compromising on privacy.&lt;/p&gt;
+&lt;p&gt;To start, we chose a few groups of content advertisers can target where
+we have enough traffic without the ads being focused on a tiny number of
+projects. These niches are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Data science and machine learning&lt;/li&gt;
+&lt;li&gt;Frontend web development&lt;/li&gt;
+&lt;li&gt;Backend web development&lt;/li&gt;
+&lt;li&gt;Security&lt;/li&gt;
+&lt;li&gt;DevOps&lt;/li&gt;
+&lt;li&gt;Technical writing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We tested this improved content targeting with a select group of
+advertisers and the results were great. In some cases we saw click
+through rates more than double. Whether the ad is to hire a developer or
+to promote a service, we always want to deliver ads that are most
+relevant to the documentation being served. This results in better value
+to our advertisers while still respecting the privacy of our readers.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Would your company like to get in front of more developers?&lt;/p&gt;
+&lt;p&gt;Tell your &lt;a href="https://www.ethicalads.io/advertisers/"&gt;marketing or recruiting team&lt;/a&gt; about Read the Docs and show
+them how they can reach over 7 million developers who Read the Docs each
+month!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="open-sourcing-our-ad-server"&gt;Open sourcing our ad server&lt;/h2&gt;
+&lt;p&gt;One thing we've wanted to do for a long time is open source the code we
+use to run advertising at Read the Docs. While there's always a bit of
+an incentive to keep advertising code closed so it can't be abused, our
+hope is that the trust we're building with the ethical ads model can be
+used by others who want to run their own ethical advertising. Read the
+Docs is an open source company and it's nice to have all our code out
+there. We call it the ethical ad server.&lt;/p&gt;
+&lt;p&gt;The ethical ad server is built to handle the kind of load Read the Docs
+itself receives -- over a million hits per day -- and it delivers
+advertising based only on content and geographic targeting rather than
+building up user profiles from personal information. It's built from
+the ground up with user privacy in mind. We're excited to share it with
+you so please &lt;a href="https://github.com/readthedocs/ethical-ad-server"&gt;check out the code on
+GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="conclusion"&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Just as we're constantly delivering improvements to Read the Docs
+itself for our readers and project maintainers, we also strive to give a
+better experience and better results to the companies who trust Read the
+Docs as a marketing channel. I want to thank all our advertisers who
+believe in our approach and continue to support us and stay tuned to
+this space for more great features in the future!&lt;/p&gt;
+&lt;p&gt;Our ethical ad network is just about ready for launch and we're
+actively looking for projects to beta test the network. If you run a
+developer focused website and you're looking for a way to earn money
+without selling out your visitors' privacy, please &lt;a href="mailto:ads@readthedocs.org?subject=Ethical%20Ad%20Network%20beta"&gt;get in
+touch&lt;/a&gt;.&lt;/p&gt;</content><category term="posts"></category></entry><entry><title>Ad Funding at Read the Docs and What's Next for Ethical Advertising</title><link href="https://www.ethicalads.io/blog/2019/06/ad-funding-at-read-the-docs-and-whats-next-for-ethical-advertising/" rel="alternate"></link><published>2019-06-11T00:00:00-07:00</published><updated>2019-06-11T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2019-06-11:/blog/2019/06/ad-funding-at-read-the-docs-and-whats-next-for-ethical-advertising/</id><summary type="html">&lt;blockquote&gt;
+&lt;p&gt;This post first appeared
+on the &lt;a href="https://blog.readthedocs.com/ad-funding-read-the-docs-whats-next/"&gt;Read the Docs company blog&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;It has been three years since we first launched …&lt;/p&gt;</summary><content type="html">&lt;blockquote&gt;
+&lt;p&gt;This post first appeared
+on the &lt;a href="https://blog.readthedocs.com/ad-funding-read-the-docs-whats-next/"&gt;Read the Docs company blog&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;It has been three years since we first launched
+&lt;a href="https://blog.readthedocs.com/ads-on-read-the-docs/"&gt;ads on Read the Docs&lt;/a&gt;
+and while we gave a limited update in our
+&lt;a href="https://blog.readthedocs.com/read-the-docs-2018-stats/"&gt;2018 stats&lt;/a&gt;,
+we figured it was time to give an update on ethical advertising and how
+it is working.&lt;/p&gt;
+&lt;h2 id="advertising-without-tracking"&gt;Advertising without tracking&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Our ethical advertising model is still going strong.&lt;/strong&gt; We proved that
+it is possible to build a business model on top of advertising without
+resorting to user tracking. Unlike most other ad-supported sites, we
+show advertising based on the context of the page, not by creating
+behavoral profiles of large numbers of individual users. If you are
+browsing documentation for a Python project, you might see a relevant ad
+about Python. It's that simple and it works.&lt;/p&gt;
+&lt;p&gt;Despite a slow start to the year, we expect to earn about $75,000 from
+advertising in Q2. This brings our advertising revenue back to the level
+before our ads were
+&lt;a href="https://www.ethicalads.io/blog/2018/05/ads-and-ad-blockers/"&gt;added to major ad blocking lists&lt;/a&gt; last year.&lt;/p&gt;
+&lt;p&gt;While we do earn money from other sources such as our &lt;a href="https://readthedocs.com"&gt;commercial
+offering&lt;/a&gt;, advertising continues to be our
+largest source of revenue and has allowed us to expand our team to five
+full-time people. Compared with three years ago when we were scraping
+along with very little money, our community issue tracker and support
+requests receive prompt responses.&lt;/p&gt;
+&lt;h2 id="progress"&gt;Progress&lt;/h2&gt;
+&lt;p&gt;We've made great progress on advertising over the past year.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We survived a major hit to revenue from ad blocking without
+    resorting to cat and mouse games of changing ad layouts and APIs to
+    avoid ad blockers.&lt;/li&gt;
+&lt;li&gt;Our &lt;a href="https://docs.readthedocs.io/page/advertising/ethical-advertising.html#community-ads"&gt;community ads
+    program&lt;/a&gt;
+    has been significantly expanded. We are actively running free
+    community advertising promoting over ten open source projects and
+    conferences.&lt;/li&gt;
+&lt;li&gt;While we never tracked users with advertising, we put in place
+    stricter &lt;a href="https://blog.readthedocs.com/do-not-track/"&gt;Do Not Track&lt;/a&gt;
+    privacy protections. We continue to believe that
+    advertising can be well targeted without tracking users.&lt;/li&gt;
+&lt;li&gt;We launched an advertising vertical to let companies
+    &lt;a href="https://www.ethicalads.io/blog/2019/01/lessons-from-and-for-hiring-managers/"&gt;promote their open jobs&lt;/a&gt; to developers.&lt;/li&gt;
+&lt;li&gt;Our advertising revenue share program tripled in size.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Our ethical advertising approach, with no user tracking, has been key to
+our sustainability and has allowed Read the Docs to continue to build
+new features and give back to our community.&lt;/p&gt;
+&lt;h2 id="whats-next"&gt;What's next&lt;/h2&gt;
+&lt;p&gt;We have some really interesting developments coming regarding ethical
+advertising.&lt;/p&gt;
+&lt;p&gt;We are looking to add a few more projects to our ad &lt;strong&gt;revenue share
+program&lt;/strong&gt; and help more projects reach sustainability with an ethical
+advertising approach. If your project on Read the Docs does 100k+
+pageviews per month and you are interested in exploring a new revenue
+stream, please &lt;a href="mailto:ads@readthedocs.org?subject=Ethical%20Ads%20revenue%20share"&gt;let us
+know&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We are testing a &lt;strong&gt;new text-only ad format&lt;/strong&gt; which we will detail in a
+future post. Text-only ads are something we've wanted for a while
+because we believe they are less intrusive to readers but easy for
+advertisers to experiment with multiple variations. So far the results
+have been very promising and we are planning to roll this out more
+widely.&lt;/p&gt;
+&lt;p&gt;Our &lt;strong&gt;ethical ad network&lt;/strong&gt; is getting closer to launch. It's a shame,
+but there's a critical lack of funding for open source projects that
+form the building blocks of some extremely valuable software. We believe
+that advertising can fill some of that gap and Read the Docs can help by
+sharing some of the lessons we've learned building our own advertising.
+If you know a site that might be interested in being a beta tester of a
+pro-privacy ad network built specifically to help fund open source,
+please &lt;a href="mailto:ads@readthedocs.org?subject=Ethical%20Ad%20Network%20beta"&gt;get in
+touch&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="thanks"&gt;Thanks&lt;/h2&gt;
+&lt;p&gt;Advertisers always have a choice where to direct their marketing spend
+and for many of them it would have been simpler to just go with the
+usual behemoth advertising platforms rather than advertising with a
+niche site like Read the Docs. I want to thank all our advertisers who
+believe in our approach and continue to support us.&lt;/p&gt;</content><category term="posts"></category></entry><entry><title>Tips for Getting a Developer Interview</title><link href="https://www.ethicalads.io/blog/2019/02/tips-for-getting-a-developer-interview/" rel="alternate"></link><published>2019-02-13T00:00:00-08:00</published><updated>2019-02-13T00:00:00-08:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2019-02-13:/blog/2019/02/tips-for-getting-a-developer-interview/</id><summary type="html">&lt;blockquote&gt;
+&lt;p&gt;This post first appeared
+on the &lt;a href="https://blog.readthedocs.com/tips-for-getting-a-developer-interview/"&gt;Read the Docs company blog&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Over the last month, the Read the Docs team …&lt;/p&gt;</summary><content type="html">&lt;blockquote&gt;
+&lt;p&gt;This post first appeared
+on the &lt;a href="https://blog.readthedocs.com/tips-for-getting-a-developer-interview/"&gt;Read the Docs company blog&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Over the last month, the Read the Docs team conducted 30-40 customer
+development interviews with hiring managers and recruiters at companies
+ranging from 5-person companies to the biggest names in tech. We wanted
+to learn more about hiring processes at various companies with the
+ultimate goal of building &lt;a href="https://www.ethicalads.io/advertisers/hiring/"&gt;a product to help companies find
+developers&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Last time, we covered some
+&lt;a href="https://www.ethicalads.io/blog/2019/01/lessons-from-and-for-hiring-managers/"&gt;tips for hiring managers&lt;/a&gt;
+based on what companies told us they were doing. This time,
+we put together &lt;strong&gt;tips for candidates looking for their next job&lt;/strong&gt; based
+on insights we heard from hiring managers.&lt;/p&gt;
+&lt;p&gt;Rather than covering how to crack developer interviews or how to gain
+the necessary technical skills, these tips will focus on getting your
+foot in the door. Specifically:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Making your application stand out&lt;/li&gt;
+&lt;li&gt;Improving your application response rate&lt;/li&gt;
+&lt;li&gt;Getting to the interview process&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="when-applying-go-deep-not-wide"&gt;When applying, go deep not wide&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;"I don't want candidates who drive by job sites and pepper every job
+they find"&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;As a candidate, there is a temptation to play the numbers game and apply
+to as many jobs as possible. Many jobs sites make it easy to apply to
+many jobs quickly and this gives you that feeling that your job search
+is progressing.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Based on what hiring managers told us, playing the numbers game isn't
+the best approach.&lt;/strong&gt; While it is a bit of a job-seekers market,
+especially for more senior talent, companies are looking people who want
+to work for their company and who believe in their mission. Hiring
+managers told us they want applicants who "think about the company,
+then check for opportunities".&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://www.ethicalads.io/images/posts/2019-facebook-job-opening.png" class="mw-100" alt="Facebook job posting with almost 300 applications in 2 weeks on just one of the job sites where this is posted."&gt;&lt;/p&gt;
+&lt;h2 id="spend-a-little-more-time-on-your-application"&gt;Spend a little more time on your application&lt;/h2&gt;
+&lt;p&gt;While it takes longer to apply to a job post that requires a cover
+letter or requires answers to a few questions, those are great ways to
+have your application stand out relative to other applicants. You don't
+want your resume to get lost in a stack of hundreds.&lt;/p&gt;
+&lt;p&gt;As we mentioned
+&lt;a href="https://www.ethicalads.io/blog/2019/01/lessons-from-and-for-hiring-managers/"&gt;last time&lt;/a&gt;,
+quite a few hiring managers we talked to started requiring
+a cover letter or even just a couple questions that are unique to the
+company in order to make their job filtering candidates easier and get
+candidates who want to work there not those who just want a job.&lt;/p&gt;
+&lt;p&gt;All the companies we talked to said when they post a job they got tons
+of applicants, but that high quality, qualified applicants were still in
+short supply. When 200 people apply to a job but only 20 are willing to
+do a cover letter, a hiring manager can spend a lot more time per
+candidate with the smaller pool. One hiring manager told us explicitly
+"fewer resumes is better because there's less noise".&lt;/p&gt;
+&lt;p&gt;While I know I said getting a developer job isn't a numbers game, this
+doesn't strictly mean you can use these techniques to apply to 2-3 jobs
+and you'll get hired. Sometimes by the time you apply, somebody is
+already in the final stages of getting hired. The position may not
+&lt;em&gt;really&lt;/em&gt; be open anymore. Don't get discouraged in your job search.
+&lt;strong&gt;Finding the right match can take time.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://www.ethicalads.io/images/posts/2019-duckduckgo-application-questions.png" class="mw-100" alt="Here's some of the questions from the DuckDuckGo application process.This is your place to stand out! DuckDuckGo was **not** one of the companies we interviewed."&gt;&lt;/p&gt;
+&lt;h2 id="make-yourself-a-referral-use-your-network"&gt;Make yourself a referral: use your network&lt;/h2&gt;
+&lt;p&gt;Hiring managers universally told us their top recruiting channel is
+referrals from existing employees. As a candidate, use this knowledge to
+your advantage and &lt;strong&gt;make yourself into a referral hire&lt;/strong&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Did you see an acquaintance on social media post about job openings
+    at their company?&lt;/li&gt;
+&lt;li&gt;Does a friend or a friend of friend work at the company?&lt;/li&gt;
+&lt;li&gt;Do you have a first connection (or a very good 2nd connection) on
+    LinkedIn who works there?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In all of these cases, you should contact that person before applying.
+Even if the person you know isn't on the hiring team, your contact
+might be able to put you in touch with the right person.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;"Most [senior] people go through their network"&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;For a mid-level to senior candidate with 7+ years of experience, this is
+even more important based on our interviews. At that stage of your
+career, &lt;strong&gt;hiring managers we talked to expect a high quality candidate
+to do due diligence&lt;/strong&gt; on the company and team to make sure it's a
+mutual fit.&lt;/p&gt;
+&lt;p&gt;Regardless of the exact route you take here, getting in touch with the
+right people to learn more about the team, the tech stack, and the
+company makes it clear that you're very interested. You're far more
+likely to get a response, move on to the interview process, and
+ultimately get hired.&lt;/p&gt;
+&lt;h2 id="establishing-contact-with-companies"&gt;Establishing contact with companies&lt;/h2&gt;
+&lt;p&gt;Turning yourself into a referral is easier for a senior candidate. But
+what if this is your first or second job or don't know anybody at the
+company?&lt;/p&gt;
+&lt;p&gt;After referral candidates, &lt;strong&gt;the next best hiring channel in our
+interviews was local meetups and engaging the local community&lt;/strong&gt;. Both
+startups and established companies -- especially when they are actively
+hiring -- use meetups to find talent. If you're able to meet the hiring
+manager in person or establish some sort of connection, in my
+experience, this raises your chances significantly.&lt;/p&gt;
+&lt;p&gt;In our interviews, another channel that mid-size and larger companies we
+talked to used to recruit was to rely on their presense at conferences.
+For many companies, recruiting was the primary motivator to sponsor a
+conference and have a booth. As a candidate, talking to the engineers at
+the booth and showing interest can ensure that your application doesn't
+get lost among all the applicants they get.&lt;/p&gt;
+&lt;p&gt;At a smaller company, it's frequently possible to figure out exactly
+who the hiring manager is from some combination of the website, hiring
+posts, and LinkedIn. This is a great way to make a valuable connection
+and make sure the role is a good fit. Contacting the hiring manager cold
+requires a bit of finesse so make sure to be respectful.&lt;/p&gt;
+&lt;p&gt;Places like the monthly HackerNews Who's Hiring thread are fantastic
+because they allow direct interaction with the hiring manager and many
+companies list a person's direct email to inquire about a position,
+learn more directly from the source, and show you're interested.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://www.ethicalads.io/images/posts/2019-hiring-manager-phrases.png" class="mw-100" alt="Here's some of the phrases we heard from hiring managers in
+interviews."&gt;&lt;/p&gt;
+&lt;h2 id="conclusion"&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;By spending a bit more time on your application, establishing contact
+with the company, and asking good questions about the work and team, you
+are showing your intent and interest in the company.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;You want to make sure the hiring manager or recruiter understands that
+you're a serious candidate and you want to work there on their team.
+Using these methods will improve your response rate and &lt;strong&gt;help you get
+the interview&lt;/strong&gt;. By doing a one-click apply on a job site, this is
+completely lost.&lt;/p&gt;
+&lt;h2 id="thanks"&gt;Thanks&lt;/h2&gt;
+&lt;p&gt;Again, I'd like to thank all the hiring managers who took the time to
+talk to us.&lt;/p&gt;</content><category term="posts"></category></entry><entry><title>Lessons From and For Hiring Managers</title><link href="https://www.ethicalads.io/blog/2019/01/lessons-from-and-for-hiring-managers/" rel="alternate"></link><published>2019-01-30T00:00:00-08:00</published><updated>2019-01-30T00:00:00-08:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2019-01-30:/blog/2019/01/lessons-from-and-for-hiring-managers/</id><summary type="html">&lt;blockquote&gt;
+&lt;p&gt;This post first appeared
+on the &lt;a href="https://blog.readthedocs.com/lessons-from-hiring-manager-interviews/"&gt;Read the Docs company blog&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Over the last four weeks, the Read the Docs …&lt;/p&gt;</summary><content type="html">&lt;blockquote&gt;
+&lt;p&gt;This post first appeared
+on the &lt;a href="https://blog.readthedocs.com/lessons-from-hiring-manager-interviews/"&gt;Read the Docs company blog&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Over the last four weeks, the Read the Docs team did dozens of customer
+development interviews with engineering hiring managers. We wanted to
+learn more about hiring processes at various companies with the ultimate
+goal of building a product to help companies find developers. We talked
+to people looking for talent at five person companies all the way up to
+the biggest names in tech. In this post, I am going to cover some of the
+common things we heard from hiring managers and &lt;strong&gt;share some ways for
+hiring managers to improve their company's process&lt;/strong&gt;. In our
+&lt;a href="https://www.ethicalads.io/blog/2019/02/tips-for-getting-a-developer-interview/"&gt;next post in this series&lt;/a&gt;,
+I will have some actionable tips for job seekers based on
+the same interviews.&lt;/p&gt;
+&lt;p&gt;Since this is a long post, I figured I'd share some of the key
+takeaways:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Have a strategy for getting more referrals&lt;/strong&gt; whether that is
+    actively asking employees or having an overly generous referral
+    bonus. Referrals are probably your top source of candidates so
+    figuring out how to get more will save you time and money in the
+    end. Then do the same for your other best recruiting channels.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reach passive candidates&lt;/strong&gt;. There are a lot more passive
+    candidates than active ones so have a plan to reach them. Great
+    developers (especially senior ones) probably aren't actively
+    looking for a new job and it's a job-seekers market. Even if
+    somebody isn't considering a new job at all, the next time they do,
+    you want them to think of your company.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Recruiting for diversity is a focus&lt;/strong&gt; for hiring managers. Put
+    together a concrete plan for getting more diverse candidates and
+    meeting your diversity goals. Engaging with local developer
+    communities and nonprofits and encouraging referrals worked well for
+    companies we talked to.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Get more signal in your application process&lt;/strong&gt; by adding a step
+    such as a cover letter, quiz, or simply add a couple questions folks
+    have to answer. Making candidates spend even one extra minute on
+    their application can save you hours filtering resumes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="why-is-read-the-docs-tackling-hiring-hasnt-that-been-done"&gt;Why is Read the Docs tackling hiring? Hasn't that been done?&lt;/h2&gt;
+&lt;p&gt;While we didn't initially think about Read the Docs ads for recruiting,
+based on some
+unexpected past successes](hiring-developers-with-readthedocs.md),
+we decided to position promoted jobs as one of our main
+verticals within our advertising. Rather than dash forward and create a
+product, however, we started by just talking to hiring managers to
+understand the hiring process better so we can best meet their needs
+with something we create.&lt;/p&gt;
+&lt;p&gt;One of the questions we asked in our interviews was how long it took to
+hire their most recent developer? Specifically, we asked hiring managers
+to consider how much time they and their team spent sourcing candidates,
+filtering resumes, preparing for and doing phone and onsite interviews,
+and anything else. Internal recruiters' time is valuable too, but we
+figured the hiring manager would probably underestimate how much time
+the recruiter spent since they didn't directly observe it. While
+answers were all over the place, the range with the most overlap was
+&lt;strong&gt;50-100 hours of engineering time to make a hire&lt;/strong&gt;. No huge revelation
+here, but companies make a massive investment in hiring.&lt;/p&gt;
+&lt;p&gt;From my days being an interviewer at Qualcomm and Amazon as well as a
+smaller startup, I'd say fifty hours is on the low side for big company
+but about right for a smaller company. When something costs 50+
+engineering hours to do, any improvement is worth a lot of time and
+money and at Read the Docs we believe we can help significantly here.&lt;/p&gt;
+&lt;h2 id="top-hiring-channels"&gt;Top hiring channels&lt;/h2&gt;
+&lt;p&gt;It was no big surprise to hear that &lt;strong&gt;referrals were the top hiring
+channel&lt;/strong&gt;. The second best channel was a bit of a surprise with local
+meetups and local communities being very high in a majority of
+interviews although this was less true among the largest companies we
+talked to. Companies also had some success with recruiting at
+conferences, using various job sites, and proactive outreach.&lt;/p&gt;
+&lt;p&gt;Hiring managers shared strategies with us that they used to increase the
+number of referral and community candidates they got. Two different
+companies we talked to hosted multiple local meetups at their offices
+and one of those hiring managers said "being plugged into the
+community" was their main channel for hiring.&lt;/p&gt;
+&lt;p&gt;Another hiring manager who focused a lot on developers with security
+experience talked about having "LinkedIn parties" where either a
+hiring manager or internal recruiter sat with engineers on their team
+one-on-one to go through their LinkedIn network. Even when he heard a
+person "is great, but they'll never change jobs", that was a good
+candidate to target. Security is such a high demand field, he said, that
+very few great people are actively looking for a job.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://www.ethicalads.io/images/posts/2019-job-seeker-timeline.png" class="mw-100" alt="Job seeker timeline"&gt;&lt;/p&gt;
+&lt;h2 id="reaching-people-who-arent-looking-is-critical"&gt;Reaching people who aren't looking is critical&lt;/h2&gt;
+&lt;p&gt;One of our biggest takeaways from the interviews was that companies
+wanted to reach candidates before they started actively looking. Most of
+the hiring managers we talked to stressed the importance of getting in
+front of passive candidates. Certainly fewer people are actively looking
+for developer jobs than those who are just open to a change. A few
+different reasons were given but I actually think &lt;a href="https://www.inc.com/magazine/20070501/column-guest.html"&gt;Joel Spolsky had it
+right&lt;/a&gt; when he
+said top developers "barely ever apply for jobs at all. That's because
+they already have jobs."&lt;/p&gt;
+&lt;p&gt;This quote isn't necessarily a slight against people who apply actively
+to jobs. Virtually everyone I know in tech started their career applying
+to a job. Rather, the message here is that as a developer becomes a
+mid-level developer and then becomes a senior developer, they are more
+likely to rely on their network to somewhat passively job seek rather
+than going through the front door and simply applying on a company
+website.&lt;/p&gt;
+&lt;p&gt;Reaching people who aren't actively looking is one area where Read the
+Docs can really help. Companies want to reach them when they are just
+thinking about a new job or perhaps passively seeking. Developers who
+come to our site are actively building software, not job-seeking. Many
+of them are content at their current position. For those that aren't,
+this is a perfect place to showcase great companies and help Read the
+Docs' visitors to find their next job.&lt;/p&gt;
+&lt;h2 id="recruiters-can-be-worth-it"&gt;Recruiters can be worth it&lt;/h2&gt;
+&lt;p&gt;In each interview, we asked whether the company used recruiters or
+recruiting related services (eg. Hired, Triplebyte). Universally, hiring
+managers brought up how expensive recruiters are, but most of the people
+we talked to who had actually used recruiters in the past had a positive
+impression overall. Hiring takes a ton of time, typically from senior
+folks at the company. At smaller startups, that's frequently the CEO or
+CTO. Even though the price is high, recruiters who help speed that
+process along are worth it.&lt;/p&gt;
+&lt;p&gt;I think the quote that really summed it up was from a VP of engineering
+at a startup that just raised a Series B. He's trying to grow his team
+by 10 developers this year (about a 50% increase). His experience hiring
+his first couple developers through a 2-person boutique recruiting firm
+was great and he would use them for hiring everyone "if hiring 10
+people didn't mean $100k+" in fees alone.&lt;/p&gt;
+&lt;p&gt;Full disclosure: &lt;a href="https://triplebyte.com"&gt;Triplebyte&lt;/a&gt; is an advertiser
+on Read the Docs. We're fans.&lt;/p&gt;
+&lt;h2 id="diversity-and-inclusivity-in-hiring"&gt;Diversity and inclusivity in hiring&lt;/h2&gt;
+&lt;p&gt;We didn't ask any questions around hiring for diversity but fully six
+hiring managers volunteered information on their companies' strategies
+for getting more diverse candidates. This is why I love this kind of
+interview where the goal is just to listen to what hiring managers say
+and dig deeper when you hear something interesting. Some of the larger
+companies we talked to had explicit diversity goals set at the company
+level. Even among the hiring managers at smaller companies, they shared
+some tactics they used to get more diverse candidates to apply.&lt;/p&gt;
+&lt;p&gt;Of the companies with hard diversity goals, most of them told us that
+their strategy entailed syndicating their job openings to diversity
+focused jobs sites or in some cases engaging directly with relevant
+interest groups. In terms of efficacy, reviews of these various jobs
+boards was mixed.&lt;/p&gt;
+&lt;p&gt;On the more positive side, hiring managers cited Girl Develop It, Black
+Girls Code, and PyLadies as fantastic channels for &lt;strong&gt;both increasing
+candidate diversity and for high quality applicants&lt;/strong&gt;. Two companies
+also talked about trying to decrease bias in their job postings using
+&lt;a href="https://textio.com/"&gt;Textio&lt;/a&gt; and similar services.&lt;/p&gt;
+&lt;p&gt;Having multiple people mention diversity completely unprompted really
+shows that this topic is becoming higher priority for companies and
+hiring managers. It also shows that it if hiring for diversity is
+important to your company, you need to have a plan for actually making
+those goals a reality. It's worth checking whether the strategy
+actually works too.&lt;/p&gt;
+&lt;h2 id="remember-sourcing-is-the-bigger-problem"&gt;Remember, sourcing is the bigger problem&lt;/h2&gt;
+&lt;p&gt;Every single hiring manager we talked to complained about the time they
+spent filtering resumes from applicants. Some choice quotes I heard
+included "95% of applicants weren't a fit" even after only reviewing
+the resume and a hiring manager who posted to a very popular remote-only
+job board told me he got "literally one thousand applications". While
+I believe this is a legitimate complaint, I think &lt;a href="http://blog.alinelerner.com/building-a-product-in-the-technical-recruiting-space-read-this-first/"&gt;Aline Lerner, founder
+of interviewing.io said it
+best&lt;/a&gt;
+when she said "Engineering hiring isn't a filtering problem. It's a
+sourcing problem." The reason we heard it a lot is that filtering is a
+very time-consuming task that hiring managers directly deal with.&lt;/p&gt;
+&lt;p&gt;The real problem here is that &lt;strong&gt;the number of applicants to a job post
+is a vanity metric&lt;/strong&gt;. What hiring managers are looking for is qualified
+applicants, which is harder to gauge without some additional work. One
+of the problems here is that a lot of jobs sites make it really easy for
+candidates to apply to lots of jobs. This is understandable from their
+perspective as more applicants makes their platform seem more valuable.
+There's no reason for a job board to put artificial barriers into the
+application funnel, but hiring managers told us they want candidates who
+want to work for their company not somebody who is applying to every job
+out there.&lt;/p&gt;
+&lt;p&gt;Instead of building product here, I think hiring managers just need a
+few tweaks to get more of a signal of candidate quality and intent in
+their applications. A few of the hiring managers we talked to described
+how they did this. Multiple hiring managers mentioned how they required
+a cover letter that answered specific questions ("why us" was the most
+popular). Another hiring manager described how his hiring system just
+asked a few short questions of candidates -- for example, "what is the
+software project you're most proud of" -- when they applied. When a
+candidate didn't do a cover letter or didn't answer the questions,
+they weren't considered. The latter solution seemed like the best of
+both worlds as it solves the one-click apply problem without being too
+much of a barrier.&lt;/p&gt;
+&lt;h2 id="thanks"&gt;Thanks&lt;/h2&gt;
+&lt;p&gt;I'd like to thank all the hiring managers who took time out of their
+days (or in some cases evenings) to talk to us. If you're a hiring
+manager or an internal company recruiter and you'd like to share your
+experiences and help Read the Docs, please &lt;a href="mailto:ads@readthedocs.org?subject=Lessons+From+Hiring+Managers+Post"&gt;get in
+touch&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Check back soon for our
+&lt;a href="https://www.ethicalads.io/blog/2019/02/tips-for-getting-a-developer-interview/"&gt;next post in this series&lt;/a&gt;
+which covers tips for candidates based on the same interviews!&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Are you hiring?&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.ethicalads.io/advertisers/hiring/"&gt;Get in front of passive candidates already using your tech&lt;/a&gt;
+by promoting your job openings with Read the Docs.&lt;/p&gt;
+&lt;/blockquote&gt;</content><category term="posts"></category></entry><entry><title>Tips to Hire Developers with Read the Docs</title><link href="https://www.ethicalads.io/blog/2018/10/tips-to-hire-developers-with-read-the-docs/" rel="alternate"></link><published>2018-10-30T00:00:00-07:00</published><updated>2018-10-30T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2018-10-30:/blog/2018/10/tips-to-hire-developers-with-read-the-docs/</id><summary type="html">&lt;blockquote&gt;
+&lt;p&gt;This post first appeared
+on the &lt;a href="https://blog.readthedocs.com/hiring-developers-with-readthedocs/"&gt;Read the Docs company blog&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Read the Docs is probably not the first place …&lt;/p&gt;</summary><content type="html">&lt;blockquote&gt;
+&lt;p&gt;This post first appeared
+on the &lt;a href="https://blog.readthedocs.com/hiring-developers-with-readthedocs/"&gt;Read the Docs company blog&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Read the Docs is probably not the first place you think of if you are
+recruiting. However, over &lt;strong&gt;7 million unique developers use Read the
+Docs each month&lt;/strong&gt; from all over the world. We didn't set out to build a
+better job board, but after a number of advertisers used our &lt;a href="https://docs.readthedocs.io/en/latest/advertising/ethical-advertising.html"&gt;ethical
+ads&lt;/a&gt;
+for recruiting, we discovered that Read the Docs was a great place to
+find developer talent.&lt;/p&gt;
+&lt;h2 id="hiring-with-read-the-docs-works"&gt;Hiring with Read the Docs works&lt;/h2&gt;
+&lt;p&gt;Developers are not always actively job seeking by browsing job boards or
+company careers pages. However, they are on Read the Docs reading about
+the libraries and frameworks they use. Even when people aren't actively
+looking for a new job, many are open to exploring new opportunities.&lt;/p&gt;
+&lt;p&gt;On Read the Docs, we found that developers engage with hiring ads at a
+higher rate than any other kind of advertising. With hiring ads,
+developers get ads that are relevant and interesting and companies reach
+the folks actively using the tech they are recruiting for.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://www.ethicalads.io/images/posts/2018-ctr-adtype.png" class="mw-100" alt="Click-through rate by ad type Q3 2018"&gt;&lt;/p&gt;
+&lt;h2 id="be-specific-and-find-the-right-developers"&gt;Be specific and find the right developers&lt;/h2&gt;
+&lt;p&gt;If you are looking for Python developers, you can configure your hiring
+ad to only show on Python related documentation. You can further refine
+your audience to Read the Docs visitors in specific regions. Whether you
+are looking for a remote Python data scientist or a blockchain developer
+in Switzerland, be as specific as possible. This ensures you don't get
+unqualified candidates as well as making sure you catch the eyes of the
+people you are interested in.&lt;/p&gt;
+&lt;h2 id="set-the-right-expectations"&gt;Set the right expectations&lt;/h2&gt;
+&lt;p&gt;In any type of advertising, setting appropriate expectations can make
+the difference between a lackluster and successful campaign. In hiring,
+it is even more critical. This means making sure that your hiring ad for
+a front-end JavaScript developer links directly to your JavaScript
+developer job listing page where people can click "apply". Don't link
+to a listing of all of your open positions unless your hiring ad sets
+that expectation. Nothing is worse for the developer than clicking on a
+hiring ad and not knowing what to do next.&lt;/p&gt;
+&lt;p&gt;Likewise, some things can set the wrong kind of expectation. Most
+developers have seen enough hiring posts for "rockstars" and
+"ninjas" to know what to expect. Be honest and upfront and you will
+attract the right folks.&lt;/p&gt;
+&lt;h2 id="stand-out"&gt;Stand out&lt;/h2&gt;
+&lt;p&gt;Developers get contacted all the time by recruiters and it can be
+difficult to show prospective employees why they should check out your
+company. People look for all sorts of different things when seeking a
+new job from working with a high-caliber team to working for a company
+whose goals they agree with. You should highlight your best selling
+points right on your hiring ad as early as possible. If your company
+affords a fantastic work/life balance, mention that. A company in a
+great location, with a beautiful office, and top of the line hardware
+should definitely feature that. Focusing on your best attributes shows
+you care about your developers and helps you appeal to people who care
+about your products and mission.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Are you hiring?&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.ethicalads.io/advertisers/hiring/"&gt;Find qualified candidates&lt;/a&gt;
+already using your tech by promoting your job openings with Read the Docs.&lt;/p&gt;
+&lt;/blockquote&gt;</content><category term="posts"></category></entry><entry><title>Update on Ad Blocking and Acceptable Ads</title><link href="https://www.ethicalads.io/blog/2018/05/update-on-ad-blocking-and-acceptable-ads/" rel="alternate"></link><published>2018-05-21T00:00:00-07:00</published><updated>2018-05-21T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2018-05-21:/blog/2018/05/update-on-ad-blocking-and-acceptable-ads/</id><summary type="html">&lt;blockquote&gt;
+&lt;p&gt;This post first appeared
+on the &lt;a href="https://blog.readthedocs.com/ad-blocker-update/"&gt;Read the Docs company blog&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;A few weeks ago, we shared about the
+&lt;a href="https://www.ethicalads.io/blog/2018/05/ads-and-ad-blockers/"&gt;challenge …&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;blockquote&gt;
+&lt;p&gt;This post first appeared
+on the &lt;a href="https://blog.readthedocs.com/ad-blocker-update/"&gt;Read the Docs company blog&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;A few weeks ago, we shared about the
+&lt;a href="https://www.ethicalads.io/blog/2018/05/ads-and-ad-blockers/"&gt;challenge ad blocking presented to our sustainability&lt;/a&gt;
+and what we were doing about it. On May 4th, Read the Docs
+was added to the &lt;a href="https://acceptableads.com/"&gt;Acceptable Ads list&lt;/a&gt;
+meaning that our visitors running ad blockers who choose to allow
+unintrusive advertising will see our ads again. The &lt;strong&gt;impact to our ad
+views, clicks, and revenue was immediate&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id="data-on-our-inclusion-in-the-acceptable-ads-list"&gt;Data on our inclusion in the Acceptable Ads list&lt;/h2&gt;
+&lt;p&gt;&lt;img src="https://www.ethicalads.io/images/posts/2018-readthedocs-adblocker-update.png" class="mw-100" alt="Impact of ad blocking and acceptable ads at Read the Docs"&gt;&lt;/p&gt;
+&lt;dl&gt;
+&lt;dt&gt;32% of Read the Docs visitors run an ad blocker&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;Estimates around the web vary regarding what percentage of people
+run ad blockers and it varies heavily by industry. We discussed this
+figure a bit in our
+&lt;a href="https://www.ethicalads.io/blog/2018/05/ads-and-ad-blockers/"&gt;previous post&lt;/a&gt;.&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt&gt;It took a month from application to inclusion in the list&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;We discovered about our inclusion in the
+&lt;a href="https://easylist.to/"&gt;EasyList&lt;/a&gt; ad blocker list within a couple
+days and immediately applied to the Acceptable Ads program. No
+changes were required of us to meet the &lt;a href="https://acceptableads.com/en/about/criteria"&gt;Acceptable Ads
+criteria&lt;/a&gt; and we also
+qualified for &lt;a href="https://adblockplus.org/en/acceptable-ads#privacy-friendly-acceptable-ads"&gt;Acceptable Ads without third-party
+tracking&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;While Eyeo, the company behind AdBlock Plus, derives &lt;a href="https://adblockplus.org/about#monetization"&gt;most of their
+revenue&lt;/a&gt; from the
+Acceptable Ads initiative by charging large entities, Read the Docs
+&lt;strong&gt;did not&lt;/strong&gt; pay for inclusion on the list.&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt&gt;Over half of those running an ad blocker allow acceptable ads&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;Given our more tech-savvy and privacy-focused audience, we didn't
+know what to expect. Not every ad blocker allows acceptable ads by
+default and even then users can choose to turn them off.&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt&gt;People running ad blockers DO click on ads&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;We can definitively say this is true of our audience. Our
+click-through rate did not change based on ad blocking or our
+inclusion in the acceptable ads list at all.&lt;/p&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;p&gt;Of the ad views and clicks blocked by ad blockers, inclusion in the
+Acceptable Ads list meant that 55-60% of our ad-blocking visitors choose
+to allow our ads. This directly translated into revenue toward our
+sustainability.&lt;/p&gt;
+&lt;h2 id="building-our-ethical-ads"&gt;Building our Ethical Ads&lt;/h2&gt;
+&lt;p&gt;The Acceptable Ads list is definitely a step in the right direction for
+us. We share the goal of unintrusive advertising that respects our
+audience.&lt;/p&gt;
+&lt;p&gt;People understand that advertising funds much of the web. As ads got
+larger, more annoying, and ad networks stored more information on
+millions of people, however, many people finally decided to install ad
+blockers.
+This is the &lt;a href="https://medium.com/the-graph/how-to-reverse-publisher-revenue-drain-c33e41bf0665"&gt;largest boycott in human
+history&lt;/a&gt;
+and blaming users isn't the answer.&lt;/p&gt;
+&lt;p&gt;Based on our experience with ad blocking and the Acceptable Ads list, it
+is clear that visitors will allow advertising that doesn't disrupt user
+experience and doesn't track people.&lt;/p&gt;
+&lt;p&gt;We are glad to have made progress toward regaining our sustaining
+revenue. Read the Docs is continuing on our experiment to fund open
+source infrastructure in a way that is a win/win for all parties, and we
+are glad you're following along with us.&lt;/p&gt;</content><category term="posts"></category></entry><entry><title>Ads and Ad blockers</title><link href="https://www.ethicalads.io/blog/2018/05/ads-and-ad-blockers/" rel="alternate"></link><published>2018-05-02T00:00:00-07:00</published><updated>2018-05-02T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2018-05-02:/blog/2018/05/ads-and-ad-blockers/</id><summary type="html">&lt;blockquote&gt;
+&lt;p&gt;This post first appeared
+on the &lt;a href="https://blog.readthedocs.com/ads-and-adblocking/"&gt;Read the Docs company blog&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Last time, we shared how
+&lt;a href="https://www.ethicalads.io/blog/2018/04/ethical-advertising-works/"&gt;ethical advertising works&lt;/a&gt;
+to …&lt;/p&gt;</summary><content type="html">&lt;blockquote&gt;
+&lt;p&gt;This post first appeared
+on the &lt;a href="https://blog.readthedocs.com/ads-and-adblocking/"&gt;Read the Docs company blog&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Last time, we shared how
+&lt;a href="https://www.ethicalads.io/blog/2018/04/ethical-advertising-works/"&gt;ethical advertising works&lt;/a&gt;
+to keep Read the Docs sustainable without creepy ad
+targeting. This time, we will share about one of our biggest challenges
+with advertising. At the beginning of April, Read the Docs was added to
+one of the most popular ad block lists: the
+&lt;a href="https://easylist.to/"&gt;Easylist&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="ad-blocker-fallout"&gt;Ad blocker fallout&lt;/h2&gt;
+&lt;p&gt;&lt;img src="https://www.ethicalads.io/images/posts/2018-readthedocs-adblocker-fallout.png" class="mw-100" alt="Effect of ad blocking on Read the Docs ad views"&gt;&lt;/p&gt;
+&lt;p&gt;Getting added to the EasyList had a significant and immediate impact on
+the bottom line at Read the Docs. Right around April 1, &lt;strong&gt;32% of our ad
+views simply vanished&lt;/strong&gt;. At first, we thought we had done something
+horribly wrong but then we discovered that this was due entirely to ad
+blocking. Our actual traffic wasn't down at all.&lt;/p&gt;
+&lt;p&gt;Users' browsers were simply downloading the updated EasyList which
+blocked ads on Read the Docs. In terms of ad viewership, weekdays --
+our busiest days and the peaks in the graph -- became more like weekends
+and weekends fell off a cliff. We had always guessed what percentage of
+our user base ran ad blockers. Now we know. We knew this day would come
+as we became more successful but we had hoped it was a ways off
+considering we weren't part of a large ad network.&lt;/p&gt;
+&lt;p&gt;This directly affected our operations and staff. Our operating costs
+didn't go down in any significant way, but revenue sure did.
+Advertising is by far the largest source of revenue at Read the Docs and
+it just dropped by about a third. This meant that we had to cut some
+costs where we could and slow down some hiring plans. While Read the
+Docs is not a non-profit company, all the revenue is reinvested into the
+project itself, paying maintainers, and other places in the open source
+ecosystem. The situation is not dire by any means, but it was certainly
+disappointing that we ended up on the same list with popup advertisers
+who couldn't care less about privacy.&lt;/p&gt;
+&lt;h2 id="all-about-ad-blockers"&gt;All about ad blockers&lt;/h2&gt;
+&lt;p&gt;Ad blockers fulfill a legitimate need to mitigate the &lt;a href="https://docs.readthedocs.io/en/latest/ethical-advertising.html"&gt;significant
+downsides of
+advertising&lt;/a&gt;
+from tracking across the internet, security implications of third-party
+code, and impacting the UX and performance of sites.&lt;/p&gt;
+&lt;p&gt;At Read the Docs, we specifically didn't want those things. That's why
+we built the ad network we wanted to exist with only relevant ads and no
+creepy behavioral targeting.&lt;/p&gt;
+&lt;p&gt;According to a &lt;a href="https://pagefair.com/downloads/2017/01/PageFair-2017-Adblock-Report.pdf"&gt;2017 report from
+PageFair&lt;/a&gt;
+(pdf), a company that specializes in quantifying ad blocking, 11% of
+global web users run an ad blocker. Considering that Read the Docs'
+core audience is tech-savvy, privacy-conscious developers, it should be
+no surprise that our number is higher.&lt;/p&gt;
+&lt;h2 id="what-are-we-doing-about-it"&gt;What are we doing about it&lt;/h2&gt;
+&lt;p&gt;It will be an uphill battle to get back to where we were in terms of
+revenue and sustaining Read the Docs, here are a few things we are
+working on:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We applied to the &lt;a href="https://acceptableads.com/"&gt;acceptable ads&lt;/a&gt; list,
+    an ad block list enabled on many ad blockers by default that enables
+    some unobtrusive advertising. We are very hopeful here but it does
+    take quite a bit longer to get on this list than it does to get
+    blocked.&lt;/li&gt;
+&lt;li&gt;Nagging users into allowing ads on Read the Docs. We are envisioning
+    more of a polite nag in a similar vein to
+    &lt;a href="https://jsfiddle.net/"&gt;jsfiddle&lt;/a&gt; rather than an \"adblock wall\"
+    which prevents usage of Read the Docs until it's allowed.&lt;/li&gt;
+&lt;li&gt;Blogging and raising awareness of how ad blocking affects us and
+    other open source projects.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;While we could simply change our CSS and ad API to avoid blocking since
+we host our ads ourselves, we decided not to engage in a cat and mouse
+game since this work would not benefit users.&lt;/p&gt;
+&lt;p&gt;Advertising funds much of the web and many people recognize that while
+there are plenty of bad actors in the ad industry -- think pop-under ad
+networks or ads that navigate your browser for you -- some advertising
+is necessary to power the web we know and love especially when it comes
+to open source software which has &lt;a href="https://www.fordfoundation.org/library/reports-and-studies/roads-and-bridges-the-unseen-labor-behind-our-digital-infrastructure/"&gt;unique funding
+challenges&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: On May 4th, Read the Docs was added to the acceptable ads
+list! We will collect data over the next couple weeks and have a
+follow-up post on what effects this had on advertising.&lt;/p&gt;
+&lt;h2 id="open-source-advertising-list"&gt;Open source advertising list&lt;/h2&gt;
+&lt;p&gt;At Read the Docs, we also discovered that we are not the only open
+source project that got our advertising blocked by ad blockers. Many
+open source projects that fund themselves through advertising get
+blocked and some of them don't have the resources to navigate the
+acceptable ads program or understand the inner workings of ad blockers.&lt;/p&gt;
+&lt;p&gt;Likewise, some web users may not want to allow all acceptable ads which
+includes many ads from the big networks but we are hoping they would be
+willing to accept ads that benefit their community of software
+developers.&lt;/p&gt;
+&lt;p&gt;We are launching a &lt;strong&gt;new initiative&lt;/strong&gt; to &lt;a href="https://ads-for-open-source.readthedocs.io"&gt;allow advertising that
+benefits open source
+software&lt;/a&gt;. We encourage you
+to subscribe to the this list and support open source. If you run an
+open source project affected by ad blockers, we would love to help you
+too.&lt;/p&gt;</content><category term="posts"></category></entry><entry><title>Ethical Advertising Works</title><link href="https://www.ethicalads.io/blog/2018/04/ethical-advertising-works/" rel="alternate"></link><published>2018-04-16T00:00:00-07:00</published><updated>2018-04-16T00:00:00-07:00</updated><author><name>Eric Holscher</name></author><id>tag:www.ethicalads.io,2018-04-16:/blog/2018/04/ethical-advertising-works/</id><summary type="html">&lt;blockquote&gt;
+&lt;p&gt;This post first appeared
+on the &lt;a href="https://blog.readthedocs.com/ethical-advertising-works/"&gt;Read the Docs company blog&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;It has been two years since we first launched …&lt;/p&gt;</summary><content type="html">&lt;blockquote&gt;
+&lt;p&gt;This post first appeared
+on the &lt;a href="https://blog.readthedocs.com/ethical-advertising-works/"&gt;Read the Docs company blog&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;It has been two years since we first launched
+&lt;a href="https://blog.readthedocs.com/ads-on-read-the-docs/"&gt;ads on Read the Docs&lt;/a&gt;.
+We figured it was time to report on the results that we've
+seen, and say thanks to those who have helped us along the way.&lt;/p&gt;
+&lt;h2 id="the-results"&gt;The Results&lt;/h2&gt;
+&lt;p&gt;To put it simply: &lt;strong&gt;Ethical Advertising works&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;In Q1 2018, our estimated revenue from advertising is $75,000. This is
+enough to fund our small team of 4 people to work on Read the Docs
+full-time.&lt;/p&gt;
+&lt;p&gt;When we started building our ethical advertising model, we didn't know
+how it would work out. We didn't know much about the ad industry, and
+we were doing things different than everyone else.&lt;/p&gt;
+&lt;p&gt;We are happy to report that you can build advertising that is a
+win/win/win for all parties:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Read the Docs wins because we generate revenue, allowing us to
+    sustain our operations&lt;/li&gt;
+&lt;li&gt;Advertisers win because they are able to reach our audience of
+    developers, helping to grow their business.&lt;/li&gt;
+&lt;li&gt;Users win because their privacy is maintained, and they continue to
+    have access to our service.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ethical advertising on Read the Docs has not been without its
+challenges, which we will cover in future posts.&lt;/p&gt;
+&lt;h2 id="tracking-users-isnt-required"&gt;Tracking users isn't required&lt;/h2&gt;
+&lt;p&gt;Along the way we've been trying to prove a simple thesis:&lt;/p&gt;
+&lt;p&gt;We can have successful advertising without tracking our users. So much
+of the trouble facing the ad industry these days is because of this
+massive databases of user data.&lt;/p&gt;
+&lt;p&gt;We have been able to show that we can show ads without knowing exactly
+who our users are. The content they are reading is enough to show them
+targeted ads, without knowing anything about them. Specifically:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We do not let advertisers run 3rd party code on Read the Docs. Ad
+    images and javascript is all hosted by us.&lt;/li&gt;
+&lt;li&gt;We do not provide advertisers with data dumps, except aggregated
+    reports on the clicks and views their ads got.&lt;/li&gt;
+&lt;li&gt;We target our ads based only on geography and the details of the
+    page being visited, not on a profile of the user.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We're now taking a look at what we've learned, and how we might help
+more infrastructure projects reach sustainability with an ethical
+advertising approach.&lt;/p&gt;
+&lt;h2 id="towards-an-ethical-ad-network"&gt;Towards an Ethical Ad Network&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;We have shown that an advertising business model that respects users
+can also sustain critical open source infrastructure.&lt;/strong&gt; We hope that we
+can act as an example for other projects that depend on ads. You can
+make money without giving away your users data.&lt;/p&gt;
+&lt;p&gt;Developers have the power to shift the ad industry to respect user
+privacy. We must start with our own projects, leading by example. We
+need to have all the ads in the open source ecosystem respect user
+privacy, and then we can start to apply pressure to other parts of the
+tech industry.&lt;/p&gt;
+&lt;p&gt;We realize that not every open source project can do all the work that
+we've done. We want to explore how we can build an &lt;strong&gt;Ethical Ad
+Network&lt;/strong&gt;, where user data isn't sent to us, but each project doesn't
+need to do ad sales.&lt;/p&gt;
+&lt;p&gt;Our ethical ad network is still in the planning phases, but if you know
+a project that might be interested in being a beta tester, please &lt;a href="mailto:ads@readthedocs.org"&gt;get
+in touch&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="thanks"&gt;Thanks&lt;/h2&gt;
+&lt;p&gt;I'd like to thank all of companies who have believed in our ethical ads
+initiative. You can only sell something if people buy it, and I'd like
+to give credit to the folks who have believed in our concept:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Twilio&lt;/li&gt;
+&lt;li&gt;Sentry&lt;/li&gt;
+&lt;li&gt;Rollbar&lt;/li&gt;
+&lt;li&gt;Stream&lt;/li&gt;
+&lt;li&gt;Intel&lt;/li&gt;
+&lt;li&gt;Data Dog&lt;/li&gt;
+&lt;li&gt;Mongo&lt;/li&gt;
+&lt;li&gt;Hosted Graphite&lt;/li&gt;
+&lt;li&gt;Level 12&lt;/li&gt;
+&lt;li&gt;Pyup&lt;/li&gt;
+&lt;li&gt;Triplebyte&lt;/li&gt;
+&lt;li&gt;Linode&lt;/li&gt;
+&lt;li&gt;Digital Impact Alliance&lt;/li&gt;
+&lt;li&gt;Digital Ocean&lt;/li&gt;
+&lt;li&gt;Exoscale&lt;/li&gt;
+&lt;li&gt;Nginx&lt;/li&gt;
+&lt;li&gt;Odoo&lt;/li&gt;
+&lt;li&gt;CircleCI&lt;/li&gt;
+&lt;li&gt;Cherry Servers&lt;/li&gt;
+&lt;li&gt;Uniregistry&lt;/li&gt;
+&lt;li&gt;OSCON&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Want your company to be on the list? You can get more information on our
+&lt;a href="https://www.ethicalads.io/advertisers/"&gt;advertising page&lt;/a&gt;.&lt;/p&gt;</content><category term="posts"></category></entry></feed>
