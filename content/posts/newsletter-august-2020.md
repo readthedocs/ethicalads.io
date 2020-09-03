@@ -35,9 +35,9 @@ and we really appreciate how understanding everyone has been with any confusion 
 
 The big things we added this month:
 
-* We added an explicit [Publisher Policy](https://www.ethicalads.io/publisher-policy/) to set expectations in our relationship with our publishers.
-* We added an [FAQ](https://www.ethicalads.io/advertisers/faq/) to the EthicalAds site.
-* We documented our [Ad Vision](https://www.ethicalads.io/advertising-vision/) on the website, showing how we're different than other ad networks.
+* We added an explicit [Publisher Policy]({filename}../pages/publisher-policy.md) to set expectations in our relationship with our publishers.
+* We added an [FAQ]({filename}../pages/advertising-faq.md) to the EthicalAds site.
+* We documented our [Ad Vision]({filename}../pages/vision.md) on the website, showing how we're different than other ad networks.
 * We improved our fraud detection mechanisms to be smarter about rate limiting ad views and detect when users are using a proxy to view the documentation.
 * Publishers can now store payout setting in the dashboard directly. This improves our workflow for paying out publishers, hopefully making it smoother.
 
@@ -47,7 +47,7 @@ You can always see the latest code updates in our [changelog](https://ethical-ad
 
 Our current priority is getting publishers more money. We know that we're a little bit below what some other networks are able to pay because of how new we are. We're fully focused on improving this situation, and it has happened for a few reasons.
 
-Our largest issue in August was getting added to the main ad block lists. We're currently working with the team at Eyeo (AdBlock Plus) to get our new ads on the Acceptable Ads list. Ad blocking removed 30% of our total traffic, which was a large impact. Being put on Acceptable Ads [got around 50% of those blocked views back](https://www.ethicalads.io/blog/2018/05/update-on-ad-blocking-and-acceptable-ads/) when it happened to Read the Docs in 2018.
+Our largest issue in August was getting added to the main ad block lists. We're currently working with the team at Eyeo (AdBlock Plus) to get our new ads on the Acceptable Ads list. Ad blocking removed 30% of our total traffic, which was a large impact. Being put on Acceptable Ads [got around 50% of those blocked views back]({filename}ad-blocker-update.md) when it happened to Read the Docs in 2018.
 
 There are two other places we're working to improve this situation: raising our prices and selling more of our inventory. Since we had to scramble to get everything sold when we launched in July, we didn't have time to adjust our prices and do a full sales cycle with our advertisers. The other aspect is that a lot of our APAC inventory is unsold. For some of our publishers, this means 50% of ad views aren't currently being monetized. We generally recommend [falling back to other content](https://ethical-ad-client.readthedocs.io/en/latest/#customization) in these cases, if that is something you're comfortable doing.
 
@@ -67,4 +67,3 @@ Our large roadmap items are:
 
 We're always open to additional feedback and ideas on our approach,
 so feel free to [email us](mailto:ads@readthedocs.org) directly.
-
