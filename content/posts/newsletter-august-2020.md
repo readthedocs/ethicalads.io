@@ -7,7 +7,7 @@ authors: Eric Holscher
 We're excited to share you with our first newsletter,
 where we'll share updates about our progress.
 Inspired by Eric Berry and the CodeFund team,
-we'll also share our struggles and challanges.
+we'll also share our struggles and challenges.
 We believe strongly that being transparent and ethical go hand in hand,
 and will strive to share as much as we can.
 
@@ -17,7 +17,7 @@ and will strive to share as much as we can.
 
 ## Advertising Stats
 
-August isthe first full month that we've served ads,
+August is the first full month that we've served ads,
 and we're excited to be so far along after our first month.
 Making sure developers are paid for their work is a huge part of our mission,
 and revenue paid out is our most important stat.
