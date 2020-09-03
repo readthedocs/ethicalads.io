@@ -18,12 +18,12 @@ but we expect publishers to stay within these guidelines at all times.
 
 ## Ad Display
 
-We have the following around display of our ads:
+We have the following rules around display of our ads:
 
 * Our ad should be the only ad on your site
 * The ad should appear when the user first visits, above the fold, on both desktop and mobile. You can disable the ad on mobile if this isn't possible.
-* You are welcome to display a different ad as a fallback if EthicalAds doesn't have a paid ad to show on your property.
-* The ad placement should result in at least a .1% CTR (click-through rate). If your CTR falls below this, we will work with you to improve the placement. 
+* You are welcome to [display a different ad](https://ethical-ad-client.readthedocs.io/en/latest/#customization) as a fallback if EthicalAds doesn't have a paid ad to show.
+* The ad placement should result in at least a .1% CTR (click-through rate). If your CTR falls below this, we'll work with you to improve the placement. 
 
 ## Payouts
 
@@ -52,5 +52,6 @@ which won't be counted as a paid ad view:
 * Users with IP addresses we can't geolocate
 * Users with IP address that map to known hosting providers, VPN's, and web proxies
 
-We have an ongoing ad fraud detection system,
+We are regularly tweaking our ad fraud detection in response to new challenges,
 and we're happy to work with publishers to make sure our ads work for them.
+
