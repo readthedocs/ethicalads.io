@@ -1,5 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds - posts</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/posts.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2020-08-24T00:00:00-07:00</updated><entry><title>Announcing EthicalAds</title><link href="https://www.ethicalads.io/blog/2020/08/announcing-ethicalads/" rel="alternate"></link><published>2020-08-24T00:00:00-07:00</published><updated>2020-08-24T00:00:00-07:00</updated><author><name>Eric Holscher</name></author><id>tag:www.ethicalads.io,2020-08-24:/blog/2020/08/announcing-ethicalads/</id><summary type="html">&lt;p&gt;We're excited to announce the release of EthicalAds,
+<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds - posts</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/posts.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2020-09-03T00:00:00-07:00</updated><entry><title>EthicalAds Newsletter - August 2020</title><link href="https://www.ethicalads.io/blog/2020/09/ethicalads-newsletter-august-2020/" rel="alternate"></link><published>2020-09-03T00:00:00-07:00</published><updated>2020-09-03T00:00:00-07:00</updated><author><name>Eric Holscher</name></author><id>tag:www.ethicalads.io,2020-09-03:/blog/2020/09/ethicalads-newsletter-august-2020/</id><summary type="html">&lt;p&gt;We're excited to share you with our first newsletter,
+where we'll share updates about our progress.
+Inspired by Eric Berry …&lt;/p&gt;</summary><content type="html">&lt;p&gt;We're excited to share you with our first newsletter,
+where we'll share updates about our progress.
+Inspired by Eric Berry and the CodeFund team,
+we'll also share our struggles and challenges.
+We believe strongly that being transparent and ethical go hand in hand,
+and will strive to share as much as we can.&lt;/p&gt;
+&lt;h2 id="advertising-stats"&gt;Advertising Stats&lt;/h2&gt;
+&lt;p&gt;August is the first full month that we've served ads on our EthicalAds network.
+We're excited to already be supporting so many publishers.
+Making sure developers are paid for their work is a huge part of our mission,
+and revenue paid out is our most important stat.&lt;/p&gt;
+&lt;p&gt;In August:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We generated &lt;strong&gt;$5,375.22&lt;/strong&gt; for our publishers&lt;/li&gt;
+&lt;li&gt;We had &lt;strong&gt;50 publishers&lt;/strong&gt; on our network with a paid ad impression&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
+&lt;p&gt;We're working hard on building new features as we get more feedback from our advertisers and publishers.
+It's still early days,
+and we really appreciate how understanding everyone has been with any confusion in our processes.&lt;/p&gt;
+&lt;p&gt;The big things we added this month:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We added an explicit &lt;a href="https://www.ethicalads.io/publisher-policy/"&gt;Publisher Policy&lt;/a&gt; to set expectations in our relationship with our publishers.&lt;/li&gt;
+&lt;li&gt;We added an &lt;a href="https://www.ethicalads.io/advertisers/faq/"&gt;FAQ&lt;/a&gt; to the EthicalAds site.&lt;/li&gt;
+&lt;li&gt;We documented our &lt;a href="https://www.ethicalads.io/advertising-vision/"&gt;Ad Vision&lt;/a&gt; on the website, showing how we're different than other ad networks.&lt;/li&gt;
+&lt;li&gt;We improved our fraud detection mechanisms to be smarter about rate limiting ad views and detect when users are using a proxy to view the documentation.&lt;/li&gt;
+&lt;li&gt;Publishers can now store payout setting in the dashboard directly. This improves our workflow for paying out publishers, hopefully making it smoother.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can always see the latest code updates in our &lt;a href="https://ethical-ad-server.readthedocs.io/en/latest/developer/changelog.html"&gt;changelog&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="tricky-bits"&gt;Tricky bits&lt;/h2&gt;
+&lt;p&gt;Our current priority is getting publishers more money. We know that we're a little bit below what some other networks are able to pay because of how new we are. We're fully focused on improving this situation, and it has happened for a few reasons.&lt;/p&gt;
+&lt;p&gt;Our largest issue in August was getting added to the main ad block lists. We're currently working with the team at Eyeo (AdBlock Plus) to get our new ads on the Acceptable Ads list. Ad blocking removed 30% of our total traffic, which was a large impact. Being put on Acceptable Ads &lt;a href="https://www.ethicalads.io/blog/2018/05/update-on-ad-blocking-and-acceptable-ads/"&gt;got around 50% of those blocked views back&lt;/a&gt; when it happened to Read the Docs in 2018.&lt;/p&gt;
+&lt;p&gt;There are two other places we're working to improve this situation: raising our prices and selling more of our inventory. Since we had to scramble to get everything sold when we launched in July, we didn't have time to adjust our prices and do a full sales cycle with our advertisers. The other aspect is that a lot of our APAC inventory is unsold. For some of our publishers, this means 50% of ad views aren't currently being monetized. We generally recommend &lt;a href="https://ethical-ad-client.readthedocs.io/en/latest/#customization"&gt;falling back to other content&lt;/a&gt; in these cases, if that is something you're comfortable doing.&lt;/p&gt;
+&lt;h2 id="upcoming-features"&gt;Upcoming features&lt;/h2&gt;
+&lt;p&gt;We have a number of new things on our roadmap for September.
+We'll try to share our upcoming roadmap,
+so folks have an idea of what we're working on this month.&lt;/p&gt;
+&lt;p&gt;Our large roadmap items are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Improve our codebase to support multiple placements for one Publisher. This will be useful for sites with multiple placements that want to track performance between them.&lt;/li&gt;
+&lt;li&gt;Unify the old advertising pages on Read the Docs with our new EthicalAds ones, making everything a bit clearer.&lt;/li&gt;
+&lt;li&gt;Improve Publisher onboarding, including sharing more information about expectations in a Publisher prospectus.&lt;/li&gt;
+&lt;li&gt;Ship our Q4 prospectus, with some additional improvements around explaining what EthicalAds is.&lt;/li&gt;
+&lt;li&gt;Write more blog content around how to market to developers.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We're always open to additional feedback and ideas on our approach,
+so feel free to &lt;a href="mailto:ads@readthedocs.org"&gt;email us&lt;/a&gt; directly.&lt;/p&gt;</content><category term="posts"></category></entry><entry><title>Announcing EthicalAds</title><link href="https://www.ethicalads.io/blog/2020/08/announcing-ethicalads/" rel="alternate"></link><published>2020-08-24T00:00:00-07:00</published><updated>2020-08-24T00:00:00-07:00</updated><author><name>Eric Holscher</name></author><id>tag:www.ethicalads.io,2020-08-24:/blog/2020/08/announcing-ethicalads/</id><summary type="html">&lt;p&gt;We're excited to announce the release of EthicalAds,
 a privacy-focused ad network for developers.
 We think advertising is one of …&lt;/p&gt;</summary><content type="html">&lt;p&gt;We're excited to announce the release of EthicalAds,
 a privacy-focused ad network for developers.
