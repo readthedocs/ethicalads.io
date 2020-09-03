@@ -17,8 +17,8 @@ and will strive to share as much as we can.
 
 ## Advertising Stats
 
-August is the first full month that we've served ads,
-and we're excited to be so far along after our first month.
+August is the first full month that we've served ads on our EthicalAds network.
+We're excited to already be supporting so many publishers.
 Making sure developers are paid for their work is a huge part of our mission,
 and revenue paid out is our most important stat.
 
@@ -49,7 +49,7 @@ Our current priority is getting publishers more money. We know that we're a litt
 
 Our largest issue in August was getting added to the main ad block lists. We're currently working with the team at Eyeo (AdBlock Plus) to get our new ads on the Acceptable Ads list. Ad blocking removed 30% of our total traffic, which was a large impact. Being put on Acceptable Ads [got around 50% of those blocked views back](https://www.ethicalads.io/blog/2018/05/update-on-ad-blocking-and-acceptable-ads/) when it happened to Read the Docs in 2018.
 
-There are two other places we're working to improve this situation: raising our prices and selling more of our inventory. Since we had to scramble to get everything sold when we launched in July, we didn't have time to adjust our prices and do a full sales cycle with our advertisers. The other aspect is that a lot of our APAC inventory is unsold. For some of our publishers, this means 50% of ad views aren't currently being monetized. We generally recommend [falling back to other content]() in these cases, if that is something you're comfortable doing.
+There are two other places we're working to improve this situation: raising our prices and selling more of our inventory. Since we had to scramble to get everything sold when we launched in July, we didn't have time to adjust our prices and do a full sales cycle with our advertisers. The other aspect is that a lot of our APAC inventory is unsold. For some of our publishers, this means 50% of ad views aren't currently being monetized. We generally recommend [falling back to other content](https://ethical-ad-client.readthedocs.io/en/latest/#customization) in these cases, if that is something you're comfortable doing.
 
 ## Upcoming features
 
