@@ -3,6 +3,7 @@ Date: Sept 3, 2020
 description: Our first community update via our newsletter.
 tag: ads, newsletter, community
 authors: Eric Holscher
+image: /images/posts/2020-august-update.png
 
 We're excited to share you with our first newsletter,
 where we'll share updates about our progress.
