@@ -7,7 +7,7 @@ image: /images/posts/2020-august-update.png
 
 We're excited to share you with our first newsletter,
 where we'll share updates about our progress.
-Inspired by Eric Berry and the CodeFund team,
+Inspired by [Eric Berry](https://twitter.com/coderberry) and the CodeFund team,
 we'll also share our struggles and challenges.
 We believe strongly that being transparent and ethical go hand in hand,
 and will strive to share as much as we can.
