@@ -6,29 +6,50 @@
 
 
 {% block content %}
-<section class="container py-5">
-  <div class="row">
-    <div class="col-md-8">
-      <article class="post">
-        <h1>{{ article.title }}</h1>
+<section class="container py-5 mb-10">
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-10 col-lg-9 col-xl-8">
+      <!-- Heading -->
+      <h1 class="display-4">{{ article.title }}</h1>
 
-        <p class="text-muted strong">
-          <span>By {% for author in article.authors %}{{ author }}{% if not loop.last %}, {% endif %}{% endfor %} on </span>
-          <time class="published" datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>
-        </p>
+      <!-- Meta -->
+      <div class="row align-items-center py-5 border-top border-bottom">
+        <div class="col">
 
-        {% if article.image %}
-          <div class="jumbotron" style="background-image: url('{{ article.image }}')"></div>
-        {% endif %}
+          <div class="d-flex w-100">
+            <!-- Author -->
+            <div class="flex-fill h6 text-uppercase mb-0">{% for author in article.authors %}{{ author }}{% if not loop.last %}, {% endif %}{% endfor %}</div>
 
-        {{ article.content }}
-      </article>
-    </div>
-    <aside class="col-md-4">
-      <div class="mt-5">
-        {% include 'includes/blog-sidebar.html' %}
+            <!-- Date -->
+            <div class="flex-fill h6 text-uppercase text-muted mb-0 ml-auto text-right">
+              <time class="text-nowrap" datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>
+            </div>
+          </div>
+        </div>
       </div>
-    </aside>
-  </div>
+
+      <!-- IMAGE  -->
+      {% if article.image %}
+        <!-- Fugure -->
+        <figure class="figure mb-7">
+
+          <!-- Image -->
+          <img class="figure-img img-fluid rounded" src="{{ article.image }}" alt="{{ article.title|striptags }}">
+
+          <!-- Caption -->
+          {# <figcaption class="figure-caption text-center"></figcaption> #}
+
+        </figure>
+      {% endif %}
+
+      <div>
+        {{ article.content }}
+      </div>
+
+    </div>
+  </div> <!-- / .row -->
 </section>
+
+
+{% include 'includes/blog-footer.html' %}
 {% endblock content %}

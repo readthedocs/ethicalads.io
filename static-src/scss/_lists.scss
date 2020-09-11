@@ -1,0 +1,9 @@
+ul {
+  li {
+    // Pelican puts a paragraph tag around an item with a nested list
+    // This results in odd spacing in Bootstrap
+    p:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+}
