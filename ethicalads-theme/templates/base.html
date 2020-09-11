@@ -46,7 +46,7 @@
 
     {% endblock head %}
   </head>
-  <body>
+  <body class="{% block bodyclasses %}bg-light{% endblock bodyclasses %}">
 
     {% include 'includes/navigation.html' %}
 

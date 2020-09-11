@@ -1,8 +1,7 @@
 title: Our Advertising Vision
 slug: advertising-vision
 description: Advertising doesn't have to involve tracking users to be successful. At EthicalAds, we see a different future for advertising that respects user privacy.
-template: ea/vision
-h2: Ads that don't track you, sold by a company you can trust
+subtitle: Ads that don't track you, sold by a company you can trust
 
 
 We realize that our name, EthicalAds, sets a high bar for what people expect.
