@@ -1,0 +1,84 @@
+//
+// borders.scss
+// Extended from Bootstrap
+//
+
+// Responsive widths
+
+@each $width, $widthValue in $container-max-widths {
+
+  @include media-breakpoint-up($width) {
+
+    // Additive
+
+    .border-#{$width} {
+      border: $border-width solid $border-color !important;
+      color: rose;
+    }
+
+    .border-top-#{$width} {
+      border-top: $border-width solid $border-color !important;
+    }
+
+    .border-right-#{$width} {
+      border-right: $border-width solid $border-color !important;
+    }
+
+    .border-bottom-#{$width} {
+      border-bottom: $border-width solid $border-color !important;
+    }
+
+    .border-left-#{$width} {
+      border-left: $border-width solid $border-color !important;
+    }
+
+    // Substractive
+
+    .border-#{$width}-0 {
+      border: 0 !important;
+    }
+
+    .border-top-#{$width}-0 {
+      border-top: 0 !important;
+    }
+
+    .border-right-#{$width}-0 {
+      border-right: 0 !important;
+    }
+
+    .border-bottom-#{$width}-0 {
+      border-bottom: 0 !important;
+    }
+
+    .border-left-#{$width}-0 {
+      border-left: 0 !important;
+    }
+  }
+}
+
+
+// Colors
+
+.border-white-10 {
+  border-color: fade-out($white, .9) !important;
+}
+
+.border-white-20 {
+  border-color: fade-out($white, .8) !important;
+}
+
+.border-gray-300 {
+  border-color: $gray-300 !important;
+}
+
+.border-gray-800 {
+  border-color: $gray-800 !important;
+}
+
+.border-gray-800-50 {
+  border-color: fade-out($gray-800, .5) !important;
+}
+
+.border-gray-900-50 {
+  border-color: rgba($gray-900, .5) !important;
+}

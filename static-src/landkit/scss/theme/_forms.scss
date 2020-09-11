@@ -1,0 +1,103 @@
+//
+// forms.scss
+// Extended from Boostrap
+//
+
+// Sizing
+
+.form-control-xs {
+  height: $input-height-xs;
+  padding: $input-padding-y-xs $input-padding-x-xs;
+  font-size: $input-font-size-xs;
+}
+
+
+// Form control flush
+
+.form-control-flush {
+  padding-left: 0;
+  padding-right: 0;
+  border-top-width: 0;
+  border-right-width: 0;
+  border-left-width: 0;
+  border-radius: 0;
+}
+
+
+// Custom file input
+
+.custom-file-label::after {
+  font-weight: $font-weight-bold;
+}
+
+
+// Floating label
+//
+// Works for base size only
+
+.form-label-group {
+  position: relative;
+  margin-bottom: $form-group-margin-bottom;
+}
+
+.form-label-group > label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: $input-height;
+  padding: $input-padding-y $input-padding-x;
+  margin-bottom: 0;
+  line-height: $input-line-height;
+  font-size: $input-font-size;
+  color: $input-placeholder-color;
+  pointer-events: none;
+  cursor: text;
+  transition: $transition-base;
+}
+
+.form-label-group > .form-control-flush ~ label {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.form-label-group > .form-control::placeholder {
+  color: transparent;
+}
+
+.form-label-group > .form-control:not(:placeholder-shown) {
+  padding-top: $input-padding-y * 1.5;
+  padding-bottom: $input-padding-y * .5;
+}
+
+.form-label-group > .form-control:not(:placeholder-shown) ~ label {
+  padding-top: ((($input-padding-y * 1.5) - ($font-size-xs * $input-line-height)) / 2);
+  padding-bottom: ((($input-padding-y * 1.5) - ($font-size-xs * $input-line-height)) / 2);
+  font-size: $font-size-xs;
+}
+
+// Fallback for Edge
+
+@supports (-ms-ime-align: auto) {
+
+  .form-label-group > label {
+    display: none;
+  }
+
+  .form-label-group .form-control::placeholder {
+    color: $input-placeholder-color;
+  }
+}
+
+// Fallback for IE
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+
+  .form-label-group > label {
+    display: none;
+  }
+
+  .form-label-group .form-control::placeholder {
+    color: $input-placeholder-color;
+  }
+}

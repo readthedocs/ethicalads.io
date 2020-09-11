@@ -1,0 +1,58 @@
+//
+// type.scss
+// Extended from Bootstrap
+//
+
+//
+// Font sizing
+//
+
+.font-size-sm {
+  font-size: $font-size-sm !important;
+}
+
+.font-size-lg {
+  font-size: $font-size-lg !important;
+
+  @include media-breakpoint-down(md) {
+    font-size: $font-size-lg-md !important;
+  }
+}
+
+
+//
+// Text color
+//
+
+// Gray text
+
+@each $color, $value in $grays {
+  .text-gray-#{$color} {
+    color: $value !important;
+  }
+}
+
+// Text opacity
+
+.text-white-70 {
+  color: rgba($white, .7) !important;
+}
+
+.text-white-75 {
+  color: rgba($white, .75) !important;
+}
+
+.text-white-80 {
+  color: rgba($white, .8) !important;
+}
+
+.text-muted-80 {
+  color: rgba($text-muted, .8) !important;
+}
+
+
+// Letter spacing
+
+.letter-spacing-lg {
+  letter-spacing: $letter-spacing-lg !important;
+}

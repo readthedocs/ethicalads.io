@@ -1,0 +1,112 @@
+//
+// flickity.scss
+// Library overrides
+//
+
+// Controls
+
+.flickity-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: $input-height;
+  height: $input-height;
+  background-color: $primary;
+  box-shadow: $box-shadow-light;
+  color: $white;
+
+  &::before, &::after {
+    font-family: "Feather";
+  }
+
+  @include hover-focus {
+    background-color: $primary;
+    box-shadow: $box-shadow;
+  }
+}
+
+.flickity-button.previous {
+  left: 0;
+  transform: translate(calc(-50% + #{$grid-gutter-width / 4}), -50%);
+
+  @include media-breakpoint-up(md) {
+    transform: translate(-50%, -50%);
+  }
+
+  &::before {
+    content: "\e910";
+  }
+}
+
+.flickity-button.next {
+  right: 0;
+  transform: translate(calc(50% - #{$grid-gutter-width / 4}), -50%);
+
+  @include media-breakpoint-up(md) {
+    transform: translate(50%, -50%);
+  }
+
+  &::before {
+    content: "\e912";
+  }
+}
+
+.flickity-button-icon {
+  display: none;
+}
+
+
+// Button white
+
+.flickity-button-white .flickity-button {
+  background-color: $white;
+  color: $primary;
+}
+
+
+// Button bottom
+
+.flickity-button-bottom .flickity-button {
+  top: auto;
+  bottom: 1.5rem;
+  transform: none;
+}
+
+.flickity-button-bottom .flickity-button.previous {
+  left: auto;
+  right: 6.375rem;
+}
+
+.flickity-button-bottom .flickity-button.next {
+  left: auto;
+  right: 2.5rem;
+}
+
+
+// Button inset
+
+.flickity-button-inset .flickity-button {
+  transform: translateY(-50%);
+}
+
+.flickity-button-inset .flickity-button.previous {
+  left: 1.5rem;
+}
+
+.flickity-button-inset .flickity-button.next {
+  right: 1.5rem;
+}
+
+
+// Viewport
+
+.flickity-viewport-visible .flickity-viewport {
+  overflow: visible;
+}
+
+
+// Adaptive height
+
+[data-flickity*='"adaptiveHeight": true'] .flickity-viewport {
+  transition: all .5s ease; // Make the transition match the rough duration of flicking between items
+}

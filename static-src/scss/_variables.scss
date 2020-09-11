@@ -1,5 +1,11 @@
-$primary: #2c82b9;  /* EthicalAds blue */
-$warning: #ffc107;  /* yellow */
+// Paths where Landkit looks for things
+$path-to-fonts: "../landkit/fonts";
+$path-to-img: "../landkit/img";
 
-$jumbotron-height: 25rem;
-$article-image-height: 15rem;
+// Use the built-in fonts rather than a proprietary one
+$font-family-base: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+
+// EthicalAds blue
+$primary: #2c82b9;
+
+$navbar-nav-link-font-weight: $font-weight-normal;

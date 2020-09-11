@@ -1,0 +1,77 @@
+//
+// custom-forms.scss
+// Extended from Bootstrap
+//
+
+// Switch
+
+.custom-switch {
+  min-height: $custom-switch-height;
+
+  .custom-control-label {
+
+    &::before {
+      top: (($font-size-base * $line-height-base - $custom-switch-height) / 2);
+      height: $custom-switch-height;
+      border-radius: $custom-switch-height / 2;
+    }
+
+    &::after {
+      top: (($font-size-base * $line-height-base - $custom-switch-height) / 2 + $custom-switch-spacing);
+      left: $custom-switch-spacing - $custom-control-gutter - $custom-switch-width;
+      background-color: $custom-switch-indicator-bg;
+    }
+  }
+
+  .custom-control-input:checked ~ .custom-control-label {
+
+    &::after {
+      background-color: $custom-switch-indicator-active-bg;
+      transform: translateX($custom-switch-width - $custom-switch-spacing * 2 - $custom-switch-indicator-size);
+    }
+  }
+}
+
+// Switch dark
+
+.custom-switch-dark {
+
+  .custom-control-label {
+
+    &::before {
+      background-color: $custom-switch-bg-dark;
+    }
+
+    &::after {
+      background-color: $custom-switch-indicator-bg-dark;
+    }
+  }
+
+  .custom-control-input:checked ~ .custom-control-label {
+
+    &::before {
+      background-color: $custom-switch-active-bg-dark;
+    }
+
+    &::after {
+      background-color: $custom-switch-active-indicator-bg-dark;
+    }
+  }
+}
+
+
+// Custom select
+
+// Sizing
+
+.custom-select-sm {
+  background: $custom-select-bg $custom-select-indicator no-repeat right $custom-select-padding-x-sm center / $custom-select-bg-size;
+}
+
+.custom-select-xs {
+  height: $custom-select-height-xs;
+  padding: $custom-select-padding-y-xs ($custom-select-padding-x-xs + $custom-select-indicator-padding-xs) $custom-select-padding-y-xs $custom-select-padding-x-xs;
+  background: $custom-select-bg $custom-select-indicator no-repeat right $custom-select-padding-x-xs center / $custom-select-bg-size;
+  line-height: $custom-select-line-height-xs;
+  font-size: $custom-select-font-size-xs;
+}

@@ -1,0 +1,23 @@
+//
+// table.scss
+// Extended from Bootstrap
+//
+
+.table {
+
+  thead > tr > th {
+    border-top-width: 0;
+    border-bottom-width: $border-width;
+  }
+}
+
+
+// Alignment
+
+.table-align-middle {
+
+  thead > tr > th,
+  tbody > tr > td {
+    vertical-align: middle;
+  }
+}

@@ -1,0 +1,95 @@
+//
+// badge.scss
+// Extended from Bootstrap
+//
+
+
+// Soft variants
+
+@each $color, $value in $theme-colors {
+  .badge-#{$color}-soft {
+    @include badge-variant-soft($value, $badge-soft-bg-opacity);
+  }
+}
+
+.badge-gray-700-soft {
+  @include badge-variant-soft($gray-700, $badge-soft-bg-opacity);
+}
+
+
+// Color options
+
+.badge-gray-600 {
+  background-color: $gray-600;
+  color: $white;
+}
+
+
+// Sizing
+
+.badge-lg {
+  padding: $badge-padding-y-lg $badge-padding-x-lg;
+}
+
+
+// Rounded circle
+
+.badge-rounded-circle {
+  height: calc(1em + #{$badge-padding-y * 2});
+  padding-left: $badge-padding-y;
+  padding-right: $badge-padding-y;
+  border-radius: $badge-pill-border-radius;
+
+  > * {
+    display: block;
+    width: 1em;
+  }
+
+
+  &.badge-lg {
+    height: calc(1em + #{$badge-padding-y-lg * 2});
+    padding-left: $badge-padding-y-lg;
+    padding-right: $badge-padding-y-lg;
+  }
+}
+
+
+// Positioning
+
+.badge-float {
+  position: absolute;
+  z-index: $zindex-dropdown;
+}
+
+.badge-float-outside {
+  top: -.5rem;
+  right: -.5rem;
+}
+
+.badge-float-inside {
+  top: 1rem;
+  right: 1rem;
+}
+
+
+// Active
+
+.badge-white-soft.active {
+  background-color: $white;
+  color: $primary;
+
+  @include hover-focus {
+    background-color: darken($white, 5%);
+    color: $primary;
+  }
+}
+
+.badge-secondary-soft.active {
+  background-color: $primary;
+  color: color-yiq($primary);
+
+  @include hover-focus {
+    background-color: darken($primary, 5%);
+    color: color-yiq(darken($primary, 5%));
+  }
+}
