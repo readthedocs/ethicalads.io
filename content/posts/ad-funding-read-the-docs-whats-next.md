@@ -1,7 +1,7 @@
 Title: Ad Funding at Read the Docs and What's Next for Ethical Advertising
 Date: June 11, 2019
 description: A progress report and next steps in launching an ethical advertising network without user tracking.
-tag: ads, readthedocs
+tags: readthedocs
 authors: David Fischer
 
 

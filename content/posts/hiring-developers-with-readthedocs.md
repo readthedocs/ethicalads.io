@@ -1,7 +1,7 @@
 Title: Tips to Hire Developers with Read the Docs
 Date: October 30, 2018
 description: How to advertise your open positions to developers on Read the Docs: set the right expectations, be specific, and stand out.
-tag: ads, hiring, readthedocs
+tag: hiring, readthedocs
 authors: David Fischer
 
 

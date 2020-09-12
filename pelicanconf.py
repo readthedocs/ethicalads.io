@@ -35,6 +35,8 @@ MARKDOWN = {
     "output_format": "html5",
 }
 
+PLUGINS = ["related_posts"]
+
 
 # Feed (RSS/Atom) settings
 # Feed generation is usually not desired when developing
@@ -84,3 +86,6 @@ SOCIAL = ()
 
 
 DEFAULT_PAGINATION = 10
+
+# Used by the pelican-related-posts plugin
+RELATED_POSTS_MAX = 3

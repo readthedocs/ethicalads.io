@@ -1,7 +1,7 @@
 Title: Update on Ad Blocking and Acceptable Ads
 Date: May 21, 2018
 description: Read the Docs was added to the AdblockPlus Acceptable Ads list and this is the effect it had on our business.
-tag: ads, adblock, readthedocs
+tags: adblock, readthedocs
 authors: David Fischer
 
 

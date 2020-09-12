@@ -51,5 +51,62 @@
 </section>
 
 
+<!-- Related Posts -->
+<!-- ================================================== -->
+{% if article.related_posts %}
+<section class="py-5 bg-gray-200">
+
+  <div class="container">
+
+    <h3 class="mb-4">Similar posts</h3>
+
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+      {% for related_article in article.related_posts %}
+        <div class="col mb-10">
+          <article class="card h-100 shadow-light-lg lift lift-lg">
+            {% if related_article.image %}
+              <a href="/{{ related_article.url }}">
+                <img src="{{ related_article.image }}" alt="{{ related_article.title|striptags }}" class="card-img-top">
+
+                <!-- Style shape to the image -->
+                <div class="position-relative">
+                  <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
+                    <svg viewBox="0 0 2880 480" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2160 0C1440 240 720 240 720 240H0v240h2880V0h-720z" fill="currentColor"/></svg>
+                  </div>
+                </div>
+              </a>
+            {% endif %}
+            <a class="card-body" href="/{{ related_article.url }}" title="Permalink to {{ related_article.title|striptags }}">
+              <h3 class="card-title font-weight-light">{{ related_article.title }}</h3>
+
+              <p class="mb-0">{{ related_article.summary|striptags|escape }}</p>
+
+            </a>
+
+            <a class="card-meta mt-auto" href="/{{ related_article.url }}">
+
+              <!-- Divider -->
+              <hr class="card-meta-divider">
+
+              <div class="d-flex w-100">
+                <!-- Author -->
+                <div class="flex-fill h6 text-uppercase text-muted mb-0 mr-2">{% for author in related_article.authors %}{{ author }}{% if not loop.last %}, {% endif %}{% endfor %}</div>
+
+                <!-- Date -->
+                <div class="flex-fill h6 text-uppercase text-muted mb-0 ml-auto text-right">
+                  <time class="text-nowrap" datetime="{{ related_article.date.isoformat() }}">{{ related_article.locale_date }}</time>
+                </div>
+              </div>
+
+            </a>
+          </article>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+
 {% include 'includes/blog-footer.html' %}
 {% endblock content %}

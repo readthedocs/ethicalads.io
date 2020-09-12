@@ -1,6 +1,9 @@
 # Static site generation with Pelican
-pelican==4.2.0
+pelican==4.5.0
 Markdown==3.1.1
+
+# Plugins
+pelican-related-posts==1.0.0
 
 # Automate various blog actions
 invoke<1.5
