@@ -21,8 +21,8 @@ import * as bootstrap from 'bootstrap';
 import './landkit/fonts/Feather/feather.css';
 
 // AOS (Animate on Scroll) is for animations around fading in/out and from left/right
-import 'aos/dist/aos.css';
-import './landkit/js/aos.js';
+//import 'aos/dist/aos.css';
+//import './landkit/js/aos.js';
 
 // Choices allows for more customizability of select boxes
 //import './landkit/js/choices.js';
