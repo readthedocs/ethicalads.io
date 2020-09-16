@@ -1,7 +1,7 @@
 Title: EthicalAds Newsletter - August 2020
 Date: Sept 3, 2020
 description: Our first community update via our newsletter.
-tag: ads, newsletter, community
+tags: newsletter, community
 authors: Eric Holscher
 image: /images/posts/2020-august-update.png
 

@@ -1,7 +1,7 @@
 Title: Tips for Getting a Developer Interview
 Date: February 13, 2019
 description: Over the last month, we talked to a few dozen hiring managers and recruiters and we wanted to share some tips that could be useful for candidates looking to land their first tech job
-tag: ads, hiring, readthedocs
+tags: hiring, readthedocs
 authors: David Fischer
 
 

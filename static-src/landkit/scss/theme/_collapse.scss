@@ -1,0 +1,15 @@
+//
+// collapse.scss
+// Theme component
+//
+
+.collapse-chevron {
+  display: inline-block;
+  transition: $transition-base;
+}
+
+// Expanded
+
+[aria-expanded="true"] .collapse-chevron {
+  transform: rotate(-180deg);
+}

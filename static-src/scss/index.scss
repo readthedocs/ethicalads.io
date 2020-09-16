@@ -1,7 +1,30 @@
-@import "_variables.scss";
-@import "~bootstrap/scss/bootstrap.scss";
+////////////////////////////////////////////////////////////////////////////
+// Landkit
+//
+// Landkit is a bootstrap theme we use for these marketing landing pages.
+// https://themes.getbootstrap.com/product/landkit/
+////////////////////////////////////////////////////////////////////////////
+// Bootstrap functions
+@import "~bootstrap/scss/functions";
 
-$fa-font-path: "~font-awesome/fonts";
-@import "~font-awesome/scss/font-awesome.scss";
+// Theme functions
+@import "../landkit/scss/theme/functions";
 
-@import "theme.scss";
+// Theme variables
+@import "../landkit/scss/theme/variables";
+
+// Our override variables
+@import "variables";
+
+// Bootstrap core
+@import "~bootstrap/scss/bootstrap";
+
+// Theme core
+@import "../landkit/scss/theme/theme";
+////////////////////////////////////////////////////////////////////////////
+// End Landkit
+////////////////////////////////////////////////////////////////////////////
+
+
+@import "blockquotes";
+@import "lists";

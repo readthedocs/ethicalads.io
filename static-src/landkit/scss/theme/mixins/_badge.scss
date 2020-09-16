@@ -1,0 +1,16 @@
+//
+// badge.scss
+// Extended from Bootstrap
+//
+
+@mixin badge-variant-soft($color, $badge-soft-bg-opacity) {
+  background-color: rgba($color, $badge-soft-bg-opacity);
+  color: $color;
+
+  @at-root a#{&} {
+    @include hover-focus {
+      background-color: rgba($color, $badge-soft-bg-opacity * 2);
+      color: $color;
+    }
+  }
+}

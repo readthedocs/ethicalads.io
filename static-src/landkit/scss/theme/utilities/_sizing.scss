@@ -1,0 +1,72 @@
+//
+// sizing.scss
+// Extended from Bootstrap
+//
+
+@each $size, $sizeValue in $sizes {
+
+  // Percentage
+
+  .mw-#{$size} {
+    max-width: $sizeValue !important;
+  }
+
+  // Viewport units
+
+  .vw-#{$size} {
+    width: #{$size}vw !important;
+  }
+
+}
+
+
+// Responsive
+
+@each $width, $widthValue in $container-max-widths {
+
+  @include media-breakpoint-up($width) {
+
+    @each $size, $sizeValue in $sizes {
+
+      // Percentage
+
+      .h-#{$width}-#{$size} {
+        height: $sizeValue !important;
+      }
+
+      .w-#{$width}-#{$size} {
+        width: $sizeValue !important;
+      }
+
+      .mw-#{$width}-#{$size} {
+        max-width: $sizeValue !important;
+      }
+
+      // Viewport units
+
+      .vh-#{$width}-#{$size} {
+        height: #{$size}vh;
+      }
+
+      .vw-#{$width}-#{$size} {
+        width: #{$size}vw;
+      }
+
+    }
+  }
+}
+
+
+// Cover
+//
+// Spans the container till the edge of the viewport
+
+.w-cover {
+
+  @each $width, $value in $container-max-widths {
+
+    @include media-breakpoint-up(#{$width}) {
+      width: calc(100% + (100vw - #{$value}) / 2 + #{$grid-gutter-width});
+    }
+  }
+}

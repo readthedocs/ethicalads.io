@@ -1,7 +1,7 @@
 Title: Lessons From and For Hiring Managers
 Date: January 30, 2019
 description: Over the last month, we talked to a few dozen hiring managers at tech firms to learn about what they look for and where they look when they're looking to hire
-tag: ads, hiring, readthedocs
+tags: hiring, readthedocs
 authors: David Fischer
 
 

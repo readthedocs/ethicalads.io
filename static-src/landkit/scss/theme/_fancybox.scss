@@ -1,0 +1,14 @@
+//
+// fancybox.scss
+// Theme component
+//
+
+body.compensate-for-scrollbar {
+  margin-right: 0 !important;
+}
+
+// Change overlay color
+
+.fancybox-container .fancybox-bg {
+  background-color: fade-out($white, .03);
+}

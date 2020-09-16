@@ -7,7 +7,7 @@
       {% endblock metas %}
 
       <!-- Bootstrap CSS -->
-      <link rel="stylesheet" href="/theme/main.css">
+      <link rel="stylesheet" href="/theme/dist/main.css">
 
       <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
 
@@ -46,7 +46,7 @@
 
     {% endblock head %}
   </head>
-  <body>
+  <body class="{% block bodyclasses %}bg-light{% endblock bodyclasses %}">
 
     {% include 'includes/navigation.html' %}
 
@@ -58,7 +58,7 @@
 
     {% include 'includes/footer.html' %}
 
-    <script src="/theme/bundle.js"></script>
+    <script src="/theme/dist/bundle.js"></script>
     {% block extrascripts %}{% endblock extrascripts %}
   </body>
 </html>

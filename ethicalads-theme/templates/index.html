@@ -3,37 +3,124 @@
 
 
 {% block content %}
-<section class="container py-5 page">
+<section class="container py-5 mb-10 page">
   {% block content_title %}
-    <h1>EthicalAds blog</h1>
+    <h1 class="font-weight-light display-3">EthicalAds Blog</h1>
     <p class="lead">Privacy-focused advertising for developers</p>
   {% endblock %}
 
 
-  <div class="row">
-    <div class="col-md-8">
+  {% for article in articles_page.object_list %}
+    {% if not articles_previous_page and loop.first %}
+      <div class="row">
+        <div class="col-12">
 
-      <div class="row row-cols-1 row-cols-lg-2">
-        {% for article in articles_page.object_list %}
-          <div class="col mb-4">
-            <article class="card h-100 shadow-sm">
-              {% if article.image %}
-                <a href="/{{ article.url }}"><div class="card-img-top" style="background-image: url('{{ article.image }}')"></div></a>
-              {% endif %}
-              <div class="card-body">
-                <h5 class="card-title">
-                  <a href="/{{ article.url }}" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a>
-                </h5>
-                <p class="text-muted strong small">
-                  <span>By {% for author in article.authors %}{{ author }}{% if not loop.last %}, {% endif %}{% endfor %} on </span>
-                  <time class="published" datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>
-                </p>
-                <p class="card-text">{{ article.summary|striptags|escape }}</p>
+          <!-- Card -->
+          <div class="card card-row shadow-light-lg mb-6 lift lift-lg mb-10">
+            <div class="row no-gutters">
+              <div class="col-12">
 
-                <p class="text-center text-muted mb-0 small"><a href="/{{ article.url }}">Read More</a></p>
               </div>
-            </article>
+              <a class="col-12 col-md-6 order-md-2 bg-cover card-img-right" style="background-image: url({{ article.image }});" href="/{{ article.url }}">
+
+                <!-- Image (placeholder) -->
+                <img src="{{ article.image }}" alt="{{ article.title }}" class="img-fluid d-md-none invisible">
+
+                <!-- Shape -->
+                <div class="shape shape-left shape-fluid-y svg-shim text-white d-none d-md-block">
+                  <svg viewBox="0 0 112 690" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h62.759v172C38.62 384 112 517 112 517v173H0V0z" fill="currentColor"/></svg>
+                </div>
+
+              </a>
+              <div class="col-12 col-md-6 order-md-1">
+
+                <!-- Body -->
+                <a class="card-body" href="/{{ article.url }}">
+
+                  <!-- Heading -->
+                  <h3 class="font-weight-light">{{ article.title }}</h3>
+
+                  <!-- Text -->
+                  <p class="mb-0">{{ article.summary|striptags|escape }}</p>
+
+                </a>
+
+                <!-- Meta -->
+                <a class="card-meta" href="/{{ article.url }}">
+
+                  <!-- Divider -->
+                  <hr class="card-meta-divider">
+
+                  <div class="d-flex w-100">
+                    <!-- Author -->
+                    <div class="flex-fill h6 text-uppercase text-muted mb-0 mr-2">{% for author in article.authors %}{{ author }}{% if not loop.last %}, {% endif %}{% endfor %}</div>
+
+                    <!-- Date -->
+                    <div class="flex-fill h6 text-uppercase text-muted mb-0 ml-auto text-right">
+                      <time class="text-nowrap" datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>
+                    </div>
+                  </div>
+
+                </a>
+
+              </div>
+
+            </div> <!-- / .row -->
           </div>
+
+        </div>
+      </div> <!-- / .row -->
+    {% endif %}
+  {% endfor %}
+
+
+  <div class="row">
+
+    <div class="col">
+
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+        {% for article in articles_page.object_list %}
+          {% if articles_previous_page or not loop.first %}
+            <div class="col mb-10">
+              <article class="card h-100 shadow-light-lg lift lift-lg">
+                {% if article.image %}
+                  <a href="/{{ article.url }}">
+                    <img src="{{ article.image }}" alt="{{ article.title|striptags }}" class="card-img-top">
+
+                    <!-- Style shape to the image -->
+                    <div class="position-relative">
+                      <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
+                        <svg viewBox="0 0 2880 480" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2160 0C1440 240 720 240 720 240H0v240h2880V0h-720z" fill="currentColor"/></svg>
+                      </div>
+                    </div>
+                  </a>
+                {% endif %}
+                <a class="card-body" href="/{{ article.url }}" title="Permalink to {{ article.title|striptags }}">
+                  <h3 class="card-title font-weight-light">{{ article.title }}</h3>
+
+                  <p class="mb-0">{{ article.summary|striptags|escape }}</p>
+
+                </a>
+
+                <a class="card-meta mt-auto" href="/{{ article.url }}">
+
+                  <!-- Divider -->
+                  <hr class="card-meta-divider">
+
+                  <div class="d-flex w-100">
+                    <!-- Author -->
+                    <div class="flex-fill h6 text-uppercase text-muted mb-0 mr-2">{% for author in article.authors %}{{ author }}{% if not loop.last %}, {% endif %}{% endfor %}</div>
+
+                    <!-- Date -->
+                    <div class="flex-fill h6 text-uppercase text-muted mb-0 ml-auto text-right">
+                      <time class="text-nowrap" datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>
+                    </div>
+                  </div>
+
+                </a>
+              </article>
+            </div>
+          {% endif %}
         {% endfor %}
       </div>
 
@@ -42,11 +129,10 @@
       {% endif %}
     </div>
 
-    <aside class="col-md-4">
-      {% include 'includes/blog-sidebar.html' %}
-    </aside>
-
   </div> <!-- /row -->
 
 </section>
+
+
+{% include 'includes/blog-footer.html' %}
 {% endblock content %}

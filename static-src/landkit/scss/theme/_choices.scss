@@ -1,0 +1,20 @@
+//
+// choices.scss
+//
+
+.choices::after {
+  display: none;
+}
+
+// Dropdown menu
+.choices .dropdown-menu {
+  width: 100%;
+}
+
+// Specifying explicitely because Choices.js won't allow you to specify multiple classnames at the same time
+.choices .form-control-xs ~ .dropdown-menu,
+.choices .custom-select-xs ~ .dropdown-menu {
+  width: auto;
+  min-width: 100%;
+  padding: $dropdown-padding-y-xs $dropdown-padding-x-xs;
+}
