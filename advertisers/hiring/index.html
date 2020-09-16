@@ -9,7 +9,7 @@
     <meta property="og:url" content="https://www.ethicalads.io/advertisers/hiring/" /><meta property="og:type" content="article" />
   <meta property="og:title" content="Looking to hire top developers?" />
       <!-- Bootstrap CSS -->
-      <link rel="stylesheet" href="/theme/main.css">
+      <link rel="stylesheet" href="/theme/dist/main.css">
 
       <title>Looking to hire top developers? - EthicalAds</title>
 
@@ -27,28 +27,60 @@
 
 <script async src="https://media.ethicalads.io/media/client/ethicalads.min.js"></script>
   </head>
-  <body>
+  <body class="bg-light">
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light container">
-  <a class="navbar-brand" href="/"><img src="/theme/img/ethicalads-logo-blue.svg" alt="EthicalAds" /></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="mr-auto navbar-nav">
+<nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container">
+
+    <!-- Brand -->
+    <a class="navbar-brand" href="/">
+      <img src="/theme/img/ethicalads-logo-blue.svg" class="navbar-brand-img" alt="EthicalAds">
+    </a>
+
+    <!-- Toggler -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Collapse -->
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+
+      <!-- Toggler -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="fa fa-close"></span>
+      </button>
 
 
-        <a class="nav-item nav-link mr-md-2" href="/blog/">Blog</a>
-        <a class="nav-item nav-link mr-md-2" href="/advertising-vision/">Our Ad Vision</a>
-        <a class="nav-item nav-link mr-md-2" href="/publishers/">Join EthicalAds</a>
+      <!-- Navigation -->
+      <ul class="navbar-nav ml-auto">
 
-        <a class="nav-item btn btn-outline-primary" href="/advertisers/">Advertise with Us</a>
 
-    </div>
 
-    <div class="navbar-nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link mr-md-2" href="/blog/">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mr-md-2" href="/advertising-vision/">Our Ad Vision</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mr-md-2" href="/publishers/">Join EthicalAds</a>
+          </li>
 
-        <a class="nav-item nav-link" href="https://server.ethicalads.io/">User Login</a>
+
+      </ul>
+
+      <ul class="navbar-nav ml-auto">
+
+        <!--          <li class="nav-item">
+            <a class="nav-link" href="https://server.ethicalads.io/">User Login</a>
+          </li>
+-->
+
+          <li class="nav-item lift">
+            <a class="nav-item btn btn-sm btn-outline-primary" href="/advertisers/">Advertise with Us</a>
+          </li>
+
+      </ul>
 
     </div>
 
@@ -56,74 +88,105 @@
 </nav>
     <main>
 
-<section class="jumbotron d-flex flex-column justify-content-center">
-  <div class="container">
-    <h1>Looking to hire top developers? </h1>
-    <h2>Get your jobs in front of more qualified devs, not just ones on job sites. Highlight your company to candidates already using your tech stack </h2>
+<section class="position-relative mt-5 mb-10">
 
-    <a href="#inbound-form" class="btn btn-warning shadow-none mt-4">Start a campaign</a>
-  </div>
+  <!-- Content -->
+  <div class="container">
+    <div class="row align-items-center text-center text-md-left">
+      <div class="col-12 col-md-6">
+
+        <!-- Image -->
+        <img src="/theme/img/illustrations/illustration-2.png" alt="..." class="img-fluid mw-100 float-right mb-6 mb-md-0" data-aos="fade-right">
+
+      </div>
+      <div class="col-12 col-md-6">
+
+        <!-- Heading -->
+        <h1 class="display-3 font-weight-light" data-aos="fade-left">Looking to hire top developers?</h1>
+
+        <!-- Text -->
+        <p class="font-size-lg" data-aos="fade-left" data-aos-delay="200">Get your jobs in front of more qualified devs, not just ones on job sites. Highlight your company to candidates already using your tech stack.</p>
+
+        <a href="#inbound-form" class="btn btn-primary lift" data-aos="fade-left" data-aos-delay="200">
+          <span>Promote your job</span>
+        </a>
+
+      </div>
+    </div> <!-- / .row -->
+  </div> <!-- / .container -->
+
 </section>
 
 
 
 <!-- Marketing messaging and featurettes
 ================================================== -->
-<!-- Wrap the rest of the page in another container to center all the content. -->
+<section class="py-10">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-4 mb-5 mb-md-0 text-center" data-aos="fade-up">
 
-<section class="container marketing py-5">
+        <!-- Icon -->
+        <div class="icon text-primary mb-3">
+          <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"></path><path d="M14.112 7.006A1.01 1.01 0 0014 7h-4a1.01 1.01 0 00-.112.006l-2.54-2.448a1 1 0 01-.028-1.412L8.42 2h7.16l1.1 1.146a1 1 0 01-.028 1.412l-2.54 2.448z" fill="#335EEA"></path><path d="M13.764 9l1.721 9.15a1 1 0 01-.26.877l-2.503 2.608a1 1 0 01-1.444 0l-2.502-2.608a1 1 0 01-.261-.878L10.236 9h3.528z" fill="#335EEA" opacity=".3"></path></g></svg>
+        </div>
 
-  <!-- Three columns of text below the carousel -->
-  <div class="row">
+        <!-- Heading -->
+        <h3>Hire the best</h3>
 
-    <!-- REACH -->
-    <div class="col-md-4 mb-3">
-      <div class="text-center">
-        <span class="text-primary fa fa-bullhorn fa-5x"></span>
+        <!-- Text -->
+        <p class="text-gray-800 mb-6 mb-md-0">We highlight your open positions to qualified devs on sites related to your tech. They'll see your openings whether they've started their job search or not.</p>
+
       </div>
+      <div class="col-12 col-md-4 mb-5 mb-md-0 text-center" data-aos="fade-up" data-aos-delay="50">
 
-      <h4 class="text-center text-primary">Reach</h4>
-      <p class="text-center w-75 mx-auto">With reach to over <strong>35 million developer impressions</strong> each month, we are an ad network for developers by developers.</p>
-    </div><!-- /.col-md-4 -->
+        <!-- Icon -->
+        <div class="icon text-primary mb-3">
+          <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"></path><path d="M18 14a3 3 0 110-6 3 3 0 010 6zm-9-3a4 4 0 110-8 4 4 0 010 8z" fill="#335EEA" opacity=".3"></path><path d="M17.601 15c3.407.038 6.188 1.76 6.397 5.4.009.147 0 .6-.542.6H19.6c0-2.25-.744-4.328-1.999-6zm-17.6 5.2C.388 15.426 4.26 13 8.983 13c4.788 0 8.722 2.293 9.015 7.2.012.195 0 .8-.751.8H.727c-.25 0-.747-.54-.726-.8z" fill="#335EEA"></path></g></svg>
+        </div>
 
-    <!-- RELEVANT -->
-    <div class="col-md-4 mb-3">
-      <div class="text-center">
-        <span class="text-primary fa fa-bullseye fa-5x"></span>
+        <!-- Heading -->
+        <h3>Find your niche</h3>
+
+        <!-- Text -->
+        <p class="text-gray-800 mb-6 mb-md-0">Don't just post your openings on generic job boards. Focus exclusively on developers already using relevant technology.</p>
+
       </div>
+      <div class="col-12 col-md-4 mb-5 mb-md-0 text-center" data-aos="fade-up" data-aos-delay="100">
 
-      <h4 class="text-center text-primary">Relevance</h4>
-      <p class="text-center w-75 mx-auto">Every publisher is hand-approved to ensure that every ad is <strong>relevant and interesting</strong> and our audience remains 100% developers.</p>
-    </div><!-- /.col-md-4 -->
+        <!-- Icon -->
+        <div class="icon text-primary mb-3">
+          <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"></path><path d="M7 11h8a2 2 0 002-2V8h2v1a4 4 0 01-4 4H7v2a1 1 0 01-2 0V9a1 1 0 112 0v2z" fill="#335EEA" opacity=".3"></path><path d="M6 21a2 2 0 100-4 2 2 0 000 4zm0 2a4 4 0 110-8 4 4 0 010 8zM18 7a2 2 0 100-4 2 2 0 000 4zm0 2a4 4 0 110-8 4 4 0 010 8zM6 7a2 2 0 100-4 2 2 0 000 4zm0 2a4 4 0 110-8 4 4 0 010 8z" fill="#335EEA"></path></g></svg>
+        </div>
 
-    <!-- TASTEFUL -->
-    <div class="col-md-4 mb-3">
-      <div class="text-center">
-        <span class="text-primary fa fa-heart-o fa-5x"></span>
+        <!-- Heading -->
+        <h3>We know developers</h3>
+
+        <!-- Text -->
+        <p class="text-gray-800 mb-0">Developers are hard to reach but that's where we can help. Every site on our publisher network is hand-approved for both topic relevance and quality.</p>
+
       </div>
+    </div> <!-- / .row -->
+  </div> <!-- / .container -->
+</section>
 
-      <h4 class="text-center text-primary">Respect</h4>
-      <p class="text-center w-75 mx-auto">We believe ethical advertising works for advertisers. We provide <strong>full reporting and data export</strong> so you can validate the results yourself.</p>
-    </div><!-- /.col-md-4 -->
-  </div><!-- /.row -->
 
-</section><!-- /.container -->
 
 <!-- Sign up promos -->
 <!-- ================================================== -->
-<section class="container py-5">
+<section class="container py-10">
   <div class="row">
     <div class="col-md-6 mb-3">
-      <h4>Source the right candidates and fill your job openings </h4>
-      <p class="lead">
+      <h3 class="font-weight-bold mb-4">Source the right candidates and fill your job openings</h3>
+      <p>
         Hiring developers is hard, but we can help make it easier. We promote you to both active candidates already looking as well as passive candidates who haven't yet started their job search. This brings an entirely different group of candidates than traditional job boards.
       </p>
     </div>
     <div class="col-md-6">
-      <h4>Quick stats</h4>
+      <h3 class="font-weight-bold mb-4">Quick stats</h3>
       <ul>
-          <li>Over <strong>7 million</strong> unique developers come to Read the Docs each month</li>
-          <li>Hire people who read the docs for relevant technologies to you</li>
+          <li>Over <strong>8 million</strong> unique developers come to our publisher's sites each month</li>
+          <li>Hire folks already visiting sites related to your tech stack</li>
           <li>Tell your story and let developers know why your company is a great place to work</li>
       </ul>
     </div>
@@ -134,203 +197,425 @@
 <!-- ================================================== -->
 <!-- This snippet uses Font Awesome 5 Free as a dependency. You can download it at fontawesome.io! -->
 
-<section id="packages" class="pricing py-5">
+<section id="packages" class="pricing py-10">
   <div class="container">
     <div class="row">
-      <!-- Free Tier -->
-      <div class="col-lg-4">
-        <div class="card mb-5 mb-lg-0">
-          <div class="card-body">
-            <h5 class="card-title text-muted text-uppercase text-center">Startup</h5>
-            <h6 class="card-price text-center">$600</h6>
-            <hr>
-            <p class="small">
-              Perfect for small companies ramping up their advertising efforts
-            </p>
-            <ul class="fa-ul">
-              <li><span class="fa-li"><i class="fa fa-check"></i></span>200k ad impressions </li>
-              <li><span class="fa-li"><i class="fa fa-check"></i></span>Geographic targeting</li>
-              <li><span class="fa-li"><i class="fa fa-check"></i></span>Live performance reports </li>
-              <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span>US-only targeting</li>
-              <li><span class="fa-li"><i class="fa fa-check"></i></span><strong>Easiest to get started</strong></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <!-- Plus Tier -->
-      <div class="col-lg-4">
-        <div class="card mb-5 mb-lg-0">
-          <div class="card-body">
-            <h5 class="card-title text-muted text-uppercase text-center">Premium</h5>
-            <h6 class="card-price text-center">$1,500</h6>
-            <hr>
-            <p class="small">
-              For established companies looking at new marketing channels
-            </p>
-            <ul class="fa-ul">
-              <li><span class="fa-li"><i class="fa fa-check"></i></span>600k ad impressions </li>
-              <li><span class="fa-li"><i class="fa fa-check"></i></span>Everything in Startup package</li>
-              <li><span class="fa-li"><i class="fa fa-check"></i></span>Additional targeting options</li>
-              <li><span class="fa-li"><i class="fa fa-check"></i></span><strong>Best value</strong></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <!-- Pro Tier -->
-      <div class="col-lg-4">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title text-muted text-uppercase text-center">Custom</h5>
-            <h6 class="card-price text-center">Get in touch</h6>
-            <hr>
-            <p class="small">
-              For veteran advertisers with specific advertising needs
-            </p>
-            <ul class="fa-ul">
-              <li><span class="fa-li"><i class="fa fa-check"></i></span>Choose your size and duration </li>
-              <li><span class="fa-li"><i class="fa fa-check"></i></span>Custom ad targeting </li>
-              <li><span class="fa-li"><i class="fa fa-check"></i></span>Concierge service </li>
-              <li><span class="fa-li"><i class="fa fa-check"></i></span><strong>Most flexibility</strong></li>
-            </ul>
-          </div>
-        </div>
+      <div class="col mb-8">
+        <h2 class="text-center font-weight-bold mb-4">Pricing</h2>
       </div>
     </div>
-  </div>
-</section>
-<section class="container py-5">
-  <div class="row">
-    <div class="col mb-3">
-      <p class="text-center lead">See our <a href="https://assets.readthedocs.org/sustainability/Read%20the%20Docs%20Recruiting%20Prospectus.pdf" target="_blank">recruiting prospectus</a> for more details.</p>
-    </div>
+    <div class="form-row">
+      <div class="col-12 col-md-4">
+
+        <!-- Card -->
+        <div class="card shadow-lg mb-6 mb-md-0">
+          <div class="card-body">
+
+            <!-- Preheading -->
+            <div class="text-center mb-3">
+              <span class="badge badge-pill badge-primary-soft">
+                <span class="h6 text-uppercase">Startup</span>
+              </span>
+            </div>
+
+            <!-- Price -->
+            <div class="d-flex justify-content-center">
+              <span class="h2 mb-0 mt-2">$</span>
+              <span class="price display-2 mb-0">600</span>
+            </div>
+
+            <!-- Text -->
+            <p class="text-center text-muted small mb-5">Perfect for small companies ramping up their advertising efforts</p>
+
+            <!-- List -->
+            <div class="d-flex">
+              <div class="badge badge-rounded-circle badge-success-soft mt-1 mr-4">
+                <i class="fe fe-check"></i>
+              </div>
+              <p>200k ad impressions</p>
+            </div>
+            <div class="d-flex">
+              <div class="badge badge-rounded-circle badge-success-soft mt-1 mr-4">
+                <i class="fe fe-check"></i>
+              </div>
+              <p>Geographic targeting</p>
+            </div>
+            <div class="d-flex">
+              <div class="badge badge-rounded-circle badge-success-soft mt-1 mr-4">
+                <i class="fe fe-check"></i>
+              </div>
+              <p>Live performance reports</p>
+            </div>
+            <div class="d-flex">
+              <div class="badge badge-rounded-circle badge-success-soft mt-1 mr-4">
+                <i class="fe fe-check"></i>
+              </div>
+              <p>Easiest to get started</p>
+            </div>
+            <div class="d-flex">
+              <div class="badge badge-rounded-circle badge-danger-soft mt-1 mr-4">
+                <i class="fe fe-x"></i>
+              </div>
+              <p>US-only targeting</p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+      <div class="col-12 col-md-4">
+
+        <!-- Card -->
+        <div class="card shadow-lg mb-6 mb-md-0">
+          <div class="card-body">
+
+            <!-- Preheading -->
+            <div class="text-center mb-3">
+              <span class="badge badge-pill badge-primary-soft">
+                <span class="h6 text-uppercase">Premium</span>
+              </span>
+            </div>
+
+            <!-- Price -->
+            <div class="d-flex justify-content-center">
+              <span class="h2 mb-0 mt-2">$</span>
+              <span class="price display-2 mb-0">1500</span>
+            </div>
+
+            <!-- Text -->
+            <p class="text-center small text-muted mb-5">For established companies looking at new marketing channels</p>
+
+            <!-- List -->
+            <div class="d-flex">
+              <div class="badge badge-rounded-circle badge-success-soft mt-1 mr-4">
+                <i class="fe fe-check"></i>
+              </div>
+              <p>600k ad impressions</p>
+            </div>
+            <div class="d-flex">
+              <div class="badge badge-rounded-circle badge-success-soft mt-1 mr-4">
+                <i class="fe fe-check"></i>
+              </div>
+              <p>Everything in Startup package</p>
+            </div>
+            <div class="d-flex">
+              <div class="badge badge-rounded-circle badge-success-soft mt-1 mr-4">
+                <i class="fe fe-check"></i>
+              </div>
+              <p>Additional targeting options</p>
+            </div>
+            <div class="d-flex">
+              <div class="badge badge-rounded-circle badge-success-soft mt-1 mr-4">
+                <i class="fe fe-check"></i>
+              </div>
+              <p><strong>Best value</strong></p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+      <div class="col-12 col-md-4">
+
+        <!-- Card -->
+        <div class="card shadow-lg mb-md-0">
+          <div class="card-body">
+
+            <!-- Preheading -->
+            <div class="text-center mb-3">
+              <span class="badge badge-pill badge-primary-soft">
+                <span class="h6 text-uppercase">Custom</span>
+              </span>
+            </div>
+
+            <!-- Price -->
+            <div class="d-flex justify-content-center">
+              <span class="price display-4 mb-5">Get in touch</span>
+            </div>
+
+            <!-- Text -->
+            <p class="text-center small text-muted mb-5">For veteran advertisers with specific advertising needs</p>
+
+            <!-- List -->
+            <div class="d-flex">
+              <div class="badge badge-rounded-circle badge-success-soft mt-1 mr-4">
+                <i class="fe fe-check"></i>
+              </div>
+              <p>Choose your size and duration</p>
+            </div>
+            <div class="d-flex">
+              <div class="badge badge-rounded-circle badge-success-soft mt-1 mr-4">
+                <i class="fe fe-check"></i>
+              </div>
+              <p>Custom ad targeting</p>
+            </div>
+            <div class="d-flex">
+              <div class="badge badge-rounded-circle badge-success-soft mt-1 mr-4">
+                <i class="fe fe-check"></i>
+              </div>
+              <p>Concierge service</p>
+            </div>
+            <div class="d-flex">
+              <div class="badge badge-rounded-circle badge-success-soft mt-1 mr-4">
+                <i class="fe fe-check"></i>
+              </div>
+              <p><strong>Most flexibility</strong></p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div> <!-- / .row -->
   </div>
 </section>
 
 <!-- Sample Ad -->
 <!-- ================================================== -->
-<section class="container py-5">
-  <div class="row">
-    <div class="col-md-6 mb-3">
-      <h4>Get in front of our developer audience</h4>
-      <p class="lead">When you run a campaign with us, your ad only appears on developer-focused websites. This drives your business results while supporting developers directly.</p>
-    </div>
-    <div class="col-md-6">
-      <div class="text-center">
-        <div data-ea-publisher="ethicaladsio" data-ea-type="image"></div>
-      </div>
-      <p class="small text-muted text-center">(This is a real ad from our network)</p>
-    </div>
-  </div>
+<section class="py-10">
+  <div class="container">
+    <div class="row justify-content-center">
 
+      <div class="col-md-6 mb-3">
+        <h2 class="font-weight-bold mb-8">Get in front of our developer audience</h2>
+        <p class="font-size-lg text-gray-800">When you run a campaign with us, your ad only appears on developer-focused websites. This drives your business results while supporting developers directly.</p>
+      </div>
+      <div class="col-md-6">
+        <div class="text-center">
+          <div data-ea-publisher="ethicaladsio" data-ea-type="image"></div>
+        </div>
+        <p class="small text-muted text-center">(This is a real ad from our network)</p>
+      </div>
+
+    </div> <!-- / .row -->
+  </div> <!-- / .container -->
 </section>
 
 
 <!-- Inbound form -->
 <!-- ================================================== -->
-<section class="inbound-form py-5" id="inbound-form">
+<section class="inbound-form bg-gray-200 py-10" id="inbound-form">
   <div class="container">
-    <div class="form-container">
-      <h4>Advertise across our network</h4>
-      <p>Start growing your business with our network today.</p>
 
-      <!-- Front - Advertiser Inquiry Form -->
-      <form
-        method="POST"
-        name="fa-form-1"
-        action="https://webhook.frontapp.com/forms/036c4169294f3b04abaa/Kj948M2jCSE2BGi1jdHUJIf19c60Sgyuz5pht5P-JZljD5fhGM5CVaK0t3rjLOZoXXMi5vU0OSPl4L0fjwr6UysZtRIZ5OyfEqjHDJFQsEenpUNT7c1EQtUbb5s"
-        enctype="multipart/form-data"
-        accept-charset="utf-8"
-      >
-        <div class="form-group">
-          <label for="name">Your name</label>
-          <input class="form-control" type="text" id="name" name="name" placeholder="Joe Advertiser" required>
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-10 col-lg-8">
+
+        <!-- Card -->
+        <div class="card card-border border-primary shadow-light-lg">
+          <div class="card-body">
+            <div class="row justify-content-center">
+              <div class="col-12 col-xl-11">
+
+                <h2 class="font-weight-bold">Advertise across our network</h2>
+                <p class="font-size-lg">Start growing your business with our network today.</p>
+
+                <!-- Front - Adveriter Inquiry Form -->
+                <form
+                  method="POST"
+                  name="fa-form-1"
+                  action="https://webhook.frontapp.com/forms/036c4169294f3b04abaa/Kj948M2jCSE2BGi1jdHUJIf19c60Sgyuz5pht5P-JZljD5fhGM5CVaK0t3rjLOZoXXMi5vU0OSPl4L0fjwr6UysZtRIZ5OyfEqjHDJFQsEenpUNT7c1EQtUbb5s"
+                  enctype="multipart/form-data"
+                  accept-charset="utf-8"
+                >
+                  <div class="form-group">
+                    <label for="name">Your name</label>
+                    <input class="form-control" type="text" id="name" name="name" placeholder="Joe Advertiser" required>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="email">Your email</label>
+                    <input class="form-control" type="email" id="email" name="email" placeholder="you@yourcompany.com" required>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="company">Your company</label>
+                    <input class="form-control" type="text" id="company" name="company" required>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="company">Package</label>
+                      <select class="form-control" id="package" name="package">
+                        <option>---</option>
+                        <option>Startup</option>
+                        <option>Pro</option>
+                        <option>Custom</option>
+                      </select>
+                  </div>
+
+                  <div class="form-group">
+                    <label>Geographic focus</label>
+
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" name="geography" value="US and Canada" id="geo-usca">
+                      <label class="form-check-label" for="geo-usca">US and Canada</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" name="geography" value="Europe" id="geo-eu">
+                      <label class="form-check-label" for="geo-eu">Europe</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" name="geography" value="Asia Pacific" id="geo-apac">
+                      <label class="form-check-label" for="geo-apac">Asia Pacific</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" name="geography" value="Global" id="geo-global">
+                      <label class="form-check-label" for="geo-global">Global</label>
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label>Topic focus</label>
+
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" name="audience" value="Data science and machine learning" id="datascience">
+                      <label class="form-check-label" for="datascience">Data science and machine learning</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" name="audience" value="Backend web development" id="backend">
+                      <label class="form-check-label" for="backend">Backend web development</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" name="audience" value="Frontend web development" id="frontend">
+                      <label class="form-check-label" for="frontend">Frontend web development</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" name="audience" value="Security and privacy" id="security-privacy">
+                      <label class="form-check-label" for="security-privacy">Security and privacy</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" name="audience" value="DevOps" id="devops">
+                      <label class="form-check-label" for="devops">DevOps</label>
+                    </div>
+                  </div>
+
+                  <div class="form-group my-5">
+                    <input type="hidden" name="body" value="EthicalAds.io advertising inquiry" />
+<input type="hidden" name="url" value="advertisers/hiring/" />                    <input type="submit" value="Get more info" class="btn btn-sm btn-primary">
+                    <small class="form-text text-muted">We take privacy seriously and we don't share your email. You aren't going to be added to any mailing lists.</small>
+                  </div>
+                </form>
+
+              </div>
+            </div> <!-- / .row -->
+          </div>
         </div>
+      </div>
+    </div> <!-- / .row -->
 
-        <div class="form-group">
-          <label for="email">Your email</label>
-          <input class="form-control" type="email" id="email" name="email" placeholder="you@yourcompany.com" required>
-        </div>
-
-        <div class="form-group">
-          <label for="company">Your company</label>
-          <input class="form-control" type="text" id="company" name="company" required>
-        </div>
-
-        <div class="form-group">
-          <label for="company">Package</label>
-            <select class="form-control" id="package" name="package">
-              <option>---</option>
-              <option>Startup</option>
-              <option>Pro</option>
-              <option>Custom</option>
-            </select>
-        </div>
-
-        <div class="form-group">
-          <label>Geographic focus</label>
-
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" name="geography" value="US and Canada" id="geo-usca">
-            <label class="form-check-label" for="geo-usca">US and Canada</label>
-          </div>
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" name="geography" value="Europe" id="geo-eu">
-            <label class="form-check-label" for="geo-eu">Europe</label>
-          </div>
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" name="geography" value="Asia Pacific" id="geo-apac">
-            <label class="form-check-label" for="geo-apac">Asia Pacific</label>
-          </div>
-        </div>
-
-        <div class="form-group">
-          <label>Topic focus</label>
-
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" name="audience" value="Data science and machine learning" id="datascience">
-            <label class="form-check-label" for="datascience">Data science and machine learning</label>
-          </div>
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" name="audience" value="Backend web development" id="backend">
-            <label class="form-check-label" for="backend">Backend web development</label>
-          </div>
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" name="audience" value="Frontend web development" id="frontend">
-            <label class="form-check-label" for="frontend">Frontend web development</label>
-          </div>
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" name="audience" value="Security and privacy" id="security-privacy">
-            <label class="form-check-label" for="security-privacy">Security and privacy</label>
-          </div>
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" name="audience" value="DevOps" id="devops">
-            <label class="form-check-label" for="devops">DevOps</label>
-          </div>
-        </div>
-
-        <div class="form-group my-5">
-          <input type="hidden" name="body" value="EthicalAds.io advertising inquiry" />
-<input type="hidden" name="url" value="advertisers/hiring/" />          <input type="submit" value="Get more info" class="btn btn-warning">
-          <small class="form-text">We take privacy seriously and we don't share your email. You aren't going to be added to any mailing lists.</small>
-        </div>
-      </form>
-    </div>
   </div>
 </section>
     </main>
 
-<footer class="container">
-  <hr>
-  <div>
-    <ul class="list-inline">
-      <li class="list-inline-item small">&copy; 2020 Read the Docs, Inc.</li>
-      <li class="list-inline-item small"><a href="/privacy-policy/">Privacy Policy</a></li>
-      <li class="list-inline-item small"><a href="/publisher-policy/">Publisher Policy</a></li>
-      <li class="list-inline-item small"><a href="/advertisers/faq/">FAQ</a></li>
-      <li class="list-inline-item small"><a href="https://server.ethicalads.io">Publisher &amp; Advertiser Login</a></li>
-    </ul>
+<!-- Shape styling -->
+<div class="position-relative">
+  <div class="shape shape-bottom shape-fluid-x svg-shim text-dark">
+    <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor"></path></svg>
   </div>
+</div>
+
+
+<footer class="py-8 py-md-11 bg-dark">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-12 col-md-4 col-lg-3 text-center">
+
+        <!-- Brand -->
+        <img src="/theme/img/ethicalads-logo-blue.svg" alt="EthicalAds" class="footer-brand img-fluid mb-2">
+
+        <!-- Text -->
+        <p class="text-gray-600 mb-2 text-center">A division of Read the Docs</p>
+
+        <!-- Social -->
+        <ul class="list-unstyled list-inline list-social mt-4 mb-6 mb-md-0 d-flex">
+          <li class="list-inline-item list-social-item flex-fill text-center">
+            <a href="https://twitter.com/ethicaladsio" class="text-decoration-none text-gray-600">
+              <svg aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="32" height="32"><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg>
+              <span class="sr-only">Twitter</span>
+            </a>
+          </li>
+          <li class="list-inline-item list-social-item flex-fill text-center">
+            <a href="https://github.com/readthedocs" class="text-decoration-none text-gray-600">
+              <svg aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" width="32" height="32"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg>
+              <span class="sr-only">GitHub</span>
+            </a>
+          </li>
+        </ul>
+
+      </div>
+      <div class="col-12 col-md-4 col-lg-3">
+
+        <h6 class="font-weight-bold text-uppercase text-gray-700">Advertisers</h6>
+
+        <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
+          <li class="mb-3">
+            <a href="/advertisers/" class="text-reset">Advertise with Us</a>
+          </li>
+          <li class="mb-3">
+            <a href="/advertisers/faq/" class="text-reset">Advertiser FAQ</a>
+          </li>
+          <li class="mb-3">
+            <a href="https://server.ethicalads.io/" class="text-reset">Advertiser Login</a>
+          </li>
+        </ul>
+
+      </div>
+      <div class="col-12 col-md-4 col-lg-3">
+
+        <!-- Heading -->
+        <h6 class="font-weight-bold text-uppercase text-gray-700">Publishers</h6>
+
+        <!-- List -->
+        <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
+
+          <li class="mb-3">
+            <a href="/publishers/" class="text-reset">Become a Publisher</a>
+          </li>
+          <li class="mb-3">
+            <a href="/publisher-policy/" class="text-reset">Publisher Policy</a>
+          </li>
+          <li class="mb-3">
+            <a href="https://ethical-ad-client.readthedocs.io/en/latest/" class="text-reset">Ad Client Documentation</a>
+          </li>
+          <li class="mb-3">
+            <a href="https://server.ethicalads.io/" class="text-reset">Publisher Login</a>
+          </li>
+        </ul>
+
+      </div>
+      <div class="col-12 col-md-4 offset-md-4 col-lg-3 offset-lg-0">
+
+        <!-- Heading -->
+        <h6 class="font-weight-bold text-uppercase text-gray-700">Company</h6>
+
+        <!-- List -->
+        <ul class="list-unstyled text-muted mb-0">
+          <li class="mb-3">
+            <a href="/blog/" class="text-reset">Blog</a>
+          </li>
+          <li class="mb-3">
+            <a href="/advertising-vision/" class="text-reset">Ad Vision</a>
+          </li>
+          <!--<li class="mb-3">
+            <a href="#!" class="text-reset">Team</a>
+          </li>-->
+          <li class="mb-3">
+            <a href="https://readthedocs.org" class="text-reset">Read the Docs</a>
+          </li>
+          <li class="mb-3">
+            <a href="/privacy-policy/" class="text-reset">Privacy Policy</a>
+          </li>
+          <!--<li>
+            <a href="#!" class="text-reset">
+              Terms
+            </a>
+          </li>-->
+        </ul>
+
+      </div>
+    </div> <!-- / .row -->
+  </div> <!-- / .container -->
 </footer>
-    <script src="/theme/bundle.js"></script>
+    <script src="/theme/dist/bundle.js"></script>
   </body>
 </html>
