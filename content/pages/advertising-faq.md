@@ -13,7 +13,7 @@ We have [packages to simplify advertising with
 us]({filename}advertisers.md#packages), but you can always put
 together a custom ad campaign. The exact cost will depend on your
 targeting with geography being the biggest factor. See our
-[prospectus]({static}/prospectus/latest-advertiser-prospectus.pdf)
+[prospectus]({static}/prospectus/ethicalads-advertiser-prospectus.pdf)
 for details.
 
 ## Can I post an ad promoting my job openings?
@@ -41,7 +41,7 @@ Currently, these topics are:
 * Technical writing
 
 Our
-[prospectus]({static}/prospectus/latest-advertiser-prospectus.pdf)
+[prospectus]({static}/prospectus/ethicalads-advertiser-prospectus.pdf)
 will have the latest details and rates on keyword targeting.
 More niche targeting is possible although campaigns may take longer to fulfill due to availability. Inquire for details.
 
@@ -55,7 +55,7 @@ Publishers choose which placement best fits with their site
 and we have seen great performance for advertisers and publishers with both types.
 
 Our
-[prospectus]({static}/prospectus/latest-advertiser-prospectus.pdf)
+[prospectus]({static}/prospectus/ethicalads-advertiser-prospectus.pdf)
 has the full details and example screenshots.
 
 ## What is the process for becoming a publisher?
