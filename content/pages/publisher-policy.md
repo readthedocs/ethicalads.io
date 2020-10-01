@@ -27,6 +27,11 @@ We have the following rules around display of our ads:
 
 ## Payouts
 
+
+We currently have a **70% revenue share** with publishers
+which is around industry standard but slightly higher. 
+This means you get 70% of the money that we make.
+
 We handle payouts once a month,
 with a minimum payment of **$50**.
 Our goal is to get payment to our publishers by the 15th of the month,
