@@ -44,7 +44,7 @@ You can always see our latest updates in our [ethical-ad-server changelog](https
 
 Our current top priority continues to be getting publishers more revenue. As part of that mission we have raised prices on some of our more popular targeting options for Q4, and are expanding the topics we are targeting to better reflect out publishers.
 
-We continue to have issues with ad blocking. We have had a call with the Acceptable Ads team, and are hopeful that we will be added to the list in October. That will raise most of our publishers revenues by an estimated 15%, which would be huge.
+We continue to have issues with ad blocking. We have had a good call with the Acceptable Ads team, and are hopeful that we will be added to the approved list in October. That will raise most of our publishers revenues by an estimated 15%, which would be huge.
 
 The other major thing we continue to struggle with is just the amount of work we need to do. Spinning up an entirely new ad network and brand requires a lot of various tasks, and we only have 2 people working on it mostly full-time. We are in discussion in Q4 about doing some kind of hiring, either contract or part-time with the revenue we're seeing from the ad network. We generally try to be conservative in our hiring, so it might get pushed back to next year. 
 
