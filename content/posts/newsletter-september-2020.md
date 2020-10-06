@@ -35,7 +35,7 @@ The big things we added this month:
 * A [new website](https://www.ethicalads.io/) with an updated design.
 * We combined our Read the Docs & EthicalAds landing pages and prospectus, so we only have a single source of that information now.
 * Our [Q4 advertiser prospectus](https://www.ethicalads.io/prospectus/ethicalads-advertiser-prospectus.pdf) with updated topics and pricing
-* Ad client support for [placement reporting](https://ethical-ad-client.readthedocs.io/en/latest/#ad-placement-reporting) which allows seeing reports for specific placements on your site
+* Ad client support for [placement reporting](https://ethical-ad-client.readthedocs.io/en/latest/#ad-placement-reporting) which allows seeing reports for specific placements on your site (eg. an ad on a list screen vs. a detail screen)
 * Ad client support for [per-page keywords](https://ethical-ad-client.readthedocs.io/en/latest/#page-specific-keywords)
 
 You can always see our latest updates in our [ethical-ad-server changelog](https://ethical-ad-server.readthedocs.io/en/latest/developer/changelog.html).
