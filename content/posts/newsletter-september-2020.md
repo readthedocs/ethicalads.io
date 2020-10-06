@@ -10,7 +10,7 @@ image: /images/posts/ethicalads-network.png
 [comment]: # (?start_date=2020-08-01&end_date=2020-08-31&campaign_type=All+types&revenue_share_percentage=50.0)
 [comment]: # (?start_date=2020-09-01&end_date=2020-09-30&campaign_type=paid&revenue_share_percentage=70.0&sort=revenue)
 
-## Advertising Stats
+## Advertising stats
 
 September was a solid month of growth for our EthicalAds Network.
 We have continued to onboard additional publishers and expand our list of advertisers.
