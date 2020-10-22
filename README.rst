@@ -24,12 +24,14 @@ You can build the site HTML and serve it locally with:
     $ inv regenerate      # regenerate the site whenever you modify a page/post
     $ inv serve           # serve the site at http://localhost:8000
 
+If you don't see any styling, you may also need to build static assets (see below).
+
 
 Building static assets
 ~~~~~~~~~~~~~~~~~~~~~~
 
-Built static assets are checked into the repository and you only need to rebuild them
-if you modify files under ``static-src/``.
+Built static assets are **NOT** checked into the repository and you need to build them
+if files under ``static-src/`` are modified.
 
 .. code-block:: bash
 
