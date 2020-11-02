@@ -18,9 +18,10 @@ and we're always looking for more folks to join.
 
 In terms of development,
 we've been focusing a lot on performance and reporting improvements.
-Making sure ads load fast, and then you can understand what's going on with your site is primary development focus right now.
+This work makes sure ads load fast, which improves the user experience.
+The additional reporting improvements we've made should help publishers understand the ads running on their site in more detail.
 
-In October 2020:
+In terms of stats, in October 2020:
 
 * We generated **$7,580.43** for our publishers
 * We had **72 publishers** on our network with a paid ad impression.
@@ -37,9 +38,9 @@ The big things we added this month:
 * We have started adding [testimonials](https://www.ethicalads.io/publishers/readthedocs/) to our website from our publishers and advertisers. We only have a couple completed, but will be adding more in the near future.
 * We have added reporting for publishers that show Geo and Advertiser breakdowns. These are in beta and will be enabled for everyone this week.
 * We have added [viewport tracking](https://github.com/readthedocs/ethical-ad-client/pull/29/) to our ad client. This is a backstop to our Publisher Policy, confirming that ads are actually viewed for billing purposes.
-* We migrated our hosting infrastructure from a Docker-based solution to a VM-based solution. This brought a 3x improvement to our average server response latency, which is now 45ms on average and 75ms at the 99% percentile.
+* We migrated our hosting infrastructure from a Docker-based solution to a VM-based solution. This brought a 3x improvement to our average server response latency, which is now 45ms on average and 75ms at the 99th percentile.
 * As part of this server migration we have built the capability to do [periodic report generation](https://github.com/readthedocs/ethical-ad-server/pull/260/files). We're currently updating the Geo reports each hour, but will tweak this over time as we figure out what the best options here are.
-* We also updated our ad integration on Read the Docs to use the standard ethical-ad-client. This is one of the last steps of making Read the Docs "just another publisher" and not be special.
+* We also updated our ad integration on Read the Docs to use the standard ethical-ad-client. This is one of the last steps of making Read the Docs "just another publisher" and not be special. As part of this, we removed legacy ad types, and now all ads are the same image+text or image-only ads.
 
 You can always see our latest updates in our [ethical-ad-server changelog](https://ethical-ad-server.readthedocs.io/en/latest/developer/changelog.html).
 
@@ -47,7 +48,7 @@ You can always see our latest updates in our [ethical-ad-server changelog](https
 
 It feels like we've managed to address most of our existing issues. Our server performance has been a nagging issue since launched, and it's very excited to have fixed it and seen quite impressive gains. Having additional infrastructure to handle periodic reporting is also another major thing we needed to do, so that we can add more reporting without impacting advertising performance.
 
-We have a signed contract with the Acceptable Ads program, which is a major milestone. We expect this change to roll out early in November, which we forecast will bring an increase of 15% to most of our publishers revenue. This is a huge win, and remove a structural barrier that we faced to competing with other advertising networks.
+We have a signed contract with the Acceptable Ads program, which is a major milestone. We expect this change to roll out early in November, which we forecast will bring an increase of 15% more ads shown. This will increase our publishers revenue and removes a large structural barrier that we faced to competing with other advertising networks.
 
 One of our ongoing worries is about balancing supply and demand on the network. Especially with keyword targeting, it can be hard to maintain fill rates across our publisher network while also fully filling campaigns for our advertisers. We expect this will continue to be a difficult task forever, but we're slowly starting to understand how to balance this tension. We're also working to manage expectations on both sides, knowing that forecasting web traffic isn't an exact science.
 
