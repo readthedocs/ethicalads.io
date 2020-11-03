@@ -100,7 +100,7 @@
     <div class="col mb-3">
       <h2 class="text-center font-weight-bold mb-8">Over 1 billion ads served since 2016</h2>
       <p class="text-center lead"><strong>Developers</strong> trust our ads because our code is open source, and we're developers ourselves.</p>
-      <p class="text-center lead">Read more about <a href="/advertising-vision/">our vision</a> for advertising without invasive tracking</p>
+      <p class="text-center lead">Read more about <a href="/advertising-vision/">our vision</a> for advertising without invasive tracking or take a look at our <a href="/prospectus/ethicalads-publisher-prospectus.pdf">publisher prospectus</a> for how details on how it works and how to get started.</p>
     </div>
   </div>
 </section>
@@ -163,7 +163,7 @@
         </li>
       </ul>
       <p>
-        You can read more in our full <a href="/publisher-policy/">Publisher Policy</a>
+        You can read more in our full <a href="/publisher-policy/">Publisher Policy</a>.
       </p>
     </div>
     <div class="col-md-6">
@@ -180,9 +180,9 @@
   </div>
 </section>
 
-
+{% with prospectus=True %}
 {% include 'ea/includes/publisher-testimonials.html' %}
-
+{% endwith %}
 
 <section class="inbound-form bg-gray-200 py-10" id="inbound-form">
   <div class="container">
