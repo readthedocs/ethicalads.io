@@ -41,7 +41,11 @@
                   <h3 class="font-weight-light">{{ article.title }}</h3>
 
                   <!-- Text -->
+                  {% if article.description %}
+                  <p class="mb-0">{{ article.description|striptags|escape }}</p>
+                  {% else %}
                   <p class="mb-0">{{ article.summary|striptags|escape }}</p>
+                  {% endif %}
 
                 </a>
 
@@ -98,7 +102,11 @@
                 <a class="card-body" href="/{{ article.url }}" title="Permalink to {{ article.title|striptags }}">
                   <h3 class="card-title font-weight-light">{{ article.title }}</h3>
 
+                  {% if article.description %}
+                  <p class="mb-0">{{ article.description|striptags|escape }}</p>
+                  {% else %}
                   <p class="mb-0">{{ article.summary|striptags|escape }}</p>
+                  {% endif %}
 
                 </a>
 
