@@ -60,6 +60,8 @@ we are hoping to expand our team by at least one person in the near future.
 We have started thinking about a job description for the person we hope to bring on.
 Hiring is always a challenge,
 but we're excited about having growth to be able to think about supporting an additional team member.
+The role we're imagining is an part-time account executive,
+but someone who is interested in growing into a larger full-time business role over time. 
 
 As part of this transition,
 our team member Eric will be scaling back his involvement on advertising from close to 100% of time to 50%.
