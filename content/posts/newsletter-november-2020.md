@@ -1,5 +1,5 @@
 Title: EthicalAds Newsletter - November 2020
-Date: Nov 2, 2020
+Date: Dec 3, 2020
 description: Our November update, including stats and commentary, on our progress as we build EthicalAds.
 tags: newsletter, community
 authors: Eric Holscher
