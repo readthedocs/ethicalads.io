@@ -84,5 +84,5 @@ The major features in our upcoming roadmap:
 * We hope to do a beta test of a sponsorship program with a publisher, which is an extension of the ad network to allow for specific placements on high-value publishers. 
 
 Thanks again for being along with us on this journey to build an ethical ad network.
-Please [email us](ads@ethicalads.io) if you have any ideas or feedback on our product or roadmap,
+Please [email us](mailto:ads@ethicalads.io) if you have any ideas or feedback on our product or roadmap,
 we always love to hear from you.
