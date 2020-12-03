@@ -1,6 +1,6 @@
 Title: EthicalAds Newsletter - September 2020
 Date: Oct 6, 2020
-description: Our monthly update, including stats and commentary, on our progress as we build EthicalAds
+description: Our monthly update, including stats and commentary, on our progress as we build EthicalAds.
 tags: newsletter, community
 authors: Eric Holscher
 image: /images/posts/ethicalads-network.png

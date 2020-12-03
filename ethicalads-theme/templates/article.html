@@ -37,7 +37,9 @@
           <img class="figure-img img-fluid rounded" src="{{ article.image }}" alt="{{ article.title|striptags }}">
 
           <!-- Caption -->
-          {# <figcaption class="figure-caption text-center"></figcaption> #}
+        {% if article.image_credit %}
+        <figcaption class="figure-caption text-center"><small>{{ article.image_credit }}</small></figcaption>
+        {% endif %}
 
         </figure>
       {% endif %}
