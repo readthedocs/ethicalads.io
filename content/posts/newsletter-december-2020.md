@@ -20,7 +20,7 @@ The bulk of our advertising is shown during business hours and there were a lot 
 
 In December 2020:
 
-* We generated **$9,373.04** for our publishers a 7% decrease from November.
+* We generated **$9,373.04** for our publishers, a 7% decrease from November.
 * We had **89 publishers** on our network with a paid ad impression.
 * We had **5,227,541** paid ad views across the world.
 
