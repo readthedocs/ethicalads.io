@@ -74,7 +74,7 @@ and job postings will be up by the end of the month.
 
 For advertising, we are looking to bring on a part-time person
 to help manage advertiser and publisher relationships.
-At the beginning, this role will involve some customer service and some light sales,
+At the beginning, this role will involve some customer service along with some light sales and marketing,
 but the role could specialize in either direction as we continue to grow.
 As I mentioned, this will start as a part-time role but we hope it will become a full-time role
 by the second half of the year.
