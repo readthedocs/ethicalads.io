@@ -15,7 +15,7 @@ image_credit: <span>Photo by <a href="https://unsplash.com/@szmigieldesign?utm_s
 ## December advertising stats
 
 December was a slightly down month here at EthicalAds from our record-breaking November.
-Considering the major holidays, I'll still call that a decent sized win.
+Considering the major holidays, I'll still call that a win.
 The bulk of our advertising is shown during business hours and there were a lot fewer business hours in December.
 
 In December 2020:
