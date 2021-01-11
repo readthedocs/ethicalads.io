@@ -38,7 +38,7 @@ In just those six months, we've grown from nothing and generated **$42,239** for
 ## Read the Docs advertising stats
 
 For 2021, we wanted to begin to also report Read the Docs' advertising stats just like we're doing for the ad network.
-We've reported in year-end [Read the Docs stats posts](https://blog.readthedocs.com/read-the-docs-2019-stats/)
+We've reported these numbers previously in yearly [Read the Docs stats posts](https://blog.readthedocs.com/read-the-docs-2019-stats/)
 but not on a monthly basis like we are for EthicalAds.
 We will continue to break out third-party publishers just as we have been so stats will continue to be comparable month over month.
 For Read the Docs in December, we achieved **$17,656.37** in advertising revenue on **8,575,795** paid ad views.
