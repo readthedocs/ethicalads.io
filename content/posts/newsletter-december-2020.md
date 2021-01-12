@@ -88,6 +88,28 @@ and working closely with both publishers and advertisers helps to get great resu
 If this role sounds interesting to you, please [let us know](mailto:ads@ethicalads.io?subject=Ads%20relationship%20manager%20role)!
 
 
+## Tricky bits
+
+Both hiring and afterward onboarding new team members are hard work and require a lot of time to do well.
+We expect that this will take some time but the end result will hopefully be faster responses
+to our advertisers and publishers.
+
+Beginning in 2021, we want to treat Read the Docs as simply another publisher
+and this means separating out the budget and accounting of each.
+To get specific, we'll be attributing 70% of ad revenue on Read the Docs to Read the Docs itself
+and count the other 30% of the revenue toward the EthicalAds network just as we do with third-party publishers.
+This will let us better allocate resources to grow both sides of the company.
+
+Another upcoming challenge in the next month is an engineering challenge around how we save data for long term archival.
+While we [explicitly do not track user personal data]({filename}/pages/vision.md),
+we still end up storing a large amount of data on ad impressions
+in case we get issues with fraud or merely a billing dispute.
+This data is close to exceeding what's reasonable to store in our transactional database and we'll need to move
+into a system that can scale up a lot but it won't have real-time requirements.
+While this is a fairly well-understood OLTP/OLAP kind of problem,
+adding new infrastructure to our reporting is never easy.
+
+
 ## Upcoming features
 
 The major features in our upcoming roadmap:
