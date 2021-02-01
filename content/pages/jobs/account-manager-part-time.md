@@ -35,7 +35,7 @@ that powers tens of millions of paid ad impressions every month.
 About the job
 -------------
 
-You will be the first person hired specifically to work exclusively on advertising.
+You will be the first person hired to work exclusively on advertising.
 Currently, of our small Read the Docs team, advertising is handled by Eric Holscher and David Fischer.
 You will work directly with the two of us and be able to have a big impact!
 
