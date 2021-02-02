@@ -53,7 +53,7 @@ this won't be the kind of role where you are generating sales with cold calling 
 Our sales process relies heavily on word of mouth and content marketing to get advertisers interested
 in our audience and mission.
 For publishers, we similarly use the network effects of folks seeing our ads to attract publishers to the platform.
-This is definitely a hybrid between sales and customer support but heavier on the customer service side.
+This is a hybrid role between sales and customer support but heavier on the customer service side.
 Our goal is to expand this to a full time role later in 2021.
 
 Interest and skills in any of the following is a big plus so please let us know in your application:
