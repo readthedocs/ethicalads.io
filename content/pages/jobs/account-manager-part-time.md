@@ -75,7 +75,7 @@ We are trying to make onboarding as consistent and repeatable as possible
 while still maintaining a human touch of ensuring our publishers are the highest quality
 and our advertisers will be the right fit for our audience.
 
-Longer term, as you get a feel for the common questions advertisers, prospects, and publishers ask,
+Longer term, as you get a feel for the common questions that come in,
 our goal is to have you create knowledge base content for these common questions
 and otherwise make suggestions on how we can make our product documentation and marketing content clearer.
 Again, you will be our first outside person for advertising
