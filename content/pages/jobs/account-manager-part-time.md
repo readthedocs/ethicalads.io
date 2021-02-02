@@ -16,20 +16,16 @@ About the company
 
 Read the Docs is a large [open source project](https://github.com/readthedocs/readthedocs.org) providing documentation building and hosting.
 You can think of it a continuous integration for docs.
-We do around 500 million pageviews each year.
-We are a small team,
-but **this role will have a large impact of millions of users.**
-Our codebase is almost entirely open source,
-and we feel strongly about supporting the community while sustaining the project in an ethical manner.
+We do around 500 million pageviews each year across hundreds of thousands of projects.
 
-We have two primary products:
-
-* A free hosting service for open source projects, funded via ethical ads: https://readthedocs.org
-* A paid hosting service for companies, funded via subscriptions: https://readthedocs.com
+Our ad serving is also [open source](https://github.com/readthedocs/ethical-ad-server)
+and powers tens of millions of paid ad impressions every month
+without tracking users around the web.
+Open source maintainers and other developer projects earn over ten thousand dollars a month serving ethical ads.
+Serving ads on Read the Docs itself is also the largest single source of revenue for our company.
 
 This role specifically is to help manage advertising relationships.
-Our ad serving infrastructure is another [open source project](https://github.com/readthedocs/ethical-ad-server)
-that powers tens of millions of paid ad impressions every month.
+Our primary mission is help sustain open source and deal with our publishers and advertisers in an ethical manner.
 
 
 About the job
@@ -47,7 +43,8 @@ These are a lot of relationships to manage and we want to make sure
 that both advertisers and publishers get the most out of using EthicalAds.
 
 To start with, this role would be part-time at about 20 hours per week.
-You will help with advertiser sales and onboarding as well as helping publishers with onboarding and support.
+You will help with advertiser sales, onboarding new advertisers, and fielding questions from advertisers and prospects.
+For publishers, you will help with onboarding and support.
 While sales will be part of this role,
 this won't be the kind of role where you are generating sales with cold calling or outbound emails.
 Our sales process relies heavily on word of mouth and content marketing to get advertisers interested
@@ -75,9 +72,10 @@ We are trying to make onboarding as consistent and repeatable as possible
 while still maintaining a human touch of ensuring our publishers are the highest quality
 and our advertisers will be the right fit for our audience.
 
-Longer term, as you get a feel for the common questions that come in,
-our goal is to have you create knowledge base content for these common questions
-and otherwise make suggestions on how we can make our product documentation and marketing content clearer.
+After you get a feel for the common questions that come in,
+our goal is to have you create knowledge base content for these common questions.
+We want you to grow with us and take more responsibility
+in content marketing, blog posts, and making the onboarding process as smooth as possible.
 Again, you will be our first outside person for advertising
 and our first dedicated customer support hire.
 You will have a lot of input on the direction our customer service takes!
@@ -104,12 +102,7 @@ Structure
 ---------
 
 To start, this would be a part-time contracting position.
-**The plan would be for us to contract with you to work between 3-5 days a week for approximately 20 hours per week.**
+**The plan would be for us to contract with you to work between 4-5 days a week for approximately 20 hours per week.**
 Of our existing team, half of our team works 4 days, and the other half works 5 days,
 and we are happy to be flexible with whatever works best for you.
-
 The pay rate will vary with experience and the hours worked.
-As a small, self-sustaining open source project we are not able to pay as much as large companies.
-We are able to provide a supportive and very flexible work environment, with a strong sense of mission.
-All of the members of our team have worked with us for more than 2 years,
-and we strive to have a stable team working to build something meaningful.
