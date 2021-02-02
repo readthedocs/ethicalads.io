@@ -21,7 +21,7 @@ We do around 500 million pageviews each year across hundreds of thousands of pro
 Our ad serving is also [open source](https://github.com/readthedocs/ethical-ad-server)
 and powers tens of millions of paid ad impressions every month
 without tracking users around the web.
-Open source maintainers and other developer projects earn over ten thousand dollars a month serving ethical ads.
+Open source maintainers and other developer-oriented projects earn over $10,000/mo serving ethical ads.
 Serving ads on Read the Docs itself is also the largest single source of revenue for our company.
 
 This role specifically is to help manage advertising relationships.
