@@ -4,6 +4,7 @@ url: jobs/account-manager-part-time/
 save_as: jobs/account-manager-part-time/index.html
 description: Read the Docs is looking for a part time account manager to help manage advertiser and publisher accounts.
 template: ea/job-post
+form_subject: Ads Account Manager Job Application
 
 
 Thanks for your interest in working at Read the Docs on EthicalAds.
