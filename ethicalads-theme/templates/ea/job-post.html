@@ -33,6 +33,7 @@
                   <input type="hidden" name="title" value="{{ page.title }}" />
                   <input type="hidden" name="url" value="{{ page.url }}" />
                   {% endif %}
+                  <input type="hidden" name="subject" value="{% if page.form_subject %}{{ page.form_subject }}{% else %}Job application{% endif %}">
                   <input type="hidden" name="body" value="Content embedded below">
 
                   <div class="form-group">
