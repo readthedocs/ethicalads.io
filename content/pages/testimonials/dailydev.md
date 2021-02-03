@@ -1,4 +1,4 @@
-title: Daily.dev uses EthicalAds
+title: daily.dev uses EthicalAds
 slug: dailydev
 url: publishers/dailydev/
 save_as: publishers/dailydev/index.html
