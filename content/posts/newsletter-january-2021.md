@@ -35,7 +35,7 @@ Here's the major features we added in the last month:
 
 * On our ad client, we built a feature that allows ads to be displayed in light-mode or dark-mode
   based on the user's preferences if the publisher displaying the ad also supports this.
-* On our ad server, we added a number of quality of life improvements
+* On our ad server, we added a number of quality of life improvements,
   including automating some advertiser setup and fixing some minor data consistency bugs.
 * In our infrastructure, we started archiving old, raw data on ad impressions
   (remember, we [do not track user personal data]({filename}/pages/vision.md))
