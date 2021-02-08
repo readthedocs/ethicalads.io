@@ -78,7 +78,7 @@ Hiring new people really can't come soon enough.
 Between the the time spent on hiring (which is very important to get right),
 time spent on working on [Read the Docs' CZI grant](https://blog.readthedocs.com/czi-grant-announcement/),
 and some upcoming infrastructure changes at Read the Docs,
-we are all feeling like we're spread a bit thin.
+we're all feeling spread a bit thin.
 
 
 ## Upcoming features
