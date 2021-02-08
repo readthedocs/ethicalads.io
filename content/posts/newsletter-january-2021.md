@@ -93,7 +93,7 @@ The major features in our upcoming roadmap:
   but don't receive guarantees of inventory. This is helpful to make sure publishers are always showing paid ads
   while letting us balance our inventory.
   In January, we did start pitching this advertisers but haven't sold it or completed building it yet.
-* We started exploring what we're calling "sponsorships" by which we mean customized ad placements on single high-value publishers.
+* We started exploring customized ad placements on single high-value publishers.
   This is different from our traditional ad offering which shows ads across our network
   and instead focuses on buying most or all inventory for a single publisher.
 
