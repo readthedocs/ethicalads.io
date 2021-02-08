@@ -61,7 +61,7 @@ Unlike many SaaS businesses, advertising is a little higher touch,
 and working closely with both publishers and advertisers helps to get great results.
 
 If this role sounds interesting to you,
-please [get in touch](mailto:ads@ethicalads.io?subject=Ads%20account%20manager%20role)
+please [get in touch with any questions](mailto:ads@ethicalads.io?subject=Ads%20account%20manager%20role)
 or [apply]({filename}/pages/jobs/account-manager-part-time.md)!
 
 Also, Read the Docs is hiring a [frontend developer](https://blog.readthedocs.com/job-frontend/)
