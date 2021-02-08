@@ -57,7 +57,7 @@ This person will have a lot of impact on how EthicalAds continues to grow.
 This person will work directly with me (David) and with Eric
 to make sure our publishers are getting as much money as they can
 while our advertisers are getting the best results we can deliver.
-Unlike many SaaS businesses, advertising is a little higher touch,
+We pride ourselves on the high level of service we provide,
 and working closely with both publishers and advertisers helps to get great results.
 
 If this role sounds interesting to you,
