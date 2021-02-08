@@ -20,7 +20,7 @@ interested in making money with ads.
 
 In January 2021:
 
-* We generated **$10,566.78** for our publishers, a 12% increase from December and 5% increase from November our previous peak.
+* We generated **$10,566.78** for our publishers, a 12% increase from December and 5% increase from November, our previous peak.
 * We had **103 publishers** on our network with a paid ad impression.
 * We had **6,095,608** paid ad views across the world.
 * Read the Docs, our own publisher, generated **$16,381.53** on 6,929,551 paid ad impressions. Of our reported metrics, this was the only one down slightly and it was due to a few large advertisers balancing their spend between Read the Docs and our larger ad network.
