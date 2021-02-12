@@ -106,7 +106,4 @@ To start, this would be a part-time contracting position.
 The plan would be for us to contract with you to work between 4-5 days a week for approximately 20 hours per week.
 Of our existing team, half of our team works 4 days, and the other half works 5 days,
 and we are happy to be flexible with whatever works best for you.
-The pay rate will vary with experience and the hours worked but we are budgeting for $15-20 per hour.
-
-* Part-time position 4-5 days per week for approximatively 20 hours
-* $15-20 per hour
+The pay rate will vary with experience and the hours worked but we are budgeting for **$15-20 per hour**.
