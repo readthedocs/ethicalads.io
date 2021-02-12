@@ -121,7 +121,7 @@ many people reading the docs are doing so while building software
 professionally.
 
 We have some more details in our [advertising
-guide](https://assets.readthedocs.org/sustainability/Read%20the%20Docs%20Advertising%20Guide.pdf).
+guide]({static}/prospectus/advertising-guide.pdf).
 
 ## Do my ads support open source?
 
