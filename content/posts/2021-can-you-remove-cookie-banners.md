@@ -45,7 +45,7 @@ and analytics are critical to understanding your site and users.
 However, the internet has responded to users demand for increased privacy by providing privacy-aware services.
 
 
-## Privacy oriented services that eliminate the requirement of cookie banners
+## Privacy-oriented services that eliminate the requirement of cookie banners
 
 When it comes to analytics, the internet has seen a host of alternatives to industry giant Google Analytics come to market.
 They include [Cloudflare](https://www.cloudflare.com/web-analytics/),
