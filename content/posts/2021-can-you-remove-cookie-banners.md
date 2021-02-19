@@ -42,7 +42,7 @@ and web site analytics (e.g. Google Analytics).
 Until recently these have been difficult to do without.
 Advertising is a proven business model for high traffic websites
 and analytics are critical to understanding your site and users.
-However, the internet has responded to users demand for increased privacy by providing privacy aware services.
+However, the internet has responded to users demand for increased privacy by providing privacy-aware services.
 
 
 ## Privacy oriented services that eliminate the requirement of cookie banners
