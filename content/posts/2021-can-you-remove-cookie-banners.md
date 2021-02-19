@@ -53,7 +53,7 @@ They include [Cloudflare](https://www.cloudflare.com/web-analytics/),
 [Plausible](https://plausible.io/) and more.
 These either don't set cookies at all or can easily be configured not to.
 
-Finding a solution for internet advertising that doesn't trigger cookie banners or violate user's privacy has been a larger challenge.
+Finding a solution for internet advertising that doesn't trigger cookie banners or violate user privacy has been a larger challenge.
 Some ad tech companies are working hard to keep tracking and targeting users without cookies.
 This may meet the letter of the law (although maybe not) but definitely violates its intent.
 
