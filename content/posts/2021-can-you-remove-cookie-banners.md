@@ -37,7 +37,7 @@ If you don't collect personal information or allow third parties to collect pers
 and you only set essential cookies,
 you will not need to set a cookie banner.
 
-For most sites, the cookies that trigger the laws and violate customer trust are the advertising cookies (e.g. Doubleclick)
+For most sites, the cookies that trigger the laws and violate user privacy are advertising cookies 
 and web site analytics (e.g. Google Analytics).
 Until recently these have been difficult to do without.
 Advertising is a proven business model for high traffic websites
