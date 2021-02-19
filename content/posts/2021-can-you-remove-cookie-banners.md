@@ -55,7 +55,7 @@ These either don't set cookies at all or can easily be configured not to.
 
 Finding a solution for internet advertising that doesn't trigger cookie banners or violate user privacy has been a larger challenge.
 Some ad tech companies are working hard to keep tracking and targeting users without cookies.
-This may meet the letter of the law (although maybe not) but definitely violates its intent.
+This may meet the letter of the law, but definitely violates its intent.
 
 This is one of the many reasons we built EthicalAds.
 Our [vision for advertising]({filename}../pages/vision.md) is that ads can work well without tracking users.
