@@ -108,4 +108,4 @@ Of our existing team, half of our team works 4 days, and the other half works 5 
 and we are happy to be flexible with whatever works best for you.
 The pay rate will vary with experience and the hours worked but we are budgeting for **$15-20 per hour**.
 We are looking for some one who is early career or returning to their previous career
-with aspirations to grow into a business role with us
+with aspirations to grow into a business role with us.
