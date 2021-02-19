@@ -35,7 +35,7 @@ if they are used for the purpose of collecting personal information; consent is 
 The answer is simple in theory, but can be difficult depending on how your site works.
 If you don't collect personal information or allow third parties to collect personal information
 and you only set essential cookies,
-you will likely not need to set a cookie banner.
+you will not need to set a cookie banner.
 
 For most sites, the cookies that trigger the laws and violate customer trust are the advertising cookies (e.g. Doubleclick)
 and web site analytics (e.g. Google Analytics).
