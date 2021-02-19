@@ -1,4 +1,4 @@
-Title: Can you Eliminate Annoying Cookie Banners from your site?
+Title: Can you Eliminate Annoying Cookie Banners from your Site?
 Date: February 22, 2021
 description: Nobody likes cookie banners, but you have to have them right? Depending on what you're doing, maybe you don't!
 tags: cookies
