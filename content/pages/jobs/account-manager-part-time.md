@@ -95,7 +95,7 @@ We are a small team and you will be given a lot autonomy in building and improvi
 so being self-driven is an asset.
 
 We are a fully remote company and our team is currently based in the US, South America, and in Europe.
-We hope to work with people that are based in timezone where we have some overlap with the entire team,
+We hope to work with people that are based in a timezone where we have some overlap with the entire team,
 which is around UTC-8 to UTC+1.
 
 
@@ -107,3 +107,5 @@ The plan would be for us to contract with you to work between 4-5 days a week fo
 Of our existing team, half of our team works 4 days, and the other half works 5 days,
 and we are happy to be flexible with whatever works best for you.
 The pay rate will vary with experience and the hours worked but we are budgeting for **$15-20 per hour**.
+We are looking for some one who is early career or returning to their previous career
+with aspirations to grow into a business role with us
