@@ -63,5 +63,5 @@ Instead of setting advertising cookies and learning from users' browsing history
 we focus by advertising only to developers and target ads based on content alone.
 And [this approach works]({filename}ethical-advertising-works.md)!
 
-If you're sick of the cookie banner you have just for advertising on your site,
+If you're tired of seeing a cookie banner on your site,
 [join EthicalAds]({filename}../pages/publishers.md) and ditch those annoying banners!
