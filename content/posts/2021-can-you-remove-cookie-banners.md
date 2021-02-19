@@ -38,7 +38,7 @@ and you only set essential cookies,
 you will not need to set a cookie banner.
 
 For most sites, the cookies that trigger the laws and violate user privacy are advertising cookies 
-and web site analytics (e.g. Google Analytics).
+and website analytics.
 Until recently these have been difficult to do without.
 Advertising is a proven business model for high traffic websites
 and analytics are critical to understanding your site and users.
