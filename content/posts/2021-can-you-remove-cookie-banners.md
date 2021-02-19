@@ -30,7 +30,7 @@ For example, a cookie to keep you logged in may be essential but an analytics co
 if they are used for the purpose of collecting personal information; consent is not required.
 
 
-## How can a site legally eliminate cookie banners?
+## How can a site eliminate cookie banners?
 
 The answer is actually easy.
 If you don't collect personal information or allow third parties to collect personal information
