@@ -2,7 +2,7 @@ Title: Can you Eliminate Annoying Cookie Banners from your Site?
 Date: February 22, 2021
 description: Nobody likes cookie banners, but you have to have them right? Depending on what you're doing, maybe you don't!
 tags: cookies
-authors: David Fischer, Greg Muscarella
+authors: David Fischer
 image: /images/posts/2021-cookie-banners-header.jpg
 image_credit: <span>Photo by <a href="https://unsplash.com/@foodography?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Gianluca Gerardi</a> on <a href="https://unsplash.com/photos/h99d5WiFqrc?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
@@ -37,7 +37,7 @@ If you don't collect personal information or allow third parties to collect pers
 and you only set essential cookies,
 you will not need to set a cookie banner.
 
-For most sites, the cookies that trigger the laws and violate user privacy are advertising cookies 
+For most sites, the cookies that trigger the laws and violate user privacy are advertising cookies
 and website analytics.
 Until recently these have been difficult to do without.
 Advertising is a proven business model for high traffic websites
@@ -65,3 +65,5 @@ And [this approach works]({filename}ethical-advertising-works.md)!
 
 If you're tired of seeing a cookie banner on your site,
 [join EthicalAds]({filename}../pages/publishers.md) and ditch those annoying banners!
+
+*Thanks to Greg Muscarella for the inspiration and feedback on this post.*
