@@ -1,5 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/all.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2021-02-08T00:00:00-08:00</updated><entry><title>EthicalAds Newsletter - January 2021</title><link href="https://www.ethicalads.io/blog/2021/02/ethicalads-newsletter-january-2021/" rel="alternate"></link><published>2021-02-08T00:00:00-08:00</published><updated>2021-02-08T00:00:00-08:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2021-02-08:/blog/2021/02/ethicalads-newsletter-january-2021/</id><summary type="html">&lt;h2 id="january-advertising-stats"&gt;January advertising stats&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/all.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2021-02-22T00:00:00-08:00</updated><entry><title>Can you Eliminate Annoying Cookie Banners from your Site?</title><link href="https://www.ethicalads.io/blog/2021/02/can-you-eliminate-annoying-cookie-banners-from-your-site/" rel="alternate"></link><published>2021-02-22T00:00:00-08:00</published><updated>2021-02-22T00:00:00-08:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2021-02-22:/blog/2021/02/can-you-eliminate-annoying-cookie-banners-from-your-site/</id><summary type="html">&lt;p&gt;Even before the General Data Protection Regulation (GDPR) went into effect in 2018
+with its cookie consent policy, internet users …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Even before the General Data Protection Regulation (GDPR) went into effect in 2018
+with its cookie consent policy, internet users have had unavoidable pop-up messages
+thrust onto their screens on every page urging them to "accept all" cookies.&lt;/p&gt;
+&lt;p&gt;Leaving aside for a moment how that has conditioned people to discard their privacy with a single click,
+the experience is challenging on laptops. On mobile, it can be especially painful
+with the cookie banner often occupying the majority of the smartphone's screen.&lt;/p&gt;
+&lt;div style="width: 300px; margin: 2rem auto;"&gt;
+  &lt;img class="w-100" src="https://www.ethicalads.io/images/posts/2021-cookie-banners-ft-example.png" alt="A cookie banner on the Financial Times taking up about half the screen"&gt;
+  &lt;p class="text-center"&gt;&lt;small&gt;A cookie banner on the Financial Times taking up about half the screen&lt;/small&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h2 id="why-exactly-are-these-cookie-banners-needed"&gt;Why exactly are these cookie banners needed?&lt;/h2&gt;
+&lt;p&gt;The &lt;a href="https://gdpr.eu/cookies/"&gt;EU's GDPR&lt;/a&gt; requires that web sites get consent from visitors &lt;em&gt;before&lt;/em&gt; setting any non-essential cookies.
+"Non-Essential Cookies" are those that are not strictly required for your site to function.
+For example, a cookie to keep you logged in may be essential but an analytics cookie from a third-party would not be.
+&lt;a href="https://www.oag.ca.gov/privacy/ccpa"&gt;California's Consumer Privacy Act&lt;/a&gt; (CCPA) requires only that visitors be notified of the use of cookies
+if they are used for the purpose of collecting personal information; consent is not required.&lt;/p&gt;
+&lt;h2 id="how-can-a-site-eliminate-cookie-banners"&gt;How can a site eliminate cookie banners?&lt;/h2&gt;
+&lt;p&gt;The answer is simple in theory, but can be difficult depending on how your site works.
+If you don't collect personal information or allow third parties to collect personal information
+and you only set essential cookies,
+you will not need to set a cookie banner.&lt;/p&gt;
+&lt;p&gt;For most sites, the cookies that trigger the laws and violate user privacy are advertising cookies
+and website analytics.
+Until recently these have been difficult to do without.
+Advertising is a proven business model for high traffic websites
+and analytics are critical to understanding your site and users.
+However, the internet has responded to users demand for increased privacy by providing privacy-aware services.&lt;/p&gt;
+&lt;h2 id="privacy-oriented-services-that-eliminate-the-requirement-of-cookie-banners"&gt;Privacy-oriented services that eliminate the requirement of cookie banners&lt;/h2&gt;
+&lt;p&gt;When it comes to analytics, the internet has seen a host of alternatives to industry giant Google Analytics come to market.
+They include &lt;a href="https://www.cloudflare.com/web-analytics/"&gt;Cloudflare&lt;/a&gt;,
+&lt;a href="https://usefathom.com"&gt;Fathom&lt;/a&gt;,
+&lt;a href="https://plausible.io/"&gt;Plausible&lt;/a&gt; and more.
+These either don't set cookies at all or can easily be configured not to.&lt;/p&gt;
+&lt;p&gt;Finding a solution for internet advertising that doesn't trigger cookie banners or violate user privacy has been a larger challenge.
+Some ad tech companies are working hard to keep tracking and targeting users without cookies.
+This may meet the letter of the law, but definitely violates its intent.&lt;/p&gt;
+&lt;p&gt;This is one of the many reasons we built EthicalAds.
+Our &lt;a href="https://www.ethicalads.io/advertising-vision/"&gt;vision for advertising&lt;/a&gt; is that ads can work well without tracking users.
+Instead of setting advertising cookies and learning from users' browsing history,
+we focus by advertising only to developers and target ads based on content alone.
+And &lt;a href="https://www.ethicalads.io/blog/2018/04/ethical-advertising-works/"&gt;this approach works&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;If you're tired of seeing a cookie banner on your site,
+&lt;a href="https://www.ethicalads.io/publishers/"&gt;join EthicalAds&lt;/a&gt; and ditch those annoying banners!&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Thanks to Greg Muscarella for the inspiration and feedback on this post.&lt;/em&gt;&lt;/p&gt;</content><category term="posts"></category><category term="cookies"></category></entry><entry><title>EthicalAds Newsletter - January 2021</title><link href="https://www.ethicalads.io/blog/2021/02/ethicalads-newsletter-january-2021/" rel="alternate"></link><published>2021-02-08T00:00:00-08:00</published><updated>2021-02-08T00:00:00-08:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2021-02-08:/blog/2021/02/ethicalads-newsletter-january-2021/</id><summary type="html">&lt;h2 id="january-advertising-stats"&gt;January advertising stats&lt;/h2&gt;
 &lt;p&gt;In January, we returned to growth as expected from a slow holiday season.
 While the year always …&lt;/p&gt;</summary><content type="html">&lt;h2 id="january-advertising-stats"&gt;January advertising stats&lt;/h2&gt;
 &lt;p&gt;In January, we returned to growth as expected from a slow holiday season.
