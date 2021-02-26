@@ -55,7 +55,7 @@ DISPLAY_CATEGORIES_ON_MENU = False
 MENUITEMS = [
     ("Blog", "/blog/"),
     ("Our Ad Vision", "/advertising-vision/"),
-    ("Join EthicalAds", "/publishers/"),
+    ("Earn with EthicalAds", "/publishers/"),
 ]
 MENUITEMS_CTA = [("Advertise with Us", "/advertisers/")]
 MENUITEMS_RIGHT = [("User Login", "https://server.ethicalads.io/")]
