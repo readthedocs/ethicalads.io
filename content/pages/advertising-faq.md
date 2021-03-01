@@ -12,14 +12,25 @@ description: These are common questions from advertisers about the EthicalAds ne
 We have [packages to simplify advertising with
 us]({filename}advertisers.md#packages), but you can always put
 together a custom ad campaign. The exact cost will depend on your
-targeting with geography being the biggest factor. See our
+targeting with geography being the biggest factor.
+
+Most ads are priced in cost per thousand impressions (CPM)
+although some advertisers prefer cost per click (CPC) pricing
+which we can accommodate upon request.
+
+While you might setup a recurring campaign to be billed monthly,
+all our pricing is per impression.
+
+Our
 [prospectus]({static}/prospectus/ethicalads-advertiser-prospectus.pdf)
-for details.
+has all the details.
+
 
 ## Can I post an ad promoting my job openings?
 
 Absolutely. We have [packages specifically to help you find
 developers]({filename}advertisers-hiring.md).
+
 
 ## How can I target my ads?
 
@@ -38,12 +49,14 @@ Currently, these topics are:
 * Frontend web development
 * Security and privacy
 * DevOps
-* Technical writing
+* Python
 
 Our
 [prospectus]({static}/prospectus/ethicalads-advertiser-prospectus.pdf)
 will have the latest details and rates on keyword targeting.
-More niche targeting is possible although campaigns may take longer to fulfill due to availability. Inquire for details.
+More niche targeting is possible although campaigns may take longer to fulfill due to availability.
+Inquire for details.
+
 
 ## What are the ad specifications?
 
@@ -58,6 +71,7 @@ Our
 [prospectus]({static}/prospectus/ethicalads-advertiser-prospectus.pdf)
 has the full details and example screenshots.
 
+
 ## What is the process for becoming a publisher?
 
 The process generally follows these steps:
@@ -69,6 +83,7 @@ The process generally follows these steps:
 * You integrate the ads in your site, and let us know so we can review the placement.
 * We review the placement on your site, and then turn on paid ads for your account.
 
+
 ## Where do the ads link to?
 
 The ads can link to any URL. Typically they will link to your
@@ -76,16 +91,19 @@ landing page on your website. You may include UTM parameters or
 other URL parameters to know that the traffic came from your ad on
 our site.
 
+
 ## How are my ads scheduled?
 
 We attempt to schedule advertising evenly based on the length and
 size of your campaign. However, if you want to advertise as fast as
 possible, we can definitely do that.
 
+
 ## Can I run my ad JavaScript?
 
 In order to respect our users' privacy, we do not allow any
 third-party ad scripts.
+
 
 ## How can I see how my ads are performing?
 
@@ -94,16 +112,19 @@ live reports on the performance of your ads including how many times
 they were viewed and clicked. We count a viewable impression when
 the ad comes into the browser viewport.
 
+
 ## How can I manage my ads?
 
 After you become an advertiser, you will get access to our advertising platform
 where you can create, change, or turn off your ads as well as see live reports broken down by each ad.
+
 
 ## Where do my ads appear?
 
 Ads appear on sites that belong to our publisher network. Placement
 is customizable based on their requirements, but we always ensure
 a valuable placement.
+
 
 ## What type of ads are acceptable?
 
@@ -112,6 +133,7 @@ software developers.
 
 EthicalAds has final approval for all ads with respect to
 editorial and creative content but generally this isn't an issue.
+
 
 ## What are the details of the EthicalAds audience?
 
@@ -123,10 +145,12 @@ professionally.
 We have some more details in our [advertising
 guide]({static}/prospectus/advertising-guide.pdf).
 
+
 ## Do my ads support open source?
 
 EthicalAds is open source software and the ads go to support
 development of the publishers where ads are hosted.
+
 
 ## How can I get started advertising?
 
