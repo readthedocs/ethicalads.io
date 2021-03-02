@@ -20,5 +20,4 @@ Jobs at Read the Docs
 
 These are jobs at Read the Docs not working specifically on advertising:
 
-* [Developer advocate with documentation skills](https://blog.readthedocs.com/job-devrel/)
 * [Front-end developer with design skills](https://blog.readthedocs.com/job-frontend/)
