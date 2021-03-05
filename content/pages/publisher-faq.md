@@ -56,9 +56,9 @@ You can always look in your publisher dashboard to see more information on what 
 
 ## How do you target ads?
 
-We target ads on two primary things: country and keywords.
-Country targeting uses the IP address of the client,
-but we don't allow any more granular targeting than the country.
+We target ads on two primary things: location and keywords.
+Location targeting uses the IP address of the client,
+but we only target this to the Country and US State level.
 Keyword targeting comes from either the site or page the ad is shown on.
 Sites have default keywords,
 but publishers can override this with [Page-specific keywords](https://ethical-ad-client.readthedocs.io/en/latest/#page-specific-keywords).
