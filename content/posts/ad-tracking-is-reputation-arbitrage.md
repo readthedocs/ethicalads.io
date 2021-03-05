@@ -11,7 +11,7 @@ This is only true for publishers who don't have a valuable audience already on t
 We'll talk briefly about how this works,
 and point you to some additional resources to learn more.
 
-The advertising practice of [retargeting](https://en.wikipedia.org/wiki/Behavioral_retargeting) is what it sounds like:
+This post focused on the advertising practice of [retargeting](https://en.wikipedia.org/wiki/Behavioral_retargeting):
 
 > **Ad retargeting** is a technology that uses cookies and other invasive targeting methods to follow your users across multiple websites.
 
