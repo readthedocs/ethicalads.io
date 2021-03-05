@@ -13,9 +13,11 @@ and point you to some additional resources to learn more.
 
 The advertising practice of [retargeting](https://en.wikipedia.org/wiki/Behavioral_retargeting) is what it sounds like:
 
-    Retargeting is a technology that uses cookies and other invasive targeting methods to follow your users across multiple websites.
+> **Ad retargeting** is a technology that uses cookies and other invasive targeting methods to follow your users across multiple websites.
 
-The way this works is:
+### How it works
+
+The way retargeting works is:
 
 * The ad network knows the audience of Valuable Publisher (eg. Python web developers)
 * Valuable Publisher has ad network javascript on their site, showing them an ad for **$1 CPM**
@@ -23,9 +25,12 @@ The way this works is:
 * This user goes to a lower quality site (eg. a recipe website)
 * The ad network shows a Python ad to the user on the recipe site, paying **$.25 CPM**
 
-**Retargeting is valuable because it allows advertisers to show ads to your audience on cheaper sites, and pay less money overall**
-It's also why there are so many terrible recipe websites on the internet.
-This is due to market mechanisms that balance the pricing on the ad network:
+**Retargeting is valuable because it allows advertisers to show ads to your audience on cheaper sites.**
+
+### Why it's bad
+
+Retargeting is also why there are so many terrible recipe websites on the internet.
+This is due to market mechanisms that balance the pricing of advertising:
 
 * Advertisers want to pay more to reach Python developers than People Who Cook
 * If those developers can be retargeted on recipe sites, recipe sites can show Python ads instead of Cooking ads
@@ -38,8 +43,14 @@ so everyone in the EthicalAds network has very little to gain from working with 
 As we grow our market across the developer community,
 we hope to be able to increase revenue for our publishers because their users won't be as easy to retarget.
 
-By using privacy-preserving advertising like EthicalAds,
+### What you can do
+
+Using [privacy-preserving ad network](/publishers/) like EthicalAds,
 publishers will be able to continue creating value for open source.
+You can also use browser extensions like [Privacy Badger](https://privacybadger.org/) that protect against the basic forms of this tracking.
+
+If we are able to change how the industry works,
+the internet will become a better place.
 On a long enough time scale, we'll also get better recipe websites :)
 
 *Note: We only linked to sites in this post that don't retarget you.
