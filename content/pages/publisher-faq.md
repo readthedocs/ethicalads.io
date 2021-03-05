@@ -29,7 +29,7 @@ but in places that are very visible or persistent in the page design.
 
 ## Any restrictions on ad placements?
 
-Yes, please read our full [Publisher Policy](https://www.ethicalads.io/publisher-policy/#ad-display) on ad display.
+Yes, please read our full [Publisher Policy](/publisher-policy/#ad-display) on ad display.
 
 
 ## How much will I make?
@@ -41,7 +41,7 @@ assuming a majority of US and European traffic.
 
 ## How can I be paid?
 
-Please read our full [Publisher Policy](https://www.ethicalads.io/publisher-policy/#payouts) on payouts.
+Please read our full [Publisher Policy](/publisher-policy/#payouts) on payouts.
 
 
 ## Why do I only see house ads?
