@@ -73,7 +73,7 @@ The major features in our upcoming roadmap:
   These are stats like exactly how much advertising money they've spent or earned this month
   and how this month compares with last month.
   This feature is still on our roadmap but we didn't wrap it up in February.
-* We're finally going to expand our advertising logic to take into account price when selecting ads.
+* We're going to expand our advertising logic to take into account price when selecting ads.
   At least one advertiser has agreed to be a flex advertiser with part of their ad buys in Q2
   which will give them lower prices but not guaranteed inventory.
   This helps us ensure that as many ad slots have paid ads for our publishers while letting us balance our inventory.
