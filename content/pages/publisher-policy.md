@@ -20,10 +20,14 @@ but we expect publishers to stay within these guidelines at all times.
 
 We have the following rules around display of our ads:
 
-* Our ad should be the only ad on your site. We currently only allow a single EthicalAds ad per page, but are discussing how to support multiple.
+* Our ad should be the only ad on your site. We currently only allow a single EthicalAds ad per page, but are discussing how to support multiple. Promotion of your own content on your site is fine, as long as it's below our ad.
 * The ad should appear when the user first visits, above the fold, on both desktop and mobile. You can disable the ad on mobile if this isn't possible.
-* You are welcome to [display a different ad](https://ethical-ad-client.readthedocs.io/en/latest/#customization) as a fallback if EthicalAds doesn't have a paid ad to show.
-* The ad placement should result in at least a .1% CTR (click-through rate). If your CTR falls below this, we'll work with you to improve the placement. 
+* The ad should not disrupt the natural reading flow of the page. It should be placed above, beside or below the main content, not within it. This is an [Acceptable Ads](https://acceptableads.com/standard/) requirement.
+* The ad placement should result in at least a .1% CTR (click-through rate).
+
+You are welcome to [display a different ad](https://ethical-ad-client.readthedocs.io/en/latest/#customization) as a fallback if EthicalAds doesn't have a paid ad to show.
+You are also welcome to show EthicalAds to a share of your visitors (eg. 50%) along with another ad network, as long as they aren't shown on the same page.
+
 
 ## Payouts
 
