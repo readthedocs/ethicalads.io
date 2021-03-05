@@ -1,5 +1,4 @@
 Title: Frequently Asked Questions
-slug: faq
 url: advertisers/faq/
 save_as: advertisers/faq/index.html
 description: These are common questions from advertisers about the EthicalAds network including how ads are shown, where they appear, and how performance is measured.
