@@ -24,7 +24,7 @@ In February 2021:
 * We had **6,435,571** paid ad views across the world.
 * Read the Docs, our own publisher, generated **$17,404.14** on 7,165,169 paid ad impressions.
 
-It's always hard to beat a previous record but we're expecting another positive month in March.
+We're working hard to grow revenue for all our publishers, and we're expecting another record month in March.
 
 
 ## New features
