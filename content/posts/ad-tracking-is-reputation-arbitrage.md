@@ -19,8 +19,8 @@ This post focused on the advertising practice of [retargeting](https://en.wikipe
 
 The way retargeting works is:
 
-* The ad network knows the audience of Valuable Publisher (eg. Python web developers)
-* Valuable Publisher has ad network javascript on their site, showing them an ad for **$1 CPM**
+* The ad network knows the audience of valuable publisher (eg. Python web developers)
+* The valuable publisher has ad network javascript on their site, showing them an ad for **$1 CPM**
 * the ad network tags a user via cookies or [other intrusive methods](https://www.eff.org/deeplinks/2015/02/under-senate-pressure-verizon-improves-its-supercookie-opt-out) to follow them across the web
 * This user goes to a lower quality site (eg. a recipe website)
 * The ad network shows a Python ad to the user on the recipe site, paying **$.25 CPM**
@@ -32,7 +32,7 @@ The way retargeting works is:
 Retargeting is also why there are so many terrible recipe websites on the internet.
 This is due to market mechanisms that balance the pricing of advertising:
 
-* Advertisers want to pay more to reach Python developers than People Who Cook
+* Advertisers want to pay more to reach "Python developers" than "people who cook"
 * If those developers can be retargeted on recipe sites, recipe sites can show Python ads instead of Cooking ads
 * This means there are more possible sites for Python ads, lowing the price of each Python ad sold
 * This means recipe sites make more money, and Python docs make less money
