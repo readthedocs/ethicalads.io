@@ -1,6 +1,6 @@
-Title: Ad Retargeting is Hurting Open Source and Makes Recipe Sites Terrible
+Title: Ad Retargeting is Hurting Open Source Publisher & Helping Bad Recipe Sites
 Date: Mar 9, 2021
-description: We talk a bit more about how the ad tracking industry hurts publishers
+description: We explain why ad retargeting hurts high-quality publishers
 tags: tracking, advertising
 authors: Eric Holscher
 image: /images/posts/ad-retargeting.jpg
