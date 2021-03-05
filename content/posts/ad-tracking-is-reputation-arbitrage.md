@@ -45,7 +45,7 @@ we hope to be able to increase revenue for our publishers because their users wo
 
 ### What you can do
 
-Using [privacy-preserving ad network](/publishers/) like EthicalAds,
+By user [privacy-preserving ad network](/publishers/) like EthicalAds,
 publishers will be able to continue creating value for open source.
 You can also use browser extensions like [Privacy Badger](https://privacybadger.org/) that protect against the basic forms of this tracking.
 
