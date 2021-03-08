@@ -24,7 +24,7 @@ In February 2021:
   Going forward, we're going to report these numbers together.
   In March and beyond, we expect the revenue to outside publishers will surpass revenue to our own site.
 * We had **106 publishers** on our network with a paid ad impression.
-* We had **6,435,571** paid ad views across the world.
+* We had **13,600,740** paid ad views across the world.
 
 We're working hard to grow revenue for all our publishers, and we're expecting another record month in March.
 
