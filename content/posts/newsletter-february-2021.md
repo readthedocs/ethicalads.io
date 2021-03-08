@@ -19,10 +19,12 @@ Despite being a shorter month, we were still able to beat our previous bests fro
 
 In February 2021:
 
-* We generated **$11,671.47** for our publishers, a 5.5% increase over January.
+* We generated **$23,854.36** for our publishers.
+  Of this, $11,671.47 was publishers other than our own publisher (Read the Docs) which is a 5.5% increase over January.
+  Going forward, we're going to report these numbers together.
+  In March and beyond, we expect the revenue to outside publishers will surpass revenue to our own site.
 * We had **106 publishers** on our network with a paid ad impression.
 * We had **6,435,571** paid ad views across the world.
-* Read the Docs, our own publisher, generated **$17,404.14** on 7,165,169 paid ad impressions.
 
 We're working hard to grow revenue for all our publishers, and we're expecting another record month in March.
 
