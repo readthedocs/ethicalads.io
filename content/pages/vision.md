@@ -21,7 +21,7 @@ The primary tenets of ethical advertising are:
 
 * **Ethical ads don't track you**. This means no permanent advertising cookies and no indefinite storage of personal information.
 * **Ethical ads are targeted by page content**. We can still show relevant and valuable ads knowing only the content you're reading, not who you are as a person.
-* **Ethical ad networks don't keep your data**. Companies doing ethical advertising should make money showing ads, not selling user data.
+* **Ethical ad networks sell ads, not data**. Companies doing ethical advertising should make money showing ads, not selling user data.
 
 Some companies would like you to believe that it's impossible to do advertising
 without user tracking, but that simply isn't true.
