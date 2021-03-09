@@ -1,0 +1,59 @@
+<section class="inbound-form py-10" id="inbound-form">
+  <div class="container">
+
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-10 col-lg-8">
+
+        <!-- Card -->
+        <div class="card card-border border-primary shadow-light-lg">
+          <div class="card-body">
+            <div class="row justify-content-center">
+              <div class="col-12 col-xl-11">
+
+                <h2 class="font-weight-bold">Get in touch</h2>
+                <p class="font-size-lg">{{ page.contact_footer_subheadline }}</p>
+
+                <!-- Front - Ads General/Press Inquiry Form -->
+                <form
+                  method="POST"
+                  name="fa-form-1"
+                  action="https://webhook.frontapp.com/forms/036c4169294f3b04abaa/DuKS0GvCzn12Ok6ut39qdXF14M7Xq3c9dw0P-FijQO86l_7eSJ0aa874H0r-NmLPI2QXYh6HUTncyk-9ET8X9SKh5zZPdKP-hBsFPPXBOZQUk95-7o6sGdRBLrY"
+                  enctype="multipart/form-data"
+                  accept-charset="utf-8"
+                >
+                  {% if page %}
+                  <input type="hidden" name="title" value="{{ page.title }}" />
+                  <input type="hidden" name="url" value="{{ page.url }}" />
+                  {% endif %}
+                  <input type="hidden" name="subject" value="Press inquiry">
+                  <input type="hidden" name="body" value="Content embedded below">
+
+                  <div class="form-group">
+                    <label for="name">Your name</label>
+                    <input class="form-control" type="text" id="name" name="name" required>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="email">Your email</label>
+                    <input class="form-control" type="email" id="email" name="email" required>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="why">{{ page.contact_footer_why }}</label>
+                    <textarea class="form-control" id="why" name="why" required></textarea>
+                  </div>
+
+                  <div class="form-group my-5">
+                    <input type="submit" value="Submit Inquiry" class="btn btn-sm btn-primary">
+                  </div>
+                </form>
+
+              </div>
+            </div> <!-- / .row -->
+          </div>
+        </div>
+      </div>
+    </div> <!-- / .row -->
+
+  </div>
+</section>
