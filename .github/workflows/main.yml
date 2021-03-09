@@ -3,7 +3,7 @@ name: Build and Deploy Site to GitHub Pages
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   deploy:
@@ -52,7 +52,7 @@ jobs:
       - name: Build and Deploy Repo
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
-          BASE_BRANCH: master
+          BASE_BRANCH: main
           BRANCH: gh-pages
           FOLDER: output
           CLEAN: true
