@@ -1,0 +1,115 @@
+{% extends "page.html" %}
+
+
+
+{% block content %}
+{{ super() }}
+
+
+
+<section class="py-10">
+  <div class="container">
+    <h2>Brand guidelines</h2>
+
+    <ul class="list-unstyled">
+      <li class="media my-8">
+        <img class="align-self-center mr-10 border" src="/theme/img/mediakit/ethicalads-logo-blue.png" alt="EthicalAds logo blue on white" height="50">
+        <div class="media-body">
+          <h4 class="mt-0 mb-1">EthicalAds logo blue on white</h4>
+          <small>Our blue (#2C82B9) on white logo which is good for white or light backgrounds. The SVG version has a transparent background and can be used on off white.</small>
+          <ul class="list-inline small">
+            <li class="list-inline-item"><a href="/theme/img/mediakit/ethicalads-logo-blue.png">PNG</a></li>
+            <li class="list-inline-item"><a href="/theme/img/mediakit/ethicalads-logo-blue.svg">SVG</a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="media my-8">
+        <img class="align-self-center mr-10 border" src="/theme/img/mediakit/ethicalads-logo-black.png" alt="EthicalAds logo black on white" height="50">
+        <div class="media-body">
+          <h4 class="mt-0 mb-1">EthicalAds logo black on white</h4>
+          <small>Our logo in black and white which should be used when color isn't appropriate.</small>
+          <ul class="list-inline small">
+            <li class="list-inline-item"><a href="/theme/img/mediakit/ethicalads-logo-black.png">PNG</a></li>
+            <li class="list-inline-item"><a href="/theme/img/mediakit/ethicalads-logo-black.svg">SVG</a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="media my-8">
+        <img class="align-self-center mr-10 border" src="/theme/img/mediakit/ethicalads-logo-white.png" alt="EthicalAds logo white on blue" height="50">
+        <div class="media-body">
+          <h4 class="mt-0 mb-1">EthicalAds logo white on blue</h4>
+          <small>Our logo in white on our blue. The SVG version has a transparent background but should only be used on blue.</small>
+          <ul class="list-inline small">
+            <li class="list-inline-item"><a href="/theme/img/mediakit/ethicalads-logo-white.png">PNG</a></li>
+            <li class="list-inline-item"><a href="/theme/img/mediakit/ethicalads-logo-white.svg">SVG</a></li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+
+    <p class="small">The font used in the logo is <a href="https://www.myfonts.com/fonts/linotype/avenir/">Avenir</a> from Linotype. Our blue is (#2C82B9) and we sometimes use a darker blue (#1B2A4E) for contrast.</p>
+  </div>
+</section>
+
+
+<section class="inbound-form py-10" id="inbound-form">
+  <div class="container">
+
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-10 col-lg-8">
+
+        <!-- Card -->
+        <div class="card card-border border-primary shadow-light-lg">
+          <div class="card-body">
+            <div class="row justify-content-center">
+              <div class="col-12 col-xl-11">
+
+                <h2 class="font-weight-bold">Get in touch</h2>
+                <p class="font-size-lg">We're thrilled you're interested in what we're building.</p>
+
+                <!-- Front - Ads General/Press Inquiry Form -->
+                <form
+                  method="POST"
+                  name="fa-form-1"
+                  action="https://webhook.frontapp.com/forms/036c4169294f3b04abaa/DuKS0GvCzn12Ok6ut39qdXF14M7Xq3c9dw0P-FijQO86l_7eSJ0aa874H0r-NmLPI2QXYh6HUTncyk-9ET8X9SKh5zZPdKP-hBsFPPXBOZQUk95-7o6sGdRBLrY"
+                  enctype="multipart/form-data"
+                  accept-charset="utf-8"
+                >
+                  {% if page %}
+                  <input type="hidden" name="title" value="{{ page.title }}" />
+                  <input type="hidden" name="url" value="{{ page.url }}" />
+                  {% endif %}
+                  <input type="hidden" name="subject" value="Press inquiry">
+                  <input type="hidden" name="body" value="Content embedded below">
+
+                  <div class="form-group">
+                    <label for="name">Your name</label>
+                    <input class="form-control" type="text" id="name" name="name" required>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="email">Your email</label>
+                    <input class="form-control" type="email" id="email" name="email" required>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="why">Tell us a bit about who you are and what you're writing about</label>
+                    <textarea class="form-control" id="why" name="why" required></textarea>
+                  </div>
+
+                  <div class="form-group my-5">
+                    <input type="submit" value="Submit Inquiry" class="btn btn-sm btn-primary">
+                  </div>
+                </form>
+
+              </div>
+            </div> <!-- / .row -->
+          </div>
+        </div>
+      </div>
+    </div> <!-- / .row -->
+
+  </div>
+</section>
+
+{% endblock content %}
