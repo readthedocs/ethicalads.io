@@ -1,25 +1,27 @@
 title: Our Advertising Vision
 slug: advertising-vision
 description: Advertising doesn't have to involve tracking users to be successful. At EthicalAds, we see a different future for advertising that respects user privacy.
-subtitle: Ads that don't track you, sold by a company you can trust
-
+subtitle: Ads that don't track you, sold by a company you can trust.
 
 We realize that our name, EthicalAds, sets a high bar for what people expect.
 We do our best to live up those expectations in all aspects of our business.
-Whether you are a prospective advertiser,
-you're looking to run our ads on your site,
+Whether you are a prospective advertiser or publisher,
 or you just care about privacy and you want to learn more,
 we want to define *ethical advertising* for you here.
 
 
 ## What is ethical advertising
 
-Ethical ads respect users while still providing value to advertisers.
-The most important parts are:
+A succinct definition:
 
-* Ethical advertising doesn't track you. This means no permanent advertising cookies and no indefinite storage of personal information.
-* Companies doing ethical advertising should make money showing ads, not selling user data, so their interests are fully aligned.
-* Ethical ads should target users based on what they're currently browsing, not past browsing history.
+Ethical Advertising
+: Showing ads based on page content without tracking users.
+
+The primary tenets of ethical advertising are:
+
+* **Ethical ads don't track you**. This means no permanent advertising cookies and no indefinite storage of personal information.
+* **Ethical ads are targeted by page content**. We can still show relevant and valuable ads knowing only the content you're reading, not who you are as a person.
+* **Ethical ad networks sell ads, not data**. Companies doing ethical advertising should make money showing ads, not selling user data.
 
 Some companies would like you to believe that it's impossible to do advertising
 without user tracking, but that simply isn't true.
