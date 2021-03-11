@@ -64,7 +64,7 @@ the end of third-party cookies won't be the death knell for ad tech,
 behavioral targeting, or personalized ads.
 
 There are a lot of alternatives to cookies for tracking users across the web which are more invasive.
-For many ad tech players, third-party cookies going away won't affect them at all because they use these methods of tracking. 
+For many ad tech players, third-party cookies going away won't affect them at all because they use these methods of tracking.
 The list of the techniques used to circumvent cookie restrictions
 is potentially endless but here are some common techniques:
 
@@ -85,15 +85,18 @@ has an alternative approach they call [Unified ID 2.0](https://www.thetradedesk.
 This will only work for sites and apps that support logins
 since it operates off of hashed email addresses, but once logged in,
 users can be targeted with personalized ads.
+While this isn't an approach we want to see become the norm, it is at least upfront and clear.
 
 Lastly, some companies are trying to pressure Google and other players into slowing or reversing these changes.
 When Apple's iOS 14 required apps using ad tracking to request user permission,
 Facebook cried foul and is claiming that these [privacy protections hurt small businesses](https://www.washingtonpost.com/technology/2020/12/16/facebook-apple-idfa-ios14-small-business/).
 The UK's Competition and Markets Authority (CMA) at the request of advertising market participants
 is specifically investigating the changes to Chrome and the Privacy Sandbox.
+Only the big ad players want to keep the status quo for ad tracking.
+These tactics might delay things, but with users and governments asking for privacy improvements, they're going to come.
 
 We generally oppose all of these attempts at tracking users across the web,
-and are building on a more privacy-focused foundation of contextual ad targeting. 
+and are building on a more privacy-focused foundation of contextual ad targeting.
 
 
 [comment]: # (Other changes coming to ad tech)
