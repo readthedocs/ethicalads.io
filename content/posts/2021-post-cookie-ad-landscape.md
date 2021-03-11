@@ -64,7 +64,7 @@ the end of third-party cookies won't be the death knell for ad tech,
 behavioral targeting, or personalized ads.
 
 There are a lot of alternatives to cookies for tracking users across the web which are more invasive.
-For many ad tech players, third-party cookies going away won't affect them at all.
+For many ad tech players, third-party cookies going away won't affect them at all because they use these methods of tracking. 
 The list of the techniques used to circumvent cookie restrictions
 is potentially endless but here are some common techniques:
 
