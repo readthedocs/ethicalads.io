@@ -1,5 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/all.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2021-03-08T00:00:00-08:00</updated><entry><title>EthicalAds Newsletter - February 2021</title><link href="https://www.ethicalads.io/blog/2021/03/ethicalads-newsletter-february-2021/" rel="alternate"></link><published>2021-03-08T00:00:00-08:00</published><updated>2021-03-08T00:00:00-08:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2021-03-08:/blog/2021/03/ethicalads-newsletter-february-2021/</id><summary type="html">&lt;h2 id="february-advertising-stats"&gt;February advertising stats&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/all.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2021-03-11T00:00:00-08:00</updated><entry><title>Cookie Changes are Coming to Ad Tech</title><link href="https://www.ethicalads.io/blog/2021/03/cookie-changes-are-coming-to-ad-tech/" rel="alternate"></link><published>2021-03-11T00:00:00-08:00</published><updated>2021-03-11T00:00:00-08:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2021-03-11:/blog/2021/03/cookie-changes-are-coming-to-ad-tech/</id><summary type="html">&lt;p&gt;Last week, &lt;a href="https://www.blog.google/products/ads-commerce/a-more-privacy-first-web/"&gt;Google announced&lt;/a&gt;
+that after they phase out third-party cookies in Chrome next year,
+they "will not build alternate …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Last week, &lt;a href="https://www.blog.google/products/ads-commerce/a-more-privacy-first-web/"&gt;Google announced&lt;/a&gt;
+that after they phase out third-party cookies in Chrome next year,
+they "will not build alternate identifiers to track individuals as they browse across the web."
+On the surface, this looks like a win for a more private web.
+This would put Chrome, the most popular browser, on a similar footing to Safari and Firefox
+which block most third-party tracking out of the box.
+As more details started to come out about Google's vision, however,
+things started to get a bit murkier.&lt;/p&gt;
+&lt;h2 id="googles-vision-for-the-future-of-ads"&gt;Google's vision for the future of ads&lt;/h2&gt;
+&lt;p&gt;In Google's vision, ads targeted to users' interests aren't going away but are merely changing.
+Built on Google's &lt;a href="https://www.chromium.org/Home/chromium-privacy/privacy-sandbox"&gt;Privacy Sandbox&lt;/a&gt;,
+which is part of the open source engine behind Chrome,
+Google promises these changes will create a more private web
+while keeping targeted advertising just as effective.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;"Advances in aggregation, anonymization, on-device processing and other privacy-preserving technologies offer a clear path to replacing individual identifiers."&lt;/p&gt;
+&lt;p&gt;David Temkin&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Director of Product Management, Ads Privacy and Trust at Google&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Instead of ad networks or ad tech companies keeping and storing data on users to target them with ads,
+Google is testing an approach they call &lt;a href="https://github.com/WICG/floc"&gt;Federated Learning of Cohorts (FLoC)&lt;/a&gt;
+which will have your browser learn about the things you like so you can be targeted with ads.
+Likewise, for personalized ads, they have another approach called &lt;a href="https://github.com/WICG/turtledove"&gt;Turtledove&lt;/a&gt;.
+These will expose new browser APIs that advertisers and ad networks can use to target ads.&lt;/p&gt;
+&lt;p&gt;Make no mistake,
+while these changes have some privacy benefits, they also are about control.
+Google's vision for ads put them at the center of the ads ecosystem.
+Google controls the browser you're probably using right now
+and they'll control how these new tools and APIs like FLoC can be used for advertising.
+In addition, Google has a first-party relationship with you and they don't need third-party cookies.
+They can continue to use the emails you receive in Gmail,
+the places you get directions to in Google Maps, the videos you watch on YouTube,
+and the things you search for on Google to target you with ads.&lt;/p&gt;
+&lt;p&gt;The &lt;a href="https://www.eff.org/deeplinks/2021/03/googles-floc-terrible-idea"&gt;Electronic Frontier Foundation (EFF) called FLoC a "terrible idea"&lt;/a&gt;.
+They say it will help ad tech companies fingerprint users
+so they can uniquely identify them more easily.
+Any site which supports logging in could easily request FLoC data and add it to users' data profiles,
+connecting that with the existing personal information they have on this user.&lt;/p&gt;
+&lt;h2 id="what-ad-tech-companies-are-doing-about-it"&gt;What ad tech companies are doing about it&lt;/h2&gt;
+&lt;p&gt;The response from the ad tech side of the industry ranges
+depending on where the company sits in the ecosystem.
+Even if Google's vision doesn't become a reality
+-- we expect some of it will and some of it won't --
+the end of third-party cookies won't be the death knell for ad tech,
+behavioral targeting, or personalized ads.&lt;/p&gt;
+&lt;p&gt;There are a lot of alternatives to cookies for tracking users across the web which are more invasive.
+For many ad tech players, third-party cookies going away won't affect them at all because they use these methods of tracking.
+The list of the techniques used to circumvent cookie restrictions
+is potentially endless but here are some common techniques:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Fingerprinting:&lt;/strong&gt; As the EFF called out, fingerprinting,
+  or the process of uniquely identifying individual users based on their browser
+  and other data about them like their IP address is common practice in the ad tech space.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Supercookies:&lt;/strong&gt; So called &lt;a href="https://blog.mozilla.org/security/2021/01/26/supercookie-protections/"&gt;"supercookies"&lt;/a&gt;
+  use trackers hidden in other parts of browser like ETags or HSTS headers.
+  These are not cleared by clearing cookies and can potentially identify users uniquely or be used with fingerprinting.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CNAME Cloaking:&lt;/strong&gt; &lt;a href="https://webkit.org/blog/11338/cname-cloaking-and-bounce-tracking-defense/"&gt;CNAME Cloaking&lt;/a&gt;
+  involves a publisher setting up a subdomain for an ad tech tracker so it appears as a first-party domain for cookie purposes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Advertisers and ad tech companies are also leery of Google having too much control.
+With states like California and Virginia adopting privacy legislation,
+they know the privacy landscape is changing and some of them are trying to get in front of it with their own proposals.
+The Trade Desk, an ad tech company,
+has an alternative approach they call &lt;a href="https://www.thetradedesk.com/us/about-us/industry-initiatives/unified-id-solution-2-0"&gt;Unified ID 2.0&lt;/a&gt;.
+This will only work for sites and apps that support logins
+since it operates off of hashed email addresses, but once logged in,
+users can be targeted with personalized ads.
+While this isn't an approach we want to see become the norm, it is at least upfront and clear.&lt;/p&gt;
+&lt;p&gt;Lastly, some companies are trying to pressure Google and other players into slowing or reversing these changes.
+When Apple's iOS 14 required apps using ad tracking to request user permission,
+Facebook cried foul and is claiming that these &lt;a href="https://www.washingtonpost.com/technology/2020/12/16/facebook-apple-idfa-ios14-small-business/"&gt;privacy protections hurt small businesses&lt;/a&gt;.
+The UK's Competition and Markets Authority (CMA) at the request of advertising market participants
+is specifically investigating the changes to Chrome and the Privacy Sandbox.
+Only the big ad players want to keep the status quo for ad tracking.
+These tactics might delay things, but with users and governments asking for privacy improvements, they're going to come.&lt;/p&gt;
+&lt;p&gt;We generally oppose all of these attempts at tracking users across the web,
+and are building on a more privacy-focused foundation of contextual ad targeting.&lt;/p&gt;
+&lt;h2 id="how-do-these-changes-affect-ethical-advertising"&gt;How do these changes affect ethical advertising?&lt;/h2&gt;
+&lt;p&gt;For our small ethical advertising segment of the industry,
+these changes will have pretty minimal effect.
+Third-party cookies and all their prospective replacements
+are all about gathering information on you (and millions of people like you)
+in order to target ads to you based on your interests or to you personally.
+Ethical advertising doesn't use third-party cookies
+and doesn't store personal information.
+We aren't trying to show ads to you personally, but instead
+like traditional advertising on TV, in newspapers, or in magazines,
+ethical ads are targeted to the content of the page.
+We put ads for developers on developer focused sites. That's it.&lt;/p&gt;
+&lt;p&gt;If you're interested in a future for advertising without intrusive surveillance and user tracking,
+read more about our &lt;a href="https://www.ethicalads.io/advertising-vision/"&gt;vision for ethical advertising&lt;/a&gt;.&lt;/p&gt;</content><category term="posts"></category><category term="cookies"></category><category term="adtech"></category><category term="fingerprinting"></category></entry><entry><title>EthicalAds Newsletter - February 2021</title><link href="https://www.ethicalads.io/blog/2021/03/ethicalads-newsletter-february-2021/" rel="alternate"></link><published>2021-03-08T00:00:00-08:00</published><updated>2021-03-08T00:00:00-08:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2021-03-08:/blog/2021/03/ethicalads-newsletter-february-2021/</id><summary type="html">&lt;h2 id="february-advertising-stats"&gt;February advertising stats&lt;/h2&gt;
 &lt;p&gt;February was our best month ever for advertising.
 Despite being a shorter month, we were still able …&lt;/p&gt;</summary><content type="html">&lt;h2 id="february-advertising-stats"&gt;February advertising stats&lt;/h2&gt;
 &lt;p&gt;February was our best month ever for advertising.
