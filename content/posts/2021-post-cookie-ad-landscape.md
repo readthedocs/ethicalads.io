@@ -92,6 +92,9 @@ Facebook cried foul and is claiming that these [privacy protections hurt small b
 The UK's Competition and Markets Authority (CMA) at the request of advertising market participants
 is specifically investigating the changes to Chrome and the Privacy Sandbox.
 
+We generally oppose all of these attempts at tracking users across the web,
+and are building on a more privacy-focused foundation of contextual ad targeting. 
+
 
 [comment]: # (Other changes coming to ad tech)
 [comment]: # (https://github.com/privacycg/private-click-measurement)
