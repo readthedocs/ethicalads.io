@@ -49,7 +49,7 @@ and the things you search for on Google to target you with ads.
 
 The [Electronic Frontier Foundation (EFF) called FLoC a "terrible idea"](https://www.eff.org/deeplinks/2021/03/googles-floc-terrible-idea).
 They say it will help ad tech companies fingerprint users
-so they can uniquely identify them more easily
+so they can uniquely identify them more easily.
 and that any site which supports logging in could easily request FLoC data and add it to users' data profiles.
 
 
