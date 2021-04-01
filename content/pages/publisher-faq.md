@@ -24,7 +24,7 @@ We sell a mix of CPC (paid per click) and CPM (paid per view) ads.
 Ads that are viewed and clicked more get more revenue.
 The better and more visible the placement, generally the more money we both make.
 Some of our best performing publishers use the text ad format,
-but in places that are very visible or persistent in the page design. 
+but in places that are very visible or persistent in the page design.
 
 
 ## Any restrictions on ad placements?
@@ -64,6 +64,25 @@ Sites have default keywords,
 but publishers can override this with [Page-specific keywords](https://ethical-ad-client.readthedocs.io/en/latest/#page-specific-keywords).
 **We strongly recommend implementing Page-specific keywords to increase the success of your ads**,
 if you have this metadata on your site.
+
+
+## How do I ensure the ads will perform well on my site?
+
+Without tracking users, the best way to make sure ads perform well
+is to have a good placement to have good targeting based on content.
+A good ad placement means the ad is clearly visible and separate from the content of the page.
+How long the ad is visible on the page is also a factor.
+If the UX of your site means that users quickly scroll past ads, the ads on your site won't perform well.
+
+For better content targeting, letting us know about the content of your pages with
+[page-specific keywords](https://ethical-ad-client.readthedocs.io/en/latest/#page-specific-keywords),
+can allow us to better target the ads.
+For example, we can target an ad for a DevOps related service to DevOps related content.
+
+Better performance and better targeting will generally result in more money for publishers like yourself.
+While most advertisers pay per impression, some pay per click which yields more money for better performance.
+Content targeted ads to more specific content can also results in higher click through rates
+and we charge higher rates for more targeted ads.
 
 
 ## This sounds great, how do I sign up?
