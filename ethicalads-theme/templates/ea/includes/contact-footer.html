@@ -25,7 +25,7 @@
                   <input type="hidden" name="title" value="{{ page.title }}" />
                   <input type="hidden" name="url" value="{{ page.url }}" />
                   {% endif %}
-                  <input type="hidden" name="subject" value="Press inquiry">
+                  <input type="hidden" name="subject" value="{% if page.contact_footer_subject %}{{ page.contact_footer_subject }}{% else %}EthicalAds press inquiry{% endif %}">
                   <input type="hidden" name="body" value="Content embedded below">
 
                   <div class="form-group">
