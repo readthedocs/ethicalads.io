@@ -53,7 +53,7 @@ Here's the major features we added in the last month:
   Longer term, we will probably use a separate reporting database for both performance
   but for now, we're keeping it simple.
 
-You can always see our latest updates in our [ethical-ad-server changelog](https://ethical-ad-server.readthedocs.io/en/latest/developer/changelog.html).
+You can always see our latest server updates in our [ethical-ad-server changelog](https://ethical-ad-server.readthedocs.io/en/latest/developer/changelog.html).
 
 
 ## Tricky bits
