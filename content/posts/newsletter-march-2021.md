@@ -20,7 +20,7 @@ although [Februrary]({filename}/posts/newsletter-february-2021.md) was better pe
 
 In March 2021:
 
-* We generated **$23,994.57** for our publishers another record but just barely up under 1% over February.
+* We generated **$23,994.57** for our publishers, another record but only 1% over February.
   Of this, $10,711.54 was publishers other than our own publisher (Read the Docs).
 * We had **104 publishers** on our network with a paid ad impression.
 * We had **14,768,103** paid ad views across the world.
