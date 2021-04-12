@@ -44,7 +44,7 @@ Here's the major features we added in the last month:
   Our aim is to be as transparent as possible and give advertisers the ability to make more informed decisions.
 * We made a small tweak to our ad display algorithm when the same person requests multiple ads within a few seconds.
   We now cache the ad and show the exact same ad and only bill advertisers a single impression for it.
-  For most publishers, this made almost no difference but for some this resulted in fewer ads being shown
+  For most publishers, this made almost no difference but for some this resulted in fewer ad views being counted
   and therefore less revenue.
   We believe this is more fair to advertisers and incentivizes publishers to have good ad placements.
 * In our infrastructure, we've solved most of our performance/IO problems from the previous month.
