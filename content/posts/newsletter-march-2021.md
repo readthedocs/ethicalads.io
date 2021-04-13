@@ -16,7 +16,7 @@ image_credit: <span>Photo by <a href="https://unsplash.com/@gaspanik?utm_source=
 
 
 March was another record month ever for advertising
-although [Februrary]({filename}/posts/newsletter-february-2021.md) was better per day due to being a shorter month.
+although [February]({filename}/posts/newsletter-february-2021.md) was better per day due to being a shorter month.
 
 In March 2021:
 
