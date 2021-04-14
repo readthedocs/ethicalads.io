@@ -4,8 +4,7 @@
 {% block head %}
 {{ super() }}
 
-{# Ad Client #}
-<script async src="https://media.ethicalads.io/media/client/ethicalads.min.js"></script>
+{% include 'ea/includes/ad-client-tag.html' %}
 {% endblock head %}
 
 
@@ -132,7 +131,7 @@
       </div>
       <div class="col-md-6">
         <div class="text-center">
-          <div data-ea-publisher="ethicaladsio" data-ea-type="image"></div>
+          {% include 'ea/includes/ad-placement.html' %}
         </div>
         <p class="small text-muted text-center">(This is a real ad from our network)</p>
       </div>
