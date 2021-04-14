@@ -130,7 +130,7 @@ manager in person or establish some sort of connection, in my
 experience, this raises your chances significantly.
 
 In our interviews, another channel that mid-size and larger companies we
-talked to used to recruit was to rely on their presense at conferences.
+talked to used to recruit was to rely on their presence at conferences.
 For many companies, recruiting was the primary motivator to sponsor a
 conference and have a booth. As a candidate, talking to the engineers at
 the booth and showing interest can ensure that your application doesn't
