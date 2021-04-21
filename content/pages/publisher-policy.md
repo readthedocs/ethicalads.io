@@ -3,6 +3,7 @@ description: The publisher policy for the EthicalAds server and network
 status: hidden
 
 Effective date: **August 19, 2020**
+Last updated: [April 21, 2021](https://github.com/readthedocs/ethicalads.io/commits/main/content/pages/publisher-policy.md)
 
 The goal of this page is to set expectations between EthicalAds and our publishers about what is expected on each side.
 Our goal is for these to be easily understandable and fair,
@@ -60,6 +61,7 @@ which won't be counted as a paid ad view:
 * Known bot user-agents
 * Users with IP addresses we can't geolocate
 * Users with IP address that map to known hosting providers, VPN's, and web proxies
+* Multiple views of an ad within 5 seconds from the same browser
 
 We are regularly tweaking our ad fraud detection in response to new challenges,
 and we're happy to work with publishers to make sure our ads work for them.
