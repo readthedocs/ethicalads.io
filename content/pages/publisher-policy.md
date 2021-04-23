@@ -3,7 +3,7 @@ description: The publisher policy for the EthicalAds server and network
 status: hidden
 
 Effective date: **August 19, 2020**
-Last updated: [April 21, 2021](https://github.com/readthedocs/ethicalads.io/commits/main/content/pages/publisher-policy.md)
+Last updated: [April 23, 2021](https://github.com/readthedocs/ethicalads.io/commits/main/content/pages/publisher-policy.md)
 
 The goal of this page is to set expectations between EthicalAds and our publishers about what is expected on each side.
 Our goal is for these to be easily understandable and fair,
@@ -66,3 +66,14 @@ which won't be counted as a paid ad view:
 We are regularly tweaking our ad fraud detection in response to new challenges,
 and we're happy to work with publishers to make sure our ads work for them.
 
+## Violations
+
+We reserve the right to adjustment payouts contingent on following our publisher policy.
+If traffic is found to be fraudulent, invalid, or otherwise against our policy,
+we will attempt to detect this prior to paying out to our publishers.
+Payouts may be delayed in cases where we detect suspicious activity,
+because once a payout has been issued it will be very difficult to revoke.
+
+**Publishers who are found in violation of our publisher policy can have their paid ads disabled.**
+We try to provide at least 7 days notice before disabling paid advertising,
+but this may not be possible in all cases.
