@@ -10,9 +10,8 @@ and we’d love for you to join us.
 Open positions
 --------------
 
-These are our advertising-specific openings:
-
-* [Ads Account Manager (Part Time)](/jobs/account-manager-part-time/)
+We have no current openings but if you're excited about what we're doing
+we'd like to [hear from you]({filename}/pages/contact.md)!
 
 
 Jobs at Read the Docs
