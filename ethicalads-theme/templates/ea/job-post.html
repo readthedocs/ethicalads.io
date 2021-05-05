@@ -6,6 +6,7 @@
 {{ super() }}
 
 
+{% if not page.disable_form %}
 <section class="inbound-form bg-gray-200 py-10" id="inbound-form">
   <div class="container">
 
@@ -82,6 +83,7 @@
 
   </div>
 </section>
+{% endif %}
 
 
 {% endblock content %}
