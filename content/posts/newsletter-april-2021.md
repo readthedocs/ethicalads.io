@@ -12,33 +12,6 @@ image_credit: <span>Photo by <a href="https://unsplash.com/@gaspanik?utm_source=
 [comment]: # (?start_date=2020-09-01&end_date=2020-09-30&campaign_type=paid&revenue_share_percentage=70.0&sort=revenue)
 
 
-## April advertising stats
-
-----------
-
-April was an interesting month for advertising
-as we had rolled out some of our contextual targeting changes and had some new ad buys start.
-
-In April 2021:
-
-* We generated **$23,831.85** for our publishers.
-  Of this, $12,154.71 was to third-party publishers, with the rest to Read the Docs.
-  While not a surprise, this was an all-time record for our third-party publishers!
-* We had **101 publishers** on our network with a paid ad impression.
-* We had **17,507,857** paid ad views across the world.
-  The biggest reason for a large increase in ad views was that we received a couple ad buys
-  with nearly global targeting.
-  While these don't always bring in lots of revenue as global targeting isn't very expensive,
-  they can have a big impact on the total number of ads.
-
-So far, May is looking to continue the gains that we made in April
-but if we are able to close a few ad buys we have in the pipeline,
-that could put our revenue over the top.
-
-
-----------
-
-
 ## New features
 
 Here's the major features we added in the last month:
@@ -60,6 +33,28 @@ Here's the major features we added in the last month:
   We are continuing to make improvements to ad prioritization in May and beyond.
 
 You can always see our latest server updates in our [ethical-ad-server changelog](https://ethical-ad-server.readthedocs.io/en/latest/developer/changelog.html).
+
+
+## April advertising stats
+
+April was an interesting month for advertising
+as we had rolled out some of our contextual targeting changes and had some new ad buys start.
+
+In April 2021:
+
+* We generated **$23,831.85** for our publishers.
+  Of this, $12,154.71 was to third-party publishers, with the rest to Read the Docs.
+  While not a surprise, this was an all-time record for our third-party publishers!
+* We had **101 publishers** on our network with a paid ad impression.
+* We had **17,507,857** paid ad views across the world.
+  The biggest reason for a large increase in ad views was that we received a couple ad buys
+  with nearly global targeting.
+  While these don't always bring in lots of revenue as global targeting isn't very expensive,
+  they can have a big impact on the total number of ads.
+
+So far, May is looking to continue the gains that we made in April
+but if we are able to close a few ad buys we have in the pipeline,
+that could put our revenue over the top.
 
 
 ## New hire
