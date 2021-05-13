@@ -101,7 +101,7 @@ and ensure that they bring the kind of audience our advertisers want to reach.
 
 ## Community Ads
 
-We also use our focused approach to highlight non-profit sectors of the developer community. There are a large number of projects, conferences, and initiatives that we care about in the software and open source ecosystems. A large number of them operate with almost no income. Our Community Ads program highlights some of these projects by running ads at no cost. 
+We also give our publishers the ability to give back to the community by promoting worthy, relevant causes. There are a large number of projects, conferences, and initiatives that we care about in the software and open source ecosystems. A large number of them operate with almost no income. Our optional Community Ads program highlights these projects by running ad campaigns at no cost. 
 
 There are a few qualifications for our Community Ads program:
 
