@@ -1,4 +1,4 @@
-Title: People, Projects, and Proof
+Title: Willful Words and Pretty Pictures
 Date: May 25, 2021
 description: Ra's introductory blogpost 
 tags: newsletter, community
