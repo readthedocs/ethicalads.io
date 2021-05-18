@@ -1,5 +1,5 @@
 Title: Willful Words and Pretty Pictures
-Date: May 25, 2021
+Date: May 19, 2021
 description: Meet Ra Cohen, the newest addition to the EthicalAds team who will assist our advertisers and publishers in telling their story
 tags: newsletter, community
 authors: Ra Cohen
