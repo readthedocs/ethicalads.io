@@ -1,7 +1,7 @@
 Title: Willful Words and Pretty Pictures
 Date: May 19, 2021
 description: Meet Ra Cohen, the newest addition to the EthicalAds team who will assist our advertisers and publishers in telling their story
-tags: newsletter, community
+tags: community, introductions
 authors: Ra Cohen
 image: /images/posts/2021-ra-cohen-intro.jpg
 image_credit: <span>Photo by <a href="https://unsplash.com/@filmlav?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Fernando Lavin</a> on <a href="https://unsplash.com/s/photos/kintsugi?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>
