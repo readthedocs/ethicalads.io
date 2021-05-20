@@ -22,7 +22,7 @@ I'm Ra Cohen: data scientist, people person, and the latest addition to the Ethi
 
 ## Pretty Pictures
 
-As a data scientist, I know just how much impact framing and perspective can have on impressions. A graph zoomed in around all of the action will tell a very different, more turbulent story than the same data presented on a graph with its origin at 0. My design philosophy draws from the Data-Ink ratio principle. The less ink you can use over all, the better, and that ink which you do use should be fundamental to conveying your data. I'm excited to apply my eye for artistry not only illuminate the beauty of data but also the beauty of advertising. Beauty captures our attention like nothing else, stirring us to action with the promise of a better tomorrow. Is that not also the goal of advertising? To reincarnate Helen of Troy into the image that launches a thousand clicks?
+As a data scientist, I know just how much impact framing and perspective can have on impressions. A graph zoomed in around all of the action will tell a very different, more turbulent story than the same data presented on a graph with its origin at 0. My design philosophy draws from the Data-Ink ratio principle. The less ink you can use over all, the better, and that ink which you do use should be fundamental to conveying your data. I'm excited to apply my eye for artistry not only in illuminating the beauty of data, but also to illustrate the beauty of advertising. Beauty captures our attention like nothing else, stirring us to action with the promise of a better tomorrow. Is that not also the goal of advertising? To reincarnate Helen of Troy into the image that launches a thousand clicks?
 
 A picture may be worth a thousand words, but context can make it worth a million. 
 
