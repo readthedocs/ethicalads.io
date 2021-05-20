@@ -9,7 +9,7 @@ image_credit: <span>Photo by <a href="https://unsplash.com/@jeswinthomas?utm_sou
 
 It used to be if you wanted to reach a particular group of people with your message
 you’d buy ad space on a billboard where those people are likely to see it
-or buy an ad spot in a newspaper or during a TV show that your target market likes.
+or buy an ad spot in a newspaper section that your target market reads.
 In the online world, this used to mean finding an online publication for your product
 or buying up specific terms at search engines.
 If you plan to introduce a new line of cat food?
