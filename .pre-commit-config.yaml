@@ -1,6 +1,6 @@
 repos:
 - repo: https://github.com/pre-commit/pre-commit-hooks
-  rev: v2.3.0
+  rev: v4.0.1
   hooks:
   - id: check-yaml
   - id: end-of-file-fixer
@@ -8,7 +8,7 @@ repos:
   - id: trailing-whitespace
     exclude: 'ethicalads-theme/.*$'
 - repo: https://github.com/ambv/black
-  rev: stable
+  rev: 21.5b1
   hooks:
   - id: black
     # Since the pre-commit runs on a file by file basis rather than a whole project,
@@ -16,7 +16,7 @@ repos:
     exclude: migrations
     language_version: python3
 - repo: https://github.com/asottile/reorder_python_imports
-  rev: v1.3.2
+  rev: v2.5.0
   hooks:
   - id: reorder-python-imports
     language_version: python3
