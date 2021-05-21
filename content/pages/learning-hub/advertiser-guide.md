@@ -6,8 +6,8 @@ subtitle: Good ads start with good focus.
 This guide tries to help you to create engaging ads for our EthicalAds network
 and make sure those ads perform well once people click on them.
 
-## Optimizing ads themselves
 
+## Optimizing ads themselves
 There are many factors to successful display advertising
 from compelling branding to optimized landing pages
 but it pays to not overlook the image and text copy.
@@ -39,7 +39,6 @@ Swapping ads once every quarter or so will keep them performing well.
 
 
 ## Optimizing conversions
-
 Having people click on your advertisement is only half the battle.
 Once they get to your landing page, you want the visitor to take the desired action.
 Some of our best advertisers have conversion rates better than 20%.
@@ -61,14 +60,13 @@ This large discount has set the expectation that the product will be fairly expe
 
 
 ## Examples of successful ads
-​
 These are not real ads that ran on the EthicalAds network but are based on very
 successful past ads.
 ​
 ### SaaS product
-​
 ![](../images/pages/learning-hub/successful-ad-2.png){width="90.0%"}
 ​
+
 This example is based on a successful ad run by an advertiser
 using EthicalAds to drive interest in their SaaS product.
 The ad catches the reader's eye without being flashy,
@@ -79,8 +77,8 @@ objections that somebody who needs sales reports from their Django app
 might have.
 ​
 ### Hiring developers
-​
 ![](../images/pages/learning-hub/successful-ad-1.png){width="90.0%"}
+
 ​
 This example is based on a successful ad run by an advertiser using
 EthicalAds exclusively to hire multiple developers for their team.
