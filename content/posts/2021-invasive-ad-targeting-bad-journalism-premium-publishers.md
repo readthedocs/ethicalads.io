@@ -26,27 +26,28 @@ you can reach the same folks on lower value channels more cheaply.
 
 ## What impression commoditization means to publishers
 
-The result of this
-is that advertising dollars have moved from publications with well researched content written by knowledgeable authors
+The result of this intrusive targeting is a race the bottom.
+Advertising dollars have moved from publications with well researched content written by knowledgeable authors
 to low quality SEO optimized sites with re-purposed material developed to maximize paid ad impressions.
 While there are a lot of reasons for the fall of newspapers, this dynamic is a major factor.
 Instead of spending money on investigative reporters,
 it makes more sense to churn out clickbait that rephrases research done somewhere else.
 
-In essence, all impressions are the same from an ad tech-powered perspective.
+In essence, all impressions are the same from an ad tech perspective.
 Ad views have become a commodity.
 For most ad-funded sites including many newspapers,
-they now compete with every other web site in a race to attract the most views rather than focusing on quality.
+they now compete with every other web site to attract the most views rather than focusing on quality.
 
 
 ## What publishers can do about it
 
-Publishers can take back their audience and advertising revenue in two ways.
-Cut off ad tech surveillance technology and stop providing ad space for these companies to show ads.
-Ad tech is driven by personal data which, with some exceptions, is collected from individual publishers sites
-through the use of third-party cookies, scripts, and other technologies.
-Publishers should eliminate or severely restrict the use of these technologies
-by the ad tech companies they allow on their pages.
+Publishers can take back their audience and advertising revenue in a few ways.
+
+* **Cut off ad tech surveillance technology.**
+  Ad tech is driven by personal data which, with some exceptions, is collected from individual publishers sites
+  through the use of third-party cookies, scripts, and other technologies.
+* **Stop providing ad space for these companies to show ads.**
+  Publishers should eliminate or severely restrict the use of these technologies and the companies that use them.
 
 This doesn't mean giving up your ad revenue, though.
 While there seems to be unlimited ad space online there is a very limited amount of quality ad space.
