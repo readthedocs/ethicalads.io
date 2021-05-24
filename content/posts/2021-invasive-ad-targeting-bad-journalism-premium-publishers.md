@@ -45,9 +45,11 @@ Publishers can take back their audience and advertising revenue in a few ways.
 
 * **Cut off ad tech surveillance technology.**
   Ad tech is driven by personal data which, with some exceptions, is collected from individual publishers sites
-  through the use of third-party cookies, scripts, and other technologies.
+  through the use of third-party cookies, fingerprinting, and other tracking technologies.
 * **Stop providing ad space for these companies to show ads.**
-  Publishers should eliminate or severely restrict the use of these technologies and the companies that use them.
+  Publishers should eliminate or severely restrict what ad-tech can run on their site
+  in terms of tracking, fingerprinting, and third-party cookies.
+  Where that isn't possible, remove ads that track users completely.
 
 This doesn't mean giving up your ad revenue, though.
 While there seems to be unlimited ad space online there is a very limited amount of quality ad space.
