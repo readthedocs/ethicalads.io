@@ -21,7 +21,7 @@ advertisers can reach cat lovers (or any targeted group)
 by paying ad tech companies to show their ads wherever the audience goes.
 Maybe you pay top dollar for ModernCat.com for a little while,
 but after you've got cookies to track their visitors onto other sites,
-you can reach the same folks on lower value publications more cheaply.
+you can reach the same folks on lower value channels more cheaply.
 
 
 ## What impression commoditization means to publishers
