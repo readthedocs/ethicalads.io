@@ -33,7 +33,7 @@ While there are a lot of reasons for the fall of newspapers, this dynamic is a m
 Instead of spending money on investigative reporters,
 it makes more sense to churn out clickbait that rephrases research done somewhere else.
 
-In essence, all web-views are the same from an ad tech-powered advertising perspective.
+In essence, all impressions are the same from an ad tech-powered perspective.
 Ad views have become a commodity.
 For most ad-funded sites including many newspapers,
 they now compete with every other web site in a race to attract the most views rather than focusing on quality.
