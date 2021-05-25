@@ -11,7 +11,7 @@ It used to be if you wanted to reach a particular group of people with your mess
 you’d buy ad space on a billboard where those people are likely to see it
 or buy an ad spot in a newspaper section that your target market reads.
 In the online world, this used to mean finding an online publication for your product
-or buying up specific terms at search engines.
+or buying up specific, relevant terms on search engines.
 If you plan to introduce a new line of cat food?
 You run an ad on [ModernCat.com](https://moderncat.com)
 or you pay to take the top search engine result for "cat food".
