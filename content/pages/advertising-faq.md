@@ -136,13 +136,7 @@ editorial and creative content but generally this isn't an issue.
 
 ## What are the details of the EthicalAds audience?
 
-EthicalAds is 100% software developers of varying skill levels.
-Our peak traffic times for each region is during business hours and
-many people reading the docs are doing so while building software
-professionally.
-
-We have some more details in our [advertising
-guide]({static}/prospectus/advertising-guide.pdf).
+See [our audience](/our-audience).
 
 
 ## Do my ads support open source?
