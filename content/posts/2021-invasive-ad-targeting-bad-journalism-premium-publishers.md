@@ -26,7 +26,7 @@ you can reach the same folks on lower value channels more cheaply.
 
 ## What impression commoditization means to publishers
 
-The result of this intrusive targeting is a race the bottom.
+The result of this intrusive targeting and tracking people across sites is a race the bottom.
 Advertising dollars have moved away from publications with well researched content written by knowledgeable authors
 to low quality SEO optimized sites with re-purposed material developed to maximize paid ad impressions.
 While there are a lot of reasons for the fall of newspapers, this dynamic shift is a major factor.
@@ -59,7 +59,8 @@ For publishers that are too small or unable to hire a sales force,
 they can find an ad network that will place ads without sacrificing user privacy
 or siphoning off their audience's data for the ad network's gain.
 
-This is the reason we built the EthicalAds network.
+Giving small and mid-size publishers a way to monetize their audience without giving up their privacy
+is the reason we built the EthicalAds network.
 There are lots of developer-focused sites that are too small to sell ads directly.
 If you're looking for an ad network that won't compromise your audience,
 [join EthicalAds]({filename}../pages/publishers.md) and help preserve privacy on the web!
