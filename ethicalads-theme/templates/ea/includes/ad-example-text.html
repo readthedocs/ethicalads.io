@@ -1,0 +1,23 @@
+{# Note: in order for the CSS for this to be loaded correctly, #}
+{# the ad client must be loaded on any page where this is used. #}
+{# For an example of that, see the advertisers.html file #}
+{# #}
+{# USAGE: #}
+{#      {% with ad_example_classes="flat" %}                       #}
+{#        {% include 'ea/includes/ad-example-text.html' %}         #}
+{#      {% endwith %}                                              #}
+
+
+<div class="loaded {{ ad_example_classes }}" data-ea-type="text">
+  <div class="ea-content">
+    <div class="ea-text">
+      <a href="#" rel="nofollow" target="_blank">
+        <strong>EthicalAds</strong> is a developer-focused, privacy-obsessed ad
+        network from the fine folks at Read the Docs
+      </a>
+    </div>
+  </div>
+  <div class="ea-callout">
+    <a href="https://ethicalads.io/">Ad by EthicalAds</a>
+  </div>
+</div>
