@@ -29,7 +29,7 @@ you can reach the same folks on lower value channels more cheaply.
 The result of this intrusive targeting is a race the bottom.
 Advertising dollars have moved away from publications with well researched content written by knowledgeable authors
 to low quality SEO optimized sites with re-purposed material developed to maximize paid ad impressions.
-While there are a lot of reasons for the fall of newspapers, this dynamic is a major factor.
+While there are a lot of reasons for the fall of newspapers, this dynamic shift is a major factor.
 Instead of spending money on investigative reporters,
 it makes more economic sense to churn out clickbait that rephrases research done elsewhere.
 
