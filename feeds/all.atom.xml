@@ -1,5 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/all.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2021-05-20T00:00:00-07:00</updated><entry><title>Willful Words and Pretty Pictures</title><link href="https://www.ethicalads.io/blog/2021/05/willful-words-and-pretty-pictures/" rel="alternate"></link><published>2021-05-20T00:00:00-07:00</published><updated>2021-05-20T00:00:00-07:00</updated><author><name>Ra Cohen</name></author><id>tag:www.ethicalads.io,2021-05-20:/blog/2021/05/willful-words-and-pretty-pictures/</id><summary type="html">&lt;h2 id="about-me"&gt;About Me&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/all.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2021-05-25T00:00:00-07:00</updated><entry><title>How Invasive Ad Targeting is Bad for Journalism and Other High-Quality Publishers</title><link href="https://www.ethicalads.io/blog/2021/05/how-invasive-ad-targeting-is-bad-for-journalism-and-other-high-quality-publishers/" rel="alternate"></link><published>2021-05-25T00:00:00-07:00</published><updated>2021-05-25T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2021-05-25:/blog/2021/05/how-invasive-ad-targeting-is-bad-for-journalism-and-other-high-quality-publishers/</id><summary type="html">&lt;p&gt;It used to be if you wanted to reach a particular group of people with your message
+you’d buy …&lt;/p&gt;</summary><content type="html">&lt;p&gt;It used to be if you wanted to reach a particular group of people with your message
+you’d buy ad space on a billboard where those people are likely to see it
+or buy an ad spot in a newspaper section that your target market reads.
+On the internet before hyper-targeted advertising,
+this meant finding an online publication for your product
+or buying up specific, relevant terms on search engines.
+If you plan to introduce a new line of cat food?
+You run an ad on &lt;a href="https://moderncat.com"&gt;ModernCat.com&lt;/a&gt;
+or you pay to take the top search engine result for "cat food".&lt;/p&gt;
+&lt;p&gt;With the rise of ad tech powered by personal data collection,
+advertisers can reach cat lovers (or any targeted group)
+by paying ad tech companies to show their ads wherever the audience goes.
+Maybe you pay top dollar for ModernCat.com for a little while,
+but after you've got cookies to track their visitors onto other sites,
+you can reach the same folks on lower quality channels more cheaply.&lt;/p&gt;
+&lt;h2 id="what-impression-commoditization-means-to-publishers"&gt;What impression commoditization means to publishers&lt;/h2&gt;
+&lt;p&gt;The result of this intrusive targeting and tracking people across sites is a race the bottom.
+Advertising dollars have moved away from publications with well researched content written by knowledgeable authors
+to low quality SEO optimized sites with re-purposed material developed to maximize paid ad impressions.
+While there are a lot of reasons for the fall of newspapers, this dynamic shift is a major factor.
+Instead of spending money on investigative reporters,
+it makes more economic sense to churn out clickbait that rephrases research done elsewhere.&lt;/p&gt;
+&lt;p&gt;In essence, all impressions are the same from an ad tech perspective.
+It doesn't matter if ads appear on the paper of record or on a clickbait site
+if they reach a similar audience.
+Ad views have become a commodity.
+For most ad-funded sites including many newspapers,
+the race for views comes at the cost of sacrificing quality.&lt;/p&gt;
+&lt;h2 id="what-publishers-can-do-about-it"&gt;What publishers can do about it&lt;/h2&gt;
+&lt;p&gt;Publishers can take back their audience and advertising revenue in a few ways.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cut off ad tech surveillance technology.&lt;/strong&gt;
+  Ad tech is driven by personal data which, with some exceptions, is collected from individual publishers sites
+  through the use of third-party cookies, fingerprinting, and other tracking technologies.
+  Publishers should eliminate or severely restrict what ad tech can run on their site.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Stop providing ad space for tracking companies to show ads.&lt;/strong&gt;
+  Where it isn't possible to restrict the ad network in terms of tracking,
+  remove ads that track users completely.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This doesn't mean giving up your ad revenue, though.
+While there seems to be unlimited ad space online there is a very limited amount of quality ad space.
+Larger publishers can work directly with advertisers to privately place ads often driving up their own revenue
+&lt;a href="https://open.nytimes.com/to-serve-better-ads-we-built-our-own-data-program-c5e039bf247b"&gt;as the New York Times did&lt;/a&gt;.
+For publishers that are too small or unable to hire a sales force,
+they can find an ad network that will place ads without sacrificing user privacy
+or siphoning off their audience's data for the ad network's gain.&lt;/p&gt;
+&lt;p&gt;Giving small and mid-size publishers a way to monetize their audience without giving up their privacy
+is the reason we built the EthicalAds network.
+There are lots of developer-focused sites that are too small to sell ads directly.
+If you're looking for an ad network that won't compromise your audience,
+&lt;a href="https://www.ethicalads.io/publishers/"&gt;join EthicalAds&lt;/a&gt; and help preserve privacy on the web!&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Thanks to Greg Muscarella for the inspiration and feedback on this post.&lt;/em&gt;&lt;/p&gt;</content><category term="posts"></category><category term="ad-tech"></category><category term="publishers"></category></entry><entry><title>Willful Words and Pretty Pictures</title><link href="https://www.ethicalads.io/blog/2021/05/willful-words-and-pretty-pictures/" rel="alternate"></link><published>2021-05-20T00:00:00-07:00</published><updated>2021-05-20T00:00:00-07:00</updated><author><name>Ra Cohen</name></author><id>tag:www.ethicalads.io,2021-05-20:/blog/2021/05/willful-words-and-pretty-pictures/</id><summary type="html">&lt;h2 id="about-me"&gt;About Me&lt;/h2&gt;
 &lt;p&gt;I tried to backpeddle. "No one is personally listening in to your conversations, grandma, it was an analogy …&lt;/p&gt;</summary><content type="html">&lt;h2 id="about-me"&gt;About Me&lt;/h2&gt;
 &lt;p&gt;I tried to backpeddle. "No one is personally listening in to your conversations, grandma, it was an analogy." Explaining my new job to my grandmother was not going well. Bemoaning the evils of modern Ad Tech by highlighting how coporations were tracking her around the web &lt;em&gt;may&lt;/em&gt; not have been the wisest approach. Knowing that my grandmother is an avid online shopper, I tried another tact, "You know how when you're reading the news, you get those big flashy banners for stuff you already looked at and decided to not buy?"  "Oh, I see those all of the time!" Progress. "Yeah! They're big and flashy and purposefully annoying in order to distract you? My company is an advertising network that connects developer-focused publishers," "Developers?" Right, to my grandmother a developer worked in real estate. "Coders, like me - we connect techy publishers with relevant, respectful ads for products that actually work. And we do it without storing any information about you or what you were looking at!" My enthusiasm was met with silence and I was worried that I'd lost her again, "Grandma?" Hesitantly she spoke, "But does &lt;strong&gt;&lt;em&gt;it&lt;/em&gt;&lt;/strong&gt; work? Honey, my dad always said the louder the soap salesman, the more soap he'll sell." She then told me a story of her father, my great-grandfather, who was in fact a soap salesman himself.&lt;/p&gt;
 &lt;p&gt;One morning in the summer of 1938, my great-grandfather was out for a walk by the river early and he noticed people washing their clothing in the river without bar soap. He decided then and there to tap that market and would go down on his walk every morning with a box full of soap to sell. Selling by the river early in the morning before the factory opened worked incredibly well, until other soap vendors realized the simplistic brilliance of his approach. Soon my great-grandfather was in competition and learned that he had to get creative with drawing attention. My grandmother cautioned me, "The loud, charismatic vendor inevitably sells more soap than the quiet, reserved one." Oy. This is the mindset that has been shaping advertising for the past 100 years; this is how we have arrived at the current state of the internet, almost unbrowsable without an ad-blocker thanks to pop-ups, banner ads, and booby-trapped x's. At least, we were getting somewhere. She definitely understood that our publishers were our river and that we are the soap-sellers, but how do I explain ad-blockers? So I asked my grandma "What if yelling was out-lawed?" "Make yelling illegal?" she repeated incredulously. I told her a little bit about how ad-blockers worked, mildly surprised that I hadn't already set her up with one when I set up her laptop, and explained that EthicalAds gets around ad-blockers &lt;em&gt;because&lt;/em&gt; our ads are quiet and reserved. "Hmmm..."  After careful consideration, she made up her mind.&lt;/p&gt;
