@@ -31,7 +31,7 @@ Advertising dollars have moved away from publications with well researched conte
 to low quality SEO optimized sites with re-purposed material developed to maximize paid ad impressions.
 While there are a lot of reasons for the fall of newspapers, this dynamic is a major factor.
 Instead of spending money on investigative reporters,
-it makes more sense to churn out clickbait that rephrases research done somewhere else.
+it makes more economic sense to churn out clickbait that rephrases research done elsewhere.
 
 In essence, all impressions are the same from an ad tech perspective.
 Ad views have become a commodity.
