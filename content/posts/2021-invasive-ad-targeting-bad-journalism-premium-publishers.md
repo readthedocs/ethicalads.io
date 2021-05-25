@@ -27,7 +27,7 @@ you can reach the same folks on lower value channels more cheaply.
 ## What impression commoditization means to publishers
 
 The result of this intrusive targeting is a race the bottom.
-Advertising dollars have moved from publications with well researched content written by knowledgeable authors
+Advertising dollars have moved away from publications with well researched content written by knowledgeable authors
 to low quality SEO optimized sites with re-purposed material developed to maximize paid ad impressions.
 While there are a lot of reasons for the fall of newspapers, this dynamic is a major factor.
 Instead of spending money on investigative reporters,
