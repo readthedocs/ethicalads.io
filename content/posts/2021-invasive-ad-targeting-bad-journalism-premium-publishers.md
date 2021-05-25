@@ -10,7 +10,8 @@ image_credit: <span>Photo by <a href="https://unsplash.com/@jeswinthomas?utm_sou
 It used to be if you wanted to reach a particular group of people with your message
 you’d buy ad space on a billboard where those people are likely to see it
 or buy an ad spot in a newspaper section that your target market reads.
-In the online world, this used to mean finding an online publication for your product
+On the internet before hyper-targeted advertising,
+this meant finding an online publication for your product
 or buying up specific, relevant terms on search engines.
 If you plan to introduce a new line of cat food?
 You run an ad on [ModernCat.com](https://moderncat.com)
@@ -21,7 +22,7 @@ advertisers can reach cat lovers (or any targeted group)
 by paying ad tech companies to show their ads wherever the audience goes.
 Maybe you pay top dollar for ModernCat.com for a little while,
 but after you've got cookies to track their visitors onto other sites,
-you can reach the same folks on lower value channels more cheaply.
+you can reach the same folks on lower quality channels more cheaply.
 
 
 ## What impression commoditization means to publishers
