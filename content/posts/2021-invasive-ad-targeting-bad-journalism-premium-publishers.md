@@ -36,7 +36,7 @@ it makes more economic sense to churn out clickbait that rephrases research done
 In essence, all impressions are the same from an ad tech perspective.
 Ad views have become a commodity.
 For most ad-funded sites including many newspapers,
-they now compete with every other web site to attract the most views rather than focusing on quality.
+the race for views comes at the cost of sacrificing quality.
 
 
 ## What publishers can do about it
