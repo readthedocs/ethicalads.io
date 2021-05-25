@@ -34,6 +34,8 @@ Instead of spending money on investigative reporters,
 it makes more economic sense to churn out clickbait that rephrases research done elsewhere.
 
 In essence, all impressions are the same from an ad tech perspective.
+It doesn't matter if ads appear on the paper of record or on a clickbait site
+if they reach a similar audience.
 Ad views have become a commodity.
 For most ad-funded sites including many newspapers,
 the race for views comes at the cost of sacrificing quality.
