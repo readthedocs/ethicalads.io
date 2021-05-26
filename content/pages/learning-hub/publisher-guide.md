@@ -1,6 +1,6 @@
 title: Publisher's Guide
 slug: publisher-guide
-description: A guide to help publishers get the most out of our network.
+description: A guide to help publishers get the most out of our network in terms of optimizing their ad placement and contextual targeting.
 subtitle: Good ad placement starts with good focus.
 
 Our [EthicalAds client](https://ethical-ad-client.readthedocs.io/en/latest/) should get you started hosting ads but for guidance on how to ensure your ads perform well, read on.
