@@ -1,6 +1,6 @@
 title: The EthicalAds Audience
 slug: our-audience
-description: All about our audience.
+description: Our 100% developer audience is geographically spread out and ranges in terms of technologies used and the skill level of the developer.
 subtitle: Who is and isn't on our network.
 
 The best ads and ad campaigns know exactly who their audience is
