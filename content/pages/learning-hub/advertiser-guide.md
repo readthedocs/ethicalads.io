@@ -28,11 +28,12 @@ Using other targeting parameters or running geographically different ads for dif
 regions will help both the CTR as well as conversions.
 
 ### Use multiple ad formats
-Some documentation themes used on Read the Docs don't feature the sidebar as prominently as others.
-Likewise, while about **92% of Read the Docs users are on desktops and laptops**,
-mobile specific ads perform much better among that subset.
-You should have an ad in most or all of the formats Read the Docs supports:
-sidebar, footer, and mobile ads.
+Publishers choose the format that works best for their site
+so as an advertiser you want to provide both formats to ensure that your ad can be shown
+on all sites on the network.
+Sometimes if the image isn't critical to the ad,
+the same ad can be used both with and without an image
+but sometimes crafting two separate ads is better.
 
 ### Keep ads fresh
 We have noticed that new ads perform better. This is known as ad fatigue.
