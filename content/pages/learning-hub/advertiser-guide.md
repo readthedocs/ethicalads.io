@@ -3,7 +3,7 @@ slug: advertiser-guide
 description: A guide to help advertisers get the most out of our network.
 subtitle: Good ads start with good focus.
 
-This guide tries to help you to create engaging ads for [our audience](/our-audience) on the EthicalAds network
+This guide tries to help you to create engaging ads for [our audience](/our-audience/) on the EthicalAds network
 and make sure those ads perform well once people click on them.
 For frequently asked questions, see our [Advertiser's FAQ](/advertisers/faq/).
 

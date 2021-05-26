@@ -136,7 +136,7 @@ editorial and creative content but generally this isn't an issue.
 
 ## What are the details of the EthicalAds audience?
 
-See [our audience](/our-audience).
+See [our audience](/our-audience/).
 
 
 ## Do my ads support open source?
