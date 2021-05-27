@@ -13,7 +13,7 @@ There are many factors to successful display advertising
 from compelling branding to optimized landing pages
 but it pays to not overlook the image and text copy.
 
-The average click through rate (CTR) for display ads on Read the Docs is around 0.12%.
+The average click through rate (CTR) for display ads on across the EthicalAds network is around 0.10%.
 The best ads perform more than **three times better** than that.
 Here are some features of high quality ads:
 
@@ -66,7 +66,7 @@ These are not real ads that ran on the EthicalAds network but are based on very
 successful past ads.
 ​
 ### SaaS product
-![](../images/pages/learning-hub/successful-ad-2.png){width="90.0%"}
+![](../images/pages/learning-hub/successful-ad-2.png)
 ​
 
 This example is based on a successful ad run by an advertiser
@@ -79,7 +79,7 @@ objections that somebody who needs sales reports from their Django app
 might have.
 ​
 ### Hiring developers
-![](../images/pages/learning-hub/successful-ad-1.png){width="90.0%"}
+![](../images/pages/learning-hub/successful-ad-1.png)
 
 ​
 This example is based on a successful ad run by an advertiser using
