@@ -18,14 +18,14 @@ Advertising with EthicalAds is no different.
 
 ## Geographic and Language Breakdown
 
-* Read the Docs' audience is geographically distributed
+* EthicalAds' audience is geographically distributed
   with about a third each coming from the Americas, Asia, and Europe.
-  Our largest traffic source countries are the USA (~22%), China (~12%), and India (~6.5%).
+  Our largest traffic source countries are the USA + Canada (~22%), the United Kingdom + France + Germany (~13.5%), and India (~10%).
 * While many docs are localized, over **90% of pageviews are for English language docs**.
   Nonetheless, depending on your targeting, localizing your ad may increase CTR and conversions.
 
 ## Professional and Tool Breakdown
 
-* Read the Docs' is particularly popular in the Python community (~60% of pageviews)
+* The EthicalAds network is particularly popular in the Python community (~60% of pageviews)
   among data scientists, web developers and others.
   After Python, C++ (~6%), PHP (~6%), and JavaScript (~6%) are the most popular.
