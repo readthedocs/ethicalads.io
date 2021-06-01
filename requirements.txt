@@ -9,6 +9,6 @@ pelican-related-posts==1.0.0
 invoke<1.5
 
 # Code formatters and pre-commit checks
-black==19.3b0
-reorder-python-imports<2.0
-pre-commit<2.0
+black==21.5b1
+reorder-python-imports==2.5.0
+pre-commit==2.9.2

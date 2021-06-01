@@ -61,7 +61,7 @@ We have started thinking about a job description for the person we hope to bring
 Hiring is always a challenge,
 but we're excited about having growth to be able to think about supporting an additional team member.
 The role we're imagining is an part-time account executive,
-but someone who is interested in growing into a larger full-time business role over time. 
+but someone who is interested in growing into a larger full-time business role over time.
 
 As part of this transition,
 our team member Eric will be scaling back his involvement on advertising from close to 100% of time to 50%.
@@ -82,8 +82,8 @@ The major features in our upcoming roadmap:
 
 * We're still hoping to adapt our ad format to [break out a headline and a call to action](https://github.com/readthedocs/ethical-ad-server/issues/152). This will standardize our ad display, along with making sure that all our advertisers have ads that work across multiple formats.
 * We want to give advertisers a way to change the flight targeting of their advertisements. Changing targeting generally changes the pricing, so this will require the dashboard knowing more about pricing for different targeting options.
-* We're hoping to expand our advertising logic to take into account price when selecting ads. This will allow us to assure maximum revenue for a publisher, but we don't want to always show a single ad on that site, either. 
-* We hope to do a beta test of a sponsorship program with a publisher, which is an extension of the ad network to allow for specific placements on high-value publishers. 
+* We're hoping to expand our advertising logic to take into account price when selecting ads. This will allow us to assure maximum revenue for a publisher, but we don't want to always show a single ad on that site, either.
+* We hope to do a beta test of a sponsorship program with a publisher, which is an extension of the ad network to allow for specific placements on high-value publishers.
 
 Thanks again for being along with us on this journey to build an ethical ad network.
 Please [email us](mailto:ads@ethicalads.io) if you have any ideas or feedback on our product or roadmap,
