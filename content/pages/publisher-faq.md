@@ -34,9 +34,14 @@ Yes, please read our full [Publisher Policy](/publisher-policy/#ad-display) on a
 
 ## How much will I make?
 
-These numbers will vary based on your audience and topics that you write about.
-Generally publishers see around $1.50-2.00 per 1,000 pageviews (CPM),
-assuming a majority of US and European traffic.
+These numbers will vary based on your audience and topics that you write about
+since advertisers prices vary by geography and by topic.
+In addition, the performance of your ad placements are a factor
+since some advertisers pay per click rather than per impression.
+Generally, publishers see around $2.00 per 1,000 pageviews (CPM).
+North American pageviews usually bring in a little more than this.
+Traffic from Europe, Australia, or New Zealand is typically right about $2
+while ads shown to users in the rest of the world usually bring in less.
 
 
 ## How can I be paid?
