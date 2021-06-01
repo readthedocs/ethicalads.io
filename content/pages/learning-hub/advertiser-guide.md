@@ -66,7 +66,7 @@ These are not real ads that ran on the EthicalAds network but are based on very
 successful past ads.
 ​
 ### SaaS product
-![](../images/pages/learning-hub/successful-ad-2.png)
+![A successful SaaS product ad on the EthicalAds network](../images/pages/learning-hub/successful-ad-2.png){style="width: 100%"}
 ​
 
 This example is based on a successful ad run by an advertiser
@@ -79,7 +79,7 @@ objections that somebody who needs sales reports from their Django app
 might have.
 ​
 ### Hiring developers
-![](../images/pages/learning-hub/successful-ad-1.png)
+![A successful ad aimed at hiring developers on the EthicalAds network](../images/pages/learning-hub/successful-ad-1.png){style="width: 100%"}
 
 ​
 This example is based on a successful ad run by an advertiser using

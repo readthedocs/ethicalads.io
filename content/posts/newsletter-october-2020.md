@@ -59,11 +59,10 @@ Our upcoming roadmap has a few major tasks on it this month:
 
 * We're planning to adapt our ad format to [break out a headline and a call to action](https://github.com/readthedocs/ethical-ad-server/issues/152). This will standardize our ad display, along with making sure that all our advertisers have ads that work across multiple formats.
 * We're working on a Publisher Prospectus, which is similar to our [advertiser prospectus](https://www.ethicalads.io/prospectus/ethicalads-advertiser-prospectus.pdf) -- a single place to understand what being a publisher looks like.
-* We didn't get to it last month, but we want additional publisher & advertiser landing pages. We hope to build topic-specific pages to share more information for specific audiences on these pages, to go along with our testimonials. 
+* We didn't get to it last month, but we want additional publisher & advertiser landing pages. We hope to build topic-specific pages to share more information for specific audiences on these pages, to go along with our testimonials.
 * We started conversations about trademarking EthicalAds, but haven't applied for it yet. This process will take 4-6 months, but we do want to make sure we've gotten it started.
 * We plan to take our expanded publisher reports and add similar improvements to our advertising reports.
 
 There are many other small tasks we'll continue to work on, along with lots of email :)
 
 Thanks again for following along on our journey, and we're excited to continue to build something we can all be proud of.
-
