@@ -34,7 +34,7 @@ You are also welcome to show EthicalAds to a share of your visitors (eg. 50%) al
 
 
 We currently have a **70% revenue share** with publishers
-which is around industry standard but slightly higher. 
+which is around industry standard but slightly higher.
 This means you get 70% of the money that we make.
 
 We handle payouts once a month,

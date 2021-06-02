@@ -1,0 +1,193 @@
+{% extends "page.html" %}
+
+
+{% block content %}
+  <!-- WELCOME
+  ================================================== -->
+  <section class="pt-10 pb-11 py-md-14 overlay overlay-black overlay-60">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-10 col-lg-8 text-center">
+          
+          <!-- Heading -->
+          <h1 class="display-2 font-weight-bold text-white">{{ page.title }}</h1>
+
+          <!-- Text -->
+          <p class="lead text-white-75 mb-0">{{ page.description }}</p>
+
+        </div>
+      </div> <!-- / .row -->
+    </div> <!-- / .container -->
+  </section>
+  
+  <!-- SHAPE
+  ================================================== -->
+  <div class="position-relative">
+    <div class="shape shape-bottom shape-fluid-x svg-shim text-light">
+      <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor"/></svg>
+    </div>
+  </div>
+
+  <!-- CATEGORIES
+  ================================================== -->
+  <section>
+    <div class="container my-10">
+
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4">
+          
+          <!-- Card -->
+          <div class="card card-border border-primary shadow-lg mb-6 mb-md-8 lift lift-lg">
+            
+            <div class="card-body text-center">
+
+              <!-- Icon -->
+              <div class="icon-circle bg-primary text-white mb-5">
+                <span class="fe fe-eye"></span>
+              </div>
+
+              <!-- Heading -->
+              <h4 class="font-weight-bold">
+                <a href="/advertising-vision/">Our Ad Vision</a>
+              </h4>
+
+              <!-- Text -->
+              <p class="text-gray-700 mb-5">
+                What is ethical advertising and what you can do to support content publishers without having creepy tracking
+              </p>
+              
+            </div>
+          </div>
+
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          
+          <!-- Card -->
+          <div class="card card-border border-success shadow-lg mb-6 mb-md-8 lift lift-lg">
+            <div class="card-body text-center">
+
+              <!-- Icon -->
+              <div class="icon-circle bg-success text-white mb-5">
+                <i class="fe fe-users"></i>
+              </div>
+
+              <!-- Heading -->
+              <h4 class="font-weight-bold">
+                <a href="/our-audience/">The EthicalAds Audience</a>
+              </h4>
+
+              <!-- Text -->
+              <p class="text-gray-700 mb-5">
+                Details and description about the EthicalAds audience breakdown
+              </p>
+              
+            </div>
+          </div>
+
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          
+          <!-- Card -->
+          <div class="card card-border border-warning shadow-lg mb-6 mb-md-8 lift lift-lg">
+            <div class="card-body text-center">
+
+              <!-- Icon -->
+              <div class="icon-circle bg-warning text-white mb-5">
+                <i class="fe fe-shield"></i>
+              </div>
+
+              <!-- Heading -->
+              <h4 class="font-weight-bold">
+                <a href="#">About Surveillance Advertising</a>
+              </h4>
+
+              <!-- Text -->
+              <p class="text-gray-700 mb-5">
+                What is surveillance advertising and why you should opt-out (and spread the word)
+              </p>
+              <p class="text-gray-700"><strong>Coming soon</strong></p>
+              
+            </div>
+          </div>
+
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          
+          <!-- Card -->
+          <div class="card card-border border-dark shadow-lg mb-6 mb-md-8 mb-lg-0 lift lift-lg">
+            <div class="card-body text-center">
+
+              <!-- Icon -->
+              <div class="icon-circle bg-dark text-white mb-5">
+                <i class="fe fe-target"></i>
+              </div>
+
+              <!-- Heading -->
+              <h4 class="font-weight-bold">
+                <a href="/advertiser-guide/">Advertiser's Guide</a>
+              </h4>
+
+              <!-- Text -->
+              <p class="text-gray-700 mb-5">
+                This guide contains helpful tips and tricks to get the most out of your privacy-respecting ads.
+              </p>
+              
+            </div>
+          </div>
+
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          
+          <!-- Card -->
+          <div class="card card-border border-primary-desat shadow-lg mb-6 mb-md-0 lift lift-lg">
+            <div class="card-body text-center">
+
+              <!-- Icon -->
+              <div class="icon-circle bg-primary-desat text-white mb-5">
+                <i class="fe fe-layout"></i>
+              </div>
+
+              <!-- Heading -->
+              <h4 class="font-weight-bold">
+                <a href="/publisher-guide/">Publisher's Guide</a>
+              </h4>
+
+              <!-- Text -->
+              <p class="text-gray-700 mb-5">
+                Learn more about how to make sure ads are relevant and well-positioned on your site which will help you earn more money from your ad space.
+              </p>
+              
+            </div>
+          </div>
+
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          
+          <!-- Card -->
+          <div class="card card-border border-danger shadow-lg lift lift-lg">
+            <div class="card-body text-center">
+
+              <!-- Icon -->
+              <div class="icon-circle bg-danger text-white mb-5">
+                <i class="fe fe-info"></i>
+              </div>
+
+              <!-- Heading -->
+              <h4 class="font-weight-bold">
+                <a href="/about/">About EthicalAds</a>
+              </h4>
+
+              <!-- Text -->
+              <p class="text-gray-700 mb-5">
+                Learn more about EthicalAds and why we built an ad network without tracking users.
+              </p>
+              
+            </div>
+          </div>
+
+        </div>
+      </div> <!-- / .row -->
+    </div>
+  </section>
+
+{% endblock content %}
