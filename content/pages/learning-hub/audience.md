@@ -16,16 +16,17 @@ Advertising with EthicalAds is no different.
   Many of our users are viewing our ads during the regular course of their jobs.
 
 
-## Geographic and Language Breakdown
+## Geographic Breakdown
 
 * EthicalAds' audience is geographically distributed
   with about a third each coming from the Americas, Asia, and Europe.
   Our largest traffic source countries are the USA + Canada (~22%), the United Kingdom + France + Germany (~13.5%), and India (~10%).
-* While many docs are localized, over **90% of pageviews are for English language docs**.
-  Nonetheless, depending on your targeting, localizing your ad may increase CTR and conversions.
+* While many pages are localized, over **90% of views are for English language pages**.
+
 
 ## Professional and Tool Breakdown
 
-* The EthicalAds network is particularly popular in the Python community (~60% of pageviews)
-  among data scientists, web developers and others.
-  After Python, C++ (~6%), PHP (~6%), and JavaScript (~6%) are the most popular.
+* The EthicalAds network is particularly popular in the Python community (~60% of pageviews).
+  After Python, JavaScript (~20%), HTML/CSS (~7%), and C++ (~4%) are the most popular.
+* Our four topic groupings cover around 95% of all pages served.
+  Frontend is the most popular (~43%) followed by backend (~32%), data science (~15%), and devops (~15%).
