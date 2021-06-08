@@ -24,9 +24,8 @@ Advertising with EthicalAds is no different.
 * While many pages are localized, over **90% of views are for English language pages**.
 
 
-## Professional and Tool Breakdown
+## Topic Breakdown
 
 * The EthicalAds network is particularly popular in the Python community (~60% of pageviews).
-  After Python, JavaScript (~20%), HTML/CSS (~7%), and C++ (~4%) are the most popular.
 * Our four topic groupings cover around 95% of all pages served.
   Frontend is the most popular (~43%) followed by backend (~32%), data science (~15%), and devops (~15%).
