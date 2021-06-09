@@ -8,14 +8,12 @@ description: These are common questions from advertisers about the EthicalAds ne
 
 ## How are ads priced?
 
-We have [packages to simplify advertising with
-us]({filename}advertisers.md#packages), but you can always put
-together a custom ad campaign. The exact cost will depend on your
-targeting with geography being the biggest factor.
+Our [prices](/advertisers/#pricing) differ by topic and by geography and rates change quarterly to balance demand.
 
 Most ads are priced in cost per thousand impressions (CPM)
 although some advertisers prefer cost per click (CPC) pricing
 which we can accommodate upon request.
+We also offer an automatic 10% discount for ad buys of $3,000 or more.
 
 While you might setup a recurring campaign to be billed monthly,
 all our pricing is per impression.
@@ -27,8 +25,9 @@ has all the details.
 
 ## Can I post an ad promoting my job openings?
 
-Absolutely. We have [packages specifically to help you find
-developers]({filename}advertisers-hiring.md).
+Absolutely. [Hiring developers]({filename}advertisers-hiring.md)
+is one of the most popular reasons for advertising with us.
+We put your job right in front of developers using your technology.
 
 
 ## How can I target my ads?
