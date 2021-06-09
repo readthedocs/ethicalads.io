@@ -56,6 +56,21 @@ More niche targeting is possible although campaigns may take longer to fulfill d
 Inquire for details.
 
 
+## What geographic regions can I target?
+
+[comment]: # (Linked from a footnote in the pricing page)
+
+We can target any region you'd like where we have enough inventory to run a campaign.
+Most of our advertisers are focused on North America and Europe
+although we have some advertisers interested in other regions
+such as Asia Pacific, India, or Eastern Europe.
+Please [let us know](/advertisers/#inbound-form) what you're interested in and we can quote you a price.
+
+Some advertisers want to focus globally and we can do that as well.
+A near global ad buy has a small list of excluded countries
+and we can make small changes here based on the particular campaign.
+
+
 ## What are the ad specifications?
 
 There are two main ad placements across the EthicalAds network.
