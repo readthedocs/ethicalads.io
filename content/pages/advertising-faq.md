@@ -8,14 +8,12 @@ description: These are common questions from advertisers about the EthicalAds ne
 
 ## How are ads priced?
 
-We have [packages to simplify advertising with
-us]({filename}advertisers.md#packages), but you can always put
-together a custom ad campaign. The exact cost will depend on your
-targeting with geography being the biggest factor.
+Our [prices](/advertisers/#pricing) differ by topic and by geography and rates change quarterly to balance demand.
 
 Most ads are priced in cost per thousand impressions (CPM)
 although some advertisers prefer cost per click (CPC) pricing
 which we can accommodate upon request.
+We also offer an automatic 10% discount for ad buys of $3,000 or more.
 
 While you might setup a recurring campaign to be billed monthly,
 all our pricing is per impression.
@@ -27,8 +25,9 @@ has all the details.
 
 ## Can I post an ad promoting my job openings?
 
-Absolutely. We have [packages specifically to help you find
-developers]({filename}advertisers-hiring.md).
+Absolutely. [Hiring developers]({filename}advertisers-hiring.md)
+is one of the most popular reasons for advertising with us.
+We put your job right in front of developers using your technology.
 
 
 ## How can I target my ads?
@@ -55,6 +54,21 @@ Our
 will have the latest details and rates on keyword targeting.
 More niche targeting is possible although campaigns may take longer to fulfill due to availability.
 Inquire for details.
+
+
+## What geographic regions can I target?
+
+[comment]: # (Linked from a footnote in the pricing page)
+
+We can target any region you'd like where we have enough inventory to run a campaign.
+Most of our advertisers are focused on North America and Europe
+although we have some advertisers interested in other regions
+such as Asia Pacific, India, or Eastern Europe.
+Please [let us know](/advertisers/#inbound-form) what you're interested in and we can quote you a price.
+
+Some advertisers want to focus globally and we can do that as well.
+A near global ad buy has a small list of excluded countries
+and we can make small changes here based on the particular campaign.
 
 
 ## What are the ad specifications?
