@@ -12,7 +12,7 @@ image_credit: <span>Photo by <a href="https://unsplash.com/@scottwebb?utm_source
 Here's the major features we added in the last month:
 
 * In our ad server, we added a support form to make it easier for advertisers and publishers alike to get in contact with us.
-*  In our ad server, we also added staff actions to allow our staff to better assist in the creation, modification, and management of advertisers.
+* In our ad server, we also added staff actions to allow our staff to better assist in the creation, modification, and management of advertisers.
 * On our website, we added the Community Ad information and application form. Now open source community projects can apply to have their ads run for free by like-minded publishers when a paid ad is not available.
 * We also recently launched our ***Learning Hub***. Your one stop shop resource for information on EthicalAds, our audience, and what makes a good advertisement. More on that later.
 
@@ -56,8 +56,8 @@ More advertisers means more money for publishers and more publishers means a lar
 
 The major features in our upcoming roadmap:
 
-* Track and display changes in targeting
-* Referral offers
+* Advertisers will be able to view changes that they have requested in the targeting page.
+* In an effort to help our expansion, we are tweaking a referral system for our current publishers.
 
 
 Thanks again for being along with us on this journey to build an ethical ad network.
