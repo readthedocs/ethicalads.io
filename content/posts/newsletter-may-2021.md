@@ -18,7 +18,7 @@ These are the major features we added in the last month:
 * On our website, we updated and streamlined our [Community Ad]({filename}/pages/vision.md#community-ads) information.
   Now open source community projects can apply to have their ads run for free
   by like-minded publishers when a paid ad is not available.
-* We also recently launched our [Learning Hub]({filename}/learning-hub/).
+* We also recently launched our [Learning Hub]({filename}/pages/learning-hub/index.md).
   Your one stop shop resource for information on EthicalAds, our audience, and
   what makes a good advertisement. More on that later.
 
