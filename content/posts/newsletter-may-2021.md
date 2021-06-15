@@ -50,6 +50,7 @@ Discover more about EthicalAds right from the navigation bar!
 Our new [Learning Hub]({filename}/pages/learning-hub/index.md) collects information regarding
 who we are, our vision for the future of advertising,
 and statistics on the make-up of our audience. It also contains:
+
 * Advertiser's Guide which details how to craft a great advertisement
   for *our* audience including insights into what has worked well in the past.
 * Publisher's Guide which details how to monetize your audience with EthicalAds.
