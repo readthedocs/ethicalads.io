@@ -15,7 +15,7 @@ These are the major features we added in the last month:
   for advertisers and publishers alike to get in contact with us.
 * Also in our ad server, we added actions to allow our staff to better assist in
   the creation, modification, and management of advertisers and their campaigns.
-* On our website, we updated and streamlined our [Community Ad]({filename}/#community-ads) information.
+* On our website, we updated and streamlined our [Community Ad]({filename}/pages/vision.md#community-ads) information.
   Now open source community projects can apply to have their ads run for free
   by like-minded publishers when a paid ad is not available.
 * We also recently launched our [Learning Hub]({filename}/learning-hub/).
