@@ -1,5 +1,5 @@
 Title: EthicalAds Newsletter - May 2021
-Date: June 14, 2021
+Date: June 15, 2021
 description: Our May 2021 ads update, including stats and commentary, on our progress as we build EthicalAds
 tags: newsletter, community
 authors: Ra Cohen
