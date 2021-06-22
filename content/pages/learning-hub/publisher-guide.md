@@ -30,6 +30,8 @@ The majority of our ads do have images so if in doubt, go with the image ad spot
 If your website uses a dark theme, consider adding ```{html} class = "dark"``` as seen [here](https://ethical-ad-client.readthedocs.io/en/latest/#dark-mode).
 This improves performance by helping the text of the ad standout while the rest of the ad blends in.
 
+If your website's theme is adaptive, consider adding ```{html} class = "adaptive"``` as it handles both Light and Dark themes automatically.
+
 ## Content Tagging
 
 For better content targeting, letting us know about the content of your pages with
