@@ -16,8 +16,10 @@ If the UX of your site means that users quickly scroll past ads, the ads on your
 ## Ad Types
 
 On the EthicalAds network, there are two main types of ads:
-1. Ads with images
-2. Ads without images
+
+1. Ads with images (`image`)
+2. Ads without images (`text`)
+
 Which type of ad to place depends a lot on the available real estate of your page.
 A banner across the bottom of the page works well on static pages like [jsbin.com](https://jsbin.com/?html,output)
 otherwise we've found image ads in the sidebar which are static to scrolling to be really successful.
