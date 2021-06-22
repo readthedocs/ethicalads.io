@@ -22,7 +22,7 @@ On the EthicalAds network, there are two main types of ads:
 
 Which type of ad to place depends a lot on the available real estate of your page.
 A banner across the bottom of the page works well on static pages like [jsbin.com](https://jsbin.com/?html,output)
-otherwise we've found image ads in the sidebar which are static to scrolling to be really successful.
+otherwise we've found image ads in the sidebar which are static when scrolling to be really successful.
 The majority of our ads do have images so if in doubt, go with the image ad spot.
 
 ## Light vs Dark Themes
