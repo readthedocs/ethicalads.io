@@ -3,7 +3,7 @@ slug: publisher-guide
 description: A guide to help publishers get the most out of our network in terms of optimizing their ad placement and contextual targeting.
 subtitle: Good ad placement starts with good focus.
 
-Our [EthicalAds client](https://ethical-ad-client.readthedocs.io/en/latest/) should get you started hosting ads but for guidance on how to ensure your ads perform well, read on.
+Our [EthicalAds client](https://ethical-ad-client.readthedocs.io/en/latest/) should get you started hosting ads, but for guidance on how to ensure your ads perform well, read on.
 
 ## Ad Placement
 
@@ -38,13 +38,16 @@ For better content targeting, letting us know about the content of your pages wi
 [page-specific keywords](https://ethical-ad-client.readthedocs.io/en/latest/#page-specific-keywords),
 can allow us to better target the ads.
 For example, we can target an ad for a DevOps related service to DevOps related content.
+Ads targeted specifically to your content can also result in higher payouts
+as we charge higher rates for highly targeted ads.
 
 ## Bringing It All Together
 
-Better performance and better targeting will generally result in more money for publishers like yourself.
-While most advertisers pay per impression, some pay per click which yields more money for better performance.
-Content targeted ads to more specific content can also results in higher click through rates
-and we charge higher rates for more targeted ads.
+Complementary placement, pleasing aesthetics, and accurate content tagging will
+boost your earnings with EthicalAds by helping us provide your users
+with high quality, relevant advertisements.
+And if you haven't already, [become a publisher today](/publishers/#inbound-form)!
+
 
 
 Still have questions? Checkout our full [Publisher Policy](../publisher-policy/) and [Publisher FAQ](../publishers/faq/).
