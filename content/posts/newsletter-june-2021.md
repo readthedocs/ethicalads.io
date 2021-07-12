@@ -52,7 +52,7 @@ We are looking into privacy preserving analytics options for our website.
 
 The major features in our upcoming roadmap:
 
-* Adding a staff interface for customizing ad flights is currently our top priority.
+* Adding a staff interface for customizing ad flights.
 * We are still not sure the best way to implement referrals.
   We might try something simple to see if it works, and build on it if we find that it works. 
 * View time for ads will allow us to ensure a fair system for counting valid views
