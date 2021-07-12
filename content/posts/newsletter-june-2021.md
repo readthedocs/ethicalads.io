@@ -15,7 +15,7 @@ These are the major features we added in the last month:
 * Our ad server now tracks historical changes to ad campaigns,
   allowing us to track changes over time to better understand performance. 
 * Also in our ad server, we added actions to allow our staff to handle
-  adding new publishers and execute publisher payouts.
+  adding new publishers and processing publisher payouts.
 * On our website, we updated our [prospectus]({static}/prospectus/ethicalads-advertiser-prospectus.pdf) and [pricing]({filename}/pages/advertisers.md#pricing) information for Q3.
 * We also recently expanded our [Publisher Guide]({filename}/pages/learning-hub/publisher-guide.md) on the Learning Hub.
 
