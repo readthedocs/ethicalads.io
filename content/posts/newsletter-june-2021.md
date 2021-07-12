@@ -44,7 +44,7 @@ We are still verging on max capacity with regards to ad inventory.
 Marketing and growth is a challenge for any small business.
 To address this, we rolled out a number of new house ads across the network.
 Unfortunately, determining the success of these new ads is difficult
-without tracking users or conversions.
+without using common third-party tools that track users.
 We are looking into privacy preserving analytics options for our website.
 
 
