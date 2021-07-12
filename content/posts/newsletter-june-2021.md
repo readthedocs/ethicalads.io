@@ -1,5 +1,5 @@
 Title: EthicalAds Newsletter - June 2021
-Date: July 9, 2021
+Date: July 12, 2021
 description: Our June 2021 ads update, including stats and commentary, on our progress as we build EthicalAds
 tags: newsletter, community
 authors: Ra Cohen
@@ -41,8 +41,8 @@ new, high quality publishers, which will expand our ad inventory.
 ## Tricky bits
 
 We are still verging on max capacity with regards to ad inventory.
-Marketing and growth is a challenge for any small business.
-To address this, we rolled out a number of new house ads across the network.
+We slightly raised our prices in Q3 in our high demand areas to address this. 
+Also, we rolled out a number of new house ads across the network to find new publishers.
 Unfortunately, determining the success of these new ads is difficult
 without using common third-party tools that track users.
 We are looking into privacy preserving analytics options for our website.
@@ -53,7 +53,7 @@ We are looking into privacy preserving analytics options for our website.
 The major features in our upcoming roadmap:
 
 * Adding a staff interface for customizing ad flights.
-* We are still not sure the best way to implement referrals.
+* We are still not sure of the best way to implement referrals.
   We might try something simple to see if it works, and build on it if we find that it works. 
 * View time for ads will allow us to ensure a fair system for counting valid views
   as well as provide a metric for publisher quality.
