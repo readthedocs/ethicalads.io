@@ -12,7 +12,8 @@ image_credit: <span>Photo by <a href="https://unsplash.com/@les_photos_de_raph?u
 These are the major features we added in the last month:
 
 * In our ad server, we updated the weighting algorithm to slightly bias showing CPC ads on higher CTR publishers.
-* Our ad server now tracks historical changes to ad campaigns.
+* Our ad server now tracks historical changes to ad campaigns,
+  allowing us to track changes over time to better understand performance. 
 * Also in our ad server, we added actions to allow our staff to handle
   adding new publishers and execute publisher payouts.
 * On our website, we updated our [prospectus]({static}/prospectus/ethicalads-advertiser-prospectus.pdf) and [pricing]({filename}/pages/advertisers.md#pricing) information for Q3.
