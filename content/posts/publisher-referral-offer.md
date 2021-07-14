@@ -39,7 +39,7 @@ To make money, I host EthicalAds on my website and I think you'd be a good fit t
 They're a privacy focused company bootstrapped by the people at Read the Docs. 
 I like that they respect the privacy of my users and don't store any user data. 
 Right now they're running a promotion where if you mention me at sign-up, 
-we both get $50 on your first payout. [Check them out](https://www.ethicalads.io/publishers/).
+we both get $50 on your first payout. [Check them out](https://www.ethicalads.io/publishers/?ref=publisher-referral).
 
 Thanks, [your name]
 
