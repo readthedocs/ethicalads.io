@@ -45,5 +45,5 @@ Thanks, [your name]
 
 
 Thanks again for being along with us on this journey to build an ethical ad network.
-Please [email us](mailto:ads@ethicalads.io) if you have any ideas or feedback on our product or roadmap,
+Please [email us](mailto:ads@ethicalads.io) if you have any ideas or feedback for us,
 we always love to hear from you.
