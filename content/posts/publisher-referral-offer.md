@@ -31,7 +31,7 @@ FROM: [your name]
 
 TO: [your friend’s name]
 
-SUBJECT: Advertising Network Referral
+SUBJECT: Ethical Advertising Network Referral
 
 Hi,
 
