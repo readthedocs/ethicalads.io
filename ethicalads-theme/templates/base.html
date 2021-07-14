@@ -44,6 +44,57 @@
       <link rel="icon" href="/theme/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
       <link rel="icon" href="/theme/img/favicons/favicon.ico">
 
+
+      <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+      <script>
+      window.addEventListener("load", function(){
+        // Capture all the GET arguments into data
+        var cookie = Cookies.get("ethicalads");
+
+        if (cookie !== undefined) {
+          var data = JSON.parse(cookie)
+          console.debug('Loading cookie data:');
+          console.debug(data);
+        } else {
+          var data = new Object();
+          console.debug('Creating new cookie data')
+        }
+        var params = window.location.search.substr(1).split('&');
+        for (var i = 0; i < params.length; i++) {
+          var p=params[i].split("=");
+            if (p[0]) {
+              data[p[0]] = decodeURIComponent(p[1])
+            }
+        }
+
+        if (data) {
+          Cookies.set("ethicalads", data, { expires: 120 } );
+        }
+
+        // Set form input based on cookie data
+        var cookie = Cookies.get("ethicalads");
+        if(cookie != undefined){
+          cooke_data = JSON.parse(cookie);
+            form = document.forms['fa-form-1']
+            if (form !== undefined) {
+              for (const key in cooke_data) {
+                var input = document.createElement("input");
+                input.setAttribute("type", "hidden");
+                input.setAttribute("name", key);
+                input.setAttribute("value", cooke_data[key]);
+                //append to form element that you want .
+                form.appendChild(input);
+                console.debug('Adding ' + key + ' to form')
+              }
+          }
+        }
+
+      })
+
+
+      </script>
+
+
     {% endblock head %}
   </head>
   <body class="{% block bodyclasses %}bg-light{% endblock bodyclasses %}">

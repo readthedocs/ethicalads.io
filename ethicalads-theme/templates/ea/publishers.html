@@ -6,32 +6,6 @@
 
 {% include 'ea/includes/ad-client-tag.html' %}
 
-
-<script>
-// Add the referral data to the form
-
-// via https://stackoverflow.com/questions/5422265/how-can-i-pre-populate-html-form-input-fields-from-url-parameters
-function querySt(ji) {
-
-    hu = window.location.search.substring(1);
-    gy = hu.split("&");
-
-    for (i=0;i<gy.length;i++) {
-        ft = gy[i].split("=");
-        if (ft[0] == ji) {
-            return ft[1];
-        }
-    }
-}
-
-// Run after the page has loaded
-window.addEventListener("load", function(){
-  var referral = querySt("referral");
-  document.getElementById("referral").value = referral;
-})
-
-</script>
-
 {% endblock head %}
 
 
