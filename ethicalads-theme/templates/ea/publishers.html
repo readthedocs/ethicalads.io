@@ -5,6 +5,33 @@
 {{ super() }}
 
 {% include 'ea/includes/ad-client-tag.html' %}
+
+
+<script>
+// Add the referral data to the form
+
+// via https://stackoverflow.com/questions/5422265/how-can-i-pre-populate-html-form-input-fields-from-url-parameters
+function querySt(ji) {
+
+    hu = window.location.search.substring(1);
+    gy = hu.split("&");
+
+    for (i=0;i<gy.length;i++) {
+        ft = gy[i].split("=");
+        if (ft[0] == ji) {
+            return ft[1];
+        }
+    }
+}
+
+// Run after the page has loaded
+window.addEventListener("load", function(){
+  var referral = querySt("referral");
+  document.getElementById("referral").value = referral;
+})
+
+</script>
+
 {% endblock head %}
 
 
@@ -274,17 +301,19 @@
                   </div>
 
                   <div class="form-group">
-                    <label for="website">How did you hear about us?</label>
-                    <input class="form-control" type="text" id="website" name="website" placeholder="My friend told me about it.">
+                    <label for="referral">How did you hear about us?</label>
+                    <input class="form-control" type="text" id="referral" name="referral" placeholder="My friend told me about it.">
+                    <small class="form-text text-muted">If someone referred you, mention them here.</small>
                   </div>
 
                   <div class="form-group">
-                    <label for="body">Notes</label>
-                    <textarea class="form-control" id="body" name="body" required>I'm excited to join the network</textarea>
+                    <label for="notes">Notes</label>
+                    <textarea class="form-control" id="notes" name="notes" placeholder="My traffic is mostly focused on Python devs." ></textarea>
                     <small class="form-text text-muted">Anything else you'd like us to know?</small>
                   </div>
 
                   <div class="form-group my-5">
+                    <input type="hidden" name="body" value="Incoming request">
                     {% if page %}<input type="hidden" name="url" value="{{ page.url }}" />{% endif %}
                     <input type="submit" value="Become a publisher" class="btn btn-sm btn-primary">
                     <small class="form-text text-muted">We take privacy seriously and we don't share your email. You aren't going to be added to any mailing lists.</small>
@@ -300,4 +329,5 @@
 
   </div>
 </section>
+
 {% endblock content %}
