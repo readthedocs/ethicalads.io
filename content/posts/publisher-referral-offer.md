@@ -10,16 +10,16 @@ image_credit: <span>Photo by <a href="https://unsplash.com/@hannahbusing?utm_sou
 
 Want to help grow EthicalAds and our privacy preserving vision for the future of advertising?
 Refer a new publisher to EthicalAds and once they join the network, 
-you'll both get a onetime $50 bonus to your payouts when they earn their first payout. 
+you'll both get a onetime **$25 bonus** to your payouts when they earn their first payout. 
 
 ## A Good Fit
 
 Not every publisher who applies to join the EthicalAds network is approved.
-* First and foremost, we are developers ourselves and are interested in content aimed at developers. 
+* We are developers ourselves and are interested in content aimed at developers. 
 * Sites ought to have more than 10k hits in a month in order to see revenue in a timely fashion. 
-* Lastly, the owner will ideally be value-aligned in our goal of a private internet for all. 
+* Ideally they'll be value-aligned in our goal of a private internet for all. 
 
-If you know of someone who sounds like a good fit, consider sending them the following email:
+If you know of someone who sounds like a good fit, consider sending them a message:
 
 ## Sample Email
 
