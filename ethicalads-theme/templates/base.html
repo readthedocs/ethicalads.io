@@ -79,7 +79,7 @@
             for (const key in data) {
               var input = document.createElement("input");
               input.setAttribute("type", "hidden");
-              input.setAttribute("name", key);
+              input.setAttribute("name", "url_" + key);
               input.setAttribute("value", data[key]);
               //append to form element that you want .
               form.appendChild(input);
