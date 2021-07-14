@@ -33,7 +33,7 @@ TO: [your friend’s name]
 
 SUBJECT: Ethical Advertising Network Referral
 
-Hi,
+Hey [Friend],
 
 To make money, I host EthicalAds on my website and I think you'd be a good fit too. 
 They're a privacy focused company bootstrapped by the people at Read the Docs. 
