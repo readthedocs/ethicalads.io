@@ -1,6 +1,6 @@
 Title: EthicalAds Publisher Referral Offer - July 2021
 Date: July 16, 2021
-description: Details the referral offer for a new publisher on the EthicalAds network.
+description: We're actively looking for publishers on the EthicalAds network. As a result, we're going to sweeten the deal to get some referrals from our existing publishers.
 tags: publisher, offer
 authors: Ra Cohen
 image: /images/posts/publisher-referral-offer.jpg
