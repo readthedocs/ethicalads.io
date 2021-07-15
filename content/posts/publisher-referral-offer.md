@@ -29,7 +29,7 @@ Remember to change the things in [brackets]!
 ## Sample Tweet
 
 Join me as a publisher on the world's first privacy preserving ad network, EthicalAds
-https://www.ethicalads.io/publishers/?ref=[your email address]
+https://www.ethicalads.io/publishers/?referral=[your email address]
 
 
 Alternatively, if you know of someone who sounds like a good fit, consider sending them a message:
@@ -48,7 +48,7 @@ Hey [Friend],
 To make money, I host EthicalAds on my website and I think you'd be a good fit too. 
 They're a privacy focused company who is building an open-source ad network for devs. 
 I like that they respect the privacy of my users and don't store any user data. 
-Check them out: https://www.ethicalads.io/publishers/?ref=[your email address]
+Check them out: https://www.ethicalads.io/publishers/?referral=[your email address]
 
 Thanks, [your name]
 
