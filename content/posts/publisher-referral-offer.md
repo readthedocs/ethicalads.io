@@ -15,7 +15,7 @@ you'll both get a onetime **$25 bonus** to your payouts when they earn their fir
 ## A Good Fit
 
 Not every publisher who applies to join the EthicalAds network is approved.
-* We are developers ourselves and are interested in content aimed at developers. 
+* Our network is focused exclusively on developers in order to keep the content and audience well-targeted without creepy tracking.
 * Sites ought to have more than 10k hits in a month in order to see revenue in a timely fashion. 
 * Ideally they'll be value-aligned in our goal of a private internet for all. 
 
