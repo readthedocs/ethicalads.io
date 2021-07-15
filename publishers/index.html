@@ -25,7 +25,8 @@
 
 
 
-<script async src="https://media.ethicalads.io/media/client/ethicalads.min.js"></script>  </head>
+<script async src="https://media.ethicalads.io/media/client/ethicalads.min.js"></script>
+  </head>
   <body class="bg-light">
 
 <nav class="navbar navbar-expand-lg navbar-light">
@@ -431,12 +432,18 @@
                   </div>
 
                   <div class="form-group">
-                    <label for="body">Notes</label>
-                    <textarea class="form-control" id="body" name="body" required>I'm excited to join the network</textarea>
+                    <label for="referral">How did you hear about us?</label>
+                    <input class="form-control" type="text" id="referral" name="referral" placeholder="My friend told me about it.">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="notes">Notes</label>
+                    <textarea class="form-control" id="notes" name="notes" placeholder="My traffic is mostly focused on Python devs." ></textarea>
                     <small class="form-text text-muted">Anything else you'd like us to know?</small>
                   </div>
 
                   <div class="form-group my-5">
+                    <input type="hidden" name="body" value="Incoming publisher request">
 <input type="hidden" name="url" value="publishers/" />                    <input type="submit" value="Become a publisher" class="btn btn-sm btn-primary">
                     <small class="form-text text-muted">We take privacy seriously and we don't share your email. You aren't going to be added to any mailing lists.</small>
                   </div>
@@ -451,6 +458,7 @@
 
   </div>
 </section>
+
 
     </main>
 

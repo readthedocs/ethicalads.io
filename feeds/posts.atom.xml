@@ -1,5 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds - posts</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/posts.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2021-07-12T00:00:00-07:00</updated><entry><title>EthicalAds Newsletter - June 2021</title><link href="https://www.ethicalads.io/blog/2021/07/ethicalads-newsletter-june-2021/" rel="alternate"></link><published>2021-07-12T00:00:00-07:00</published><updated>2021-07-12T00:00:00-07:00</updated><author><name>Ra Cohen</name></author><id>tag:www.ethicalads.io,2021-07-12:/blog/2021/07/ethicalads-newsletter-june-2021/</id><summary type="html">&lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds - posts</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/posts.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2021-07-16T00:00:00-07:00</updated><entry><title>EthicalAds Publisher Referral Offer - July 2021</title><link href="https://www.ethicalads.io/blog/2021/07/ethicalads-publisher-referral-offer-july-2021/" rel="alternate"></link><published>2021-07-16T00:00:00-07:00</published><updated>2021-07-16T00:00:00-07:00</updated><author><name>Ra Cohen</name></author><id>tag:www.ethicalads.io,2021-07-16:/blog/2021/07/ethicalads-publisher-referral-offer-july-2021/</id><summary type="html">&lt;p&gt;Want to help grow EthicalAds and our privacy preserving vision for the future of advertising? 
+We are currently at ad …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Want to help grow EthicalAds and our privacy preserving vision for the future of advertising? 
+We are currently at ad capacity and are thus looking to expand our number of publishers. &lt;/p&gt;
+&lt;h2 id="our-offer"&gt;Our Offer&lt;/h2&gt;
+&lt;p&gt;Refer a new publisher to EthicalAds and once they join the network, 
+you'll get a onetime &lt;strong&gt;$50 bonus&lt;/strong&gt; to your payout when they earn their first payout. &lt;/p&gt;
+&lt;h2 id="a-good-fit"&gt;A Good Fit&lt;/h2&gt;
+&lt;p&gt;Not every publisher who applies to join the EthicalAds network is approved.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Our network is focused exclusively on developers in order to keep the content and audience well-targeted without creepy tracking.&lt;/li&gt;
+&lt;li&gt;Sites ought to have more than 10k hits in a month in order to see revenue in a timely fashion. &lt;/li&gt;
+&lt;li&gt;Ideally they'll be value-aligned in our goal of a private internet for all. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Feel free to spread the word perhaps with this tweet:&lt;/p&gt;
+&lt;p&gt;Remember to change the things in [brackets]!&lt;/p&gt;
+&lt;h2 id="sample-tweet"&gt;Sample Tweet&lt;/h2&gt;
+&lt;p&gt;Join me as a publisher on the world's first privacy preserving ad network, EthicalAds
+https://www.ethicalads.io/publishers/?ref=[your email address]&lt;/p&gt;
+&lt;p&gt;Alternatively, if you know of someone who sounds like a good fit, consider sending them a message:&lt;/p&gt;
+&lt;h2 id="sample-email"&gt;Sample Email&lt;/h2&gt;
+&lt;p&gt;FROM: [your name]&lt;/p&gt;
+&lt;p&gt;TO: [your friend’s name]&lt;/p&gt;
+&lt;p&gt;SUBJECT: Ethical Advertising Network Referral&lt;/p&gt;
+&lt;p&gt;Hey [Friend],&lt;/p&gt;
+&lt;p&gt;To make money, I host EthicalAds on my website and I think you'd be a good fit too. 
+They're a privacy focused company who is building an open-source ad network for devs. 
+I like that they respect the privacy of my users and don't store any user data. 
+Check them out: https://www.ethicalads.io/publishers/?ref=[your email address]&lt;/p&gt;
+&lt;p&gt;Thanks, [your name]&lt;/p&gt;
+&lt;p&gt;Thanks again for being along with us on this journey to build an ethical ad network.
+Please &lt;a href="mailto:ads@ethicalads.io"&gt;email us&lt;/a&gt; if you have any ideas or feedback for us,
+we always love to hear from you.&lt;/p&gt;</content><category term="posts"></category><category term="publisher"></category><category term="offer"></category></entry><entry><title>EthicalAds Newsletter - June 2021</title><link href="https://www.ethicalads.io/blog/2021/07/ethicalads-newsletter-june-2021/" rel="alternate"></link><published>2021-07-12T00:00:00-07:00</published><updated>2021-07-12T00:00:00-07:00</updated><author><name>Ra Cohen</name></author><id>tag:www.ethicalads.io,2021-07-12:/blog/2021/07/ethicalads-newsletter-june-2021/</id><summary type="html">&lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
 &lt;p&gt;These are the major features we added in the last month:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;In our ad server, we updated the …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
