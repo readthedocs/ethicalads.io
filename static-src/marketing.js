@@ -16,6 +16,11 @@ $(function () {
   let expiry = 7;  // days
   let cookieVal = Cookies.getJSON(cookieName) || {};
 
+  if (cookieVal.constructor !== Object) {
+    // Sanitize the cookie in case it was non-json
+    cookieVal = {};
+  }
+
   if (referrer && !cookieVal["referrer"]) {
     cookieVal["referrer"] = referrer;
   }
@@ -23,7 +28,7 @@ $(function () {
     cookieVal["ref"] = ref;
   }
 
-  if (Object.keys(cookieVal).length > 0 && cookieVal.constructor === Object) {
+  if (Object.keys(cookieVal).length > 0) {
     Cookies.set(cookieName, cookieVal, { expires: expiry });
   }
 
