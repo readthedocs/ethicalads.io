@@ -15,8 +15,7 @@ you'll get a onetime &lt;strong&gt;$50 bonus&lt;/strong&gt; to your payout when 
 &lt;p&gt;Feel free to spread the word perhaps with this tweet:&lt;/p&gt;
 &lt;p&gt;Remember to change the things in [brackets]!&lt;/p&gt;
 &lt;h2 id="sample-tweet"&gt;Sample Tweet&lt;/h2&gt;
-&lt;p&gt;Join me as a publisher on the world's first privacy preserving ad network, EthicalAds
-https://www.ethicalads.io/publishers/?ref=[your email address]&lt;/p&gt;
+&lt;p&gt;Join me as a publisher on the world's first privacy preserving ad network, EthicalAds &lt;code&gt;https://www.ethicalads.io/publishers/?referral=[your email address]&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Alternatively, if you know of someone who sounds like a good fit, consider sending them a message:&lt;/p&gt;
 &lt;h2 id="sample-email"&gt;Sample Email&lt;/h2&gt;
 &lt;p&gt;FROM: [your name]&lt;/p&gt;
@@ -26,7 +25,7 @@ https://www.ethicalads.io/publishers/?ref=[your email address]&lt;/p&gt;
 &lt;p&gt;To make money, I host EthicalAds on my website and I think you'd be a good fit too. 
 They're a privacy focused company who is building an open-source ad network for devs. 
 I like that they respect the privacy of my users and don't store any user data. 
-Check them out: https://www.ethicalads.io/publishers/?ref=[your email address]&lt;/p&gt;
+Check them out: &lt;code&gt;https://www.ethicalads.io/publishers/?referral=[your email address]&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Thanks, [your name]&lt;/p&gt;
 &lt;p&gt;Thanks again for being along with us on this journey to build an ethical ad network.
 Please &lt;a href="mailto:ads@ethicalads.io"&gt;email us&lt;/a&gt; if you have any ideas or feedback for us,
