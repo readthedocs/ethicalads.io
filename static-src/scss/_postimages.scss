@@ -1,0 +1,11 @@
+div.postimage {
+    margin: 2rem auto;
+
+    &.fixedwidth {
+        max-width: 300px;
+    }
+    p {
+        text-align: center;
+        font-size: $font-size-sm;
+    }
+}
