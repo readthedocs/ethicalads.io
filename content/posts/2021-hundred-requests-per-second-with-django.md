@@ -122,27 +122,14 @@ Improvements on our infrastructure or how we handle data would yield better resu
 </div>
 
 
-## Current challenges
+## Our next scaling challenge
 
-A recurring challenge is that we are leaning heavily on Postgres
-and the result is that we store a lot of data there.
-Because we're privacy-focused, we don't store personally identifying data in there
-but we do store data when ads are viewed or clicked and that happens a lot!
-We also bill advertisers on these actions and we want to make sure
-that we're billing them fairly and accurately.
-Where this becomes a headache is when we want to aggregate data and report on performance
-to our publishers and advertisers.
-We've done a lot of the low hanging optimizations here but we will need to break our data storage
-into our transactional database and a system used for reporting, aggregation, and archival.
-Anytime we need to add more infrastructure, it's never an easy problem.
-
-Another big challenge we hope to solve in the longer term is how to have good performance on different continents.
-We can optimize server performance all we want but in Europe and Asia performance is about 100ms worse
-due purely to latency.
+Our next big scaling challenge is how to have good performance on different continents.
+We can optimize server performance all we want but Europe and Asia are 80-100ms worse due purely to latency.
 Currently, our source of truth is what is in our Postgres database
 and reworking our solution to actually process ad requests at the edge will be a big change.
-This won't involve CDN edge caching which we're already doing but we will need to rethink our architecture
-to serve ads on different continents without checking back to a central server in North America.
+This will be more complex than CDN edge caching since most of our requests involve DB writes.
+Multi-writer scenarios for databases are never easy.
 
 Thanks for coming along with us on this journey to build an ethical ad network
 and the technical challenges that come along with that.
