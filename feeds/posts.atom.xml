@@ -4,7 +4,7 @@ and our journey in building a business around the intersection of the two …&lt
 and our journey in building a business around the intersection of the two.
 This post is going to go under the hood and discuss some of the technology and scaling challenges
 we ran into with our ad server.&lt;/p&gt;
-&lt;div class="postimage fixedwidth"&gt;
+&lt;div class="postimage"&gt;
  &lt;img class="w-100" src="https://www.ethicalads.io/images/posts/2021-adserver-performance-throughput.png" alt="Ethical ad server throughput on a normal week"&gt;
  &lt;p&gt;Normal throughput of our ad server peaks at about 3,500 requests per minute which is ~60 requests per second. The small drops are nights and the big ones are weekends.&lt;/p&gt;
 &lt;/div&gt;
@@ -69,7 +69,7 @@ where got predictable performance and the right bang for the buck.
 Heroku definitely wins in ease of deployment and it has a lot of advantages and flexibility.
 However, for this kind of application where performance and predictability were critical,
 AppService was the right choice.&lt;/p&gt;
-&lt;div class="postimage fixedwidth"&gt;
+&lt;div class="postimage"&gt;
  &lt;img class="w-100" src="https://www.ethicalads.io/images/posts/2021-adserver-performance-percentile.png" alt="Normal real-world performance from New Relic"&gt;
  &lt;p&gt;With our current performance over a normal week, New Relic reports our p50 at 58ms and the p99 at 105ms.&lt;/p&gt;
 &lt;/div&gt;
