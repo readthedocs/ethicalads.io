@@ -27,7 +27,7 @@ you can reach the same folks on lower quality channels more cheaply.
 
 ## What impression commoditization means to publishers
 
-The result of this intrusive targeting and tracking people across sites is a race the bottom.
+The result of this intrusive targeting and tracking people across sites is a race to the bottom.
 Advertising dollars have moved away from publications with well researched content written by knowledgeable authors
 to low quality SEO optimized sites with re-purposed material developed to maximize paid ad impressions.
 While there are a lot of reasons for the fall of newspapers, this dynamic shift is a major factor.
