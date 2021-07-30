@@ -1,6 +1,6 @@
-title: Python projects use EthicalAds
+title: Privacy-first ads on Python projects
 slug: python
 url: publishers/python/
 save_as: publishers/python/index.html
-description: Use EthicalAds to make your open source project sustainable
+description: A privacy-first approach to making your Python project sustainable with ethical advertising. 
 template: ea/landing-pages/python
