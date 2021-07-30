@@ -100,6 +100,7 @@ def livereload(c):
     server.watch("{}/templates/*.html".format(theme_path), lambda: build(c))
     server.watch("{}/templates/ea/*.html".format(theme_path), lambda: build(c))
     server.watch("{}/templates/ea/includes/*.html".format(theme_path), lambda: build(c))
+    server.watch("{}/templates/ea/landing-pages/*.html".format(theme_path), lambda: build(c))
     static_file_extensions = [".css", ".js"]
     for extension in static_file_extensions:
         static_file = "{0}/static/**/*{1}".format(theme_path, extension)

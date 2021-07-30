@@ -1,7 +1,7 @@
 <!-- Advertiser Icons
 ================================================== -->
 
-<div class="advertiser-icons py-10 text-center">
+<div class="advertiser-icons {% if not short %}py-10{%endif %} text-center">
 
   <div class="row">
 
@@ -29,6 +29,8 @@
       </div>
     </div>
 
+    {% if not short %}
+
     <div class="col-lg-3 col-md-4 col-6 p-5">
       <div class="img-fluid mx-auto my-auto">
         <img src="/images/pages/advertisers/digitalocean.svg" alt="DigitalOcean" />
@@ -52,6 +54,8 @@
         <img src="/images/pages/advertisers/buildkite.svg" alt="Buildkite" />
       </div>
     </div>
+
+    {% endif %}
 
   </div><!-- /.row -->
 
