@@ -1,9 +1,9 @@
-Title: What Makes EthicalAds a Great Google Adwords Alternative
+Title: What Makes EthicalAds a Great Google Ads Alternative
 url: alternative-to-google-ads
 save_as: alternative-to-google-ads.html
-description: A few reasons that you should consider EthicalAds as a simple, open-source, privacy-first alternative to Google Adwords
+description: A few reasons that you should consider EthicalAds as a simple, open-source, privacy-first alternative to Google Ads
 
-We often get asked why you should choose EthicalAds instead of an existing network like Google Adwords.
+We often get asked why you should choose EthicalAds instead of an existing network like Google Ads.
 Many people default to Google when they think about online advertising,
 and we think we're a great alternative for developer-focused sites. 
 
@@ -19,13 +19,13 @@ When you use EthicalAds, **we never set cookies on your users**, and we don't us
 
 Google ads shows ads based on the user who is viewing your site, which means they could be seeing ads totally unrelated to your site content. Sometimes this results in ads that you might find objectionable, might freak your users out by following them around the web, or many other issues.
 
-**EthicalAds only shows ads based on the content of your site.** They are guanteed to be developer-focused, and won't follow users around the web. We're so confident in our advertisers, **we give you a dashboard that shows every advertiser on your site** so you know exactly what your users are seeing.
+**EthicalAds only shows ads based on the content of your site.** They are guaranteed to be developer-focused, and won't follow users around the web. We're so confident in our advertisers, **we give you a dashboard that shows every advertiser on your site** so you know exactly what your users are seeing.
 
 ## Simple and Open Source approach
 
-The code behind Google ads is propritary and incredibly complex. This is because there is a large amount of time being spent trying to figure out exactly who you are and how to target you with an ad. 
+The code behind Google ads is proprietary and incredibly complex. This is because there is a large amount of time being spent trying to figure out exactly who you are and how to target you with an ad. 
 
-With EthicalAds, our code is both simple and open source. You can look at our [ethical ad server](https://github.com/readthedocs/ethical-ad-server/) and [ethical ad client](https://github.com/readthedocs/ethical-ad-client/) on Github. You can even read the exact logic we use to select that ads that show on your website, because we don't need complex tracking logic. 
+With EthicalAds, our code is both simple and open source. You can look at our [ethical ad server](https://github.com/readthedocs/ethical-ad-server/) and [ethical ad client](https://github.com/readthedocs/ethical-ad-client/) on GitHub. You can even read the exact logic we use to select that ads that show on your website, because we don't need complex tracking logic. 
 
 ## Diversify the web ecosystem by supporting more advertising options
 
