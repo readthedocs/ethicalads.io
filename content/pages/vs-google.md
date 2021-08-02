@@ -9,7 +9,7 @@ and we think we're a great alternative for developer-focused sites.
 
 [TOC]
 
-## Privacy of your users (and Compliance with privacy regulations such as GDPR and CCPA)
+## Privacy of your users (and compliance with privacy regulations such as GDPR and CCPA)
 
 When your user goes to your website, they are assuming they will only be sending data to you. Some users consider it a breach of trust if you were to share that data with other third parties, and it might be a breach of a privacy law to do this without user consent. Google is well-known for it's data collection policies, and they are used to target ads on your website and many other sites around the internet.
 
@@ -21,7 +21,7 @@ Google ads shows ads based on the user who is viewing your site, which means the
 
 **EthicalAds only shows ads based on the content of your site.** They are guaranteed to be developer-focused, and won't follow users around the web. We're so confident in our advertisers, **we give you a dashboard that shows every advertiser on your site** so you know exactly what your users are seeing.
 
-## Simple and Open Source approach
+## Simple and open source approach
 
 The code behind Google ads is proprietary and incredibly complex. This is because there is a large amount of time being spent trying to figure out exactly who you are and how to target you with an ad. 
 
