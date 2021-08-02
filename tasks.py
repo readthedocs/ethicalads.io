@@ -98,6 +98,7 @@ def livereload(c):
     # Watch the theme's templates and static assets
     theme_path = SETTINGS["THEME"]
     server.watch("{}/templates/*.html".format(theme_path), lambda: build(c))
+    server.watch("{}/templates/**/*.html".format(theme_path), lambda: build(c))
     server.watch("{}/templates/ea/*.html".format(theme_path), lambda: build(c))
     server.watch("{}/templates/ea/includes/*.html".format(theme_path), lambda: build(c))
     server.watch("{}/templates/ea/landing-pages/*.html".format(theme_path), lambda: build(c))
