@@ -48,6 +48,7 @@ docs/build/*
 
 # Node stuff
 node_modules
+nodeenv
 
 # Specific to ethicalads.io
 output
