@@ -6,7 +6,7 @@ subtitle: Good advertising doesn't have to stalk you.
 
 Modern online advertising works by accumulating and processing data on millions of people
 usually without their consent to help target ads with ever more granularity.
-We call this **surveillance advertising** and believe in a different approach.
+**This is called surveillance advertising and we believe in a different approach.**
 Whether you're an individual just hoping to not be tracked,
 an advertiser looking for an alternative,
 or you run a website but don't want to sell your visitors' data,
