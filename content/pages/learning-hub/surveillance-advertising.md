@@ -61,7 +61,7 @@ it's done so by centralizing massive amounts of data on as many people as possib
 ## We target our ads differently
 
 [Our vision]({filename}/pages/vision.md) for advertising is different.
-We target exclusively based on the content of the page and general geography (usually the country level).
+**We target exclusively based on the content of the page and general geography** (usually the country level).
 For example, if you are browsing a page about front-end web development from Switzerland,
 we might show you an ad for a Swiss company looking to hire front-end web developers.
 These types of ads perform fantastically well and don't require compiling data on millions of users.
