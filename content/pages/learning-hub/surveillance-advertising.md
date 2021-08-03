@@ -1,7 +1,7 @@
 title: Surveillance Advertising
 slug: surveillance-advertising
 description: Online advertising works by collecting data on millions of people without their consent to target ads better. You can opt-out and we can help!
-subtitle: Good advertising doesn't have to stalk you.
+subtitle: Good advertising doesn't have to follow you around the web
 
 
 Modern online advertising works by accumulating and processing data on millions of people
@@ -19,7 +19,7 @@ To first understand the problem, it's useful to go through some of the basics of
 Showing the right ad is critical to good performance and as an advertiser you want to make sure your ad is shown to a relevant audience.
 As an ad network or publisher, a better ad results in more clicks, more interaction, and importantly more money.
 To ensure that the best-performing ads are shown to the right folks, ad networks build profiles of users.
-In the advertising industry, building a profile of users to target ads is called **behavioral targeting**.
+In the advertising industry, building a profile of users to target ads is called *behavioral targeting* or *personalized advertising*.
 
 To build these profiles,
 most advertising networks create a database of user data in order to show the right ad.
@@ -41,7 +41,7 @@ Building a profile from users' visits to third-party sites is typically accompli
 (sometimes called beacons or pixels).
 For example, if a site uses a tracker from an ad network and a user visits that site,
 the site operator can now target future advertising to that user – a known past visitor – with that network.
-This is called **retargeting** or **remarketing**.
+This is called *retargeting* or *remarketing*.
 The site operator (often just a small business) gets to target their own ads better
 but also helps the ad network create their enormous database of all the sites users have visited in the past.
 Critically, the site visitor didn't agree to share this data with the ad network but their browser did it anyway.
@@ -50,7 +50,7 @@ Other ad predictions are made by grouping similar users together based on some u
 Frequently this involves an advertiser uploading personal data on users (often past customers of the advertiser)
 to an ad network and telling the network to target similar users.
 The idea is that two users with similar demographic information and similar interests would like the same products.
-In ad tech, this is known as **lookalike audiences** or **similar audiences**.
+In ad tech, this is known as *lookalike audiences* or *similar audiences*.
 
 Understandably, many people have concerns about these targeting techniques.
 If you've ever felt that ads "follow you around" while you browse the web, it's because of these.
@@ -66,6 +66,14 @@ For example, if you are browsing a page about front-end web development from Swi
 we might show you an ad for a Swiss company looking to hire front-end web developers.
 These types of ads perform fantastically well and don't require compiling data on millions of users.
 It really is that simple to have a high-performing ad without tracking users.
+
+This approach of putting ads next to relevant content is called *contextual targeting*
+and all advertising used to work this way.
+Before online advertising, advertisers placed an ad in a related magazine
+or during a TV program their desired audience watched.
+Every successful marketing campaign of the past worked this way
+and this approach built every iconic brand you can remember.
+Advertising doesn't have to be personalized to reach its target audience.
 
 By focusing our ad network exclusively on developers,
 we already have a huge leg up in terms of reaching the right audience for an ad.
