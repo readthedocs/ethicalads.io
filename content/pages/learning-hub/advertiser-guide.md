@@ -1,6 +1,6 @@
 title: A Guide to Developer Advertising
 slug: advertiser-guide
-description: How to advertise to developers while preserving user privacy.
+description: In this guide, we help you craft your message and ads specifically to target an audience of developers. Try multiple variations and formats and rotate your ads periodically to get the best ad performance.
 subtitle: Good ads harness specificity to speak directly to developers.
 
 This guide tries to help you to create engaging ads for [our audience](/our-audience/) on the EthicalAds network
