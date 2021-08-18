@@ -3,7 +3,7 @@ slug: publisher-guide
 description: A guide to help publishers get the most out of our network in terms of optimizing their ad placement and contextual targeting.
 subtitle: Optimizing your site's ads will improve your revenue.
 
-Our [EthicalAds client](https://ethical-ad-client.readthedocs.io/en/latest/) should get you started hosting ads, but for guidance on how to ensure your ads perform well, read on.
+Our [EthicalAds client](https://ethical-ad-client.readthedocs.io/en/latest/) gets you started with how to host ads. To ensure your site generates as much revenue from your ads as possible, you need to make sure your ad placement, targeting, and user experience compliment your content.
 
 ## Ad Placement
 
