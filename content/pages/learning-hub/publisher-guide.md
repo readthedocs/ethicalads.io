@@ -1,4 +1,4 @@
-title: Publisher's Guide to Hosting EthicalAds
+title: Publisher's Guide to Improving Developer Ads
 slug: publisher-guide
 description: A guide to help publishers get the most out of our network in terms of optimizing their ad placement and contextual targeting.
 subtitle: Maximize your site's ad revenue by complementing your user experience.
