@@ -22,7 +22,7 @@ These are the major features we released in the last month:
   Lookout for a blog post on how we did it, coming out soon!
 * Also on our website, we launched our [Publisher Referral Offer](https://www.ethicalads.io/blog/2021/07/ethicalads-publisher-referral-offer-july-2021/).
 
-You can always see our latest server updates in our [ethical-ad-server changelog](https://ethical-ad-server.readthedocs.io/en/latest/developer/changelog.html).
+You can always see our latest server updates in our [ethical-ad-server changelog](https://ethical-ad-server.readthedocs.io/en/latest/developer/changelog.html) and [ethical-ad-client changelog](https://ethical-ad-client.readthedocs.io/en/latest/changelog.html).
 
 
 ## July advertising stats
