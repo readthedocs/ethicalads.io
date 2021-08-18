@@ -1,7 +1,7 @@
-title: The EthicalAds Audience
+title: About the Developers in Our Audience
 slug: our-audience
 description: Our 100% developer audience is geographically spread out and ranges in terms of technologies used and the skill level of the developer.
-subtitle: Who is and isn't on our network.
+subtitle: Marketing to developers has never been easier with our developer-focused ad network.
 
 The best ads and ad campaigns know exactly who their audience is
 and how to guide them toward the desired action.

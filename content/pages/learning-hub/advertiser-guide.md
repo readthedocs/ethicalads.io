@@ -1,7 +1,7 @@
-title: Advertiser's Guide
+title: A Guide to Developer Advertising
 slug: advertiser-guide
-description: A guide to help advertisers get the most out of our network.
-subtitle: Good ads start with good focus.
+description: In this guide, we help you craft your message and ads specifically to target an audience of developers. Try multiple variations and formats and rotate your ads periodically to get the best ad performance.
+subtitle: Good ads harness specificity to speak directly to developers.
 
 This guide tries to help you to create engaging ads for [our audience](/our-audience/) on the EthicalAds network
 and make sure those ads perform well once people click on them.
