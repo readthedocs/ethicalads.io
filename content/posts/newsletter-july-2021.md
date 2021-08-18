@@ -19,7 +19,7 @@ These are the major features we released in the last month:
   by implementing a transparent, human-readable first-person cookie,
   running the open-source, privacy-friendly [Plausible analytics](https://plausible.io/vs-google-analytics),
   and creating our first ad-specific landing page for [prospective Python publishers](https://www.ethicalads.io/publishers/topics/python/).
-  Lookout for a blog post on how we did it, coming out later this month!
+  Lookout for a blog post on how we did it, coming out soon!
 * Also on our website, we launched our [Publisher Referral Offer](https://www.ethicalads.io/blog/2021/07/ethicalads-publisher-referral-offer-july-2021/).
 
 You can always see our latest server updates in our [ethical-ad-server changelog](https://ethical-ad-server.readthedocs.io/en/latest/developer/changelog.html).
