@@ -27,25 +27,16 @@ You can always see our latest server updates in our [ethical-ad-server changelog
 
 ## July advertising stats
 
-July's performance was complicated.
-
 In July 2021:
 
-* We generated **$23,981.08** overall for our publishers,
-  a slight decrease from June.
-  Of this, $12,966.47 was to third-party publishers,
-  a slight increase from June.
-  The rest, as usual, went to Read the Docs.
-* We had **105 publishers** on our network with at least one paid ad impression,
-  a slight decrease from June.
-* We had **16,257,531** paid ad views across the world,
-  a sizable increase from June's ~14.6 million views.
+* We generated **$23,981.08** for our publishers.
+* We had **105 publishers** on our network with at least one paid ad impression.
+* We had **16,257,531** paid ad views across the world.
 
-In an effort to maintain the high quality of our network,
-we removed some under-performing publishers and onboarded some
-new publishers, but we are still looking for more!
-This accounts for the slight decrease in the number of publishers
-and the slight increase in the number of paid views.
+In July we undertook an effort to ensure the high quality of our network,
+we removed a number of under-performing publishers 
+and onboardeded some new publishers, though we continue to [look for more](https://www.ethicalads.io/blog/2021/07/ethicalads-publisher-referral-offer-july-2021/)!
+We also launched a few globally-targeted ad-buys which resulted in a sizable increase of views from June's ~14.6 million paid views. 
 
 
 ## Tricky bits
