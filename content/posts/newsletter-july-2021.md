@@ -12,7 +12,7 @@ image_credit: <span>Photo by <a href="https://unsplash.com/@ingmarr?utm_source=u
 These are the major features we released in the last month:
 
 * In our ad server, we added ```noopener``` to our ad links as a security precaution.
-* Our ad server now raises a warning on link redirects and errors.
+* Our ad server now raises a warning on link redirects and errors when advertisers are creating an ad, to make sure it isn't an error in the URL. 
 * Also in our ad server, we created actions to allow our staff to handle
   the creation and customization of new advertising flights.
 * On our website, we created our first iteration of an **ethical** marketing funnel
