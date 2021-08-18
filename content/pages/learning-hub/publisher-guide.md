@@ -1,7 +1,7 @@
 title: Publisher's Guide to Hosting EthicalAds
 slug: publisher-guide
 description: A guide to help publishers get the most out of our network in terms of optimizing their ad placement and contextual targeting.
-subtitle: Good focus drives good ad revenue.
+subtitle: Optimizing your site's ads will improve your revenue.
 
 Our [EthicalAds client](https://ethical-ad-client.readthedocs.io/en/latest/) should get you started hosting ads, but for guidance on how to ensure your ads perform well, read on.
 
