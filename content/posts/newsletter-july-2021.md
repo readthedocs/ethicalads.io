@@ -1,5 +1,5 @@
 Title: EthicalAds Newsletter - July 2021
-Date: August 11, 2021
+Date: August 18, 2021
 description: Our July 2021 ads update, including stats and commentary on our progress as we build EthicalAds
 tags: newsletter, community
 authors: Ra Cohen
