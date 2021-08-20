@@ -53,7 +53,7 @@ Our
 [prospectus]({static}/prospectus/ethicalads-advertiser-prospectus.pdf)
 will have the latest details and rates on keyword targeting.
 More niche targeting is possible although campaigns may take longer to fulfill due to availability.
-Inquire for details.
+[Inquire](/advertisers/#inbound-form) for details.
 
 
 ## What geographic regions can I target?
@@ -63,12 +63,13 @@ Inquire for details.
 We can target any region you'd like where we have enough inventory to run a campaign.
 Most of our advertisers are focused on North America and Europe
 although we have some advertisers interested in other regions
-such as Asia Pacific, India, or Eastern Europe.
-Please [let us know](/advertisers/#inbound-form) what you're interested in and we can quote you a price.
+such as Asia Pacific or India.
+Our [prospectus]({static}/prospectus/ethicalads-advertiser-prospectus.pdf) has more pricing options
+but please [let us know](/advertisers/#inbound-form) what you're interested in and we can quote you a price.
 
-Some advertisers want to focus globally and we can do that as well.
-A near global ad buy has a small list of excluded countries
-and we can make small changes here based on the particular campaign.
+Some advertisers want to focus globally.
+For those advertisers, we recommend splitting your budget between what you're interested in targeting.
+This ensures advertisers get excactly what they expect.
 
 
 ## What are the ad specifications?
