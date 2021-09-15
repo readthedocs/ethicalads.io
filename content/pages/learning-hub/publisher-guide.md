@@ -30,13 +30,17 @@ The majority of our ads do have images so if in doubt, go with the image ad spot
 If your website uses a dark theme, consider adding ```{html} class = "dark"``` as seen [here](https://ethical-ad-client.readthedocs.io/en/latest/#dark-mode).
 This improves performance by helping the text of the ad standout while the rest of the ad blends in.
 
-If your website's theme is adaptive, consider adding ```{html} class = "adaptive"``` as it handles both Light and Dark themes automatically.
+If your website's theme is adaptive, consider adding ```{html} class = "adaptive"``` as it handles both Light and Dark themes automatically like as seen on [webcode.tools](https://webcode.tools).
+
+![A successful ad placement with an image using the adaptive theme on the EthicalAds network](../images/pages/learning-hub/webcode-tools-publisher-example.png){style="width: 100%"}
+
+​
 
 ## Content Tagging
 
-For better content targeting, letting us know about the content of your pages with
-[page-specific keywords](https://ethical-ad-client.readthedocs.io/en/latest/#page-specific-keywords),
-can allow us to better target the ads.
+You should let us know the content of your pages with
+[page-specific keywords](https://ethical-ad-client.readthedocs.io/en/latest/#page-specific-keywords).
+For better ad resonance, we use content targeting to match your site with complementary ads.
 For example, we can target an ad for a DevOps related service to DevOps related content.
 Ads targeted specifically to your content can also result in higher payouts
 as we charge higher rates for highly targeted ads.
@@ -47,7 +51,6 @@ Complementary placement, pleasing aesthetics, and accurate content tagging will
 boost your earnings with EthicalAds by helping us provide your users
 with high quality, relevant advertisements.
 And if you haven't already, [become a publisher today](/publishers/#inbound-form)!
-
 
 
 Still have questions? Checkout our full [Publisher Policy](../publisher-policy/) and [Publisher FAQ](../publishers/faq/).
