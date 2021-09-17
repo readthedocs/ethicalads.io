@@ -1,6 +1,6 @@
 Title: EthicalAds Newsletter - August 2021
 Date: September 17, 2021
-description: Our September 2021 ads update, including stats and commentary on our progress as we build EthicalAds
+description: Updates from August, including stats and commentary on our progress as we build EthicalAds
 tags: newsletter, community
 authors: Ra Cohen
 image: /images/posts/2021-august-newsletter.jpg
