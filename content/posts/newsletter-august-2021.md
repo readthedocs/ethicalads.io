@@ -47,6 +47,7 @@ The major features in our upcoming roadmap:
 * Adding graphs to our advertising dashboard.
 * Adding "view time" statistics to our reporting, so that we can better understand how ads are performing.
 * Highlighting our 10% discount on ad buys over $3000 in the flight report page.
+* Improved performance of our dashboard, after doing some infrastructure work to improve our databases. 
 
 
 Thanks again for being along with us on this journey to build an ethical ad network.
