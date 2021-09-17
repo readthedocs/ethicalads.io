@@ -1,5 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/all.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2021-08-18T00:00:00-07:00</updated><subtitle></subtitle><entry><title>EthicalAds Newsletter - July 2021</title><link href="https://www.ethicalads.io/blog/2021/08/ethicalads-newsletter-july-2021/" rel="alternate"></link><published>2021-08-18T00:00:00-07:00</published><updated>2021-08-18T00:00:00-07:00</updated><author><name>Ra Cohen</name></author><id>tag:www.ethicalads.io,2021-08-18:/blog/2021/08/ethicalads-newsletter-july-2021/</id><summary type="html">&lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/all.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2021-09-17T00:00:00-07:00</updated><subtitle></subtitle><entry><title>EthicalAds Newsletter - August 2021</title><link href="https://www.ethicalads.io/blog/2021/09/ethicalads-newsletter-august-2021/" rel="alternate"></link><published>2021-09-17T00:00:00-07:00</published><updated>2021-09-17T00:00:00-07:00</updated><author><name>Ra Cohen</name></author><id>tag:www.ethicalads.io,2021-09-17:/blog/2021/09/ethicalads-newsletter-august-2021/</id><summary type="html">&lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
+&lt;p&gt;These are the major features we released in the last month:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Giving the publisher the ability to turn …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
+&lt;p&gt;These are the major features we released in the last month:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Giving the publisher the ability to turn off/on their own payouts, managing their own payment schedule.&lt;/li&gt;
+&lt;li&gt;In the ad client, we shrunk the size of the client by about 40% which results in faster load times.&lt;/li&gt;
+&lt;li&gt;We released our Surveillance Advertising informational page to the &lt;a href="https://www.ethicalads.io/surveillance-advertising/"&gt;Learning Hub&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;We updated our &lt;a href="https://www.ethicalads.io/publisher-guide/"&gt;Publisher Guide&lt;/a&gt;
+  with an example of a great placement and some explanation as to why they are so desirable.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can always see our latest server updates in our &lt;a href="https://ethical-ad-server.readthedocs.io/en/latest/developer/changelog.html"&gt;ethical-ad-server changelog&lt;/a&gt; and &lt;a href="https://ethical-ad-client.readthedocs.io/en/latest/changelog.html"&gt;ethical-ad-client changelog&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="august-advertising-stats"&gt;August advertising stats&lt;/h2&gt;
+&lt;p&gt;In August 2021:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We generated &lt;strong&gt;$27,913.01&lt;/strong&gt; for our publishers.&lt;/li&gt;
+&lt;li&gt;We had &lt;strong&gt;104 publishers&lt;/strong&gt; on our network with at least one paid ad impression.&lt;/li&gt;
+&lt;li&gt;We had &lt;strong&gt;18,521,177&lt;/strong&gt; paid ad views across the world marking another increase over July's ~14 million views.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We started a number of new global campaigns this month which boosted our paid view count significantly,
+although we are still limited by publishers across the network. &lt;/p&gt;
+&lt;h2 id="tricky-bits"&gt;Tricky bits&lt;/h2&gt;
+&lt;p&gt;We still have the fortunate problem of being overbooked in the US and EU especially,
+which has resulted in many of our on-going campaigns falling behind of schedule.
+In order to honor our existing advertising flights, we're scheduling out new flights to start in October.
+We're also releasing our new prospectus in October, raising the price of these overbooked geos.&lt;/p&gt;
+&lt;h2 id="upcoming-features"&gt;Upcoming features&lt;/h2&gt;
+&lt;p&gt;The major features in our upcoming roadmap:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Adding graphs to our advertising dashboard.&lt;/li&gt;
+&lt;li&gt;Adding "view time" statistics to our reporting, so that we can better understand how ads are performing.&lt;/li&gt;
+&lt;li&gt;Highlighting our 10% discount on ad buys over $3000 in the flight report page.&lt;/li&gt;
+&lt;li&gt;Improved performance of our dashboard, after doing some infrastructure work to improve our databases. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thanks again for being along with us on this journey to build an ethical ad network.
+Please &lt;a href="mailto:ads@ethicalads.io"&gt;email us&lt;/a&gt; if you have any ideas or feedback on our product or roadmap,
+we always love to hear from you.&lt;/p&gt;</content><category term="posts"></category><category term="newsletter"></category><category term="community"></category></entry><entry><title>EthicalAds Newsletter - July 2021</title><link href="https://www.ethicalads.io/blog/2021/08/ethicalads-newsletter-july-2021/" rel="alternate"></link><published>2021-08-18T00:00:00-07:00</published><updated>2021-08-18T00:00:00-07:00</updated><author><name>Ra Cohen</name></author><id>tag:www.ethicalads.io,2021-08-18:/blog/2021/08/ethicalads-newsletter-july-2021/</id><summary type="html">&lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
 &lt;p&gt;These are the major features we released in the last month:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;In our ad server, we added &lt;code&gt;noopener …&lt;/code&gt;&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
