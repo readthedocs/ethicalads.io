@@ -14,8 +14,6 @@ These are the major features we released in the last month:
 * Giving the publisher the ability to turn off/on their own payouts, managing their own payment schedule.
 * In the ad client, we shrunk the size of the client by about 40% which results in faster load times.
 * We released our Surveillance Advertising informational page to the [Learning Hub](https://www.ethicalads.io/surveillance-advertising/).
-* We updated our [Publisher Guide](https://www.ethicalads.io/publisher-guide/)
-  with an example of a great placement and some explanation as to why they are so desirable.
 
 You can always see our latest server updates in our [ethical-ad-server changelog](https://ethical-ad-server.readthedocs.io/en/latest/developer/changelog.html) and [ethical-ad-client changelog](https://ethical-ad-client.readthedocs.io/en/latest/changelog.html).
 
