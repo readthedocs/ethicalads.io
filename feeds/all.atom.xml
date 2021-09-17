@@ -8,8 +8,6 @@
 &lt;li&gt;Giving the publisher the ability to turn off/on their own payouts, managing their own payment schedule.&lt;/li&gt;
 &lt;li&gt;In the ad client, we shrunk the size of the client by about 40% which results in faster load times.&lt;/li&gt;
 &lt;li&gt;We released our Surveillance Advertising informational page to the &lt;a href="https://www.ethicalads.io/surveillance-advertising/"&gt;Learning Hub&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;We updated our &lt;a href="https://www.ethicalads.io/publisher-guide/"&gt;Publisher Guide&lt;/a&gt;
-  with an example of a great placement and some explanation as to why they are so desirable.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;You can always see our latest server updates in our &lt;a href="https://ethical-ad-server.readthedocs.io/en/latest/developer/changelog.html"&gt;ethical-ad-server changelog&lt;/a&gt; and &lt;a href="https://ethical-ad-client.readthedocs.io/en/latest/changelog.html"&gt;ethical-ad-client changelog&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id="august-advertising-stats"&gt;August advertising stats&lt;/h2&gt;
