@@ -45,7 +45,7 @@ We're also releasing our new prospectus in October, raising the price of these o
 The major features in our upcoming roadmap:
 
 * Adding graphs to our advertising dashboard.
-* Feedback for publishers on their view-time statistics.
+* Adding "view time" statistics to our reporting, so that we can better understand how ads are performing.
 * Highlighting our 10% discount on ad buys over $3000 in the flight report page.
 
 
