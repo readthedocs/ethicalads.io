@@ -34,7 +34,8 @@ although we were not able to onboard any new publishers to accomodate for this n
 
 ## Tricky bits
 
-We still have the fortunate problem of being overbooked in the US and EU especially.
+We still have the fortunate problem of being overbooked in the US and EU especially,
+which has resulted in many of our on-going campaigns falling behind of schedule.
 In order to honor our existing advertising flights, we're scheduling out new flights to start in October.
 We're also releasing our new prospectus in October, raising the price of these overbooked geos.
 
