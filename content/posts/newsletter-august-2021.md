@@ -29,7 +29,7 @@ In August 2021:
 * We had **18,521,177** paid ad views across the world marking another increase over July's ~14 million views.
 
 We started a number of new global campaigns this month which boosted our paid view count significantly,
-although we were not able to onboard any new publishers to accomodate for this new business. 
+although we are still limited by publishers across the network. 
 
 
 ## Tricky bits
