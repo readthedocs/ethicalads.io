@@ -12,7 +12,7 @@ image_credit: <span>Photo by <a href="https://unsplash.com/@campaign_creators?ut
 Modern online marketing is invasive, annoying, and obtuse. The whole point of a marketing funnel is it's a continuous mission of getting, keeping and growing your customer base while using technology and other available tools to meet their needs more efficiently. No where in that definition does it say we must track individuals or hoard their personal information to weaponize it against them. We wanted our marketing funnel to be privacy-preserving, open-source, and transparent. In a word, Ethical.
 
 
-## What Is an Ethical Marketing Funnel?
+## What Is an Ethical Marketing Funnel and Why Would You Want One?
 
 This post is assuming you are aware of what a marketnig funnel is and why you want one in the first place. If not, check out _____'s article on the topic of what is a marketing funnel and the various layers therein. To get started we needed two things,  a measurement of a successful conversion and a way to quantify which marketing methods were leading to the most conversions while maintaining our must-haves of everything being open-source and not-personally identifying.
 
