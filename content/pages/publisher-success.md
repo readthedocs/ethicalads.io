@@ -1,4 +1,6 @@
-Title: Form Submitted
+Title: Publisher Form Submitted
+url: publishers/contact-success/
+save_as: publishers/contact-success/index.html
 description: We got your publisher application and we'll get back to you as soon as we can.
 status: hidden
 
