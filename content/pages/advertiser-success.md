@@ -1,4 +1,6 @@
 Title: Advertiser Form Submitted
+url: advertisers/contact-success/
+save_as: advertisers/contact-success/index.html
 description: We got your advertisement inquiry and we'll get back to you as soon as we can.
 status: hidden
 
