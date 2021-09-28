@@ -1,4 +1,4 @@
-Title: Form Submitted
+Title: Publisher Form Submitted
 description: We got your publisher application and we'll get back to you as soon as we can.
 status: hidden
 
