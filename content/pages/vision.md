@@ -10,7 +10,7 @@ or you just care about privacy and you want to learn more,
 we want to define *ethical advertising* for you here.
 
 
-## What is ethical advertising
+## What Is Ethical Advertising
 
 A succinct definition:
 
@@ -34,7 +34,7 @@ traditional advertising without tracking built every brand you can name.
 > &mdash; Doc Searls, editor-in-chief of Linux Journal
 
 
-## Why we created EthicalAds
+## Why We Created EthicalAds
 
 We started ethical advertising
 as a way to fund sustainable open source development on Read the Docs.
@@ -59,7 +59,7 @@ and from talking to our users at Read the Docs,
 there seemed to be lots of other folks out there who didn't either.
 
 
-## How our ads work
+## How Our Ads Work
 
 Our ads work a bit differently than most other ad networks out there.
 Most ad networks have databases of user data
@@ -112,7 +112,7 @@ There are a few qualifications for our Community Ads program:
 Please [complete an application](https://docs.google.com/forms/d/e/1FAIpQLSdd9LDska1eiDHWHs4No-8AlqjDxsUuP_zSBTeYyl5tMcBeFQ/viewform?usp=sf_link) to be considered for our Community Ads program. If you have any questions about our community ads program, feel free to [send us an email](mailto:ads@readthedocs.org).
 
 
-## Your data
+## Your Data
 
 At EthicalAds, we take your privacy seriously.
 We've made a number of legally-binding pledges about how we handle data starting with our [privacy policy]({filename}/pages/privacy-policy.md).
@@ -128,7 +128,7 @@ of our privacy policy.
 We do not share, sell, rent, or trade personal information with third parties for their commercial purposes.
 
 
-## Join us
+## Join Us
 
 Ethical advertising is our vision for the future of internet advertising,
 and we hope that you'll join us.
