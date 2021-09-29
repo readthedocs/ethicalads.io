@@ -35,8 +35,6 @@
     "isotope-layout": "^3.0.6",
     "jarallax": "^1.12.1",
     "jquery": "^3.5.1",
-    "js-cookie": "^2.2.1",
-    "js-url": "^2.3.0",
     "popper.js": "^1.16.1",
     "quill": "^1.3.7",
     "smooth-scroll": "^16.1.3",
