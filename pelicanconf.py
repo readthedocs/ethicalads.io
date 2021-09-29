@@ -55,10 +55,10 @@ DISPLAY_CATEGORIES_ON_MENU = False
 MENUITEMS = [
     ("Blog", "/blog/"),
     ("Learning Hub", "/learning-hub/"),
-    ("Earn with EthicalAds", "/publishers/"),
+    ("Advertisers", "/advertisers/"),
+    ("Publishers", "/publishers/"),
 ]
-MENUITEMS_CTA = [("Advertise with Us", "/advertisers/")]
-MENUITEMS_RIGHT = [("User Login", "https://server.ethicalads.io/")]
+MENUITEMS_CTA = [("Monetize your site", "/publishers/")]
 
 # URL settings
 # https://docs.getpelican.com/en/stable/settings.html#url-settings
