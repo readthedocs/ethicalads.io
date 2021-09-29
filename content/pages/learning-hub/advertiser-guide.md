@@ -8,7 +8,7 @@ and make sure those ads perform well once people click on them.
 For frequently asked questions, see our [Advertiser's FAQ](/advertisers/faq/).
 
 
-## Optimizing ads themselves
+## Optimizing Ads Themselves
 There are many factors to successful display advertising
 from compelling branding to optimized landing pages
 but it pays to not overlook the image and text copy.
@@ -27,7 +27,7 @@ Making sure your geographic targeting parameters match your desired customers is
 Using other targeting parameters or running geographically different ads for different
 regions will help both the CTR as well as conversions.
 
-### Use multiple ad formats
+### Using multiple ad formats
 Publishers choose the format that works best for their site
 so as an advertiser you want to provide both formats to ensure that your ad can be shown
 on all sites on the network.
@@ -40,7 +40,7 @@ We have noticed that new ads perform better. This is known as ad fatigue.
 Swapping ads once every quarter or so will keep them performing well.
 
 
-## Optimizing conversions
+## Optimizing Conversions
 Having people click on your advertisement is only half the battle.
 Once they get to your landing page, you want the visitor to take the desired action.
 Some of our best advertisers have conversion rates better than 20%.
@@ -61,7 +61,7 @@ A classic example of this is an ad that features a large discount (eg. "get $100
 This large discount has set the expectation that the product will be fairly expensive.
 
 
-## Examples of successful ads
+## Examples of Successful Ads
 These are not real ads that ran on the EthicalAds network but are based on very
 successful past ads.
 ​
