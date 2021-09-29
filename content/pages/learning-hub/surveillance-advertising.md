@@ -13,7 +13,7 @@ or you run a website but don't want to sell your visitors' data,
 we want to help you opt-out.
 
 
-## Profiling millions of users for fun and profit
+## Profiling Millions of Users for Fun and Profit
 
 To first understand the problem, it's useful to go through some of the basics of online advertising.
 Showing the right ad is critical to good performance and as an advertiser you want to make sure your ad is shown to a relevant audience.
@@ -58,7 +58,7 @@ While the modern advertising industry has built enormous value,
 it's done so by centralizing massive amounts of data on as many people as possible.
 
 
-## We target our ads differently
+## We Target Our Ads Differently
 
 [Our vision]({filename}/pages/vision.md) for advertising is different.
 **We target exclusively based on the content of the page and general geography** (usually the country level).
@@ -85,7 +85,7 @@ to reach just the right audience for an advertiser
 while still respecting the privacy of everyone involved.
 
 
-## Opting-out of surveillance advertising
+## Opting-out of Surveillance Advertising
 
 
 ### As an individual
@@ -125,7 +125,7 @@ or perhaps a small online business, there's a few things you can do:
   don't run trackers on your site if possible.
 
 
-### As an advertiser
+### As an Advertiser
 
 We understand that you can't just turn off all your ads.
 You'd quickly be out of a job.
