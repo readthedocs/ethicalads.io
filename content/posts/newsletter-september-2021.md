@@ -47,7 +47,7 @@ The major features in our upcoming roadmap:
 * New landing pages describing our open source ad network and the benefits of being a data science publisher on our network. 
 * Adding graphs to our advertising dashboard.
 * Highlighting our 10% discount on ad buys over $3000 in the flight report page.
-
+* Infrastructure improvements to better manage our load and isolate reporting from our live transactional data.
 
 
 Thanks again for being along with us on this journey to build an ethical ad network.
