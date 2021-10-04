@@ -12,7 +12,7 @@ image_credit: <span>Photo by <a href="https://unsplash.com/@souvenirpixels?utm_s
 These are the major features we released in the last month:
 
 * We added a read replica database which improves the performance of our dashboard.
-* In our server, when you copy an advertisement to a new flight, they're ordered by the age of the ad, newest first. 
+* In the advertiser dashboard, when you copy an advertisement to a new flight, they're ordered by the age of the ad, newest first. 
 * Now when a 'Contact Us' form is filled out, we ask if they would like to start receiving our newsletter. 
 * Our new [prospectus](https://www.ethicalads.io/prospectus/ethicalads-advertiser-prospectus.pdf) with our updated pricing came out. 
 
