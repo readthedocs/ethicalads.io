@@ -11,10 +11,11 @@ image_credit: <span>Photo by <a href="https://unsplash.com/@souvenirpixels?utm_s
 
 These are the major features we released in the last month:
 
+* Our new [prospectus](https://www.ethicalads.io/prospectus/ethicalads-advertiser-prospectus.pdf) came out. 
+  We raised the geo-prices in the US and EU in order to combat our overbooking issue and earn more money for our publishers.  
 * We added a read replica database which improves the performance of our dashboard.
 * In the advertiser dashboard, when you copy an advertisement to a new flight, they're ordered by the age of the ad, newest first. 
 * Now when a 'Contact Us' form is filled out, we ask if they would like to start receiving our newsletter. 
-* Our new [prospectus](https://www.ethicalads.io/prospectus/ethicalads-advertiser-prospectus.pdf) with our updated pricing came out. 
 
 You can always see our latest server updates in our [ethical-ad-server changelog](https://ethical-ad-server.readthedocs.io/en/latest/developer/changelog.html) and [ethical-ad-client changelog](https://ethical-ad-client.readthedocs.io/en/latest/changelog.html).
 
