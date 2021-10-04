@@ -31,6 +31,11 @@ In September 2021:
 September was our best month to date in terms of paid views and revenue! 
 We had a 12% increase in September's revenue from August which was a 15% increase from July before that. 
 
+Part of our revenue improvements were due to price increases that went into effect over the last quarter
+and partially due to selling more of our harder to sell inventory.
+Our effective cost per thousand impressions (eCPM) across the US & Canada has improved from $XX in June to $YY in September
+and our eCPM in Asia-Pacific improved from $AA in June to $BB.
+This means more money in the pockets of our publishers.
 
 ## Tricky bits
 
