@@ -35,7 +35,8 @@ We had a 12% increase in September's revenue from August which was a 15% increas
 ## Tricky bits
 
 We still have the fortunate problem of being overbooked in the US and EU especially,
-which has resulted in many of our on-going campaigns falling behind schedule. We've adjusted our roadmap priorities to focus more heavily on publisher acquisition.
+which has resulted in many of our on-going campaigns falling behind schedule.
+We've adjusted our roadmap priorities to focus more heavily on publisher acquisition.
 We are also looking into additional ways of doing pricing,
 so that we are able to better determine priority of ads across time. 
 
