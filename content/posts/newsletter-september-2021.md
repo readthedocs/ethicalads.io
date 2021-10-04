@@ -45,7 +45,6 @@ The major features in our upcoming roadmap:
 
 * New landing pages describing our open source ad network and the benefits of being a data science publisher on our network. 
 * Adding graphs to our advertising dashboard.
-* Adding "view time" statistics to our reporting, so that we can better understand how ads are performing.
 * Highlighting our 10% discount on ad buys over $3000 in the flight report page.
 
 
