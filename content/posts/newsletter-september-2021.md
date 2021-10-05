@@ -33,7 +33,7 @@ We had a 12% increase in September's revenue from August which was a 15% increas
 
 Part of our revenue improvements were due to price increases that went into effect over the last quarter
 and partially due to selling more of our harder to sell inventory.
-Our effective cost per thousand impressions (eCPM) across the US & Canada has improved from $2.97 in June to $3.13 in September.
+Our effective cost per thousand impressions (eCPM) across the US & Canada has improved from $2.87 in June to $2.93 in September and in APAC our eCPM improved from $0.56 in June to $0.68.
 This means more money in the pockets of our publishers.
 
 ## Tricky bits
