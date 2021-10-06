@@ -1,6 +1,6 @@
 Title: Do the Ads on your Site Respect Privacy
 Date: October 10, 2021
-description: There's a lot of ad networks out there to choose from but none of them are as focused on privacy as EthicalAds.
+description: There's a lot of ad networks out there, but they don't make the same privacy guarantees as EthicalAds.
 tags: cookies, privacy, publishers
 authors: David Fischer
 image: /images/posts/2021-privacy-respect.jpg
