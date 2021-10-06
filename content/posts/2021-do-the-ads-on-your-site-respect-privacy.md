@@ -7,8 +7,8 @@ image: /images/posts/2021-privacy-respect.jpg
 image_credit: <span>Photo by <a href="https://unsplash.com/@matthewhenry?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Matthew Henry</a> on <a href="https://unsplash.com/photos/fPxOowbR6ls?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
 
-Ads fund a lot of the websites across the internet just as advertising
-was used in the business models of TV and radio in the past.
+Ads fund a lot of the websites across the internet, 
+comparable to the business models of TV and radio in the past.
 Unlike in previous eras, however, web technology combined with improvements in data storage
 have allowed an unprecedented ability to target and personalize ads to individuals.
 This kind of tracking has enabled the rise of
