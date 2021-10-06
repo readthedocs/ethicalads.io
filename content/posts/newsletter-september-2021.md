@@ -1,5 +1,5 @@
 Title: EthicalAds Newsletter - September 2021
-Date: October 5, 2021
+Date: October 6, 2021
 description: Updates from September, including stats and commentary on our progress as we build EthicalAds
 tags: newsletter, community
 authors: Ra Cohen
