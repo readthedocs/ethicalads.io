@@ -28,7 +28,7 @@ to see on the linked landing page after clicking the ad.
 Making sure your geographic targeting parameters match the locations of your desired customers is a good start.
 Further refining your scope by also targeting a specific topic or keyword ensures your ad will be seen by your potential customers.
 Developers come in all shapes, sizes, and [specialties](https://www.ethicalads.io/our-audience/), 
-only of subset of which are likely to be a perfect fit for your product or service. 
+only a subset of which are likely to be a perfect fit for your product or service. 
 Crafting speciated, highly targeted ads for each region of interest will help increase the CTR of your ads 
 and the likelihood of those users resulting in conversions.
 
