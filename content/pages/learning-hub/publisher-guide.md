@@ -1,19 +1,18 @@
-title: Publisher's Guide to Improving Developer Ads
+title: Publisher's Guide to Improving Ad Revenue
 slug: publisher-guide
 description: A guide to help publishers get the most out of our network in terms of optimizing their ad placement and contextual targeting.
 subtitle: Maximize your site's ad revenue by complementing your user experience.
 
 Our [EthicalAds client](https://ethical-ad-client.readthedocs.io/en/latest/) gets you started with how to host ads. To ensure your site generates as much revenue from your ads as possible, you need to make sure your ad placement, targeting, and user experience compliment your content.
 
-## Ad Placement
+## Above the fold placements
 
-Without tracking users, the best way to make sure ads perform well
-is to have a good placement to have good targeting based on content.
+Without tracking users, the best way to make sure ads perform well is to have a good ad placement.
 A good ad placement means the ad is clearly visible and separate from the content of the page.
 How long the ad is visible on the page is also a factor.
 If the UX of your site means that users quickly scroll past ads, the ads on your site won't perform well.
 
-## Ad Types
+## Tailored display types
 
 On the EthicalAds network, there are two main types of ads:
 
@@ -25,14 +24,14 @@ A banner across the bottom of the page works well on static pages like [jsbin.co
 otherwise we've found image ads in the sidebar which are static when scrolling to be really successful.
 The majority of our ads do have images so if in doubt, go with the image ad spot.
 
-## Light vs Dark Themes
+## Light vs dark themes
 
 If your website uses a dark theme, consider adding ```{html} class = "dark"``` as seen [here](https://ethical-ad-client.readthedocs.io/en/latest/#dark-mode).
 This improves performance by helping the text of the ad standout while the rest of the ad blends in.
 
 If your website's theme is adaptive, consider adding ```{html} class = "adaptive"``` as it handles both Light and Dark themes automatically.
 
-## Content Tagging
+## Content tagging
 
 For better content targeting, letting us know about the content of your pages with
 [page-specific keywords](https://ethical-ad-client.readthedocs.io/en/latest/#page-specific-keywords),
@@ -41,7 +40,7 @@ For example, we can target an ad for a DevOps related service to DevOps related 
 Ads targeted specifically to your content can also result in higher payouts
 as we charge higher rates for highly targeted ads.
 
-## Bringing It All Together
+## Bringing it all together
 
 Complementary placement, pleasing aesthetics, and accurate content tagging will
 boost your earnings with EthicalAds by helping us provide your users
