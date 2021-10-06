@@ -1,4 +1,4 @@
-title: A Guide to developer advertising
+title: A Guide to Developer Advertising
 slug: advertiser-guide
 description: In this guide, we help you craft your message and ads specifically to target an audience of developers. Try multiple variations and formats and rotate your ads periodically to get the best ad performance.
 subtitle: Good ads harness specificity to speak directly to developers.
