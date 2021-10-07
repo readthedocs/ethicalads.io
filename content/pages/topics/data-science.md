@@ -1,4 +1,4 @@
-title: Advertising for data scientists and machine learning experts
+title: Advertising for Data Scientists and Machine Learning Experts
 slug: data-science
 url: advertisers/topics/data-science/
 save_as: advertisers/topics/data-science/index.html
