@@ -3,7 +3,7 @@ url: alternative-to-google-ads
 save_as: alternative-to-google-ads/index.html
 description: A few reasons that you should consider EthicalAds as a simple, open-source, privacy-first alternative to Google Ads
 
-We often get asked why you should choose EthicalAds instead of an existing network like Google Ads.
+We often get asked why you should choose EthicalAds instead of another network like Google Ads.
 Many people default to Google when they think about online advertising,
 and we think we're a great alternative for developer-focused sites. 
 
@@ -35,7 +35,7 @@ We talk more about the issues with [invasive ad tracking](../content/posts/2021-
 
 ## Ready to take the next step?
 
-Ethical advertising is our vision for the future of internet advertising,
+Ethical advertising is [our vision]({filename}vision.md) for the future of internet advertising,
 and we hope that you'll join us.
 We believe the open source community should show the way forward,
 since we have a deep understanding of how privacy issues impact the internet.
