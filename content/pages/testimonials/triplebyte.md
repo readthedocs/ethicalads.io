@@ -1,4 +1,4 @@
-title: Triplebyte advertises with EthicalAds
+title: Triplebyte Advertises with EthicalAds
 slug: triplebyte
 url: advertisers/triplebyte/
 save_as: advertisers/triplebyte/index.html
