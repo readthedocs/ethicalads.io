@@ -1,4 +1,4 @@
-Title: We got your message
+Title: Message Received!
 Slug: contact-success
 description: We got your message and we'll get back to you as soon as we can.
 status: hidden
