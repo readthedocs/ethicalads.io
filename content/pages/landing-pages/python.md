@@ -1,4 +1,4 @@
-title: Privacy-first ads on Python projects
+title: Privacy-first Ads on Python Projects
 slug: python
 url: publishers/topics/python/
 save_as: publishers/topics/python/index.html
