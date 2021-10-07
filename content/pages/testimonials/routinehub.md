@@ -1,4 +1,4 @@
-title: RoutineHub uses EthicalAds
+title: RoutineHub Uses EthicalAds
 slug: routinehub
 url: publishers/routinehub/
 save_as: publishers/routinehub/index.html
