@@ -1,4 +1,4 @@
-title: Read the Docs uses EthicalAds
+title: Read the Docs Uses EthicalAds
 slug: readthedocs
 url: publishers/readthedocs/
 save_as: publishers/readthedocs/index.html
