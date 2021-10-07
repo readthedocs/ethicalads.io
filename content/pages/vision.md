@@ -62,7 +62,7 @@ there seemed to be lots of other folks out there who didn't either.
 ## How our ads work
 
 Our ads work a bit differently than most other ad networks out there.
-Most ad networks have [databases of user data](https://www.ethicalads.io/surveillance-advertising/)
+Most ad networks have [databases of user data](https://ethicalads.io/surveillance-advertising/)
 that they use to predict the types of ads somebody is likely to click.
 This data includes sites a user has visited,
 a user's search history, personal data about users such as their likes and dislikes,
