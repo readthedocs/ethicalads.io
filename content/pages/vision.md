@@ -99,7 +99,7 @@ We also vet every publisher individually to make sure they're a fit for our netw
 and ensure that they bring the kind of audience our advertisers want to reach.
 
 
-## Community Ads
+## Community ads
 
 We also give our publishers the ability to give back to the community by promoting worthy, relevant causes. There are a large number of projects, conferences, and initiatives that we care about in the software and open source ecosystems. A large number of them operate with almost no income. Our optional Community Ads program highlights these projects by running ad campaigns at no cost.
 
