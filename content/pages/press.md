@@ -8,7 +8,7 @@ contact_footer_why: Tell us a bit about who you are and what you're writing abou
 
 Thanks for your interest in writing about EthicalAds & Read the Docs.
 
-### Quick Style Guide
+### Quick style guide
 
 * Our brand name is `EthicalAds` when referencing us. You can use `ethical advertising` to talk about the category or concept.
 * Our parent company is `Read the Docs`, which can be abbreviated at `RTD`.
