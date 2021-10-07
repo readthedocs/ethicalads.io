@@ -35,7 +35,7 @@ We talk more about the issues with [invasive ad tracking](../content/posts/2021-
 
 ## Ready to take the next step?
 
-Ethical advertising is [our vision]({filename}vision.md) for the future of internet advertising,
+Ethical advertising is [our vision]({filename}/pages/vision.md) for the future of internet advertising,
 and we hope that you'll join us.
 We believe the open source community should show the way forward,
 since we have a deep understanding of how privacy issues impact the internet.
