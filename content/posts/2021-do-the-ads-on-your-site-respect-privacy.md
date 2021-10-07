@@ -13,6 +13,9 @@ Unlike in previous eras, however, web technology combined with improvements in d
 have allowed an unprecedented ability to target and personalize ads to individuals.
 This kind of tracking has enabled the rise of
 [surveillance advertising]({filename}../pages/learning-hub/surveillance-advertising.md).
+
+As a publisher, you take pride in the work you put on the internet.
+However, with traditional approaches to advertising, your users could be sharing more with ad networks than you think. 
 Are the ads you're running on your site spying on you?
 
 In this post, we'll show you exactly what to watch out for and how to choose alternatives
