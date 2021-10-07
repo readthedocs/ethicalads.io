@@ -156,7 +156,7 @@ In particular:
 
 
 <!-- Resolving Complaints -->
-## Resolving Complaints
+## Resolving complaints
 If you have concerns about the way EthicalAds is handling your User Personal Information, please let us know immediately by emailing us at privacy<span>@</span>readthedocs.org.
 
 
