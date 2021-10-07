@@ -17,7 +17,7 @@ but we expect publishers to stay within these guidelines at all times.
 
 [TOC]
 
-## Ad Display
+## Ad display
 
 We have the following rules around display of our ads:
 
@@ -48,7 +48,7 @@ We currently support payouts via the following methods:
 * Paypal
 * OpenCollective
 
-## Ad Display Validation
+## Ad display validation
 
 We reserve the right to validate that the traffic on your site looks authentic.
 Prior to issuing payouts,
