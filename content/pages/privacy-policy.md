@@ -74,7 +74,7 @@ We may use your information for the following purposes:
 
 
 <!-- Our legal basis for processing -->
-## Our legal bases for processing information
+## Our legal basis for processing information
 To the extent that our processing of your User Personal Information is subject to certain international laws (including, but not limited to, the European Union's General Data Protection Regulation (GDPR)), EthicalAds is required to notify you about the legal basis on which we process User Personal Information. EthicalAds processes User Personal Information on the following legal bases:
 
 * **Contract Performance:** When you create a EthicalAds Account, you provide your Registration Information. We require this information for you to enter into the Terms of Service agreement with us, and we process that information on the basis of performing that contract. We also process your username and email address on other legal bases, as described below. If you have a paid Account with us, we collect and process additional Payment Information on the basis of performing that contract.
