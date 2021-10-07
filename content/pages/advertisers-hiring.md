@@ -1,4 +1,4 @@
-Title: Looking to hire top developers?
+Title: Looking to Hire Top Developers?
 slug: hire-developers
 url: advertisers/hiring/
 save_as: advertisers/hiring/index.html
