@@ -1,4 +1,4 @@
-title: SuperOrbital advertises with EthicalAds
+title: SuperOrbital Advertises with EthicalAds
 slug: superorbital
 url: advertisers/superorbital/
 save_as: advertisers/superorbital/index.html
