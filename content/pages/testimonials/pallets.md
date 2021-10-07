@@ -1,4 +1,4 @@
-title: Pallets uses EthicalAds
+title: Pallets Uses EthicalAds
 slug: pallets
 url: publishers/pallets/
 save_as: publishers/pallets/index.html
