@@ -46,6 +46,7 @@ We currently support payouts via the following methods:
 
 * Bank transfer (Wire transfer)
 * Paypal
+* Stripe
 * OpenCollective
 
 ## Ad display validation
