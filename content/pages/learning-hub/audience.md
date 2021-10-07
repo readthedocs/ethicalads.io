@@ -8,7 +8,7 @@ and how to guide them toward the desired action.
 Advertising with EthicalAds is no different.
 
 
-## High Level
+## High level
 
 * While virtually all of EthicalAds' visitors are software developers,
   these developers have varying skill level and interests.
@@ -16,7 +16,7 @@ Advertising with EthicalAds is no different.
   Many of our users are viewing our ads during the regular course of their jobs.
 
 
-## Geographic Breakdown
+## Geographic breakdown
 
 * EthicalAds' audience is geographically distributed
   with about a third each coming from the Americas, Asia, and Europe.
@@ -24,7 +24,7 @@ Advertising with EthicalAds is no different.
 * While many pages are localized, over **90% of views are for English language pages**.
 
 
-## Topic Breakdown
+## Topic breakdown
 
 * The EthicalAds network is particularly popular in the Python community (~60% of pageviews).
 * Our four topic groupings cover around 95% of all pages served.

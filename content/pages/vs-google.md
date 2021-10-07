@@ -33,7 +33,7 @@ Google and Facebook account for the vast majority of advertising revenue on the 
 
 We talk more about the issues with [invasive ad tracking](../content/posts/2021-invasive-ad-targeting-bad-journalism-premium-publishers.md), and how it hurts journalism and anyone creating high-value content on the web. We are hoping to break this vicious cycle by offering a better way to support developer-focused publishers on the internet. 
 
-## Ready to make the next step?
+## Ready to take the next step?
 
 Ethical advertising is our vision for the future of internet advertising,
 and we hope that you'll join us.

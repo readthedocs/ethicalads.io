@@ -1,4 +1,4 @@
-title: Tidelift reaches developers with EthicalAds
+title: Tidelift Reaches Developers with EthicalAds
 slug: tidelift
 url: advertisers/tidelift/
 save_as: advertisers/tidelift/index.html

@@ -1,4 +1,4 @@
-Title: Privacy-preserving ad network for developers
+Title: Privacy-preserving Ad Network for Developers
 save_as: index.html
 template: ea/homepage
 status: hidden
