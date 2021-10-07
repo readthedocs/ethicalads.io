@@ -7,7 +7,7 @@ image: /images/posts/2021-privacy-respect.jpg
 image_credit: <span>Photo by <a href="https://unsplash.com/@matthewhenry?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Matthew Henry</a> on <a href="https://unsplash.com/photos/fPxOowbR6ls?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
 
-Ads fund a lot of the websites across the internet, 
+Ads fund a lot of the websites across the internet,
 comparable to the business models of TV and radio in the past.
 Unlike in previous eras, however, web technology combined with improvements in data storage
 have allowed an unprecedented ability to target and personalize ads to individuals.
@@ -15,11 +15,17 @@ This kind of tracking has enabled the rise of
 [surveillance advertising]({filename}../pages/learning-hub/surveillance-advertising.md).
 
 As a publisher, you take pride in the work you put on the internet.
-However, with traditional approaches to advertising, your users could be sharing more with ad networks than you think. 
-Are the ads you're running on your site spying on you?
+However, with traditional approaches to advertising, your users could be sharing more with ad networks than you think.
+Are the ads you're running on your site spying on you and your users?
 
-In this post, we'll show you exactly what to watch out for and how to choose alternatives
-to invasive surveillance for your site.
+* **External resources:** Does your ad network allow advertisers to run their own scripts or load resources on your site?
+* **Surveillance tech:** Does your ad network use things like cookies, fingerprinting, or other tracking technologies?
+* **Personalized targeting:** Does your ad network allow targeting that is so specific as to be nearly personal?
+* **Cookie warnings:** Does your ad network recommend you have a cookie warning to comply with privacy regulation?
+* **Data broker:** Does your ad network make money exclusively from ads? Or are they also selling user data?
+
+Do you know the answers to the questions above for the ads running on your site.
+Ask your ad network and see what they say.
 
 
 ## Advertiser provided cookies, code, or resources
