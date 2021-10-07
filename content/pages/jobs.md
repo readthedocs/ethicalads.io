@@ -1,4 +1,4 @@
-title: Jobs at Read the Docs working on EthicalAds
+title: Jobs at Read the Docs Working on EthicalAds
 slug: jobs
 description: We don't always have openings to work on EthicalAds, but when we do they are posted here
 
