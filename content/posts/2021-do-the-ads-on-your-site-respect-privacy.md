@@ -7,25 +7,23 @@ image: /images/posts/2021-privacy-respect.jpg
 image_credit: <span>Photo by <a href="https://unsplash.com/@matthewhenry?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Matthew Henry</a> on <a href="https://unsplash.com/photos/fPxOowbR6ls?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
 
-Ads fund a lot of the websites across the internet,
-comparable to the business models of TV and radio in the past.
-Unlike in previous eras, however, web technology combined with improvements in data storage
-have allowed an unprecedented ability to target and personalize ads to individuals.
-This kind of tracking has enabled the rise of
-[surveillance advertising]({filename}../pages/learning-hub/surveillance-advertising.md).
-
-As a publisher, you take pride in the work you put on the internet.
-However, with traditional approaches to advertising, your users could be sharing more with ad networks than you think.
+As a website owner (a publisher), you take pride in the work you put on the internet.
+However, with many approaches to online advertising, your users could be sharing more with ad networks than you think.
+You know some online advertising collects data about your visitors,
+but maybe you aren't quite sure how that works or what you can do to stop it.
 Are the ads you're running on your site spying on you and your users?
+Here's some red flags:
 
 * **External resources:** Does your ad network allow advertisers to run their own scripts or load resources on your site?
-* **Surveillance tech:** Does your ad network use things like cookies, fingerprinting, or other tracking technologies?
+* **Surveillance tech:** Does your ad network use things like cross-site cookies, fingerprinting, or other tracking technologies?
 * **Personalized targeting:** Does your ad network allow targeting that is so specific as to be nearly personal?
 * **Cookie warnings:** Does your ad network recommend you have a cookie warning to comply with privacy regulation?
 * **Data broker:** Does your ad network make money exclusively from ads? Or are they also selling user data?
 
 Do you know the answers to the questions above for the ads running on your site.
 Ask your ad network and see what they say.
+Better yet, run a privacy scanner like [Blacklight](https://themarkup.org/blacklight)
+on your site and see what user tracking technologies are running.
 
 
 ## Advertiser provided cookies, code, or resources
@@ -95,7 +93,7 @@ We don't track users to target them with ads because we're confident in our cont
 ## Contextual targeting works
 
 Almost all offline advertising from billboards, TV or radio spots, or ads in magazines
-use contextual targeting.
+use contextual targeting rather than personalized targeting.
 This means that a company pays to show a billboard in an area where they believe their customers live or visit.
 A relevant ad will appear in a magazine about a related topic or during a TV show about a similar topic
 or that has the right audience.
