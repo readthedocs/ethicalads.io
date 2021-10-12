@@ -1,5 +1,5 @@
 Title: Do the Ads on your Site Respect Privacy
-Date: October 10, 2021
+Date: October 12, 2021
 description: There's a lot of ad networks out there, but they don't make the same privacy guarantees as EthicalAds.
 tags: cookies, privacy, publishers
 authors: David Fischer
