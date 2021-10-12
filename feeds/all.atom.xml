@@ -1,5 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/all.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2021-10-06T00:00:00-07:00</updated><entry><title>EthicalAds Newsletter - September 2021</title><link href="https://www.ethicalads.io/blog/2021/10/ethicalads-newsletter-september-2021/" rel="alternate"></link><published>2021-10-06T00:00:00-07:00</published><updated>2021-10-06T00:00:00-07:00</updated><author><name>Ra Cohen</name></author><id>tag:www.ethicalads.io,2021-10-06:/blog/2021/10/ethicalads-newsletter-september-2021/</id><summary type="html">&lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/all.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2021-10-12T00:00:00-07:00</updated><entry><title>Do the Ads on your Site Respect Privacy</title><link href="https://www.ethicalads.io/blog/2021/10/do-the-ads-on-your-site-respect-privacy/" rel="alternate"></link><published>2021-10-12T00:00:00-07:00</published><updated>2021-10-12T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2021-10-12:/blog/2021/10/do-the-ads-on-your-site-respect-privacy/</id><summary type="html">&lt;p&gt;As a website owner (a publisher), you take pride in the work you put on the internet.
+However, with many …&lt;/p&gt;</summary><content type="html">&lt;p&gt;As a website owner (a publisher), you take pride in the work you put on the internet.
+However, with many approaches to online advertising, your users could be sharing more with ad networks than you think.
+You know some online advertising collects data about your visitors,
+but maybe you aren't quite sure how that works or what you can do to stop it.
+Are the ads you're running on your site spying on you and your users?
+Here's some red flags:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;External resources:&lt;/strong&gt; Does your ad network allow advertisers to run their own scripts or load resources on your site?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Surveillance tech:&lt;/strong&gt; Does your ad network use things like cross-site cookies, fingerprinting, or other tracking technologies?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Personalized targeting:&lt;/strong&gt; Does your ad network allow targeting that is so specific as to be nearly personal?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cookie warnings:&lt;/strong&gt; Does your ad network recommend you have a cookie warning to comply with privacy regulation?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Data broker:&lt;/strong&gt; Does your ad network make money exclusively from ads? Or are they also selling user data?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Do you know the answers to the questions above for the ads running on your site.
+Ask your ad network and see what they say.
+Better yet, run a privacy scanner like &lt;a href="https://themarkup.org/blacklight"&gt;Blacklight&lt;/a&gt;
+on your site and see what user tracking technologies are running.&lt;/p&gt;
+&lt;h2 id="advertiser-provided-cookies-code-or-resources"&gt;Advertiser provided cookies, code, or resources&lt;/h2&gt;
+&lt;p&gt;Probably the biggest things to watch out for when selecting an ad network
+are advertiser provided resources, code, or cookies.
+If an advertiser hosts the images or other resources for an advertisement,
+they can cookie and track the users on your site across the web
+(and then &lt;a href="https://www.ethicalads.io/blog/2021/05/how-invasive-ad-targeting-is-bad-for-journalism-and-other-high-quality-publishers/"&gt;show ads to your users more cheaply elsewhere&lt;/a&gt;).&lt;/p&gt;
+&lt;div class="postimage"&gt;
+  &lt;img class="w-100" src="https://www.ethicalads.io/images/posts/2021-third-party-resources.png" alt="An ad network loading third-party resources"&gt;
+  &lt;p&gt;An ad network loading third-party resources.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Even worse than loading a tracking pixel is to run JavaScript code
+provided by advertisers.
+In addition to being a security nightmare,
+this allows for even more exfiltration of data from your site
+including some cookie values or logged-in user data displayed on your site.
+While common a decade ago, thankfully allowing advertisers to run code on publisher sites
+has become rarer today.&lt;/p&gt;
+&lt;p&gt;With EthicalAds, we vet all our advertisers
+but we still never let them run arbitrary code or cookie users on your site.
+We don't save a cookie from our domains either.
+Advertising can work without knowing any personal details or past sites you've visited.
+With us, you don't need a &lt;a href="https://www.ethicalads.io/blog/2021/02/can-you-eliminate-annoying-cookie-banners-from-your-site/"&gt;cookie warning banner&lt;/a&gt;
+and the ads on your site will already comply with privacy regulation like the GDPR.&lt;/p&gt;
+&lt;h2 id="fingerprinting-supercookies-and-other-nefarious-tracking-tech"&gt;Fingerprinting, supercookies, and other nefarious tracking tech&lt;/h2&gt;
+&lt;p&gt;Some common browsers like Firefox and Safari already block many third-party cookies.
+This is a great step toward a more private web.
+However, to "work around" a lack of cookies, some ad networks use fingerprinting
+in an attempt to uniquely identify visitors for ad targeting.&lt;/p&gt;
+&lt;p&gt;Fingerprinting and other tracking tech can take a few forms but some of the most common are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Browser Fingerprinting:&lt;/strong&gt; &lt;a href="https://ssd.eff.org/en/module/what-fingerprinting"&gt;Browser fingerprinting&lt;/a&gt;,
+  is the process of uniquely identifying individual users based on their browser
+  and other data about them like their IP address.
+  These browser attributes can be anything from how the browser identifies itself
+  to settings you've changed to protect your privacy.
+  Customizations can make your browser appear unique rather than look like everybody else.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Supercookies:&lt;/strong&gt; So called &lt;a href="https://blog.mozilla.org/security/2021/01/26/supercookie-protections/"&gt;"supercookies"&lt;/a&gt;
+  use trackers hidden in other parts of browser like local storage, ETags, or HSTS headers.
+  These are not cleared by clearing cookies
+  and can potentially identify users uniquely or be used in combination with fingerprinting.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CNAME Cloaking:&lt;/strong&gt; &lt;a href="https://webkit.org/blog/11338/cname-cloaking-and-bounce-tracking-defense/"&gt;CNAME Cloaking&lt;/a&gt;
+  involves a publisher setting up a subdomain for an ad tech tracker.
+  This can make a third-party cookie look like a first-party cookie and gets around most tracking protection.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Some of these tracking methods are easy to spot.
+If you see data from your ad network in local storage, that's a red flag.
+However, for some forms of fingerprinting, it happens only on the ad network's servers
+and you have no way of knowing.&lt;/p&gt;
+&lt;p&gt;EthicalAds doesn't use any fingerprinting technology.
+You don't need to trust us. All our code
+&amp;mdash; both the &lt;a href="https://github.com/readthedocs/ethical-ad-client"&gt;client&lt;/a&gt; that runs on your site
+and the &lt;a href="https://github.com/readthedocs/ethical-ad-server"&gt;server&lt;/a&gt; serving the ads &amp;mdash; is open source.
+We don't track users to target them with ads because we're confident in our contextual targeting.&lt;/p&gt;
+&lt;h2 id="contextual-targeting-works"&gt;Contextual targeting works&lt;/h2&gt;
+&lt;p&gt;Almost all offline advertising from billboards, TV or radio spots, or ads in magazines
+use contextual targeting rather than personalized targeting.
+This means that a company pays to show a billboard in an area where they believe their customers live or visit.
+A relevant ad will appear in a magazine about a related topic or during a TV show about a similar topic
+or that has the right audience.
+&lt;a href="https://www.ethicalads.io/advertising-vision/"&gt;Our vision&lt;/a&gt; for advertising is built on this and applies it to the web.&lt;/p&gt;
+&lt;p&gt;Advertising doesn't need to track your users to work well both for your site and for advertisers.
+Our ads are targeted only on the content of the page where the ad will be displayed and very rough geography.
+If you want to monetize your developer-focused site without compromising your audience,
+&lt;a href="https://www.ethicalads.io/publishers/"&gt;join EthicalAds&lt;/a&gt; and help preserve privacy on the web!&lt;/p&gt;</content><category term="posts"></category><category term="cookies"></category><category term="privacy"></category><category term="publishers"></category></entry><entry><title>EthicalAds Newsletter - September 2021</title><link href="https://www.ethicalads.io/blog/2021/10/ethicalads-newsletter-september-2021/" rel="alternate"></link><published>2021-10-06T00:00:00-07:00</published><updated>2021-10-06T00:00:00-07:00</updated><author><name>Ra Cohen</name></author><id>tag:www.ethicalads.io,2021-10-06:/blog/2021/10/ethicalads-newsletter-september-2021/</id><summary type="html">&lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
 &lt;p&gt;These are the major features we released in the last month:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Our new &lt;a href="https://www.ethicalads.io/prospectus/ethicalads-advertiser-prospectus.pdf"&gt;prospectus&lt;/a&gt; came out. 
