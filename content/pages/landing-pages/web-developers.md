@@ -1,4 +1,4 @@
-title: Monetize your web app or tool with privacy-first ads
+title: Monetize your Web App or Tool with Privacy-first Ads
 slug: web-developers
 url: publishers/topics/web-developers/
 save_as: publishers/topics/web-developers/index.html
