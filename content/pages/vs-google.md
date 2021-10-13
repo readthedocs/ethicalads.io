@@ -1,9 +1,9 @@
-Title: What Makes EthicalAds a Great Google Ads Alternative
+Title: What Makes EthicalAds a Great Google AdSense Alternative
 url: alternative-to-google-ads
 save_as: alternative-to-google-ads/index.html
 description: A few reasons that you should consider EthicalAds as a simple, open-source, privacy-first alternative to Google Ads
 
-We often get asked why you should choose EthicalAds instead of an existing network like Google Ads.
+We often get asked why you should choose EthicalAds instead of an existing display network like Google AdSense.
 Many people default to Google when they think about online advertising,
 and we think we're a great alternative for developer-focused sites.
 
@@ -17,7 +17,7 @@ When you use EthicalAds, **we never set cookies on your users**, and we don't us
 
 ## Transparency on what ads get shown
 
-Google ads shows ads based on the user who is viewing your site, which means they could be seeing ads totally unrelated to your site content. Sometimes this results in ads that you might find objectionable, might freak your users out by following them around the web, or many other issues.
+Google shows ads based on the user who is viewing your site, which means they could be seeing ads totally unrelated to your site content. Sometimes this results in ads that you might find objectionable, might freak your users out by following them around the web, or many other issues.
 
 **EthicalAds only shows ads based on the content of your site.** They are guaranteed to be developer-focused, and won't follow users around the web. We're so confident in our advertisers, **we give you a dashboard that shows every advertiser on your site** so you know exactly what your users are seeing.
 
