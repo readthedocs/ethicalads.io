@@ -16,6 +16,7 @@ Without some understanding of why people click on your page, what they do while 
 and how this behavior corresponds to paying customers, 
 you're at a serious disadvantage when it comes to optimizing your site to grow your business. 
 Part of this process is building marketing funnel. 
+
 A marketing funnel is a continuous mission of getting, keeping, and growing your customer base 
 while using technology to meet their needs more efficiently. 
 However, many implementations of marketing funnels execute this mission 
@@ -27,6 +28,7 @@ EthicalAds is a small start-up currently focusing on expanding our userbase whic
 We have potential advertisers who want to run new ad campaigns on our ad network and 
 we have potential publishers who want to host ads on their websites/platforms 
 in exchange for a lionshare of the generated ad revenue. 
+
 In order to attract new users, we've created a number of advertiser/publisher focused ads 
 and advertiser/publisher specific landing pages augmenting our general referral sources 
 like search engines or the "Ad served Ethically" text which runs beneath every ad. 
@@ -70,13 +72,14 @@ There are some drawbacks to this approach
 such as spammy form submissions being considered successes or even 
 good leads for advertisers/publishers who simply didn't convert all of the way, 
 but opening a line of dialogue between us and the user seems to be the largest hurdle right now. 
-Hence defining a successful channel for communication as a success 
+
+Thus we defined opening a successful channel of communication as a success 
 even if it doesn't necessarily always result in a conversion. 
 Our forms contain only relevant information to an individual's request, 
-and is the only point in our marketing funnel where user-generated PII is collected, 
+and is the only point in our marketing funnel where user PII is collected, 
 specifically their name and email address so that we may reply to their inquiry. 
 This alone however does not inform us as to how a user arrived on our site or how they heard about us. 
-Thus we decided to employ Analytics.
+For that we needed analytics.
 
 
 ### Open-source Analytics
@@ -89,6 +92,7 @@ in a privacy-preserving, aggregated format as well as tools for measuring succes
 Being able to determine which ads or articles were generating not only the most traffic or form submissions, 
 but also are generating the most successes proportionally to the amount of traffic 
 enables us to determine where we should spend our time marketing for the most value. 
+
 Now we can A/B test new ads and landing pages for advertisers and publishers 
 to determine which images, formats, and copy convince users to get in touch with us. 
 We can also see which types of content are generating not only large quantities of traffic, 
