@@ -54,7 +54,9 @@ There are some obvious win conditions such as
   which leads to a conversion (new advertiser account and paid invoice)
 * Publisher prospect fills out the "contact us" form on the Publisher page 
   which leads to a conversion (new publisher account and approved to host paid ads)
-but there are also harder to quantify successes such as 
+
+but there are also harder to quantify successes such as:
+
 * Generic user educates themself on Surveilance Advertising in our Learning Hub
 * Media-affiliated user fills out the generic "contact us" form
 * Potential advertiser or publisher navigates to a page, browses for awhile, 
