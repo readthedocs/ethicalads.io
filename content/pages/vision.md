@@ -43,7 +43,7 @@ They told us they didn't have a problem with advertising,
 but they wanted their privacy respected: no tracking users around the internet and no advertising cookies.
 At that time, there wasn't an ad network out there willing to work with us on those terms (we looked).
 
-So, we bootstrapped our own advertising platform.
+Without a good alternative, we decided to build our own advertising platform.
 We built our own ad server and did our own ad sales.
 It wasn't easy,
 but as we talked about in our [2018 blog post](https://blog.readthedocs.com/ethical-advertising-works/): **ethical advertising works**.
