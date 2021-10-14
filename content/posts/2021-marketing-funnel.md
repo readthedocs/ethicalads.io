@@ -51,7 +51,8 @@ such as a tailored landing page from an ad,
 a blog post linked from a third party site like HackerNews or Twitter, 
 or our home page from a search engine, 
 defining a "success" is trickier than it first seems. 
-There are some obvious win conditions such as 
+There are some obvious win conditions such as:
+
 * Advertiser prospect fills out the "contact us" form on the Advertiser page 
   which leads to a conversion (new advertiser account and paid invoice)
 * Publisher prospect fills out the "contact us" form on the Publisher page 
