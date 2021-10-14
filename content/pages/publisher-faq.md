@@ -75,6 +75,13 @@ but publishers can override this with [Page-specific keywords](https://ethical-a
 if you have this metadata on your site.
 
 
+## Is EthicalAds open source?
+
+Yes, both our [ad server](https://github.com/readthedocs/ethical-ad-server)
+and the [client](https://github.com/readthedocs/ethical-ad-client) that runs on publisher's sites are open source.
+You can read more about our open source code and transparency [here]({filename}open-source.md).
+
+
 ## This sounds great, how do I sign up?
 
 Simply fill out our [publisher application](/publishers/#inbound-form) form with some information,
