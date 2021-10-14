@@ -8,7 +8,7 @@ and how to guide them toward the desired action.
 Advertising with EthicalAds is no different.
 
 
-## High level overview
+## Demographic breakdown
 
 * While virtually all of EthicalAds' visitors are software developers,
   these developers have varying skill level and interests.
