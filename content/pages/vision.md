@@ -10,7 +10,7 @@ or you just care about privacy and you want to learn more,
 we want to define *ethical advertising* for you here.
 
 
-## What 'ethical advertising' is
+## Defining 'ethical advertising'
 
 A succinct definition:
 
