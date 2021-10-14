@@ -90,15 +90,24 @@ They have a great article on why one ought to choose [Plausible over Google Anal
 With a simple onboarding process, they provide a light weight, open source option to monitoring inbound traffic source statistics 
 in a privacy-preserving, aggregated format as well as tools for measuring successful conversions 
 (which we defined as contact form submissions) per traffic source. 
-Being able to determine which ads or articles were generating not only the most traffic or form submissions, 
-but also are generating the most successes proportionally to the amount of traffic 
-enables us to determine where we should spend our time marketing for the most value. 
+
+All we had to do was add a distinct `?ref` tag for each ad url
+to inform Plausible to aggregate the inbounds from that url as traffic from a distinct source.
+We also added a `?ref` to the 'ads by EthicalAds' link underneath every placement
+and try to include them on our content distributions as well.
+This identifier is displayed to the user in the url and is in no way personally identifying.
+Check the url for this article! Did you see it on twitter or hackernews? 
+If so, the url should have a `?ref=twitter-ethical-funnel` or `?ref=hackernews-ethical-funnel` at the end
+which will go away once you explore the site as we don't track our users in our ads or locally. 
 
 Now we can A/B test new ads and landing pages for advertisers and publishers 
 to determine which images, formats, and copy convince users to get in touch with us. 
 We can also see which types of content are generating not only large quantities of traffic, 
 but also good resonance traffic comprised of potential advertisers or publishers. 
 
+Being able to determine which ads or articles are generating not only the most traffic or form submissions, 
+but also are generating the most successes proportionally to the amount of traffic, 
+enables us to determine where we should spend our time marketing for the most value. 
 
 
 We've had our funnel up and running for a little over two months now 
