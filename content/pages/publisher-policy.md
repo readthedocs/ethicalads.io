@@ -44,9 +44,8 @@ with the payment being the balance at the end of the prior month.
 
 We currently support payouts via the following methods:
 
-* Bank transfer (Wire transfer)
+* Stripe Connect (Bank transfer)
 * Paypal
-* Stripe
 * OpenCollective
 
 ## Ad display validation
