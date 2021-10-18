@@ -58,7 +58,7 @@ There are some obvious win conditions such as:
 
 * An advertiser prospect fills out the "contact us" form on the Advertiser page 
   which leads to a conversion (new advertiser account and paid invoice)
-* Publisher prospect fills out the "contact us" form on the Publisher page 
+* A prospective publisher fills out the "contact us" form on the Publisher page 
   which leads to a conversion (new publisher account and approved to host paid ads)
 
 but there are also harder to quantify successes such as:
