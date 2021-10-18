@@ -24,6 +24,9 @@ by collecting and hoarding personally identifiable information of individual cus
 This is by no means required by the definition nor is it even necessary 
 as marketing funnels have existed long before web browser trackers let alone the internet. 
 
+
+## Our Business
+
 EthicalAds is a small start-up currently focusing on expanding our userbase which comes in two segments. 
 We have potential advertisers who want to run new ad campaigns on our ad network and 
 we have potential publishers who want to host ads on their websites/platforms 
