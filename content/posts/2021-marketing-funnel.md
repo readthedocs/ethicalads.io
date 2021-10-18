@@ -63,7 +63,7 @@ There are some obvious win conditions such as:
 
 but there are also harder to quantify successes such as:
 
-* Generic user educates themself on Surveilance Advertising in our Learning Hub
+* An interested visitor educates themself on Surveilance Advertising in our Learning Hub
 * Media-affiliated user fills out the generic "contact us" form
 * Potential advertiser or publisher navigates to a page, browses for awhile, 
   and then fills out a "contact us" form
