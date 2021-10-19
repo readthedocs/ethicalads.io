@@ -46,6 +46,8 @@ To get started we needed two things,  a measurement of a successful conversion a
 a way to quantify which marketing methods were leading to the most conversions 
 while maintaining our must-haves of everything being open-source and not-personally identifying.
 
+![A diagram of the EthicalAds marketing funnel](../images/posts/2021-marketing-funnel-diagram.jpg){style="width: 100%"}
+
 
 ### Defining Success
 
