@@ -7,7 +7,7 @@ image: /images/posts/2021-marketing-funnel.jpg
 image_credit: <span>Photo by <a href="https://unsplash.com/@campaign_creators?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Campaign Creators</a> on <a href="https://unsplash.com/s/photos/funnel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>
 
 
-## The Problem
+## The marketing funnel problem
 
 When growing an online business, it's important to consider 
 where your prospects are coming from and how to convert these prospects into customers. 
@@ -25,7 +25,7 @@ This is by no means required by the definition nor is it even necessary
 as marketing funnels have existed long before web browser trackers let alone the internet. 
 
 
-## Our Business
+## Our specific business
 
 EthicalAds is a small start-up currently focusing on expanding our userbase which comes in two segments. 
 We have potential advertisers who want to run new ad campaigns on our ad network and 
@@ -47,7 +47,7 @@ a way to quantify which marketing methods were leading to the most conversions
 while maintaining our must-haves of everything being open-source and not-personally identifying.
 
 
-### Defining Success
+### Defining success
 
 Since there are a variety of onboarding locations that draw new users to our site 
 such as a tailored landing page from an ad, 
@@ -86,7 +86,7 @@ This alone however does not inform us as to how a user arrived on our site or ho
 For that we needed analytics.
 
 
-### Open-source Analytics
+### Open-source analytics
 
 After surveying a variety of open source analytics solutions, we decided to use Plausible. 
 They have a great article on why one ought to choose [Plausible over Google Analytics](https://plausible.io/vs-google-analytics). 
