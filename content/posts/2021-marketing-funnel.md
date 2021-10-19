@@ -1,5 +1,5 @@
 Title: Building an Ethical Marketing Funnel
-Date: September 30, 2021
+Date: October 19, 2021
 description:
 tags: marketing, privacy
 authors: Ra Cohen
