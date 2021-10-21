@@ -45,7 +45,7 @@ it's much better to craft a second text-only ad that can communicate your messag
 
 ### Keep ads fresh
 We have noticed that the CTR of ads can fade slowly over time. 
-This is known as ad fatigue and is due to each user seeing the same ad over and over
+This is known as "ad fatigue" and is due to each user seeing the same ad over and over
 without providing any new images, information, or offers.
 Swapping ads once every quarter or so will keep your ads from getting stale.
 Another way to improve the efficiancy of your ads is to try out multiple variants 
