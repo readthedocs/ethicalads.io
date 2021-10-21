@@ -79,9 +79,7 @@ Instead, we target based solely upon:
 * General geography
     - We allow advertisers to target ads to a list of countries or to exclude
       countries from their advertising.
-      For ads targeting the USA, we support state-level geo targeting, 
-      but take some liberties to divide large, populous states (California, Texas, Florida) 
-      into a north and south. Our granularity is always larger than at least a 50 mile radius.
+      For ads targeting the USA, we also support targeting states or large metro areas.
     - We geolocate a user's IP address when a request is made and we don't store
       precise locations or precise IPs for longer than a few days to detect fraud and keep our site secure.
 
