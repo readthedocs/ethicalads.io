@@ -23,6 +23,7 @@ but also have industry specific keywords or phrasing that resonates with the int
 The best performing ads manage to reassure the viewer through either a brief explanation of the product, 
 a free trial/demo, or feature a competitive discount which informs the viewer of what to expect 
 to see on the linked landing page after clicking the ad.
+Set the visitor up for what to expect on your landing page.
 
 ### Honed targeted
 Making sure your geographic targeting parameters match the locations of your desired customers is a good start.
