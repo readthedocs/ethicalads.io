@@ -1,4 +1,4 @@
-title: Current Job Opening at EthicalAds
+title: Current Job Openings at EthicalAds
 slug: jobs
 description: We don't always have openings to work on EthicalAds, but when we do they are posted here.
 
