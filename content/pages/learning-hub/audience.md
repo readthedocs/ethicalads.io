@@ -1,4 +1,4 @@
-title: About the Developers Comprising Our Audience
+title: Information about our Developer Audience
 slug: our-audience
 description: Our 100% developer audience is geographically spread out and ranges in terms of technologies used and the skill level of the developer.
 subtitle: Marketing to developers has never been easier with our developer-focused ad network.
