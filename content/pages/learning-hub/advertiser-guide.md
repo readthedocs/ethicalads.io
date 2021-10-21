@@ -48,7 +48,7 @@ We have noticed that the CTR of ads can fade slowly over time.
 This is known as "ad fatigue" and is due to each user seeing the same ad over and over
 without providing any new images, information, or offers.
 Swapping ads once every quarter or so will keep your ads from getting stale.
-Another way to improve the efficiancy of your ads is to try out multiple variants 
+Another way to improve the efficacy of your ads is to try out multiple variants 
 at the beginning of your campaign. 
 Some will invariably perform better than others. 
 You can always turn off any underperforming ads and use whatever is special about the ad that is working well
