@@ -55,7 +55,7 @@ For more details on the deployment actions, see workflows_.
 
 Developing the site
 -------------------
-For guidance on title capitalization, see our [style guide](https://docs.google.com/document/d/1IKoejweuDeBcSvQWbXcBrzViFU8M9d0lMFBq8ODNEY4/edit?usp=sharing). 
+For guidance on title capitalization, see our `style guide <https://docs.google.com/document/d/1IKoejweuDeBcSvQWbXcBrzViFU8M9d0lMFBq8ODNEY4/edit?usp=sharing>`_. 
 
 Writing pages
 ~~~~~~~~~~~~~
