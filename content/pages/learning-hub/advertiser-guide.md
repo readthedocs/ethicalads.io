@@ -34,6 +34,7 @@ Crafting speciated, highly targeted ads for each region of interest will help in
 and the likelihood of those users resulting in conversions.
 
 ### Multiple ad formats
+Our network supports ads with or without an image.
 Publishers choose the format that works best for their site,
 so as an advertiser, you'll want to provide both formats to ensure that your ad can be shown
 on all relevant sites across the network.
