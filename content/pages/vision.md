@@ -10,12 +10,12 @@ or you just care about privacy and you want to learn more,
 we want to define *ethical advertising* for you here.
 
 
-## What is ethical advertising
+## Defining 'ethical advertising'
 
 A succinct definition:
 
 Ethical Advertising
-: Showing ads based on page content without tracking users.
+: Showing unintrusive, relevant ads for real products based on page content without tracking users.
 
 The primary tenets of ethical advertising are:
 
@@ -37,13 +37,13 @@ traditional advertising without tracking built every brand you can name.
 ## Why we created EthicalAds
 
 We started ethical advertising
-as a way to fund sustainable open source development on Read the Docs.
+as a way to sustainably fund open source development on Read the Docs.
 At Read the Docs, we listened to our users.
-They told us they didn't have a problem with advertising
+They told us they didn't have a problem with advertising,
 but they wanted their privacy respected: no tracking users around the internet and no advertising cookies.
 At that time, there wasn't an ad network out there willing to work with us on those terms (we looked).
 
-So we bootstrapped our own advertising platform.
+Without a good alternative, we decided to build our own advertising platform.
 We built our own ad server and did our own ad sales.
 It wasn't easy,
 but as we talked about in our [2018 blog post](https://blog.readthedocs.com/ethical-advertising-works/): **ethical advertising works**.
@@ -62,7 +62,7 @@ there seemed to be lots of other folks out there who didn't either.
 ## How our ads work
 
 Our ads work a bit differently than most other ad networks out there.
-Most ad networks have databases of user data
+Most ad networks have [databases of user data]({filename}/pages/learning-hub/surveillance-advertising.md)
 that they use to predict the types of ads somebody is likely to click.
 This data includes sites a user has visited,
 a user's search history, personal data about users such as their likes and dislikes,
@@ -79,7 +79,7 @@ Instead, we target based solely upon:
 * General geography
     - We allow advertisers to target ads to a list of countries or to exclude
       countries from their advertising.
-      For ads targeting the USA, we support finer geo targeting but nothing smaller than a 50 mile radius.
+      For ads targeting the USA, we also support targeting states or large metro areas.
     - We geolocate a user's IP address when a request is made and we don't store
       precise locations or precise IPs for longer than a few days to detect fraud and keep our site secure.
 
@@ -99,7 +99,7 @@ We also vet every publisher individually to make sure they're a fit for our netw
 and ensure that they bring the kind of audience our advertisers want to reach.
 
 
-## Community ads
+## Community Ads
 
 We also give our publishers the ability to give back to the community by promoting worthy, relevant causes. There are a large number of projects, conferences, and initiatives that we care about in the software and open source ecosystems. A large number of them operate with almost no income. Our optional Community Ads program highlights these projects by running ad campaigns at no cost.
 
@@ -107,9 +107,9 @@ There are a few qualifications for our Community Ads program:
 
 * Your organization and the linked site should not be trying to entice visitors to buy a product or service. We make an exception for conferences around open source projects if they are run not for profit and soliciting donations for open source projects.
 * A software project should have an [OSI approved license](https://opensource.org/licenses).
-* We will not run a community ad for an organization tied to one of our paid advertisers.
+* We will not run an ad under this program for an organization tied to one of our paid advertisers.
 
-Please [complete an application](https://docs.google.com/forms/d/e/1FAIpQLSdd9LDska1eiDHWHs4No-8AlqjDxsUuP_zSBTeYyl5tMcBeFQ/viewform?usp=sf_link) to be considered for our Community Ads program. If you have any questions about our community ads program, feel free to [send us an email](mailto:ads@readthedocs.org).
+Please [complete an application](https://docs.google.com/forms/d/e/1FAIpQLSdd9LDska1eiDHWHs4No-8AlqjDxsUuP_zSBTeYyl5tMcBeFQ/viewform?usp=sf_link) to be considered for our Community Ads program. If you have any questions about our Community Ads program, feel free to [send us an email](mailto:ads@readthedocs.org).
 
 
 ## Your data

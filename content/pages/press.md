@@ -10,8 +10,11 @@ Thanks for your interest in writing about EthicalAds & Read the Docs.
 
 ### Quick style guide
 
-* Our brand name is `EthicalAds` when referencing us. You can use `ethical advertising` to talk about the category or concept.
-* Our parent company is `Read the Docs`, which can be abbreviated at `RTD`.
+* Our brand name is `EthicalAds` when referencing us. 
+* Our parent company is `Read the Docs`, which can be abbreviated to `RTD`.
+* You can use `ethical advertising` to talk about the category or concept of unintrusive and privacy-preserving advertising. 
+  Read more about what we define as `ethical advertising` in [our vision]({filename}/pages/vision.md).
+
 
 ### Contact us
 
