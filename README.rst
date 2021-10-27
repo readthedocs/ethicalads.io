@@ -55,7 +55,14 @@ For more details on the deployment actions, see workflows_.
 
 Developing the site
 -------------------
-For guidance on title capitalization, see our `style guide <https://docs.google.com/document/d/1IKoejweuDeBcSvQWbXcBrzViFU8M9d0lMFBq8ODNEY4/edit?usp=sharing>`_. 
+Style Guide
+~~~~~~~~~~~
+
+Our style is loosely based on the `Wikipedia Manual of Style <https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style>`_. 
+
+- Titles use `title case <https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Titles>`_
+- Section headings (h2 and below) use sentence case and tend to be descriptive/substantive beyond a simple noun
+
 
 Writing pages
 ~~~~~~~~~~~~~
