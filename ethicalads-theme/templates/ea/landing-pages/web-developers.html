@@ -18,19 +18,24 @@
       <div class="col-12 col-md-6">
 
         <!-- Image -->
-        <img src="/theme/img/illustrations/illustration-3.png" alt="..." class="img-fluid mw-100 float-right mb-6 mb-md-0" data-aos="fade-right">
+        <img src="/theme/img/computer-magic.jpg" alt="Web App Code" class="img-fluid mw-100 float-right mb-6 mb-md-0" data-aos="fade-right">
+        <p class="small text-muted">
+          <em>
+          Photo by <a href="https://unsplash.com/@pakata?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Pakata Goh</a> on <a href="https://unsplash.com/s/photos/coding-black?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+          </em>
+        </p>
 
       </div>
       <div class="col-12 col-md-6">
 
         <!-- Heading -->
-        <h1 class="display-3 font-weight-light" data-aos="fade-left">Developers: make money with your content while respecting user privacy</h1>
+        <h1 class="display-3 font-weight-light" data-aos="fade-left">Focus on features for your web app</h1>
 
         <!-- Text -->
-        <p class="font-size-lg" data-aos="fade-left" data-aos-delay="200">Our ethical ad network shows relevent content on developer-focused sites without being creepy</p>
+        <p class="font-size-lg" data-aos="fade-left" data-aos-delay="200">Get paid to host well-designed and privacy-first ads on your site.</p>
 
         <a href="#inbound-form" class="btn btn-primary lift" data-aos="fade-left" data-aos-delay="200">
-          <span>Become a publisher</span>
+          <span>Join our ad network today</span>
         </a>
 
       </div>
@@ -53,10 +58,10 @@
         </div>
 
         <!-- Heading -->
-        <h3>Simple Integration</h3>
+        <h3>Custom design integration</h3>
 
         <!-- Text -->
-        <p class="text-gray-800 mb-6 mb-md-0">Once approved as a publisher, you put a small JavaScript snippet on your site and then start making money right away.</p>
+        <p class="text-gray-800 mb-6 mb-md-0">Once approved as a publisher, you put a small JavaScript snippet on your site that <strong>you can style however you want.</strong></p>
 
       </div>
       <div class="col-12 col-md-4 mb-5 mb-md-0 text-center" data-aos="fade-up" data-aos-delay="50">
@@ -70,7 +75,7 @@
         <h3>No Cookies</h3>
 
         <!-- Text -->
-        <p class="text-gray-800 mb-6 mb-md-0">We don't use cookies to track users, but we match ads based on the content of your site. This gives your users <strong>ultimate privacy and relevant ads</strong>, the best of both worlds.</p>
+        <p class="text-gray-800 mb-6 mb-md-0">We target ads based only on your sites content. This means <strong>No cookie banners and full GDPR compliance</strong>.</p>
 
       </div>
       <div class="col-12 col-md-4 mb-5 mb-md-0 text-center" data-aos="fade-up" data-aos-delay="100">
@@ -81,16 +86,15 @@
         </div>
 
         <!-- Heading -->
-        <h3>Publisher Friendly</h3>
+        <h3>Beautiful ads</h3>
 
         <!-- Text -->
-        <p class="text-gray-800 mb-0">We started as a publisher, and still run ethical ads on all our sites. We believe in supporting open source, because we're open source devs ourselves.</p>
+        <p class="text-gray-800 mb-0">We know you work hard to make your site look and work great. We do the same, <strong>hand-picking avertisers so ads look great</strong> and work well.</p>
 
       </div>
     </div> <!-- / .row -->
   </div> <!-- / .container -->
 </section>
-
 
 
 <!-- Sample Ad -->
@@ -100,91 +104,56 @@
     <div class="row justify-content-center">
 
       <div class="col-md-6 mb-3">
-        <h2 class="font-weight-bold mb-8">One tasteful ad</h2>
-        <p class="font-size-lg text-gray-800">We only show one ad per page, because developers don't want ads all over their sites. Advertising is a trade-off that we choose, to make our projects more sustainable. We don't compromise on privacy though.</p>
+        <h2 class="font-weight-bold mb-8">Developer-focused ad network for online tools</h2>
+        <p class="font-size-lg text-gray-800">We use the content of your pages to target advertising, so you'll only get ads that are relevent to your content. <strong>No ads that track your users around the internet.</strong> You can see every major advertiser that shows an ad on your site, right in your dashboard.</p>
       </div>
       <div class="col-md-6">
-        <div class="text-center">
+        <!-- so the ad doesn't reflow the page -->
+        <div style="height: 280px;" class="text-center">
           {% include 'ea/includes/ad-placement.html' %}
         </div>
         <!-- <p class="small text-muted text-center">(This is a real ad from our network)</p> -->
       </div>
 
     </div> <!-- / .row -->
+    {% with short=True %}
+    {% include 'ea/includes/advertiser-icons.html' %}
+    {% endwith %}
   </div> <!-- / .container -->
 </section>
-
-
 
 <!-- Social proof -->
 <!-- ================================================== -->
 <section class="container py-10">
   <div class="row">
     <div class="col mb-3">
-      <h2 class="text-center font-weight-bold mb-8">Over 1 billion ads served since 2016</h2>
-      <p class="text-center lead"><strong>Developers</strong> trust our ads because our code is <a href="/publishers/topics/open-source/">open source</a>, and we're developers ourselves.</p>
-      <p class="text-center lead">Read more about <a href="/advertising-vision/">our vision</a> for advertising without invasive tracking.
+      <h2 class="text-center font-weight-bold mb-8">Existing tool makers on our network</h2>
       <p class="text-center lead">
-        <a href="#inbound-form" class="btn btn-primary lift" data-aos="fade-left" data-aos-delay="200">
-          <span>Become a publisher today</span>
-        </a>
-      </p>
+        <strong>Web developers</strong> trust our ads because our code was built privacy-first and it's <a href="https://github.com/readthedocs/ethical-ad-server/">completely open source</a>! Read more about <a href="/advertising-vision/">our privacy-first vision</a> for advertising without invasive tracking.
+    </p>
+      {% include 'ea/includes/web-dev-icons.html' %}
     </div>
   </div>
 </section>
-
-
-{% with prospectus=True %}
-{% include 'ea/includes/publisher-testimonials.html' %}
-{% endwith %}
 
 <!-- FAQ -->
 <!-- ================================================== -->
 <section class="container py-5">
   <div class="row mb-5">
-    <div class="col-12 col-md-6 mb-3">
-      <h4 class="font-weight-bold" id="faq-get-started">How do I get started?</h4>
+    <div class="col-md-6">
+      <h4 class="font-weight-bold" id="faq-payments">How can I be paid?</h4>
       <p>
-        Simply fill out our <a href="#inbound-form">publisher signup</a> form with some information, and we'll get back to you right away.
-      </p>
+        We support monthly payment via <strong>PayPal, Open Collective, and bank transfer (Stripe connect)</strong>.
+        Our minimum payment to publishers is $50,
+        as which point we'll process a payment to you.
+        See our full <a href="/publisher-policy/#payouts">Payout Policy</a> for more detail.
     </div>
     <div class="col-md-6">
       <h4 class="font-weight-bold" id="faq-how-much">How much will I make?</h4>
       <p>
-        These numbers will vary based on your audience and topics that you write about.
-        Generally publishers see around $2.00 per 1,000 pageviews (CPM),
-        assuming a majority of US and European traffic.
-      </p>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-6 mb-3">
-      <h4 class="font-weight-bold" id="faq-policy">Any policies on showing ads?</h4>
-      <p>When you show an ad on your site:</p>
-      <ul>
-        <li>
-          EthicalAds should be the only ad on your site.
-        </li>
-        <li>
-          The ad should appear when the user first visits, above the fold, on both desktop and mobile.
-        </li>
-        <li>
-          The ad should not disrupt the natural reading flow of the page. It should be placed above, beside or below the main content, not within it.
-        </li>
-      </ul>
-      <p>
-      See our full <a href="/publisher-policy/#ad-display">Ad Display Policy</a>.
-      </p>
-    </div>
-    <div class="col-md-6">
-      <h4 class="font-weight-bold" id="faq-payments">How can I be paid?</h4>
-      <p>
-        We currently support payment via PayPal, OpenCollective, and Wire transfer.
-        <strong>Our minimum payment to publishers is currently $50</strong>.
-        We're still getting our payment systems automated, so this number will probably get lower in the future.
-      </p>
-      <p>
-        See our full <a href="/publisher-policy/#payouts">Payout Policy</a>.
+        Revenue will vary based on the location of your audience.
+        <strong>Generally publishers see around $2.00 per 1,000 pageviews</strong> (CPM),
+        assuming a majority US and European traffic.
       </p>
     </div>
   </div>
@@ -206,7 +175,7 @@
             <div class="row justify-content-center">
               <div class="col-12 col-xl-11">
 
-                <h2 class="font-weight-bold">Become a publisher today</h2>
+                <h2 class="font-weight-bold">Publisher application</h2>
                 <p class="font-size-lg">Tell us more about you and your site and we'll get back to you about joining our EthicalAds network.</p>
 
                 <!-- Front - Publisher Inquiry Form -->
@@ -275,20 +244,15 @@
                   </div>
 
                   <div class="form-group">
-                    <label for="referral">How did you hear about us?</label>
-                    <input class="form-control" type="text" id="referral" name="referral" placeholder="My friend told me about it.">
-                  </div>
-
-                  <div class="form-group">
                     <label for="notes">Notes</label>
-                    <textarea class="form-control" id="notes" name="notes" placeholder="My traffic is mostly focused on Python devs." ></textarea>
+                    <textarea class="form-control" id="notes" name="notes" placeholder="My traffic is mostly located in Europe" ></textarea>
                     <small class="form-text text-muted">Anything else you'd like us to know?</small>
                   </div>
 
                   <div class="form-group my-5">
                     <input type="hidden" name="body" value="Incoming publisher request">
                     {% if page %}<input type="hidden" name="url" value="{{ page.url }}" />{% endif %}
-                    <input type="submit" value="Become a publisher" class="btn btn-sm btn-primary">
+                    <input type="submit" value="Apply to be a publisher" class="btn btn-sm btn-primary">
                     <small class="form-text text-muted">We take privacy seriously and we don't share your email. You aren't going to be added to any mailing lists.</small>
                   </div>
                 </form>
