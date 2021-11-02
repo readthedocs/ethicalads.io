@@ -1,5 +1,5 @@
 Title: EthicalAds Newsletter - October 2021
-Date: November 1, 2021
+Date: November 2, 2021
 description: Updates from October, including stats and commentary on our progress as we build EthicalAds
 tags: newsletter, community
 authors: Ra Cohen
@@ -23,9 +23,9 @@ You can always see our latest server updates in our [ethical-ad-server changelog
 
 In October 2021:
 
-* We generated **$x** for our publishers.
+* We generated **$32,097.44** for our publishers.
 * We had **102 publishers** on our network with at least one paid ad impression.
-* We had **x** paid ad views across the world.
+* We had **19,714,391** paid ad views across the world.
 
 [placeholder analysis]
 
