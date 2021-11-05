@@ -13,7 +13,7 @@ These are the major features we released in the last month:
  
 * In the ad server, we now have graphs describing key insights for advertisers and publishers.
 * We added new landing pages describing our open source ad network and the benefits of being a data science publisher on our network.
-* Demoed a new floating ad type on Read the Docs. 
+* Demoed a new floating ad type on [Read the Docs' own documentation](https://docs.readthedocs.io/en/stable/). 
 * Added reporting on our ad server so we can know which reports people are engaging with. 
 
 You can always see our latest server updates in our [ethical-ad-server changelog](https://ethical-ad-server.readthedocs.io/en/latest/developer/changelog.html) and [ethical-ad-client changelog](https://ethical-ad-client.readthedocs.io/en/latest/changelog.html).
