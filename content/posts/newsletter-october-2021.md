@@ -1,5 +1,5 @@
 Title: EthicalAds Newsletter - October 2021
-Date: November 2, 2021
+Date: November 5, 2021
 description: Updates from October, including stats and commentary on our progress as we build EthicalAds
 tags: newsletter, community
 authors: Ra Cohen
@@ -27,16 +27,22 @@ In October 2021:
 * We had **102 publishers** on our network with at least one paid ad impression.
 * We had **19,714,391** paid ad views across the world.
 
-[placeholder analysis]
+What's really exciting about October is that although we only had 
+a 2.5% increase in the number of paid views from September,
+in October we saw a 7.5% increase in our paid clicks! 
+Just over **24,000** paid ads were clicked in October
+As we grow, we can be more selective with our advertisers, 
+ensuring users on the EthicalAds network see only high quality, relevant ads 
+that you might actually be interested in. 
 
 ## Tricky bits
 
-We still have the fortunate problem of being overbooked in the US and EU especially,
-which has resulted in many of our on-going campaigns falling behind schedule.
-We've adjusted our roadmap priorities to focus more heavily on publisher acquisition.
-We are also looking into additional ways of managing pricing,
-so that we are able to better determine priority of ads across time. 
-
+We continue expanding our network by onboarding new publishers. 
+To accomplish this, we're focusing on raising the eCPM in a variety of ways. 
+Firstly we raised the prices this quarter on our highest demand traffic.
+Secondly, we're phasing out CPC or Cost Per Click pricing. 
+This ensures our publishers get paid for their views and 
+incentivizes our advertisers to craft high performing, attractive ads. 
 
 ## Upcoming features
 
