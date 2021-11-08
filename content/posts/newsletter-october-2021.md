@@ -44,6 +44,12 @@ Secondly, we're phasing out CPC or Cost Per Click pricing.
 This ensures our publishers get paid for their views and 
 incentivizes our advertisers to craft high performing, attractive ads. 
 
+You can see our progress by observing the increase of our publisher payouts over time:
+<div class="postimage">
+  <img class="w-100" src="{static}../images/charts/2021-october-publisherpayouts.png" alt="Monthly payouts of our publishers over time">
+  <p>Monthly payouts of our publishers over time.</p>
+</div>
+
 ## Upcoming features
 
 The major features in our upcoming roadmap:
