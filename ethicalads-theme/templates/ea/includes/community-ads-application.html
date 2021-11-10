@@ -1,0 +1,101 @@
+<section class="inbound-form bg-gray-200 py-10" id="inbound-form">
+  <div class="container">
+
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-10 col-lg-8">
+
+        <!-- Card -->
+        <div class="card card-border border-primary shadow-light-lg">
+          <div class="card-body">
+            <div class="row justify-content-center">
+              <div class="col-12 col-xl-11">
+
+                <h2 class="font-weight-bold">Apply to our Community Ads program</h2>
+                <p class="font-size-lg">Start growing your cause with our network today.</p>
+
+                <!-- Front - Adveriter Inquiry Form -->
+                <form
+                  method="POST"
+                  name="fa-form-1"
+                  action="https://webhook.frontapp.com/forms/036c4169294f3b04abaa/Kj948M2jCSE2BGi1jdHUJIf19c60Sgyuz5pht5P-JZljD5fhGM5CVaK0t3rjLOZoXXMi5vU0OSPl4L0fjwr6UysZtRIZ5OyfEqjHDJFQsEenpUNT7c1EQtUbb5s"
+                  enctype="multipart/form-data"
+                  accept-charset="utf-8"
+                >
+                  <div class="form-group">
+                    <label for="name">Your name</label>
+                    <input class="form-control" type="text" id="name" name="name" placeholder="Joe Advertiser" required>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="email">Your email</label>
+                    <input class="form-control" type="email" id="email" name="email" placeholder="you@yourcompany.com" required>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="company">Your company</label>
+                    <input class="form-control" type="text" id="company" name="company" required>
+                  </div>
+
+                  <div class="form-group">
+                    <label>Geographic focus</label>
+
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" name="geography" value="US and Canada" id="geo-usca">
+                      <label class="form-check-label" for="geo-usca">US and Canada</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" name="geography" value="Europe" id="geo-eu">
+                      <label class="form-check-label" for="geo-eu">Europe</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" name="geography" value="Asia Pacific" id="geo-apac">
+                      <label class="form-check-label" for="geo-apac">Asia Pacific</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" name="geography" value="Global" id="geo-global">
+                      <label class="form-check-label" for="geo-global">Global</label>
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label>Topic focus</label>
+
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" name="audience" value="Data science and machine learning" id="datascience" {% if inbound_form_datascience %}checked{% endif %}>
+                      <label class="form-check-label" for="datascience">Data science and machine learning</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" name="audience" value="Backend web development" id="backend" {% if inbound_form_backend %}checked{% endif %}>
+                      <label class="form-check-label" for="backend">Backend web development</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" name="audience" value="Frontend web development" id="frontend" {% if inbound_form_frontend %}checked{% endif %}>
+                      <label class="form-check-label" for="frontend">Frontend web development</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" name="audience" value="Security and privacy" id="security-privacy" {% if inbound_form_security %}checked{% endif %}>
+                      <label class="form-check-label" for="security-privacy">Security and privacy</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" name="audience" value="DevOps" id="devops" {% if inbound_form_devops %}checked{% endif %}>
+                      <label class="form-check-label" for="devops">DevOps</label>
+                    </div>
+                  </div>
+
+                  <div class="form-group my-5">
+                    <input type="hidden" name="body" value="EthicalAds.io advertising inquiry" />
+                    {% if page %}<input type="hidden" name="url" value="{{ page.url }}" />{% endif %}
+                    <input type="submit" value="Get more info" class="btn btn-sm btn-primary">
+                    <small class="form-text text-muted">We take privacy seriously and we don't share your email. You aren't going to be added to any mailing lists.</small>
+                  </div>
+                </form>
+
+              </div>
+            </div> <!-- / .row -->
+          </div>
+        </div>
+      </div>
+    </div> <!-- / .row -->
+
+  </div>
+</section>
