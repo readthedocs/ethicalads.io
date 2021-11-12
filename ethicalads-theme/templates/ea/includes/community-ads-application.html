@@ -13,7 +13,7 @@
                 <h2 class="font-weight-bold">Apply to our Community Ads program</h2>
                 <p class="font-size-lg">Start growing your cause with our network today.</p>
 
-                <!-- Front - Adveriter Inquiry Form -->
+                <!-- Front - Community Ads Inquiry Form -->
                 <form
                   method="POST"
                   name="fa-form-1"
@@ -32,8 +32,30 @@
                   </div>
 
                   <div class="form-group">
-                    <label for="company">Your company</label>
-                    <input class="form-control" type="text" id="company" name="company" required>
+                    <label for="company">Your cause's name</label>
+                    <input class="form-control" type="text" id="cause" name="cause" required>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="email">Your causes's website</label>
+                    <input class="form-control" type="text" id="website" name="website" placeholder="yourcause.org" required>
+                  </div>
+
+                  <div class="form-group">
+                    <label>What kind of initiative is your cause?</label>
+
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" name="initiative-type" value="Open Source Project" id="open-source">
+                      <label class="form-check-label" for="open-source">Open Source Project</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" name="initiative-type" value="Conference" id="conference">
+                      <label class="form-check-label" for="conference">Conference</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" name="initiative-type" value="Other" id="other">
+                      <label class="form-check-label" for="other">Other</label>
+                    </div>
                   </div>
 
                   <div class="form-group">

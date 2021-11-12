@@ -14,5 +14,12 @@ There are a few qualifications for our Community Ads program:
 * A software project should have an [OSI approved license](https://opensource.org/licenses).
 * We will not run an ad under this program for an organization tied to one of our paid advertisers.
 
+This is an example of an ad we ran for PyCon US, a regional Python conference
+
+<div class="postimage">
+  <img class="w-100" src="{static}../images/community-ads-pycon-example.png" alt="Want to give a talk at Pycon US 2022? Proposals open now until Dec 20th. Apply today!">
+  <p>An ad raising awareness for the Call for Proposals for Pycon US 2022.</p>
+</div>
+
 Please fill out the application below to be considered for our Community Ads program. 
 
