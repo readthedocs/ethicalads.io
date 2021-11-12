@@ -14,5 +14,5 @@ There are a few qualifications for our Community Ads program:
 * A software project should have an [OSI approved license](https://opensource.org/licenses).
 * We will not run an ad under this program for an organization tied to one of our paid advertisers.
 
-Please [complete an application](https://docs.google.com/forms/d/e/1FAIpQLSdd9LDska1eiDHWHs4No-8AlqjDxsUuP_zSBTeYyl5tMcBeFQ/viewform?usp=sf_link) to be considered for our Community Ads program. If you have any questions about our Community Ads program, feel free to [send us an email](mailto:ads@readthedocs.org).
+Please fill out the application below to be considered for our Community Ads program. 
 
