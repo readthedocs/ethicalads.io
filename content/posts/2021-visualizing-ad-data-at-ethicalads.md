@@ -29,7 +29,7 @@ Ideally, it could help us with exploration, tracking our key performance indicat
 and presenting data to our advertisers, publishers, and ourselves.
 
 We gave [Metabase](https://www.metabase.com/?ref=ethicalads.io) a try
-on a recommendation from [Eric Berry](https://twitter.com/coderberry),
+on a glowing recommendation from [Eric Berry](https://twitter.com/coderberry),
 who previously founded CodeFund, another company dedicated to ethical advertising.
 Eric raved about Metabase and used it in CodeFund's product before it shut down.
 
