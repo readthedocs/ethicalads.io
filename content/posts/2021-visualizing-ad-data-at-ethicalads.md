@@ -17,7 +17,7 @@ However, the data was a bit hard to explore,
 let alone creating and telling a compelling story from the data.
 It was tied up in PostgreSQL and usually required complex joins
 to get at anything meaningful.
-To make a long story short, we knew the data we collected was important,
+We knew the data we were collecting could help us understand and improve our product,
 but exploring our data, understanding it,
 and presenting it to our advertisers, publishers, or even just ourselves was hard.
 
