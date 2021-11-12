@@ -7,6 +7,7 @@ image: /images/posts/2021-graphing-kpis.jpg
 image_credit: <span>Photo by <a href="https://unsplash.com/@kmuza?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Carlos Muza</a> on <a href="https://unsplash.com/photos/hpjSkU2UYSU?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
 
+Respecting user privacy doesn't mean flying blind. 
 While we don't track or store personal data at EthicalAds,
 running an ad network does generate a ton of data!
 This is data like the publishers where certain ads perform best
