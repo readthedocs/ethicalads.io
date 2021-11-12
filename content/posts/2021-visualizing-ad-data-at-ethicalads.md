@@ -24,7 +24,7 @@ and presenting it to our advertisers, publishers, or even just ourselves was har
 
 ## Business intelligence - more than just an oxymoron
 
-We knew we needed a tool to help.
+We knew we needed a tool to bridge the gap between what we had and what we wanted to know.
 Ideally, it could help us with exploration, tracking our key performance indicators,
 and presenting data to our advertisers, publishers, and ourselves.
 
