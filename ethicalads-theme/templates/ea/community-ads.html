@@ -1,3 +1,16 @@
+{% extends "page.html" %}
+
+
+{% block head %}
+{{ super() }}
+
+{% include 'ea/includes/ad-client-tag.html' %}
+{% endblock head %}
+
+
+{% block content %}
+{{ super() }}
+
 <section class="inbound-form bg-gray-200 py-10" id="inbound-form">
   <div class="container">
 
@@ -23,84 +36,66 @@
                 >
                   <div class="form-group">
                     <label for="name">Your name</label>
-                    <input class="form-control" type="text" id="name" name="name" placeholder="Joe Advertiser" required>
+                    <input class="form-control" type="text" id="name" name="name" placeholder="Joe Organizer" required>
                   </div>
 
                   <div class="form-group">
                     <label for="email">Your email</label>
-                    <input class="form-control" type="email" id="email" name="email" placeholder="you@yourcompany.com" required>
+                    <input class="form-control" type="email" id="email" name="email" placeholder="you@yourproject.org" required>
                   </div>
+
+                  <h4 class="font-weight-bold">Your cause or initiative</h4>
 
                   <div class="form-group">
                     <label>What kind of initiative is your cause?</label>
 
                     <div class="form-check">
-                      <input class="form-check-input" type="checkbox" name="initiative-type" value="Open Source Project" id="open-source">
+                      <input class="form-check-input" type="radio" name="initiative-type" value="Open Source Project" id="open-source">
                       <label class="form-check-label" for="open-source">Open Source Project</label>
                     </div>
                     <div class="form-check">
-                      <input class="form-check-input" type="checkbox" name="initiative-type" value="Conference" id="conference">
+                      <input class="form-check-input" type="radio" name="initiative-type" value="Conference" id="conference">
                       <label class="form-check-label" for="conference">Conference</label>
                     </div>
                     <div class="form-check">
-                      <input class="form-check-input" type="checkbox" name="initiative-type" value="Other" id="other">
+                      <input class="form-check-input" type="radio" name="initiative-type" value="Other" id="other">
                       <label class="form-check-label" for="other">Other</label>
                     </div>
                   </div>
 
                   <div class="form-group">
                     <label for="cause">Your cause's name</label>
-                    <input class="form-control" type="text" id="cause" name="cause" required>
+                    <input class="form-control" type="text" id="cause" name="cause" placeholder="Your Cause" required>
                   </div>
 
                   <div class="form-group">
                     <label for="website">Your causes's website</label>
-                    <input class="form-control" type="text" id="website" name="website" placeholder="yourcause.org" required>
+                    <input class="form-control" type="url" id="website" name="website" placeholder="https://yourcause.org" required>
+                  </div>
+
+                  <h4 class="font-weight-bold">Ad details</h4>
+
+                  <div class="form-group">
+                    <label for="ad-text">Text to accompany your ad</label>
+                    <input class="form-control" type="text" id="ad-text" name="ad-text" maxlength="100" placeholder="Support our cause today" required>
+                    <p class="form-text small text-muted">Up to 100 characters. Emojis allowed but please use them sparingly</p>
                   </div>
 
                   <div class="form-group">
-                    <label>Your cause's topic focus (the topic your cause falls under)</label>
-
-                    <div class="form-check">
-                      <input class="form-check-input" type="checkbox" name="audience" value="Data science and machine learning" id="datascience" {% if inbound_form_datascience %}checked{% endif %}>
-                      <label class="form-check-label" for="datascience">Data science and machine learning</label>
-                    </div>
-                    <div class="form-check">
-                      <input class="form-check-input" type="checkbox" name="audience" value="Backend web development" id="backend" {% if inbound_form_backend %}checked{% endif %}>
-                      <label class="form-check-label" for="backend">Backend web development</label>
-                    </div>
-                    <div class="form-check">
-                      <input class="form-check-input" type="checkbox" name="audience" value="Frontend web development" id="frontend" {% if inbound_form_frontend %}checked{% endif %}>
-                      <label class="form-check-label" for="frontend">Frontend web development</label>
-                    </div>
-                    <div class="form-check">
-                      <input class="form-check-input" type="checkbox" name="audience" value="Security and privacy" id="security-privacy" {% if inbound_form_security %}checked{% endif %}>
-                      <label class="form-check-label" for="security-privacy">Security and privacy</label>
-                    </div>
-                    <div class="form-check">
-                      <input class="form-check-input" type="checkbox" name="audience" value="DevOps" id="devops" {% if inbound_form_devops %}checked{% endif %}>
-                      <label class="form-check-label" for="devops">DevOps</label>
-                    </div>
-                  </div>
-
-                  <div class="form-group">
-                    <label for="ad-text">Text to accompany your ad (<100 characters)</label>
-                    <input class="form-control" type="text" id="ad-text" name="ad-text" placeholder="Support our cause today" required>
-                  </div>
-
-                  <div class="form-group">
-                    <label for="image-url">Image to go with your ad (url to a 240*180px png)</label>
-                    <input class="form-control" type="text" id="image-url" name="image-url" placeholder="yourcause.org/image.png" required>
+                    <label for="image">Image to go with your ad</label>
+                    <input type="file" id="image" name="image" accept="image/png, image/jpeg" required>
+                    <p class="form-text small text-muted">A 240*180px image displayed at 120*90</p>
                   </div>
 
                   <div class="form-group">
                     <label for="link-url">Link destination upon click</label>
-                    <input class="form-control" type="text" id="link-url" name="link-url" placeholder="yourcause.org/welcome" required>
+                    <input class="form-control" type="url" id="link-url" name="link-url" placeholder="https://yourcause.org/welcome" required>
                   </div>
 
                   <div class="form-group">
                     <label for="date">Do you have a specific date you'd like to promote before?</label>
-                    <input class="form-control" type="text" id="date" name="date">
+                    <input class="form-control" type="date" id="date" name="date">
+                    <p class="form-text small text-muted">Useful for conferences or events that happen on a certain date</p>
                   </div>
 
                   <div class="form-group">
@@ -128,10 +123,40 @@
                     </div>
                   </div>
 
+                  <div class="form-group">
+                    <label>Your cause's topic focus (a topic focus for your ad)</label>
+
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" name="audience" value="Data science and machine learning" id="datascience" {% if inbound_form_datascience %}checked{% endif %}>
+                      <label class="form-check-label" for="datascience">Data science and machine learning</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" name="audience" value="Backend web development" id="backend" {% if inbound_form_backend %}checked{% endif %}>
+                      <label class="form-check-label" for="backend">Backend web development</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" name="audience" value="Frontend web development" id="frontend" {% if inbound_form_frontend %}checked{% endif %}>
+                      <label class="form-check-label" for="frontend">Frontend web development</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" name="audience" value="Security and privacy" id="security-privacy" {% if inbound_form_security %}checked{% endif %}>
+                      <label class="form-check-label" for="security-privacy">Security and privacy</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" name="audience" value="DevOps" id="devops" {% if inbound_form_devops %}checked{% endif %}>
+                      <label class="form-check-label" for="devops">DevOps</label>
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="comments">Comments/Notes</label>
+                    <textarea class="form-control" id="comments" name="comments"></textarea>
+                  </div>
+
                   <div class="form-group my-5">
                     <input type="hidden" name="body" value="EthicalAds.io community ad inquiry" />
                     {% if page %}<input type="hidden" name="url" value="{{ page.url }}" />{% endif %}
-                    <input type="submit" value="Get more info" class="btn btn-sm btn-primary">
+                    <input type="submit" value="Apply" class="btn btn-sm btn-primary">
                     <small class="form-text text-muted">We take privacy seriously and we don't share your email. You aren't going to be added to any mailing lists.</small>
                   </div>
                 </form>
@@ -145,3 +170,4 @@
 
   </div>
 </section>
+{% endblock content %}
