@@ -32,16 +32,6 @@
                   </div>
 
                   <div class="form-group">
-                    <label for="company">Your cause's name</label>
-                    <input class="form-control" type="text" id="cause" name="cause" required>
-                  </div>
-
-                  <div class="form-group">
-                    <label for="email">Your causes's website</label>
-                    <input class="form-control" type="text" id="website" name="website" placeholder="yourcause.org" required>
-                  </div>
-
-                  <div class="form-group">
                     <label>What kind of initiative is your cause?</label>
 
                     <div class="form-check">
@@ -59,28 +49,17 @@
                   </div>
 
                   <div class="form-group">
-                    <label>Geographic focus</label>
-
-                    <div class="form-check">
-                      <input class="form-check-input" type="checkbox" name="geography" value="US and Canada" id="geo-usca">
-                      <label class="form-check-label" for="geo-usca">US and Canada</label>
-                    </div>
-                    <div class="form-check">
-                      <input class="form-check-input" type="checkbox" name="geography" value="Europe" id="geo-eu">
-                      <label class="form-check-label" for="geo-eu">Europe</label>
-                    </div>
-                    <div class="form-check">
-                      <input class="form-check-input" type="checkbox" name="geography" value="Asia Pacific" id="geo-apac">
-                      <label class="form-check-label" for="geo-apac">Asia Pacific</label>
-                    </div>
-                    <div class="form-check">
-                      <input class="form-check-input" type="checkbox" name="geography" value="Global" id="geo-global">
-                      <label class="form-check-label" for="geo-global">Global</label>
-                    </div>
+                    <label for="cause">Your cause's name</label>
+                    <input class="form-control" type="text" id="cause" name="cause" required>
                   </div>
 
                   <div class="form-group">
-                    <label>Topic focus</label>
+                    <label for="website">Your causes's website</label>
+                    <input class="form-control" type="text" id="website" name="website" placeholder="yourcause.org" required>
+                  </div>
+
+                  <div class="form-group">
+                    <label>Your cause's topic focus (the topic your cause falls under)</label>
 
                     <div class="form-check">
                       <input class="form-check-input" type="checkbox" name="audience" value="Data science and machine learning" id="datascience" {% if inbound_form_datascience %}checked{% endif %}>
@@ -104,8 +83,53 @@
                     </div>
                   </div>
 
+                  <div class="form-group">
+                    <label for="ad-text">Text to accompany your ad (<100 characters)</label>
+                    <input class="form-control" type="text" id="ad-text" name="ad-text" placeholder="Support our cause today" required>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="image-url">Image to go with your ad (url to a 240*180px png)</label>
+                    <input class="form-control" type="text" id="image-url" name="image-url" placeholder="yourcause.org/image.png" required>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="link-url">Link destination upon click</label>
+                    <input class="form-control" type="text" id="link-url" name="link-url" placeholder="yourcause.org/welcome" required>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="date">Do you have a specific date you'd like to promote before?</label>
+                    <input class="form-control" type="text" id="date" name="date">
+                  </div>
+
+                  <div class="form-group">
+                    <label>Geographic focus (where you would like your ad to be shown)</label>
+
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" name="geography" value="US and Canada" id="geo-usca">
+                      <label class="form-check-label" for="geo-usca">US and Canada</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" name="geography" value="Europe" id="geo-eu">
+                      <label class="form-check-label" for="geo-eu">Europe</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" name="geography" value="Asia Pacific" id="geo-apac">
+                      <label class="form-check-label" for="geo-apac">Asia Pacific</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" name="geography" value="Global" id="geo-global">
+                      <label class="form-check-label" for="geo-global">Global</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" name="geography" value="Other" id="geo-other">
+                      <label class="form-check-label" for="geo-other">Other (explain in coments)</label>
+                    </div>
+                  </div>
+
                   <div class="form-group my-5">
-                    <input type="hidden" name="body" value="EthicalAds.io advertising inquiry" />
+                    <input type="hidden" name="body" value="EthicalAds.io community ad inquiry" />
                     {% if page %}<input type="hidden" name="url" value="{{ page.url }}" />{% endif %}
                     <input type="submit" value="Get more info" class="btn btn-sm btn-primary">
                     <small class="form-text text-muted">We take privacy seriously and we don't share your email. You aren't going to be added to any mailing lists.</small>
