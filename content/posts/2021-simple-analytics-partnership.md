@@ -22,7 +22,7 @@ and pair well with [EthicalAds as an alternative to Google Ads](https://www.ethi
 They provide similar promises to EthicalAds in terms of privacy,
 and have a similar audience of developer-focused sites. 
 
-Quoting from their [Our Promise](https://simpleanalytics.com/our-promise) page:
+Quoting from [Simple Analytics' Our Promise](https://simpleanalytics.com/our-promise) page:
 
 * We will never collect personal information
 * We will never sell your data
@@ -60,7 +60,7 @@ To get started apply to be a publisher and mention Simple Analytics in your emai
 
 > Offer Terms:
 
-> * You have a developer-focused site.
+> * You have a developer-focused site
 > * You have at least 50,000 paid ad views per month
 > * You agree with our [Publisher Policy](https://www.ethicalads.io/publisher-policy/)
 > * This deal is valid until December 31st, 2021, but we will continue to pay for Simple Analytics as long as you are a publisher on EthicalAds
