@@ -61,7 +61,7 @@ To get started apply to be a publisher and mention Simple Analytics in your emai
 > Offer Terms:
 
 > * You have a developer-focused site
-> * You have at least 50,000 paid ad views per month
+> * You have at least 20,000 paid ad views per month
 > * You agree with our [Publisher Policy](https://www.ethicalads.io/publisher-policy/)
 > * This deal is valid until December 31st, 2021, but we will continue to pay for Simple Analytics as long as you are a publisher on EthicalAds
 
