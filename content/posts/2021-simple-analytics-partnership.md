@@ -65,3 +65,7 @@ To get started apply to be a publisher and mention Simple Analytics in your emai
 > * You agree with our [Publisher Policy](https://www.ethicalads.io/publisher-policy/)
 > * This deal is valid until December 31st, 2021, but we will continue to pay for Simple Analytics as long as you are a publisher on EthicalAds
 
+> When you sign up through this deal,
+> EthicalAds will share your email with Simple Analytics so they can open a free account for you.
+> When you don't publish anymore EthicalAds will signal Simple Analytics and your plan will convert to a paid account from that moment on.
+> Simple Analytics will send you a message before they convert your account to paid.
