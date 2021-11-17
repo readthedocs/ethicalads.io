@@ -54,8 +54,8 @@ You can also apply if you already have a Simple Analytics subscription.
 
 To get started apply to be a publisher and mention Simple Analytics in your email:
 
-<a href="https://www.ethicalads.io/publishers/#inbound-form">
-  <button class="btn btn-sm btn-primary" type="submit">Apply to be a publisher</button>
+<a href="https://www.ethicalads.io/publishers/#inbound-form" class="btn btn-primary lift mr-0 mr-sm-5 mb-2" data-aos="fade-left" data-aos-delay="200">
+  Apply to be a publisher
 </a>
 
 > We have a few rules to be able to apply for this offer:
