@@ -42,7 +42,7 @@ There are some pretty interesting ways to combine that when you focus on the act
 It really made us start thinking of ways that we could use EthicalAds to power the privacy-first revolution of website publishing.
 
 Simple Analytics wasn't able to offer a free plan.
-Having a 14 day free trial is allows users to try it,
+Having a 14-day free trial allows users to try it,
 but we're excited about being able to offer a permanent free tier for developer-focused sites. 
 
 ## The offer
