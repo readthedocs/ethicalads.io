@@ -58,7 +58,7 @@ To get started apply to be a publisher and mention Simple Analytics in your emai
   Apply to be a publisher
 </a>
 
-> We have a few rules to be able to apply for this offer:
+> Offer Terms:
 
 > * You have a developer-focused site.
 > * You have at least 50,000 paid ad views per month
