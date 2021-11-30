@@ -1,5 +1,5 @@
 Title: EthicalAds providing free analytics with Simple Analytics
-Date: November 18, 2021
+Date: November 30, 2021
 description: We are proud to offer our publishers free privacy-first analytics as part of our network.
 tags: privacy, analytics, partnership
 authors: Eric Holscher
