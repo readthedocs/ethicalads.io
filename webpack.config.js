@@ -15,18 +15,33 @@ module.exports = {
     rules: [
       {
         test: /\.s?css$/,
-        use: [MiniCssExtractPlugin.loader, "css-loader", "sass-loader"],
+        use: [
+          {
+            loader: MiniCssExtractPlugin.loader,
+            options: {
+              publicPath: path.resolve(__dirname, "./ethicalads-theme/static"),
+            },
+          },
+          "css-loader",
+          "sass-loader",
+        ],
       },
       {
         // the file-loader emits files directly to OUTPUT_DIR/fonts
         test: /\.(woff(2)?|ttf|eot)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
-        loader: "file-loader?name=./fonts/[name].[ext]",
+        loader: "file-loader",
+        options: {
+          name: "./fonts/[name].[ext]",
+        },
       },
       {
         // Image loader
         // the file-loader emits files directly to OUTPUT_DIR/img
         test: /\.(png|gif|jpg|jpeg|svg)$/,
-        loaders: ["file-loader?name=./img/[name].[ext]"],
+        loader: "file-loader",
+        options: {
+          name: "./img/[name].[ext]",
+        },
       },
     ],
   },
@@ -37,7 +52,6 @@ module.exports = {
     new MiniCssExtractPlugin({
       // Options similar to the same options in webpackOptions.output
       filename: "[name].css",
-      path: path.resolve(__dirname, "./ethicalads-theme/static"),
       chunkFilename: "[id].css",
     }),
 

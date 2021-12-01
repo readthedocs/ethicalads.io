@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --config webpack.config.js --mode=development --progress --colors",
+    "build": "webpack --config webpack.config.js --mode=development --progress --color",
     "watch": "webpack --config webpack.config.js --mode=development --watch",
-    "dist": "webpack --config webpack.config.js --mode=production --progress --colors",
+    "dist": "webpack --config webpack.config.js --mode=production --progress --color",
     "deploy": "npm run dist && gh-pages -d www",
     "lint": "prettier -c .",
     "format": "prettier --write ."
@@ -41,16 +41,17 @@
     "typed.js": "^2.0.11"
   },
   "devDependencies": {
-    "css-loader": "^3.6.0",
-    "file-loader": "^2.0.0",
+    "css-loader": "^6.5.1",
+    "file-loader": "^6.2.0",
     "gh-pages": "^1.2.0",
-    "mini-css-extract-plugin": "^0.8.0",
-    "node-sass": "^4.14.1",
-    "optimize-css-assets-webpack-plugin": "^5.0.4",
+    "mini-css-extract-plugin": "^2.4.5",
+    "node-sass": "^6.0.1",
+    "optimize-css-assets-webpack-plugin": "^6.0.1",
+    "postcss": "^8.4.4",
     "prettier": "^2.1.1",
-    "sass-loader": "^7.3.1",
-    "style-loader": "^1.2.1",
-    "webpack": "^4.44.1",
-    "webpack-cli": "^3.3.12"
+    "sass-loader": "^12.3.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1"
   }
 }
