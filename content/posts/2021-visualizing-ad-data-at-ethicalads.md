@@ -1,5 +1,5 @@
-Title: Visualizing Ad Data at EthicalAds
-Date: November 16, 2021
+Title: Graphing Ad Data at EthicalAds
+Date: December 7, 2021
 description: Data exploration, key performance indicators, and helping our customers all required us to put together a data stack to better understand our ads
 tags: graphing, business, kpis
 authors: David Fischer
@@ -7,7 +7,7 @@ image: /images/posts/2021-graphing-kpis.jpg
 image_credit: <span>Photo by <a href="https://unsplash.com/@kmuza?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Carlos Muza</a> on <a href="https://unsplash.com/photos/hpjSkU2UYSU?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
 
-Respecting user privacy doesn't mean flying blind. 
+Respecting user privacy doesn't mean flying blind.
 While we don't track or store personal data at EthicalAds,
 running an ad network does generate a ton of data!
 This is data like the publishers where certain ads perform best
@@ -48,7 +48,10 @@ Lastly, this never impacts production since our setup exclusively connects to a 
 
 In about a week, we went from no data stack at all,
 to taking visualizations from the exploration stage right into production.
-This is the perfect tool for a small team like ours.
+It was easy to explore our data and there was a nice way to embed
+graphs and charts directly into our ad server for advertisers and publishers.
+It also became an invaluable way to track our business KPIs.
+Metabase is the perfect tool for a small team like ours.
 
 
 ## Data we have yet to explore
