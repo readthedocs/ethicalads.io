@@ -1,3 +1,16 @@
+{% extends "page.html" %}
+
+
+{% block head %}
+{{ super() }}
+
+{% include 'ea/includes/ad-client-tag.html' %}
+{% endblock head %}
+
+
+{% block content %}
+{{ super() }}
+
 <section class="inbound-form bg-gray-200 py-10" id="inbound-form">
   <div class="container">
 
@@ -10,10 +23,10 @@
             <div class="row justify-content-center">
               <div class="col-12 col-xl-11">
 
-                <h2 class="font-weight-bold">Advertise across our network</h2>
-                <p class="font-size-lg">Start growing your business with our network today.</p>
+                <h2 class="font-weight-bold">Apply to our Community Ads program</h2>
+                <p class="font-size-lg">Start growing your cause with our network today.</p>
 
-                <!-- Front - Adveriter Inquiry Form -->
+                <!-- Front - Community Ads Inquiry Form -->
                 <form
                   method="POST"
                   name="fa-form-1"
@@ -23,21 +36,70 @@
                 >
                   <div class="form-group">
                     <label for="name">Your name</label>
-                    <input class="form-control" type="text" id="name" name="name" placeholder="Joe Advertiser" required>
+                    <input class="form-control" type="text" id="name" name="name" placeholder="Joe Organizer" required>
                   </div>
 
                   <div class="form-group">
                     <label for="email">Your email</label>
-                    <input class="form-control" type="email" id="email" name="email" placeholder="you@yourcompany.com" required>
+                    <input class="form-control" type="email" id="email" name="email" placeholder="you@yourproject.org" required>
+                  </div>
+
+                  <h4 class="font-weight-bold">Your cause or initiative</h4>
+
+                  <div class="form-group">
+                    <label>What kind of initiative is your cause?</label>
+
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="initiative-type" value="Open Source Project" id="open-source">
+                      <label class="form-check-label" for="open-source">Open Source Project</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="initiative-type" value="Conference" id="conference">
+                      <label class="form-check-label" for="conference">Conference</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="initiative-type" value="Other" id="other">
+                      <label class="form-check-label" for="other">Other</label>
+                    </div>
                   </div>
 
                   <div class="form-group">
-                    <label for="company">Your company</label>
-                    <input class="form-control" type="text" id="company" name="company" required>
+                    <label for="cause">Your cause's name</label>
+                    <input class="form-control" type="text" id="cause" name="cause" placeholder="Your Cause" required>
                   </div>
 
                   <div class="form-group">
-                    <label>Geographic focus</label>
+                    <label for="website">Your causes's website</label>
+                    <input class="form-control" type="url" id="website" name="website" placeholder="https://yourcause.org" required>
+                  </div>
+
+                  <h4 class="font-weight-bold">Ad details</h4>
+
+                  <div class="form-group">
+                    <label for="ad-text">Text to accompany your ad</label>
+                    <input class="form-control" type="text" id="ad-text" name="ad-text" maxlength="100" placeholder="Support our cause today" required>
+                    <p class="form-text small text-muted">Up to 100 characters. Emojis allowed but please use them sparingly</p>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="image">Image to go with your ad</label>
+                    <input type="file" id="image" name="image" accept="image/png, image/jpeg" required>
+                    <p class="form-text small text-muted">A 240*180px image displayed at 120*90</p>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="link-url">Link destination upon click</label>
+                    <input class="form-control" type="url" id="link-url" name="link-url" placeholder="https://yourcause.org/welcome" required>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="date">Do you have a specific date you'd like to promote before?</label>
+                    <input class="form-control" type="date" id="date" name="date">
+                    <p class="form-text small text-muted">Useful for conferences or events that happen on a certain date</p>
+                  </div>
+
+                  <div class="form-group">
+                    <label>Geographic focus (where you would like your ad to be shown)</label>
 
                     <div class="form-check">
                       <input class="form-check-input" type="checkbox" name="geography" value="US and Canada" id="geo-usca">
@@ -55,10 +117,14 @@
                       <input class="form-check-input" type="checkbox" name="geography" value="Global" id="geo-global">
                       <label class="form-check-label" for="geo-global">Global</label>
                     </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" name="geography" value="Other" id="geo-other">
+                      <label class="form-check-label" for="geo-other">Other (explain in coments)</label>
+                    </div>
                   </div>
 
                   <div class="form-group">
-                    <label>Topic focus</label>
+                    <label>Your cause's topic focus (a topic focus for your ad)</label>
 
                     <div class="form-check">
                       <input class="form-check-input" type="checkbox" name="audience" value="Data science and machine learning" id="datascience" {% if inbound_form_datascience %}checked{% endif %}>
@@ -83,14 +149,14 @@
                   </div>
 
                   <div class="form-group">
-                    <label for="advertising-goals">What are your advertising goals?</label>
-                    <textarea class="form-control" id="advertising-goals" name="advertising-goals" placeholder="I'm trying to promote the free trial of my product that helps with Docker and Kubernetes deployments to DevOps developers."></textarea>
+                    <label for="comments">Comments/Notes</label>
+                    <textarea class="form-control" id="comments" name="comments"></textarea>
                   </div>
 
                   <div class="form-group my-5">
-                    <input type="hidden" name="body" value="EthicalAds.io advertising inquiry" />
+                    <input type="hidden" name="body" value="EthicalAds.io community ad inquiry" />
                     {% if page %}<input type="hidden" name="url" value="{{ page.url }}" />{% endif %}
-                    <input type="submit" value="Get more info" class="btn btn-sm btn-primary">
+                    <input type="submit" value="Apply" class="btn btn-sm btn-primary">
                     <small class="form-text text-muted">We take privacy seriously and we don't share your email. You aren't going to be added to any mailing lists.</small>
                   </div>
                 </form>
@@ -104,3 +170,4 @@
 
   </div>
 </section>
+{% endblock content %}
