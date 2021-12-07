@@ -1,5 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds - posts</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/posts.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2021-11-30T00:00:00-08:00</updated><entry><title>EthicalAds providing free analytics with Simple Analytics</title><link href="https://www.ethicalads.io/blog/2021/11/ethicalads-providing-free-analytics-with-simple-analytics/" rel="alternate"></link><published>2021-11-30T00:00:00-08:00</published><updated>2021-11-30T00:00:00-08:00</updated><author><name>Eric Holscher</name></author><id>tag:www.ethicalads.io,2021-11-30:/blog/2021/11/ethicalads-providing-free-analytics-with-simple-analytics/</id><summary type="html">&lt;p&gt;EthicalAds is excited to be a part of the privacy-first ecosystem.
+<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds - posts</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/posts.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2021-12-07T00:00:00-08:00</updated><entry><title>Graphing Ad Data at EthicalAds</title><link href="https://www.ethicalads.io/blog/2021/12/graphing-ad-data-at-ethicalads/" rel="alternate"></link><published>2021-12-07T00:00:00-08:00</published><updated>2021-12-07T00:00:00-08:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2021-12-07:/blog/2021/12/graphing-ad-data-at-ethicalads/</id><summary type="html">&lt;p&gt;Respecting user privacy doesn't mean flying blind.
+While we don't track or store personal data at EthicalAds,
+running an ad …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Respecting user privacy doesn't mean flying blind.
+While we don't track or store personal data at EthicalAds,
+running an ad network does generate a ton of data!
+This is data like the publishers where certain ads perform best
+or the best time of day or region to run certain ads.&lt;/p&gt;
+&lt;p&gt;However, the data was a bit hard to explore,
+let alone creating and telling a compelling story from the data.
+It was tied up in PostgreSQL and usually required complex joins
+to get at anything meaningful.
+We knew the data we were collecting could help us understand and improve our product,
+but exploring our data, understanding it,
+and presenting it to our advertisers, publishers, or even just ourselves was hard.&lt;/p&gt;
+&lt;h2 id="business-intelligence-more-than-just-an-oxymoron"&gt;Business intelligence - more than just an oxymoron&lt;/h2&gt;
+&lt;p&gt;We knew we needed a tool to bridge the gap between what we had and what we wanted to know.
+Ideally, it could help us with exploration, tracking our key performance indicators,
+and presenting data to our advertisers, publishers, and ourselves.&lt;/p&gt;
+&lt;p&gt;We gave &lt;a href="https://www.metabase.com/?ref=ethicalads.io"&gt;Metabase&lt;/a&gt; a try
+on a glowing recommendation from &lt;a href="https://twitter.com/coderberry"&gt;Eric Berry&lt;/a&gt;,
+who previously founded CodeFund, another company dedicated to ethical advertising.
+Eric raved about Metabase and used it in CodeFund's product before it shut down.&lt;/p&gt;
+&lt;p&gt;Maybe as developers we have an implicit bias against data analysis and BI tools
+or maybe it's just me and I hadn't found one I liked.
+However, after trying Metabase, I was hooked.
+You could explore data with or without SQL, share graphs with coworkers,
+and there was an easy and secure way to embed them into or product.
+Lastly, this never impacts production since our setup exclusively connects to a read-replica.&lt;/p&gt;
+&lt;div class="postimage text-center"&gt;
+  &lt;img class="w-75" src="https://www.ethicalads.io/images/posts/2021-dashboard-screenshot-graphs.png" alt="A screenshot of the EthicalAds dashboard with an embedded Metabase graph"&gt;
+  &lt;p&gt;The EthicalAds dashboard with an embedded Metabase graph&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;In about a week, we went from no data stack at all,
+to taking visualizations from the exploration stage right into production.
+It was easy to explore our data and there was a nice way to embed
+graphs and charts directly into our ad server for advertisers and publishers.
+It also became an invaluable way to track our business KPIs.
+Metabase is the perfect tool for a small team like ours.&lt;/p&gt;
+&lt;h2 id="data-we-have-yet-to-explore"&gt;Data we have yet to explore&lt;/h2&gt;
+&lt;p&gt;A few months back, we started collecting data on how long an ad is on the screen (we call it "view time").
+We think this is a really valuable metric in understanding what leads to clickthroughs
+and we think that advertisers will really like it.
+Advertisers routinely tell us they love all the data we share with them
+and that other networks are far less transparent.&lt;/p&gt;
+&lt;p&gt;Over the next couple months, we'll be diving into this and other data.
+Hopefully we'll have some great insights to share.&lt;/p&gt;</content><category term="posts"></category><category term="graphing"></category><category term="business"></category><category term="kpis"></category></entry><entry><title>EthicalAds providing free analytics with Simple Analytics</title><link href="https://www.ethicalads.io/blog/2021/11/ethicalads-providing-free-analytics-with-simple-analytics/" rel="alternate"></link><published>2021-11-30T00:00:00-08:00</published><updated>2021-11-30T00:00:00-08:00</updated><author><name>Eric Holscher</name></author><id>tag:www.ethicalads.io,2021-11-30:/blog/2021/11/ethicalads-providing-free-analytics-with-simple-analytics/</id><summary type="html">&lt;p&gt;EthicalAds is excited to be a part of the privacy-first ecosystem.
 We provide our publishers a revenue stream without compromising …&lt;/p&gt;</summary><content type="html">&lt;p&gt;EthicalAds is excited to be a part of the privacy-first ecosystem.
 We provide our publishers a revenue stream without compromising the privacy of their users,
 and we love supporting those sites moving away from any kind of tracking.&lt;/p&gt;
