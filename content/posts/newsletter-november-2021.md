@@ -46,40 +46,6 @@ The major features in our upcoming roadmap:
 * Improved keyword detection in the ad client.
 
 
-Thanks again for being along with us on this journey to build an ethical ad network.
-Please [email us](mailto:ads@ethicalads.io) if you have any ideas or feedback on our product or roadmap,
-we always love to hear from you.
-
-
-## Tricky bits
-
-We continue expanding our network by onboarding new publishers.
-To accomplish this, we're focusing on raising the eCPM in a variety of ways.
-Firstly we raised the prices this quarter on our highest demand traffic.
-Secondly, we're phasing out CPC or Cost Per Click pricing.
-This ensures our publishers get paid for their views and
-incentivizes our advertisers to craft high performing, attractive ads.
-
-You can see our progress by observing the increase of our publisher payouts over time:
-
-<div class="postimage">
-  <img class="w-100" src="{static}../images/charts/2021-october-publisherpayouts.png" alt="Monthly payouts of our publishers over time">
-  <p>Monthly payouts of our publishers over time.</p>
-</div>
-
-If you're looking to monetize your site or indy project
-while respecting your audience's privacy,
-[get in touch]({filename}../pages/publishers.md#inbound-form)!
-
-## Upcoming features
-
-The major features in our upcoming roadmap:
-
-* Improved graphs in the ad server for advertisers and publishers.
-* Adding view time reporting to ensure high quality views are counted as such.
-* Highlighting our 10% discount on ad buys over $3000 in the flight report page.
-* Infrastructure improvements to better manage our load and isolate reporting from our live transactional data.
-
 
 Thanks again for being along with us on this journey to build an ethical ad network.
 Please [email us](mailto:ads@ethicalads.io) if you have any ideas or feedback on our product or roadmap,
