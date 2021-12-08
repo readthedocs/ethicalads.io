@@ -12,7 +12,7 @@ image_credit: <span>Photo by our founder <a href="https://twitter.com/ericholsch
 These are the major features we released in the last month:
 
 * Rolled out our new [floating ad](https://ethical-ad-client.readthedocs.io/en/latest/#placement-style) type for all publishers as well as implemented its usage on Read the Docs' [own documentation](https://docs.readthedocs.io/en/stable/). This is an opt-in feature that publishers can choose if they want a floating ad in the corner which is a pretty common setup.
-* Added a stripe integration so advertisers can view previous invoices in the client. 
+* Added a stripe integration so advertisers can view previous invoices. 
 * Clarified flight completion/budget remaining progress bar. 
 * Made some infrastructure improvements to better manage our load and isolate reporting from our live transactional data.
 
