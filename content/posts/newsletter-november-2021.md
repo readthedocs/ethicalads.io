@@ -1,11 +1,12 @@
 Title: EthicalAds Newsletter - November 2021
-Date: December 8, 2021
+Date: December 10, 2021
 description: Updates from November, including stats and commentary on our progress as we build EthicalAds
 tags: newsletter, community
 authors: Ra Cohen
 image: /images/posts/2021-november-newsletter.jpg
-image_credit: <span>Photo by our founder <a href="https://twitter.com/ericholscher?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Eric Holscher</a></span>
+image_credit: <span>The EthicalAds team: Eric, Ra, and David</span>
 
+Last month we were able to get the whole ads team together for our first ever in-person EthicalAds meetup! 
 
 ## New features
 
