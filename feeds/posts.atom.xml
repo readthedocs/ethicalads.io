@@ -1,5 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds - posts</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/posts.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2021-12-07T00:00:00-08:00</updated><entry><title>Graphing Ad Data at EthicalAds</title><link href="https://www.ethicalads.io/blog/2021/12/graphing-ad-data-at-ethicalads/" rel="alternate"></link><published>2021-12-07T00:00:00-08:00</published><updated>2021-12-07T00:00:00-08:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2021-12-07:/blog/2021/12/graphing-ad-data-at-ethicalads/</id><summary type="html">&lt;p&gt;Respecting user privacy doesn't mean flying blind.
+<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds - posts</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/posts.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2021-12-10T00:00:00-08:00</updated><entry><title>EthicalAds Newsletter - November 2021</title><link href="https://www.ethicalads.io/blog/2021/12/ethicalads-newsletter-november-2021/" rel="alternate"></link><published>2021-12-10T00:00:00-08:00</published><updated>2021-12-10T00:00:00-08:00</updated><author><name>Ra Cohen</name></author><id>tag:www.ethicalads.io,2021-12-10:/blog/2021/12/ethicalads-newsletter-november-2021/</id><summary type="html">&lt;p&gt;Last month we were able to get the whole ads team together for our first ever in-person EthicalAds meetup! &lt;/p&gt;
+&lt;h2 id="new-features"&gt;New …&lt;/h2&gt;</summary><content type="html">&lt;p&gt;Last month we were able to get the whole ads team together for our first ever in-person EthicalAds meetup! &lt;/p&gt;
+&lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
+&lt;p&gt;These are the major features we released in the last month:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Rolled out our new &lt;a href="https://ethical-ad-client.readthedocs.io/en/latest/#placement-style"&gt;floating ad&lt;/a&gt; type for all publishers as well as implemented its usage on Read the Docs' &lt;a href="https://docs.readthedocs.io/en/stable/"&gt;own documentation&lt;/a&gt;. This is an opt-in feature that publishers can choose if they want a floating ad in the corner which is a pretty common setup.&lt;/li&gt;
+&lt;li&gt;Added a stripe integration so advertisers can view previous invoices. &lt;/li&gt;
+&lt;li&gt;Clarified flight completion/budget remaining progress bar. &lt;/li&gt;
+&lt;li&gt;Made some infrastructure improvements to better manage our load and isolate reporting from our live transactional data.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can always see our latest server updates in our &lt;a href="https://ethical-ad-server.readthedocs.io/en/latest/developer/changelog.html"&gt;ethical-ad-server changelog&lt;/a&gt; and &lt;a href="https://ethical-ad-client.readthedocs.io/en/latest/changelog.html"&gt;ethical-ad-client changelog&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="november-advertising-stats"&gt;November advertising stats&lt;/h2&gt;
+&lt;p&gt;In November 2021:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We generated &lt;strong&gt;$34,679.11&lt;/strong&gt; for our publishers.&lt;/li&gt;
+&lt;li&gt;We had &lt;strong&gt;102 publishers&lt;/strong&gt; on our network with at least one paid ad impression.&lt;/li&gt;
+&lt;li&gt;We had &lt;strong&gt;19,103,581&lt;/strong&gt; paid ad views across the world.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Given that November has a US holiday in it, 
+we expected a drop in revenue and views. 
+Imagine our surprise to see that our revenue actually increased in November by just over 8%!&lt;/p&gt;
+&lt;h2 id="tricky-bits"&gt;Tricky bits&lt;/h2&gt;
+&lt;p&gt;The holidays tend to slow down traffic and thus ad views/revenue across the world.
+We are expecting a decrease in our key performance metrics as the year wraps up. &lt;/p&gt;
+&lt;h2 id="upcoming-features"&gt;Upcoming features&lt;/h2&gt;
+&lt;p&gt;The major features in our upcoming roadmap:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Improved graphs in the ad server for advertisers and publishers.&lt;/li&gt;
+&lt;li&gt;Adding view time reporting to ensure high quality views are counted as such.&lt;/li&gt;
+&lt;li&gt;Highlighting our 10% discount on ad buys over $3000 in the flight report page.&lt;/li&gt;
+&lt;li&gt;Improved keyword detection in the ad client.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thanks again for being along with us on this journey to build an ethical ad network.
+Please &lt;a href="mailto:ads@ethicalads.io"&gt;email us&lt;/a&gt; if you have any ideas or feedback on our product or roadmap,
+we always love to hear from you.&lt;/p&gt;</content><category term="posts"></category><category term="newsletter"></category><category term="community"></category></entry><entry><title>Graphing Ad Data at EthicalAds</title><link href="https://www.ethicalads.io/blog/2021/12/graphing-ad-data-at-ethicalads/" rel="alternate"></link><published>2021-12-07T00:00:00-08:00</published><updated>2021-12-07T00:00:00-08:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2021-12-07:/blog/2021/12/graphing-ad-data-at-ethicalads/</id><summary type="html">&lt;p&gt;Respecting user privacy doesn't mean flying blind.
 While we don't track or store personal data at EthicalAds,
 running an ad …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Respecting user privacy doesn't mean flying blind.
 While we don't track or store personal data at EthicalAds,
