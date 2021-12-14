@@ -137,29 +137,7 @@
 
 <!-- FAQ -->
 <!-- ================================================== -->
-<section class="container py-5">
-  <div class="row mb-5">
-    <div class="col-md-6">
-      <h4 class="font-weight-bold" id="faq-payments">How can I be paid?</h4>
-      <p>
-        We support monthly payment via <strong>PayPal, Open Collective, and bank transfer (Stripe connect)</strong>.
-        Our minimum payment to publishers is $50,
-        as which point we'll process a payment to you.
-        See our full <a href="/publisher-policy/#payouts">Payout Policy</a> for more detail.
-    </div>
-    <div class="col-md-6">
-      <h4 class="font-weight-bold" id="faq-how-much">How much will I make?</h4>
-      <p>
-        Revenue will vary based on the location of your audience.
-        <strong>Generally publishers see around $2.00 per 1,000 pageviews</strong> (CPM),
-        assuming a majority US and European traffic.
-      </p>
-    </div>
-  </div>
-  <p class="mt-6 text-center">
-      Have more questions? Our <a href="/publishers/faq/">Publisher FAQ</a> has more answers!
-  </p>
-</section>
+{% include 'ea/includes/landing-faq.html' %}
 
 
 <section class="inbound-form bg-gray-200 py-10" id="inbound-form">
