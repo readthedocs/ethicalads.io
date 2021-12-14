@@ -57,7 +57,7 @@ In addition, our roadmap this month includes:
 
 * A number of reporting improvements for both advertisers and publishers, to better understand their traffic.
 * Adapt Read the Docs to use our [official ad client](https://ethical-ad-client.readthedocs.io/en/latest/) instead of the custom integration we have now.
-* Trademark "Ethical Ads", now that we are using it as a brand. We hope we will be able to get it, otherwise we might need to consider a re-brand.
+* Trademark "EthicalAds", now that we are using it as a brand. We hope we will be able to get it, otherwise we might need to consider a re-brand.
 * Additional publisher & advertiser landing pages. We hope to build topic-specific pages to share more information for specific audiences on these pages.
 * Get testimonials from our users. We have now been serving network ads for close to 3 months, so we should have some happy customers now :)
 
