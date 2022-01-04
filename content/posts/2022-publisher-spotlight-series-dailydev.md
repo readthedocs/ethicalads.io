@@ -8,7 +8,7 @@ image: /images/posts/2022-publisher-spotlight-dailydev.jpg
 
 <figure>
     <figcaption>Listen to this interview:</figcaption>
-    <audio controls src="/audio/Publisher Spotlight - DailyDev with Ido Shamun.mp3">
+    <audio controls src="/audio/content/audio/publisher-spotlight-ido-shamun-dailydev.mp3">
             Your browser does not support the <code>audio</code> element.
     </audio>
 </figure>
@@ -394,7 +394,7 @@ It's coming up. Every time I say that I sort of scare myself a little bit.
 I know it's like just two weeks away**
 
 **I guess we're recording this in December,
-although it probably won't go live until january, just a meta discussion,
+although it probably won't go live until January, just a meta discussion,
 breaking down that third wall.
 Before I let you go,
 is there is there anything else you want to add,
