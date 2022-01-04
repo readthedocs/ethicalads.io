@@ -13,7 +13,7 @@ PATH = "content"
 # Directories are relative to PATH
 PAGE_PATHS = ["pages"]
 ARTICLE_PATHS = ["posts"]
-STATIC_PATHS = ["images", "prospectus"]
+STATIC_PATHS = ["images", "prospectus", "audio"]
 
 TIMEZONE = "US/Pacific"
 DEFAULT_LANG = "en"
