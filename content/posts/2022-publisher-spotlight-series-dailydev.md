@@ -14,6 +14,11 @@ image: /images/posts/2022-publisher-spotlight-dailydev.jpg
 </figure>
 
 
+*This is part of a new publisher spotlight series where we highlight publishers
+using EthicalAds and help them tell their story.
+This first episode is with Ido Shamun from [Daily.dev](https://daily.dev).*
+
+
 **David: Hello and and welcome to sort of the first episode of an EthicalAds podcast.
 I'd like to introduce my guest who is Ido Shamun, one of the founders of Daily.dev,
 which aims to be every developers homepage. Welcome Ido.**
