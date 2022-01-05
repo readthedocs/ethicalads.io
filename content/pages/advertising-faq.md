@@ -104,6 +104,18 @@ other URL parameters to know that the traffic came from your ad on
 our site.
 
 
+## How do I track conversions?
+
+Some other ad networks help advertisers to track conversions by using conversion pixels or beacons.
+These pixels are an image that advertisers can put on a conversion page.
+At EthicalAds, we don't use conversion pixels due to privacy concerns
+(see our guide on [surveillance advertising]({filename}/pages/learning-hub/surveillance-advertising.md)).
+Instead, to track conversions, use your existing conversion tracking mechanism such as analytics
+and rely on UTM or other parameters added to your ad destination link.
+Keep in mind that our audience is a little more privacy-focused than the general public
+and JavaScript-based conversion metrics like Google Analytics can understate true conversions.
+
+
 ## How are my ads scheduled?
 
 We attempt to schedule advertising evenly based on the length and
