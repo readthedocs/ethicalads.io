@@ -9,7 +9,7 @@ image_credit: <span>Photo by <a href="https://unsplash.com/@aaronburden?utm_sour
 
 ## New features
 
-Happy New Years! Here are the major features we released in the last month:
+Happy New Year! Here are the major features we released in the last month:
 
 * Rolled out our new [floating ad](https://ethical-ad-client.readthedocs.io/en/latest/#placement-style) type for all of the projects on Read the Docs.
 * Debuted the beta for our [sponsorship platform](https://www.ethicalads.io/sponsorship-platform/).
