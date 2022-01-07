@@ -25,7 +25,7 @@ In December 2021:
 * We had **102 publishers** on our network with at least one paid ad impression.
 * We had **13,654,617** paid ad views across the world.
 
-As expected, our views did decrease precipitously during the Holidays,
+As expected, our views did decrease precipitously during the holidays,
 but our revenue was actually still larger than September's and fairly close to October's.
 Imagine our surprise to see that our revenue actually increased in November by just over 8%!
 
