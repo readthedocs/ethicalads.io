@@ -8,7 +8,7 @@ image: /images/posts/2022-publisher-spotlight-dailydev.jpg
 
 <figure>
     <figcaption>Listen to this interview:</figcaption>
-    <audio controls src="/audio/content/audio/publisher-spotlight-ido-shamun-dailydev.mp3">
+    <audio controls src="/audio/publisher-spotlight-ido-shamun-dailydev.mp3">
             Your browser does not support the <code>audio</code> element.
     </audio>
 </figure>
