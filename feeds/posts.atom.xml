@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds - posts</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/posts.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2022-01-06T00:00:00-08:00</updated><entry><title>Publisher Spotlight Series: Ido Shamun from Daily.dev</title><link href="https://www.ethicalads.io/blog/2022/01/publisher-spotlight-series-ido-shamun-from-dailydev/" rel="alternate"></link><published>2022-01-06T00:00:00-08:00</published><updated>2022-01-06T00:00:00-08:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2022-01-06:/blog/2022/01/publisher-spotlight-series-ido-shamun-from-dailydev/</id><summary type="html">&lt;figure&gt;
     &lt;figcaption&gt;Listen to this interview:&lt;/figcaption&gt;
-    &lt;audio controls src="/audio/content/audio/publisher-spotlight-ido-shamun-dailydev.mp3"&gt;
+    &lt;audio controls src="/audio/publisher-spotlight-ido-shamun-dailydev.mp3"&gt;
             Your browser does not support the &lt;code&gt;audio&lt;/code&gt; element.
     &lt;/audio&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;&lt;em&gt;This is part of a new publisher spotlight …&lt;/em&gt;&lt;/p&gt;</summary><content type="html">&lt;figure&gt;
     &lt;figcaption&gt;Listen to this interview:&lt;/figcaption&gt;
-    &lt;audio controls src="/audio/content/audio/publisher-spotlight-ido-shamun-dailydev.mp3"&gt;
+    &lt;audio controls src="/audio/publisher-spotlight-ido-shamun-dailydev.mp3"&gt;
             Your browser does not support the &lt;code&gt;audio&lt;/code&gt; element.
     &lt;/audio&gt;
 &lt;/figure&gt;
