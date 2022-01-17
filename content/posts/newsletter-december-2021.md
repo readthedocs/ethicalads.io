@@ -12,7 +12,6 @@ Happy New Year! December was a shorter month for us at EthicalAds so this update
 
 These are the major features we released in the last month:
 
-* Rolled out our new [floating ad](https://ethical-ad-client.readthedocs.io/en/latest/#placement-style) type for all of the projects on Read the Docs.
 * Debuted the beta for our [sponsorship platform](https://www.ethicalads.io/sponsorship-platform/).
 * Released our [advertising prospectus](https//www.ethicalads.io/prospectus/ethicalads-advertiser-prospectus.pdf) for 2022.
 
