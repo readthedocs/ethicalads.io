@@ -28,7 +28,7 @@ In December 2021:
 
 As expected, our views did decrease precipitously during the holidays (down around 40% from November),
 but our revenue only decreased by 8% over the same time.
-This was due in part to many pre-orders for January, 
+This was due mostly to some large, inexpensive campaigns wrapping up
 in addition to launching some highly targeted campaigns with a higher avergae CPM. 
 
 ## Tricky bits
