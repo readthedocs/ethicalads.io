@@ -36,7 +36,7 @@ in addition to launching some highly targeted campaigns with a higher avergae CP
 
 Onboarding new publishers remains our largest hurdle to growth.
 We're attempting to combat this by creating and sharing interesting new content,
-like our first [publisher interview](link) with the creator of daily.dev Ido Shamun.
+like our first [publisher interview](https://www.ethicalads.io/blog/2022/01/publisher-spotlight-series-ido-shamun-from-dailydev/) with the creator of daily.dev Ido Shamun.
 
 ## Upcoming features
 
