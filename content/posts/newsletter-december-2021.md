@@ -1,5 +1,5 @@
 Title: EthicalAds Newsletter - December 2021
-Date: Jan 7, 2022
+Date: Jan 17, 2022
 description: Updates from December, including stats and commentary on our progress as we build EthicalAds
 tags: newsletter, community
 authors: Ra Cohen
