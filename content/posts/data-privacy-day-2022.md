@@ -42,7 +42,7 @@ either blocks requests to those sites completely or just disables them from stor
 When thinking of privacy-first search engines, 
 your first thought may be [DuckDuckGo](https://duckduckgo.com/) and for good reason. 
 They've been a thought leader in the privacy-first movement since their founding in 2008 and 
-for over a decade have maintained their dedication raising awareness that maintaining individual user personal privacy is not only simple but approaching compulsory.
+have staked claim that search engines don't have to track users to be profitable.
 I'd especially like to shoutout their great blog called [Spread Privacy](https://spreadprivacy.com/) which is filled with
 bite-sized articles on everything from personally actionable privacy tips 
 to digests on the latest results from the privacy-focused research they're conducting. 
