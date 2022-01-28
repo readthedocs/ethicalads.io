@@ -13,7 +13,7 @@ To celebrate, we're helping you take charge of your own data by sharing some of 
 
 
 
-## Ad Blockers*
+## Ad Blockers
 
 I'd used [AdBlockPlus](https://adblockplus.org/) for years without much thought,
 before I joined EthicalAds and started considering the industry as a whole. 
