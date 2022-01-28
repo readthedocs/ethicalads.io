@@ -12,8 +12,9 @@ To celebrate, we're helping you take charge of your own data by sharing some of 
 ## Web Browsers
 
 With over 63% of the browser market across devices,
-Google Chrome is the dominant web browser.
-As it grew, however, I've become more conscious of the analytics, user profiling,
+Google Chrome is currently and overwelmingly the dominant web browser.
+I myself used their bleeding edge build, Canary, for over a decade.
+As Chrome grew, however, I've become more conscious of the analytics, user profiling,
 and other privacy intrusions built into Chrome.
 Maybe allowing a mega-corporation to know every single intimate detail of my life 
 isn't necessarily a good thing. Who knew? 
