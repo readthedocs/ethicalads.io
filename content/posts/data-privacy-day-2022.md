@@ -11,12 +11,10 @@ To celebrate, we're helping you take charge of your own data by sharing some of 
 
 ## Web Browsers
 
-An industry titan at over 63% of all global browser market share across devices, 
-Google's [Chrome](https://www.google.com/chrome/) has long been the defacto browser of choice. 
-Before I even learned to code, I opted to run their bleeding edge Chrome build aimed at developers, 
-[Canary](https://www.google.com/chrome/canary/), in an effort to help make chrome better 
-by allowing them to collect all sorts of usage statistics and other data. 
-However, like many others I've become a lot more privacy concious over the last 10 years. 
+With over 63% of the browser market across devices,
+Google Chrome is the dominant web browser.
+As it grew, however, I've become more conscious of the analytics, user profiling,
+and other privacy intrusions built into Chrome.
 Maybe allowing a mega-corporation to know every single intimate detail of my life 
 isn't necessarily a good thing. Who knew? 
 Luckily for Chrome die-hards, there is another Chrome build which doesn't funnel 
