@@ -11,6 +11,27 @@ To celebrate, we're helping you take charge of your own data by sharing some of 
 
 ## Web Browsers
 
+An industry titan at over 63% of all global browser market share across devices, 
+Google's [Chrome](https://www.google.com/chrome/) has long been the defacto browser of choice. 
+Before I even learned to code, I opted to run their bleeding edge chrome build aimed at developers, 
+[Canary](https://www.google.com/chrome/canary/), in an effort to help make chrome better 
+by allowing them to collect all sorts of usage statistics and other data. 
+However, like many others I've become a lot more privacy concious over the last 10 years. 
+Maybe allowing a mega-corporation to know every single intimate detail of my life 
+isn't necessarily a good thing. Who knew? 
+Luckily for Chrome die-hards, there is another chrome build which doesn't funnel 
+everything you've ever looked at back to the mothership, the open source
+[Chromium](https://www.chromium.org/Home/), the code upon which Chrome is built. 
+Google maintains the codebase, documentation, and [download site](https://download-chromium.appspot.com/),
+but as open source projects are wont to do, 
+Chromium has expanded into hundreds if not thousands of splinter projects and companies.
+There's an entire section on the Chromium wikipedia page dedicated to [browsers based on Chromium](https://en.wikipedia.org/wiki/Chromium_(web_browser)#Browsers_based_on_Chromium).
+Many of which are privacy-focused browsers like [Vivaldi](https://vivaldi.com/) and the [Avast Secure Browser](https://www.avast.com/secure-browser) and amusingly,
+some of these browsers that were originally created independently and have since swapped over to being chromium-based 
+are older than Google itself like [Opera](https://www.opera.com/) which predates Google by 3 years.
+Personally, I enjoy Opera's side-tab features that let me have things like my music 
+or discord open without the need for another window.
+Plus my tracker-blocker supports Opera so win-win!
 
 
 ## Ad Blockers
@@ -35,6 +56,7 @@ However, since most ad networks track users, it ends up blocking most ads (but n
 Privacy Badger also [doesn't rely](https://privacybadger.org/#How-does-Privacy-Badger-work) on suppression lists which is how most ad blockers work. 
 Instead, it learns based on the sites you visit which sites are tracking you across domains and then 
 either blocks requests to those sites completely or just disables them from storing cookies or other storage like local storage.
+Privacy Badger is supported on Firefox, Chrome, Microsoft Edge, and Opera so if you're running one of those, definitely check it out. 
 
 
 ## Search Engines
@@ -103,7 +125,11 @@ You can read more about our shared offer as well as how to sign up on our [partn
 
 ## Conclusion 
 
-
+Data Privacy Day is a fairly new holiday, 
+but we are thrilled to be in the privacy-first movement, 
+and happy to take the opportunity to shed a spotlight on some other privacy-projects who are doing great things. 
+We've only scratched the surface of the privacy-tech ecosystem here,
+but every single product discussed has been used by one of us at EthicalAds. 
 
 
 
