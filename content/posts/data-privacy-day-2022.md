@@ -127,7 +127,7 @@ You can read more about our shared offer as well as how to sign up on our [partn
 
 Data Privacy Day is a fairly new holiday, 
 but we are thrilled to be in the privacy-first movement, 
-and happy to take the opportunity to shed a spotlight on some other privacy-projects who are doing great things. 
+and happy to take the opportunity to shed a spotlight on some other privacy-first projects who are doing great things. 
 We've only scratched the surface of the privacy-tech ecosystem here,
 but every single product discussed has been used by one of us at EthicalAds. 
 
