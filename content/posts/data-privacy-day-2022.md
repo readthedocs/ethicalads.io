@@ -17,16 +17,17 @@ As it grew, however, I've become more conscious of the analytics, user profiling
 and other privacy intrusions built into Chrome.
 Maybe allowing a mega-corporation to know every single intimate detail of my life 
 isn't necessarily a good thing. Who knew? 
-Luckily for Chrome die-hards, there is another Chrome build which doesn't funnel 
-everything you've ever looked at back to the mothership, the open source
-[Chromium](https://www.chromium.org/Home/), the code upon which Chrome is built. 
+Lucky for decades-long former Chrome users, there's another Chrome build which doesn't funnel 
+everything you've ever looked at back to the mothership. 
+
+The open source [Chromium](https://www.chromium.org/Home/) is actually the code upon which Chrome is built. 
 Google maintains the codebase, documentation, and [download site](https://download-chromium.appspot.com/),
 but as open source projects are wont to do, 
 Chromium has expanded into hundreds if not thousands of splinter projects and companies.
-There's an entire section on the Chromium wikipedia page dedicated to [browsers based on Chromium](https://en.wikipedia.org/wiki/Chromium_(web_browser)#Browsers_based_on_Chromium).
-Many of which are privacy-focused browsers like [Vivaldi](https://vivaldi.com/) and the [Avast Secure Browser](https://www.avast.com/secure-browser) and amusingly,
-some of these browsers that were originally created independently and have since swapped over to being chromium-based 
-are older than Google itself like [Opera](https://www.opera.com/) which predates Google by 3 years.
+There's an entire section on the Chromium wikipedia page featuring the largest [browsers based on Chromium](https://en.wikipedia.org/wiki/Chromium_(web_browser)#Browsers_based_on_Chromium).
+Many of which are privacy-focused browsers like [Vivaldi](https://vivaldi.com/) and the [Avast Secure Browser](https://www.avast.com/secure-browser).
+Amusingly, some of these browsers were originally created independently and have since swapped over to being chromium-based. 
+Some now chromium browsers older than Google itself like [Opera](https://www.opera.com/) which predates Google by 3 years.
 Personally, I enjoy Opera's side-tab features that let me have things like my music 
 or discord open without the need for another window.
 Plus my tracker-blocker supports Opera so win-win!
