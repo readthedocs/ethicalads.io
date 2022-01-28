@@ -13,7 +13,7 @@ To celebrate, we're helping you take charge of your own data by sharing some of 
 
 An industry titan at over 63% of all global browser market share across devices, 
 Google's [Chrome](https://www.google.com/chrome/) has long been the defacto browser of choice. 
-Before I even learned to code, I opted to run their bleeding edge chrome build aimed at developers, 
+Before I even learned to code, I opted to run their bleeding edge Chrome build aimed at developers, 
 [Canary](https://www.google.com/chrome/canary/), in an effort to help make chrome better 
 by allowing them to collect all sorts of usage statistics and other data. 
 However, like many others I've become a lot more privacy concious over the last 10 years. 
