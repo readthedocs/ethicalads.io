@@ -95,7 +95,7 @@ up-and-coming open source developers, technical tutorial creators, or data is be
 This is where our second privacy-preserving analytics recommendation shines.
 [Simple Analytics](https://simpleanalytics.com/?ref=ethicalads-blog) is a privacy-first analytics product designed specifically for *developers*. Sound familiar? 
 The resonance between the EthicalAds' [Our Ad Vision](https://www.ethicalads.io/advertising-vision/?ref=data-privacy-day-2022) and 
-Simple Analytic's [Our Promise](https://simpleanalytics.com/our-promise) page is astounding. 
+Simple Analytics' [Our Promise](https://simpleanalytics.com/our-promise) page is astounding. 
 We've thus partnered together to further the growth of the privacy-first movement
 by supporting growing dev creators of all sizes to employ **free privacy-first analytics** on their sites. 
 You can read more about our shared offer as well as how to sign up on our [partnership announcement blog post](https://www.ethicalads.io/blog/2021/11/ethicalads-providing-free-analytics-with-simple-analytics/?ref=data-privacy-day-2022).
