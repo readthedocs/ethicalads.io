@@ -1,4 +1,4 @@
-Title: Data Privacy Day 2022 - 6 Privacy-first Alternatives
+Title: Data Privacy Day 2022 - 6+ Privacy-first Alternatives
 Date: January 28, 2022
 description: In celebration of data privacy day, we discuss some of the privacy-first products that we actually use.
 tags: privacy, community
