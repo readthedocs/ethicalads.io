@@ -19,7 +19,7 @@ by allowing them to collect all sorts of usage statistics and other data.
 However, like many others I've become a lot more privacy concious over the last 10 years. 
 Maybe allowing a mega-corporation to know every single intimate detail of my life 
 isn't necessarily a good thing. Who knew? 
-Luckily for Chrome die-hards, there is another chrome build which doesn't funnel 
+Luckily for Chrome die-hards, there is another Chrome build which doesn't funnel 
 everything you've ever looked at back to the mothership, the open source
 [Chromium](https://www.chromium.org/Home/), the code upon which Chrome is built. 
 Google maintains the codebase, documentation, and [download site](https://download-chromium.appspot.com/),
