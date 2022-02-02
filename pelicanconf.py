@@ -58,7 +58,7 @@ MENUITEMS = [
     ("Advertisers", "/advertisers/"),
     ("Publishers", "/publishers/"),
 ]
-MENUITEMS_CTA = [("Monetize your site", "/publishers/")]
+MENUITEMS_CTA = [("Advertise with Us", "/advertisers/")]
 
 # URL settings
 # https://docs.getpelican.com/en/stable/settings.html#url-settings
