@@ -14,7 +14,7 @@ These are the major features we released in the last month:
 * In the ad server, we've added tighter Stripe integrations for our advertisers to view
   previous invoices.
 * We also revamped our keyword aggregation algorithms to run much faster and more reliably.
-* A publisher's view rate is now displayed in their publisher portal as a key indicator of  their placement quality. 
+* A publisher's view rate is now displayed in their publisher portal as a key indicator of their placement quality. View rate is the number of times an ad is viewed, which is higher when it's more visible on the page. It will likely never be 100%, since some users will close the browser after requesting an ad, but before it is displayed.
 * Upgraded to Python 3.8 along with many other small bug fixes.
 
 You can always see our latest server updates in our [ethical-ad-server changelog](https://ethical-ad-server.readthedocs.io/en/latest/developer/changelog.html) and [ethical-ad-client changelog](https://ethical-ad-client.readthedocs.io/en/latest/changelog.html).
