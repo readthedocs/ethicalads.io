@@ -10,7 +10,7 @@ Advertising with EthicalAds is no different.
 ​
 ## Topic-targeting at a glance
 While virtually all of EthicalAds' visitors are software developers,
-our visitors have a plethora of technical foci.
+our visitors have many different topics of interest.
 ![A breakdown of our topic views in February of 2022](../images/pages/learning-hub/topic-breakdown.png){class="w-100"}
 
 ​
