@@ -25,7 +25,7 @@ Advertising with EthicalAds is no different.
 
 ​
 ### Topic breakdown
-![A breakdown of our topic views in February of 2022](../images/pages/learning-hub/topic-breakdown.png){style="width: 100%"}
+![A breakdown of our topic views in February of 2022](../images/pages/learning-hub/topic-breakdown.png){class="w-100"}
 
 ​
 
