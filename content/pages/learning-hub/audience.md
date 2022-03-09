@@ -7,13 +7,18 @@ The best ads and ad campaigns know exactly who their audience is
 and how to guide them toward the desired action.
 Advertising with EthicalAds is no different.
 
+​
+## Topic-targeting at a glance
+While virtually all of EthicalAds' visitors are software developers,
+our visitors have many different topics of interest.
+![A breakdown of our topic views in February of 2022](../images/pages/learning-hub/topic-breakdown.png){class="w-100"}
 
-## Demographic breakdown
+​
 
-* While virtually all of EthicalAds' visitors are software developers,
-  these developers have varying skill level and interests.
-* Across the EthicalAds network our **peak usage is during business hours**.
-  Many of our users are viewing our ads during the regular course of their jobs.
+* The EthicalAds network is particularly popular in the Python community (~60% of all pageviews mention **Python**).
+* Our 5 main topic groupings, *frontend*, *backend*, *devops*, *data science*, and *security/privacy* account for over **80% of our pageviews**
+  and is a fast and effect way to connect you with [your relevent audience](https://www.ethicalads.io/advertisers/?ref=our-audience#audiences).
+
 
 
 ## Geographic breakdown
@@ -22,10 +27,6 @@ Advertising with EthicalAds is no different.
   with about a third each coming from the Americas, Asia, and Europe.
   Our largest traffic source countries are the USA + Canada (~22%), the United Kingdom + France + Germany (~13.5%), and India (~10%).
 * While many pages are localized, over **90% of views are for English language pages**.
-
-
-## Topic breakdown
-
-* The EthicalAds network is particularly popular in the Python community (~60% of pageviews).
-* Our four topic groupings cover around 95% of all pages served.
-  Frontend is the most popular (~43%) followed by backend (~32%), data science (~15%), and devops (~15%).
+* Normalizing for timezones, the EthicalAds network's **peak usage is during business hours** as
+  many of our users are viewing our ads while actively debugging code or looking for a new technical solution
+  in the regular course of their job.
