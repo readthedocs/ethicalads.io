@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds - posts</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/posts.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2022-02-10T00:00:00-08:00</updated><entry><title>EthicalAds Newsletter - January 2022</title><link href="https://www.ethicalads.io/blog/2022/02/ethicalads-newsletter-january-2022/" rel="alternate"></link><published>2022-02-10T00:00:00-08:00</published><updated>2022-02-10T00:00:00-08:00</updated><author><name>Ra Cohen</name></author><id>tag:www.ethicalads.io,2022-02-10:/blog/2022/02/ethicalads-newsletter-january-2022/</id><summary type="html">&lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds - posts</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/posts.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2022-03-08T00:00:00-08:00</updated><entry><title>Floating Ad Placements in our Ad Client</title><link href="https://www.ethicalads.io/blog/2022/03/floating-ad-placements-in-our-ad-client/" rel="alternate"></link><published>2022-03-08T00:00:00-08:00</published><updated>2022-03-08T00:00:00-08:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2022-03-08:/blog/2022/03/floating-ad-placements-in-our-ad-client/</id><summary type="html">&lt;p&gt;A couple of months ago, we began testing a new feature in our ad client
+that enabled users to quickly …&lt;/p&gt;</summary><content type="html">&lt;p&gt;A couple of months ago, we began testing a new feature in our ad client
+that enabled users to quickly and easily add a floating ad placement
+to their site without having to write custom code.
+Today, we're announcing this feature is available to any publisher.&lt;/p&gt;
+&lt;h2 id="floating-placements-perform"&gt;Floating placements perform&lt;/h2&gt;
+&lt;p&gt;This new placement has been running about 10% of Read the Docs' ad traffic
+and all of the traffic on Read the Docs' &lt;a href="https://docs.readthedocs.io/en/stable/"&gt;own documentation&lt;/a&gt;.
+So far, the data has been very promising with ads leading to clickthroughs 31% more than our normal placement.
+Having ads that work without resorting to either personalized tracking
+or being intrusive is our core mission.
+Better performing ads result in happier advertisers and more money in independent publishers' pockets.&lt;/p&gt;
+&lt;h2 id="usage"&gt;Usage&lt;/h2&gt;
+&lt;p&gt;This feature is available to any publisher who wants to use it
+by setting the &lt;code&gt;data-ea-style="stickybox"&lt;/code&gt; attribute on their ad placement.
+For very wide screens, this will cause the advertisement to be in a dismissable
+box in the lower right corner (this can be styled with CSS).
+For screens below ultra wide, the ad will be a standard inline ad placement.&lt;/p&gt;
+&lt;p&gt;A number of publishers had requested this feature or had built it themselves
+for their own site and we wanted to have a base implementation available for all our publishers.
+See our &lt;a href="https://ethical-ad-client.readthedocs.io/en/latest/#stickybox"&gt;full documentation&lt;/a&gt; on the feature for details.&lt;/p&gt;
+&lt;p&gt;If there are features you're interested to see in our ad client,
+please &lt;a href="https://www.ethicalads.io/contact/"&gt;let us know&lt;/a&gt;.&lt;/p&gt;</content><category term="posts"></category><category term="ad-client"></category></entry><entry><title>EthicalAds Newsletter - January 2022</title><link href="https://www.ethicalads.io/blog/2022/02/ethicalads-newsletter-january-2022/" rel="alternate"></link><published>2022-02-10T00:00:00-08:00</published><updated>2022-02-10T00:00:00-08:00</updated><author><name>Ra Cohen</name></author><id>tag:www.ethicalads.io,2022-02-10:/blog/2022/02/ethicalads-newsletter-january-2022/</id><summary type="html">&lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
 &lt;p&gt;These are the major features we released in the last month:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;In the ad server, we've added tighter …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
