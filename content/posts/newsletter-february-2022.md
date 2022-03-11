@@ -4,7 +4,7 @@ description: Updates from February, including stats and commentary on our progre
 tags: newsletter, community
 authors: Ra Cohen
 image: /images/posts/2022-february-newsletter.jpg
-image_credit: <span>Photo by <a href="https://unsplash.com/@freestocks?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">freestocks</a> on <a href="https://unsplash.com/s/photos/winter?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>
+image_credit: <span>Photo by <a href="https://unsplash.com/@tracminhvu?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Trac Vu</a> on <a href="https://unsplash.com/s/photos/melting-ice?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>
 
 
 ## New features
