@@ -1,5 +1,5 @@
 Title: EthicalAds Newsletter - February 2022
-Date: March 10, 2022
+Date: March 14, 2022
 description: Updates from February, including stats and commentary on our progress as we build EthicalAds
 tags: newsletter, community
 authors: Ra Cohen
