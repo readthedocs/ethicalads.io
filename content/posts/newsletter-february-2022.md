@@ -14,6 +14,8 @@ These are the major features we released in the last month:
 * The [About Our Audience](https://www.ethicalads.io/our-audience/?ref=newsletter) page now features a snazzy graph depiting the volume of our traffic for each topic.
 * Rolled out the [floating ad placement](https://www.ethicalads.io/blog/2022/03/floating-ad-placements-in-our-ad-client/?ref=newsletter) to more domains on Read the Docs.
 * Optimized our aggregation algorithms to keep us informed regarding our network and traffic more rapidly than ever.
+* We made a number of performance optimizations to keep our ads serving as fast as possible.
+* We rolled out a change to use Cloudflare's geolocation in our ad targeting. This seemed a better way to keep up-to-date and also to avoid billing for ads where the geolocation can't be determined (eg. Tor).
 
 You can always see our latest server updates in our [ethical-ad-server changelog](https://ethical-ad-server.readthedocs.io/en/latest/developer/changelog.html) and [ethical-ad-client changelog](https://ethical-ad-client.readthedocs.io/en/latest/changelog.html).
 
