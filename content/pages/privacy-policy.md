@@ -3,7 +3,7 @@ description: The privacy policy for the EthicalAds server and network
 status: hidden
 
 
-Effective date: **July 23, 2020**
+Effective date: **March 18, 2022**
 
 Thanks for entrusting Read the Docs, Inc. ("EthicalAds", "we") with your advertising needs. Holding on to your private information is a serious responsibility, and we want you to know how we're handling it.
 
@@ -77,7 +77,7 @@ We may use your information for the following purposes:
 ## Our legal basis for processing information
 To the extent that our processing of your User Personal Information is subject to certain international laws (including, but not limited to, the European Union's General Data Protection Regulation (GDPR)), EthicalAds is required to notify you about the legal basis on which we process User Personal Information. EthicalAds processes User Personal Information on the following legal bases:
 
-* **Contract Performance:** When you create a EthicalAds Account, you provide your Registration Information. We require this information for you to enter into the Terms of Service agreement with us, and we process that information on the basis of performing that contract. We also process your username and email address on other legal bases, as described below. If you have a paid Account with us, we collect and process additional Payment Information on the basis of performing that contract.
+* **Contract Performance:** When you create an EthicalAds Account, you provide your Registration Information. We require this information for you to enter into the Terms of Service agreement with us, and we process that information on the basis of performing that contract. We also process your username and email address on other legal bases, as described below. If you have a paid Account with us, we collect and process additional Payment Information on the basis of performing that contract.
 * **Consent:** We rely on your consent to use your User Personal Information under the following circumstances: when you fill out the information in your user profile; when you decide to participate in a EthicalAds training, research project, beta program, or survey; and for marketing purposes, where applicable. All of this User Personal Information is entirely optional, and you have the ability to access, modify, and delete it at any time.
 * **Legitimate Interests:** Generally, the remainder of the processing of User Personal Information we perform is necessary for the purposes of our legitimate interest, for example, for legal compliance purposes, security purposes, or to maintain ongoing confidentiality, integrity, availability, and resilience of EthicalAds' systems, Website, and Service.
 
@@ -106,9 +106,10 @@ As we mentioned, we may share some information with third party vendors or it ma
 
 
 * **Payment processing** Should you choose to become an advertiser or publisher on EthicalAds, we will need payment information to process your interaction with us. EthicalAds does not store sensitive payment information directly. This information will be processed by Stripe. For payouts to publishers, the publisher can choose the payment method from a supported list including PayPal, OpenCollective, or others. Those providers will process payments.
-* **Site monitoring** EthicalAds uses Sentry and New Relic to diagnose errors and improve the performance of our site. Both companies take part in the EU-US Privacy Shield framework. We aim to minimize the amount of personal information shared, but the information may include your IP address.
+* **Site monitoring** EthicalAds uses Sentry and New Relic to diagnose errors and improve the performance of our site.
 * **Support desk** EthicalAds uses Front to manage support requests. If you request support – typically via email – Front may process your contact information.
 * **Email newsletter** If you sign up for the [EthicalAds email newsletter](https://ethicalads.us17.list-manage.com/subscribe?u=ca5e74de3ea2867d373058271&id=5746f18bb8), your email address and name will be stored by Mailchimp. This newsletter is separate from creating an account and signing up for EthicalAds does not opt you in for the newsletter. You can manage your email subscription including unsubscribing and deleting your records with Mailchimp. There is a link to do so in the footer of any newsletter you receive from us.
+* **Analytics** On our marketing pages and when actually visiting our ad server (but not when simply viewing and clicking on ads), we use [Plausible](https://plausible.io/) for analytics. Plausible is a privacy-focused analytics provider that does not use cookies or retain any personal data on users.
 
 
 <!-- Cookies and Tracking -->
