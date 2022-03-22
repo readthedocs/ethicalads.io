@@ -14,34 +14,32 @@ module.exports = {
   module: {
     rules: [
       {
+        // https://webpack.js.org/guides/asset-management/#loading-fonts
+        test: /\.(woff|woff2|eot|ttf|otf)$/i,
+        type: 'asset/resource',
+      },
+      {
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: 'asset/resource',
+      },
+      {
         test: /\.s?css$/,
         use: [
           {
             loader: MiniCssExtractPlugin.loader,
             options: {
-              publicPath: path.resolve(__dirname, "./ethicalads-theme/static"),
+              publicPath: (resourcePath, context) => {
+                // publicPath is the relative path of the resource to the context
+                // e.g. for ./css/admin/main.css the publicPath will be ../../
+                // while for ./css/main.css the publicPath will be ../
+                // https://webpack.js.org/plugins/mini-css-extract-plugin/#the-publicpath-option-as-function
+                return path.relative(path.dirname(resourcePath), context) + "/theme/dist/";
+              },
             },
           },
           "css-loader",
           "sass-loader",
         ],
-      },
-      {
-        // the file-loader emits files directly to OUTPUT_DIR/fonts
-        test: /\.(woff(2)?|ttf|eot)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
-        loader: "file-loader",
-        options: {
-          name: "./fonts/[name].[ext]",
-        },
-      },
-      {
-        // Image loader
-        // the file-loader emits files directly to OUTPUT_DIR/img
-        test: /\.(png|gif|jpg|jpeg|svg)$/,
-        loader: "file-loader",
-        options: {
-          name: "./img/[name].[ext]",
-        },
       },
     ],
   },
