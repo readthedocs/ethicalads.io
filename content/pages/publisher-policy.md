@@ -3,9 +3,9 @@ description: The publisher policy for the EthicalAds server and network
 status: hidden
 
 Effective date: **August 19, 2020**
-Last updated: [April 23, 2021](https://github.com/readthedocs/ethicalads.io/commits/main/content/pages/publisher-policy.md)
+Last updated: [March 22, 2022](https://github.com/readthedocs/ethicalads.io/commits/main/content/pages/publisher-policy.md)
 
-The goal of this page is to set expectations between EthicalAds and our publishers about what is expected on each side.
+The goal of this page is to set expectations between EthicalAds and our publishers about what is expected for each of us.
 Our goal is for these to be easily understandable and fair,
 but we're always happy to have feedback on these terms.
 
@@ -21,17 +21,15 @@ but we expect publishers to stay within these guidelines at all times.
 
 We have the following rules around display of our ads:
 
-* Our ad should be the only ad on your site. We currently only allow a single EthicalAds ad per page, but are discussing how to support multiple. Promotion of your own content on your site is fine, as long as it's below our ad.
+* Our ad should be the only ad on your site. We currently only allow a single EthicalAds ad per page, but are discussing how to support multiple. Promotion of your own content or services on your site is fine, you just can't run be using other ad networks at the same time.
 * The ad should appear when the user first visits, above the fold, on both desktop and mobile. You can disable the ad on mobile if this isn't possible.
-* The ad should not disrupt the natural reading flow of the page. It should be placed above, beside or below the main content, not within it. This is an [Acceptable Ads](https://acceptableads.com/standard/) requirement.
-* The ad placement should result in at least a .1% CTR (click-through rate).
+* The ad should not disrupt the natural reading flow of the page. It should be placed above, beside or below the main content, not within it. This is an [Acceptable Ads](https://acceptableads.com/standard/) requirement, and something we think is best for users as well.
+* The ad placement should result in at least a .1% CTR (click-through rate). This will be reported in your publisher dashboard.
 
 You are welcome to [display a different ad](https://ethical-ad-client.readthedocs.io/en/latest/#customization) as a fallback if EthicalAds doesn't have a paid ad to show.
 You are also welcome to show EthicalAds to a share of your visitors (eg. 50%) along with another ad network, as long as they aren't shown on the same page.
 
-
 ## Payouts
-
 
 We currently have a **70% revenue share** with publishers
 which is around industry standard but slightly higher.
