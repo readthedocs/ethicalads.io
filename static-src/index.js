@@ -17,9 +17,6 @@ import * as bootstrap from 'bootstrap';
 // These snippets are pretty minor and readable and may require some modifications
 // to work due to our import system.
 
-// Feather Icon pack
-import './landkit/fonts/Feather/feather.css';
-
 // AOS (Animate on Scroll) is for animations around fading in/out and from left/right
 //import 'aos/dist/aos.css';
 //import './landkit/js/aos.js';
