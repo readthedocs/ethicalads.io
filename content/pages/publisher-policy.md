@@ -21,7 +21,7 @@ but we expect publishers to stay within these guidelines at all times.
 
 We have the following rules around display of our ads:
 
-* Our ad should be the only ad on your site. We currently only allow a single EthicalAds ad per page, but are discussing how to support multiple. Promotion of your own content or services on your site is fine, you just can't run be using other ad networks at the same time.
+* Our ad should be the only ad network visible when loaded. We currently only allow a single EthicalAds ad per page, but are discussing how to support multiple. Promotion of your own content or services on your site is fine, you just can't run be using other ad networks at the same time. It's also find to show our ad and other ad networks on alternating requests, just not on the same page load.
 * The ad should appear when the user first visits, above the fold, on both desktop and mobile. You can disable the ad on mobile if this isn't possible.
 * The ad should not disrupt the natural reading flow of the page. It should be placed above, beside or below the main content, not within it. This is an [Acceptable Ads](https://acceptableads.com/standard/) requirement, and something we think is best for users as well.
 * The ad placement should result in at least a .1% CTR (click-through rate). This will be reported in your publisher dashboard.
