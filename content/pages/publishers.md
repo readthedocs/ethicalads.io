@@ -1,4 +1,4 @@
-Title: Publisher: Earn money on your developer content
+Title: Publishers: An ad network for your developer project
 slug: publishers
-description: Earn money with your developer-focused site with the most private ad network. You focus on creating a great site, and we'll make it sustainable.
+description: Earn money with the only developer-focused ad network with no tracking. Give your website a sustainable revenue stream.
 template: ea/publishers
