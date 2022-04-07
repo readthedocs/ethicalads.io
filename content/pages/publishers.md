@@ -1,4 +1,4 @@
-Title: Earn Money with Ethical Advertising
+Title: Publishers: An ad network for your developer project
 slug: publishers
-description: Earn money with your developer-focused site without compromising the privacy of your visitors. Become a publisher: worry about your content and we'll make you money.
+description: Earn money with the only developer-focused ad network with no tracking. Give your website a sustainable revenue stream.
 template: ea/publishers
