@@ -22,11 +22,13 @@
             </a>
           </div>
 
-          <!-- Text -->
-          <p class="text-gray-700 mb-5 small">RoutineHub is a community for sharing Siri shortcuts on iOS. EthicalAds helped them expand to meet demand during the last big iOS upgrade.</p>
+          {% if not short %}
+            <!-- Text -->
+            <p class="text-gray-700 mb-5 small">RoutineHub is a community for sharing Siri shortcuts on iOS. EthicalAds helped them expand to meet demand during the last big iOS upgrade.</p>
+          {% endif %}
 
           <!-- Link -->
-          <a href="/publishers/routinehub/">Learn more &raquo;</a>
+          <a href="/publishers/routinehub/">{% if short %}RoutineHub{% else %}Learn more{% endif %} &raquo;</a>
 
         </div>
       </div>
@@ -40,15 +42,17 @@
           <!-- Icon -->
           <div class="img-fluid mb-5 mx-auto">
             <a href="https://daily.dev/">
-              <img src="/images/pages/testimonials/dailydev.png" alt="daily.dev" style="height: 150px" />
+              <img src="/images/pages/testimonials/dailydev.png" alt="daily.dev" style="height: 100px" />
             </a>
           </div>
 
-          <!-- Text -->
-          <p class="text-gray-700 mb-5 small">daily.dev uses EthicalAds to fund its large developer community and make the project sustainable.</p>
+          {% if not short %}
+            <!-- Text -->
+            <p class="text-gray-700 mb-5 small">daily.dev uses EthicalAds to fund its large developer community and make the project sustainable.</p>
+          {% endif %}
 
           <!-- Link -->
-          <a href="/publishers/dailydev/">Learn more &raquo;</a>
+          <a href="/publishers/dailydev/">{% if short %}daily.dev{% else %}Learn more{% endif %} &raquo;</a>
 
         </div>
       </div>
@@ -67,14 +71,13 @@
             </a>
           </div>
 
-          <!-- Text -->
-          <p class="text-gray-700 mb-5 small">
-            Flask is one of the most popular Python web development frameworks.
-            They use EthicalAds to fund the ongoing maintenance of their open source project.
-          </p>
+          {% if not short %}
+            <!-- Text -->
+            <p class="text-gray-700 mb-5 small">Flask is one of the most popular Python web development frameworks. They use our EthicalAds to get funding for their community to maintain their software.</p>
+          {% endif %}
 
           <!-- Link -->
-          <a href="/publishers/pallets/">Learn more &raquo;</a>
+          <a href="/publishers/pallets/">{% if short %}Flask{% else %}Learn more{% endif %} &raquo;</a>
 
         </div>
       </div>
