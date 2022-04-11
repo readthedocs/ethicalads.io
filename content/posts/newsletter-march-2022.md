@@ -1,5 +1,5 @@
 Title: EthicalAds Newsletter - March 2022
-Date: April 4, 2022
+Date: April 12, 2022
 description: Updates from March, including stats and commentary on our progress as we build EthicalAds
 tags: newsletter, community
 authors: Ra Cohen
@@ -11,9 +11,9 @@ image_credit: <span>Photo by <a href="https://unsplash.com/@xiaomingyo?utm_sourc
 
 These are the major features we released in the last month:
 
-* Upgraded to Django 3.2
-* Expanded our [Advertiser's Guide]() to include more examples of great ads.
-*
+* Expanded our [Advertiser's Guide](https://www.ethicalads.io/advertiser-guide/?ref=newsletter) to include more examples of great ads.
+* Updated our [Privacy Policy](https://www.ethicalads.io/privacy-policy/?ref=newsletter) to explicitly mention our usage of 3rd party analytics platform, Plausible.
+* Improved our interface with the PSF expanding our [Sponsorship Management Platform](https://www.ethicalads.io/sponsorship-platform/?ref=jan-newsletter).
 
 You can always see our latest server updates in our [ethical-ad-server changelog](https://ethical-ad-server.readthedocs.io/en/latest/developer/changelog.html) and [ethical-ad-client changelog](https://ethical-ad-client.readthedocs.io/en/latest/changelog.html).
 
@@ -22,19 +22,21 @@ You can always see our latest server updates in our [ethical-ad-server changelog
 
 In March 2022:
 
-* We generated **$$31,060.46** for our publishers.
-* We had **108 publishers** on our network with at least one paid ad impression.
-* We had **15,283,991** paid ad views across the world.
+* We generated **$31,749.65** for our publishers.
+* We had **118 publishers** on our network with at least one paid ad impression.
+* We had **14,605,352** paid ad views across the world.
 
-Despite being 10% shorter than January, our revenue increased by 1.67% in February!
-This puts us  on track for a great March.
+March continued to pick up steam and resulted in even more revenue for our publishers.
+We also expanded our network adding 10 more publishers in March alone!
+
 Our [Sponsorship Management Platform](https://www.ethicalads.io/sponsorship-platform/?ref=jan-newsletter) Beta also
 once again served over **2,500,000** sponsored logo placements in February.
 
 ## Tricky bits
 
-We're on track to be sold out in North America and Europe in April!
-Thus our attention turns back to acquiring more publishers and expanding our network.
+We're on track to be sold out in North America and Europe by the end of April!
+This is great news for our publishers as it means we're able to pay them more money for their traffic.
+Our attention now turns back to acquiring more publishers and expanding our network to accomodate all of our advertisers' campaigns.
 
 
 ## Upcoming features
