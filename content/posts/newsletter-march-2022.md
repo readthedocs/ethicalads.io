@@ -30,8 +30,6 @@ In March 2022:
 March continued to pick up steam and resulted in even more revenue for our publishers.
 We also expanded our network adding 10 more publishers in March alone!
 
-Our [Sponsorship Management Platform](https://www.ethicalads.io/sponsorship-platform/?ref=jan-newsletter) Beta also
-once again served over **2,500,000** sponsored logo placements in February.
 
 ## Tricky bits
 
