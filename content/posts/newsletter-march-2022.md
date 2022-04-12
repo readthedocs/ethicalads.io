@@ -44,6 +44,7 @@ The major features in our upcoming roadmap:
 
 * Reworking our topic-detection infrastructure and algorithm in our server.
 * Highlighting our 10% discount on ad buys over $3000 in the flight report page.
+* Building more information about pricing into our ad server, so we can work towards automated self-serve re-up campaigns. 
 
 
 
