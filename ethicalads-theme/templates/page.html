@@ -5,6 +5,12 @@
 {% block title %}{{ page.title|striptags }} - {{ SITENAME }}{%endblock%}
 
 
+{% block canonical_rel %}
+  <link rel="canonical" href="{{ SITEURL }}/{{ page.url }}" />
+  <meta property="og:url" content="{{ SITEURL }}/{{ page.url }}" />
+{% endblock canonical_rel %}
+
+
 {% block content %}
 <section class="container py-5 mb-10">
   <article class="page">

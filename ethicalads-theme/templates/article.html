@@ -5,6 +5,12 @@
 {% block title %}{{ article.title|striptags  }} - {{ SITENAME }}{% endblock %}
 
 
+{% block canonical_rel %}
+  <link rel="canonical" href="{{ SITEURL }}/{{ article.url }}" />
+  <meta property="og:url" content="{{ SITEURL }}/{{ article.url }}" />
+{% endblock canonical_rel %}
+
+
 {% block content %}
 <section class="container py-5 mb-10">
   <div class="row justify-content-center">
