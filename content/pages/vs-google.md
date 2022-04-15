@@ -31,7 +31,7 @@ With EthicalAds, our code is both simple and open source. You can look at our [e
 
 Google and Facebook account for the vast majority of advertising revenue on the internet. Having all the revenue concentrated in these two companies makes it harder for independent publishers and companies to get started. We think our approach to advertising is worth investing in, and we hope to make it a larger percentage of the way the internet does advertising.
 
-We talk more about the issues with [invasive ad tracking]({filename}../posts/2021-invasive-ad-targeting-bad-journalism-premium-publishers.md), a{filename}nd how it hurts journalism and anyone creating high-value content on the web. We are hoping to break this vicious cycle by offering a better way to support developer-focused publishers on the internet.
+We talk more about the issues with [invasive ad tracking]({filename}../posts/2021-invasive-ad-targeting-bad-journalism-premium-publishers.md), and how it hurts journalism and anyone creating high-value content on the web. We are hoping to break this vicious cycle by offering a better way to support developer-focused publishers on the internet.
 
 ## Ready to take the next step?
 
