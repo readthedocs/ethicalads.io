@@ -13,7 +13,7 @@ Happy New Year! December was a shorter month for us at EthicalAds so this update
 These are the major features we released in the last month:
 
 * Debuted the beta for our [sponsorship platform](https://www.ethicalads.io/sponsorship-platform/).
-* Released our [advertising prospectus](https//www.ethicalads.io/prospectus/ethicalads-advertiser-prospectus.pdf) for 2022.
+* Released our [advertising prospectus](https://www.ethicalads.io/prospectus/ethicalads-advertiser-prospectus.pdf) for 2022.
 
 You can always see our latest server updates in our [ethical-ad-server changelog](https://ethical-ad-server.readthedocs.io/en/latest/developer/changelog.html) and [ethical-ad-client changelog](https://ethical-ad-client.readthedocs.io/en/latest/changelog.html).
 
