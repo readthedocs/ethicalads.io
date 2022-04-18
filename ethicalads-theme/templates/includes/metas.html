@@ -18,11 +18,6 @@
     <meta name="author" content="{{ author }}" />
   {%- endfor -%}
 
-  {%- if article.url -%}
-    <link rel="canonical" href="{{ SITEURL }}/{{ article.url }}" />
-    <meta property="og:url" content="{{ SITEURL }}/{{ article.url }}" />
-  {%- endif -%}
-
   <meta property="og:type" content="article">
   <meta property="og:title" content="{{ article.title|striptags|escape }}" />
   <meta property="twitter:title" content="{{ article.title|striptags|escape }}" />
@@ -39,11 +34,6 @@
   {%- if page.description -%}
     <meta name="description" content="{{ page.description|striptags|escape }}" />
     <meta property="og:description" content="{{ page.description|striptags|escape }}" />
-  {%- endif -%}
-
-  {%- if page.url -%}
-    <link rel="canonical" href="{{ SITEURL }}/{{ page.url }}" />
-    <meta property="og:url" content="{{ SITEURL }}/{{ page.url }}" />
   {%- endif -%}
 
   <meta property="og:type" content="article" />
