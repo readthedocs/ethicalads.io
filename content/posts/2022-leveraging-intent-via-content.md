@@ -19,30 +19,35 @@ Search ads have been the dominant form of display ad since they were invented ar
 If a user is actively searching for a flower store, there is already an intent to purchase flowers present which motivated this search.
 The same can be true of software products and solutions. If a developer is using a search engine to find a cloud hosting service,
 chances are good that they intend to utilize a cloud hosting service in the near future.
-Intent is the greatest individual factor between a potential candidate and a paying customer.
+**User Intent** is the [greatest individual factor](https://www.crazyegg.com/blog/guide-user-intent/) to convert a potential candidate into a paying customer.
 
 But search engines are not the only places where software developers exhibit their intent.
 From using online tools like js.bin rendering their html edits in real-time to scouring package documentation to fix their latest bug,
 software developers telegraph their intentions primarily through the content that they are viewing.
-This can be numerically demonstrated in the comparison of Click through Rates on content-targeted campaigns vs non-content targeted campaigns.
+This can be numerically demonstrated in the comparison of Click through Rates (CTR) on content-targeted campaigns vs non-content targeted campaigns.
 
 
 
 ## What our data says
 
-Our CTR (click through rate) is consistently higher on campaigns which employ topic targeting in addition to geographic targeting.
+First we'll examine the average CTR across all of our advertising flights that are targeting geographic locations only.
+As you can see, almost every week our geo-only campaigns fall below our network average CTR of 0.1%.
 
 <div class="postimage text-center">
   <img class="w-75" src="{static}../images/posts/2022-no-keywords-ctr.png" alt="A screenshot of the Click through Rates for untargeted campaigns">
   <p>the average Click through Rates (grouped by week) for untargeted campaigns ending in the last 5 months</p>
 </div>
 
+But how do our content-targeted campaigns fare? Using the same weekly aggregation, it's evident that our content-targeted campaigns frequently exceed our network's average CTR.
+
 <div class="postimage text-center">
   <img class="w-75" src="{static}../images/posts/2022-keywords-ctr.png" alt="A screenshot of the Click through Rates for content-targeted campaigns">
   <p>the average Click through Rates (grouped by week) for content-targeted campaigns ending in the last 5 months</p>
 </div>
 
-
+Our CTR (click through rate) is consistently higher on campaigns which employ content-targeting in addition to geographic targeting.
+Which leads one to wonder, given that geography is a factor of the user whereas content is a factor of the publishing website,
+why has so much of ad-tech been focusing on user-targeting and [surveillance advertising](https://www.ethicalads.io/surveillance-advertising/?ref=content-as-intent) as opposed to content-targeting?
 
 ## The Return of Content Targeting
 
