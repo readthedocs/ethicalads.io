@@ -61,13 +61,11 @@ And we're inclined to agree.
 We have been operating the EthicalAds network for almost 2 years now and have achieved our highest revenue month to date just last month in March,
 all without ever using any user tracking.
 By matching developers with ads relevant to their interests, here and today, based on what they're currently reading
-we can garauntee our advertisers connect not only with the right software developer audience (be they frontend, backend, or data scientists, etc.),
-but more importantly reach those valuable potential customers right when they're grappling the problem you're trying to solve.
-When they posses the intent to look for your solution.
+we can garauntee our advertisers connect not only with the right [software developer audience](https://www.ethicalads.io/our-audience/?ref=content-as-intent),
+but more importantly, reach those valuable potential customers right when they're grappling the problem that you're trying to solve.
+When they posses the problem, developers have the intent to try your solution.
 
 
+## Would you like to learn more?
 
-
-* The EthicalAds network is particularly popular in the Python community (~60% of all pageviews mention **Python**).
-* Our 5 main topic groupings, *frontend*, *backend*, *devops*, *data science*, and *security/privacy* account for over **80% of our pageviews**
-  and is a fast and effect way to connect you with [your relevent audience](https://www.ethicalads.io/advertisers/?ref=our-audience#audiences).
+* Ready to reach your intended audience when they need you most? [Launch a campaign today!](https://www.ethicalads.io/advertisers/?ref=content-as-intent)
