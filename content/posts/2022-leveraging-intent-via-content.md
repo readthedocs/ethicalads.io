@@ -3,8 +3,8 @@ Date: April 26, 2022
 description: Using content targeting to provide users with relevant ads capitalizes on the same underlying reason that search ads perform so well, intent.
 tags: content-targeting, advertisers, marketing, intent
 authors: Ra Cohen
-image: /images/posts/2022-content-targeting.jpg
-image_credit: <span>Photo by <a href="https://unsplash.com/@macroman?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Immo Wegmann</a> on <a href="https://unsplash.com/s/photos/target?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>
+image: /images/posts/2022-content-as-intent.jpg
+image_credit: <span>Photo by <a href="https://unsplash.com/@jeshoots?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">JESHOOTS.COM</a> on <a href="https://unsplash.com/s/photos/confused?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>
 
 
 When was the last time you clicked on an ad while browsing social media?
@@ -63,9 +63,11 @@ all without ever using any user tracking.
 By matching developers with ads relevant to their interests, here and today, based on what they're currently reading
 we can garauntee our advertisers connect not only with the right [software developer audience](https://www.ethicalads.io/our-audience/?ref=content-as-intent),
 but more importantly, reach those valuable potential customers right when they're grappling the problem that you're trying to solve.
-When they posses the problem, developers have the intent to try your solution.
+When developers posses a problem, they use the EthicalAds network to find answers and thus posses the intent to try your solution.
 
 
 ## Would you like to learn more?
 
-* Ready to reach your intended audience when they need you most? [Launch a campaign today!](https://www.ethicalads.io/advertisers/?ref=content-as-intent)
+Ready to reach your intended audience when they need you most?
+
+* [Launch your campaign today!](https://www.ethicalads.io/advertisers/?ref=content-as-intent)
