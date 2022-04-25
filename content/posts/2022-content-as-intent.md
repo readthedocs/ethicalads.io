@@ -22,7 +22,7 @@ chances are good that they intend to utilize a cloud hosting service in the near
 **User Intent** is the [greatest individual factor](https://www.crazyegg.com/blog/guide-user-intent/) to convert a potential candidate into a paying customer.
 
 But search engines are not the only places where software developers exhibit their intent.
-From using online tools like js.bin rendering their html edits in real-time to scouring package documentation to fix their latest bug,
+From using online tools like [https://jsbin.com](jsbin) rendering their html edits in real-time to scouring package documentation to fix their latest bug,
 software developers telegraph their intentions primarily through the content that they are viewing.
 This can be numerically demonstrated in the comparison of Click through Rates (CTR) on content-targeted campaigns vs non-content targeted campaigns.
 
