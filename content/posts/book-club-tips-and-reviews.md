@@ -53,7 +53,7 @@ but this is enough for us to get a lot of value from book club.
 
 ## Book reviews
 
-These reviews of the books that we've already read,
+These are reviews of the books that we've already read,
 presented in the order we read them.
 If you're looking for some ideas for what to read,
 this might be a good place to start!
@@ -94,13 +94,11 @@ There are a few consequences of the Story Brand framework. They are:
 
 In an effort to prioritize the actionable, our EthicalAds book club tacked Julian Shapiro’s blog “The Growth Marketing Handbook” as our second group project. Touching on everything from designing and A/B testing landing pages to user acquisition channels and onboarding, the handbook certainly tries to cover it all. While we figured out our brand’s story and thus strategy pretty thoroughly in our first book club book, we took reading this handbook’s sections on webpages as a guide for revamping our user’s experience on our own site. Unfortunately, the “making ads” section wasn’t very insightful as it largely reiterated the lessons learned in landing page design such as an emphasis on concision and clarity with regards to the benefits of your product for your user. The section on “running ads” was particularly interesting to us as it was almost entirely focused on optimizations for tracker-based advertising and how to optimize retargeted ads for conversions differently. While we have no plans to ever run ads on surveillance adtech platforms, the section did illuminate some key differentiators for us to highlight when comparing our service to that of our competitors. All in all, strategy was covered pretty thoroughly in our first book but “The Growth Marketing Handbook” is definitely worth a read for the website optimization guidance.
 
-
 ### [The Copywriter's Handbook: A Step-By-Step Guide To Writing Copy That Sells - Robert Bly](https://us.macmillan.com/books/9781250238016/thecopywritershandbook)
 
 The book was divided into two major sections, one that gives a theoretical foundation around copywriting, and one that applies that knowledge to specific fields (eg. Writing Online Ads or Writing Direct Mail). Our team read the book without the goal of becoming copywriters, but learning more about copywriting in general.
 
 This meant we found the higher level theoretical information quite useful, giving concrete advice for the value and craft of writing great copy that sells. The individual sections on specific types of copywriting were more of a high-level reference for that specific type of copywriting, and we didn't find much value in these sections. In fact, we only read 1/2 of the later sections of the book, focusing on areas where we thought would be most applicable. However, given the nature of the writing as a high-level reference, we didn't get as much value out of the sections that we already knew a lot about. I would recommend reading the topic-specific sections if there is an area you would find value in an overview of, instead of deeper insight into a specific area you already know about.
-
 
 ---
 
