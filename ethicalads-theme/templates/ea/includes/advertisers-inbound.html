@@ -10,8 +10,8 @@
             <div class="row justify-content-center">
               <div class="col-12 col-xl-11">
 
-                <h2 class="font-weight-bold">Advertise across our network</h2>
-                <p class="font-size-lg">Start growing your business with our network today. Tell us a bit more about the campaign you want to run and an ad specialist will be in touch.</p>
+                <h2 class="font-weight-bold">{% if page.inbound_form_title %}{{ page.inbound_form_title }}{% else %}Advertise across our network{% endif %}</h2>
+                <p class="font-size-lg">{% if page.inbound_form_subtitle %}{{ page.inbound_form_subtitle }}{% else %}Start growing your business with our network today. Tell us a bit more about the campaign you want to run and an ad specialist will be in touch.{% endif %}</p>
 
                 <!-- Front - Adveriter Inquiry Form -->
                 <form
