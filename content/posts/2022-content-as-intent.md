@@ -15,7 +15,7 @@ Because you as a user, had no intention of shopping. Your purpose in logging on 
 
 ## Intent is irreplacable
 
-Search ads have been the dominant form of display ad since they were invented around 20 years ago and to no wonder.
+Search ads have been the dominant form of display ad since they were invented over 20 years ago and to no wonder.
 If a user is actively searching for a flower store, there is already an intent to purchase flowers present which motivated this search.
 The same can be true of software products and solutions. If a developer is using a search engine to find a cloud hosting service,
 chances are good that they intend to utilize a cloud hosting service in the near future.
