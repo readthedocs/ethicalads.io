@@ -52,7 +52,7 @@ why has so much of ad-tech been focusing on user-targeting and [surveillance adv
 ## The Return of Content Targeting
 
 Content Targeting is by no means a new invention. It's been around for as long as niche publications have existed.
-Fishing pole ads in fishing magazines and motor oil ads in car magazines have existed for hundreds of years.
+Fishing pole ads in fishing magazines and motor oil ads in car magazines have existed for decades.
 However, in the last 15 years, the ad-tech industry largly swapped over to user-targeting under the misguided notion that intent doesn't expire.
 Buy 1 dvd player online and you'll continue to get dvd players showing up in ads for months although the problem that these ads are trying to fix is already solved.
 So how did we get here?
