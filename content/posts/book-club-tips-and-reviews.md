@@ -6,14 +6,14 @@ authors: Eric Holscher
 image: /images/posts/book-club.jpg
 image_credit: <span>Photo by <a href="https://unsplash.com/@cristina_gottardi?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Cristina Gottardi</a> on <a href="https://unsplash.com/s/photos/books?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> </span>
 
-Here at EthicalAds we've been running a book club to help our team grow and learn more.
+Here at EthicalAds we've been running a book club to help our team grow and learn.
 This post will cover a few topics:
 
 * Advice on running a lightweight book club
 * How we're running our book club
 * Reviews of the books we've read
 
-We've found this process quite valuable for growing our teams skills.
+We've found this process quite valuable for growing our skills.
 Our team is mostly people with a developer background,
 so we've been focusing more on business & marketing topics,
 since that's where we all have a lot to learn.
@@ -21,15 +21,15 @@ since that's where we all have a lot to learn.
 ## Book club goals & advice
 
 We've read 4 books in our book club so far,
-and we have learned a few tips and tricks for making sure it feels useful to everyone:
+and we have learned a few tips and tricks for making sure it feels valuable to everyone:
 
+* Don't overthink what is required to get started. We didn't have a concrete outcome when we started, and are still learning as we go. Just get started!
 * When you pick a book, have an actionable task that we want to be able to solve once we read the book.
     - As an example, our next book is around writing better email. Our goal is to improve our default email replies for publishers & advertisers in our support tooling.  
 * Change the topics of the book each time, so that you're getting a well-rounded set of topics that affect your business.
     - We've covered open source, positioning, copywriting, and marketing thus far.
 * Make sure you're producing something when you read the book, otherwise it can feel like you're reading a lot of theory, but not putting that knowledge to work.
     - You'll also retain the information more if you're forced to use it, rather than just read it.
-* Don't overthink what is required to get started. We didn't have a concrete outcome when we started, and are still learning as we go. Just get started!
 
 ## How to run a book club
 
@@ -37,18 +37,19 @@ Our book club is pretty lightweight.
 It looks like:
 
 * We have a recurring weekly meeting for 30 minutes, to handle whatever needs to be discussed that week, generally what we've read.
-* During the reading, each member of the team takes notes around what they thought was interesting or actionable for our company, and we mostly discuss this in our 30 minute meeting.
+* During the reading, each member of the team takes notes around what they thought was interesting or actionable for our company, and we mostly discuss this in our 30 meeting.
 * We usually aim for around 30-60 minutes of reading, to keep the time commitment manageable.
 
 When we want to decide which book to read, we:
 
 * Discuss what we want to get out of the book, and which topic to focus on.
-    - Then each member of the team looks for a book that they think would fit well.
-    - We discuss each book, and decide as a team which one to read (if there isn't an obvious option, we just flip a digital coin in Slack).
-* We work to have a basic plan for what we want to improve after reading the book, so we have an actionable goal at the end of the book to put the information to use.
+* Then each member of the team looks for a book that they think would fit well (3 total).
+* We discuss each book, and decide as a team which one to read (if there isn't an obvious choice, we just flip a digital coin).
+* We discuss a basic plan for an area of the business to improve after reading the book, so we have an actionable goal at the end of the book to put the information to use.
+* We start reading!
 
-We're still working to improve our process,
-but it's quite easy to get started.
+There's likely improvements we'll keep making as we go,
+but this is enough for us to get a lot of value from book club.
 
 ## Book reviews
 
