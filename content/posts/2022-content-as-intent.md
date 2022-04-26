@@ -33,16 +33,16 @@ This can be numerically demonstrated in the comparison of Click through Rates (C
 First we'll examine the average CTR across all of our advertising flights that are targeting geographic locations only.
 As you can see, almost every week our geo-only campaigns fall below our network average CTR of 0.1%.
 
-<div class="postimage text-center">
+<div class="shadow postimage text-center">
   <img class="w-75" src="{static}../images/posts/2022-no-keywords-ctr.png" alt="A screenshot of the Click through Rates for untargeted campaigns">
-  <p>the average Click through Rates (grouped by week) for untargeted campaigns ending in the last 5 months</p>
+  <p>the average weekly CTR for untargeted campaigns in Q3 and Q4 of 2021</p>
 </div>
 
 But how do our content-targeted campaigns fare? Using the same weekly aggregation, it's evident that our content-targeted campaigns frequently exceed our network's average CTR.
 
-<div class="postimage text-center">
+<div class="shadow postimage text-center">
   <img class="w-75" src="{static}../images/posts/2022-keywords-ctr.png" alt="A screenshot of the Click through Rates for content-targeted campaigns">
-  <p>the average Click through Rates (grouped by week) for content-targeted campaigns ending in the last 5 months</p>
+  <p>the average weekly CTR for content-targeted campaigns in Q3 and Q4 of 2021</p>
 </div>
 
 Our CTR (click through rate) is consistently higher on campaigns which employ content-targeting in addition to geographic targeting.
