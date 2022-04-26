@@ -30,7 +30,8 @@ This can be numerically demonstrated in the comparison of Click through Rates (C
 
 ## What our data says
 
-First we'll examine the average CTR across all of our advertising flights that are targeting geographic locations only.
+First we'll examine the average weekly CTR across all of our advertising flights that are targeting geographic locations only.
+If we had no campaigns ending that week, it's been logged as a 0.
 As you can see, almost every week our geo-only campaigns fall below our network average CTR of 0.1%.
 
 <div class="shadow-lg postimage text-center">
