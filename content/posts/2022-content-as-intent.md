@@ -34,8 +34,8 @@ First we'll examine the average weekly CTR across all of our advertising flights
 If we had no campaigns ending that week, it's been logged as a 0.
 As you can see, almost every week our geo-only campaigns fall below our network average CTR of 0.1%.
 
-<div class="shadow-lg postimage text-center">
-  <img class="w-75" src="{static}../images/posts/2022-no-keywords-ctr.png" alt="A screenshot of the Click through Rates for untargeted campaigns">
+<div class="postimage text-center">
+  <img class="w-75 shadow-lg" src="{static}../images/posts/2022-no-keywords-ctr.png" alt="A screenshot of the Click through Rates for untargeted campaigns">
   <p>the average weekly CTR for untargeted campaigns in Q3 and Q4 of 2021</p>
 </div>
 
