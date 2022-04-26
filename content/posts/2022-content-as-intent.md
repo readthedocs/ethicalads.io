@@ -41,8 +41,8 @@ As you can see, almost every week our geo-only campaigns fall below our network 
 
 But how do our content-targeted campaigns fare? Using the same weekly aggregation, it's evident that our content-targeted campaigns frequently exceed our network's average CTR.
 
-<div class="shadow-lg postimage text-center">
-  <img class="w-75" src="{static}../images/posts/2022-keywords-ctr.png" alt="A screenshot of the Click through Rates for content-targeted campaigns">
+<div class="postimage text-center">
+  <img class="w-75 shadow-lg" src="{static}../images/posts/2022-keywords-ctr.png" alt="A screenshot of the Click through Rates for content-targeted campaigns">
   <p>the average weekly CTR for content-targeted campaigns in Q3 and Q4 of 2021</p>
 </div>
 
