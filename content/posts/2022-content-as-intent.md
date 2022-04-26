@@ -15,14 +15,14 @@ Because you as a user, had no intention of shopping. Your purpose in logging on 
 
 ## Intent is irreplacable
 
-Search ads have been the dominant form of display ad since they were invented around 20 years ago and to no wonder.
+Search ads have been the dominant form of display ad since they were invented over 20 years ago and to no wonder.
 If a user is actively searching for a flower store, there is already an intent to purchase flowers present which motivated this search.
 The same can be true of software products and solutions. If a developer is using a search engine to find a cloud hosting service,
 chances are good that they intend to utilize a cloud hosting service in the near future.
 **User Intent** is the [greatest individual factor](https://www.crazyegg.com/blog/guide-user-intent/) to convert a potential candidate into a paying customer.
 
 But search engines are not the only places where software developers exhibit their intent.
-From using online tools like js.bin rendering their html edits in real-time to scouring package documentation to fix their latest bug,
+From using online tools like [https://jsbin.com](jsbin) rendering their html edits in real-time to scouring package documentation to fix their latest bug,
 software developers telegraph their intentions primarily through the content that they are viewing.
 This can be numerically demonstrated in the comparison of Click through Rates (CTR) on content-targeted campaigns vs non-content targeted campaigns.
 
@@ -52,7 +52,7 @@ why has so much of ad-tech been focusing on user-targeting and [surveillance adv
 ## The Return of Content Targeting
 
 Content Targeting is by no means a new invention. It's been around for as long as niche publications have existed.
-Fishing pole ads in fishing magazines and motor oil ads in car magazines have existed for hundreds of years.
+Fishing pole ads in fishing magazines and motor oil ads in car magazines have existed for decades.
 However, in the last 15 years, the ad-tech industry largly swapped over to user-targeting under the misguided notion that intent doesn't expire.
 Buy 1 dvd player online and you'll continue to get dvd players showing up in ads for months although the problem that these ads are trying to fix is already solved.
 So how did we get here?
