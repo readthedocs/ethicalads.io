@@ -4,7 +4,7 @@ description: Updates from April, including stats and commentary on our progress 
 tags: newsletter, community
 authors: Ra Cohen
 image: /images/posts/2022-april-newsletter.jpg
-image_credit: <span></span>
+image_credit: <span>Photo by <a href="https://unsplash.com/@corina?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">corina ardeleanu</a> on <a href=" https://unsplash.com/photos/sWlxCweDzzs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>
 
 
 ## New features
