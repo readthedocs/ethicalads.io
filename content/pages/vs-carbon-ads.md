@@ -1,11 +1,11 @@
-Title: How does EthicalAds compare to other developer-focused ad networks?
-url: alternative-to-developer-ad-networks
-save_as: alternative-to-developer-ad-networks/index.html
+Title: What Makes EthicalAds a Great Carbon Ads Alternative
+url: alternative-to-carbon-ads
+save_as: alternative-to-carbon-ads/index.html
 description: How are we different? Privacy guarantees, open source code, and community-focus.
 
 We know that we are competing with a few other ad networks that focus on developers.
 This page talks a bit more about how we're different,
-and why you might want to choose us instead of Carbon Ads or Stack Overflow.
+and why you might want to choose us instead of Carbon Ads.
 
 [TOC]
 
