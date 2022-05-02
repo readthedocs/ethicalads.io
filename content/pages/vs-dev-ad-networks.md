@@ -1,7 +1,7 @@
 Title: How does EthicalAds compare to other developer-focused ad networks?
 url: alternative-to-developer-ad-networks
 save_as: alternative-to-developer-ad-networks/index.html
-description: How are we different? Privacy gaurantees, open source code, and community-focus.
+description: How are we different? Privacy guarantees, open source code, and community-focus.
 
 We know that we are competing with a few other ad networks that focus on developers.
 This page talks a bit more about how we're different,
@@ -44,7 +44,7 @@ as well as by giving them money as publishers.
 
 The code behind other networks is proprietary and incredibly complex. This is because there is a large amount of time being spent trying to figure out exactly who you are and how to target you with an ad.
 
-With EthicalAds, our code is both simple and open source. You can look at our [ethical ad server](https://github.com/readthedocs/ethical-ad-server/) and [ethical ad client](https://github.com/readthedocs/ethical-ad-client/) on GitHub. **You can read the exact logic we use to select that ads that show on your website**, because we don't need complex tracking logic.
+With EthicalAds, our code is both simple and open source. You can look at our [ethical ad server](https://github.com/readthedocs/ethical-ad-server/) and [ethical ad client](https://github.com/readthedocs/ethical-ad-client/) on GitHub. You can read the exact logic we use to select that ads that show on your website, because we don't need complex tracking logic.
 
 ## **Join today**: Ready to take the next step?
 
