@@ -1,5 +1,5 @@
 Title: EthicalAds Newsletter - April 2022
-Date: May 2, 2022
+Date: May 3, 2022
 description: Updates from April, including stats and commentary on our progress as we build EthicalAds
 tags: newsletter, community
 authors: Ra Cohen
@@ -24,11 +24,12 @@ You can always see our latest server updates in our [ethical-ad-server changelog
 
 In April 2022:
 
-* We generated **$** for our publishers.
-* We had **publishers** on our network with at least one paid ad impression.
-* We had **,,** paid ad views across the world.
+* We generated **$38,967.84** for our publishers.
+* We had **124 publishers** on our network with at least one paid ad impression.
+* We had **16,246,064** paid ad views across the world.
 
 April was another record breaking month in terms of revenue!
+Our daily revenue peaked at almost $2500 and not a single day saw less than $1000 in revenue.
 
 
 ## Tricky bits
