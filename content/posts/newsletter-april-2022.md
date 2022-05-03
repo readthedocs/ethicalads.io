@@ -12,7 +12,7 @@ image_credit: <span>Photo by <a href="https://unsplash.com/@corina?utm_source=un
 These are the major features we released in the last month:
 
 * In our server, we've begun implementing server-side keywords analysis! This will let us swap out our algorithms easier for better topic-detection in the future.
-* We've also started crafting custom advertiser keyword dashboards in metabase to give our recurring clients more insight into which keywords affect CTR the most.
+* We've also started crafting custom advertiser keyword dashboards in [metabase](https://www.ethicalads.io/blog/2021/12/graphing-ad-data-at-ethicalads/?ref=april-newsletter) to give our recurring clients more insight into which keywords affect CTR the most.
 * In our publisher dashboard, we've launched a new publisher onboarding checklist to make getting approved for paid ads easier than ever.
 * We're also debuting a similar advertiser onboarding page in our dashboard for new advertisers, outlining the steps to kick-off their campaigns.
 
