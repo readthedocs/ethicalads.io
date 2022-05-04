@@ -1,4 +1,4 @@
-Title: What Makes EthicalAds a Great Carbon Ads Alternative
+Title: What Makes EthicalAds a Great Carbon Ads Alternative for Your Site
 url: alternative-to-carbon-ads
 save_as: alternative-to-carbon-ads/index.html
 description: How are we different? Privacy guarantees, open source code, and community-focus.
@@ -13,12 +13,13 @@ and why you might want to choose us instead of Carbon Ads.
 
 When your user goes to your website, they are assuming they will only be sending data to you. Some users consider it a breach of trust if you were to share that data with other third parties, and it might be a breach of a privacy law to do this without user consent.
 
-These networks will often set cookies on your browser session, as well as load scripts hosted by Google into a publishers web page. You can see a screenshot of Carbon Ads loading a Google script here:
+These networks will often set cookies on your browser session, as well as load scripts hosted by Google into a publishers web page. You can see a screenshot of Carbon Ads loading a Google tracking pixel here:
 
 <div class="m-5 postimage">
   <a href="{static}../images/posts/2021-third-party-resources.png">
   <img class="w-50 rounded mx-auto d-block"  src="{static}../images/posts/2021-third-party-resources.png" alt="An ad network loading third-party resources">
   </a>
+  <p><small>Carbon sometimes loads third-party resources from Google or other trackers</small></p>
 </div>
 
 > Removing Our 3rd Party Ad-Serving Cookie from Your Browser
