@@ -35,7 +35,9 @@ they can cookie and track the users on your site across the web
 (and then [show ads to your users more cheaply elsewhere]({filename}2021-invasive-ad-targeting-bad-journalism-premium-publishers.md)).
 
 <div class="postimage">
+  <a href="{static}../images/posts/2021-third-party-resources.png">
   <img class="w-100" src="{static}../images/posts/2021-third-party-resources.png" alt="An ad network loading third-party resources">
+  </a>
   <p>An ad network loading third-party resources.</p>
 </div>
 
