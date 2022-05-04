@@ -10,8 +10,8 @@
             <div class="row justify-content-center">
               <div class="col-12 col-xl-11">
 
-                <h2 class="font-weight-bold">{% if inbound_form_title %}{{ inbound_form_title }}{% else %}Apply to be publisher today{% endif %}</h2>
-                <p class="font-size-lg">{% if inbound_form_subtitle %}{{ inbound_form_title }}{% else %}Tell us more about you and your site and a member of our team will get back to you about joining the EthicalAds network.{% endif %}</p>
+                <h2 class="font-weight-bold">{% if page.inbound_form_title %}{{ page.inbound_form_title }}{% else %}Apply to be publisher today{% endif %}</h2>
+                <p class="font-size-lg">{% if page.inbound_form_subtitle %}{{ page.inbound_form_subtitle }}{% else %}Tell us more about you and your site and a member of our team will get back to you about joining the EthicalAds network.{% endif %}</p>
 
                 <!-- Front - Publisher Inquiry Form -->
                 <form
