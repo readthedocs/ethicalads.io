@@ -11,12 +11,28 @@ description: These are common questions from publishers about the EthicalAds net
 
 We have reports for the following data:
 
-* Revenue - This shows the total revenue per day. The most important report :)
-* Geos - Top countries your traffic comes from are monetizing
-* Advertisers - Top advertisers on your site, and how much revenue you're getting from each
-* Keywords - Site or [Page-specific keywords](https://ethical-ad-client.readthedocs.io/en/latest/#page-specific-keywords) and how much revenue each is getting you
-* Placements - Allows you to track different [ad placements](https://ethical-ad-client.readthedocs.io/en/latest/#ad-placement-reporting) across your site (eg. homepage, blog sidebar)
+* **Revenue** - This shows the total revenue per day. The most important report :)
+* **Geos** - Top countries your traffic comes from are monetizing
+* **Advertisers** - Top advertisers on your site, and how much revenue you're getting from each
+* **Keywords** - Site or [Page-specific keywords](https://ethical-ad-client.readthedocs.io/en/latest/#page-specific-keywords) and how much revenue each is getting you
+* **Placements** - Allows you to track different [ad placements](https://ethical-ad-client.readthedocs.io/en/latest/#ad-placement-reporting) across your site (eg. homepage, blog sidebar)
 
+Each report will have the following metrics:
+
+* **Index**: The data that the report is based on, for example the date on the revenue report.
+* **Views**: The number of views that your ads had. You can filter by paid, community, or house ads.
+* **Clicks**: The number of clicks that your ads had.
+* **Click through rate (CTR)**: The ratio of Clicks to Views. We generally expect this to be 0.1% or higher.
+* **View Rate**: The ratio of Views to Offers (ads requested from our server).
+* **Revenue**: The amount of money that you have made.
+
+## How do I improve View Rate?
+
+View Rate will never be 100% because some users will close the browser after the ad is requested, 
+but before the ad is viewed.
+If you have an ad that is loaded outside of the users viewport,
+it won't be counted as viewed until the user scrolls to see it.
+**Having the ad visible by default on page load ("above the fold") is the most effective way to have a high view rate.**
 
 ## Does it matter if I use text or image ads?
 
