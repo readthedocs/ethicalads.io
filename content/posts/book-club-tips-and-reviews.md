@@ -1,5 +1,5 @@
 Title: Running a company book club: tips & what we read
-Date: April 26, 2022
+Date: May 5, 2022
 description: We have been running a book club on our team. We discuss what we read and how to set one up yourself.
 tags: company, books, #BuildInPublic
 authors: Eric Holscher
