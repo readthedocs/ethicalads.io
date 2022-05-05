@@ -1,5 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/all.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2022-05-03T00:00:00-07:00</updated><entry><title>EthicalAds Newsletter - April 2022</title><link href="https://www.ethicalads.io/blog/2022/05/ethicalads-newsletter-april-2022/" rel="alternate"></link><published>2022-05-03T00:00:00-07:00</published><updated>2022-05-03T00:00:00-07:00</updated><author><name>Ra Cohen</name></author><id>tag:www.ethicalads.io,2022-05-03:/blog/2022/05/ethicalads-newsletter-april-2022/</id><summary type="html">&lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/all.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2022-05-05T00:00:00-07:00</updated><entry><title>Running a company book club: tips &amp; what we read</title><link href="https://www.ethicalads.io/blog/2022/05/running-a-company-book-club-tips-what-we-read/" rel="alternate"></link><published>2022-05-05T00:00:00-07:00</published><updated>2022-05-05T00:00:00-07:00</updated><author><name>Eric Holscher</name></author><id>tag:www.ethicalads.io,2022-05-05:/blog/2022/05/running-a-company-book-club-tips-what-we-read/</id><summary type="html">&lt;p&gt;Here at EthicalAds we've been running a book club to help our team grow and learn.
+This post will cover …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Here at EthicalAds we've been running a book club to help our team grow and learn.
+This post will cover a few topics:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Advice on running a lightweight book club&lt;/li&gt;
+&lt;li&gt;How we're running our book club&lt;/li&gt;
+&lt;li&gt;Reviews of the books we've read&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We've found this process quite valuable for growing our skills.
+Our team is mostly people with a developer background,
+so we've been focusing more on business &amp;amp; marketing topics,
+since that's where we all have a lot to learn.&lt;/p&gt;
+&lt;h2 id="book-club-goals-advice"&gt;Book club goals &amp;amp; advice&lt;/h2&gt;
+&lt;p&gt;We've read 4 books in our book club so far,
+and we have learned a few tips and tricks for making sure it feels valuable to everyone:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Don't overthink what is required to get started. We didn't have a concrete outcome when we started, and are still learning as we go. Just get started!&lt;/li&gt;
+&lt;li&gt;When you pick a book, have an actionable task that we want to be able to solve once we read the book.&lt;ul&gt;
+&lt;li&gt;As an example, our next book is around writing better email. Our goal is to improve our default email replies for publishers &amp;amp; advertisers in our support tooling.  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Change the topics of the book each time, so that you're getting a well-rounded set of topics that affect your business.&lt;ul&gt;
+&lt;li&gt;We've covered open source, positioning, copywriting, and marketing thus far.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Make sure you're producing something when you read the book, otherwise it can feel like you're reading a lot of theory, but not putting that knowledge to work.&lt;ul&gt;
+&lt;li&gt;You'll also retain the information more if you're forced to use it, rather than just read it.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="how-to-run-a-book-club"&gt;How to run a book club&lt;/h2&gt;
+&lt;p&gt;Our book club is pretty lightweight.
+It looks like:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We have a recurring weekly meeting for 30 minutes, to handle whatever needs to be discussed that week, generally what we've read.&lt;/li&gt;
+&lt;li&gt;During the reading, each member of the team takes notes around what they thought was interesting or actionable for our company, and we mostly discuss this in our 30 meeting.&lt;/li&gt;
+&lt;li&gt;We usually aim for around 30-60 minutes of reading, to keep the time commitment manageable.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;When we want to decide which book to read, we:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Discuss what we want to get out of the book, and which topic to focus on.&lt;/li&gt;
+&lt;li&gt;Then each member of the team looks for a book that they think would fit well (3 total).&lt;/li&gt;
+&lt;li&gt;We discuss each book, and decide as a team which one to read (if there isn't an obvious choice, we just flip a digital coin).&lt;/li&gt;
+&lt;li&gt;We discuss a basic plan for an area of the business to improve after reading the book, so we have an actionable goal at the end of the book to put the information to use.&lt;/li&gt;
+&lt;li&gt;We start reading!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There's likely improvements we'll keep making as we go,
+but this is enough for us to get a lot of value from book club.&lt;/p&gt;
+&lt;h2 id="book-reviews"&gt;Book reviews&lt;/h2&gt;
+&lt;p&gt;These are reviews of the books that we've already read,
+presented in the order we read them.
+If you're looking for some ideas for what to read,
+this might be a good place to start!&lt;/p&gt;
+&lt;h3&gt;&lt;a href="https://press.stripe.com/working-in-public"&gt;Working in Public: The Making and Maintenance of Open Source Software - Nadia Eghbal&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Our goal with this book was to better understand the publishers of our platform,
+many of which are open source projects.
+We are also an open source project ourselves,
+so that was another avenue that we also wanted to read more about.
+The book is a high-level overview of how open source works,
+and is a wonderful categorization of the various types of open source projects.&lt;/p&gt;
+&lt;p&gt;As someone who has done a lot of open source work,
+I found Nadia wonderfully put words to a lot of concepts I understood but couldn't explain.
+If you have a business need or personal curiosity to understand how open source functions,
+this book is a wonderful "Getting Started" guide.&lt;/p&gt;
+&lt;h3&gt;&lt;a href="https://buildingastorybrand.com/"&gt;Building a Brand Story: Clarify Your Message So Customers Will Listen - Donald Miller&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;In the Story Brand framework, a hero (customer) has a problem, meets a guide
+who gives them a plan to solve the problem and succeed.
+As a business, our job is to position ourselves as the guide
+helping the customer to succeed.
+The core message of the brand story is to put the customer first.
+This applies to all aspects of a business but especially (for a business like ours)
+on our website and in our email communication
+This is the key to having customers read and engage with our business.&lt;/p&gt;
+&lt;p&gt;There are a few consequences of the Story Brand framework. They are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The customer is the hero of the story. Not the brand.&lt;/li&gt;
+&lt;li&gt;Messaging needs to be simple and straight-forward. Our website is akin to an elevator pitch. Offers should be direct and above the fold. Sometimes less is more.&lt;/li&gt;
+&lt;li&gt;Give the customer a plan for how our business helps them succeed. The solution by itself isn't a plan.&lt;/li&gt;
+&lt;li&gt;After the hero has succeeded, affirm their success and tell stories of heroes who have succeeded.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;a href="https://www.julian.com/guide/growth/intro"&gt;The Growth Marketing Handbook - Julian Shapiro&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;In an effort to prioritize the actionable, our EthicalAds book club tacked Julian Shapiro’s blog “The Growth Marketing Handbook” as our second group project. Touching on everything from designing and A/B testing landing pages to user acquisition channels and onboarding, the handbook certainly tries to cover it all. While we figured out our brand’s story and thus strategy pretty thoroughly in our first book club book, we took reading this handbook’s sections on webpages as a guide for revamping our user’s experience on our own site. Unfortunately, the “making ads” section wasn’t very insightful as it largely reiterated the lessons learned in landing page design such as an emphasis on concision and clarity with regards to the benefits of your product for your user. The section on “running ads” was particularly interesting to us as it was almost entirely focused on optimizations for tracker-based advertising and how to optimize retargeted ads for conversions differently. While we have no plans to ever run ads on surveillance adtech platforms, the section did illuminate some key differentiators for us to highlight when comparing our service to that of our competitors. All in all, strategy was covered pretty thoroughly in our first book but “The Growth Marketing Handbook” is definitely worth a read for the website optimization guidance.&lt;/p&gt;
+&lt;h3&gt;&lt;a href="https://us.macmillan.com/books/9781250238016/thecopywritershandbook"&gt;The Copywriter's Handbook: A Step-By-Step Guide To Writing Copy That Sells - Robert Bly&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;The book was divided into two major sections, one that gives a theoretical foundation around copywriting, and one that applies that knowledge to specific fields (eg. Writing Online Ads or Writing Direct Mail). Our team read the book without the goal of becoming copywriters, but learning more about copywriting in general.&lt;/p&gt;
+&lt;p&gt;This meant we found the higher level theoretical information quite useful, giving concrete advice for the value and craft of writing great copy that sells. The individual sections on specific types of copywriting were more of a high-level reference for that specific type of copywriting, and we didn't find much value in these sections. In fact, we only read 1/2 of the later sections of the book, focusing on areas where we thought would be most applicable. However, given the nature of the writing as a high-level reference, we didn't get as much value out of the sections that we already knew a lot about. I would recommend reading the topic-specific sections if there is an area you would find value in an overview of, instead of deeper insight into a specific area you already know about.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Best of luck getting started on your book club.&lt;/p&gt;</content><category term="posts"></category><category term="company"></category><category term="books"></category><category term="#BuildInPublic"></category></entry><entry><title>EthicalAds Newsletter - April 2022</title><link href="https://www.ethicalads.io/blog/2022/05/ethicalads-newsletter-april-2022/" rel="alternate"></link><published>2022-05-03T00:00:00-07:00</published><updated>2022-05-03T00:00:00-07:00</updated><author><name>Ra Cohen</name></author><id>tag:www.ethicalads.io,2022-05-03:/blog/2022/05/ethicalads-newsletter-april-2022/</id><summary type="html">&lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
 &lt;p&gt;These are the major features we released in the last month:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;In our server, we've begun implementing server-side …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
