@@ -4,8 +4,7 @@ description: Requests new proposals for Open Source projects to be featured acro
 tags: community, ads
 authors: Ra Cohen
 image: /images/posts/2022-community-ads-rfp.jpg
-image_credit: <span>Photo by <a href="https://unsplash.com/@presetbase?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Presetbase Lightroom Presets
-</a> on <a href=" https://unsplash.com/photos/QN6NkYi3CKs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>
+image_credit: <span>Photo by <a href="https://unsplash.com/@presetbase?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Presetbase Lightroom Presets</a> on <a href=" https://unsplash.com/photos/QN6NkYi3CKs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>
 
 
 Here at EthicalAds, we believe advertising can be used as a force for good, supporting Open Source and fostering community among devs across the world.
