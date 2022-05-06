@@ -21,7 +21,7 @@ Let's explore them.
 
 When users go to your website, they are assuming they will only be sending data to you. Some users consider it a breach of trust if you were to share that data with other third parties, and it might be a breach of a privacy law to do this without user consent.
 
-Some ad networks will set cookies on your browser session, as well as load scripts or resources hosted by third parties into a publishers web page. You can see a screenshot of Carbon Ads loading a Google tracking pixel here:
+Carbon Ads reserves the right to set cookies on your browser session, as well as load scripts or resources hosted by third parties into a publishers web page. You can see a screenshot of Carbon Ads loading a Google tracking pixel here:
 
 <div class="m-5 postimage">
   <a href="{static}../images/posts/2021-third-party-resources.png">
