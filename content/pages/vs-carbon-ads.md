@@ -7,8 +7,9 @@ We know that we are competing with a few other ad networks that focus on develop
 This page talks a bit more about how we're different,
 and why you might want to choose us instead of Carbon Ads.
 
-Carbon and their parent company BuySellAds have attractive, unobtrusive ads
-and like us also focus on developers and related niches.
+Carbon and their parent company BuySellAds have attractive, unobtrusive ads.
+Like us, they also focus on developers and related niches.
+We are happy to compete with a company that also cares about the user experience around ads.
 However, there are some differences between EthicalAds and Carbon
 especially around privacy, security, and community focus.
 Let's explore them.
