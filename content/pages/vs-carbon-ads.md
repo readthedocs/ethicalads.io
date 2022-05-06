@@ -7,13 +7,21 @@ We know that we are competing with a few other ad networks that focus on develop
 This page talks a bit more about how we're different,
 and why you might want to choose us instead of Carbon Ads.
 
+Carbon and their parent company BuySellAds have attractive, unobtrusive ads.
+Like us, they also focus on developers and related niches.
+We are happy to compete with a company that also cares about the user experience around ads.
+However, there are some differences between EthicalAds and Carbon
+especially around privacy, security, and community focus.
+Let's explore them.
+
+
 [TOC]
 
 ## **Privacy**: We never set a cookie on your site, or load third-party scripts.
 
-When your user goes to your website, they are assuming they will only be sending data to you. Some users consider it a breach of trust if you were to share that data with other third parties, and it might be a breach of a privacy law to do this without user consent.
+When running a web site, if you integrate with an ad network, you expect to send data to that network. When using a provider like Carbon Ads, you are also sending data to third-parties that you didn't even know about. EthicalAds will never load javascript from other providers on your pages. 
 
-These networks will often set cookies on your browser session, as well as load scripts hosted by Google into a publishers web page. You can see a screenshot of Carbon Ads loading a Google tracking pixel here:
+Carbon Ads reserves the right to set cookies on your browser session, as well as load scripts or resources hosted by third parties into a publishers web page. You can see a screenshot of Carbon Ads loading a Google tracking pixel here:
 
 <div class="m-5 postimage">
   <a href="{static}../images/posts/2021-third-party-resources.png">
@@ -23,7 +31,7 @@ These networks will often set cookies on your browser session, as well as load s
 </div>
 
 > Removing Our 3rd Party Ad-Serving Cookie from Your Browser
-> 
+>
 > &mdash; Carbon Ads (BuySellAds) [Privacy Policy](https://www.buysellads.com/about/privacy)
 
 
@@ -37,7 +45,7 @@ We appreciate that we have the ability to give back to other projects,
 so we offer [Community Ads]({filename}/pages/community-ads.md) for projects to show community-focused ads for free.
 
 We have run this program since we launched ads on Read the Docs,
-because we love being able to support other projects. 
+because we love being able to support other projects.
 This program allows EthicalAds to help give back to other projects in free advertising,
 as well as by giving them money as publishers.
 
