@@ -37,7 +37,7 @@ We've been running free ads for community events for years now in a variety of l
 </div>
 
 <div class="postimage text-center">
-  <img src="{static}../images/posts/2022-PyBay.png" alt="Support your SF Bay Area PyCon. Join 750+ Pythonistas in San Francisco Aug 15-18">
+  <img src="{static}../images/posts/2019-PyBay.png" alt="Support your SF Bay Area PyCon. Join 750+ Pythonistas in San Francisco Aug 15-18">
   <p>An ad for a San Fran Python conference from 2019.</p>
 </div>
 
