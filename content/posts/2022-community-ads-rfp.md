@@ -7,36 +7,37 @@ image: /images/posts/2022-community-ads-rfp.jpg
 image_credit: <span>Photo by <a href="https://unsplash.com/@presetbase?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Presetbase Lightroom Presets</a> on <a href=" https://unsplash.com/photos/QN6NkYi3CKs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>
 
 
-Here at EthicalAds, we believe advertising can be used as a force for good, supporting Open Source and fostering community among devs across the world.
+Here at EthicalAds, we believe advertising can be used as a force for good, supporting open source and fostering community among devs across the world.
 
 ## Seeking proposals for our Community Ads Program
 
 As part of realizing our [Advertising vision](https://www.ethicalads.io/advertising-vision/?ref=community-ads-rfp), we like to give back to the developer community by running **free** ads for open source projects and community initiatives.
 This is called our [Community Ads Program](https://www.ethicalads.io/community-ads/?ref=community-ads-rfp).
-Historically, we've been proactive about reaching out to causes that we personally attend like PyCon, but we'd love to support other initiatives.
+Historically, we've been proactive about reaching out to causes that we personally attend like regional python conferences, but we'd love to support other initiatives.
 Hence this blog post!
 
 Do you have an open source project that is entirely free to use that you'd like to share with the world?
 Do you run a conference or are starting a local chapter of a developer group that you'd like to advertise?
-Let us know!
+[Let us know](https://www.ethicalads.io/community-ads/?ref=community-ads-rfp)!
 
 
 ## Previous Community Ads
 
-We've been running free ads for community events for years now in a variety of languages. Some examples of ads we've run before:
+We've been running free ads for community events for years now in a variety of languages.
+Some examples of ads we've run before:
 
 <div class="postimage text-center">
-  <img src="{static}../images/pages/community-ads-pycon-example.png" alt="Want to give a talk at Pycon US 2022? Proposals open now until Dec 20th. Apply today!">
+  <img src="{static}../images/pages/community-ads-pycon-example.png" alt="Want to give a talk at Pycon US 2022? Proposals open now until Dec 20th. Apply today!" style="max-width: 300px">
   <p>An ad raising awareness for the Call for Proposals for Pycon US 2022.</p>
 </div>
 
 <div class="postimage text-center">
-  <img src="{static}../images/posts/2022-pycamp.png" alt="¡Programa tus ideas sin límites durante todo un fin de semana all-inclusive!">
+  <img src="{static}../images/posts/2022-pycamp.png" alt="¡Programa tus ideas sin límites durante todo un fin de semana all-inclusive!" style="max-width: 300px">
   <p>An ad for a Spanish Python conference, PyCamp 2022.</p>
 </div>
 
 <div class="postimage text-center">
-  <img src="{static}../images/posts/2019-PyBay.png" alt="Support your SF Bay Area PyCon. Join 750+ Pythonistas in San Francisco Aug 15-18">
+  <img src="{static}../images/posts/2019-PyBay.png" alt="Support your SF Bay Area PyCon. Join 750+ Pythonistas in San Francisco Aug 15-18" style="max-width: 300px">
   <p>An ad for a San Fran Python conference from 2019.</p>
 </div>
 
