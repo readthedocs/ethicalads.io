@@ -13,8 +13,8 @@ Here at EthicalAds, we believe advertising can be used as a force for good, supp
 
 As part of realizing our [Advertising vision](https://www.ethicalads.io/advertising-vision/?ref=community-ads-rfp), we like to give back to the developer community by running **free** ads for open source projects and community initiatives.
 This is called our [Community Ads Program](https://www.ethicalads.io/community-ads/?ref=community-ads-rfp).
+These ads are for developer serving initiatives that simply don't have the budget for paid advertising.
 Historically, we've been proactive about reaching out to causes that we personally attend like regional python conferences, but we'd love to support other initiatives.
-Hence this blog post!
 
 Do you have an open source project that is entirely free to use that you'd like to share with the world?
 Do you run a conference or are starting a local chapter of a developer group that you'd like to advertise?
@@ -41,19 +41,10 @@ Some examples of ads we've run before:
   <p>An ad for a San Fran Python conference from 2019.</p>
 </div>
 
-As you can see, these are often ads for regional technical conferences but they don't have to be!
+As you can see, these are often ads for regional technical conferences but they don't have to be.
 We'd love to run more ads supporting the developer community either by raising awareness for dev-focused charities or non-profit organizations.
-Just reach out!
 
 
 ## Know of a worthy cause?
 
-Do these examples remind you of your own cause? Spread the word by submitting a community ad application today!
-
-* [Launch the application!](https://www.ethicalads.io/community-ads/?ref=community-ads-rfp)
-
-
-
-Thanks again for being along with us on this journey to build an ethical ad network.
-Please [email us](mailto:ads@ethicalads.io) if you have any ideas or feedback on our product or roadmap,
-we always love to hear from you.
+Spread the word by submitting a [community ad application](https://www.ethicalads.io/community-ads/?ref=community-ads-rfp)today!
