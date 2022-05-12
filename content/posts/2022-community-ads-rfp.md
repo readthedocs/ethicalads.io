@@ -1,5 +1,5 @@
 Title: Community Ads Program - Request for Proposals
-Date: May 10, 2022
+Date: May 13, 2022
 description: Requests new proposals for Open Source projects to be featured across EthicalAds
 tags: community, ads
 authors: Ra Cohen
