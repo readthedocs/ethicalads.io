@@ -11,7 +11,7 @@ Here at EthicalAds, we believe advertising can be used as a force for good, supp
 
 ## Seeking proposals for our Community Ads Program
 
-As part of realizing our [Advertising vision](https://www.ethicalads.io/advertising-vision/?ref=community-ads-rfp), we like to give back to the developer community by running **free** ads for open source projects and community initiatives.
+As part of realizing our [Advertising vision](https://www.ethicalads.io/advertising-vision/?ref=community-ads-rfp), we like to give back to the developer community by running **free** ads for open source projects and community initiatives like open source conferences.
 This is called our [Community Ads Program](https://www.ethicalads.io/community-ads/?ref=community-ads-rfp).
 These ads are for developer serving initiatives that simply don't have the budget for paid advertising.
 Historically, we've been proactive about reaching out to causes that we personally attend like regional python conferences, but we'd love to support other initiatives.
