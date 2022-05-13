@@ -47,4 +47,4 @@ We'd love to run more ads supporting the developer community either by raising a
 
 ## Know of a worthy cause?
 
-Spread the word by submitting a [community ad application](https://www.ethicalads.io/community-ads/?ref=community-ads-rfp)today!
+Spread the word by submitting a [community ad application](https://www.ethicalads.io/community-ads/?ref=community-ads-rfp) today!
