@@ -38,7 +38,7 @@ Some examples of ads we've run before:
 
 <div class="postimage text-center">
   <img src="{static}../images/posts/2019-PyBay.png" alt="Support your SF Bay Area PyCon. Join 750+ Pythonistas in San Francisco Aug 15-18" style="max-width: 300px">
-  <p>An ad for a San Fran Python conference from 2019.</p>
+  <p>An ad for a Bay Area Python conference from 2019.</p>
 </div>
 
 As you can see, these are often ads for regional technical conferences but they don't have to be.
