@@ -1,5 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/all.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2022-05-05T00:00:00-07:00</updated><entry><title>Running a company book club: tips &amp; what we read</title><link href="https://www.ethicalads.io/blog/2022/05/running-a-company-book-club-tips-what-we-read/" rel="alternate"></link><published>2022-05-05T00:00:00-07:00</published><updated>2022-05-05T00:00:00-07:00</updated><author><name>Eric Holscher</name></author><id>tag:www.ethicalads.io,2022-05-05:/blog/2022/05/running-a-company-book-club-tips-what-we-read/</id><summary type="html">&lt;p&gt;Here at EthicalAds we've been running a book club to help our team grow and learn.
+<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/all.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2022-05-16T00:00:00-07:00</updated><entry><title>Community Ads Program - Request for Proposals</title><link href="https://www.ethicalads.io/blog/2022/05/community-ads-program-request-for-proposals/" rel="alternate"></link><published>2022-05-16T00:00:00-07:00</published><updated>2022-05-16T00:00:00-07:00</updated><author><name>Ra Cohen</name></author><id>tag:www.ethicalads.io,2022-05-16:/blog/2022/05/community-ads-program-request-for-proposals/</id><summary type="html">&lt;p&gt;Here at EthicalAds, we believe advertising can be used as a force for good, supporting open source and fostering community …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Here at EthicalAds, we believe advertising can be used as a force for good, supporting open source and fostering community among devs across the world.&lt;/p&gt;
+&lt;h2 id="seeking-proposals-for-our-community-ads-program"&gt;Seeking proposals for our Community Ads Program&lt;/h2&gt;
+&lt;p&gt;As part of realizing our &lt;a href="https://www.ethicalads.io/advertising-vision/?ref=community-ads-rfp"&gt;Advertising vision&lt;/a&gt;, we like to give back to the developer community by running &lt;strong&gt;free&lt;/strong&gt; ads for open source projects and community initiatives like open source conferences.
+This is called our &lt;a href="https://www.ethicalads.io/community-ads/?ref=community-ads-rfp"&gt;Community Ads Program&lt;/a&gt;.
+These ads are for developer serving initiatives that simply don't have the budget for paid advertising.
+Historically, we've been proactive about reaching out to causes that we personally attend like regional python conferences, but we'd love to support other initiatives.&lt;/p&gt;
+&lt;p&gt;Do you have an open source project that is entirely free to use that you'd like to share with the world?
+Do you run a conference or are starting a local chapter of a developer group that you'd like to advertise?
+&lt;a href="https://www.ethicalads.io/community-ads/?ref=community-ads-rfp"&gt;Let us know&lt;/a&gt;!&lt;/p&gt;
+&lt;h2 id="previous-community-ads"&gt;Previous Community Ads&lt;/h2&gt;
+&lt;p&gt;We've been running free ads for community events for years now in a variety of languages.
+Some examples of ads we've run before:&lt;/p&gt;
+&lt;div class="postimage text-center"&gt;
+  &lt;img src="https://www.ethicalads.io/images/pages/community-ads-pycon-example.png" alt="Want to give a talk at Pycon US 2022? Proposals open now until Dec 20th. Apply today!" style="max-width: 300px"&gt;
+  &lt;p&gt;An ad raising awareness for the Call for Proposals for Pycon US 2022.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class="postimage text-center"&gt;
+  &lt;img src="https://www.ethicalads.io/images/posts/2022-pycamp.png" alt="¡Programa tus ideas sin límites durante todo un fin de semana all-inclusive!" style="max-width: 300px"&gt;
+  &lt;p&gt;An ad for a Spanish Python conference, PyCamp 2022.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class="postimage text-center"&gt;
+  &lt;img src="https://www.ethicalads.io/images/posts/2019-PyBay.png" alt="Support your SF Bay Area PyCon. Join 750+ Pythonistas in San Francisco Aug 15-18" style="max-width: 300px"&gt;
+  &lt;p&gt;An ad for a Bay Area Python conference from 2019.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;As you can see, these are often ads for regional technical conferences but they don't have to be.
+We'd love to run more ads supporting the developer community either by raising awareness for dev-focused charities or non-profit organizations.&lt;/p&gt;
+&lt;h2 id="know-of-a-worthy-cause"&gt;Know of a worthy cause?&lt;/h2&gt;
+&lt;p&gt;Spread the word by submitting a &lt;a href="https://www.ethicalads.io/community-ads/?ref=community-ads-rfp"&gt;community ad application&lt;/a&gt; today!&lt;/p&gt;</content><category term="posts"></category><category term="community"></category><category term="ads"></category></entry><entry><title>Running a company book club: tips &amp; what we read</title><link href="https://www.ethicalads.io/blog/2022/05/running-a-company-book-club-tips-what-we-read/" rel="alternate"></link><published>2022-05-05T00:00:00-07:00</published><updated>2022-05-05T00:00:00-07:00</updated><author><name>Eric Holscher</name></author><id>tag:www.ethicalads.io,2022-05-05:/blog/2022/05/running-a-company-book-club-tips-what-we-read/</id><summary type="html">&lt;p&gt;Here at EthicalAds we've been running a book club to help our team grow and learn.
 This post will cover …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Here at EthicalAds we've been running a book club to help our team grow and learn.
 This post will cover a few topics:&lt;/p&gt;
 &lt;ul&gt;
