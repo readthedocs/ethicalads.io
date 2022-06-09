@@ -17,8 +17,8 @@ You can access it on `Fallback Ads` menu in your publisher dashboard, if you wan
 * After seeing the success of the small onboarding improvements in our ad server,
   we reworked a number of our standard customer support responses
   to help get new publishers and advertisers on the platform as easily and quickly as possible.
-* Our keyword analyzer is now spidering automatically across the most visited pages across our network
-  to help us better understand the content where we show ads and show the most relevant ad.
+* Our keyword analyzer is now spidering across the most visited pages in our network.
+  This helps us better understand the content where we show ads, curate topics, and show the most relevant ad.
 * We did some initial work on building more targeting and pricing information into our ad server.
   Specifically, having multiple preset regions and topics based on what advertisers frequently buy.
 * On the marketing front, we produced a page on how we are
