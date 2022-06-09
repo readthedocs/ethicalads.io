@@ -13,7 +13,7 @@ These are the major features we released in the last month:
 
 * In May, we rolled out the ability for publishers to show their own fallback house ads
   when we don't have a paid ad to show.
-  We will have more details on this but this was one of the most requested features by publishers.
+You can access it on `Fallback Ads` menu in your publisher dashboard, if you want to try it out.```
 * After seeing the success of the small onboarding improvements in our ad server,
   we reworked a number of our standard customer support responses
   to help get new publishers and advertisers on the platform as easily and quickly as possible.
