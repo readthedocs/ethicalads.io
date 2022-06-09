@@ -1,5 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds - posts</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/posts.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2022-05-16T00:00:00-07:00</updated><entry><title>Community Ads Program - Request for Proposals</title><link href="https://www.ethicalads.io/blog/2022/05/community-ads-program-request-for-proposals/" rel="alternate"></link><published>2022-05-16T00:00:00-07:00</published><updated>2022-05-16T00:00:00-07:00</updated><author><name>Ra Cohen</name></author><id>tag:www.ethicalads.io,2022-05-16:/blog/2022/05/community-ads-program-request-for-proposals/</id><summary type="html">&lt;p&gt;Here at EthicalAds, we believe advertising can be used as a force for good, supporting open source and fostering community …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Here at EthicalAds, we believe advertising can be used as a force for good, supporting open source and fostering community among devs across the world.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds - posts</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/posts.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2022-06-09T00:00:00-07:00</updated><entry><title>EthicalAds Newsletter - May 2022</title><link href="https://www.ethicalads.io/blog/2022/06/ethicalads-newsletter-may-2022/" rel="alternate"></link><published>2022-06-09T00:00:00-07:00</published><updated>2022-06-09T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2022-06-09:/blog/2022/06/ethicalads-newsletter-may-2022/</id><summary type="html">&lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
+&lt;p&gt;These are the major features we released in the last month:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;In May, we rolled out the ability …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
+&lt;p&gt;These are the major features we released in the last month:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;In May, we rolled out the ability for publishers to show their own fallback house ads
+  when we don't have a paid ad to show.
+You can access it on &lt;code&gt;Fallback Ads&lt;/code&gt; menu in your publisher dashboard, if you want to try it out.```&lt;/li&gt;
+&lt;li&gt;After seeing the success of the small onboarding improvements in our ad server,
+  we reworked a number of our standard customer support responses
+  to help get new publishers and advertisers on the platform as easily and quickly as possible.&lt;/li&gt;
+&lt;li&gt;Our keyword analyzer is now spidering across the most visited pages in our network.
+  This helps us better understand the content where we show ads, curate topics, and show the most relevant ad.&lt;/li&gt;
+&lt;li&gt;We did some initial work on building more targeting and pricing information into our ad server.
+  Specifically, having multiple preset regions and topics based on what advertisers frequently buy.&lt;/li&gt;
+&lt;li&gt;On the marketing front, we produced a page on how we are
+  &lt;a href="https://www.ethicalads.io/alternative-to-carbon-ads?ref=newsletter"&gt;different from other developer ad networks like CarbonAds&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can always see our latest server updates in our &lt;a href="https://ethical-ad-server.readthedocs.io/en/latest/developer/changelog.html"&gt;ethical-ad-server changelog&lt;/a&gt; and &lt;a href="https://ethical-ad-client.readthedocs.io/en/latest/changelog.html"&gt;ethical-ad-client changelog&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="may-advertising-stats"&gt;May advertising stats&lt;/h2&gt;
+&lt;p&gt;In May 2022:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We generated &lt;strong&gt;$39,991.85&lt;/strong&gt; for our publishers. Just a hair under $40k which we hope to break in the coming months.&lt;/li&gt;
+&lt;li&gt;We had &lt;strong&gt;125 publishers&lt;/strong&gt; on our network with at least one paid ad impression.&lt;/li&gt;
+&lt;li&gt;We had &lt;strong&gt;16,183,111&lt;/strong&gt; paid ad views across the world.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;May was another record breaking month in terms of revenue and it's great to keep the network growing.
+Revenue was very consistent over the month and showed the usual ebb and flow of our traffic
+with peaks on weekdays and valleys on weekends.&lt;/p&gt;
+&lt;h2 id="tricky-bits"&gt;Tricky bits&lt;/h2&gt;
+&lt;p&gt;Unfortunately, we said goodbye to our wonderful account manager and customer success rep Ra
+who left us for what sounds like an amazing data science role in New York City.&lt;/p&gt;
+&lt;p&gt;Although we hand-approve our publishers, we do continuously go back and look at low performers.
+In May, we worked with a few low performers to try to improve the ad placements on their site.
+While we had some successes here and a large publisher and some small ones were able to bring their
+numbers up, a few publishers had to be offboarded from the network.&lt;/p&gt;
+&lt;h2 id="upcoming-features"&gt;Upcoming features&lt;/h2&gt;
+&lt;p&gt;The major features in our upcoming roadmap:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We're continuing to work on our topic-detection infrastructure.
+  We made improvements in May and expect to continue to iterate here in June.&lt;/li&gt;
+&lt;li&gt;In June, we expect to have a new publisher spotlight post (&lt;a href="https://www.ethicalads.io/blog/2022/01/publisher-spotlight-series-ido-shamun-from-dailydev/"&gt;our first with daily.dev&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;We will also have an updated &lt;a href="https://www.ethicalads.io/prospectus/ethicalads-advertiser-prospectus.pdf"&gt;Q3 prospectus&lt;/a&gt;
+  in the next few days.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thanks again for being along with us on this journey to build an ethical ad network.
+Please &lt;a href="mailto:ads@ethicalads.io"&gt;email us&lt;/a&gt; if you have any ideas or feedback on our product or roadmap,
+we always love to hear from you.&lt;/p&gt;</content><category term="posts"></category><category term="newsletter"></category><category term="community"></category></entry><entry><title>Community Ads Program - Request for Proposals</title><link href="https://www.ethicalads.io/blog/2022/05/community-ads-program-request-for-proposals/" rel="alternate"></link><published>2022-05-16T00:00:00-07:00</published><updated>2022-05-16T00:00:00-07:00</updated><author><name>Ra Cohen</name></author><id>tag:www.ethicalads.io,2022-05-16:/blog/2022/05/community-ads-program-request-for-proposals/</id><summary type="html">&lt;p&gt;Here at EthicalAds, we believe advertising can be used as a force for good, supporting open source and fostering community …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Here at EthicalAds, we believe advertising can be used as a force for good, supporting open source and fostering community among devs across the world.&lt;/p&gt;
 &lt;h2 id="seeking-proposals-for-our-community-ads-program"&gt;Seeking proposals for our Community Ads Program&lt;/h2&gt;
 &lt;p&gt;As part of realizing our &lt;a href="https://www.ethicalads.io/advertising-vision/?ref=community-ads-rfp"&gt;Advertising vision&lt;/a&gt;, we like to give back to the developer community by running &lt;strong&gt;free&lt;/strong&gt; ads for open source projects and community initiatives like open source conferences.
 This is called our &lt;a href="https://www.ethicalads.io/community-ads/?ref=community-ads-rfp"&gt;Community Ads Program&lt;/a&gt;.
