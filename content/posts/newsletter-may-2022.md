@@ -4,7 +4,7 @@ description: Updates from May, including stats and commentary on our progress as
 tags: newsletter, community
 authors: David Fischer
 image: /images/posts/2022-may-newsletter.jpg
-image_credit: <span>Photo by <a href="https://unsplash.com/@by_syeoni?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">corina ardeleanu</a> on <a href="https://unsplash.com/s/photos/may?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>
+image_credit: <span>Photo by <a href="https://unsplash.com/@by_syeoni?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Suhyeon Choi</a> on <a href="https://unsplash.com/s/photos/may?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>
 
 
 ## New features
