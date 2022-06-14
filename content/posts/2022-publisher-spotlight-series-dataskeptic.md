@@ -16,7 +16,9 @@ image: /images/posts/2022-publisher-spotlight-dataskeptic.jpg
 
 *This is part of our publisher spotlight series where we highlight publishers
 using EthicalAds and help them tell their story.
-This first episode is with Kyle Polich from [Data Skeptic](https://dataskeptic.com/).*
+This second episode is with Kyle Polich from [Data Skeptic](https://dataskeptic.com/),
+a podcast about data science, machine learning, and AI.
+You can check out our [previous episode here]({filename}../posts/2022-publisher-spotlight-series-dailydev.md).*
 
 
 **Ra: Hi I'm Ra from EthicalAds and firstly I'd like to introduce my guest who is Kyle Polich,
