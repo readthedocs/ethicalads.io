@@ -28,11 +28,14 @@ Each report will have the following metrics:
 
 ## How do I improve View Rate?
 
-View Rate will never be 100% because some users will close the browser after the ad is requested, 
+View Rate will never be 100% because some users will close the browser after the ad is requested,
 but before the ad is viewed.
 If you have an ad that is loaded outside of the users viewport,
 it won't be counted as viewed until the user scrolls to see it.
 **Having the ad visible by default on page load ("above the fold") is the most effective way to have a high view rate.**
+
+See our [publisher guide]({filename}learning-hub/publisher-guide.md) for more details and tips.
+
 
 ## Does it matter if I use text or image ads?
 

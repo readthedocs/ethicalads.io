@@ -12,6 +12,20 @@ A good ad placement means the ad is clearly visible and separate from the conten
 How long the ad is visible on the page is also a factor.
 If the UX of your site means that users quickly scroll past ads, the ads on your site won't perform well.
 
+
+## The basics
+
+**Having the ad visible by default on page load ("above the fold") is the most effective way to have a high view rate.**
+Ads that are more visible and obvious get viewed more frequently and clicked at a higher rate.
+
+As our [publisher policy]({filename}../publisher-policy.md) lays out:
+
+* The ad should appear when the user first visits, above the fold, on both desktop and mobile.
+  You can disable the ad on mobile if this isn't possible.
+* The ad should not disrupt the natural reading flow of the page.
+  It should be placed above, beside or below the main content, not within it.
+
+
 ## Tailored display types
 
 On the EthicalAds network, there are two main types of ads:
@@ -24,12 +38,14 @@ A banner across the bottom of the page works well on static pages like [jsbin.co
 otherwise we've found image ads in the sidebar which are static when scrolling to be really successful.
 The majority of our ads do have images so if in doubt, go with the image ad spot.
 
+
 ## Light vs dark themes
 
 If your website uses a dark theme, consider adding ```{html} class = "dark"``` as seen [here](https://ethical-ad-client.readthedocs.io/en/latest/#dark-mode).
 This improves performance by helping the text of the ad standout while the rest of the ad blends in.
 
 If your website's theme is adaptive, consider adding ```{html} class = "adaptive"``` as it handles both Light and Dark themes automatically.
+
 
 ## Content tagging
 
@@ -39,6 +55,7 @@ can allow us to better target the ads.
 For example, we can target an ad for a DevOps related service to DevOps related content.
 Ads targeted specifically to your content can also result in higher payouts
 as we charge higher rates for highly targeted ads.
+
 
 ## Bringing it all together
 
