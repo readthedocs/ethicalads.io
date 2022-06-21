@@ -73,15 +73,17 @@ This ensures advertisers get excactly what they expect.
 ## What are the ad specifications?
 
 There are two main ad placements across the EthicalAds network.
-We support unobtrusive text &amp; image placements which use a 240 * 180px image
-(displayed at 120 * 90) and up to 100 characters of supporting text.
-There's also a text-only placement that uses up to 100 characters without an image.
 Publishers choose which placement best fits with their site
 and we have seen great performance for advertisers and publishers with both types.
 
-Our
-[prospectus]({static}/prospectus/ethicalads-advertiser-prospectus.pdf)
-has the full details and example screenshots.
+* We support unobtrusive text &amp; image placements which use a 240 * 180px image
+  (displayed at 120 * 90) and up to 100 characters of supporting text.
+  An optional headline and call-to-action (part of the 100 characters) are bolded.
+* There's also a text-only placement that uses up to 100 characters without an image.
+
+Check out our
+[ad specs]({static}/prospectus/ad-specs.pdf)
+with more details and screenshots.
 
 
 ## What is the process for becoming a publisher?
