@@ -6,7 +6,8 @@ subtitle: Good ads speak directly to developers in their language with reasons t
 This guide tries to help you to create engaging ads for [our audience](/our-audience/) on the EthicalAds network
 and make sure those ads perform well once people click on them.
 For frequently asked questions, see our [Advertiser's FAQ](/advertisers/faq/).
-
+For design specifications and screenshots of ads, see our
+[ad specs]({static}/prospectus/ad-specs.pdf).
 
 
 ## Optimizing ads through specificity
