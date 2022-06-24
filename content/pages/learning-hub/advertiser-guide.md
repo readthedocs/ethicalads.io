@@ -12,11 +12,11 @@ The page below has suggestions for ad design, as well as how to think about your
 For design specifications and screenshots of ads,
 see our [ad design specs]({static}/prospectus/ad-specs.pdf).
 
-##### Contents
+#### Contents
 
 [TOC]
 
-## Be specific with your ads
+## Creating great ads
 
 There are many factors to successful display advertising.
 Compelling branding to optimized landing pages are important,
@@ -138,6 +138,6 @@ largely because it was so specific.
 One possible area for improvement would be to introduce the company's
 branding to reassure applicants that this is first party recruiting.
 
-## More questions?
+### More questions?
 
 Our [Advertiser's FAQ](/advertisers/faq/) will help answer more of your specific questions around our product.
