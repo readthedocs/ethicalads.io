@@ -3,9 +3,9 @@ url: publishers/faq/
 save_as: publishers/faq/index.html
 description: These are common questions from publishers about the EthicalAds network including how ads are shown, where they appear, and how performance is measured.
 
+**Contents**
 
 [TOC]
-
 
 ## What data can I see about the ads?
 

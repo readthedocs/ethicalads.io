@@ -12,7 +12,7 @@ The page below has suggestions for ad design, as well as how to think about your
 For design specifications and screenshots of ads,
 see our [ad design specs]({static}/prospectus/ad-specs.pdf).
 
-#### Contents
+**Contents**
 
 [TOC]
 
@@ -24,10 +24,10 @@ but it all starts with the image and text copy.
 
 > For copy to convince the consumer to buy the product, it must do four things:
 >
-> * Get attention
-> * Communicate
-> * Persuade
-> * Ask for a response
+> - Get attention
+> - Communicate
+> - Persuade
+> - Ask for a response
 >
 > &mdash; Robert W. Bly, "The Copywriter's Handbook"
 
@@ -47,7 +47,7 @@ This informs the viewer of what to expect to see on the linked landing page afte
 
 The best ads entice the viewer with an offer, and lead to a landing page that compliments the ad copy.
 
-### Honed targeted
+### Honed targeting
 
 Making sure your geographic targeting matches the location of your desired customers.
 Refining your scope by targeting a topic ensures your ad will be seen by the right audience.
@@ -56,7 +56,7 @@ only some are a perfect fit for your product or service.
 Crafting highly targeted ads for each region of interest will help increase the CTR of your ads
 and the likelihood of those users resulting in conversions.
 
-### Multiple ad formats
+### Multiple formats
 
 Our network supports ads with or without an image.
 Publishers choose the format that works best for their site,
@@ -67,7 +67,7 @@ the same copy can be used both with and without an image.
 However, if your image contains important context or text,
 it's much better to craft a second text-only ad that can communicate your message on its own.
 
-### Keep ads fresh
+### Fresh images and copy
 
 The CTR of ads fades slowly over time.
 This is known as "ad fatigue" and is due to each user seeing the same ad over and over
@@ -86,14 +86,14 @@ Having developers click on your advertisement is only half the battle.
 Once users arrive at your landing page, you want the visitor to take a specific action.
 Here are some key points to help your ads convert visitors to customers:
 
-### Pair ad copy with landing page copy
+### Pair ad copy with the landing page
 
 Nothing is worse than clicking on an ad and being confused
 about what is being offered or what the next steps are.
 The language from your ad motivated this user to click,
 reassure them with similar wording on the landing page.
 
-### Setting expectations with the ad copy
+### Set expectations with the ad
 
 In addition to just pairing with the copy, the ad can prepare the visitor
 for what will be on the landing page.
@@ -138,6 +138,6 @@ largely because it was so specific.
 One possible area for improvement would be to introduce the company's
 branding to reassure applicants that this is first party recruiting.
 
-### More questions?
+## More questions?
 
 Our [Advertiser's FAQ](/advertisers/faq/) will help answer more of your specific questions around our product.
