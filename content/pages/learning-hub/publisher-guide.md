@@ -5,6 +5,10 @@ subtitle: Maximize your site's ad revenue by complementing your user experience.
 
 Our [EthicalAds client](https://ethical-ad-client.readthedocs.io/en/latest/) gets you started with how to host ads. To ensure your site generates as much revenue from your ads as possible, you need to make sure your ad placement, targeting, and user experience compliment your content.
 
+**Contents**
+
+[TOC]
+
 ## Good performing ad placements
 
 Without tracking users, the best way to make sure ads perform well is to have a good ad placement.

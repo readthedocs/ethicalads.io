@@ -12,6 +12,9 @@ an advertiser looking for an alternative,
 or you run a website but don't want to sell your visitors' data,
 we want to help you opt-out.
 
+**Contents**
+
+[TOC]
 
 ## Profiling millions of users for fun and profit
 

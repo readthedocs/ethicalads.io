@@ -9,6 +9,9 @@ Whether you are a prospective advertiser or publisher,
 or you just care about privacy and you want to learn more,
 we want to define *ethical advertising* for you here.
 
+**Contents**
+
+[TOC]
 
 ## Defining 'ethical advertising'
 

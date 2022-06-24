@@ -29,8 +29,8 @@ MARKDOWN = {
         "markdown.extensions.codehilite": {"css_class": "highlight"},
         "markdown.extensions.extra": {},
         "markdown.extensions.meta": {},
-        # This adds id's to each header. Currently only shows items with `##` header.
-        "markdown.extensions.toc": {"toc_depth": "2"},
+        # This adds id's to each header. Currently only shows items with `##` & `###` header.
+        "markdown.extensions.toc": {"toc_depth": "3"},
     },
     "output_format": "html5",
 }
