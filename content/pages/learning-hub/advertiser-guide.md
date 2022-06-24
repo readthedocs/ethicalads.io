@@ -5,7 +5,7 @@ subtitle: Good ads speak directly to developers in their language with reasons t
 
 This guide will help you create engaging ads for [our audience](/our-audience/)
 and make sure those ads perform well when people click them.
-EthicalAds will work with you to ensure that ad is getting results,
+Our team will work with you to ensure that ad is getting results,
 and pairing that with a great landing page will make your campaign successful.
 The page below has suggestions for ad design, as well as how to think about your campaign targeting.
 
@@ -31,7 +31,7 @@ but it all starts with the image and text copy.
 >
 > &mdash; Robert W. Bly, "The Copywriter's Handbook"
 
-The average click through rate (CTR) for display ads across the EthicalAds network is around 0.12%.
+The average click through rate (CTR) for display ads across our network is around 0.12%.
 The best ads perform more than **three times better** than that.
 
 Here are some features of high quality ads:
