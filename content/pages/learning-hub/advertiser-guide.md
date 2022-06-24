@@ -5,7 +5,7 @@ subtitle: Good ads speak directly to developers in their language with reasons t
 
 This guide will help you create engaging ads for [our audience](/our-audience/)
 and make sure those ads perform well when people click them.
-EthicalAds will work with you to ensure that your CTR is getting results,
+EthicalAds will work with you to ensure that ad is getting results,
 and pairing that with a great landing page will make your campaign successful.
 The page below has suggestions for ad design, as well as how to think about your campaign targeting.
 
@@ -133,7 +133,7 @@ A similar ad was used by an advertiser to hire multiple developers for their tea
 The ad did a number of things right including
 **focusing extremely narrowly** on their target audience.
 When the ad first launched,
-the CTR was 4x better than our average,
+the CTR was 4 better than our average,
 largely because it was so specific.
 One possible area for improvement would be to introduce the company's
 branding to reassure applicants that this is first party recruiting.
