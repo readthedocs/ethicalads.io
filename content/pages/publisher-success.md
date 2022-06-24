@@ -10,8 +10,8 @@ We should get back to you at your submitted email address within 2 days.
 
 In the meantime, you can:
 
-* Subscribe to our [newsletter](#newsletter) in the footer of this page
-* Read our latest [blog posts](https://www.ethicalads.io/blog/)
-* Follow us on Twitter at [@ethicaladsio](https://twitter.com/ethicaladsio)
+- Subscribe to our [newsletter](#newsletter) in the footer of this page
+- Read our latest [blog posts](https://www.ethicalads.io/blog/)
+- Follow us on Twitter at [@ethicaladsio](https://twitter.com/ethicaladsio)
 
 Thanks again for your interest in EthicalAds.

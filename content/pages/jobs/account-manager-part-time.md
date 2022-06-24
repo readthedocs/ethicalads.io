@@ -7,17 +7,13 @@ template: ea/job-post
 form_subject: Ads Account Manager Job Application
 disable_form: true
 
-
 > This position has been filled
-
 
 Thanks for your interest in working at Read the Docs on EthicalAds.
 We are a small team of five growing slowly and deliberately,
 and we’d love for you to join us.
 
-
-About the company
------------------
+## About the company
 
 Read the Docs is a large [open source project](https://github.com/readthedocs/readthedocs.org) providing documentation building and hosting.
 We do around 500 million pageviews each year across hundreds of thousands of software documentation projects.
@@ -33,9 +29,7 @@ Our primary mission is help sustain open source and deal with our publishers and
 We hope to grow your role to include sales and marketing aspects as we get our account management under control,
 based on your skillset and interests.
 
-
-About the job
--------------
+## About the job
 
 You will be the first person hired to work exclusively on advertising.
 Currently, of our small team, advertising is handled by Eric Holscher and David Fischer.
@@ -61,14 +55,12 @@ Our goal is to expand this to a full time role later in 2021.
 
 Interest and skills in any of the following is a big plus so please let us know in your application:
 
-* Advertising
-* Open Source Software
-* Online privacy
-* Content marketing
+- Advertising
+- Open Source Software
+- Online privacy
+- Content marketing
 
-
-Details and responsibilities
-----------------------------
+## Details and responsibilities
 
 We have emails from publishers, advertisers, and prospective advertisers that come in each day,
 and its important for our customers and clients to get good and prompt support.
@@ -85,9 +77,7 @@ in content marketing, blog posts, and making the onboarding process as smooth as
 Again, you will be our first person we hire focused on advertising.
 You will have a lot of input on the direction our product and relationships take!
 
-
-Requirements
-------------
+## Requirements
 
 You will need very clear written communication skills both to clients
 and for our website and knowledge base.
@@ -102,9 +92,7 @@ We are a fully remote company and our team is currently based in the US, South A
 We hope to work with people that are based in a timezone where we have some overlap with the entire team,
 which is around UTC-8 to UTC+1.
 
-
-Structure
----------
+## Structure
 
 This would be a contract position.
 The plan would be for us to contract with you to work between 4-5 days a week for 20-32 hours per week.

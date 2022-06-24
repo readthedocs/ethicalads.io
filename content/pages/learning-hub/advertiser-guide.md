@@ -29,7 +29,7 @@ but it all starts with the image and text copy.
 > - Persuade
 > - Ask for a response
 >
-> &mdash; Robert W. Bly, "The Copywriter's Handbook"
+> — Robert W. Bly, "The Copywriter's Handbook"
 
 The average click through rate (CTR) for display ads across our network is around 0.12%.
 The best ads perform more than **three times better** than that.

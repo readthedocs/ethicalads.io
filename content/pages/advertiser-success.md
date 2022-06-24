@@ -9,9 +9,9 @@ We should get back to you at your submitted email address within a day.
 
 In the meantime, you can:
 
-* Read more about advertising in our [advertiser prospectus]({static}/prospectus/ethicalads-advertiser-prospectus.pdf)
-* Subscribe to our [newsletter](#newsletter), to get the latest updates from our blog
-* Follow us on Twitter at [@ethicaladsio](https://twitter.com/ethicaladsio)
+- Read more about advertising in our [advertiser prospectus]({static}/prospectus/ethicalads-advertiser-prospectus.pdf)
+- Subscribe to our [newsletter](#newsletter), to get the latest updates from our blog
+- Follow us on Twitter at [@ethicaladsio](https://twitter.com/ethicaladsio)
 
 Thanks again for your interest in EthicalAds,
 and we look forward to working with you.

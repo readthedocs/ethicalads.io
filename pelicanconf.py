@@ -33,6 +33,7 @@ MARKDOWN = {
         "markdown.extensions.toc": {"toc_depth": "3"},
     },
     "output_format": "html5",
+    "tab_length": 2,  # Support indenting 2 spaces for lists as per mdformat
 }
 
 PLUGINS = ["related_posts"]
