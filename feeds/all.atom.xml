@@ -406,18 +406,12 @@ since that's where we all have a lot to learn.&lt;/p&gt;
 and we have learned a few tips and tricks for making sure it feels valuable to everyone:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Don't overthink what is required to get started. We didn't have a concrete outcome when we started, and are still learning as we go. Just get started!&lt;/li&gt;
-&lt;li&gt;When you pick a book, have an actionable task that we want to be able to solve once we read the book.&lt;ul&gt;
-&lt;li&gt;As an example, our next book is around writing better email. Our goal is to improve our default email replies for publishers &amp;amp; advertisers in our support tooling.  &lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Change the topics of the book each time, so that you're getting a well-rounded set of topics that affect your business.&lt;ul&gt;
-&lt;li&gt;We've covered open source, positioning, copywriting, and marketing thus far.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Make sure you're producing something when you read the book, otherwise it can feel like you're reading a lot of theory, but not putting that knowledge to work.&lt;ul&gt;
-&lt;li&gt;You'll also retain the information more if you're forced to use it, rather than just read it.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
+&lt;li&gt;When you pick a book, have an actionable task that we want to be able to solve once we read the book.
+    - As an example, our next book is around writing better email. Our goal is to improve our default email replies for publishers &amp;amp; advertisers in our support tooling.  &lt;/li&gt;
+&lt;li&gt;Change the topics of the book each time, so that you're getting a well-rounded set of topics that affect your business.
+    - We've covered open source, positioning, copywriting, and marketing thus far.&lt;/li&gt;
+&lt;li&gt;Make sure you're producing something when you read the book, otherwise it can feel like you're reading a lot of theory, but not putting that knowledge to work.
+    - You'll also retain the information more if you're forced to use it, rather than just read it.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="how-to-run-a-book-club"&gt;How to run a book club&lt;/h2&gt;
 &lt;p&gt;Our book club is pretty lightweight.
@@ -1727,26 +1721,26 @@ These were real requests exactly like we'd see in production and we wanted to se
 &lt;dt&gt;Heroku (4 Standard-2x dynos, 10 Gunicorn processes each, ~$200/mo)&lt;/dt&gt;
 &lt;dd&gt;
 &lt;p&gt;This is a pretty standard Heroku setup to handle a performance heavy application.
-We tested it at various thoughputs but it was able to handle 100 requests per second without dropping requests.
-However, we did see our 99th percentile performance (p99) creep up to the 550-600ms range which is pretty bad.
-On Heroku, 100 concurrent requests would also bump us into some pricier Redis and Postgres setups
-to handle over 100 connections.&lt;/p&gt;
+  We tested it at various thoughputs but it was able to handle 100 requests per second without dropping requests.
+  However, we did see our 99th percentile performance (p99) creep up to the 550-600ms range which is pretty bad.
+  On Heroku, 100 concurrent requests would also bump us into some pricier Redis and Postgres setups
+  to handle over 100 connections.&lt;/p&gt;
 &lt;/dd&gt;
 &lt;dt&gt;Heroku (10 Standard-2x dynos, 10 Gunicorn processes each, ~$500/mo)&lt;/dt&gt;
 &lt;dd&gt;
 &lt;p&gt;In this example, we more than doubled the provisioning.
-This setup performed much better although it didn't seem to be exactly linearly better which was a little odd.
-Our p99 was closer to 350ms in a 100 requests per second setup and it didn't drop any requests.
-The median performance (p50) stayed about the same at 80-90ms.&lt;/p&gt;
+  This setup performed much better although it didn't seem to be exactly linearly better which was a little odd.
+  Our p99 was closer to 350ms in a 100 requests per second setup and it didn't drop any requests.
+  The median performance (p50) stayed about the same at 80-90ms.&lt;/p&gt;
 &lt;/dd&gt;
 &lt;dt&gt;AppService (4 Premium P1s, 10 Gunicorn processes each, ~$300/mo)&lt;/dt&gt;
 &lt;dd&gt;
 &lt;p&gt;This was a pretty comparable setup in Azure to the Heroku setups.
-We ran the exact same code and the configuration was as close as possible.
-We tested various numbers of instances and the performance scaled very linearly with instance count.
-Performance was quite a bit better with a p50 of ~75ms and the p99 was drastically improved to ~200ms.
-Even in longer and larger tests (with more instances in some cases),
-we saw much better performance on AppService than on Heroku.&lt;/p&gt;
+  We ran the exact same code and the configuration was as close as possible.
+  We tested various numbers of instances and the performance scaled very linearly with instance count.
+  Performance was quite a bit better with a p50 of ~75ms and the p99 was drastically improved to ~200ms.
+  Even in longer and larger tests (with more instances in some cases),
+  we saw much better performance on AppService than on Heroku.&lt;/p&gt;
 &lt;/dd&gt;
 &lt;/dl&gt;
 &lt;p&gt;The end result of the load tests was that we launched the ad server on AppService
@@ -3359,35 +3353,38 @@ views, clicks, and revenue was immediate&lt;/strong&gt;.&lt;/p&gt;
 &lt;dt&gt;32% of Read the Docs visitors run an ad blocker&lt;/dt&gt;
 &lt;dd&gt;
 &lt;p&gt;Estimates around the web vary regarding what percentage of people
-run ad blockers and it varies heavily by industry. We discussed this
-figure a bit in our
-&lt;a href="https://www.ethicalads.io/blog/2018/05/ads-and-ad-blockers/"&gt;previous post&lt;/a&gt;.&lt;/p&gt;
+  run ad blockers and it varies heavily by industry. We discussed this
+  figure a bit in our
+  &lt;a href="https://www.ethicalads.io/blog/2018/05/ads-and-ad-blockers/"&gt;previous post&lt;/a&gt;.&lt;/p&gt;
 &lt;/dd&gt;
 &lt;dt&gt;It took a month from application to inclusion in the list&lt;/dt&gt;
 &lt;dd&gt;
 &lt;p&gt;We discovered about our inclusion in the
-&lt;a href="https://easylist.to/"&gt;EasyList&lt;/a&gt; ad blocker list within a couple
-days and immediately applied to the Acceptable Ads program. No
-changes were required of us to meet the &lt;a href="https://acceptableads.com/en/about/criteria"&gt;Acceptable Ads
-criteria&lt;/a&gt; and we also
-qualified for &lt;a href="https://adblockplus.org/en/acceptable-ads#privacy-friendly-acceptable-ads"&gt;Acceptable Ads without third-party
-tracking&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;While Eyeo, the company behind AdBlock Plus, derives &lt;a href="https://adblockplus.org/about#monetization"&gt;most of their
-revenue&lt;/a&gt; from the
-Acceptable Ads initiative by charging large entities, Read the Docs
-&lt;strong&gt;did not&lt;/strong&gt; pay for inclusion on the list.&lt;/p&gt;
+  &lt;a href="https://easylist.to/"&gt;EasyList&lt;/a&gt; ad blocker list within a couple
+  days and immediately applied to the Acceptable Ads program. No
+  changes were required of us to meet the &lt;a href="https://acceptableads.com/en/about/criteria"&gt;Acceptable Ads
+  criteria&lt;/a&gt; and we also
+  qualified for &lt;a href="https://adblockplus.org/en/acceptable-ads#privacy-friendly-acceptable-ads"&gt;Acceptable Ads without third-party
+  tracking&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;While&lt;/span&gt; &lt;span class="nv"&gt;Eyeo&lt;/span&gt;, &lt;span class="nv"&gt;the&lt;/span&gt; &lt;span class="nv"&gt;company&lt;/span&gt; &lt;span class="nv"&gt;behind&lt;/span&gt; &lt;span class="nv"&gt;AdBlock&lt;/span&gt; &lt;span class="nv"&gt;Plus&lt;/span&gt;, &lt;span class="nv"&gt;derives&lt;/span&gt; [&lt;span class="nv"&gt;most&lt;/span&gt; &lt;span class="nv"&gt;of&lt;/span&gt; &lt;span class="nv"&gt;their&lt;/span&gt;
+&lt;span class="nv"&gt;revenue&lt;/span&gt;]&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;https&lt;/span&gt;:&lt;span class="o"&gt;//&lt;/span&gt;&lt;span class="nv"&gt;adblockplus&lt;/span&gt;.&lt;span class="nv"&gt;org&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="nv"&gt;about&lt;/span&gt;#&lt;span class="nv"&gt;monetization&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt; &lt;span class="nv"&gt;from&lt;/span&gt; &lt;span class="nv"&gt;the&lt;/span&gt;
+&lt;span class="nv"&gt;Acceptable&lt;/span&gt; &lt;span class="nv"&gt;Ads&lt;/span&gt; &lt;span class="nv"&gt;initiative&lt;/span&gt; &lt;span class="nv"&gt;by&lt;/span&gt; &lt;span class="nv"&gt;charging&lt;/span&gt; &lt;span class="nv"&gt;large&lt;/span&gt; &lt;span class="nv"&gt;entities&lt;/span&gt;, &lt;span class="nv"&gt;Read&lt;/span&gt; &lt;span class="nv"&gt;the&lt;/span&gt; &lt;span class="nv"&gt;Docs&lt;/span&gt;
+&lt;span class="o"&gt;**&lt;/span&gt;&lt;span class="nv"&gt;did&lt;/span&gt; &lt;span class="nv"&gt;not&lt;/span&gt;&lt;span class="o"&gt;**&lt;/span&gt; &lt;span class="nv"&gt;pay&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="nv"&gt;inclusion&lt;/span&gt; &lt;span class="nv"&gt;on&lt;/span&gt; &lt;span class="nv"&gt;the&lt;/span&gt; &lt;span class="nv"&gt;list&lt;/span&gt;.
+&lt;/pre&gt;&lt;/div&gt;
+
+
 &lt;/dd&gt;
 &lt;dt&gt;Over half of those running an ad blocker allow acceptable ads&lt;/dt&gt;
 &lt;dd&gt;
 &lt;p&gt;Given our more tech-savvy and privacy-focused audience, we didn't
-know what to expect. Not every ad blocker allows acceptable ads by
-default and even then users can choose to turn them off.&lt;/p&gt;
+  know what to expect. Not every ad blocker allows acceptable ads by
+  default and even then users can choose to turn them off.&lt;/p&gt;
 &lt;/dd&gt;
 &lt;dt&gt;People running ad blockers DO click on ads&lt;/dt&gt;
 &lt;dd&gt;
 &lt;p&gt;We can definitively say this is true of our audience. Our
-click-through rate did not change based on ad blocking or our
-inclusion in the acceptable ads list at all.&lt;/p&gt;
+  click-through rate did not change based on ad blocking or our
+  inclusion in the acceptable ads list at all.&lt;/p&gt;
 &lt;/dd&gt;
 &lt;/dl&gt;
 &lt;p&gt;Of the ad views and clicks blocked by ad blockers, inclusion in the

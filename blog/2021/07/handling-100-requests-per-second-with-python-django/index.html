@@ -168,26 +168,26 @@ These were real requests exactly like we'd see in production and we wanted to se
 <dt>Heroku (4 Standard-2x dynos, 10 Gunicorn processes each, ~$200/mo)</dt>
 <dd>
 <p>This is a pretty standard Heroku setup to handle a performance heavy application.
-We tested it at various thoughputs but it was able to handle 100 requests per second without dropping requests.
-However, we did see our 99th percentile performance (p99) creep up to the 550-600ms range which is pretty bad.
-On Heroku, 100 concurrent requests would also bump us into some pricier Redis and Postgres setups
-to handle over 100 connections.</p>
+  We tested it at various thoughputs but it was able to handle 100 requests per second without dropping requests.
+  However, we did see our 99th percentile performance (p99) creep up to the 550-600ms range which is pretty bad.
+  On Heroku, 100 concurrent requests would also bump us into some pricier Redis and Postgres setups
+  to handle over 100 connections.</p>
 </dd>
 <dt>Heroku (10 Standard-2x dynos, 10 Gunicorn processes each, ~$500/mo)</dt>
 <dd>
 <p>In this example, we more than doubled the provisioning.
-This setup performed much better although it didn't seem to be exactly linearly better which was a little odd.
-Our p99 was closer to 350ms in a 100 requests per second setup and it didn't drop any requests.
-The median performance (p50) stayed about the same at 80-90ms.</p>
+  This setup performed much better although it didn't seem to be exactly linearly better which was a little odd.
+  Our p99 was closer to 350ms in a 100 requests per second setup and it didn't drop any requests.
+  The median performance (p50) stayed about the same at 80-90ms.</p>
 </dd>
 <dt>AppService (4 Premium P1s, 10 Gunicorn processes each, ~$300/mo)</dt>
 <dd>
 <p>This was a pretty comparable setup in Azure to the Heroku setups.
-We ran the exact same code and the configuration was as close as possible.
-We tested various numbers of instances and the performance scaled very linearly with instance count.
-Performance was quite a bit better with a p50 of ~75ms and the p99 was drastically improved to ~200ms.
-Even in longer and larger tests (with more instances in some cases),
-we saw much better performance on AppService than on Heroku.</p>
+  We ran the exact same code and the configuration was as close as possible.
+  We tested various numbers of instances and the performance scaled very linearly with instance count.
+  Performance was quite a bit better with a p50 of ~75ms and the p99 was drastically improved to ~200ms.
+  Even in longer and larger tests (with more instances in some cases),
+  we saw much better performance on AppService than on Heroku.</p>
 </dd>
 </dl>
 <p>The end result of the load tests was that we launched the ad server on AppService
