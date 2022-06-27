@@ -53,7 +53,7 @@ This improves performance by helping the text of the ad standout while the rest 
 
 For better content targeting, letting us know about the content of your pages with
 [page-specific keywords](https://ethical-ad-client.readthedocs.io/en/latest/#page-specific-keywords),
-This allws us to better target the ads for your audience.
+This allows us to better target the ads for your audience.
 For example, we can target an ad for a DevOps related service to DevOps related content.
 Ads targeted specifically to your content can also result in higher payouts
 as we charge higher rates for highly targeted ads.
