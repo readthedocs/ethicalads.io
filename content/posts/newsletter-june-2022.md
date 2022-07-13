@@ -14,7 +14,7 @@ These are the major features we released in June:
 * We made a number of improvements to detecting keywords where we show ads.
   In the end, this project scoped up a little bit and we built a small
   machine learning model that detects what pages are about.
-  It should roll into production in July.
+  It will roll into production in July.
 * We rolled out an updated [Q3 prospectus]({static}../prospectus/ethicalads-advertiser-prospectus.pdf)
   and a small simplification to our pricing.
 * We released a new [publisher spotlight interview]({filename}2022-publisher-spotlight-series-dataskeptic.md)
