@@ -6,5 +6,5 @@ build:
     python: "3.10"
   commands:
     - pip install -r requirements.txt
-    - inv preview
+    - inv build
     - mv output _readthedocs/html
