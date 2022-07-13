@@ -13,7 +13,7 @@ These are the major features we added in the last month:
 
 * In our ad server, we updated the weighting algorithm to slightly bias showing CPC ads on higher CTR publishers.
 * Our ad server now tracks historical changes to ad campaigns,
-  allowing us to track changes over time to better understand performance. 
+  allowing us to track changes over time to better understand performance.
 * Also in our ad server, we added actions to allow our staff to handle
   adding new publishers and processing publisher payouts.
 * On our website, we updated our [prospectus]({static}/prospectus/ethicalads-advertiser-prospectus.pdf) and [pricing]({filename}/pages/advertisers.md#pricing) information for Q3.
@@ -41,7 +41,7 @@ new, high quality publishers, which will expand our ad inventory.
 ## Tricky bits
 
 We are still verging on max capacity with regards to ad inventory.
-We slightly raised our prices in Q3 in our high demand areas to address this. 
+We slightly raised our prices in Q3 in our high demand areas to address this.
 Also, we rolled out a number of new house ads across the network to find new publishers.
 Unfortunately, determining the success of these new ads is difficult
 without using common third-party tools that track users.
@@ -54,7 +54,7 @@ The major features in our upcoming roadmap:
 
 * Adding a staff interface for customizing ad flights.
 * We are still not sure of the best way to implement referrals.
-  We might try something simple to see if it works, and build on it if we find that it works. 
+  We might try something simple to see if it works, and build on it if we find that it works.
 * View time for ads will allow us to ensure a fair system for counting valid views
   as well as provide a metric for publisher quality.
 

@@ -58,7 +58,7 @@ Developing the site
 Style Guide
 ~~~~~~~~~~~
 
-Our style is loosely based on the `Wikipedia Manual of Style <https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style>`_. 
+Our style is loosely based on the `Wikipedia Manual of Style <https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style>`_.
 
 - Titles use `title case <https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Titles>`_
 - Section headings (h2 and below) use sentence case and tend to be descriptive/substantive beyond a simple noun

@@ -4,7 +4,7 @@ description: A guide to help publishers get the most out of our network in terms
 subtitle: Maximize your site's ad revenue while complementing your user experience.
 
 Our [EthicalAds client](https://ethical-ad-client.readthedocs.io/en/latest/) gets you started with how to host ads.
-To ensure your site generates as much revenue from your ads as possible, 
+To ensure your site generates as much revenue from your ads as possible,
 you need to make sure your ad placement, targeting, and user experience compliment your content.
 
 **Contents**
