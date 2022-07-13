@@ -7,4 +7,5 @@ build:
   commands:
     - pip install -r requirements.txt
     - inv build
+    - mkdir _readthedocs/
     - mv output _readthedocs/html
