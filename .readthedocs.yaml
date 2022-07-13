@@ -5,6 +5,8 @@ build:
   tools:
     python: "3.10"
   commands:
+    - npm install
+    - npm run dist
     - pip install -r requirements.txt
     - inv build
     - mkdir _readthedocs/
