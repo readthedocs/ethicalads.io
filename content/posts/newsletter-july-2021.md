@@ -12,7 +12,7 @@ image_credit: <span>Photo by <a href="https://unsplash.com/@ingmarr?utm_source=u
 These are the major features we released in the last month:
 
 * In our ad server, we added ```noopener``` to our ad links as a security precaution.
-* Our ad server now raises a warning on link redirects and errors when advertisers are creating an ad, to make sure it isn't an error in the URL. 
+* Our ad server now raises a warning on link redirects and errors when advertisers are creating an ad, to make sure it isn't an error in the URL.
 * Also in our ad server, we created actions to allow our staff to handle
   the creation and customization of new advertising flights.
 * On our website, we created our first iteration of an **ethical** marketing funnel
@@ -34,9 +34,9 @@ In July 2021:
 * We had **16,257,531** paid ad views across the world.
 
 In July we undertook an effort to ensure the high quality of our network,
-we removed a number of under-performing publishers 
+we removed a number of under-performing publishers
 and onboardeded some new publishers, though we continue to [look for more](https://www.ethicalads.io/blog/2021/07/ethicalads-publisher-referral-offer-july-2021/)!
-We also launched a few globally-targeted ad-buys which resulted in a sizable increase of views from June's ~14.6 million paid views. 
+We also launched a few globally-targeted ad-buys which resulted in a sizable increase of views from June's ~14.6 million paid views.
 
 
 ## Tricky bits

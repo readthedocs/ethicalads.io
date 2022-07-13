@@ -28,8 +28,8 @@ In January 2022:
 * We had **110 publishers** on our network with at least one paid ad impression.
 * We had **13,326,966** paid ad views across the world.
 
-Our holiday slump mildly carried over into January 
-resulting in 2% less paid views and 4% less ad revenue. 
+Our holiday slump mildly carried over into January
+resulting in 2% less paid views and 4% less ad revenue.
 On the plus side, our [Sponsorship Management Platform](https://www.ethicalads.io/sponsorship-platform/?ref=jan-newsletter) Beta
 served over **2,700,000** sponsored logo placements in January.
 
@@ -37,25 +37,25 @@ served over **2,700,000** sponsored logo placements in January.
 
 For the first time in 6 months, our current largest hurdle to growth
 is expanding our advertisers and their campaigns.
-We have available ad inventory across all regions. 
+We have available ad inventory across all regions.
 This is partly an aftershock of advertisers taking a break during the holidays
-and amplified by the fact that some of our larger advertisers 
+and amplified by the fact that some of our larger advertisers
 manually split their campaigns between domains on the EthicalAds network.
-Thus, some of our sites have consistently high Fill Rates (>80%) whereas 
-others flunctuate wildly between 40-90% based on the amount of daily traffic. 
-We're happy to report that we're starting several new campaigns in February. 
-Thus February is already on track to beat January 
-in terms of both views and publisher revenue. 
+Thus, some of our sites have consistently high Fill Rates (>80%) whereas
+others flunctuate wildly between 40-90% based on the amount of daily traffic.
+We're happy to report that we're starting several new campaigns in February.
+Thus February is already on track to beat January
+in terms of both views and publisher revenue.
 
 
 ## Upcoming features
 
 The major features in our upcoming roadmap:
 
-* Reworking our topic-detection infrastructure and algorithm in our server. 
+* Reworking our topic-detection infrastructure and algorithm in our server.
 * Highlighting our 10% discount on ad buys over $3000 in the flight report page.
 * New graphics summarizing the volume of views and popular topics across our network.
-* Rolling out the floating ad placement to more domains on Read the Docs. 
+* Rolling out the floating ad placement to more domains on Read the Docs.
 
 
 

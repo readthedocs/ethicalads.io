@@ -20,7 +20,7 @@ and pair well with [EthicalAds as an alternative to Google Ads](https://www.ethi
 
 [Simple Analytics](https://simpleanalytics.com/?ref=ethicalads-blog) is a privacy-first analytics product.
 They provide similar promises to EthicalAds in terms of privacy,
-and have a similar audience of developer-focused sites. 
+and have a similar audience of developer-focused sites.
 
 Quoting from [Simple Analytics' Our Promise](https://simpleanalytics.com/our-promise) page:
 
@@ -35,15 +35,15 @@ so we came up with a partnership.
 
 ## Funding the privacy-first web
 
-Thinking more deeply about our two different businesses, 
-it seems like we could benefit each other in different ways. 
-EthicalAds is about generating revenue for publishers, and Simple Analytics is a service those exact same publishers are likely buying. 
-There are some pretty interesting ways to combine that when you focus on the actual sites using both of our tools. 
+Thinking more deeply about our two different businesses,
+it seems like we could benefit each other in different ways.
+EthicalAds is about generating revenue for publishers, and Simple Analytics is a service those exact same publishers are likely buying.
+There are some pretty interesting ways to combine that when you focus on the actual sites using both of our tools.
 It really made us start thinking of ways that we could use EthicalAds to power the privacy-first revolution of website publishing.
 
 Simple Analytics wasn't able to offer a free plan.
 Having a 14-day free trial allows users to try it,
-but we're excited about being able to offer a permanent free tier for developer-focused sites. 
+but we're excited about being able to offer a permanent free tier for developer-focused sites.
 
 ## The offer
 

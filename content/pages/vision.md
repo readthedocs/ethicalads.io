@@ -104,11 +104,11 @@ and ensure that they bring the kind of audience our advertisers want to reach.
 
 ## Community Ads
 
-We believe ads can also be used to bring a people together. 
-We give our publishers the ability to contribute to the dev community 
-by promoting worthy, relevant causes like underfunded open-source, projects or non-profit technical conferences. 
-To apply to our Community Ads program or for more information on this initiative, 
-please visit our [Community Ads]({filename}/pages/community-ads.md) page. 
+We believe ads can also be used to bring a people together.
+We give our publishers the ability to contribute to the dev community
+by promoting worthy, relevant causes like underfunded open-source, projects or non-profit technical conferences.
+To apply to our Community Ads program or for more information on this initiative,
+please visit our [Community Ads]({filename}/pages/community-ads.md) page.
 
 ## Your data
 

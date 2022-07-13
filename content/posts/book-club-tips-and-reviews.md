@@ -25,7 +25,7 @@ and we have learned a few tips and tricks for making sure it feels valuable to e
 
 * Don't overthink what is required to get started. We didn't have a concrete outcome when we started, and are still learning as we go. Just get started!
 * When you pick a book, have an actionable task that we want to be able to solve once we read the book.
-    - As an example, our next book is around writing better email. Our goal is to improve our default email replies for publishers & advertisers in our support tooling.  
+    - As an example, our next book is around writing better email. Our goal is to improve our default email replies for publishers & advertisers in our support tooling.
 * Change the topics of the book each time, so that you're getting a well-rounded set of topics that affect your business.
     - We've covered open source, positioning, copywriting, and marketing thus far.
 * Make sure you're producing something when you read the book, otherwise it can feel like you're reading a lot of theory, but not putting that knowledge to work.

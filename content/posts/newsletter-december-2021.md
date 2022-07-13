@@ -6,7 +6,7 @@ authors: Ra Cohen
 image: /images/posts/2021-december-newsletter.jpg
 image_credit: <span>Photo by <a href="https://unsplash.com/@aaronburden?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Aaron Burden</a> on <a href="https://unsplash.com/s/photos/winter?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>
 
-Happy New Year! December was a shorter month for us at EthicalAds so this update will be short and sweet. 
+Happy New Year! December was a shorter month for us at EthicalAds so this update will be short and sweet.
 
 ## New features
 
@@ -29,7 +29,7 @@ In December 2021:
 As expected, our views did decrease precipitously during the holidays (down around 40% from November),
 but our revenue only decreased by 8% over the same time.
 This was due mostly to some large, inexpensive campaigns wrapping up
-in addition to launching some highly targeted campaigns with a higher avergae CPM. 
+in addition to launching some highly targeted campaigns with a higher avergae CPM.
 
 ## Tricky bits
 
@@ -39,7 +39,7 @@ like our first [publisher interview](https://www.ethicalads.io/blog/2022/01/publ
 
 ## Upcoming features
 
-Not many items on our roadmap were changed in the December flurry but 
+Not many items on our roadmap were changed in the December flurry but
 we are conducting exciting research into incorporating more complex natural language processing methods as a part of our decision engine.
 
 The major features in our upcoming roadmap:
