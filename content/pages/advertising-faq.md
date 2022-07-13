@@ -179,4 +179,4 @@ We thought you'd never ask. Simply fill out our [advertising
 information form]({filename}advertisers.md#inbound-form).
 A member of our team will contact you with a detailed prospectus and
 will walk you through the process of getting started advertising on
-Read the Docs.
+EthicalAds.

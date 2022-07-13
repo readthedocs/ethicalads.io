@@ -6,7 +6,7 @@ contact_footer_subject: Press Inquiry
 contact_footer_subheadline: We're thrilled you're interested in what we're building.
 contact_footer_why: Tell us a bit about who you are and what you're writing about
 
-Thanks for your interest in writing about EthicalAds & Read the Docs.
+Thanks for your interest in writing about EthicalAds.
 
 ### Quick style guide
 
