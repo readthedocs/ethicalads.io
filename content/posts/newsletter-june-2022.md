@@ -1,5 +1,5 @@
 Title: EthicalAds Newsletter - June 2022
-Date: July 13, 2022
+Date: July 14, 2022
 description: Updates from June 2022, including stats and commentary on our progress as we build EthicalAds
 tags: newsletter, community
 authors: David Fischer
@@ -12,7 +12,7 @@ image_credit: <a href="https://unsplash.com/@polarmermaid?utm_source=unsplash&ut
 These are the major features we released in June:
 
 * We made a number of improvements to detecting keywords where we show ads.
-  In the end, this project scoped up a little bit and we built a small
+  In the end, this project scoped up a little bit and we built a pretty awesome (for us anyway)
   machine learning model that detects what pages are about.
   It will roll into production in July.
 * We rolled out an updated [Q3 prospectus]({static}../prospectus/ethicalads-advertiser-prospectus.pdf)
@@ -40,19 +40,20 @@ in our numbers. We are continuing to see strong demand for advertising.
 
 ## Tricky bits
 
-We don't have a true data scientist at EthicalAds or at Read the Docs.
+While we're pretty excited about the ML model we built,
+we don't have a true data scientist at EthicalAds or at Read the Docs.
 As a result, there's been quite a ramp up in terms of learning the ML state of the art.
 We have created a [SpaCy](https://spacy.io/) based text classifier.
-This took a lot longer and we will have more to show after it rolls out next month.
+This is tricky because it's outside of our comfort zone,
+but to go from almost nothing to something just about ready for production
+in less than a month is very cool.
 
 
 ## Upcoming features
 
 The major features in our upcoming roadmap:
 
-* As I mentioned earlier, our topic detection has taken a little longer than expected.
-  However, the project ballooned in scope as well.
-  We are pretty happy with where it is and expect it to roll out this month in July.
+* As I mentioned earlier, our topic detection project will roll out in July.
 * I'm a little late in posting this blog but we released support
   for an [ad fixed to the footer](https://ethical-ad-client.readthedocs.io/en/latest/#fixedfooter)
   of the page directly to our ad client in early July.
