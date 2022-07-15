@@ -7,7 +7,6 @@ The best ads and ad campaigns know exactly who their audience is
 and how to guide them toward the desired action.
 Advertising with EthicalAds is no different.
 
-​
 
 ## Topic-targeting at a glance
 
@@ -15,11 +14,10 @@ While virtually all of EthicalAds' visitors are software developers,
 our visitors have many different topics of interest.
 ![A breakdown of our topic views in February of 2022](../images/pages/learning-hub/topic-breakdown.png){class="w-100"}
 
-​
-
 - The EthicalAds network is particularly popular in the Python community (~60% of all pageviews mention **Python**).
 - Our 5 main topic groupings, _frontend_, _backend_, _devops_, _data science_, and _security/privacy_ account for over **80% of our pageviews**
   and is a fast and effect way to connect you with [your relevent audience](https://www.ethicalads.io/advertisers/?ref=our-audience#audiences).
+
 
 ## Geographic breakdown
 
