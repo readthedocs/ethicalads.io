@@ -40,7 +40,7 @@
   <meta property="og:title" content="{{ page.title|striptags|escape }}" />
   {%- if page.image -%}
     <meta property="og:image" content="{{ SITEURL }}{{ page.image }}" />
-  {% else }
+  {%- else -%}
   <!-- Default image -->
   <meta property="og:image" content="{{ SITEURL }}theme/img/ethicalads-logo-blue.svg" />
   {%- endif -%}
