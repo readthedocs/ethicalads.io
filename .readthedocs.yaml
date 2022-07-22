@@ -9,6 +9,6 @@ build:
     - npm install
     - npm run dist
     - pip install -r requirements.txt
-    - inv publish
+    - inv preview
     - mkdir _readthedocs/
     - mv output _readthedocs/html

@@ -1,7 +1,7 @@
 """
 Production (publish) settings for Pelican.
 
-These are only used when running `inv preview` or `inv publish`
+These are only used when running `inv preview`.
 """
 import os
 import sys
