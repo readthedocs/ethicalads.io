@@ -89,7 +89,7 @@ as well as ad images.
 In terms of ad images here are a few recommendations:
 
 * For conversion-focused campaigns, we recommend simplified product screenshots, workflow diagrams, or other ad images that showcase the product.
-* For brand advertising, we recommend having you logo somewhere in the ad image & product name in the ad copy. This can also include screenshots or workflows, or a large brand image
+* For brand advertising, we recommend having your logo somewhere in the ad image & product name in the ad copy. This can also include screenshots or workflows, or a large brand image
 * For all campaigns, it's often useful to look at the landing page for your ads, and take inspriation for the ad images. This keeps things consistent and is an easy way to [pair ad copy with the landing page](#pair-ad-copy-with-the-landing-page) as noted below.
 
 Our [SaaS product example](#saas-product) example shows a good combination of this approach,
