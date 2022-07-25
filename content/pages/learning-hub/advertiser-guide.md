@@ -80,6 +80,21 @@ Some will invariably perform better than others,
 and 2 weeks into your campaign we'll reach out with an update on how to adjust your ads to improve performance.
 This allows you to turn off underperforming ads and craft new ads based on the best performers.
 
+### Multiple image and text variations
+
+When you run a campaign we recommend having around 3-4 ad variations per flight.
+This allows you to test the performance of different marketing messages,
+as well as ad images.
+
+In terms of ad images here are a few recommendations:
+
+* For conversion-focused campaigns, we recommend simplified product screenshots, workflow diagrams, or other ad images that showcase the product.
+* For brand advertising, we recommend having your logo somewhere in the ad image & product name in the ad copy. This can also include screenshots or workflows, or a large brand image
+* For all campaigns, it's often useful to look at the landing page for your ads, and take inspriation for the ad images. This keeps things consistent and is an easy way to [pair ad copy with the landing page](#pair-ad-copy-with-the-landing-page) as noted below.
+
+Our [SaaS product example](#saas-product) example shows a good combination of this approach,
+but it's worth trying more focused variations as well.
+
 ## Optimizing conversions
 
 Having developers click on your advertisement is only half the battle.
@@ -91,7 +106,7 @@ Here are some key points to help your ads convert visitors to customers:
 Nothing is worse than clicking on an ad and being confused
 about what is being offered or what the next steps are.
 The language from your ad motivated this user to click,
-reassure them with similar wording on the landing page.
+reassure them with similar wording and images on the landing page.
 
 ### Set expectations with the ad
 
