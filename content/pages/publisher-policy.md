@@ -46,6 +46,13 @@ We currently support payouts via the following methods:
 - Paypal
 - OpenCollective
 
+For our compliance and for tax purposes, we may require a government ID from you
+in certain circumstances to process payouts.
+We will ask for this explicitly if and when we require it.
+We handle your information securely and it is deleted
+no later than 30 days after your next payout.
+
+
 ## Ad display validation
 
 We reserve the right to validate that the traffic on your site looks authentic.
