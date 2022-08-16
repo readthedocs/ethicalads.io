@@ -1,5 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/all.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2022-07-14T00:00:00-07:00</updated><entry><title>EthicalAds Newsletter - June 2022</title><link href="https://www.ethicalads.io/blog/2022/07/ethicalads-newsletter-june-2022/" rel="alternate"></link><published>2022-07-14T00:00:00-07:00</published><updated>2022-07-14T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2022-07-14:/blog/2022/07/ethicalads-newsletter-june-2022/</id><summary type="html">&lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/all.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2022-08-16T00:00:00-07:00</updated><entry><title>EthicalAds Newsletter - July 2022</title><link href="https://www.ethicalads.io/blog/2022/08/ethicalads-newsletter-july-2022/" rel="alternate"></link><published>2022-08-16T00:00:00-07:00</published><updated>2022-08-16T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2022-08-16:/blog/2022/08/ethicalads-newsletter-july-2022/</id><summary type="html">&lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
+&lt;p&gt;These are the major features we released in July:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Our machine learning model that analyzes the content around …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
+&lt;p&gt;These are the major features we released in July:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Our machine learning model that analyzes the content around where our ads appear
+  so we can show the best possible ad rolled into production.
+  Showing the best possible ad makes more money for publishers and shows advertisers' ads
+  in the right context to perform amazingly.&lt;/li&gt;
+&lt;li&gt;In our ad client, we released an
+  &lt;a href="https://ethical-ad-client.readthedocs.io/en/latest/#fixedfooter"&gt;ad fixed to the footer&lt;/a&gt;.
+  Already a number of publishers have chosen it and it performs great!&lt;/li&gt;
+&lt;li&gt;In our &lt;a href="https://www.ethicalads.io/advertisers/#audiences"&gt;audiences section&lt;/a&gt;,
+  we added some details of the top publishers across our network
+  for each of the major topics we focus on.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can always see our latest server updates in our &lt;a href="https://ethical-ad-server.readthedocs.io/en/latest/developer/changelog.html"&gt;ethical-ad-server changelog&lt;/a&gt; and &lt;a href="https://ethical-ad-client.readthedocs.io/en/latest/changelog.html"&gt;ethical-ad-client changelog&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="july-advertising-stats"&gt;July advertising stats&lt;/h2&gt;
+&lt;p&gt;In July 2022:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We generated &lt;strong&gt;$35,670.95&lt;/strong&gt; for our publishers.&lt;/li&gt;
+&lt;li&gt;We had &lt;strong&gt;131 publishers&lt;/strong&gt; on our network with at least one paid ad impression.&lt;/li&gt;
+&lt;li&gt;We had &lt;strong&gt;14,563,179&lt;/strong&gt; paid ad views across the world.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We continue to see strong demand for advertising and these figures are just below
+our all time records.&lt;/p&gt;
+&lt;h2 id="our-wins"&gt;Our wins&lt;/h2&gt;
+&lt;p&gt;We received &lt;a href="https://www.developermarkepear.com/blog/paid-advertising-developer-marketing"&gt;a very nice review&lt;/a&gt;
+from a customer on a developer marketing blog
+that has resulted in a significant number of advertiser prospects asking for more information.
+There's truly no greater praise than a customer telling others about us.&lt;/p&gt;
+&lt;h2 id="tricky-bits"&gt;Tricky bits&lt;/h2&gt;
+&lt;p&gt;For August, we did see a large advertiser reduce spending
+and we expect a small slowdown over the month.
+We have 3-4 advertisers who each account for about 10% of our total revenue
+and losing one of them results in unsold inventory.
+Running an ad network is always a balance between supply of ad placements
+and demand for developer eyeballs and finding that balance can be tricky
+especially since advertising is usually not sold in contracts longer than a quarter.&lt;/p&gt;
+&lt;h2 id="upcoming-features"&gt;Upcoming features&lt;/h2&gt;
+&lt;p&gt;The major features in our upcoming roadmap:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We received some &lt;a href="https://twitter.com/AsiaOrangio/status/1552277640953745408"&gt;great feedback&lt;/a&gt;
+  on our product positioning and landing pages and we are working to improve our marketing
+  and positioning in August.
+  We are also reading a book on positioning
+  (&lt;a href="https://www.goodreads.com/book/show/45166937-obviously-awesome"&gt;"Obviously Awesome"&lt;/a&gt; for the curious)
+  in our &lt;a href="https://www.ethicalads.io/blog/2022/05/running-a-company-book-club-tips-what-we-read/"&gt;company book club&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;In August, we dealt with a fair amount of ad scammers testing our defenses.
+  Fortunately, we were able to discover them quickly and protect ourselves and our advertisers.
+  This is a constant battle and hopefully we can share some of what we've learned
+  and some of the brazen tactics from the scammers in an upcoming post.&lt;/li&gt;
+&lt;li&gt;We plan on making a number of improvements to our ad reporting for advertisers
+  including speeding up performance and showing more graphs, maps, and charts
+  to help make sense of all the data.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thanks again for being along with us on this journey to build an ethical ad network.
+Please &lt;a href="mailto:ads@ethicalads.io"&gt;email us&lt;/a&gt; if you have any ideas or feedback on our product or roadmap,
+we always love to hear from you.&lt;/p&gt;</content><category term="posts"></category><category term="newsletter"></category><category term="community"></category></entry><entry><title>EthicalAds Newsletter - June 2022</title><link href="https://www.ethicalads.io/blog/2022/07/ethicalads-newsletter-june-2022/" rel="alternate"></link><published>2022-07-14T00:00:00-07:00</published><updated>2022-07-14T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2022-07-14:/blog/2022/07/ethicalads-newsletter-june-2022/</id><summary type="html">&lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
 &lt;p&gt;These are the major features we released in June:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;We made a number of improvements to detecting keywords …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
