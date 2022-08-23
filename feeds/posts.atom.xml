@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds - posts</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/posts.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2022-08-16T00:00:00-07:00</updated><entry><title>EthicalAds Newsletter - July 2022</title><link href="https://www.ethicalads.io/blog/2022/08/ethicalads-newsletter-july-2022/" rel="alternate"></link><published>2022-08-16T00:00:00-07:00</published><updated>2022-08-16T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2022-08-16:/blog/2022/08/ethicalads-newsletter-july-2022/</id><summary type="html">&lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds - posts</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/posts.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2022-08-23T00:00:00-07:00</updated><entry><title>Fixed Footer Ad Placements in our Ad Client</title><link href="https://www.ethicalads.io/blog/2022/08/fixed-footer-ad-placements-in-our-ad-client/" rel="alternate"></link><published>2022-08-23T00:00:00-07:00</published><updated>2022-08-23T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2022-08-23:/blog/2022/08/fixed-footer-ad-placements-in-our-ad-client/</id><summary type="html">&lt;p&gt;Last month, we released a new feature in our ad client
+that enabled publishers to quickly and easily add a …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Last month, we released a new feature in our ad client
+that enabled publishers to quickly and easily add a floating, text-only ad placement
+fixed to their site footer without having to write custom code.
+Ensuring an ad is unobtrusive, visible,
+and fits with the rest of a website goes a long way toward having good ad performance.
+By having a well-tested, high-performing placement out of the box,
+we can help publishers get something that works well quickly.&lt;/p&gt;
+&lt;h2 id="usage"&gt;Usage&lt;/h2&gt;
+&lt;p&gt;This feature is available to any publisher who wants to use it
+by setting the &lt;code&gt;data-ea-style="fixedfooter"&lt;/code&gt; attribute on their ad placement.
+The mobile and desktop optimized ad is displayed without an image
+and only takes up a minimal amount of real estate on the page.
+See our &lt;a href="https://ethical-ad-client.readthedocs.io/en/latest/#fixedfooter"&gt;full documentation&lt;/a&gt; on the feature for details.&lt;/p&gt;
+&lt;p&gt;A number of publishers had requested this feature and a few had built it themselves
+for their own site and we wanted to have a base implementation available for all our publishers.
+Already we've been recommending it to some new and a few existing publishers
+and we've seen a number of them choose use it.&lt;/p&gt;
+&lt;p&gt;If there are features you're interested to see in our ad client,
+please &lt;a href="https://www.ethicalads.io/contact/"&gt;let us know&lt;/a&gt;.&lt;/p&gt;</content><category term="posts"></category><category term="ad-client"></category></entry><entry><title>EthicalAds Newsletter - July 2022</title><link href="https://www.ethicalads.io/blog/2022/08/ethicalads-newsletter-july-2022/" rel="alternate"></link><published>2022-08-16T00:00:00-07:00</published><updated>2022-08-16T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2022-08-16:/blog/2022/08/ethicalads-newsletter-july-2022/</id><summary type="html">&lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
 &lt;p&gt;These are the major features we released in July:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Our machine learning model that analyzes the content around …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
