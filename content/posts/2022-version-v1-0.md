@@ -8,8 +8,7 @@ image_credit: <span>Photo by <a href="https://unsplash.com/es/@an_ku_sh?utm_sour
 
 
 A few weeks ago, we released the v1.0 version of our ad server.
-While versioning schemes are somewhat arbitrary,
-releasing v1.0 felt like a significant milestone (v1.0.0 implies stability in [SemVer](https://semver.org/)).
+This release coincided with a huge upgrade to our contextual targeting, machine learning model.
 We wanted to take the time to share our story of how we got here,
 the details of both the software and movement we're building,
 and what's coming next for EthicalAds.
@@ -22,6 +21,11 @@ but there wasn't any monetization.
 It was a service with millions of monthly visitors that thousands of projects relied on for their docs
 but run by folks with day jobs who wore pagers for their side project.
 It wasn't sustainable.
+
+
+> Today, we now have ~130 publishers and we gross just under $60k per month in ad revenue
+> of which 70% goes to publishers
+
 
 The obvious way to monetize was ads.
 However, we cared about the privacy of our visitors
@@ -36,18 +40,12 @@ Expanding our ads beyond Read the Docs had been on the roadmap
 but CodeFund shutting down greatly accelerated our schedule
 while also dropping a number of sites interested in privacy-preserving ads into our lap.
 
-
-> "EthicalAds' targeting provides a better ad experience for our community members."
->
-> &mdash; Ido Shamun, Co-founder & CTO of daily.dev
-
-
 Today, we now have ~130 publishers and we gross just under $60k per month in ad revenue
 of which 70% goes to publishers.
 Most of our publishers are small sites or open source projects so to send them ~$40k/mo feels great.
 
 
-## How EthicalAds works
+## Building a content-targeted ad network with machine learning
 
 Firstly, we only show developer-related ads on developer sites.
 No ads about a product whose site you visited last week and nothing off topic.
@@ -56,6 +54,12 @@ they're hiring devs, or something like that.
 
 All our publishers (that's advertising lingo for sites showing ads) are hand approved.
 We make sure each site is the right fit for our advertisers and protect their brands.
+
+
+> "EthicalAds' targeting provides a better ad experience for our community members."
+>
+> &mdash; Ido Shamun, Co-founder & CTO of daily.dev
+
 
 Beyond the basics, we built a crawler that crawls the sites on our network to help target our ads.
 Using an ML classifier (built with [SpaCy](https://spacy.io/)),
@@ -84,15 +88,12 @@ and these highly focused campaigns will be possible.
 It's not an understatement to say that this kind of more advanced contextual targeting is the future of EthicalAds.
 
 
-> "EthicalAds made it simple to help promote all the PSF sponsors across our web properties, without worrying about user tracking."
->
-> &mdash; Ee Durbin, Director of Infrastructure - Python Software Foundation
-
 Another area we are looking at is to help [sponsorships]({filename}/pages/landing-pages/sponsorship.md)
 at large organizations deliver more value for sponsors.
 Currently, we're helping the Python Software Foundation
 to promote their sponsors across their ecosystem of web properties
 while also allowing them to report important metrics like how many times a sponsor's logo was seen and clicked.
+Check it our on the sidebar of the [Python Package Index](https://pypi.org/project/urllib3/#for-enterprise).
 
 ## Join us for what's next
 
