@@ -95,7 +95,7 @@ to promote their sponsors across their ecosystem of web properties
 while also allowing them to report important metrics like how many times a sponsor's logo was seen and clicked.
 
 
-We're really excited about implementing new features on our ad network and continuing to iterate on sponsorships,
+We're really excited about implementing new features on our ad network and continuing to iterate on sponsorships.
 Thanks again for being along with us on this journey to build an ethical ad network.
 Please [email us](mailto:ads@ethicalads.io) if you have any ideas or feedback on our product or roadmap.
 We always love to hear from you.
