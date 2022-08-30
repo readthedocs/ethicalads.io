@@ -1,5 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/all.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2022-08-23T00:00:00-07:00</updated><entry><title>Fixed Footer Ad Placements in our Ad Client</title><link href="https://www.ethicalads.io/blog/2022/08/fixed-footer-ad-placements-in-our-ad-client/" rel="alternate"></link><published>2022-08-23T00:00:00-07:00</published><updated>2022-08-23T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2022-08-23:/blog/2022/08/fixed-footer-ad-placements-in-our-ad-client/</id><summary type="html">&lt;p&gt;Last month, we released a new feature in our ad client
+<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/all.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2022-08-30T00:00:00-07:00</updated><entry><title>Going v1.0: The Backstory and Future of Our Ad Network</title><link href="https://www.ethicalads.io/blog/2022/08/going-v10-the-backstory-and-future-of-our-ad-network/" rel="alternate"></link><published>2022-08-30T00:00:00-07:00</published><updated>2022-08-30T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2022-08-30:/blog/2022/08/going-v10-the-backstory-and-future-of-our-ad-network/</id><summary type="html">&lt;p&gt;A few weeks ago, we released the v1.0 version of our ad server.
+This release coincided with a huge …&lt;/p&gt;</summary><content type="html">&lt;p&gt;A few weeks ago, we released the v1.0 version of our ad server.
+This release coincided with a huge upgrade to our contextual targeting, machine learning model.
+We wanted to take the time to share our story of how we got here,
+the details of both the software and movement we're building,
+and what's coming next for EthicalAds.&lt;/p&gt;
+&lt;h2 id="our-story"&gt;Our story&lt;/h2&gt;
+&lt;p&gt;A few years back, we were building Read the Docs, a documentation hosting platform,
+but there wasn't any monetization.
+It was a service with millions of monthly visitors that thousands of projects relied on for their docs
+but run by folks with day jobs who wore pagers for their side project.
+It wasn't sustainable.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Today, we now have ~130 publishers and we gross just under $60k per month in ad revenue
+of which 70% goes to publishers&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The obvious way to monetize was ads.
+However, we cared about the privacy of our visitors
+and we didn't want ad companies to track our users around the web.
+We went to a few ad networks and asked if we could proxy ad traffic or even just run ads without cookies.
+They laughed at us and told us to take it or leave it.
+So we built our own ad network including writing our ad server and client from scratch
+and did all our own sales and marketing.&lt;/p&gt;
+&lt;p&gt;Fast forward to July 2020, when our friends over at CodeFund shut down, we launched our ad network.
+Expanding our ads beyond Read the Docs had been on the roadmap
+but CodeFund shutting down greatly accelerated our schedule
+while also dropping a number of sites interested in privacy-preserving ads into our lap.&lt;/p&gt;
+&lt;p&gt;Today, we now have ~130 publishers and we gross just under $60k per month in ad revenue
+of which 70% goes to publishers.
+Most of our publishers are small sites or open source projects so to send them ~$40k/mo feels great.&lt;/p&gt;
+&lt;h2 id="building-a-content-targeted-ad-network-with-machine-learning"&gt;Building a content-targeted ad network with machine learning&lt;/h2&gt;
+&lt;p&gt;Firstly, we only show developer-related ads on developer sites.
+No ads about a product whose site you visited last week and nothing off topic.
+All our advertisers sell SaaS products for developers, cloud infrastructure,
+they're hiring devs, or something like that.&lt;/p&gt;
+&lt;p&gt;All our publishers (that's advertising lingo for sites showing ads) are hand approved.
+We make sure each site is the right fit for our advertisers and protect their brands.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;"EthicalAds' targeting provides a better ad experience for our community members."&lt;/p&gt;
+&lt;p&gt;&amp;mdash; Ido Shamun, Co-founder &amp;amp; CTO of daily.dev&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Beyond the basics, we built a crawler that crawls the sites on our network to help target our ads.
+Using an ML classifier (built with &lt;a href="https://spacy.io/"&gt;SpaCy&lt;/a&gt;),
+it can tell if a page is about data science or about full stack development.
+This contextual targeting allows advertisers to reach the niche they are focused on
+and ensure the ads perform well.
+If you're really interested, you can try out our classifier, a part of our model,
+on &lt;a href="https://huggingface.co/spaces/davidfischer/ea-classifier"&gt;HuggingFace&lt;/a&gt;, a site for sharing ML models.&lt;/p&gt;
+&lt;p&gt;After trying out our model and training it for a couple of months,
+we were finally happy enough with the performance to integrate it into our ad serving pipeline.
+We're really proud of this and that's why we went from v0.55.0 (yes, 50+ pre-stable releases) to v1.0.0.&lt;/p&gt;
+&lt;h2 id="whats-next"&gt;What's next&lt;/h2&gt;
+&lt;p&gt;Apart from privacy, one thing that separates us from the big ad players like Google and Facebook
+is that they can sell ads for almost anything you can think of.
+Currently, we have some traffic for a lot of developer niches,
+but outside of our main &lt;a href="https://www.ethicalads.io/advertisers/#audiences"&gt;audiences and topics&lt;/a&gt;,
+it can be a challenge to run really focused campaigns on topics like "2 Factor Authentication"
+or "Web Development with Go".&lt;/p&gt;
+&lt;p&gt;However, as we get larger, our contextual targeting will scale well as our network scales
+and these highly focused campaigns will be possible.
+It's not an understatement to say that this kind of more advanced contextual targeting is the future of EthicalAds.&lt;/p&gt;
+&lt;p&gt;Another area we are looking at is to help &lt;a href="https://www.ethicalads.io/sponsorship-platform/"&gt;sponsorships&lt;/a&gt;
+at large organizations deliver more value for sponsors.
+Currently, we're helping the Python Software Foundation
+to promote their sponsors across their ecosystem of web properties
+while also allowing them to report important metrics like how many times a sponsor's logo was seen and clicked.
+Check it our on the sidebar of the &lt;a href="https://pypi.org/project/urllib3/#for-enterprise"&gt;Python Package Index&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="join-us-for-whats-next"&gt;Join us for what's next&lt;/h2&gt;
+&lt;p&gt;We're really excited about implementing new features on our ad network and continuing to iterate on sponsorships.
+Thanks again for being along with us on this journey to build an ethical ad network.
+Please &lt;a href="mailto:ads@ethicalads.io"&gt;email us&lt;/a&gt; if you have any ideas or feedback on our product or roadmap.
+We always love to hear from you.&lt;/p&gt;</content><category term="posts"></category><category term="ad-server"></category><category term="community"></category><category term="machine-learning"></category></entry><entry><title>Fixed Footer Ad Placements in our Ad Client</title><link href="https://www.ethicalads.io/blog/2022/08/fixed-footer-ad-placements-in-our-ad-client/" rel="alternate"></link><published>2022-08-23T00:00:00-07:00</published><updated>2022-08-23T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2022-08-23:/blog/2022/08/fixed-footer-ad-placements-in-our-ad-client/</id><summary type="html">&lt;p&gt;Last month, we released a new feature in our ad client
 that enabled publishers to quickly and easily add a …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Last month, we released a new feature in our ad client
 that enabled publishers to quickly and easily add a floating, text-only ad placement
 fixed to their site footer without having to write custom code.
