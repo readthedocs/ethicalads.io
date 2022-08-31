@@ -40,13 +40,13 @@
                     <label for="pageviews">Average monthly pageviews</label>
                     <select class="form-control" id="pageviews" name="pageviews" required>
                       <option value="">- Monthly pageviews -</option>
-                      <option value="0-10k">Less than 10,000</option>
+                      <!-- <option value="0-10k">Less than 10,000</option> -->
                       <option value="10-50k">10,000 to 50,000</option>
                       <option value="50-200k">50,000 to 200,000</option>
                       <option value="200k-1M">200,000 to 1,000,000</option>
                       <option value="1M+">1,000,000+</option>
                     </select>
-                    <small class="form-text text-muted">On average, how many pageviews per month does your site do?</small>
+                    <small class="form-text text-muted">On average, how many pageviews per month does your site do? We are looking for developer-focused sites doing 10k+ pageviews per month.</small>
                   </div>
 
                   <div class="form-group">
@@ -79,15 +79,20 @@
                   </div>
 
                   <div class="form-group">
+                    <label for="referral">How did you hear about us?</label>
+                    <input class="form-control" type="text" id="referral" name="referral" placeholder="My friend told me about it.">
+                  </div>
+
+                  <div class="form-group">
                     <label for="notes">Notes</label>
-                    <textarea class="form-control" id="notes" name="notes" placeholder="My traffic is mostly located in Europe" ></textarea>
+                    <textarea class="form-control" id="notes" name="notes" placeholder="My traffic is mostly Python devs located in Europe" ></textarea>
                     <small class="form-text text-muted">Anything else you'd like us to know?</small>
                   </div>
 
                   <div class="form-group my-5">
                     <input type="hidden" name="body" value="Incoming publisher request">
                     {% if page %}<input type="hidden" name="url" value="{{ page.url }}" />{% endif %}
-                    <input type="submit" value="Apply to be a publisher" class="btn btn-sm btn-primary">
+                    <input type="submit" value="Become a publisher" class="btn btn-sm btn-primary">
                     <small class="form-text text-muted">We take privacy seriously and we don't share your email. You aren't going to be added to any mailing lists.</small>
                   </div>
                 </form>
