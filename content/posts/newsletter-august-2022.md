@@ -10,7 +10,12 @@ image_credit: <a href="https://unsplash.com/@debrupas?utm_source=unsplash&utm_me
 
 ## New features
 
-These are the major features we released in August:
+On the marketing side, we did a [Show HN post](https://news.ycombinator.com/item?id=32650878)
+that got a fair amount of traction
+and a [ProductHunt launch](https://www.producthunt.com/posts/ethicalads) (that didn't).
+This coincided with our [v1.0.0 release post]({filename}../posts/2022-version-v1-0.md) that talks about our backstory and the future of our network.
+
+These are the other major features we released in August:
 
 * We worked quite a bit on updating our landing pages to better explain our product positioning
   as an open source, privacy-focused ad network that uses contextual (rather than behavioral) targeting.
@@ -21,10 +26,6 @@ These are the major features we released in August:
   We have an upcoming blog post detailing some of the blatant tactics we've seen.
 * Also in our ad server, we added a number of reporting improvements that improved performance
   and showed more of our metrics in graphical form.
-* On the marketing side, we did a [Show HN post](https://news.ycombinator.com/item?id=32650878#32653071)
-  that got a fair amount of traction
-  and a [ProductHunt launch](https://www.producthunt.com/posts/ethicalads) (that didn't).
-  This coincided with our [v1.0.0 release post]({filename}../posts/2022-version-v1-0.md) that talks about our backstory and the future of our network.
 
 You can always see our latest server updates in our [ethical-ad-server changelog](https://ethical-ad-server.readthedocs.io/en/latest/developer/changelog.html) and [ethical-ad-client changelog](https://ethical-ad-client.readthedocs.io/en/latest/changelog.html).
 
