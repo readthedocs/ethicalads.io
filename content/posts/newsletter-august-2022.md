@@ -21,7 +21,7 @@ These are the major features we released in August:
   We have an upcoming blog post detailing some of the blatant tactics we've seen.
 * Also in our ad server, we added a number of reporting improvements that improved performance
   and showed more of our metrics in graphical form.
-* On the marketing side, we did a [ShowHN post](https://news.ycombinator.com/item?id=32650878#32653071)
+* On the marketing side, we did a [Show HN post](https://news.ycombinator.com/item?id=32650878#32653071)
   that got a fair amount of traction
   and a [ProductHunt launch](https://www.producthunt.com/posts/ethicalads) (that didn't).
   This coincided with our [v1.0.0 release post]({filename}../posts/2022-version-v1-0.md) that talks about our backstory and the future of our network.
