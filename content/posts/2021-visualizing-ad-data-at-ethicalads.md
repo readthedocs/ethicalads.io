@@ -37,7 +37,7 @@ Maybe as developers we have an implicit bias against data analysis and BI tools
 or maybe it's just me and I hadn't found one I liked.
 However, after trying Metabase, I was hooked.
 You could explore data with or without SQL, share graphs with coworkers,
-and there was an easy and secure way to embed them into or product.
+and there was an easy and secure way to embed them into our product.
 Lastly, this never impacts production since our setup exclusively connects to a read-replica.
 
 
