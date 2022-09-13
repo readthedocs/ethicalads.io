@@ -82,7 +82,11 @@ There were dozens of examples but to name some specific modules (these are the r
 - [AsyncJS](https://github.com/caolan/async)
 - [NobloxJS](https://noblox.js.org/)
 - [DatafluxJS](https://github.com/massimocandela/dataflux)
+- [Tool Cool Color Picker](https://github.com/toolcool-org/toolcool-color-picker)
 
+While the scammers seem to have temporarily stopped applying to our network,
+they created dozens of fake sites and dozens of fake personas
+implying that they're doing this with some scale.
 In a few examples where we could get the real developer's email address from their GitHub profile,
 we emailed the developer to see if they'd heard of an "unofficial mirror",
 but in each case they confirmed our suspicion that they hadn't.
@@ -95,12 +99,12 @@ we made a few changes to make sure our network stays safe:
 
 - We do some additional scrutiny on the clients viewing our ads.
 - Our vetting process for incoming publishers has become more formalized
-  and got a few additional steps to ensure sites on our network stay high quality.
+  and got a few additional steps to ensure sites on our network are a good fit.
 - We now have a system that alerts us to significant changes in traffic (quantity or quality) to a publisher.
 - We have a live publisher KPIs dashboard that can show trends and key metrics for all our publishers at once.
 
 As we grow, size may not always be our best defense,
-but we intend to make sure our network stays exclusive and high quality.
+but we intend to make sure our network stays exclusive, secure, and high quality.
 
 Thanks for coming along with us on this journey to build an ethical ad network
 and an introduction to the shadier side of the ad business.
