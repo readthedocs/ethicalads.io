@@ -53,7 +53,7 @@ Analytics programs are interested in all non-bot traffic while we report only bi
 Probably our biggest defense, however, is our relative size to the big networks.
 Unlike larger ad networks, we vet every single publisher site we onboard.
 We talk to every publisher, we only do a few at most in any given week, and the process isn't automated.
-A person from our team looks at the site where EthicalAds will appear both before our ads appear and after they appear but before paid ads are turned on to make sure everything looks good.
+A person from our team looks at our publisher sites both before and after paid ads are turned on to make sure everything looks good.
 This keeps both off-topic, non-developer sites as well as outright scams off our network.
 
 What we didn't expect was that we would get fake developer sites with fake backstories applying to join our network.
