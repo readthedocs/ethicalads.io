@@ -35,8 +35,8 @@ While our code is open source, some of these defenses rely on configuration outs
 Just to talk to some of them:
 
 - We use both free and paid databases of blocklists belonging to known VPNs, data centers, and automated traffic hosts.
-- Our upstream CDN provider, Cloudflare, can block or challenge problematic clients,
-  but we also use the threat score metric they provide.
+- Our upstream CDN provider, Cloudflare, can block problematic clients,
+  and we also use the threat score metric they provide.
 - We aggressively rate limit the ability to view and click ads.
   Normal ad traffic doesn't come from just a few clients.
 - We do a number of other normal protections that ad networks do
