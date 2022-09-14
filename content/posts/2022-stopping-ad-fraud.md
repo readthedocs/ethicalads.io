@@ -70,7 +70,7 @@ When we first let one of these sites onto our network (they'd switched from a co
 we knew something was wrong almost immediately.
 There was a little more traffic than was normal for a library like this, but a huge percentage looked automated.
 We regularly look at a few internal metrics like what percentage of ads we send are viewed and how long they appear on the screen. But the metrics screamed that this new site wasn't normal traffic at all.
-Within a few days, we kicked them off and refunded the small amount of traffic that got through our checks.
+Within a few days, we kicked them off and refunded the small amount of traffic that got through to our advertisers.
 
 We got requests like this almost daily for weeks.
 What we discovered is that scammers had registered similar domains to the library's real domain,
