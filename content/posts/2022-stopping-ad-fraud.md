@@ -7,7 +7,7 @@ image: /images/posts/2022-stopping-ad-fraud.jpg
 image_credit: <span>Photo by <a href="https://unsplash.com/@jdent?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jason Dent</a> on <a href="https://unsplash.com/s/photos/security?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>
 
 
-As we mentioned in our [regular updates recently]({filename}newsletter-july-2022.md),
+As we mentioned in our [newsletter recently]({filename}newsletter-july-2022.md),
 EthicalAds was targeted by an ad scam ring.
 Fortunately, we were able to see through the scam quickly and to protect ourselves and our advertisers.
 However, we thought this would make for an interesting post talking about some of our defenses
