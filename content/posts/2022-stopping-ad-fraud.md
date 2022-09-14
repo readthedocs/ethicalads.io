@@ -99,7 +99,7 @@ we made a few changes to make sure our network stays safe:
 
 - We do some additional scrutiny on the clients viewing our ads.
 - Our vetting process for incoming publishers has become more formalized
-  and got a few additional steps to ensure sites on our network are a good fit.
+  and got a few additional steps to ensure sites on our network are real and on topic.
 - We now have a system that alerts us to significant changes in traffic (quantity or quality) to a publisher.
 - We have a live publisher KPIs dashboard that can show trends and key metrics for all our publishers at once.
 
