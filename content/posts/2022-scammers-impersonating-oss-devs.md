@@ -1,6 +1,6 @@
-Title: Stopping Ad Fraud: Brazen Scams and How We Keep Our Network Safe
+Title: Watch Out: Ad Scammers are Impersonating Open Source Devs
 Date: September 20, 2022
-description: The advertising business has a well-deserved reputation for scams and fraud. We detail some of what we've seen and how we keep our network safe.
+description: The advertising business has a well-deserved reputation for scams and fraud. We detail some of what we've seen including scammers pretending to be open source developers.
 tags: security, adtech
 authors: David Fischer
 image: /images/posts/2022-stopping-ad-fraud.jpg
@@ -10,8 +10,7 @@ image_credit: <span>Photo by <a href="https://unsplash.com/@jdent?utm_source=uns
 As we mentioned in our [newsletter recently]({filename}newsletter-july-2022.md),
 EthicalAds was targeted by an ad scam ring.
 Fortunately, we were able to see through the scam quickly and to protect ourselves and our advertisers.
-However, we thought this would make for an interesting post talking about some of our defenses
-and some of the brazen scams folks try to pull.
+However, we thought this would make for an interesting post to discuss the brazen scams folks try to pull.
 
 
 ## Anatomy of a scam
@@ -24,39 +23,16 @@ When there's money to be made online, people will try to do it.
 
 The way these scams usually work is that a person will set up a site, request an ad publisher account,
 and then simulate fake traffic to the site and rake in the earnings.
-I'm sure folks working at Google have seen thousands of variations on this
-and they're probably pretty good at defending against it.
+We have plenty of defenses to protect ourselves from these sorts of scams.
 
-
-## Our defenses
-
-Like most ad networks, we have a number of defenses to automatically try to detect and prevent this.
-While our code is open source, some of these defenses rely on configuration outside of our open source code.
-Just to talk to some of them:
-
-- We use both free and paid databases of blocklists belonging to known VPNs, data centers, and automated traffic hosts.
-- Our upstream CDN provider, Cloudflare, can block problematic clients,
-  and we also use the threat score metric they provide.
-- We aggressively rate limit the ability to view and click ads.
-  Normal ad traffic doesn't come from just a few clients.
-- We do a number of other normal protections that ad networks do
-  like use nonces to prevent ads being viewed multiple times
-  and making sure the client requesting an ad makes sense.
-
-These defenses work very well at making sure we're counting real traffic for our advertisers
-and paying our publishers appropriately and fairly.
-We routinely hear from our advertisers that their own analytics shows *more traffic* coming from us
-than our reporting.
-That's not to say they're wrong and we're right but just that we may not be counting exactly the same thing.
-Analytics programs are interested in all non-bot traffic while we report only billable ad traffic.
-
-Probably our biggest defense, however, is our relative size to the big networks.
+Probably our biggest defense is our relative size to the big networks.
 Unlike larger ad networks, we vet every single publisher site we onboard.
 We talk to every publisher, we only do a few at most in any given week, and the process isn't automated.
 A person from our team looks at our publisher sites both before and after paid ads are turned on to make sure everything looks good.
 This keeps both off-topic, non-developer sites as well as outright scams off our network.
 
-What we didn't expect was that we would get fake developer sites with fake backstories applying to join our network.
+What we didn't expect was that we would get fake developer sites
+with fake backstories applying to join our network.
 
 
 ## Ad scammers are brazen
@@ -73,23 +49,30 @@ We regularly look at a few internal metrics like what percentage of ads we send 
 Within a few days, we kicked them off and refunded the small amount of traffic that got through to our advertisers.
 
 We got requests like this almost daily for weeks.
-What we discovered is that scammers had registered similar domains to the library's real domain,
-made a site that proxied traffic to the real library's site but could inject ads,
+At first, we thought this example was one of a kind.
+Soon, we discovered that scammers had registered similar domains to various modules' real domains,
+made a sites that proxied traffic to the real library's site but could inject ads,
 and created fake personas to impersonate the real library's devs:
 names and emails that loosely matched one of the developers on GitHub.
-There were dozens of examples but to name some specific modules (these are the real ones):
+There were dozens of examples but to name some specific modules:
 
-- [AsyncJS](https://github.com/caolan/async)
-- [NobloxJS](https://noblox.js.org/)
-- [DatafluxJS](https://github.com/massimocandela/dataflux)
-- [Tool Cool Color Picker](https://github.com/toolcool-org/toolcool-color-picker)
+* [AsyncJS](https://caolan.github.io/async/v3/)  ([fake mirror](https://asyncjs.xyz/))
+* [DatafluxJS](https://github.com/massimocandela/dataflux)  ([fake mirror](https://dataflux-js.xyz))
+* [NobloxJS](https://noblox.js.org/)  ([fake mirror](https://nobloxjs.xyz/))
+* [Tool Cool Color Picker](https://github.com/toolcool-org/toolcool-color-picker)  ([fake mirror](https://tc-color-picker.xyz/))
+
 
 While the scammers seem to have temporarily stopped applying to our network,
 they created dozens of fake sites and dozens of fake personas
-implying that they're doing this with some scale.
+implying that they're doing this with some scale across other ad networks as well.
+These scams weren't particularly hard to see through but were more noteworthy for how shameless they were.
+In each case, the scammers were pretending to be the real developer while attemping to monetize that person's work.
+
 In a few examples where we could get the real developer's email address from their GitHub profile,
-we emailed the developer to see if they'd heard of an "unofficial mirror",
+we emailed the developer to see if they'd heard of this "unofficial mirror",
 but in each case they confirmed our suspicion that they hadn't.
+These developers hadn't done anything wrong,
+but most werely that surprised that somebody would try to profit from their work.
 
 
 ## Keeping our defenses strong
