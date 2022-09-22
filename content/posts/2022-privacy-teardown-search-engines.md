@@ -753,7 +753,7 @@ Comparing the tools we used, the browser extensions did a better job of detectin
 than Blacklight although that isn't too surprising since we had much more control with the extensions.
 The exhaustive EasyPrivacy list blocked the most requests but many of those were not third-party requests
 or trackers. Both Privacy Badger and DuckDuckGo Privacy Essentials/Tracker Radar did very similarly
-in identifying and blocking requests.
+in identifying and blocking trackers.
 
 Hopefully you enjoyed this privacy teardown post for search engines.
 Please [get in touch]({filename}../pages/contact.md) if you have any ideas or feedback on this teardown or our methodology.
