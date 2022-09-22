@@ -655,7 +655,7 @@ Lastly, since data is transmitted to the servers of these search engines, there'
 
 * **Blacklight**: Blacklight reported 1 tracker sent to doubleclick.net (Google's ad arm). No keystroke or session capturing found.
 * **Tracker Radar**: Grade D (poor privacy practices). Blocked requests to doubleclick.net and googleadservices.com
-* **EasyPrivacy**: Blocked requests to doubleclick.net and googleadservices.com. Continued to block additional logging XHRs as long as the tab was in focus.
+* **EasyPrivacy**: Blocked requests to doubleclick.net and googleadservices.com. Continued to block additional logging requests as long as the tab was in focus.
 * **PrivacyBadger**: Blocked requests to doubleclick.net
 * **Manual Inspection**: Loaded resources from google.com subdomains, doubleclick.net (Google ads), gstatic.com, and ytimg.com (YouTube). All of these resolved to Google's infrastructure. Persisted long term (over 1 year) cookies on a few google.com subdomains and used local storage.
 
