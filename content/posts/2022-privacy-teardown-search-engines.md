@@ -52,7 +52,7 @@ Lastly, since data is transmitted to the servers of these search engines, there'
     </tr>
     <tr class="border-bottom">
       <td style="height: 6rem" rowspan="4">
-        <span class="small rotate-90-left"><strong>Blacklight</strong></span>
+        <span class="small"><strong>Blacklight</strong></span>
       </td>
       <td class="small">Trackers</td>
       <td class="text-center"><!-- Google -->
@@ -259,7 +259,7 @@ Lastly, since data is transmitted to the servers of these search engines, there'
     </tr><!-- /Blacklight -->
     <tr class="border-bottom"><!-- Tracker Radar -->
       <td style="height: 6rem" rowspan="3">
-        <span class="small rotate-90-left"><strong>Tracker<br>Radar</strong></span>
+        <span class="small"><strong>Tracker<br>Radar</strong></span>
       </td>
       <td class="small">Grade</td>
       <td class="text-center"><!-- Google -->
@@ -385,7 +385,7 @@ Lastly, since data is transmitted to the servers of these search engines, there'
     </tr><!-- /Tracker Radar -->
     <tr class="border-bottom"><!-- EasyPrivacy -->
       <td style="height: 6rem">
-        <span class="small rotate-90-left"><strong>Easy<br>Privacy</strong></span>
+        <span class="small"><strong>Easy<br>Privacy</strong></span>
       </td>
       <td class="small">Blocked requests</td>
       <td class="text-center"><!-- Google -->
@@ -439,7 +439,7 @@ Lastly, since data is transmitted to the servers of these search engines, there'
     </tr><!-- /EasyPrivacy -->
     <tr class="border-bottom"><!-- Privacy Badger -->
       <td style="height: 6rem">
-        <span class="small rotate-90-left"><strong>Privacy<br>Badger</strong></span>
+        <span class="small"><strong>Privacy<br>Badger</strong></span>
       </td>
       <td class="small">Trackers</td>
       <td class="text-center"><!-- Google -->
@@ -493,7 +493,7 @@ Lastly, since data is transmitted to the servers of these search engines, there'
     </tr><!-- /Privacy Badger -->
     <tr class="border-bottom"><!-- Manual Inspection -->
       <td style="height: 6rem" rowspan="3">
-        <span class="small rotate-90-left"><strong>Manual<br>Inspection</strong></span>
+        <span class="small"><strong>Manual<br>Inspection</strong></span>
       </td>
       <td class="small">3P requests</td>
       <td class="text-center"><!-- Google -->
