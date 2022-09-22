@@ -266,7 +266,7 @@ Lastly, since data is transmitted to the servers of these search engines, there'
         <span class="text-danger" data-toggle="tooltip" title="Poor privacy practices">D</span>
       </td>
       <td class="text-center"><!-- Bing -->
-        <span class="text-danger" data-toggle="tooltip" title="Unknown privacy practices">C+</span>
+        <span class="text-warning" data-toggle="tooltip" title="Unknown privacy practices">C+</span>
       </td>
       <td class="text-center"><!-- DDG -->
         <span class="text-success" data-toggle="tooltip" title="It's a self-grade">A</span>
