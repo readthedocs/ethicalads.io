@@ -32,7 +32,7 @@ Extensions were disabled except for the tool being used.
 One caveat to our analysis is that not all tracking can be seen by these methods.
 For example, Google could use search history data in their other products without using any third-party trackers
 since they are the *first-party* when you search Google.
-Lastly, since data is transmitted to the servers of these search engines, there's no way to tell what their servers do with the data beyond their privacy policies.
+Since data is transmitted to the servers of these search engines, there's no way to tell what their servers do with the data beyond their privacy policies.
 
 
 
