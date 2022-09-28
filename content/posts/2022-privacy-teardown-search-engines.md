@@ -746,7 +746,7 @@ than the big search engines like Google or Bing.
 Google appeared to share data across Google properties but not with third-parties.
 
 We didn't see any of the worst practices like CNAME cloaking or logging keystrokes.
-The worst we saw was considerable third-party data sharing with adtech companies on the Bing homepage.
+The worst practice we saw was considerable third-party data sharing with adtech companies on the Bing homepage.
 By contrast, however, the Bing SERP page kept data with Microsoft.
 
 Comparing the tools we used, the browser extensions did a better job of detecting all the third-party requests
