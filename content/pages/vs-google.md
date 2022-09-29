@@ -19,7 +19,7 @@ When your user goes to your website, they are assuming they will only be sending
 
 When you use EthicalAds, **we never set cookies on your users**, and we don't use any user-specific data to target advertising. This means [you don't need a cookie banner]({filename}../posts/2021-can-you-remove-cookie-banners.md) when you use our ads, and your users data is not being tracked across the internet.
 
-## **Transparency**: See exatly what ads get shown on your site.
+## **Transparency**: See exactly what ads get shown on your site.
 
 Google shows ads based on the user who is viewing your site, which means they could be seeing ads totally unrelated to your site content. Sometimes this results in ads that you might find objectionable, might freak your users out by following them around the web, or many other issues.
 
