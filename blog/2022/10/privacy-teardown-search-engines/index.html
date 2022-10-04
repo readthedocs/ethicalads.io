@@ -1,0 +1,1197 @@
+<!doctype html>
+<html lang="en">
+  <head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<meta name="generator" content="Pelican" />
+<meta property="og:site_name" content="EthicalAds"/><meta name="description" content="Our first privacy teardown post looks at search engines to see how they compare from a privacy perspective. We use off-the-shelf tools and techniques to learn what both traditional and more privacy-focused search engines are doing with your data." />
+    <meta property="og:description" content="Our first privacy teardown post looks at search engines to see how they compare from a privacy perspective. We use off-the-shelf tools and techniques to learn what both traditional and more privacy-focused search engines are doing with your data." /><meta name="tags" content="privacy" /><meta name="tags" content="privacy-teardown" /><meta name="author" content="David Fischer" /><meta property="og:type" content="article">
+  <meta property="og:title" content="Privacy Teardown: Search Engines" />
+  <meta property="twitter:title" content="Privacy Teardown: Search Engines" /><meta property="og:image" content="https://www.ethicalads.io/images/posts/2022-privacy-teardown-search-engines.png" />
+    <meta property="twitter:image" content="https://www.ethicalads.io/images/posts/2022-privacy-teardown-search-engines.png" /><meta property="article:published_time" content="2022-10-04" />
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="/theme/dist/main.css">
+
+      <title>Privacy Teardown: Search Engines - EthicalAds</title>
+
+  <link rel="canonical" href="https://www.ethicalads.io/blog/2022/10/privacy-teardown-search-engines/" />
+  <meta property="og:url" content="https://www.ethicalads.io/blog/2022/10/privacy-teardown-search-engines/" />
+
+      <!-- Feeds -->
+        <link href="https://www.ethicalads.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="EthicalAds Full Atom Feed" />
+        <link href="https://www.ethicalads.io/feeds/posts.atom.xml" type="application/atom+xml" rel="alternate" title="EthicalAds Categories Atom Feed" />
+
+      <!-- Favicons -->
+      <link rel="icon" href="/theme/img/favicons/favicon.svg" type="image/svg+xml">
+      <link rel="icon" href="/theme/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+      <link rel="icon" href="/theme/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+      <link rel="icon" href="/theme/img/favicons/favicon.ico">
+
+      <!-- Plausible privacy-friendly analytics -->
+      <script defer data-domain="ethicalads.io" src="https://plausible.io/js/plausible.js"></script>
+  </head>
+  <body class="bg-light">
+
+<nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container">
+
+    <!-- Brand -->
+    <a class="navbar-brand" href="/">
+      <img src="/theme/img/ethicalads-logo-blue.svg" class="navbar-brand-img" alt="EthicalAds">
+    </a>
+
+    <!-- Toggler -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Collapse -->
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+
+      <!-- Toggler -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="fa fa-close"></span>
+      </button>
+
+
+      <!-- Navigation -->
+      <ul class="navbar-nav ml-auto">
+
+
+
+          <li class="nav-item">
+            <a class="nav-link mr-md-2" href="/blog/">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mr-md-2" href="/learning-hub/">Learning Hub</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mr-md-2" href="/advertisers/">Advertisers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mr-md-2" href="/publishers/">Publishers</a>
+          </li>
+
+
+      </ul>
+
+      <ul class="navbar-nav ml-auto">
+
+        <!---->
+
+          <li class="nav-item lift">
+            <a class="nav-item btn btn-sm btn-outline-primary" href="/advertisers/">Advertise with Us</a>
+          </li>
+
+      </ul>
+
+    </div>
+
+  </div>
+</nav>
+    <main>
+
+<section class="container py-5 mb-10">
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-10 col-lg-9 col-xl-8">
+      <!-- Heading -->
+      <h1 class="display-4">Privacy Teardown: Search Engines</h1>
+
+      <!-- Meta -->
+      <div class="row align-items-center py-5 border-top border-bottom">
+        <div class="col">
+
+          <div class="d-flex w-100">
+            <!-- Author -->
+            <div class="flex-fill h6 text-uppercase mb-0">David Fischer</div>
+
+            <!-- Date -->
+            <div class="flex-fill h6 text-uppercase text-muted mb-0 ml-auto text-right">
+              <time class="text-nowrap" datetime="2022-10-04T00:00:00-07:00">Oct 4, 2022</time>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- IMAGE  -->
+        <!-- Fugure -->
+        <figure class="figure mb-7">
+
+          <!-- Image -->
+          <img class="figure-img img-fluid rounded" src="/images/posts/2022-privacy-teardown-search-engines.png" alt="Privacy Teardown: Search Engines">
+
+          <!-- Caption -->
+
+        </figure>
+
+      <div>
+        <p>Do search engines really track you?
+What about search engines that claim not to track you?
+In this privacy teardown, we use off-the-shelf tools, data,
+and methods to see how traditional and more privacy-focused search engines treat and share your data.</p>
+<p><a href="#results">Skip to the results!</a></p>
+<h2 id="methodology">Methodology</h2>
+<p>We selected the largest traditional search engines Google and Bing as well as a few more privacy-minded search engines like DuckDuckGo, Brave Search, Mojeek and You.com to see how they stack up and whether there was any measurable differences we could see in their data sharing (Mojeek and You.com have advertised with EthicalAds in the past but did not take part in this post).</p>
+<p>For tools, we used a number of off-the-shelf tools and data sources:</p>
+<ul>
+<li><a href="https://themarkup.org/">The Markup</a>, a nonprofit news source that looks at how Big Tech uses technology,
+  produced a tool called <a href="https://themarkup.org/blacklight">Blacklight</a>. Blacklight looks for third-party cookies, known trackers, non-cookie tracking methods, session or keystroke capturing tech, and other third-party pixels.</li>
+<li><a href="https://duckduckgo.com/">DuckDuckGo</a>, one of the search engines we're analyzing, produces a data set called <a href="https://github.com/duckduckgo/tracker-radar">Tracker Radar</a> used by their own mobile browsers, browser extensions, and other tools. Tracker Radar has data on the most common trackers, what they're used for, and a way to group trackers by their parent entity (eg. Doubleclick, GoogleAnalytics, and YouTube are all Google). For our test, we checked Tracker Radar through the <a href="https://chrome.google.com/webstore/detail/duckduckgo-privacy-essent/bkdgflcldnnnapblkhphbgpggdiikppg">DuckDuckGo Privacy Essentials</a> extension which also gives a letter grade (A-F) based on the requests loaded and the privacy practices as reported by <a href="https://tosdr.org/">TOS;DR</a>.</li>
+<li><a href="https://easylist.to/">The Easylist</a>, one of the largest ad blocker lists used by ad blocking extensions like uBlock Origin and AdblockPlus, produces the EasyPrivacy list which has a huge list of trackers, analytics, and other scripts formatted for use by ad blockers. For our test, we ran uBlock Origin with an updated EasyPrivacy list and all other lists disabled.</li>
+<li>The <a href="https://www.eff.org/">EFF</a> produces a browser extension called <a href="https://privacybadger.org/">Privacy Badger</a> which is an algorithmic tracker blocker. Rather than relying on a list of domains or scripts (like EasyPrivacy or Tracker Radar), the extension knows what tracking looks like and blocks trackers when it sees them.</li>
+<li>We did a brief manual inspection looking at all third-party and subdomain requests as well as cookies and persistent storage. This was a sanity check in case the search engines are handling different requests differently and also to do a quick DNS lookup on subdomains looking for CNAME cloaking, a way to hide third-party trackers as first-party requests.</li>
+</ul>
+<p>For each search engine, we loaded the homepage and a search engine results page (SERP).
+Extensions were disabled except for the tool being used.</p>
+<p>One caveat to our analysis is that not all tracking can be seen by these methods.
+For example, Google could use search history data in their other products without using any third-party trackers
+since they are the <em>first-party</em> when you search Google.
+Since data is transmitted to the servers of these search engines, there's no way to tell what their servers do with the data beyond their privacy policies.</p>
+<h2 id="results">Results</h2>
+<table class="w-100 mt-5 mb-5">
+  <thead>
+    <tr>
+      <th colspan="2"><!-- Intentially blank --></th>
+      <th style="height: 8rem"><span class="small rotate-60-left">Google</span></th>
+      <th style="height: 8rem"><span class="small rotate-60-left">Bing</span></th>
+      <th style="height: 8rem"><span class="small rotate-60-left">DuckDuckGo</span></th>
+      <th style="height: 8rem"><span class="small rotate-60-left">Brave</span></th>
+      <th style="height: 8rem"><span class="small rotate-60-left">Mojeek</span></th>
+      <th style="height: 8rem"><span class="small rotate-60-left">You.com</span></th>
+    </tr>
+    <tr class="border-bottom">
+      <td style="height: 6rem" rowspan="4">
+        <span class="small"><strong>Blacklight</strong></span>
+      </td>
+      <td class="small">Trackers</td>
+      <td class="text-center"><!-- Google -->
+        <span class="text-danger" data-toggle="tooltip" title="Trackers found">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+          </svg>
+        </span>
+      </td>
+      <td class="text-center"><!-- Bing -->
+        <span class="text-danger" data-toggle="tooltip" title="Trackers found">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+          </svg>
+        </span>
+      </td>
+      <td class="text-center"><!-- DDG -->
+        <span class="text-success" data-toggle="tooltip" title="No trackers found">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+          </svg>
+        </span>
+      </td>
+      <td class="text-center"><!-- Brave -->
+        <span class="text-muted" data-toggle="tooltip" title="Blacklight timed out on Brave Search">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"/>
+          </svg>
+        </span>
+      </td>
+      <td class="text-center"><!-- Mojeek -->
+        <span class="text-success" data-toggle="tooltip" title="No trackers found">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+          </svg>
+        </span>
+      </td>
+      <td class="text-center"><!-- You.com -->
+        <span class="text-success" data-toggle="tooltip" title="No trackers found">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+          </svg>
+        </span>
+      </td>
+    </tr>
+    <tr class="border-bottom">
+      <td class="small">3P Cookies</td>
+      <td class="text-center"><!-- Google -->
+        <span class="text-success" data-toggle="tooltip" title="No 3rd party cookies">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+          </svg>
+        </span>
+      </td>
+      <td class="text-center"><!-- Bing -->
+        <span class="text-danger" data-toggle="tooltip" title="3rd party cookies">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+          </svg>
+        </span>
+      </td>
+      <td class="text-center"><!-- DDG -->
+        <span class="text-success" data-toggle="tooltip" title="No 3rd party cookies">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+          </svg>
+        </span>
+      </td>
+      <td class="text-center"><!-- Brave -->
+        <span class="text-muted" data-toggle="tooltip" title="Blacklight timed out on Brave Search">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"/>
+          </svg>
+        </span>
+      </td>
+      <td class="text-center"><!-- Mojeek -->
+        <span class="text-success" data-toggle="tooltip" title="No 3rd party cookies">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+          </svg>
+        </span>
+      </td>
+      <td class="text-center"><!-- You.com -->
+        <span class="text-success" data-toggle="tooltip" title="No 3rd party cookies">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+          </svg>
+        </span>
+      </td>
+    </tr>
+    <tr class="border-bottom">
+      <td class="small">Non-cookie tracking</td>
+      <td class="text-center"><!-- Google -->
+        <span class="text-success" data-toggle="tooltip" title="No non-cookie tracking">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+          </svg>
+        </span>
+      </td>
+      <td class="text-center"><!-- Bing -->
+        <span class="text-success" data-toggle="tooltip" title="No non-cookie tracking">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+          </svg>
+        </span>
+      </td>
+      <td class="text-center"><!-- DDG -->
+        <span class="text-success" data-toggle="tooltip" title="No non-cookie tracking">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+          </svg>
+        </span>
+      </td>
+      <td class="text-center"><!-- Brave -->
+        <span class="text-muted" data-toggle="tooltip" title="Blacklight timed out on Brave Search">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"/>
+          </svg>
+        </span>
+      </td>
+      <td class="text-center"><!-- Mojeek -->
+        <span class="text-success" data-toggle="tooltip" title="No non-cookie tracking">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+          </svg>
+        </span>
+      </td>
+      <td class="text-center"><!-- You.com -->
+        <span class="text-success" data-toggle="tooltip" title="No non-cookie tracking">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+          </svg>
+        </span>
+      </td>
+    </tr>
+    <tr class="border-bottom">
+      <td class="small">Session/key logging</td>
+      <td class="text-center"><!-- Google -->
+        <span class="text-success" data-toggle="tooltip" title="No session/key logging">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+          </svg>
+        </span>
+      </td>
+      <td class="text-center"><!-- Bing -->
+        <span class="text-success" data-toggle="tooltip" title="No session/key logging">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+          </svg>
+        </span>
+      </td>
+      <td class="text-center"><!-- DDG -->
+        <span class="text-success" data-toggle="tooltip" title="No session/key logging">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+          </svg>
+        </span>
+      </td>
+      <td class="text-center"><!-- Brave -->
+        <span class="text-muted" data-toggle="tooltip" title="Blacklight timed out on Brave Search">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"/>
+          </svg>
+        </span>
+      </td>
+      <td class="text-center"><!-- Mojeek -->
+        <span class="text-success" data-toggle="tooltip" title="No session/key logging">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+          </svg>
+        </span>
+      </td>
+      <td class="text-center"><!-- You.com -->
+        <span class="text-success" data-toggle="tooltip" title="No session/key logging">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+          </svg>
+        </span>
+      </td>
+    </tr><!-- /Blacklight -->
+    <tr class="border-bottom"><!-- Tracker Radar -->
+      <td style="height: 6rem" rowspan="3">
+        <span class="small"><strong>Tracker<br>Radar</strong></span>
+      </td>
+      <td class="small">Grade</td>
+      <td class="text-center"><!-- Google -->
+        <span class="text-danger" data-toggle="tooltip" title="Poor privacy practices">D</span>
+      </td>
+      <td class="text-center"><!-- Bing -->
+        <span class="text-warning" data-toggle="tooltip" title="Unknown privacy practices">C+</span>
+      </td>
+      <td class="text-center"><!-- DDG -->
+        <span class="text-success" data-toggle="tooltip" title="It's a self-grade">A</span>
+      </td>
+      <td class="text-center"><!-- Brave -->
+        <span class="text-success" data-toggle="tooltip" title="Unknown privacy practices">B+</span>
+      </td>
+      <td class="text-center"><!-- Mojeek -->
+        <span class="text-success" data-toggle="tooltip" title="Unknown privacy practices">B+</span>
+      </td>
+      <td class="text-center"><!-- You.com -->
+        <span class="text-success" data-toggle="tooltip" title="Unknown privacy practices">B+</span>
+      </td>
+    </tr>
+    <tr class="border-bottom">
+      <td class="small">Trackers</td>
+      <td class="text-center"><!-- Google -->
+        <span class="text-danger" data-toggle="tooltip" title="Trackers found">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+          </svg>
+        </span>
+      </td>
+      <td class="text-center"><!-- Bing -->
+        <span class="text-danger" data-toggle="tooltip" title="Trackers found">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+          </svg>
+        </span>
+      </td>
+      <td class="text-center"><!-- DDG -->
+        <span class="text-success" data-toggle="tooltip" title="No trackers found">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+          </svg>
+        </span>
+      </td>
+      <td class="text-center"><!-- Brave -->
+        <span class="text-success" data-toggle="tooltip" title="No trackers found">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+          </svg>
+        </span>
+      </td>
+      <td class="text-center"><!-- Mojeek -->
+        <span class="text-success" data-toggle="tooltip" title="No trackers found">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+          </svg>
+        </span>
+      </td>
+      <td class="text-center"><!-- You.com -->
+        <span class="text-success" data-toggle="tooltip" title="No trackers found">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+          </svg>
+        </span>
+      </td>
+    </tr>
+    <tr class="border-bottom">
+      <td class="small">3P requests</td>
+      <td class="text-center"><!-- Google -->
+        <span class="text-danger" data-toggle="tooltip" title="3rd party requests">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+          </svg>
+        </span>
+      </td>
+      <td class="text-center"><!-- Bing -->
+        <span class="text-danger" data-toggle="tooltip" title="3rd party requests">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+          </svg>
+        </span>
+      </td>
+      <td class="text-center"><!-- DDG -->
+        <span class="text-success" data-toggle="tooltip" title="No 3rd party requests">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+          </svg>
+        </span>
+      </td>
+      <td class="text-center"><!-- Brave -->
+        <span class="text-success" data-toggle="tooltip" title="No 3rd party requests">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+          </svg>
+        </span>
+      </td>
+      <td class="text-center"><!-- Mojeek -->
+        <span class="text-success" data-toggle="tooltip" title="No 3rd party requests">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+          </svg>
+        </span>
+      </td>
+      <td class="text-center"><!-- You.com -->
+        <span class="text-danger" data-toggle="tooltip" title="3rd party requests">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+          </svg>
+        </span>
+      </td>
+    </tr><!-- /Tracker Radar -->
+    <tr class="border-bottom"><!-- EasyPrivacy -->
+      <td style="height: 6rem">
+        <span class="small"><strong>Easy<br>Privacy</strong></span>
+      </td>
+      <td class="small">Blocked requests</td>
+      <td class="text-center"><!-- Google -->
+        <span class="text-danger" data-toggle="tooltip" title="Numerous ongoing blocked requests">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+          </svg>
+        </span>
+      </td>
+      <td class="text-center"><!-- Bing -->
+        <span class="text-danger" data-toggle="tooltip" title="Numerous ongoing blocked requests">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+          </svg>
+        </span>
+      </td>
+      <td class="text-center"><!-- DDG -->
+        <span class="text-warning" data-toggle="tooltip" title="A few blocked requests">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M7.938 2.016A.13.13 0 0 1 8.002 2a.13.13 0 0 1 .063.016.146.146 0 0 1 .054.057l6.857 11.667c.036.06.035.124.002.183a.163.163 0 0 1-.054.06.116.116 0 0 1-.066.017H1.146a.115.115 0 0 1-.066-.017.163.163 0 0 1-.054-.06.176.176 0 0 1 .002-.183L7.884 2.073a.147.147 0 0 1 .054-.057zm1.044-.45a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566z"/>
+            <path d="M7.002 12a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 5.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995z"/>
+          </svg>
+        </span>
+      </td>
+      <td class="text-center"><!-- Brave -->
+        <span class="text-success" data-toggle="tooltip" title="No blocked requests">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+          </svg>
+        </span>
+      </td>
+      <td class="text-center"><!-- Mojeek -->
+        <span class="text-success" data-toggle="tooltip" title="No blocked requests">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+          </svg>
+        </span>
+      </td>
+      <td class="text-center"><!-- You.com -->
+        <span class="text-warning" data-toggle="tooltip" title="A few blocked requests">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M7.938 2.016A.13.13 0 0 1 8.002 2a.13.13 0 0 1 .063.016.146.146 0 0 1 .054.057l6.857 11.667c.036.06.035.124.002.183a.163.163 0 0 1-.054.06.116.116 0 0 1-.066.017H1.146a.115.115 0 0 1-.066-.017.163.163 0 0 1-.054-.06.176.176 0 0 1 .002-.183L7.884 2.073a.147.147 0 0 1 .054-.057zm1.044-.45a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566z"/>
+            <path d="M7.002 12a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 5.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995z"/>
+          </svg>
+        </span>
+      </td>
+    </tr><!-- /EasyPrivacy -->
+    <tr class="border-bottom"><!-- Privacy Badger -->
+      <td style="height: 6rem">
+        <span class="small"><strong>Privacy<br>Badger</strong></span>
+      </td>
+      <td class="small">Trackers</td>
+      <td class="text-center"><!-- Google -->
+        <span class="text-danger" data-toggle="tooltip" title="Trackers found">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+          </svg>
+        </span>
+      </td>
+      <td class="text-center"><!-- Bing -->
+        <span class="text-danger" data-toggle="tooltip" title="Trackers found">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+          </svg>
+        </span>
+      </td>
+      <td class="text-center"><!-- DDG -->
+        <span class="text-success" data-toggle="tooltip" title="No trackers found">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+          </svg>
+        </span>
+      </td>
+      <td class="text-center"><!-- Brave -->
+        <span class="text-success" data-toggle="tooltip" title="No trackers found">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+          </svg>
+        </span>
+      </td>
+      <td class="text-center"><!-- Mojeek -->
+        <span class="text-success" data-toggle="tooltip" title="No trackers found">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+          </svg>
+        </span>
+      </td>
+      <td class="text-center"><!-- You.com -->
+        <span class="text-success" data-toggle="tooltip" title="No trackers found">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+          </svg>
+        </span>
+      </td>
+    </tr><!-- /Privacy Badger -->
+    <tr class="border-bottom"><!-- Manual Inspection -->
+      <td style="height: 6rem" rowspan="3">
+        <span class="small"><strong>Manual<br>Inspection</strong></span>
+      </td>
+      <td class="small">3P requests</td>
+      <td class="text-center"><!-- Google -->
+        <span class="text-success" data-toggle="tooltip" title="No 3rd party requests">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+          </svg>
+        </span>
+      </td>
+      <td class="text-center"><!-- Bing -->
+        <span class="text-danger" data-toggle="tooltip" title="3rd party requests">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+          </svg>
+        </span>
+      </td>
+      <td class="text-center"><!-- DDG -->
+        <span class="text-success" data-toggle="tooltip" title="No 3rd party requests">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+          </svg>
+        </span>
+      </td>
+      <td class="text-center"><!-- Brave -->
+        <span class="text-success" data-toggle="tooltip" title="No 3rd party requests">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+          </svg>
+        </span>
+      </td>
+      <td class="text-center"><!-- Mojeek -->
+        <span class="text-success" data-toggle="tooltip" title="No 3rd party requests">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+          </svg>
+        </span>
+      </td>
+      <td class="text-center"><!-- You.com -->
+        <span class="text-danger" data-toggle="tooltip" title="3rd party requests">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+          </svg>
+        </span>
+      </td>
+    </tr>
+    <tr class="border-bottom">
+      <td class="small">CNAME cloaking</td>
+      <td class="text-center"><!-- Google -->
+        <span class="text-success" data-toggle="tooltip" title="No CNAME cloaking">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+          </svg>
+        </span>
+      </td>
+      <td class="text-center"><!-- Bing -->
+        <span class="text-success" data-toggle="tooltip" title="No CNAME cloaking">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+          </svg>
+        </span>
+      </td>
+      <td class="text-center"><!-- DDG -->
+        <span class="text-success" data-toggle="tooltip" title="No CNAME cloaking">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+          </svg>
+        </span>
+      </td>
+      <td class="text-center"><!-- Brave -->
+        <span class="text-success" data-toggle="tooltip" title="No CNAME cloaking">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+          </svg>
+        </span>
+      </td>
+      <td class="text-center"><!-- Mojeek -->
+        <span class="text-success" data-toggle="tooltip" title="No CNAME cloaking">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+          </svg>
+        </span>
+      </td>
+      <td class="text-center"><!-- You.com -->
+        <span class="text-success" data-toggle="tooltip" title="No CNAME cloaking">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+          </svg>
+        </span>
+      </td>
+    </tr>
+    <tr>
+      <td class="small">Persistent unique IDs</td>
+      <td class="text-center"><!-- Google -->
+        <span class="text-danger" data-toggle="tooltip" title="Persistent unique IDs for a year or more">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+          </svg>
+        </span>
+      </td>
+      <td class="text-center"><!-- Bing -->
+        <span class="text-danger" data-toggle="tooltip" title="Persistent unique IDs for a year or more">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+          </svg>
+        </span>
+      </td>
+      <td class="text-center"><!-- DDG -->
+        <span class="text-success" data-toggle="tooltip" title="No persistent unique IDs">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+          </svg>
+        </span>
+      </td>
+      <td class="text-center"><!-- Brave -->
+        <span class="text-success" data-toggle="tooltip" title="No persistent unique IDs">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+          </svg>
+        </span>
+      </td>
+      <td class="text-center"><!-- Mojeek -->
+        <span class="text-success" data-toggle="tooltip" title="No persistent unique IDs">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+          </svg>
+        </span>
+      </td>
+      <td class="text-center"><!-- You.com -->
+        <span class="text-warning" data-toggle="tooltip" title="Persistent IDs last 1 month">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"  >
+            <path d="M7.938 2.016A.13.13 0 0 1 8.002 2a.13.13 0 0 1 .063.016.146.146 0 0 1 .054.057l6.857 11.667c.036.06.035.124.002.183a.163.163 0 0 1-.054.06.116.116 0 0 1-.066.017H1.146a.115.115 0 0 1-.066-.017.163.163 0 0 1-.054-.06.176.176 0 0 1 .002-.183L7.884 2.073a.147.147 0 0 1 .054-.057zm1.044-.45a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566z"/>
+            <path d="M7.002 12a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 5.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995z"/>
+          </svg>
+        </span>
+      </td>
+    </tr><!-- /Manual Inspection -->
+  </thead>
+</table>
+
+<h3 id="google">Google</h3>
+<ul>
+<li><strong>Blacklight</strong>: Blacklight reported 1 tracker sent to doubleclick.net (Google's ad arm). No keystroke or session capturing found.</li>
+<li><strong>Tracker Radar</strong>: Grade D (poor privacy practices). Blocked requests to doubleclick.net and googleadservices.com</li>
+<li><strong>EasyPrivacy</strong>: Blocked requests to doubleclick.net and googleadservices.com. Continued to block additional logging requests as long as the tab was in focus.</li>
+<li><strong>PrivacyBadger</strong>: Blocked requests to doubleclick.net</li>
+<li><strong>Manual Inspection</strong>: Loaded resources from google.com subdomains, doubleclick.net (Google ads), gstatic.com, and ytimg.com (YouTube). All of these resolved to Google's infrastructure. Persisted long term (over 1 year) cookies on a few google.com subdomains and used local storage.</li>
+</ul>
+<p>Overall, Google appears to be sharing data with other Google properties but not with any third-parties.
+Google does persist long-term unique identifiers even for logged out users simply doing a query or loading the homepage.</p>
+<h3 id="bing">Bing</h3>
+<ul>
+<li><strong>Blacklight</strong>: No trackers. Third-party cookies detected for "login.microsoftonline.com". No keystroke or session capturing found.</li>
+<li><strong>Tracker Radar</strong>: C+ (unknown privacy practices). The Bing homepage had a few requests blocked after scrolling including requests to outbrain.com and zemanta.com, two adtech companies. Tracker Radar noted but did not block requests to Akamai. Repeated homepage loads produced slightly different results. The SERP page reported no trackers and no third-party requests.</li>
+<li><strong>EasyPrivacy</strong>: Blocked numerous requests to both Microsoft and third-party domains (10-15% of requests) on the homepage. Continued to block additional requests to Bing as long as the tab was in focus. The SERP page only blocked what appeared to be logging requests.</li>
+<li><strong>PrivacyBadger</strong>: On the homepage, allowed a request to akamaized.net. After scrolling on the homepage, blocked requests to cheqzone.com, outbrain.com, and zemanta.com. No trackers found on the SERP page.</li>
+<li><strong>Manual Inspection</strong>: Loaded resources from many domains including msn.com subdomains, virtualearth.net (Bing maps), akamaized.net, and cloudfront.net. The one standout request was to trace.mediago.io which is adtech from Baidu, a Chinese search engine. The SERP page loaded data only from bing.com subdomains and microsoft.com subdomains. All of the requests to Microsoft domains resolved to Microsoft's infrastructure. Bing persisted long term cookies on various Microsoft properties and used local storage. Firefox (our test browser) also blocked a number of third-party cookies.</li>
+</ul>
+<p>The Bing homepage loads a lot of content compared to many other search engines
+including data from third-party ad tech companies. This results in some amount of data sharing.
+The Bing SERP page by contrast only appears to communicate with Microsoft.
+Bing persists long-term unique identifiers even for logged out users simply doing a query or loading the homepage.</p>
+<div class="postimage text-center">
+  <img class="w-50 shadow-lg" src="https://www.ethicalads.io/images/posts/2022-privacy-badger-bing.png" alt="Results of the EFF's Privacy Badger run on the Bing homepage">
+  <p>Results of the EFF's Privacy Badger run on the Bing homepage</p>
+</div>
+
+<h3 id="duckduckgo">DuckDuckGo</h3>
+<ul>
+<li><strong>Blacklight</strong>: No trackers or third-party cookies detected. No keystroke or session capturing found.</li>
+<li><strong>Tracker Radar</strong>: A (it's a self-grade). No third-party requests or trackers reported on the homepage or SERP page.</li>
+<li><strong>EasyPrivacy</strong>: Requests to improving.duckduckgo.com (DuckDuckGo's "anonymous improvement engine") were blocked.</li>
+<li><strong>PrivacyBadger</strong>: No trackers detected on the homepage or SERP page.</li>
+<li><strong>Manual Inspection</strong>: DuckDuckGo only made requests to duckduckgo.com and subdomains. None of these domains used CNAME cloaking. DuckDuckGo didn't persist anything to the browser at all.</li>
+</ul>
+<p>DuckDuckGo doesn't load any third-party data and doesn't persist any unique identifiers or anything else.</p>
+<h3 id="brave-search">Brave Search</h3>
+<ul>
+<li><strong>Blacklight</strong>: Repeated attempts on separate days to run Blacklight on Brave Search timed out. It is possible that Blacklight has an issue with Brave Search or that Brave is blocking Blacklight.</li>
+<li><strong>Tracker Radar</strong>: Grade: B+ (unknown privacy practices). No third-party requests or trackers reported on the homepage or SERP page.</li>
+<li><strong>EasyPrivacy</strong>: No requests blocked. All requests went to brave.com or a subdomain.</li>
+<li><strong>PrivacyBadger</strong>: No trackers detected on the homepage or SERP page.</li>
+<li><strong>Manual Inspection</strong>: Brave Search only made requests to 3 domains in total: search.brave.com, imgs.search.brave.com, and cdn.search.brave.com. None of these domains used CNAME cloaking. Brave did not persist any cookies. They did persist some data to local storage but it did not appear to contain any unique identifiers.</li>
+</ul>
+<p>Brave doesn't load any third-party data and doesn't persist any unique identifiers.</p>
+<div class="postimage text-center">
+  <img class="w-50 shadow-lg" src="https://www.ethicalads.io/images/posts/2022-ddg-privacy-essentials-bravesearch.png" alt="Results of DuckDuckGo's Privacy Essentials (using Tracker Radar) on Brave Search">
+  <p>Results of DuckDuckGo's Privacy Essentials (using Tracker Radar) on Brave Search</p>
+</div>
+
+<h3 id="mojeek">Mojeek</h3>
+<ul>
+<li><strong>Blacklight</strong>: No trackers or third-party cookies detected. No keystroke or session capturing found.</li>
+<li><strong>Tracker Radar</strong>: Grade: B+ (unknown privacy practices). No third-party requests or trackers reported on the homepage or SERP page.</li>
+<li><strong>EasyPrivacy</strong>: No requests blocked. All requests went to www.mojeek.com strictly.</li>
+<li><strong>PrivacyBadger</strong>: No trackers detected on the homepage or SERP page.</li>
+<li><strong>Manual Inspection</strong>: Mojeek only made requests strictly to www.mojeek.com. Mojeek didn't persist anything to the browser at all.</li>
+</ul>
+<p>Mojeek doesn't load any third-party data and doesn't persist any unique identifiers or anything else.</p>
+<div class="postimage text-center">
+  <img class="w-75 shadow-lg" src="https://www.ethicalads.io/images/posts/2022-blacklight-results-mojeek.png" alt="Results of Blacklight run on Mojeek.com">
+  <p>Results of Blacklight run on Mojeek.com</p>
+</div>
+
+<h3 id="youcom">You.com</h3>
+<ul>
+<li><strong>Blacklight</strong>: No trackers or third-party cookies detected. No keystroke or session capturing found.</li>
+<li><strong>Tracker Radar</strong>: Grade: B+ (unknown privacy practices). The homepage and SERP page reported third-party requests to Plausible.io, a privacy-friendly analytics company and to launchdarkly.com, a service that helps developers run A/B tests and experiments (Note: LaunchDarkly has advertised with EthicalAds) but none of these requests were blocked.</li>
+<li><strong>EasyPrivacy</strong>: Two requests blocked to a launchdarkly.com subdomain (one allowed). All other requests to you.com, a subdomain, or t-msedge.net (Microsoft's CDN).</li>
+<li><strong>PrivacyBadger</strong>: No trackers detected on the homepage or SERP page.</li>
+<li><strong>Manual Inspection</strong>: You.com made requests to you.com and subdomains, plausible.io, and launchdarkly.com subdomains. None of these domains used CNAME cloaking. You.com persisted some cookies although none for more than a month. They also used local storage but it did not appear to contain any unique identifiers.</li>
+</ul>
+<p>You.com does load third-party resources from a small list of select partners but doesn't persist any long term unique identifiers.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>From a privacy perspective, the more privacy minded search engines
+did a better job not sharing data or using long term unique identifiers (a hallmark of tracking)
+than the big search engines like Google or Bing.
+Google appeared to share data across Google properties but not with third-parties.</p>
+<p>We didn't see any of the worst practices like CNAME cloaking or logging keystrokes.
+The worst practice we saw was considerable third-party data sharing with adtech companies on the Bing homepage.
+By contrast, however, the Bing SERP page kept data with Microsoft.</p>
+<p>Comparing the tools we used, the browser extensions did a better job of detecting all the third-party requests
+than Blacklight although that isn't too surprising since we had much more control with the extensions.
+The exhaustive EasyPrivacy list blocked the most requests but many of those were not third-party requests
+or trackers. Both Privacy Badger and DuckDuckGo Privacy Essentials/Tracker Radar did very similarly
+in identifying and blocking trackers.</p>
+<p>Hopefully you enjoyed this privacy teardown post for search engines.
+Please <a href="https://www.ethicalads.io/contact/">get in touch</a> if you have any ideas or feedback on this teardown or our methodology.
+We always love to hear from you.</p>
+      </div>
+
+    </div>
+  </div> <!-- / .row -->
+</section>
+
+
+<!-- Related Posts -->
+<!-- ================================================== -->
+<section class="py-5 bg-gray-200">
+
+  <div class="container">
+
+    <h3 class="mb-4">Similar posts</h3>
+
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+        <div class="col mb-10">
+          <article class="card h-100 shadow-light-lg lift lift-lg">
+              <a href="/blog/2022/01/data-privacy-day-2022-6-privacy-first-alternatives/">
+                <img src="/images/posts/data-privacy-day-2022.jpg" alt="Data Privacy Day 2022 - 6+ Privacy-first Alternatives" class="card-img-top">
+
+                <!-- Style shape to the image -->
+                <div class="position-relative">
+                  <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
+                    <svg viewBox="0 0 2880 480" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2160 0C1440 240 720 240 720 240H0v240h2880V0h-720z" fill="currentColor"/></svg>
+                  </div>
+                </div>
+              </a>
+            <a class="card-body" href="/blog/2022/01/data-privacy-day-2022-6-privacy-first-alternatives/" title="Permalink to Data Privacy Day 2022 - 6+ Privacy-first Alternatives">
+              <h3 class="card-title font-weight-light">Data Privacy Day 2022 - 6+ Privacy-first Alternatives</h3>
+
+              <p class="mb-0">January 28th is International Data Privacy Day! To celebrate, we&#39;re helping you take charge of your own data by sharing …</p>
+
+            </a>
+
+            <a class="card-meta mt-auto" href="/blog/2022/01/data-privacy-day-2022-6-privacy-first-alternatives/">
+
+              <!-- Divider -->
+              <hr class="card-meta-divider">
+
+              <div class="d-flex w-100">
+                <!-- Author -->
+                <div class="flex-fill h6 text-uppercase text-muted mb-0 mr-2">Ra Cohen</div>
+
+                <!-- Date -->
+                <div class="flex-fill h6 text-uppercase text-muted mb-0 ml-auto text-right">
+                  <time class="text-nowrap" datetime="2022-01-28T00:00:00-08:00">Jan 28, 2022</time>
+                </div>
+              </div>
+
+            </a>
+          </article>
+        </div>
+        <div class="col mb-10">
+          <article class="card h-100 shadow-light-lg lift lift-lg">
+              <a href="/blog/2021/11/ethicalads-providing-free-analytics-with-simple-analytics/">
+                <img src="/images/posts/2021-simple-analytics-love.png" alt="EthicalAds providing free analytics with Simple Analytics" class="card-img-top">
+
+                <!-- Style shape to the image -->
+                <div class="position-relative">
+                  <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
+                    <svg viewBox="0 0 2880 480" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2160 0C1440 240 720 240 720 240H0v240h2880V0h-720z" fill="currentColor"/></svg>
+                  </div>
+                </div>
+              </a>
+            <a class="card-body" href="/blog/2021/11/ethicalads-providing-free-analytics-with-simple-analytics/" title="Permalink to EthicalAds providing free analytics with Simple Analytics">
+              <h3 class="card-title font-weight-light">EthicalAds providing free analytics with Simple Analytics</h3>
+
+              <p class="mb-0">EthicalAds is excited to be a part of the privacy-first ecosystem. We provide our publishers a revenue stream without compromising …</p>
+
+            </a>
+
+            <a class="card-meta mt-auto" href="/blog/2021/11/ethicalads-providing-free-analytics-with-simple-analytics/">
+
+              <!-- Divider -->
+              <hr class="card-meta-divider">
+
+              <div class="d-flex w-100">
+                <!-- Author -->
+                <div class="flex-fill h6 text-uppercase text-muted mb-0 mr-2">Eric Holscher</div>
+
+                <!-- Date -->
+                <div class="flex-fill h6 text-uppercase text-muted mb-0 ml-auto text-right">
+                  <time class="text-nowrap" datetime="2021-11-30T00:00:00-08:00">Nov 30, 2021</time>
+                </div>
+              </div>
+
+            </a>
+          </article>
+        </div>
+        <div class="col mb-10">
+          <article class="card h-100 shadow-light-lg lift lift-lg">
+              <a href="/blog/2021/10/building-an-ethical-marketing-funnel/">
+                <img src="/images/posts/2021-marketing-funnel.jpg" alt="Building an Ethical Marketing Funnel" class="card-img-top">
+
+                <!-- Style shape to the image -->
+                <div class="position-relative">
+                  <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
+                    <svg viewBox="0 0 2880 480" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2160 0C1440 240 720 240 720 240H0v240h2880V0h-720z" fill="currentColor"/></svg>
+                  </div>
+                </div>
+              </a>
+            <a class="card-body" href="/blog/2021/10/building-an-ethical-marketing-funnel/" title="Permalink to Building an Ethical Marketing Funnel">
+              <h3 class="card-title font-weight-light">Building an Ethical Marketing Funnel</h3>
+
+              <p class="mb-0">The marketing funnel problem When growing an online business, it&#39;s important to consider where your prospects are coming from and …</p>
+
+            </a>
+
+            <a class="card-meta mt-auto" href="/blog/2021/10/building-an-ethical-marketing-funnel/">
+
+              <!-- Divider -->
+              <hr class="card-meta-divider">
+
+              <div class="d-flex w-100">
+                <!-- Author -->
+                <div class="flex-fill h6 text-uppercase text-muted mb-0 mr-2">Ra Cohen</div>
+
+                <!-- Date -->
+                <div class="flex-fill h6 text-uppercase text-muted mb-0 ml-auto text-right">
+                  <time class="text-nowrap" datetime="2021-10-19T00:00:00-07:00">Oct 19, 2021</time>
+                </div>
+              </div>
+
+            </a>
+          </article>
+        </div>
+    </div>
+  </div>
+</section>
+
+
+    </main>
+
+<!-- SHAPE
+================================================== -->
+<div class="position-relative">
+  <div class="shape shape-bottom shape-fluid-x svg-shim text-dark">
+    <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor"/></svg>
+  </div>
+</div>
+
+<!-- CTA
+================================================== -->
+<section class="pt-6 pt-md-8 bg-dark text-light">
+  <div class="container pb-6 pb-md-8 border-bottom border-gray-300">
+    <div class="row" id="newsletter">
+      <div class="col-12 col-md">
+
+        <!-- Heading -->
+        <h3 class="mb-1 font-weight-bold">Get our stories delivered</h3>
+
+        <!-- Text -->
+        <p class="text-muted mb-6 mb-md-0">Want more advertising updates in your inbox?<br>Sign up for our newsletter.</p>
+
+      </div>
+      <div class="col-12 col-md-5">
+
+        <!-- Form -->
+        <form class="validate" action="https://ethicalads.us17.list-manage.com/subscribe/post?u=ca5e74de3ea2867d373058271&amp;id=5746f18bb8" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+          <div class="row">
+            <div class="col">
+              <input type="email" class="form-control-sm required" name="EMAIL" id="mce-EMAIL" placeholder="you@domain.com" required>
+              <div class="d-none" aria-hidden="true"><input type="text" name="b_ca5e74de3ea2867d373058271_5746f18bb8" tabindex="-1" value=""></div>
+            </div>
+            <div class="col">
+              <!-- Button -->
+              <button class="btn btn-sm btn-primary" type="submit">Subscribe</button>
+            </div>
+          </div> <!-- / .row -->
+          <div class="row">
+            <div class="col">
+              <small class="form-text text-muted">Your email, after you confirm it, will be stored with Mailchimp who handles this newsletter</small>
+            </div>
+          </div>
+        </form>
+
+      </div>
+    </div> <!-- / .row -->
+  </div> <!-- / .container -->
+</section>
+
+
+
+<footer class="py-8 py-md-11 bg-dark">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-12 col-md-4 col-lg-3 text-center">
+
+        <!-- Brand -->
+        <img src="/theme/img/ethicalads-logo-blue.svg" alt="EthicalAds" class="footer-brand img-fluid mb-2">
+
+        <!-- Text -->
+        <p class="text-gray-600 mb-2 text-center">A division of <a class="text-reset" href="https://readthedocs.org?ref=ethicalads-footer">Read the Docs</a></p>
+
+        <!-- Social -->
+        <ul class="list-unstyled list-inline list-social mt-4 mb-6 mb-md-0 d-flex">
+          <li class="list-inline-item list-social-item flex-fill text-center">
+            <a href="https://twitter.com/ethicaladsio" class="text-decoration-none text-gray-600">
+              <svg aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="32" height="32"><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg>
+              <span class="sr-only">Twitter</span>
+            </a>
+          </li>
+          <li class="list-inline-item list-social-item flex-fill text-center">
+            <a href="https://github.com/readthedocs" class="text-decoration-none text-gray-600">
+              <svg aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" width="32" height="32"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg>
+              <span class="sr-only">GitHub</span>
+            </a>
+          </li>
+        </ul>
+
+      </div>
+      <div class="col-12 col-md-4 col-lg-3">
+
+        <h6 class="font-weight-bold text-uppercase text-gray-700">Advertisers</h6>
+
+        <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
+          <li class="mb-3">
+            <a href="/advertisers/" class="text-reset">Advertise with Us</a>
+          </li>
+          <li class="mb-3">
+            <a href="/advertisers/faq/" class="text-reset">Advertiser FAQ</a>
+          </li>
+          <li class="mb-3">
+            <a href="https://www.ethicalads.io/prospectus/ethicalads-advertiser-prospectus.pdf" class="text-reset">Advertiser Prospectus</a>
+          </li>
+          <li class="mb-3">
+            <a href="https://server.ethicalads.io/" class="text-reset">Advertiser Login</a>
+          </li>
+        </ul>
+        <h6 class="font-weight-bold text-uppercase text-gray-700">Comparisons</h6>
+
+        <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
+          <li class="mb-3">
+            <a href="/alternative-to-google-ads/" class="text-reset">Google Ads Comparison</a>
+          </li>
+          <li class="mb-3">
+            <a href="/alternative-to-carbon-ads/" class="text-reset">Carbon Ads Comparison</a>
+          </li>
+        </ul>
+
+      </div>
+      <div class="col-12 col-md-4 col-lg-3">
+
+        <!-- Heading -->
+        <h6 class="font-weight-bold text-uppercase text-gray-700">Publishers</h6>
+
+        <!-- List -->
+        <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
+
+          <li class="mb-3">
+            <a href="/publishers/" class="text-reset">Become a Publisher</a>
+          </li>
+          <li class="mb-3">
+            <a href="/publishers/faq/" class="text-reset">Publisher FAQ</a>
+          </li>
+          <li class="mb-3">
+            <a href="/publisher-policy/" class="text-reset">Publisher Policy</a>
+          </li>
+          <li class="mb-3">
+            <a href="https://ethical-ad-client.readthedocs.io/en/latest/" class="text-reset">Ad Client Documentation</a>
+          </li>
+          <li class="mb-3">
+            <a href="https://server.ethicalads.io/" class="text-reset">Publisher Login</a>
+          </li>
+        </ul>
+
+        <h6 class="font-weight-bold text-uppercase text-gray-700">Publisher Topics</h6>
+        <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
+
+          <li class="mb-3">
+            <a href="/publishers/topics/python/" class="text-reset">Python Publishers</a>
+          </li>
+
+          <li class="mb-3">
+            <a href="/publishers/topics/web-developers/" class="text-reset">Web Developer Publishers</a>
+          </li>
+
+          <li class="mb-3">
+            <a href="/publishers/topics/data-science/" class="text-reset">Data Science Publishers</a>
+          </li>
+
+          <li class="mb-3">
+            <a href="/publishers/topics/open-source/" class="text-reset">Open Source</a>
+          </li>
+        </ul>
+
+      </div>
+      <div class="col-12 col-md-4 offset-md-4 col-lg-3 offset-lg-0">
+
+        <!-- Heading -->
+        <h6 class="font-weight-bold text-uppercase text-gray-700">Content</h6>
+
+        <!-- List -->
+        <ul class="list-unstyled text-muted mb-0">
+          <li class="mb-3">
+            <a href="/blog/" class="text-reset">Blog</a>
+          </li>
+          <li class="mb-3">
+            <a href="/learning-hub/" class="text-reset">Learning Hub</a>
+          </li>
+          <li class="mb-3">
+            <a href="/advertising-vision/" class="text-reset">Ad Vision</a>
+          </li>
+          <li class="mb-3">
+            <a href="/community-ads/" class="text-reset">Community Ads</a>
+          </li>
+        </ul>
+
+        <h6 class="font-weight-bold text-uppercase text-gray-700">Company</h6>
+
+        <ul class="list-unstyled text-muted mb-0">
+          <li class="mb-3">
+            <a href="/about/" class="text-reset">About Us</a>
+          </li>
+          <li class="mb-3">
+            <a href="/contact/" class="text-reset">Contact Us</a>
+          </li>
+           <li class="mb-3">
+            <a href="/privacy-policy/" class="text-reset">Privacy Policy</a>
+          </li>
+          <li class="mb-3">
+            <a href="/press/" class="text-reset">Media Kit</a>
+          </li>
+          <li class="mb-3">
+            <a href="/sponsorship-platform/" class="text-reset">Sponsorship Platform (beta)</a>
+          </li>
+<!--
+          <li class="mb-3">
+            <a href="/jobs/" class="text-reset">Jobs</a>
+          </li>
+ -->
+          <!--<li>
+            <a href="#!" class="text-reset">
+              Terms
+            </a>
+           </li>-->
+        </ul>
+
+      </div>
+    </div> <!-- / .row -->
+  </div> <!-- / .container -->
+</footer>
+    <script src="/theme/dist/bundle.js"></script>
+  </body>
+</html>
