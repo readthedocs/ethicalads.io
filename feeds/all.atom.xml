@@ -1,5 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/all.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2022-10-04T00:00:00-07:00</updated><entry><title>Privacy Teardown: Search Engines</title><link href="https://www.ethicalads.io/blog/2022/10/privacy-teardown-search-engines/" rel="alternate"></link><published>2022-10-04T00:00:00-07:00</published><updated>2022-10-04T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2022-10-04:/blog/2022/10/privacy-teardown-search-engines/</id><summary type="html">&lt;p&gt;Do search engines really track you?
+<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/all.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2022-10-12T00:00:00-07:00</updated><entry><title>EthicalAds Newsletter - September 2022</title><link href="https://www.ethicalads.io/blog/2022/10/ethicalads-newsletter-september-2022/" rel="alternate"></link><published>2022-10-12T00:00:00-07:00</published><updated>2022-10-12T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2022-10-12:/blog/2022/10/ethicalads-newsletter-september-2022/</id><summary type="html">&lt;p&gt;September was a record month in terms of revenue, publisher revenue, and paid ads delivered!&lt;/p&gt;
+&lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
+&lt;p&gt;These are the …&lt;/p&gt;</summary><content type="html">&lt;p&gt;September was a record month in terms of revenue, publisher revenue, and paid ads delivered!&lt;/p&gt;
+&lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
+&lt;p&gt;These are the major features we released in September:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We released a couple cool pieces of content including a retrospective
+  in dealing with some
+  &lt;a href="https://www.ethicalads.io/blog/2022/09/watch-out-ad-scammers-are-impersonating-open-source-devs/"&gt;ad scammers impersonating open source developers&lt;/a&gt; and a &lt;a href="https://www.ethicalads.io/blog/2022/10/privacy-teardown-search-engines/"&gt;privacy teardown of search engines&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;We released our &lt;a href="https://www.ethicalads.io/prospectus/ethicalads-advertiser-prospectus.pdf"&gt;Q4 prospectus&lt;/a&gt;.
+  One significant change here was to further breakdown prices in Europe
+  so we can deliver advertisers exactly what they're looking for at a fair price.&lt;/li&gt;
+&lt;li&gt;One of the suggestions we got about our contextual targeting model was to spend more time and resources
+  on training. As a result, we trained a version in the cloud on GPUs and it does seem to perform
+  quite a bit better. That effort started last month and should roll out in October.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can always see our latest server updates in our &lt;a href="https://ethical-ad-server.readthedocs.io/en/latest/developer/changelog.html"&gt;ethical-ad-server changelog&lt;/a&gt; and &lt;a href="https://ethical-ad-client.readthedocs.io/en/latest/changelog.html"&gt;ethical-ad-client changelog&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="september-advertising-stats"&gt;September advertising stats&lt;/h2&gt;
+&lt;p&gt;In September 2022:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We generated &lt;strong&gt;$47,493.48&lt;/strong&gt; for our publishers. This was our highest publisher revenue month ever!&lt;/li&gt;
+&lt;li&gt;We had &lt;strong&gt;145 publishers&lt;/strong&gt; on our network with at least one paid ad impression.&lt;/li&gt;
+&lt;li&gt;We had &lt;strong&gt;21,384,298&lt;/strong&gt; paid ad views across the world.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Our big push on marketing in August really paid dividends in September.
+Last month, I suggested that September would be a very good month and it was a record by all our metrics.
+I don't expect October to be quite as good as September for a few reasons, but it will still be a very
+strong month.&lt;/p&gt;
+&lt;h2 id="upcoming-features"&gt;Upcoming features&lt;/h2&gt;
+&lt;p&gt;The major features in our upcoming roadmap for October:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We plan to put our GPU-trained model into production.
+  In testing, it has shown considerably improved accuracy over our existing model.&lt;/li&gt;
+&lt;li&gt;We are creating a campaign pricing calculator to help advertisers put together a campaign
+  that meets their advertising goals and their budget.&lt;/li&gt;
+&lt;li&gt;This month, both Eric and I will be at Djangocon US in San Diego.
+  If you're coming to the conference, please stop by and say hello!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thanks again for being along with us on this journey to build an ethical ad network.
+Please &lt;a href="mailto:ads@ethicalads.io"&gt;email us&lt;/a&gt; if you have any ideas or feedback on our product or roadmap,
+we always love to hear from you.&lt;/p&gt;</content><category term="posts"></category><category term="newsletter"></category><category term="community"></category></entry><entry><title>Privacy Teardown: Search Engines</title><link href="https://www.ethicalads.io/blog/2022/10/privacy-teardown-search-engines/" rel="alternate"></link><published>2022-10-04T00:00:00-07:00</published><updated>2022-10-04T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2022-10-04:/blog/2022/10/privacy-teardown-search-engines/</id><summary type="html">&lt;p&gt;Do search engines really track you?
 What about search engines that claim not to track you?
 In this privacy teardown …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Do search engines really track you?
 What about search engines that claim not to track you?
