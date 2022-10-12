@@ -1,5 +1,5 @@
 Title: EthicalAds Newsletter - September 2022
-Date: October 11, 2022
+Date: October 12, 2022
 description: Updates from September 2022 (a record month), including stats and commentary on our progress as we build EthicalAds
 tags: newsletter, community
 authors: David Fischer
