@@ -12,7 +12,7 @@ September was a record month in terms of revenue, publisher revenue, and paid ad
 
 ## New features
 
-These are the other major features we released in September:
+These are the major features we released in September:
 
 * We released a couple cool pieces of content including a retrospective
   in dealing with some
