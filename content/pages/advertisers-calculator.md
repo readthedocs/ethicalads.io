@@ -58,7 +58,7 @@ description: What kind of return can you expect for your campaign? Use this calc
 
           <div class="form-group mb-8">
             <h3>Landing page conversion rate</h3>
-            <p class="small">How often does a visitor to your ad landing page take take the action you're looking for? This can vary widely depending on whether you're capturing emails, trying to get app downloads, getting free or paid account signups, or a lower friction action.</p>
+            <p class="small">How often does a visitor to your ad landing page take take the action you're looking for? This can vary widely depending on whether you're capturing emails, trying to get app downloads, or getting account signups.</p>
             <p class="text-center lead" data-bind="text: parseFloat(conversion_rate()).toFixed(1) + '%'"></p>
             <input type="range" class="form-control-range" min="0" max="100" step="0.1" data-bind="value: conversion_rate" name="conversion_rate" id="conversion_rate">
             <div class="d-flex">
