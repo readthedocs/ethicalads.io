@@ -2,7 +2,7 @@ Title: Campaign Calculator
 slug: calculator
 url: advertisers/calculator/
 save_as: advertisers/calculator/index.html
-description: What kind of return can you expect for your campaign? Use this calculator to change different audiences, and metrics and choose the budget that is right for you.
+description: What kind of return can you expect for your campaign? Use this calculator to change different audiences or metrics, and choose the budget that is right for you.
 
 
 <div id="advertiser-calculator" class="card card-border border-primary shadow-light-lg">
