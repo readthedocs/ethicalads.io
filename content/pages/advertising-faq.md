@@ -46,13 +46,24 @@ Currently, these topics are:
 * Frontend web development
 * Security and privacy
 * DevOps
-* Python
 
 Our
 [prospectus]({static}/prospectus/ethicalads-advertiser-prospectus.pdf)
 will have the latest details and rates on keyword targeting.
 More niche targeting is possible although campaigns may take longer to fulfill due to availability.
 [Inquire](/advertisers/#inbound-form) for details.
+
+
+## How does topic targeting work?
+
+We analyze the publishers and web pages where are ads are shown
+in order to understand what those pages are about.
+We use a contextual machine learning model trained on real pages where our ads appear
+and it classifies content into our topics (or no topic).
+This allows us to show the most relevant ads possible.
+
+More relevant ads are better for advertisers because they perform better
+and better for publishers because they usually earn more money from them.
 
 
 ## What geographic regions can I target?
