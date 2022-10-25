@@ -78,6 +78,73 @@ AUTHORS_SAVE_AS = ""
 CATEGORIES_SAVE_AS = ""
 TAGS_SAVE_AS = ""
 
+DEFAULT_METADATA = {
+    # Used to fill out the pricing matrix
+    # And the advertiser calculator
+    "pricing": {
+        "datascience": {
+            "us-ca": 6.0,
+            "blend": 5.5,
+            "weu-aunz": 5.0,
+            "eeu-apac": 2.5,
+            "global": 1.00,
+        },
+        "security": {
+            "us-ca": 5.5,
+            "blend": 5.0,
+            "weu-aunz": 4.5,
+            "eeu-apac": 2.25,
+            "global": 0.85,
+        },
+        "devops": {
+            "us-ca": 5.5,
+            "blend": 5.0,
+            "weu-aunz": 4.5,
+            "eeu-apac": 2.25,
+            "global": 0.85,
+        },
+        "frontend": {
+            "us-ca": 5.5,
+            "blend": 5.0,
+            "weu-aunz": 4.5,
+            "eeu-apac": 2.25,
+            "global": 0.85,
+        },
+        "backend": {
+            "us-ca": 5.0,
+            "blend": 4.5,
+            "weu-aunz": 4.0,
+            "eeu-apac": 2.0,
+            "global": 0.75,
+        },
+        "all-developers": {
+            "us-ca": 4.7,
+            "blend": 4.1,
+            "weu-aunz": 3.5,
+            "eeu-apac": 1.5,
+            "global": 0.66,
+        },
+    },
+    "regions": [
+        {"slug": "us-ca", "name": "US & Canada"},
+        {
+            "slug": "blend",
+            "name": "Blend: US, Canada, UK, W. EU, Australia, New Zealand",
+        },
+        {"slug": "weu-aunz", "name": "Western Europe, Australia, New Zealand"},
+        {"slug": "eeu-apac", "name": "Eastern EU, Asia Pacific"},
+        {"slug": "global", "name": "Global"},
+    ],
+    "topics": [
+        {"slug": "datascience", "name": "Data science & machine learning"},
+        {"slug": "security", "name": "Security & privacy"},
+        {"slug": "devops", "name": "DevOps"},
+        {"slug": "frontend", "name": "Frontend web development"},
+        {"slug": "backend", "name": "Backend web development"},
+        {"slug": "all-developers", "name": "All developers"},
+    ],
+}
+
 
 # Blogroll
 LINKS = ()
