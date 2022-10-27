@@ -5,11 +5,17 @@ tags: publishers, sponsorship, partnership, announcement
 authors: Eric Holscher
 image: /theme/img/python-code.jpg
 
-We're excited to announce a partnership with the [Python Software Foundation](https://www.pythoneorg/psf/).
-EthicalAds is now powering their sponsor promotion across their ecosystem of web properties,
+We're excited to announce a partnership with the [Python Software Foundation](https://www.python.org/psf/).
+The PSF is using EthicalAds to power their sponsor promotion across their ecosystem of web properties:
 helping them deliver value to their sponsors.
 
 ## The problem
+
+Previously the PSF was just putting static images for their sponsors on their web pages.
+This was done manually,
+and required a deploy of their website in order to get changes.
+This required multiple members of the team to coordinate,
+and resulted in lag time for getting sponsors on the website.
 
 The PSF was looking for a way to promote their sponsors across a number of web properties,
 but have a single management and reporting mechanism.
@@ -28,8 +34,13 @@ The properties we are currently implementing sponsorship on are:
 * The [Python Package Index](https://pypi.org/project/urllib3/1.26.7/#changes)
 * The [PSF sponsor listing page](https://www.python.org/psf/sponsors/)
 
+<div style="width: 300px; margin: 2rem auto;">
+  <img class="w-100" src="/theme/img/example-ads/aws-psf.png" alt="Example PSF placement">
+  <p class="text-center"><small>PyPI sponsorship placement</small></p>
+</div>
+
 You can see the PyPI integration looks similar to our normal ad placements,
-whereas the PSF sponsors page has a custom look and feel.
+where the PSF sponsors page has a custom look and feel.
 We are able to customize each of the placements used in our sponsorship platform.
 
 > We’re happy to use EthicalAds for sponsor recognition across our web properties with centralized management and respect for privacy.
