@@ -33,10 +33,10 @@ whereas the PSF sponsors page has a custom look and feel.
 We are able to customize each of the placements used in our sponsorship platform,
 so they can look exactly what you need.
 
-[comment]: <> (TODO: Get a better quote)
 
-> We’ve been really happy with EthicalAds for [PyPI](https://pypi.org/project/urllib3/1.26.7/#changes)! Indeed, things have settled and we're going to be starting work on using EA for other placements on python.org.
-> - Ee W. Durbin III, Director Of Infrastructure
+> We’re happy to use EthicalAds for sponsor recognition across our web properties with centralized management and respect for privacy.
+
+> - Ee Durbin, Director of Infrastructure, Python Software Foundation
 
 With the new ability to easily show sponsorship logos on all of their properties,
 the PSF will be able to expand where sponsors are shown easily.
