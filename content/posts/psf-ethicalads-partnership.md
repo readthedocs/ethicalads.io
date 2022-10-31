@@ -1,5 +1,5 @@
 Title: Python Software Foundation & EthicalAds working to promote open source sponsorship
-Date: May 2, 2022
+Date: November 1, 2022
 description: We're excited to announce our partnership to help the PSF promote their sponsors across their ecosystem of web properties.
 tags: publishers, sponsorship, partnership, announcement
 authors: Eric Holscher
