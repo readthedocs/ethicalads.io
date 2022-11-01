@@ -1,5 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds - posts</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/posts.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2022-10-12T00:00:00-07:00</updated><entry><title>EthicalAds Newsletter - September 2022</title><link href="https://www.ethicalads.io/blog/2022/10/ethicalads-newsletter-september-2022/" rel="alternate"></link><published>2022-10-12T00:00:00-07:00</published><updated>2022-10-12T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2022-10-12:/blog/2022/10/ethicalads-newsletter-september-2022/</id><summary type="html">&lt;p&gt;September was a record month in terms of revenue, publisher revenue, and paid ads delivered!&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds - posts</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/posts.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2022-11-01T00:00:00-07:00</updated><entry><title>Python Software Foundation &amp; EthicalAds working to promote open source sponsorship</title><link href="https://www.ethicalads.io/blog/2022/11/python-software-foundation-ethicalads-working-to-promote-open-source-sponsorship/" rel="alternate"></link><published>2022-11-01T00:00:00-07:00</published><updated>2022-11-01T00:00:00-07:00</updated><author><name>Eric Holscher</name></author><id>tag:www.ethicalads.io,2022-11-01:/blog/2022/11/python-software-foundation-ethicalads-working-to-promote-open-source-sponsorship/</id><summary type="html">&lt;p&gt;We're excited to announce a partnership with the &lt;a href="https://www.python.org/psf/"&gt;Python Software Foundation&lt;/a&gt;.
+The PSF is using EthicalAds to power their sponsor …&lt;/p&gt;</summary><content type="html">&lt;p&gt;We're excited to announce a partnership with the &lt;a href="https://www.python.org/psf/"&gt;Python Software Foundation&lt;/a&gt;.
+The PSF is using EthicalAds to power their sponsor promotion across their ecosystem of web properties:
+helping them deliver value to their sponsors.&lt;/p&gt;
+&lt;h2 id="the-problem"&gt;The problem&lt;/h2&gt;
+&lt;p&gt;Previously the PSF was just putting static images for their sponsors on their web pages.
+This was done manually,
+and required a deploy of their website in order to get changes.
+This required multiple members of the team to coordinate,
+and resulted in lag time for getting sponsors on the website.&lt;/p&gt;
+&lt;p&gt;The PSF was looking for a way to promote their sponsors across a number of web properties,
+but have a single management and reporting mechanism.
+EthicalAds was a great solution for this,
+since we have a simple javascript client facilitate the sponsorship displays.
+The PSF also wanted to keep track of how many times each sponsor image has been seen and viewed.
+Having metrics allows them to quantify the value they are delivering their sponsors.&lt;/p&gt;
+&lt;h2 id="the-solution"&gt;The solution&lt;/h2&gt;
+&lt;p&gt;The PSF started with the sites that are already included in their sponsorship prospectus.
+They were able to integrate our ad client,
+and manage the targeting on the backend of our ad server.
+The properties we are currently implementing sponsorship on are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The &lt;a href="https://pypi.org/project/urllib3/1.26.7/#changes"&gt;Python Package Index&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The &lt;a href="https://www.python.org/psf/sponsors/"&gt;PSF sponsor listing page&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div style="width: 300px; margin: 2rem auto;"&gt;
+  &lt;img class="w-100" src="/theme/img/example-ads/aws-psf.png" alt="Example PSF placement"&gt;
+  &lt;p class="text-center"&gt;&lt;small&gt;PyPI sponsorship placement&lt;/small&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;You can see the PyPI integration looks similar to our normal ad placements,
+where the PSF sponsors page has a custom look and feel.
+We are able to customize each of the placements used in our sponsorship platform.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;We’re happy to use EthicalAds for sponsor recognition across our web properties with centralized management and respect for privacy.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ee Durbin, Director of Infrastructure, Python Software Foundation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;With the new ability to show sponsorship logos on all of their properties,
+the PSF will be able to expand where sponsors are shown.
+All of these different integrations are also able to provide view &amp;amp; click statistics,
+without requiring any cookies by the user. &lt;/p&gt;
+&lt;h2 id="get-your-own-sponsorship-solution"&gt;Get your own sponsorship solution&lt;/h2&gt;
+&lt;p&gt;We're excited about implementing new features on our sponsorship offering,
+and working with you to try it out.
+If you'd like to create a similar program,
+you can sign up for our &lt;a href="https://www.ethicalads.io/sponsorship-platform/"&gt;sponsorship platform&lt;/a&gt;.&lt;/p&gt;</content><category term="posts"></category><category term="publishers"></category><category term="sponsorship"></category><category term="partnership"></category><category term="announcement"></category></entry><entry><title>EthicalAds Newsletter - September 2022</title><link href="https://www.ethicalads.io/blog/2022/10/ethicalads-newsletter-september-2022/" rel="alternate"></link><published>2022-10-12T00:00:00-07:00</published><updated>2022-10-12T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2022-10-12:/blog/2022/10/ethicalads-newsletter-september-2022/</id><summary type="html">&lt;p&gt;September was a record month in terms of revenue, publisher revenue, and paid ads delivered!&lt;/p&gt;
 &lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
 &lt;p&gt;These are the …&lt;/p&gt;</summary><content type="html">&lt;p&gt;September was a record month in terms of revenue, publisher revenue, and paid ads delivered!&lt;/p&gt;
 &lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
