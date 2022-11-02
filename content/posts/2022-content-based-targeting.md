@@ -6,21 +6,6 @@ authors: Eric Holscher
 image: /images/posts/2022-bullseye.jpg
 image_credit: <span>Photo by <a href="https://unsplash.com/@silvanarnet?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Silvan Arnet</a> on <a href="https://unsplash.com/s/photos/bullseye?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>
 
-
-The advertising industry was born with the idea of content-based targeting.
-You had a message you wanted to send,
-and you picked the audience based on where you could reach them.
-Your ad space was to stand in a food market,
-a specific newspaper section,
-or which city block for a poster.
-
-Recently the industry has gained the technology to track and target users,
-which [made it irrelevant where an ad was shown](https://www.ethicalads.io/blog/2021/05/how-invasive-ad-targeting-is-bad-for-journalism-and-other-high-quality-publishers/).
-Unfortunately this also lead to massive troves of data being collected about all users,
-which has many unintended consequences.
-
-## TODO: Remove first 2 paragraphs?
-
 In the past few years,
 advancements in machine learning have made a new era of content-based ad targeting possible.
 Computers are now stunningly good at learning how to categorize documents,
@@ -28,8 +13,7 @@ which allows us to automate and scale content-based targeting to our entire netw
 
 This post will cover how our content-based targeting works at a high level,
 and the implications for the future growth of our business.
-We launched EthicalAds with the vision that user-based tracking was bad for privacy,
-and we're working to build a technical solution to that problem.
+Building great privacy-first ad targeting helps the industry move past the era of invasive user tracking.
 
 ### The problem: grouping & targeting
 
@@ -41,13 +25,13 @@ and the audience for each of those posts is different.
 
 The other major problem is trying to find ways to bundle content together,
 so that advertisers can buy a large amount of it.
-If we can only offer $500 a month of a very specific audience,
+If we can only offer $100 a month of a very specific audience,
 that doesn't scale very effectively.
 **We need a way to easily bundle content into high-level topics.**
 
-### Our original approach: bottom up using naive tags
+### Our original approach: using naive tags
 
-Our first approach to solving this problem was bottom up.
+Our first approach to solving this problem was based on tagging.
 Many publishers manually added tags to their content,
 and we allowed them to pass these to us in our ad client.
 Our ad client also gave content keywords based on related words appearing multiple times on the page.
@@ -73,11 +57,11 @@ This allows us to focus on the topics we have enough traffic to effectively targ
 and then teach the model about any new topics quickly as we expand.
 
 When we "train" the ML model,
-it is creating a huge category words and how they map to a topic.
+it is mapping all the various words and phrases in a document into the topic we've assigned the page.
 So for example,
 the model learns that "natural language processing" on a page means it's highly likely related to data science.
 The magic of the model is that it does this for a massive number of words and phrases,
-much more than we could ever program as humans.
+many more than we could ever add manually.
 
 The ML-based model has the following benefits:
 
@@ -93,6 +77,8 @@ The ease of adding new topics to our models allows us to continue to expand the 
 In the future,
 if an advertiser comes to us wanting to target a specific subset of content,
 we should be able to train a deploy this targeting within a week.
+We can also scale down into smaller niches,
+because we are able to find all the content within our network that matches more specific topics.
 
 We're excited about this approach,
 and hope that improving content-based ad targeting will remove the incentives to track users.
