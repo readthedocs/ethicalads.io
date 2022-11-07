@@ -10,7 +10,7 @@ and the implications for the future growth of our business.
 Building great privacy-first ad targeting helps the industry move past the era of invasive user tracking.&lt;/p&gt;
 &lt;h3 id="the-problem-grouping-targeting"&gt;The problem: grouping &amp;amp; targeting&lt;/h3&gt;
 &lt;p&gt;Building an ad network requires us to serve ads across a number of different sites with differing content.
-Many of these sites as well have content that focuses on a number of different topics.
+Many of these sites have content that focuses on a number of different topics.
 You can imagine a blog with both Python and Kubernetes content,
 and the audience for each of those posts is different.
 &lt;strong&gt;Each page of content that we serve should have targeting based on what it's about.&lt;/strong&gt;&lt;/p&gt;
@@ -23,7 +23,7 @@ that doesn't scale very effectively.
 &lt;p&gt;Our first approach to solving this problem was based on tagging.
 Many publishers manually added tags to their content,
 and we allowed them to pass these to us in our ad client.
-Our ad client also gave content keywords based on related words appearing multiple times on the page.
+Our ad client also created tags based on related words appearing multiple times on a page.
 Then we grouped a set of keywords together to make topics,
 so for example our &lt;em&gt;Data Science&lt;/em&gt; topic was made of &lt;code&gt;nlp&lt;/code&gt;, &lt;code&gt;jupyter&lt;/code&gt;, &lt;code&gt;pytorch&lt;/code&gt;, &lt;code&gt;tensorflow&lt;/code&gt;, and similar keywords.&lt;/p&gt;
 &lt;p&gt;This approach allowed us to build out our initial product,
@@ -35,18 +35,20 @@ It had a few drawbacks though:&lt;/p&gt;
 &lt;li&gt;The automatic tagging was quite naive, and had some false positives&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;We wanted to build a more robust solution that was able to understand a lot more about each page.&lt;/p&gt;
-&lt;h3 id="the-solution-top-down-using-machine-learning"&gt;The solution: top down using machine learning&lt;/h3&gt;
-&lt;p&gt;Our approach to machine learning (ML) is more of a top down approach.
-It works by having us train a model what each of our topics are,
-by learning from an initial set of human categorized data.
-This allows us to focus on the topics we have enough traffic to effectively target,
-and then teach the model about any new topics quickly as we expand.&lt;/p&gt;
+&lt;h3 id="the-solution-machine-learning"&gt;The solution: machine learning&lt;/h3&gt;
+&lt;p&gt;We have implemented a machine learning model that is able to categorize pages based on past content it has seen.
+This process is started with an initial set of human categorized data.
+Then we pass in data the model hasn't seen before,
+and grade it based on how good it scores these topics.
+Those grades are then used to update the model,
+and it does this thousands of times,
+creating the best possible guess for a piece of content.&lt;/p&gt;
 &lt;p&gt;When we "train" the ML model,
 it is mapping all the various words and phrases in a document into the topic we've assigned the page.
 So for example,
-the model learns that "natural language processing" on a page means it's highly likely related to data science.
-The magic of the model is that it does this for a massive number of words and phrases,
-many more than we could ever add manually.&lt;/p&gt;
+the model learns that "natural language processing" on a page means it's highly likely related to &lt;em&gt;Data Science&lt;/em&gt;.
+&lt;strong&gt;The magic of the model is that it understands a massive number of words and phrases,
+many more than we could ever add manually.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;The ML-based model has the following benefits:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;The model scales across any technical content that was pass in, without requiring page authors to do anything&lt;/li&gt;
@@ -63,8 +65,10 @@ We can also scale down into smaller niches,
 because we are able to find all the content within our network that matches more specific topics.&lt;/p&gt;
 &lt;p&gt;We're excited about this approach,
 and hope that improving content-based ad targeting will remove the incentives to track users.
-There is a long way to go,
-but we think that our machine learning approach is a scalable foundation to build on.&lt;/p&gt;</content><category term="posts"></category><category term="content-targeting"></category><category term="advertisers"></category></entry><entry><title>Python Software Foundation &amp; EthicalAds working to promote open source sponsorship</title><link href="https://www.ethicalads.io/blog/2022/11/python-software-foundation-ethicalads-working-to-promote-open-source-sponsorship/" rel="alternate"></link><published>2022-11-01T00:00:00-07:00</published><updated>2022-11-01T00:00:00-07:00</updated><author><name>Eric Holscher</name></author><id>tag:www.ethicalads.io,2022-11-01:/blog/2022/11/python-software-foundation-ethicalads-working-to-promote-open-source-sponsorship/</id><summary type="html">&lt;p&gt;We're excited to announce a partnership with the &lt;a href="https://www.python.org/psf/"&gt;Python Software Foundation&lt;/a&gt;.
+There is a long way to go on our &lt;a href="https://www.ethicalads.io/advertising-vision/"&gt;vision for privacy-first ads&lt;/a&gt;,
+but we think that our machine learning approach is a scalable foundation to build on.&lt;/p&gt;
+&lt;p&gt;If you're looking for an ad network that won't compromise your audience,
+&lt;a href="https://www.ethicalads.io/publishers/"&gt;join EthicalAds&lt;/a&gt; and help preserve privacy on the web!&lt;/p&gt;</content><category term="posts"></category><category term="content-targeting"></category><category term="advertisers"></category></entry><entry><title>Python Software Foundation &amp; EthicalAds working to promote open source sponsorship</title><link href="https://www.ethicalads.io/blog/2022/11/python-software-foundation-ethicalads-working-to-promote-open-source-sponsorship/" rel="alternate"></link><published>2022-11-01T00:00:00-07:00</published><updated>2022-11-01T00:00:00-07:00</updated><author><name>Eric Holscher</name></author><id>tag:www.ethicalads.io,2022-11-01:/blog/2022/11/python-software-foundation-ethicalads-working-to-promote-open-source-sponsorship/</id><summary type="html">&lt;p&gt;We're excited to announce a partnership with the &lt;a href="https://www.python.org/psf/"&gt;Python Software Foundation&lt;/a&gt;.
 The PSF is using EthicalAds to power their sponsor …&lt;/p&gt;</summary><content type="html">&lt;p&gt;We're excited to announce a partnership with the &lt;a href="https://www.python.org/psf/"&gt;Python Software Foundation&lt;/a&gt;.
 The PSF is using EthicalAds to power their sponsor promotion across their ecosystem of web properties:
 helping them deliver value to their sponsors.&lt;/p&gt;
