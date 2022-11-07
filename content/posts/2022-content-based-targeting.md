@@ -1,5 +1,5 @@
 Title: A new era of content-based targeting for advertising
-Date: April 26, 2022
+Date: November 7, 2022
 description: Content-based targeting allows us to provide great ad targeting without the privacy downsides of user-based tracking
 tags: content-targeting, advertisers
 authors: Eric Holscher 
