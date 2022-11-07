@@ -18,7 +18,7 @@ Building great privacy-first ad targeting helps the industry move past the era o
 ### The problem: grouping & targeting
 
 Building an ad network requires us to serve ads across a number of different sites with differing content.
-Many of these sites as well have content that focuses on a number of different topics.
+Many of these sites have content that focuses on a number of different topics.
 You can imagine a blog with both Python and Kubernetes content,
 and the audience for each of those posts is different.
 **Each page of content that we serve should have targeting based on what it's about.**
@@ -34,7 +34,7 @@ that doesn't scale very effectively.
 Our first approach to solving this problem was based on tagging.
 Many publishers manually added tags to their content,
 and we allowed them to pass these to us in our ad client.
-Our ad client also gave content keywords based on related words appearing multiple times on the page.
+Our ad client also created tags based on related words appearing multiple times on a page.
 Then we grouped a set of keywords together to make topics,
 so for example our *Data Science* topic was made of `nlp`, `jupyter`, `pytorch`, `tensorflow`, and similar keywords.
 
@@ -48,20 +48,22 @@ It had a few drawbacks though:
 
 We wanted to build a more robust solution that was able to understand a lot more about each page.
 
-### The solution: top down using machine learning
+### The solution: machine learning 
 
-Our approach to machine learning (ML) is more of a top down approach.
-It works by having us train a model what each of our topics are,
-by learning from an initial set of human categorized data.
-This allows us to focus on the topics we have enough traffic to effectively target,
-and then teach the model about any new topics quickly as we expand.
+We have implemented a machine learning model that is able to categorize pages based on past content it has seen.
+This process is started with an initial set of human categorized data.
+Then we pass in data the model hasn't seen before,
+and grade it based on how good it scores these topics.
+Those grades are then used to update the model,
+and it does this thousands of times,
+creating the best possible guess for a piece of content.
 
 When we "train" the ML model,
 it is mapping all the various words and phrases in a document into the topic we've assigned the page.
 So for example,
-the model learns that "natural language processing" on a page means it's highly likely related to data science.
-The magic of the model is that it does this for a massive number of words and phrases,
-many more than we could ever add manually.
+the model learns that "natural language processing" on a page means it's highly likely related to *Data Science*.
+**The magic of the model is that it understands a massive number of words and phrases,
+many more than we could ever add manually.**
 
 The ML-based model has the following benefits:
 
@@ -82,5 +84,8 @@ because we are able to find all the content within our network that matches more
 
 We're excited about this approach,
 and hope that improving content-based ad targeting will remove the incentives to track users.
-There is a long way to go,
+There is a long way to go on our [vision for privacy-first ads]({filename}../pages/vision.md),
 but we think that our machine learning approach is a scalable foundation to build on.
+
+If you're looking for an ad network that won't compromise your audience,
+[join EthicalAds]({filename}../pages/publishers.md) and help preserve privacy on the web!
