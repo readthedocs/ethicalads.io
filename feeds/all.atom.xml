@@ -1,5 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/all.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2022-11-01T00:00:00-07:00</updated><entry><title>Python Software Foundation &amp; EthicalAds working to promote open source sponsorship</title><link href="https://www.ethicalads.io/blog/2022/11/python-software-foundation-ethicalads-working-to-promote-open-source-sponsorship/" rel="alternate"></link><published>2022-11-01T00:00:00-07:00</published><updated>2022-11-01T00:00:00-07:00</updated><author><name>Eric Holscher</name></author><id>tag:www.ethicalads.io,2022-11-01:/blog/2022/11/python-software-foundation-ethicalads-working-to-promote-open-source-sponsorship/</id><summary type="html">&lt;p&gt;We're excited to announce a partnership with the &lt;a href="https://www.python.org/psf/"&gt;Python Software Foundation&lt;/a&gt;.
+<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/all.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2022-11-07T00:00:00-08:00</updated><entry><title>A new era of content-based targeting for advertising</title><link href="https://www.ethicalads.io/blog/2022/11/a-new-era-of-content-based-targeting-for-advertising/" rel="alternate"></link><published>2022-11-07T00:00:00-08:00</published><updated>2022-11-07T00:00:00-08:00</updated><author><name>Eric Holscher</name></author><id>tag:www.ethicalads.io,2022-11-07:/blog/2022/11/a-new-era-of-content-based-targeting-for-advertising/</id><summary type="html">&lt;p&gt;In the past few years,
+advancements in machine learning have made a new era of content-based ad targeting possible.
+Computers …&lt;/p&gt;</summary><content type="html">&lt;p&gt;In the past few years,
+advancements in machine learning have made a new era of content-based ad targeting possible.
+Computers are now stunningly good at learning how to categorize documents,
+which allows us to automate and scale content-based targeting to our entire network.&lt;/p&gt;
+&lt;p&gt;This post will cover how our content-based targeting works at a high level,
+and the implications for the future growth of our business.
+Building great privacy-first ad targeting helps the industry move past the era of invasive user tracking.&lt;/p&gt;
+&lt;h3 id="the-problem-grouping-targeting"&gt;The problem: grouping &amp;amp; targeting&lt;/h3&gt;
+&lt;p&gt;Building an ad network requires us to serve ads across a number of different sites with differing content.
+Many of these sites as well have content that focuses on a number of different topics.
+You can imagine a blog with both Python and Kubernetes content,
+and the audience for each of those posts is different.
+&lt;strong&gt;Each page of content that we serve should have targeting based on what it's about.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The other major problem is trying to find ways to bundle content together,
+so that advertisers can buy a large amount of it.
+If we can only offer $100 a month of a very specific audience,
+that doesn't scale very effectively.
+&lt;strong&gt;We need a way to easily bundle content into high-level topics.&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id="our-original-approach-using-naive-tags"&gt;Our original approach: using naive tags&lt;/h3&gt;
+&lt;p&gt;Our first approach to solving this problem was based on tagging.
+Many publishers manually added tags to their content,
+and we allowed them to pass these to us in our ad client.
+Our ad client also gave content keywords based on related words appearing multiple times on the page.
+Then we grouped a set of keywords together to make topics,
+so for example our &lt;em&gt;Data Science&lt;/em&gt; topic was made of &lt;code&gt;nlp&lt;/code&gt;, &lt;code&gt;jupyter&lt;/code&gt;, &lt;code&gt;pytorch&lt;/code&gt;, &lt;code&gt;tensorflow&lt;/code&gt;, and similar keywords.&lt;/p&gt;
+&lt;p&gt;This approach allowed us to build out our initial product,
+and have reasonably good targeting.
+It had a few drawbacks though:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;It needed users to tag content, and most pages aren't tagged (eg. software documentation)&lt;/li&gt;
+&lt;li&gt;We needed to combine tags into topics, and there will always be some tags we don't know about&lt;/li&gt;
+&lt;li&gt;The automatic tagging was quite naive, and had some false positives&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We wanted to build a more robust solution that was able to understand a lot more about each page.&lt;/p&gt;
+&lt;h3 id="the-solution-top-down-using-machine-learning"&gt;The solution: top down using machine learning&lt;/h3&gt;
+&lt;p&gt;Our approach to machine learning (ML) is more of a top down approach.
+It works by having us train a model what each of our topics are,
+by learning from an initial set of human categorized data.
+This allows us to focus on the topics we have enough traffic to effectively target,
+and then teach the model about any new topics quickly as we expand.&lt;/p&gt;
+&lt;p&gt;When we "train" the ML model,
+it is mapping all the various words and phrases in a document into the topic we've assigned the page.
+So for example,
+the model learns that "natural language processing" on a page means it's highly likely related to data science.
+The magic of the model is that it does this for a massive number of words and phrases,
+many more than we could ever add manually.&lt;/p&gt;
+&lt;p&gt;The ML-based model has the following benefits:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The model scales across any technical content that was pass in, without requiring page authors to do anything&lt;/li&gt;
+&lt;li&gt;It takes into account the entire page content, and word context, to &lt;/li&gt;
+&lt;li&gt;We can easily add more topics, as long as we can categorize a small number of pages of content that belong to that topic.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We're excited to expand our ML targeting in the future.&lt;/p&gt;
+&lt;h3 id="next-steps-more-topics-and-more-privacy"&gt;Next steps: more topics and more privacy&lt;/h3&gt;
+&lt;p&gt;The ease of adding new topics to our models allows us to continue to expand the topics we're able to target.
+In the future,
+if an advertiser comes to us wanting to target a specific subset of content,
+we should be able to train a deploy this targeting within a week.
+We can also scale down into smaller niches,
+because we are able to find all the content within our network that matches more specific topics.&lt;/p&gt;
+&lt;p&gt;We're excited about this approach,
+and hope that improving content-based ad targeting will remove the incentives to track users.
+There is a long way to go,
+but we think that our machine learning approach is a scalable foundation to build on.&lt;/p&gt;</content><category term="posts"></category><category term="content-targeting"></category><category term="advertisers"></category></entry><entry><title>Python Software Foundation &amp; EthicalAds working to promote open source sponsorship</title><link href="https://www.ethicalads.io/blog/2022/11/python-software-foundation-ethicalads-working-to-promote-open-source-sponsorship/" rel="alternate"></link><published>2022-11-01T00:00:00-07:00</published><updated>2022-11-01T00:00:00-07:00</updated><author><name>Eric Holscher</name></author><id>tag:www.ethicalads.io,2022-11-01:/blog/2022/11/python-software-foundation-ethicalads-working-to-promote-open-source-sponsorship/</id><summary type="html">&lt;p&gt;We're excited to announce a partnership with the &lt;a href="https://www.python.org/psf/"&gt;Python Software Foundation&lt;/a&gt;.
 The PSF is using EthicalAds to power their sponsor …&lt;/p&gt;</summary><content type="html">&lt;p&gt;We're excited to announce a partnership with the &lt;a href="https://www.python.org/psf/"&gt;Python Software Foundation&lt;/a&gt;.
 The PSF is using EthicalAds to power their sponsor promotion across their ecosystem of web properties:
 helping them deliver value to their sponsors.&lt;/p&gt;
