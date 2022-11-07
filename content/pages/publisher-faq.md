@@ -68,6 +68,16 @@ while ads shown to users in the rest of the world usually bring in less.
 Please read our full [Publisher Policy](/publisher-policy/#payouts) on payouts.
 
 
+## Will I need to sign a contract?
+
+There is no contract to sign.
+If you decide you no longer want to show EthicalAds on your site,
+you can just remove the ad client code.
+If you decide to remove EthicalAds, we would appreciate it if you let us know why
+you went in a different direction.
+This feedback is how we improve our product.
+
+
 ## Why do I only see house ads?
 
 You should generally see paid ads if you are in the US or EU.
