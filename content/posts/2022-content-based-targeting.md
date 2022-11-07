@@ -1,4 +1,4 @@
-Title: A new era of content-based targeting for advertising
+Title: A new approach to content-based targeting for advertising
 Date: November 7, 2022
 description: Content-based targeting allows us to provide great ad targeting without the privacy downsides of user-based tracking
 tags: content-targeting, advertisers
