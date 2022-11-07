@@ -22,7 +22,7 @@ These are the major features we released in October:
   to educate audiences on what to look for in services from a privacy perspective.
 * Our GPU trained contextual targeting model rolled out into production in October.
   So far, the results are much better than the previous iteration.
-  There were some issues taking the model from development into production,
+  There were some performance issues taking the model from development into production,
   but those were worked out.
 
 You can always see our latest server updates in our [ethical-ad-server changelog](https://ethical-ad-server.readthedocs.io/en/latest/developer/changelog.html) and [ethical-ad-client changelog](https://ethical-ad-client.readthedocs.io/en/latest/changelog.html).
