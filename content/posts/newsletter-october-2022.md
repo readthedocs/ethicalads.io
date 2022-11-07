@@ -24,6 +24,9 @@ These are the major features we released in October:
   So far, the results are much better than the previous iteration.
   There were some performance issues taking the model from development into production,
   but those were worked out.
+* We announced our
+  [partnership with the PSF]({filename}../posts/psf-ethicalads-partnership.md)
+  to help them manage and roll out their sponsors logos and imagery to all their properties.
 
 You can always see our latest server updates in our [ethical-ad-server changelog](https://ethical-ad-server.readthedocs.io/en/latest/developer/changelog.html) and [ethical-ad-client changelog](https://ethical-ad-client.readthedocs.io/en/latest/changelog.html).
 
@@ -55,9 +58,6 @@ Regardless, we can weather an economic downturn if it comes.
 
 The major features in our upcoming roadmap for November:
 
-* While it's early November, we already announced our
-  [partnership with the PSF]({filename}../posts/psf-ethicalads-partnership.md)
-  to help them manage and roll out their sponsors logos and imagery to all their properties.
 * From a content marketing perspective, we're planning to do a followup post
   on our privacy teardown of search engines,
   a post with details about how our ML model works,
