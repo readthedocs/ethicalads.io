@@ -50,7 +50,7 @@ We are able to customize each of the placements used in our sponsorship platform
 With the new ability to show sponsorship logos on all of their properties,
 the PSF will be able to expand where sponsors are shown.
 All of these different integrations are also able to provide view & click statistics,
-without requiring any cookies by the user. 
+without requiring any cookies by the user.
 
 ## Get your own sponsorship solution
 
