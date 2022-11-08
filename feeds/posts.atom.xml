@@ -1,5 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds - posts</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/posts.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2022-11-07T00:00:00-08:00</updated><entry><title>A new approach to content-based targeting for advertising</title><link href="https://www.ethicalads.io/blog/2022/11/a-new-approach-to-content-based-targeting-for-advertising/" rel="alternate"></link><published>2022-11-07T00:00:00-08:00</published><updated>2022-11-07T00:00:00-08:00</updated><author><name>Eric Holscher</name></author><id>tag:www.ethicalads.io,2022-11-07:/blog/2022/11/a-new-approach-to-content-based-targeting-for-advertising/</id><summary type="html">&lt;p&gt;In the past few years,
+<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds - posts</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/posts.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2022-11-08T00:00:00-08:00</updated><entry><title>EthicalAds Newsletter - October 2022</title><link href="https://www.ethicalads.io/blog/2022/11/ethicalads-newsletter-october-2022/" rel="alternate"></link><published>2022-11-08T00:00:00-08:00</published><updated>2022-11-08T00:00:00-08:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2022-11-08:/blog/2022/11/ethicalads-newsletter-october-2022/</id><summary type="html">&lt;p&gt;October wasn't quite a record month in terms of revenue,
+but it was our best month ever except for September …&lt;/p&gt;</summary><content type="html">&lt;p&gt;October wasn't quite a record month in terms of revenue,
+but it was our best month ever except for September.&lt;/p&gt;
+&lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
+&lt;p&gt;These are the major features we released in October:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We released a &lt;a href="https://www.ethicalads.io/advertisers/calculator/"&gt;campaign calculator&lt;/a&gt;
+  to help advertisers budget for a campaign based on the responses they're hoping to achieve.&lt;/li&gt;
+&lt;li&gt;We did our first &lt;a href="https://www.ethicalads.io/blog/2022/10/privacy-teardown-search-engines/"&gt;privacy teardown of search engines&lt;/a&gt;.
+  Depending on the response we get, we think this could be a series of posts
+  to educate audiences on what to look for in services from a privacy perspective.&lt;/li&gt;
+&lt;li&gt;Our GPU trained contextual targeting model rolled out into production in October.
+  So far, the results are much better than the previous iteration.
+  There were some performance issues taking the model from development into production,
+  but those were worked out.&lt;/li&gt;
+&lt;li&gt;We announced our
+  &lt;a href="https://www.ethicalads.io/blog/2022/11/python-software-foundation-ethicalads-working-to-promote-open-source-sponsorship/"&gt;partnership with the PSF&lt;/a&gt;
+  to help them manage and roll out their sponsors logos and imagery to all their properties.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can always see our latest server updates in our &lt;a href="https://ethical-ad-server.readthedocs.io/en/latest/developer/changelog.html"&gt;ethical-ad-server changelog&lt;/a&gt; and &lt;a href="https://ethical-ad-client.readthedocs.io/en/latest/changelog.html"&gt;ethical-ad-client changelog&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="october-advertising-stats"&gt;October advertising stats&lt;/h2&gt;
+&lt;p&gt;In October 2022:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We generated &lt;strong&gt;$45,511.07&lt;/strong&gt; for our publishers. This was our second highest publisher revenue month after September&lt;/li&gt;
+&lt;li&gt;We had &lt;strong&gt;152 publishers&lt;/strong&gt; on our network with at least one paid ad impression.
+  This number continues to creep up as more sites become interested in making money without invasive tracking.&lt;/li&gt;
+&lt;li&gt;We had &lt;strong&gt;20,236,866&lt;/strong&gt; paid ad views across the world.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As I expected, October was a very strong month for us and for our publishers.
+We usually see a seasonal slowdown around the holidays and between fewer ads shown over the Thanksgiving holiday
+in the US and other seasonal pullback, we expect November to be a quite bit weaker than October.&lt;/p&gt;
+&lt;p&gt;We've definitely seen some advertisers tighten their budgets as well and that's further contributing to a weaker finish to the year.
+Usually advertising is back to full swing in January or February,
+but outside of the brief Covid crash in March 2020,
+we haven't operated through a true downturn.
+Regardless, we can weather an economic downturn if it comes.&lt;/p&gt;
+&lt;h2 id="upcoming-features"&gt;Upcoming features&lt;/h2&gt;
+&lt;p&gt;The major features in our upcoming roadmap for November:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;From a content marketing perspective, we're planning to do a followup post
+  on our privacy teardown of search engines,
+  a post with details about how our ML model works,
+  and a blog detailing how ad blockers can actually help a privacy-focused network like ours.&lt;/li&gt;
+&lt;li&gt;On the product side, we're hoping to get a continuous integration service configured
+  for our GPU trained model. This would mean retraining and updating the model anytime
+  we add new hand categorized data to our data set.
+  This tight feedback loop will create a flywheel to help our model get better more rapidly.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thanks again for being along with us on this journey to build an ethical ad network.
+Please &lt;a href="mailto:ads@ethicalads.io"&gt;email us&lt;/a&gt; if you have any ideas or feedback on our product or roadmap,
+we always love to hear from you.&lt;/p&gt;</content><category term="posts"></category><category term="newsletter"></category><category term="community"></category></entry><entry><title>A new approach to content-based targeting for advertising</title><link href="https://www.ethicalads.io/blog/2022/11/a-new-approach-to-content-based-targeting-for-advertising/" rel="alternate"></link><published>2022-11-07T00:00:00-08:00</published><updated>2022-11-07T00:00:00-08:00</updated><author><name>Eric Holscher</name></author><id>tag:www.ethicalads.io,2022-11-07:/blog/2022/11/a-new-approach-to-content-based-targeting-for-advertising/</id><summary type="html">&lt;p&gt;In the past few years,
 advancements in machine learning have made a new era of content-based ad targeting possible.
 Computers …&lt;/p&gt;</summary><content type="html">&lt;p&gt;In the past few years,
 advancements in machine learning have made a new era of content-based ad targeting possible.
@@ -110,7 +160,7 @@ We are able to customize each of the placements used in our sponsorship platform
 &lt;p&gt;With the new ability to show sponsorship logos on all of their properties,
 the PSF will be able to expand where sponsors are shown.
 All of these different integrations are also able to provide view &amp;amp; click statistics,
-without requiring any cookies by the user. &lt;/p&gt;
+without requiring any cookies by the user.&lt;/p&gt;
 &lt;h2 id="get-your-own-sponsorship-solution"&gt;Get your own sponsorship solution&lt;/h2&gt;
 &lt;p&gt;We're excited about implementing new features on our sponsorship offering,
 and working with you to try it out.
