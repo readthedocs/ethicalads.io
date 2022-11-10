@@ -5,7 +5,7 @@ authors: David Fischer
 
 
 You don't have to use a search engine like Google which retains your queries forever to get great results anymore.
-Last month, we did a [privacy teardown]({filename}../posts/privacy-teardown-search-engines.md) of some large search engines as well as the more privacy minded ones.
+Last month, we did a [privacy teardown]({filename}../posts/2022-privacy-teardown-search-engines.md) of some large search engines as well as the more privacy minded ones.
 Based on our results, we're prepared to make a few recommendations and offer a few tips to keep you safe.
 
 
@@ -20,12 +20,12 @@ There's a lot of privacy concerns when searching online:
 Fortunately, there's a lot of great alternatives and the right one depends on exactly what you're looking for in a search engine.
 
 
+### [DuckDuckGo](https://duckduckgo.com/)
+
 <div class="postimage text-center">
   <img class="w-75 shadow-lg" src="{static}../images/posts/2022-search-engine-privacy-duckduckgo.png" alt="DuckDuckGo - a privacy search engine">
   <p>DuckDuckGo search engine</p>
 </div>
-
-### [DuckDuckGo](https://duckduckgo.com/)
 
 DuckDuckGo has become synonymous, at least among techies, as the private alternative to Google.
 The search engine and the company has built their brand on privacy.
@@ -36,10 +36,15 @@ and when the results aren't quite what you're looking for, you can prefix your q
 The user experience is fantastic and they have mobile apps for Android and iOS as well as a Mac desktop app.
 The mobile app on Android can also double as tracker protection even for requests made in other apps.
 By using Bing's search index under the hood, the search results are pretty close to Google's in quality.
-DuckDuckGo is a great choice for a private search engine.
+**DuckDuckGo is a great overall choice for a private search engine.**
 
 
 ### [Mojeek](https://www.mojeek.com/)
+
+<div class="postimage text-center">
+  <img class="w-75 shadow-lg" src="{static}../images/posts/2022-search-engine-privacy-mojeek.png" alt="Mojeek, an independent search engine">
+  <p>Mojeek, an independent search engine</p>
+</div>
 
 Mojeek is a UK-based search engine that has built their own search index rather than using Bing's like many of the others here (Mojeek has advertised with EthicalAds in the past).
 In our teardown, Mojeek was fantastic and didn't share any data, had no requests blocked by ad blockers,
@@ -47,8 +52,8 @@ and in fact, the whole search engine homepage and results page loaded everything
 
 While the search engine results page is a bit spartan,
 it loads very fast and the actual result quality was pretty good.
-If you're looking for an independent search engine that doesn't rely on big tech at all,
-Mojeek is amazing.
+**If you're looking for an independent search engine that doesn't rely on big tech at all,
+Mojeek is amazing.**
 
 
 ### [You.com](https://you.com/code)
@@ -70,7 +75,7 @@ While I couldn't find details on You.com's search index, based on their search r
 it's clear that at least in some queries You.com is relying on Bing's index.
 That means that the result quality will stay high.
 In our privacy teardown, You.com and YouCode got close to top marks.
-For a search engine tuned for developer queries, You.com and specifically YouCode is a good choice.
+**For a search engine tuned for developer queries, You.com and specifically YouCode is a good choice.**
 
 
 ### [Brave Search](https://search.brave.com/)
@@ -90,7 +95,7 @@ even when compared to Bing itself.
 Like DuckDuckGo, Brave has desktop and mobile apps so you can search privately everywhere.
 They claim not to store searches, clicks, or any other data and allow truly anonymous searches.
 Brave specifically mentions that they do not filter or downrank any search results.
-For a good good alternative from a team focused on privacy, you can't go wrong with Brave Search.
+**For a good alternative from a team focused on privacy, you can't go wrong with Brave Search.**
 
 ### Other alternatives
 
