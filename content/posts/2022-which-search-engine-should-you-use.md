@@ -11,7 +11,7 @@ Based on our results, we're prepared to make a few recommendations and offer a f
 
 ## Privacy search engine landscape
 
-There's a lot of privacy concerns when searching online.
+There's a lot of privacy concerns when searching online:
 
 * Big tech companies store search data on millions of individuals including you.
 * You can be shown personalized results that keep you in a sort of exposure bubble.
