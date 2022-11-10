@@ -2,6 +2,8 @@ Title: Best Search Engines for your Privacy
 Date: November 15, 2022
 description: You care about your privacy. We have tips and recommendations to keep your data safe when searching online.
 authors: David Fischer
+image: /images/posts/2022-search-engine-privacy-banner.png
+
 
 
 You don't have to use a search engine like Google which retains your queries forever to get great results anymore.
