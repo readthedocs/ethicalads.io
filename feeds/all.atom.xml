@@ -1,5 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/all.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2022-11-08T00:00:00-08:00</updated><entry><title>EthicalAds Newsletter - October 2022</title><link href="https://www.ethicalads.io/blog/2022/11/ethicalads-newsletter-october-2022/" rel="alternate"></link><published>2022-11-08T00:00:00-08:00</published><updated>2022-11-08T00:00:00-08:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2022-11-08:/blog/2022/11/ethicalads-newsletter-october-2022/</id><summary type="html">&lt;p&gt;October wasn't quite a record month in terms of revenue,
+<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/all.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2022-11-15T00:00:00-08:00</updated><entry><title>Best Search Engines for your Privacy</title><link href="https://www.ethicalads.io/blog/2022/11/best-search-engines-for-your-privacy/" rel="alternate"></link><published>2022-11-15T00:00:00-08:00</published><updated>2022-11-15T00:00:00-08:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2022-11-15:/blog/2022/11/best-search-engines-for-your-privacy/</id><summary type="html">&lt;p&gt;You don't have to use a search engine like Google which retains your queries forever to get great results anymore …&lt;/p&gt;</summary><content type="html">&lt;p&gt;You don't have to use a search engine like Google which retains your queries forever to get great results anymore.
+Last month, we did a &lt;a href="https://www.ethicalads.io/blog/2022/10/privacy-teardown-search-engines/"&gt;privacy teardown&lt;/a&gt; of some large search engines as well as the more privacy minded ones.
+Based on our results, we're prepared to make a few recommendations and offer a few tips to keep you safe.&lt;/p&gt;
+&lt;h2 id="privacy-search-engine-landscape"&gt;Privacy search engine landscape&lt;/h2&gt;
+&lt;p&gt;There's a lot of privacy concerns when searching online:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Big tech companies store search data on millions of individuals including you.&lt;/li&gt;
+&lt;li&gt;You can be shown personalized results that keep you in a sort of exposure bubble.&lt;/li&gt;
+&lt;li&gt;There's also worries about data sharing with third-parties you have no relationship with.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Fortunately, there's a lot of great alternatives and the right one depends on exactly what you're looking for in a search engine.&lt;/p&gt;
+&lt;h3 id="duckduckgo"&gt;&lt;a href="https://duckduckgo.com/"&gt;DuckDuckGo&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="postimage text-center"&gt;
+  &lt;img class="w-75 shadow-lg" src="https://www.ethicalads.io/images/posts/2022-search-engine-privacy-duckduckgo.png" alt="DuckDuckGo - a privacy search engine"&gt;
+  &lt;p&gt;DuckDuckGo search engine&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;DuckDuckGo has become synonymous, at least among techies, as the private alternative to Google.
+The search engine and the company has built their brand on privacy.
+In our teardown, DuckDuckGo scored top marks for a lack of cookies and persistent storage and no third-party requests.
+It's just a few clicks away to make it your browser's default search engine,
+and when the results aren't quite what you're looking for, you can prefix your query with &lt;code&gt;!g&lt;/code&gt; to search Google.&lt;/p&gt;
+&lt;p&gt;The user experience is fantastic and they have mobile apps for Android and iOS as well as a Mac desktop app.
+The mobile app on Android can also double as tracker protection even for requests made in other apps.
+By using Bing's search index under the hood, the search results are pretty close to Google's in quality.
+&lt;strong&gt;DuckDuckGo is a great overall choice for a private search engine.&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id="mojeek"&gt;&lt;a href="https://www.mojeek.com/"&gt;Mojeek&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="postimage text-center"&gt;
+  &lt;img class="w-75 shadow-lg" src="https://www.ethicalads.io/images/posts/2022-search-engine-privacy-mojeek.png" alt="Mojeek, an independent search engine"&gt;
+  &lt;p&gt;Mojeek, an independent search engine&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Mojeek is a UK-based search engine that has built their own search index rather than using Bing's like many of the others here (Mojeek has advertised with EthicalAds in the past).
+In our teardown, Mojeek was fantastic and didn't share any data, had no requests blocked by ad blockers,
+and in fact, the whole search engine homepage and results page loaded everything from a single domain.&lt;/p&gt;
+&lt;p&gt;While the search engine results page is a bit spartan,
+it loads very fast and the actual result quality was pretty good.
+&lt;strong&gt;If you're looking for an independent search engine that doesn't rely on big tech at all,
+Mojeek is amazing.&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id="youcom"&gt;&lt;a href="https://you.com/code"&gt;You.com&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="postimage text-center"&gt;
+  &lt;img class="w-75 shadow-lg" src="https://www.ethicalads.io/images/posts/2022-search-engine-privacy-youcom.png" alt="Details of Python's hashlib in YouCode search"&gt;
+  &lt;p&gt;Details of Python's hashlib in YouCode search&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;You.com allows you to customize your search experience
+by showing results from common websites you visit
+(You.com has advertised with EthicalAds in the past).
+One big advantage that comes from these integrations is that it can function as a great developer search engine
+and that's why the team built YouCode search.
+YouCode integrates results from common developer sites like StackOverflow
+and Read the Docs, the parent of EthicalAds, directly onto the search engine results screen.&lt;/p&gt;
+&lt;p&gt;While I couldn't find details on You.com's search index, based on their search results,
+it's clear that at least in some queries You.com is relying on Bing's index.
+That means that the result quality will stay high.
+In our privacy teardown, You.com and YouCode got close to top marks.
+&lt;strong&gt;For a search engine tuned for developer queries, You.com and specifically YouCode is a good choice.&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id="brave-search"&gt;&lt;a href="https://search.brave.com/"&gt;Brave Search&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="postimage text-center"&gt;
+  &lt;img class="w-75 shadow-lg" src="https://www.ethicalads.io/images/posts/2022-search-engine-privacy-brave.png" alt="Brave search"&gt;
+  &lt;p&gt;Brave search&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Brave is a search engine from the folks who created the Brave Browser.
+In our teardown, its results were perfect with no cookies, trackers, third-parties, or any other privacy violations.
+Like Mojeek but unlike the rest of the bunch, Brave has built their own search index
+although in some cases they claim to mix their results with Bing's.
+Despite mostly relying on its own search index, I was pretty impressed with the search result quality and order
+even when compared to Bing itself.&lt;/p&gt;
+&lt;p&gt;Like DuckDuckGo, Brave has desktop and mobile apps so you can search privately everywhere.
+They claim not to store searches, clicks, or any other data and allow truly anonymous searches.
+Brave specifically mentions that they do not filter or downrank any search results.
+&lt;strong&gt;For a good alternative from a team focused on privacy, you can't go wrong with Brave Search.&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id="other-alternatives"&gt;Other alternatives&lt;/h3&gt;
+&lt;div class="postimage text-center"&gt;
+  &lt;img class="w-75 shadow-lg" src="https://www.ethicalads.io/images/posts/2022-search-engine-privacy-swisscows.png" alt="SwissCows search engine"&gt;
+  &lt;p&gt;SwissCows search engine homepage&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;There are even more privacy-focused search engines that we did not detail in our privacy teardown.
+You might consider these search engines if you have particular concerns about data jurisdiction.
+From a quality perspective, most of these search engines rely on search indexes from other search engines.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://swisscows.com/"&gt;SwissCows&lt;/a&gt;&lt;/strong&gt; - SwissCows is a Swiss-hosted search engine that like DuckDuckGo uses Bing's index to fulfill search queries. It claims its results are "family friendly" and that they do not store any user data.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.qwant.com/"&gt;Qwant&lt;/a&gt;&lt;/strong&gt; - Qwant is a French search engine that also uses Bing's search index.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://searx.info/"&gt;Searx&lt;/a&gt;&lt;/strong&gt; - Searx is an open source meta search engine that relies on results from other search engines.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="recommendations"&gt;Recommendations&lt;/h2&gt;
+&lt;p&gt;Unless you have specific concerns,
+you can't go too far wrong with any of these privacy-minded alternatives.
+As an every day search engine, DuckDuckGo is popular with the EthicalAds and Read the Docs teams
+while respecting your privacy.
+For a search engine completely separate from the tech titans, try Mojeek or Brave Search
+and for a more developer focused search experience, both You.com and DuckDuckGo are great.&lt;/p&gt;
+&lt;p&gt;Do you disagree with our recommendations or you have something to add?
+&lt;a href="https://www.ethicalads.io/contact/"&gt;Get in touch&lt;/a&gt;. We always love to hear from you.&lt;/p&gt;</content><category term="posts"></category></entry><entry><title>EthicalAds Newsletter - October 2022</title><link href="https://www.ethicalads.io/blog/2022/11/ethicalads-newsletter-october-2022/" rel="alternate"></link><published>2022-11-08T00:00:00-08:00</published><updated>2022-11-08T00:00:00-08:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2022-11-08:/blog/2022/11/ethicalads-newsletter-october-2022/</id><summary type="html">&lt;p&gt;October wasn't quite a record month in terms of revenue,
 but it was our best month ever except for September …&lt;/p&gt;</summary><content type="html">&lt;p&gt;October wasn't quite a record month in terms of revenue,
 but it was our best month ever except for September.&lt;/p&gt;
 &lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
