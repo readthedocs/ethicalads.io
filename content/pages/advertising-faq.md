@@ -79,7 +79,8 @@ but please [let us know](/advertisers/#inbound-form) what you're interested in a
 
 Some advertisers want to focus globally.
 For those advertisers, we recommend splitting your budget between what you're interested in targeting.
-This ensures advertisers get excactly what they expect.
+For example, you can spend 67% of your budget on North America and Europe and 33% outside those regions.
+This ensures advertisers get exactly what they expect.
 
 
 ## What are the ad specifications?
@@ -96,18 +97,6 @@ and we have seen great performance for advertisers and publishers with both type
 Check out our
 [ad specs]({static}/prospectus/ad-specs.pdf)
 with more details and screenshots.
-
-
-## What is the process for becoming a publisher?
-
-The process generally follows these steps:
-
-* You fill out our [publisher form](/publishers/#inbound-form) which lets us know you're interested.
-* We reply via email, telling you if you'd be a good fit. If so, we ask a few questions and confirm you want a publisher account.
-* You reply, confirming you want a publisher account.
-* We create an account for you, and send you an invite for our publisher dashboard. We also send you information about integrating the ads, which will show test ads to start.
-* You integrate the ads in your site, and let us know so we can review the placement.
-* We review the placement on your site, and then turn on paid ads for your account.
 
 
 ## Where do the ads link to?
@@ -155,6 +144,25 @@ the ad comes into the browser viewport.
 
 After you become an advertiser, you will get access to our advertising platform
 where you can create, change, or turn off your ads as well as see live reports broken down by each ad.
+
+
+## How can I optimize my ads?
+
+For all but the smallest campaigns, we recommend running multiple ads in your campaign.
+These A/B tests will usually show that some ads perform better than others.
+After you've collected enough data, turn the lower performing variant off to maximize your performance.
+
+
+## Will you help me optimize my campaign?
+
+Absolutely. You can contact us anytime, but an ad specialist will proactively reach out
+a few weeks into your campaign with suggestions.
+We also offer advice on crafting ads that resonate with our audience.
+See our [advertising guide]({filename}/pages/learning-hub/advertiser-guide.md) for more details.
+
+For larger campaigns,
+we provide a short video summary of how your campaign is performing
+with detailed suggestions to try to boost performance.
 
 
 ## Where do my ads appear?
