@@ -81,3 +81,4 @@ import './landkit/js/tooltips.js';
 
 // Views
 import './views/advertiser-calculator.js';
+import './views/inbound-form.js';

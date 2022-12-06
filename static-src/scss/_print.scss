@@ -1,0 +1,14 @@
+@media print {
+  footer {
+   display: none;
+  }
+
+  // Hide scrollbars in Chrome
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  .text-white {
+    color: black !important;
+  }
+}
