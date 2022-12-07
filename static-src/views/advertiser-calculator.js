@@ -3,15 +3,27 @@ const ko = require('knockout');
 
 
 function AdvertiserCalculatorViewModel() {
-  this.pricing = JSON.parse($('#data-pricing').text());
-  this.regions = JSON.parse($('#data-regions').text());
-  this.topics = JSON.parse($('#data-topics').text());
+  // Helper function to validate the passed topic
+  this.validateTopic = function (topic) {
+    for (var i = 0; i < this.topics.length; i++) {
+      if (this.topics[i].slug === topic) {
+        return topic;
+      }
+    }
 
-  this.selected_region = ko.observable("blend");
-  this.selected_topic = ko.observable("all-developers");
-  this.budget = ko.observable(1000);
-  this.ctr = ko.observable(0.12);
-  this.conversion_rate = ko.observable(5.0);
+    return null;
+  };
+
+  // Helper function to validate the passed region
+  this.validateRegion = function (region) {
+    for (var i = 0; i < this.regions.length; i++) {
+      if (this.regions[i].slug === region) {
+        return region;
+      }
+    }
+
+    return null;
+  };
 
   this.getSelectedRegion = function () {
     for (var i = 0; i < this.regions.length; i++) {
@@ -27,6 +39,11 @@ function AdvertiserCalculatorViewModel() {
         return this.topics[i];
       }
     }
+  };
+
+  this.getBudget = function () {
+    // this.budget can be text type when it is read from the form inputs
+    return parseInt(this.budget(), 10);
   };
 
   this.getCpm = function () {
@@ -51,6 +68,34 @@ function AdvertiserCalculatorViewModel() {
   this.getNumConversions = function () {
     return this.getNumClicks() * this.conversion_rate() / 100;
   };
+
+  // Generate a URL to the calculator with these values
+  this.getUrl = function () {
+    let url = window.location.origin + window.location.pathname;
+    let searchParams = new URLSearchParams({
+      budget: this.budget(),
+      region: this.selected_region(),
+      topic: this.selected_topic(),
+    });
+    return url + "?" + searchParams.toString();
+  };
+
+  this.pricing = JSON.parse($('#data-pricing').text());
+  this.regions = JSON.parse($('#data-regions').text());
+  this.topics = JSON.parse($('#data-topics').text());
+
+  let params = new URLSearchParams(document.location.search);
+
+  let initial_budget = parseInt(params.get("budget"), 10) || 1000;
+  let initial_region = this.validateRegion(params.get("region")) || "blend";
+  let initial_topic = this.validateTopic(params.get("topic")) || "all-developers";
+
+  this.selected_region = ko.observable(initial_region);
+  this.selected_topic = ko.observable(initial_topic);
+  this.budget = ko.observable(initial_budget);
+
+  this.ctr = ko.observable(0.12);
+  this.conversion_rate = ko.observable(5.0);
 }
 
 
