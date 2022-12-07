@@ -1,5 +1,5 @@
 Title: EthicalAds Newsletter - November 2022
-Date: December 6, 2022
+Date: December 7, 2022
 description: Updates from November 2022, including stats and commentary on our progress as we build EthicalAds
 tags: newsletter, community, build-in-public
 authors: David Fischer
