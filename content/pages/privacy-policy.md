@@ -72,7 +72,7 @@ We may use your information for the following purposes:
 - We may use User Personal Information to invite you to take part in surveys, beta programs, or other research projects, subject, where necessary, to your consent .
 - We use Usage Information and Device Information to better understand how our Users use EthicalAds and to improve our Website and Service.
 - We may use your User Personal Information if it is necessary for security purposes or to investigate possible fraud or attempts to harm EthicalAds or our Users.
-- We may use your User Personal Information to comply with our legal obligations, protect our intellectual property, and enforce our Terms of Service.
+- We may use your User Personal Information to comply with our legal obligations, protect our intellectual property, and enforce our [Terms of Service]({filename}../pages/terms-of-service.md).
 - We limit our use of your User Personal Information to the purposes listed in this Privacy Policy. If we need to use your User Personal Information for other purposes, we will ask your permission first.
 
 <!-- Our legal basis for processing -->
@@ -101,7 +101,7 @@ We **do** run advertising. We **do not** run any code from advertisers and all a
 
 We may use User Personal Information with your permission, so we can perform services you have requested. For example, if you require help integrating our advertising code into your website, we may offer assistance that requires your information.
 
-We may share User Personal Information if we are involved in a merger, sale, or acquisition of corporate entities or business units. If any such change of ownership happens, we will ensure that it is under terms that preserve the confidentiality of User Personal Information, and we will notify you on our Website or by email before any transfer of your User Personal Information. The organization receiving any User Personal Information will have to honor any promises we made in our Privacy Statement or Terms of Service.
+We may share User Personal Information if we are involved in a merger, sale, or acquisition of corporate entities or business units. If any such change of ownership happens, we will ensure that it is under terms that preserve the confidentiality of User Personal Information, and we will notify you on our Website or by email before any transfer of your User Personal Information. The organization receiving any User Personal Information will have to honor any promises we made in our Privacy Statement or [Terms of Service]({filename}../pages/terms-of-service.md).
 
 We may share User Personal Information with a limited number of third party vendors who process it on our behalf to provide or improve our service, and who have agreed to privacy restrictions similar to our own Privacy Statement. For more details, see our next section on third parties.
 
