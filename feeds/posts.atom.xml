@@ -1,5 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds - posts</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/posts.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2022-11-15T00:00:00-08:00</updated><entry><title>Best Search Engines for your Privacy</title><link href="https://www.ethicalads.io/blog/2022/11/best-search-engines-for-your-privacy/" rel="alternate"></link><published>2022-11-15T00:00:00-08:00</published><updated>2022-11-15T00:00:00-08:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2022-11-15:/blog/2022/11/best-search-engines-for-your-privacy/</id><summary type="html">&lt;p&gt;You don't have to use a search engine like Google which retains your queries forever to get great results anymore …&lt;/p&gt;</summary><content type="html">&lt;p&gt;You don't have to use a search engine like Google which retains your queries forever to get great results anymore.
+<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds - posts</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/posts.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2022-12-07T00:00:00-08:00</updated><entry><title>EthicalAds Newsletter - November 2022</title><link href="https://www.ethicalads.io/blog/2022/12/ethicalads-newsletter-november-2022/" rel="alternate"></link><published>2022-12-07T00:00:00-08:00</published><updated>2022-12-07T00:00:00-08:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2022-12-07:/blog/2022/12/ethicalads-newsletter-november-2022/</id><summary type="html">&lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
+&lt;p&gt;These are the major features we released in November:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We did a followup post on &lt;a href="https://www.ethicalads.io/blog/2022/11/best-search-engines-for-your-privacy/"&gt;privacy search engine …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
+&lt;p&gt;These are the major features we released in November:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We did a followup post on &lt;a href="https://www.ethicalads.io/blog/2022/11/best-search-engines-for-your-privacy/"&gt;privacy search engine recommendations&lt;/a&gt;.
+  It outlined the landscape and makes a few suggestions,
+  but ultimately, the right search engine for you depends on what you're looking for.&lt;/li&gt;
+&lt;li&gt;We recorded product overview videos to show what it's like to use our platform.
+  They are live on our &lt;a href="https://youtube.com/@ethicalads"&gt;YouTube channel&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;On the product side, we did a number of performance improvements to our reporting
+  and offloaded more reporting to Metabase which we've
+  &lt;a href="https://www.ethicalads.io/blog/2021/12/graphing-ad-data-at-ethicalads/"&gt;written about previously&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can always see our latest server updates in our &lt;a href="https://ethical-ad-server.readthedocs.io/en/latest/developer/changelog.html"&gt;ethical-ad-server changelog&lt;/a&gt; and &lt;a href="https://ethical-ad-client.readthedocs.io/en/latest/changelog.html"&gt;ethical-ad-client changelog&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="november-advertising-stats"&gt;November advertising stats&lt;/h2&gt;
+&lt;p&gt;In November 2022:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We generated &lt;strong&gt;$38,852.04&lt;/strong&gt; for our publishers.&lt;/li&gt;
+&lt;li&gt;We had &lt;strong&gt;148 publishers&lt;/strong&gt; on our network with at least one paid ad impression.
+  Currently, we are being very&lt;/li&gt;
+&lt;li&gt;We had &lt;strong&gt;17,683,179&lt;/strong&gt; paid ad views across the world.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As we mentioned last month, we expected November to be slightly weaker
+than the record months we had in September and October.
+The end of the year is usually a little weaker both in terms of supply
+(folks go on vacations and thus don't view ads) and demand,
+but so far things are holding up well by comparison to previous years.&lt;/p&gt;
+&lt;h2 id="upcoming-features"&gt;Upcoming features&lt;/h2&gt;
+&lt;p&gt;The major features in our upcoming roadmap for December:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We are still aiming to get our GPU model building with a CI service.
+  This would mean retraining and updating the model anytime
+  we add new hand categorized data to our data set.
+  This tight feedback loop will create a flywheel to help our model get better more rapidly.&lt;/li&gt;
+&lt;li&gt;We will have a Q1 prospectus with updated pricing early in the month.&lt;/li&gt;
+&lt;li&gt;We're aiming to integrate parts of our &lt;a href="https://www.ethicalads.io/advertisers/calculator/"&gt;campaign calculator&lt;/a&gt;
+  into our onboarding process to help advertisers plan and start their first campaign.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thanks again for being along with us on this journey to build an ethical ad network.
+Please &lt;a href="mailto:ads@ethicalads.io"&gt;email us&lt;/a&gt; if you have any ideas or feedback on our product or roadmap,
+we always love to hear from you.&lt;/p&gt;</content><category term="posts"></category><category term="newsletter"></category><category term="community"></category><category term="build-in-public"></category></entry><entry><title>Best Search Engines for your Privacy</title><link href="https://www.ethicalads.io/blog/2022/11/best-search-engines-for-your-privacy/" rel="alternate"></link><published>2022-11-15T00:00:00-08:00</published><updated>2022-11-15T00:00:00-08:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2022-11-15:/blog/2022/11/best-search-engines-for-your-privacy/</id><summary type="html">&lt;p&gt;You don't have to use a search engine like Google which retains your queries forever to get great results anymore …&lt;/p&gt;</summary><content type="html">&lt;p&gt;You don't have to use a search engine like Google which retains your queries forever to get great results anymore.
 Last month, we did a &lt;a href="https://www.ethicalads.io/blog/2022/10/privacy-teardown-search-engines/"&gt;privacy teardown&lt;/a&gt; of some large search engines as well as the more privacy minded ones.
 Based on our results, we're prepared to make a few recommendations and offer a few tips to keep you safe.&lt;/p&gt;
 &lt;h2 id="privacy-search-engine-landscape"&gt;Privacy search engine landscape&lt;/h2&gt;
