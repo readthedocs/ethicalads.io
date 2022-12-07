@@ -377,19 +377,19 @@
                     <label>Geographic focus</label>
 
                     <div class="form-check">
-                      <input class="form-check-input" type="checkbox" name="geography" value="US and Canada" id="geo-usca">
+                      <input class="form-check-input" type="checkbox" name="geography" value="US and Canada" id="geo-usca" data-bind="checked: passed_region === 'us-ca' || passed_region === 'blend'">
                       <label class="form-check-label" for="geo-usca">US and Canada</label>
                     </div>
                     <div class="form-check">
-                      <input class="form-check-input" type="checkbox" name="geography" value="Europe" id="geo-eu">
+                      <input class="form-check-input" type="checkbox" name="geography" value="Europe" id="geo-eu" data-bind="checked: passed_region === 'weu-aunz' || passed_region === 'blend'">
                       <label class="form-check-label" for="geo-eu">Europe</label>
                     </div>
                     <div class="form-check">
-                      <input class="form-check-input" type="checkbox" name="geography" value="Asia Pacific" id="geo-apac">
+                      <input class="form-check-input" type="checkbox" name="geography" value="Asia Pacific" id="geo-apac" data-bind="checked: passed_region === 'eeu-apac'">
                       <label class="form-check-label" for="geo-apac">Asia Pacific</label>
                     </div>
                     <div class="form-check">
-                      <input class="form-check-input" type="checkbox" name="geography" value="Global" id="geo-global">
+                      <input class="form-check-input" type="checkbox" name="geography" value="Global" id="geo-global" data-bind="checked: passed_region === 'global'">
                       <label class="form-check-label" for="geo-global">Global</label>
                     </div>
                   </div>
@@ -398,30 +398,30 @@
                     <label>Topic focus</label>
 
                     <div class="form-check">
-                      <input class="form-check-input" type="checkbox" name="audience" value="Data science and machine learning" id="datascience" checked>
+                      <input class="form-check-input" type="checkbox" name="audience" value="Data science and machine learning" id="datascience" checked  data-bind="checked: passed_topic === 'datascience'">
                       <label class="form-check-label" for="datascience">Data science and machine learning</label>
                     </div>
                     <div class="form-check">
-                      <input class="form-check-input" type="checkbox" name="audience" value="Backend web development" id="backend" >
+                      <input class="form-check-input" type="checkbox" name="audience" value="Backend web development" id="backend"  data-bind="checked: passed_topic === 'backend'">
                       <label class="form-check-label" for="backend">Backend web development</label>
                     </div>
                     <div class="form-check">
-                      <input class="form-check-input" type="checkbox" name="audience" value="Frontend web development" id="frontend" >
+                      <input class="form-check-input" type="checkbox" name="audience" value="Frontend web development" id="frontend"  data-bind="checked: passed_topic === 'frontend'">
                       <label class="form-check-label" for="frontend">Frontend web development</label>
                     </div>
                     <div class="form-check">
-                      <input class="form-check-input" type="checkbox" name="audience" value="Security and privacy" id="security-privacy" >
+                      <input class="form-check-input" type="checkbox" name="audience" value="Security and privacy" id="security-privacy"  data-bind="checked: passed_topic === 'security'">
                       <label class="form-check-label" for="security-privacy">Security and privacy</label>
                     </div>
                     <div class="form-check">
-                      <input class="form-check-input" type="checkbox" name="audience" value="DevOps" id="devops" >
+                      <input class="form-check-input" type="checkbox" name="audience" value="DevOps" id="devops"  data-bind="checked: passed_topic === 'devops'">
                       <label class="form-check-label" for="devops">DevOps</label>
                     </div>
                   </div>
 
                   <div class="form-group">
                     <label for="budget">Monthly budget</label>
-                    <select class="form-control" id="budget" name="budget">
+                    <select class="form-control" id="budget" name="budget" data-bind="value: getSelectedBudget()">
                       <option value="">- Monthly budget -</option>
                       <option value="500-1k">$500 to $1,000</option>
                       <option value="1-3k">$1,000 to $3,000</option>
@@ -444,6 +444,7 @@
 
                   <div class="form-group my-5">
                     <input type="hidden" name="body" value="EthicalAds.io advertising inquiry" />
+                    <input type="hidden" name="calculator-url" data-bind="value: calculator_url" />
 <input type="hidden" name="url" value="advertisers/topics/data-science/" />                    <input type="submit" value="Get more info" class="btn btn-sm btn-primary">
                     <small class="form-text text-muted">We take privacy seriously and we don't share your email. You aren't going to be added to any mailing lists.</small>
                   </div>
@@ -463,7 +464,7 @@
 
 <!-- SHAPE
 ================================================== -->
-<div class="position-relative">
+<div class="position-relative d-print-none">
   <div class="shape shape-bottom shape-fluid-x svg-shim text-dark">
     <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor"/></svg>
   </div>
@@ -471,7 +472,7 @@
 
 <!-- CTA
 ================================================== -->
-<section class="pt-6 pt-md-8 bg-dark text-light">
+<section class="pt-6 pt-md-8 bg-dark text-light d-print-none">
   <div class="container pb-6 pb-md-8 border-bottom border-gray-300">
     <div class="row" id="newsletter">
       <div class="col-12 col-md">
@@ -511,7 +512,7 @@
 
 
 
-<footer class="py-8 py-md-11 bg-dark">
+<footer class="py-8 py-md-11 bg-dark d-print-none">
   <div class="container">
 
     <div class="row">

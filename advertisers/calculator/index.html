@@ -132,17 +132,19 @@
             <h3>Campaign budget</h3>
             <p class="small">This budget could be over just a few weeks or as long as a quarter. There is an automatic discount of 10% for campaigns over $3k in size.</p>
 
-            <div class="input-group input-group-sm mx-auto w-50 w-lg-25">
-              <div class="input-group-prepend">
-                <span class="input-group-text">$</span>
+            <div class="d-print-none">
+              <div class="input-group input-group-sm mx-auto w-50 w-lg-25">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">$</span>
+                </div>
+                <input type="number" class="form-control" data-bind="value: budget" min="500" max="10000" step="100" name="budget-precise" id="budget-precise">
               </div>
-              <input type="number" class="form-control" data-bind="value: budget" min="500" max="10000" step="100" name="budget-precise" id="budget-precise">
-            </div>
 
-            <input type="range" class="form-control-range" min="500" max="10000" step="100" data-bind="value: budget" name="budget" id="budget">
-            <div class="d-flex">
-              <div class="small flex-fill">$500</div>
-              <div class="small flex-fill text-right">$10k</div>
+              <input type="range" class="form-control-range" min="500" max="10000" step="100" data-bind="value: budget" name="budget" id="budget">
+              <div class="d-flex">
+                <div class="small flex-fill">$500</div>
+                <div class="small flex-fill text-right">$10k</div>
+              </div>
             </div>
           </div>
 
@@ -150,17 +152,19 @@
             <h3>Ad click-through rate</h3>
             <p class="small">How often do visitors who see your ads click on them. This can vary widely based on how finely targeted your campaign is and how tuned the ads are to our audience. Our network average is about 0.12%. Extremely focused campaigns can do as high as 0.3-0.5%.</p>
 
-            <div class="input-group input-group-sm mx-auto w-50 w-lg-25">
-              <input type="number" class="form-control" data-bind="value: ctr" min="0" max="1" step="0.01" name="ctr-precise" id="ctr-precise">
-              <div class="input-group-append">
-                <span class="input-group-text">%</span>
+            <div class="d-print-none">
+              <div class="input-group input-group-sm mx-auto w-50 w-lg-25">
+                <input type="number" class="form-control" data-bind="value: ctr" min="0" max="1" step="0.01" name="ctr-precise" id="ctr-precise">
+                <div class="input-group-append">
+                  <span class="input-group-text">%</span>
+                </div>
               </div>
-            </div>
 
-            <input type="range" class="form-control-range" min="0" max="1" step="0.01" data-bind="value: ctr" name="ctr" id="ctr">
-            <div class="d-flex">
-              <div class="small flex-fill">0.0%</div>
-              <div class="small flex-fill text-right">1.0%</div>
+              <input type="range" class="form-control-range" min="0" max="1" step="0.01" data-bind="value: ctr" name="ctr" id="ctr">
+              <div class="d-flex">
+                <div class="small flex-fill">0.0%</div>
+                <div class="small flex-fill text-right">1.0%</div>
+              </div>
             </div>
           </div>
 
@@ -168,17 +172,27 @@
             <h3>Landing page conversion rate</h3>
             <p class="small">How often does a visitor to your ad landing page take take the action you're looking for? This can vary widely depending on whether you're capturing emails, trying to get app downloads, or getting account signups.</p>
 
-            <div class="input-group input-group-sm mx-auto w-50 w-lg-25">
-              <input type="number" class="form-control" data-bind="value: conversion_rate" min="0" max="100" step="0.1" name="conversion_rate-precise" id="conversion_rate-precise">
-              <div class="input-group-append">
-                <span class="input-group-text">%</span>
+            <div class="d-print-none">
+              <div class="input-group input-group-sm mx-auto w-50 w-lg-25">
+                <input type="number" class="form-control" data-bind="value: conversion_rate" min="0" max="100" step="0.1" name="conversion_rate-precise" id="conversion_rate-precise">
+                <div class="input-group-append">
+                  <span class="input-group-text">%</span>
+                </div>
+              </div>
+
+              <input type="range" class="form-control-range" min="0" max="100" step="0.1" data-bind="value: conversion_rate" name="conversion_rate" id="conversion_rate">
+              <div class="d-flex">
+                <div class="small flex-fill">0.0%</div>
+                <div class="small flex-fill text-right">100.0%</div>
               </div>
             </div>
+          </div>
 
-            <input type="range" class="form-control-range" min="0" max="100" step="0.1" data-bind="value: conversion_rate" name="conversion_rate" id="conversion_rate">
-            <div class="d-flex">
-              <div class="small flex-fill">0.0%</div>
-              <div class="small flex-fill text-right">100.0%</div>
+          <!-- This shows a link to this specific calculation but only when printing -->
+          <div class="d-none d-print-block">
+            <div class="form-group mb-8">
+              <h3>Campaign calculator URL</h3>
+              <a href data-bind="text: getUrl(), attr: {'href': getUrl()}"></a>
             </div>
           </div>
 
@@ -196,6 +210,10 @@
           <div class="flex-fill text-center mb-5">
             <p class="small mb-0">Topic</p>
             <p class="lead mb-0" data-bind="text: getSelectedTopic().name"></p>
+          </div>
+          <div class="flex-fill text-center mb-5">
+            <p class="small mb-0">Budget</p>
+            <p class="lead mb-0" data-bind="text: '$' + getBudget().toLocaleString(undefined, {maximumFractionDigits: 0})"></p>
           </div>
           <div class="flex-fill text-center mb-5">
             <p class="small mb-0">CPM</p>
@@ -216,8 +234,8 @@
           </div>
         </div>
 
-        <p class="text-center mt-10">
-          <a href="/advertisers/#inbound-form" class="btn btn-primary lift">
+        <p class="text-center mt-10 d-print-none">
+          <a href="/advertisers/#inbound-form" class="btn btn-primary lift" data-bind="attr: {'href': '/advertisers/?budget=' + encodeURIComponent(getBudget()) + '&topic=' + encodeURIComponent(getSelectedTopic().slug) + '&region=' + encodeURIComponent(getSelectedRegion().slug) + '&calculator-url=' + encodeURIComponent(getUrl()) + '#inbound-form'}">
             <span>Start your campaign</span>
           </a>
         </p>
@@ -233,7 +251,7 @@
 
 <!-- SHAPE
 ================================================== -->
-<div class="position-relative">
+<div class="position-relative d-print-none">
   <div class="shape shape-bottom shape-fluid-x svg-shim text-dark">
     <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor"/></svg>
   </div>
@@ -241,7 +259,7 @@
 
 <!-- CTA
 ================================================== -->
-<section class="pt-6 pt-md-8 bg-dark text-light">
+<section class="pt-6 pt-md-8 bg-dark text-light d-print-none">
   <div class="container pb-6 pb-md-8 border-bottom border-gray-300">
     <div class="row" id="newsletter">
       <div class="col-12 col-md">
@@ -281,7 +299,7 @@
 
 
 
-<footer class="py-8 py-md-11 bg-dark">
+<footer class="py-8 py-md-11 bg-dark d-print-none">
   <div class="container">
 
     <div class="row">
