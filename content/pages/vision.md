@@ -75,11 +75,13 @@ At EthicalAds, **we don't use these techniques**.
 Instead, we target based solely upon:
 
 * Details of the page where the advertisement is shown including:
+
     - The name and keywords associated with the publisher's content
     - Content of the page (eg. H1, title, etc.)
     - Whether the page is being viewed on a mobile device
 
 * General geography
+
     - We allow advertisers to target ads to a list of countries or to exclude
       countries from their advertising.
       For ads targeting the USA, we also support targeting states or large metro areas.
