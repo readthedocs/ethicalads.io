@@ -139,11 +139,15 @@ live reports on the performance of your ads including how many times
 they were viewed and clicked. We count a viewable impression when
 the ad comes into the browser viewport.
 
+Check out a video overview of our <a href="https://www.youtube.com/watch?v=lAhhxhyJY28">reporting interface</a>.
+
 
 ## How can I manage my ads?
 
 After you become an advertiser, you will get access to our advertising platform
 where you can create, change, or turn off your ads as well as see live reports broken down by each ad.
+
+Check out a video overview of our <a href="https://www.youtube.com/watch?v=Ow75lzOs4EM&t=34s">management interface</a>.
 
 
 ## How can I optimize my ads?
