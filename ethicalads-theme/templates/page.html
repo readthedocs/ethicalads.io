@@ -6,8 +6,10 @@
 
 
 {% block canonical_rel %}
-  <link rel="canonical" href="{{ SITEURL }}/{{ page.url }}" />
-  <meta property="og:url" content="{{ SITEURL }}/{{ page.url }}" />
+  {% if SITEURL %}
+    <link rel="canonical" href="{{ SITEURL }}/{{ page.url }}" />
+    <meta property="og:url" content="{{ SITEURL }}/{{ page.url }}" />
+  {% endif %}
 {% endblock canonical_rel %}
 
 
