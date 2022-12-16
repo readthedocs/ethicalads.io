@@ -139,7 +139,7 @@ live reports on the performance of your ads including how many times
 they were viewed and clicked. We count a viewable impression when
 the ad comes into the browser viewport.
 
-Check out a video overview of our <a href="https://www.youtube.com/watch?v=lAhhxhyJY28">reporting interface</a>.
+See more details about <a href="/advertisers/reporting/">advertiser reports</a>.
 
 
 ## How can I manage my ads?
