@@ -22,7 +22,7 @@ Each report will have the following metrics:
 * **Index**: The data that the report is based on, for example the date on the revenue report.
 * **Views**: The number of views that your ads had. You can filter by paid, community, or house ads.
 * **Clicks**: The number of clicks that your ads had.
-* **Click through rate (CTR)**: The ratio of Clicks to Views. We generally expect this to be 0.1% or higher.
+* **Click-through rate (CTR)**: The ratio of Clicks to Views. We generally expect this to be 0.1% or higher.
 * **View Rate**: The ratio of Views to Offers (ads requested from our server).
 * **Revenue**: The amount of money that you have made.
 
