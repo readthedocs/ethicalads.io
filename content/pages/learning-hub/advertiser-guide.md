@@ -127,9 +127,10 @@ with our in-depth guidance:
 * **Initial audit**: Before your campaign launches we look over your ads and give ideas for ad iterations based on what we've seen work in the past.
 * **Two-week check in**: After we get click-through data on your ad variations, we conduct additional analysis to recommend which ads to disable, and new iterations of your highest performing ads.
 * **Campaign Wrapup**: At the end of your campaign, we will share an analysis of how your campaign performed overall, and suggestions for next steps to continue iterating on your marketing goals.
+* **Video Overviews**: For campaigns over $5,000/mo, we provide custom video reports of your campaign that walk through your performance and any additional feedback that we have on your campaign. 
 
 We are also available at any time during your campaign for feedback and suggestions on how to tweak your campaign to improve performance,
-along with our pro-active outreach.
+along with our proactive outreach.
 
 ## Examples of some top developer ads
 
