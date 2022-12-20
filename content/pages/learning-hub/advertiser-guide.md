@@ -64,7 +64,7 @@ only some are a perfect fit for your product or service.
 To get the most out of your campaign:
 
 * Make sure your geographic targeting matches the location of your desired customers.
-* Target a specific topic that relevant to your business.
+* Target a specific topic that's relevant to your business.
 * Craft a specific ad for each region of interest.
 
 These tips will help increase the click-through rate of your ads,
@@ -72,7 +72,8 @@ and the likelihood of those users resulting in conversions.
 
 ### Multiple ad variations
 
-When you run a campaign we recommend having 3-4 ad variations.
+When you run a campaign we recommend having 3-4 ad variations,
+especially for larger campaigns.
 This allows you to test the performance of different marketing messages and ad images.
 Then you can **create iterations of your top-performing ads, and disable your lowest performing ads** for better click-through rates.
 [2 weeks into your campaign](#collaborate-with-us-to-get-great-results) we'll reach out with a note on how to adjust your ads to improve performance.
