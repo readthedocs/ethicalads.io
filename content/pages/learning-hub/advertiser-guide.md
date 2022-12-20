@@ -98,7 +98,7 @@ but it's worth trying more focused variations as well.
 ## Optimizing conversions
 
 Having developers click on your ad is only half the battle.
-Once users arrive at your landing page, 
+Once users arrive at your landing page,
 you want the visitor to take action!
 
 Here are some key points to help your ads convert visitors to customers:
@@ -168,4 +168,4 @@ and share some insight.
 ## Additional questions?
 
 Our [Advertiser's FAQ](/advertisers/faq/) will help answer more of your specific questions around our product.
-You can also [email us]({filename}../pages/contact.md) with suggestions or feedback.
+You can also [email us]({filename}../../pages/contact.md) with suggestions or feedback.
