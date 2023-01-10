@@ -4,7 +4,6 @@ url: advertisers/topics/frontend-web/
 save_as: advertisers/topics/frontend-web/index.html
 description: EthicalAds is a great solution for marketing to Frontend and JavaScript developers.
 template: ea/topics/topics-generic
-
 inbound_form_frontend: True
 topics_image_path: /theme/img/frontend-web.jpg
 topics_image_alt: Frontend web development
