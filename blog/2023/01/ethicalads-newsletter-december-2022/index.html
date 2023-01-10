@@ -4,18 +4,18 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 <meta name="generator" content="Pelican" />
-<meta property="og:site_name" content="EthicalAds"/><meta name="description" content="Updates from April, including stats and commentary on our progress as we build EthicalAds" />
-    <meta property="og:description" content="Updates from April, including stats and commentary on our progress as we build EthicalAds" /><meta name="tags" content="newsletter" /><meta name="tags" content="community" /><meta name="author" content="Ra Cohen" /><meta property="og:type" content="article">
-  <meta property="og:title" content="EthicalAds Newsletter - April 2022" />
-  <meta property="twitter:title" content="EthicalAds Newsletter - April 2022" /><meta property="og:image" content="https://www.ethicalads.io/images/posts/2022-april-newsletter.jpg" />
-    <meta property="twitter:image" content="https://www.ethicalads.io/images/posts/2022-april-newsletter.jpg" /><meta property="article:published_time" content="2022-05-03" />
+<meta property="og:site_name" content="EthicalAds"/><meta name="description" content="Updates from December 2022, including stats and commentary on our progress as we build EthicalAds" />
+    <meta property="og:description" content="Updates from December 2022, including stats and commentary on our progress as we build EthicalAds" /><meta name="tags" content="newsletter" /><meta name="tags" content="community" /><meta name="tags" content="build-in-public" /><meta name="author" content="David Fischer" /><meta property="og:type" content="article">
+  <meta property="og:title" content="EthicalAds Newsletter - December 2022" />
+  <meta property="twitter:title" content="EthicalAds Newsletter - December 2022" /><meta property="og:image" content="https://www.ethicalads.io/images/posts/2022-december-newsletter.jpg" />
+    <meta property="twitter:image" content="https://www.ethicalads.io/images/posts/2022-december-newsletter.jpg" /><meta property="article:published_time" content="2023-01-10" />
       <!-- Bootstrap CSS -->
       <link rel="stylesheet" href="/theme/dist/main.css">
 
-      <title>EthicalAds Newsletter - April 2022 - EthicalAds</title>
+      <title>EthicalAds Newsletter - December 2022 - EthicalAds</title>
 
-  <link rel="canonical" href="https://www.ethicalads.io/blog/2022/05/ethicalads-newsletter-april-2022/" />
-  <meta property="og:url" content="https://www.ethicalads.io/blog/2022/05/ethicalads-newsletter-april-2022/" />
+  <link rel="canonical" href="https://www.ethicalads.io/blog/2023/01/ethicalads-newsletter-december-2022/" />
+  <meta property="og:url" content="https://www.ethicalads.io/blog/2023/01/ethicalads-newsletter-december-2022/" />
 
       <!-- Feeds -->
         <link href="https://www.ethicalads.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="EthicalAds Full Atom Feed" />
@@ -95,7 +95,7 @@
   <div class="row justify-content-center">
     <div class="col-12 col-md-10 col-lg-9 col-xl-8">
       <!-- Heading -->
-      <h1 class="display-4">EthicalAds Newsletter - April 2022</h1>
+      <h1 class="display-4">EthicalAds Newsletter - December 2022</h1>
 
       <!-- Meta -->
       <div class="row align-items-center py-5 border-top border-bottom">
@@ -103,11 +103,11 @@
 
           <div class="d-flex w-100">
             <!-- Author -->
-            <div class="flex-fill h6 text-uppercase mb-0">Ra Cohen</div>
+            <div class="flex-fill h6 text-uppercase mb-0">David Fischer</div>
 
             <!-- Date -->
             <div class="flex-fill h6 text-uppercase text-muted mb-0 ml-auto text-right">
-              <time class="text-nowrap" datetime="2022-05-03T00:00:00-07:00">May 3, 2022</time>
+              <time class="text-nowrap" datetime="2023-01-10T00:00:00-08:00">Jan 10, 2023</time>
             </div>
           </div>
         </div>
@@ -118,42 +118,57 @@
         <figure class="figure mb-7">
 
           <!-- Image -->
-          <img class="figure-img img-fluid rounded" src="/images/posts/2022-april-newsletter.jpg" alt="EthicalAds Newsletter - April 2022">
+          <img class="figure-img img-fluid rounded" src="/images/posts/2022-december-newsletter.jpg" alt="EthicalAds Newsletter - December 2022">
 
           <!-- Caption -->
-        <figcaption class="figure-caption text-center"><small><span>Photo by <a href="https://unsplash.com/@corina?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">corina ardeleanu</a> on <a href=" https://unsplash.com/photos/sWlxCweDzzs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span></small></figcaption>
+        <figcaption class="figure-caption text-center"><small><span>Photo by <a href="https://unsplash.com/@frostroomhead?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Rodion Kutsaiev</a> on <a href="https://unsplash.com/images/events/christmas?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span></small></figcaption>
 
         </figure>
 
       <div>
         <h2 id="new-features">New features</h2>
-<p>These are the major features we released in the last month:</p>
+<p>These are the major features we released in December:</p>
 <ul>
-<li>In our server, we've begun implementing server-side keywords analysis! This will let us swap out our algorithms easier for better topic-detection in the future.</li>
-<li>We've also started crafting custom advertiser keyword dashboards in <a href="https://www.ethicalads.io/blog/2021/12/graphing-ad-data-at-ethicalads/?ref=april-newsletter">metabase</a> to give our recurring clients more insight into which keywords affect CTR the most.</li>
-<li>In our publisher dashboard, we've launched a new publisher onboarding checklist to make getting approved for paid ads easier than ever.</li>
-<li>We're also debuting a similar advertiser onboarding page in our dashboard for new advertisers, outlining the steps to kick-off their campaigns.</li>
+<li>We automated our training process for <a href="https://github.com/readthedocs/ethicalads-model">our ML model</a>
+  that classifies content to help show the most relevant ad to users.
+  We are using <a href="https://lambdalabs.com/">LambdaLabs</a> on-demand GPU instances
+  to train our model whenever there are changes and a single training costs about $1.
+  Full disclosure: LambdaLabs has used EthicalAds.</li>
+<li>We released our <a href="https://www.ethicalads.io/prospectus/ethicalads-advertiser-prospectus.pdf">Q1 prospectus</a>
+  which included a price reduction for campaigns focusing on all developers.
+  Our prices are updated quarterly based on our supply of ad space for various topics
+  and the demand from our advertisers.</li>
+<li>Our <a href="https://www.ethicalads.io/advertisers/calculator/">campaign calculator</a>
+  got a few improvements to help people go from calculating to onboarded and advertising with EthicalAds.</li>
+<li>We detailed our reporting interfaces in a new <a href="https://www.ethicalads.io/advertisers/reporting/">landing page</a>.
+  Advertisers frequently ask about the kind of information they get from us
+  and we want to be as upfront as possible.</li>
 </ul>
 <p>You can always see our latest server updates in our <a href="https://ethical-ad-server.readthedocs.io/en/latest/developer/changelog.html">ethical-ad-server changelog</a> and <a href="https://ethical-ad-client.readthedocs.io/en/latest/changelog.html">ethical-ad-client changelog</a>.</p>
-<h2 id="april-advertising-stats">April advertising stats</h2>
-<p>In April 2022:</p>
+<h2 id="december-advertising-stats">December advertising stats</h2>
+<p>In December 2022:</p>
 <ul>
-<li>We generated <strong>$38,967.84</strong> for our publishers.</li>
-<li>We had <strong>124 publishers</strong> on our network with at least one paid ad impression.</li>
-<li>We had <strong>16,246,064</strong> paid ad views across the world.</li>
+<li>We generated <strong>$39,205.17</strong> for our publishers. This was a slight increase on November.</li>
+<li>We had <strong>148 publishers</strong> on our network with at least one paid ad impression.</li>
+<li>We had <strong>19,801,179</strong> paid ad views across the world.
+  This is a significant increase month-over-month but a lot of that is due to some lower priced
+  but widely targeted campaigns.</li>
 </ul>
-<p>April was another record breaking month in terms of revenue!
-Our daily revenue peaked at almost $2500 and not a single day saw less than $1000 in revenue.</p>
-<h2 id="tricky-bits">Tricky bits</h2>
-<p>We succeeded in selling all of our traffic in high-demand topics and regions in April, leading to the aforementioned revenue record!
-Thus, we've been brainstorming new methods of getting the word out to new publishers such as revamping our landing pages and producing quality original content.
-Expanding our network by onboarding new publishers is now our top priority so we can continue to meet advertiser demand.</p>
+<p>While December held up pretty well in terms of growth, we are expecting a weaker January.
+The beginning of the year is frequently a weaker time of year but we've started to see some advertisers
+pull back and reduce spending.
+Advertising is an easy area to cut in a tougher economic environment but it usually also comes back quickly.</p>
 <h2 id="upcoming-features">Upcoming features</h2>
-<p>The major features in our upcoming roadmap:</p>
+<p>The major features in our upcoming roadmap for January:</p>
 <ul>
-<li>Reworking our topic-detection infrastructure and algorithm in our server (in progress!!).</li>
-<li>Highlighting our 10% discount on ad buys over $3000 in the flight report page.</li>
-<li>Building more information about pricing into our ad server, so we can work towards automated self-serve re-up campaigns.</li>
+<li>We'll be ramping up our sales efforts in January to try to fill all of our inventory
+  and this will take significant focus.</li>
+<li>In January, we plan to allow a way for advertisers to get report data out of a continually updated
+  Google sheet in addition to our existing API.</li>
+<li>We aim to produce a content piece about the positives and negatives (but mostly positives)
+  of ad blockers and tracker blockers.
+  All of our team uses some sort of blocking technology and in many ways
+  it actually results in a better ad ecosystem.</li>
 </ul>
 <p>Thanks again for being along with us on this journey to build an ethical ad network.
 Please <a href="mailto:ads@ethicalads.io">email us</a> if you have any ideas or feedback on our product or roadmap,
@@ -174,43 +189,6 @@ we always love to hear from you.</p>
     <h3 class="mb-4">Similar posts</h3>
 
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
-        <div class="col mb-10">
-          <article class="card h-100 shadow-light-lg lift lift-lg">
-              <a href="/blog/2023/01/ethicalads-newsletter-december-2022/">
-                <img src="/images/posts/2022-december-newsletter.jpg" alt="EthicalAds Newsletter - December 2022" class="card-img-top">
-
-                <!-- Style shape to the image -->
-                <div class="position-relative">
-                  <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
-                    <svg viewBox="0 0 2880 480" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2160 0C1440 240 720 240 720 240H0v240h2880V0h-720z" fill="currentColor"/></svg>
-                  </div>
-                </div>
-              </a>
-            <a class="card-body" href="/blog/2023/01/ethicalads-newsletter-december-2022/" title="Permalink to EthicalAds Newsletter - December 2022">
-              <h3 class="card-title font-weight-light">EthicalAds Newsletter - December 2022</h3>
-
-              <p class="mb-0">New features These are the major features we released in December: We automated our training process for our ML model …</p>
-
-            </a>
-
-            <a class="card-meta mt-auto" href="/blog/2023/01/ethicalads-newsletter-december-2022/">
-
-              <!-- Divider -->
-              <hr class="card-meta-divider">
-
-              <div class="d-flex w-100">
-                <!-- Author -->
-                <div class="flex-fill h6 text-uppercase text-muted mb-0 mr-2">David Fischer</div>
-
-                <!-- Date -->
-                <div class="flex-fill h6 text-uppercase text-muted mb-0 ml-auto text-right">
-                  <time class="text-nowrap" datetime="2023-01-10T00:00:00-08:00">Jan 10, 2023</time>
-                </div>
-              </div>
-
-            </a>
-          </article>
-        </div>
         <div class="col mb-10">
           <article class="card h-100 shadow-light-lg lift lift-lg">
               <a href="/blog/2022/12/ethicalads-newsletter-november-2022/">
@@ -279,6 +257,43 @@ we always love to hear from you.</p>
                 <!-- Date -->
                 <div class="flex-fill h6 text-uppercase text-muted mb-0 ml-auto text-right">
                   <time class="text-nowrap" datetime="2022-11-08T00:00:00-08:00">Nov 8, 2022</time>
+                </div>
+              </div>
+
+            </a>
+          </article>
+        </div>
+        <div class="col mb-10">
+          <article class="card h-100 shadow-light-lg lift lift-lg">
+              <a href="/blog/2022/10/ethicalads-newsletter-september-2022/">
+                <img src="/images/posts/2022-september-newsletter.jpg" alt="EthicalAds Newsletter - September 2022" class="card-img-top">
+
+                <!-- Style shape to the image -->
+                <div class="position-relative">
+                  <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
+                    <svg viewBox="0 0 2880 480" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2160 0C1440 240 720 240 720 240H0v240h2880V0h-720z" fill="currentColor"/></svg>
+                  </div>
+                </div>
+              </a>
+            <a class="card-body" href="/blog/2022/10/ethicalads-newsletter-september-2022/" title="Permalink to EthicalAds Newsletter - September 2022">
+              <h3 class="card-title font-weight-light">EthicalAds Newsletter - September 2022</h3>
+
+              <p class="mb-0">September was a record month in terms of revenue, publisher revenue, and paid ads delivered! New features These are the …</p>
+
+            </a>
+
+            <a class="card-meta mt-auto" href="/blog/2022/10/ethicalads-newsletter-september-2022/">
+
+              <!-- Divider -->
+              <hr class="card-meta-divider">
+
+              <div class="d-flex w-100">
+                <!-- Author -->
+                <div class="flex-fill h6 text-uppercase text-muted mb-0 mr-2">David Fischer</div>
+
+                <!-- Date -->
+                <div class="flex-fill h6 text-uppercase text-muted mb-0 ml-auto text-right">
+                  <time class="text-nowrap" datetime="2022-10-12T00:00:00-07:00">Oct 12, 2022</time>
                 </div>
               </div>
 
