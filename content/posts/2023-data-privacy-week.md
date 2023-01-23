@@ -43,7 +43,7 @@ but it even allows you to allow list certain YouTube and Twitch channels to run 
 so you can support your favorite creators.
 The creators of AdBlockPlus have gone on to form the [Acceptable Ads Committee](https://acceptableads.com/about/)
 who's [Acceptable Ads Standard](https://acceptableads.com/standard/) we follow
-as EthicalAds believes in their mission of creating a sustainable and fair compromise between user preference and creator monetization.
+as EthicalAds believes in their mission of creating a sustainable compromise between user preference and creator monetization.
 
 However, by default AdBlockPlus permits "Acceptable Ads" that [use third-party tracking](https://help.getadblock.com/support/solutions/articles/6000224547-about-acceptable-ads-and-third-party-tracking/).
 The standard for an unacceptable ad is largely focused on how annoying an ad is to the user experience
