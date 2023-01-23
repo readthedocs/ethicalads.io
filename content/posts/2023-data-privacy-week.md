@@ -39,7 +39,7 @@ About as important as the browser itself, are the additional privacy add-ons
 that keep you safe from ads and trackers.
 Many people like myself used [AdBlockPlus](https://adblockplus.org/) for years without much thought.
 It's a simple, effective service which gives you control over not only which websites are allowed to show ads,
-but it even allows you to greenlist certain YouTube and Twitch channels to run their ads
+but it even allows you to allow list certain YouTube and Twitch channels to run their ads
 so you can support your favorite creators.
 The creators of AdBlockPlus have gone on to form the [Acceptable Ads Committee](https://acceptableads.com/about/)
 who's [Acceptable Ads Standard](https://acceptableads.com/standard/) we follow
