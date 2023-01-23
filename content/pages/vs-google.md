@@ -1,5 +1,5 @@
 Title: What Makes EthicalAds a Great Google AdSense Alternative
-url: alternative-to-google-ads
+slug: alternative-to-google-ads
 save_as: alternative-to-google-ads/index.html
 description: A few reasons that you should consider EthicalAds as a simple, open-source, privacy-first alternative to Google Ads
 
