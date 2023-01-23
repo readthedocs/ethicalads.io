@@ -1876,7 +1876,7 @@ Here's to many more payouts.&lt;/strong&gt;&lt;/p&gt;
 &lt;li&gt;We did some initial work on building more targeting and pricing information into our ad server.
   Specifically, having multiple preset regions and topics based on what advertisers frequently buy.&lt;/li&gt;
 &lt;li&gt;On the marketing front, we produced a page on how we are
-  &lt;a href="https://www.ethicalads.io/alternative-to-carbon-ads?ref=newsletter"&gt;different from other developer ad networks like CarbonAds&lt;/a&gt;&lt;/li&gt;
+  &lt;a href="https://www.ethicalads.io/alternative-to-carbon-ads/?ref=newsletter"&gt;different from other developer ad networks like CarbonAds&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;You can always see our latest server updates in our &lt;a href="https://ethical-ad-server.readthedocs.io/en/latest/developer/changelog.html"&gt;ethical-ad-server changelog&lt;/a&gt; and &lt;a href="https://ethical-ad-client.readthedocs.io/en/latest/changelog.html"&gt;ethical-ad-client changelog&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id="may-advertising-stats"&gt;May advertising stats&lt;/h2&gt;
@@ -2063,7 +2063,7 @@ The same can be true of software products and solutions. If a developer is using
 chances are good that they intend to utilize a cloud hosting service in the near future.
 &lt;strong&gt;User Intent&lt;/strong&gt; is the &lt;a href="https://www.crazyegg.com/blog/guide-user-intent/"&gt;greatest individual factor&lt;/a&gt; to convert a potential candidate into a paying customer.&lt;/p&gt;
 &lt;p&gt;But search engines are not the only places where software developers exhibit their intent.
-From using online tools like &lt;a href="jsbin"&gt;https://jsbin.com&lt;/a&gt; rendering their html edits in real-time to scouring package documentation to fix their latest bug,
+From using online tools like &lt;a href="https://jsbin.com"&gt;jsbin.com&lt;/a&gt; rendering their html edits in real-time to scouring package documentation to fix their latest bug,
 software developers telegraph their intentions primarily through the content that they are viewing.
 This can be numerically demonstrated in the comparison of Click through rates (CTR) on content-targeted campaigns vs non-content targeted campaigns.&lt;/p&gt;
 &lt;h2 id="what-our-data-says"&gt;What our data says&lt;/h2&gt;
