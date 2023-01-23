@@ -1,6 +1,5 @@
 Title: What Makes EthicalAds a Great Carbon Ads Alternative for Your Site
 slug: alternative-to-carbon-ads/
-save_as: alternative-to-carbon-ads/index.html
 description: How are we different? Privacy guarantees, open source code, and community-focus.
 
 We know that we are competing with a few other ad networks that focus on developers.
