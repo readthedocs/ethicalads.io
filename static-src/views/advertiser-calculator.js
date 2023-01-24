@@ -80,6 +80,18 @@ function AdvertiserCalculatorViewModel() {
     return url + "?" + searchParams.toString();
   };
 
+  this.setUrlState = function () {
+    let url = this.getUrl();
+
+    let state = {
+      "budget": this.getBudget(),
+      "region": this.selected_region(),
+      "topic": this.selected_topic(),
+    };
+
+    window.history.pushState(state, null, url);
+  };
+
   this.pricing = JSON.parse($('#data-pricing').text());
   this.regions = JSON.parse($('#data-regions').text());
   this.topics = JSON.parse($('#data-topics').text());
@@ -96,6 +108,19 @@ function AdvertiserCalculatorViewModel() {
 
   this.ctr = ko.observable(0.12);
   this.conversion_rate = ko.observable(5.0);
+
+  // On changes to the region, topic, or budget,
+  // push the state to the browser's history API
+  // This updates the URL in the URL bar without reloading the page
+  this.selected_region.subscribe(function () {
+    this.setUrlState();
+  }, this);
+  this.selected_topic.subscribe(function () {
+    this.setUrlState();
+  }, this);
+  this.budget.subscribe(function () {
+    this.setUrlState();
+  }, this);
 }
 
 
