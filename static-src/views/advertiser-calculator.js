@@ -58,7 +58,7 @@ function AdvertiserCalculatorViewModel() {
   };
 
   this.getNumImpressions = function () {
-    return this.budget() * 1000 / this.getCpm();
+    return this.budget() * 1000 / (Math.trunc(this.getCpm() * 100) / 100);
   };
 
   this.getNumClicks = function () {
