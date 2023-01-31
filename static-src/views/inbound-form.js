@@ -25,6 +25,8 @@ function AdvertiserInboundFormViewModel() {
   this.passed_region = params.get("region");
   this.passed_topic = params.get("topic");
   this.calculator_url = params.get("calculator-url");
+
+  this.referral = ko.observable();
 }
 
 
