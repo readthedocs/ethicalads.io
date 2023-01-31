@@ -434,7 +434,18 @@
 
                   <div class="form-group">
                     <label for="referral">How did you hear about us?</label>
-                    <input class="form-control" type="text" id="referral" name="referral" placeholder="Found you via a Google search for developer ads">
+                    <select class="form-control" id="referral" name="referral" data-bind="value: referral">
+                      <option value="">- We'd love to know -</option>
+                      <option value="search-engine">Search Engine / Google</option>
+                      <option value="hackernews">Hacker News</option>
+                      <option value="saw-your-ads">Saw EthicalAds on another website</option>
+                      <option value="other">Other (specify)</option>
+                    </select>
+                  </div>
+
+                  <div class="form-group" data-bind="visible: referral() == 'other'">
+                    <label for="referral-other">Please specify</label>
+                    <textarea class="form-control" id="referral-other" name="referral-other" placeholder="You were mentioned in a Twitter post"></textarea>
                   </div>
 
                   <div class="form-group">
