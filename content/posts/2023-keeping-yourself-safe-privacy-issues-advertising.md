@@ -9,7 +9,7 @@ image_credit: <span>Photo by <a href="https://unsplash.com/@jackson_893?utm_sour
 
 Many of our readers are familiar with privacy issues related to advertising.
 If you need some convincing, check out our [privacy teardown on search engines]({filename}../posts/2022-privacy-teardown-search-engines.md) from a few months ago
-comparing the big indexes against some privacy focused search engines.
+comparing the big search companies against some privacy-focused search companies.
 Nobody wants their personal information siphoned off to companies they've never heard of.
 
 We're going to highlight some other issues in the minefield that is adtech
