@@ -36,7 +36,7 @@ There's been a big uptick in this kind of advertising over the last month.
 While I expect Google and domain registrars will clamp down on the worst offenders pretty quickly,
 these kinds of issues resurface periodically both on Google and elsewhere.
 
-In mid-2018, for example, [Google kicked off some particularly egregious kinds of cryptocurrency advertisers](https://support.google.com/adspolicy/answer/7648803).
+In mid-2018, for example, [Google kicked off some cryptocurrency advertisers](https://support.google.com/adspolicy/answer/7648803) for promoting ICOs, untrusted wallets, and unlicensed option trading.
 Many of those same advertisers just went to less discerning networks to keep doing the same thing.
 Our own network had a massive uptick in prospects interested in blockchain advertising that week.
 
