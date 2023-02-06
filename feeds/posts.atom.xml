@@ -1,5 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds - posts</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/posts.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2023-01-23T00:00:00-08:00</updated><entry><title>Data Privacy Week 2023 - Privacy-first Alternatives</title><link href="https://www.ethicalads.io/blog/2023/01/data-privacy-week-2023-privacy-first-alternatives/" rel="alternate"></link><published>2023-01-23T00:00:00-08:00</published><updated>2023-01-23T00:00:00-08:00</updated><author><name>David Fischer &amp; Ra Cohen</name></author><id>tag:www.ethicalads.io,2023-01-23:/blog/2023/01/data-privacy-week-2023-privacy-first-alternatives/</id><summary type="html">&lt;p&gt;This week is Data Privacy Week!
+<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds - posts</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/posts.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2023-02-06T00:00:00-08:00</updated><entry><title>Keeping Yourself Safe from Security and Privacy Issues in Advertising</title><link href="https://www.ethicalads.io/blog/2023/02/keeping-yourself-safe-from-security-and-privacy-issues-in-advertising/" rel="alternate"></link><published>2023-02-06T00:00:00-08:00</published><updated>2023-02-06T00:00:00-08:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2023-02-06:/blog/2023/02/keeping-yourself-safe-from-security-and-privacy-issues-in-advertising/</id><summary type="html">&lt;p&gt;Many of our readers are familiar with privacy issues related to advertising.
+If you need some convincing, check out our …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Many of our readers are familiar with privacy issues related to advertising.
+If you need some convincing, check out our &lt;a href="https://www.ethicalads.io/blog/2022/10/privacy-teardown-search-engines/"&gt;privacy teardown on search engines&lt;/a&gt; from a few months ago
+comparing the big search companies against some privacy-focused search companies.
+Nobody wants their personal information siphoned off to companies they've never heard of.&lt;/p&gt;
+&lt;p&gt;We're going to highlight some other issues in the minefield that is adtech
+and we have some recommendations to keep you safe and secure.&lt;/p&gt;
+&lt;h2 id="malware-in-advertising"&gt;Malware in advertising&lt;/h2&gt;
+&lt;p&gt;The days of ad networks running scripts on behalf of advertisers
+that made cross-site scripting vulnerabilities (XSS) trivial are mostly gone.
+However, that doesn't mean that security issues around advertising have also gone the way of MySpace.&lt;/p&gt;
+&lt;p&gt;A very recent trend is malvertising: real advertisers paying to promote malware,
+ransomware, or spyware. These kinds of ads usually target people searching for software to install
+especially things like developer tools, password managers, and cryptocurrency wallets.
+In some cases, the ad landing page which serves the malware is even designed or named to mimic its real counterpart.&lt;/p&gt;
+&lt;div class="postimage text-center"&gt;
+  &lt;img class="w-50 shadow-lg" src="https://www.ethicalads.io/images/posts/2023-malvertising-on-google.png" alt="Malware being advertised ('malvertising') in Google search ads"&gt;
+  &lt;p&gt;Malware being advertised ("malvertising") in Google search ads in January 2023. &lt;br&gt;Credit: &lt;a href="https://twitter.com/malwrhunterteam/status/1616565189754900480" rel="noopener nofollow"&gt;MalwareHunterTeam on Twitter&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;There's been a big uptick in this kind of advertising over the last month.
+While I expect Google and domain registrars will clamp down on the worst offenders pretty quickly,
+these kinds of issues resurface periodically both on Google and elsewhere.&lt;/p&gt;
+&lt;p&gt;In mid-2018, for example, &lt;a href="https://support.google.com/adspolicy/answer/7648803"&gt;Google kicked off some cryptocurrency advertisers&lt;/a&gt; for promoting ICOs, untrusted wallets, and unlicensed option trading.
+Many of those same advertisers just went to less discerning networks to keep doing the same thing.
+Our own network had a massive uptick in prospects interested in blockchain advertising that week.&lt;/p&gt;
+&lt;h2 id="how-to-keep-yourself-safe"&gt;How to keep yourself safe&lt;/h2&gt;
+&lt;div class="postimage text-center"&gt;
+  &lt;img class="w-50 shadow-lg" src="https://www.ethicalads.io/images/posts/2023-ad-blocker-meme.jpg" alt="Even people working in the ad industry protect themselves"&gt;
+  &lt;p&gt;Even people working in the ad industry protect themselves. &lt;br&gt;Credit: &lt;a href="https://www.reddit.com/r/adops/comments/yrrmsn/i_feel_seen/" rel="noopener nofollow"&gt;/r/adops on Reddit&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;It might be a bit strange for an ad company like us to recommend this,
+but tracker blockers or ad blockers are a great way to keep yourself private and safe
+from malware or scams in advertising.
+Last month, we had a post for privacy week
+where we &lt;a href="https://www.ethicalads.io/blog/2023/01/data-privacy-week-2023-privacy-first-alternatives/#ad-blockers"&gt;recommended some ad and tracker blockers&lt;/a&gt;
+that we use ourselves.&lt;/p&gt;
+&lt;p&gt;We are definitely a bit biased since it doesn't block us (because we don't track you),
+but EFF's &lt;a href="https://privacybadger.org/"&gt;Privacy Badger&lt;/a&gt; is a great tracker blocker
+that works differently than most other ad blockers out there.
+While it only blocks trackers, since most ads track you, it ends up blocking a lot of ads.&lt;/p&gt;
+&lt;p&gt;A lot of yours and our favorite sites on the internet rely on ads to keep operating.
+If you're like us, you want to support them while still protecting your privacy
+and keeping yourself safe.
+Despite ad blockers and tracker blockers, EthicalAds still reaches tons of developers.&lt;/p&gt;
+&lt;div class="postimage text-center"&gt;
+  &lt;img class="w-75 shadow-lg" src="https://www.ethicalads.io/images/posts/2023-privacy-badger-notrackers.png" alt="Results of the EFF's Privacy Badger on our homepage showing no trackers"&gt;
+  &lt;p&gt;Results of the EFF's Privacy Badger on our homepage showing no trackers&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h2 id="how-ethicalads-keeps-you-safe"&gt;How EthicalAds keeps you safe&lt;/h2&gt;
+&lt;p&gt;Our biggest advantage over the big ad networks is that because we're small,
+we have a relationship with every single one of our advertisers.
+This keeps our ads relevant to software development and safe from bad actors promoting malware.
+It would be an impressive feat of social engineering to get a malware advertiser
+onto our network.&lt;/p&gt;
+&lt;p&gt;A person on our team reviews every ad for new advertisers before they go live.
+We also never run third-party code or serve advertiser hosted resources.
+Everything is hosted on our servers.
+We built this ad network to run ads on our own site Read the Docs so we completely understand
+the concerns publishers have in running ads on their sites.&lt;/p&gt;
+&lt;p&gt;The other side of this coin is that we also have also talked to and vetted every single
+one of our publishers.
+A member of our team checks every publisher site before paid ads go live.
+Advertisers care a lot about brand safety (they tell us a lot!).
+They don't want the brand they're trying to build
+being promoted next to malware or questionable content.&lt;/p&gt;
+&lt;p&gt;Both publishers and advertisers care a lot about what they're building.
+Our promise to them is that we will treat their brand the way we treat our own.&lt;/p&gt;
+&lt;p&gt;Want to advertise or host ads on a network you can trust?
+&lt;a href="https://www.ethicalads.io/contact/"&gt;Get in touch&lt;/a&gt;!&lt;/p&gt;</content><category term="posts"></category><category term="security"></category><category term="privacy"></category><category term="adblock"></category><category term="adtech"></category></entry><entry><title>Data Privacy Week 2023 - Privacy-first Alternatives</title><link href="https://www.ethicalads.io/blog/2023/01/data-privacy-week-2023-privacy-first-alternatives/" rel="alternate"></link><published>2023-01-23T00:00:00-08:00</published><updated>2023-01-23T00:00:00-08:00</updated><author><name>David Fischer &amp; Ra Cohen</name></author><id>tag:www.ethicalads.io,2023-01-23:/blog/2023/01/data-privacy-week-2023-privacy-first-alternatives/</id><summary type="html">&lt;p&gt;This week is Data Privacy Week!
 To celebrate, we're helping you take charge of your own data by sharing some …&lt;/p&gt;</summary><content type="html">&lt;p&gt;This week is Data Privacy Week!
 To celebrate, we're helping you take charge of your own data by sharing some of our favorite privacy-first services.&lt;/p&gt;
 &lt;h2 id="web-browsers"&gt;Web Browsers&lt;/h2&gt;
@@ -506,7 +577,7 @@ In this privacy teardown …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Do
 What about search engines that claim not to track you?
 In this privacy teardown, we use off-the-shelf tools, data,
 and methods to see how traditional and more privacy-focused search engines treat and share your data.&lt;/p&gt;
-&lt;p&gt;&lt;a href="#results"&gt;Skip to the results!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="#results"&gt;Skip to the results&lt;/a&gt; or skip to our &lt;a href="https://www.ethicalads.io/blog/2022/11/best-search-engines-for-your-privacy/"&gt;follow-up post with recommendations&lt;/a&gt;!&lt;/p&gt;
 &lt;h2 id="methodology"&gt;Methodology&lt;/h2&gt;
 &lt;p&gt;We selected the largest traditional search engines Google and Bing as well as a few more privacy-minded search engines like DuckDuckGo, Brave Search, Mojeek and You.com to see how they stack up and whether there was any measurable differences we could see in their data sharing (Mojeek and You.com have advertised with EthicalAds in the past but did not take part in this post).&lt;/p&gt;
 &lt;p&gt;For tools, we used a number of off-the-shelf tools and data sources:&lt;/p&gt;

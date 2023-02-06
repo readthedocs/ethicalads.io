@@ -4,18 +4,18 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 <meta name="generator" content="Pelican" />
-<meta property="og:site_name" content="EthicalAds"/><meta name="description" content="Ad blocking serves a legitimate goal of limiting the downsides of invasive ads. This post details ad blocking&#39;s effect on Read the Docs." />
-    <meta property="og:description" content="Ad blocking serves a legitimate goal of limiting the downsides of invasive ads. This post details ad blocking&#39;s effect on Read the Docs." /><meta name="tags" content="adblock" /><meta name="tags" content="readthedocs" /><meta name="author" content="David Fischer" /><meta property="og:type" content="article">
-  <meta property="og:title" content="Ads and Ad blockers" />
-  <meta property="twitter:title" content="Ads and Ad blockers" /><meta property="og:image" content="https://www.ethicalads.io/images/posts/2018-adblocking.png" />
-    <meta property="twitter:image" content="https://www.ethicalads.io/images/posts/2018-adblocking.png" /><meta property="article:published_time" content="2018-05-02" />
+<meta property="og:site_name" content="EthicalAds"/><meta name="description" content="The adtech landscape is a minefield of privacy issues, malware, and bad actors. While we&#39;re an ad company, we have tips to keep you safe from the worst of it." />
+    <meta property="og:description" content="The adtech landscape is a minefield of privacy issues, malware, and bad actors. While we&#39;re an ad company, we have tips to keep you safe from the worst of it." /><meta name="tags" content="security" /><meta name="tags" content="privacy" /><meta name="tags" content="adblock" /><meta name="tags" content="adtech" /><meta name="author" content="David Fischer" /><meta property="og:type" content="article">
+  <meta property="og:title" content="Keeping Yourself Safe from Security and Privacy Issues in Advertising" />
+  <meta property="twitter:title" content="Keeping Yourself Safe from Security and Privacy Issues in Advertising" /><meta property="og:image" content="https://www.ethicalads.io/images/posts/2023-malware-advertising-protect-yourself.jpg" />
+    <meta property="twitter:image" content="https://www.ethicalads.io/images/posts/2023-malware-advertising-protect-yourself.jpg" /><meta property="article:published_time" content="2023-02-06" />
       <!-- Bootstrap CSS -->
       <link rel="stylesheet" href="/theme/dist/main.css">
 
-      <title>Ads and Ad blockers - EthicalAds</title>
+      <title>Keeping Yourself Safe from Security and Privacy Issues in Advertising - EthicalAds</title>
 
-  <link rel="canonical" href="https://www.ethicalads.io/blog/2018/05/ads-and-ad-blockers/" />
-  <meta property="og:url" content="https://www.ethicalads.io/blog/2018/05/ads-and-ad-blockers/" />
+  <link rel="canonical" href="https://www.ethicalads.io/blog/2023/02/keeping-yourself-safe-from-security-and-privacy-issues-in-advertising/" />
+  <meta property="og:url" content="https://www.ethicalads.io/blog/2023/02/keeping-yourself-safe-from-security-and-privacy-issues-in-advertising/" />
 
       <!-- Feeds -->
         <link href="https://www.ethicalads.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="EthicalAds Full Atom Feed" />
@@ -95,7 +95,7 @@
   <div class="row justify-content-center">
     <div class="col-12 col-md-10 col-lg-9 col-xl-8">
       <!-- Heading -->
-      <h1 class="display-4">Ads and Ad blockers</h1>
+      <h1 class="display-4">Keeping Yourself Safe from Security and Privacy Issues in Advertising</h1>
 
       <!-- Meta -->
       <div class="row align-items-center py-5 border-top border-bottom">
@@ -107,7 +107,7 @@
 
             <!-- Date -->
             <div class="flex-fill h6 text-uppercase text-muted mb-0 ml-auto text-right">
-              <time class="text-nowrap" datetime="2018-05-02T00:00:00-07:00">May 2, 2018</time>
+              <time class="text-nowrap" datetime="2023-02-06T00:00:00-08:00">Feb 6, 2023</time>
             </div>
           </div>
         </div>
@@ -118,108 +118,85 @@
         <figure class="figure mb-7">
 
           <!-- Image -->
-          <img class="figure-img img-fluid rounded" src="/images/posts/2018-adblocking.png" alt="Ads and Ad blockers">
+          <img class="figure-img img-fluid rounded" src="/images/posts/2023-malware-advertising-protect-yourself.jpg" alt="Keeping Yourself Safe from Security and Privacy Issues in Advertising">
 
           <!-- Caption -->
+        <figcaption class="figure-caption text-center"><small><span>Photo by <a href="https://unsplash.com/@jackson_893?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Michael Geiger</a> on <a href="https://unsplash.com/photos/JJPqavJBy_k?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span></small></figcaption>
 
         </figure>
 
       <div>
-        <blockquote>
-<p>This post first appeared
-on the <a href="https://blog.readthedocs.com/ads-and-adblocking/">Read the Docs company blog</a></p>
-</blockquote>
-<p>Last time, we shared how
-<a href="https://www.ethicalads.io/blog/2018/04/ethical-advertising-works/">ethical advertising works</a>
-to keep Read the Docs sustainable without creepy ad
-targeting. This time, we will share about one of our biggest challenges
-with advertising. At the beginning of April, Read the Docs was added to
-one of the most popular ad block lists: the
-<a href="https://easylist.to/">Easylist</a>.</p>
-<h2 id="ad-blocker-fallout">Ad blocker fallout</h2>
-<p><img src="https://www.ethicalads.io/images/posts/2018-readthedocs-adblocker-fallout.png" class="mw-100" alt="Effect of ad blocking on Read the Docs ad views"></p>
-<p>Getting added to the EasyList had a significant and immediate impact on
-the bottom line at Read the Docs. Right around April 1, <strong>32% of our ad
-views simply vanished</strong>. At first, we thought we had done something
-horribly wrong but then we discovered that this was due entirely to ad
-blocking. Our actual traffic wasn't down at all.</p>
-<p>Users' browsers were simply downloading the updated EasyList which
-blocked ads on Read the Docs. In terms of ad viewership, weekdays --
-our busiest days and the peaks in the graph -- became more like weekends
-and weekends fell off a cliff. We had always guessed what percentage of
-our user base ran ad blockers. Now we know. We knew this day would come
-as we became more successful but we had hoped it was a ways off
-considering we weren't part of a large ad network.</p>
-<p>This directly affected our operations and staff. Our operating costs
-didn't go down in any significant way, but revenue sure did.
-Advertising is by far the largest source of revenue at Read the Docs and
-it just dropped by about a third. This meant that we had to cut some
-costs where we could and slow down some hiring plans. While Read the
-Docs is not a non-profit company, all the revenue is reinvested into the
-project itself, paying maintainers, and other places in the open source
-ecosystem. The situation is not dire by any means, but it was certainly
-disappointing that we ended up on the same list with popup advertisers
-who couldn't care less about privacy.</p>
-<h2 id="all-about-ad-blockers">All about ad blockers</h2>
-<p>Ad blockers fulfill a legitimate need to mitigate the <a href="https://docs.readthedocs.io/en/latest/ethical-advertising.html">significant
-downsides of
-advertising</a>
-from tracking across the internet, security implications of third-party
-code, and impacting the UX and performance of sites.</p>
-<p>At Read the Docs, we specifically didn't want those things. That's why
-we built the ad network we wanted to exist with only relevant ads and no
-creepy behavioral targeting.</p>
-<p>According to a <a href="https://pagefair.com/downloads/2017/01/PageFair-2017-Adblock-Report.pdf">2017 report from
-PageFair</a>
-(pdf), a company that specializes in quantifying ad blocking, 11% of
-global web users run an ad blocker. Considering that Read the Docs'
-core audience is tech-savvy, privacy-conscious developers, it should be
-no surprise that our number is higher.</p>
-<h2 id="what-are-we-doing-about-it">What are we doing about it</h2>
-<p>It will be an uphill battle to get back to where we were in terms of
-revenue and sustaining Read the Docs, here are a few things we are
-working on:</p>
-<ul>
-<li>We applied to the <a href="https://acceptableads.com/">acceptable ads</a> list,
-    an ad block list enabled on many ad blockers by default that enables
-    some unobtrusive advertising. We are very hopeful here but it does
-    take quite a bit longer to get on this list than it does to get
-    blocked.</li>
-<li>Nagging users into allowing ads on Read the Docs. We are envisioning
-    more of a polite nag in a similar vein to
-    <a href="https://jsfiddle.net/">jsfiddle</a> rather than an \"adblock wall\"
-    which prevents usage of Read the Docs until it's allowed.</li>
-<li>Blogging and raising awareness of how ad blocking affects us and
-    other open source projects.</li>
-</ul>
-<p>While we could simply change our CSS and ad API to avoid blocking since
-we host our ads ourselves, we decided not to engage in a cat and mouse
-game since this work would not benefit users.</p>
-<p>Advertising funds much of the web and many people recognize that while
-there are plenty of bad actors in the ad industry -- think pop-under ad
-networks or ads that navigate your browser for you -- some advertising
-is necessary to power the web we know and love especially when it comes
-to open source software which has <a href="https://www.fordfoundation.org/library/reports-and-studies/roads-and-bridges-the-unseen-labor-behind-our-digital-infrastructure/">unique funding
-challenges</a>.</p>
-<p><strong>Update</strong>: On May 4th, Read the Docs was added to the acceptable ads
-list! We will collect data over the next couple weeks and have a
-follow-up post on what effects this had on advertising.</p>
-<h2 id="open-source-advertising-list">Open source advertising list</h2>
-<p>At Read the Docs, we also discovered that we are not the only open
-source project that got our advertising blocked by ad blockers. Many
-open source projects that fund themselves through advertising get
-blocked and some of them don't have the resources to navigate the
-acceptable ads program or understand the inner workings of ad blockers.</p>
-<p>Likewise, some web users may not want to allow all acceptable ads which
-includes many ads from the big networks but we are hoping they would be
-willing to accept ads that benefit their community of software
-developers.</p>
-<p>We are launching a <strong>new initiative</strong> to <a href="https://ads-for-open-source.readthedocs.io">allow advertising that
-benefits open source
-software</a>. We encourage you
-to subscribe to the this list and support open source. If you run an
-open source project affected by ad blockers, we would love to help you
-too.</p>
+        <p>Many of our readers are familiar with privacy issues related to advertising.
+If you need some convincing, check out our <a href="https://www.ethicalads.io/blog/2022/10/privacy-teardown-search-engines/">privacy teardown on search engines</a> from a few months ago
+comparing the big search companies against some privacy-focused search companies.
+Nobody wants their personal information siphoned off to companies they've never heard of.</p>
+<p>We're going to highlight some other issues in the minefield that is adtech
+and we have some recommendations to keep you safe and secure.</p>
+<h2 id="malware-in-advertising">Malware in advertising</h2>
+<p>The days of ad networks running scripts on behalf of advertisers
+that made cross-site scripting vulnerabilities (XSS) trivial are mostly gone.
+However, that doesn't mean that security issues around advertising have also gone the way of MySpace.</p>
+<p>A very recent trend is malvertising: real advertisers paying to promote malware,
+ransomware, or spyware. These kinds of ads usually target people searching for software to install
+especially things like developer tools, password managers, and cryptocurrency wallets.
+In some cases, the ad landing page which serves the malware is even designed or named to mimic its real counterpart.</p>
+<div class="postimage text-center">
+  <img class="w-50 shadow-lg" src="https://www.ethicalads.io/images/posts/2023-malvertising-on-google.png" alt="Malware being advertised ('malvertising') in Google search ads">
+  <p>Malware being advertised ("malvertising") in Google search ads in January 2023. <br>Credit: <a href="https://twitter.com/malwrhunterteam/status/1616565189754900480" rel="noopener nofollow">MalwareHunterTeam on Twitter</a></p>
+</div>
+
+<p>There's been a big uptick in this kind of advertising over the last month.
+While I expect Google and domain registrars will clamp down on the worst offenders pretty quickly,
+these kinds of issues resurface periodically both on Google and elsewhere.</p>
+<p>In mid-2018, for example, <a href="https://support.google.com/adspolicy/answer/7648803">Google kicked off some cryptocurrency advertisers</a> for promoting ICOs, untrusted wallets, and unlicensed option trading.
+Many of those same advertisers just went to less discerning networks to keep doing the same thing.
+Our own network had a massive uptick in prospects interested in blockchain advertising that week.</p>
+<h2 id="how-to-keep-yourself-safe">How to keep yourself safe</h2>
+<div class="postimage text-center">
+  <img class="w-50 shadow-lg" src="https://www.ethicalads.io/images/posts/2023-ad-blocker-meme.jpg" alt="Even people working in the ad industry protect themselves">
+  <p>Even people working in the ad industry protect themselves. <br>Credit: <a href="https://www.reddit.com/r/adops/comments/yrrmsn/i_feel_seen/" rel="noopener nofollow">/r/adops on Reddit</a></p>
+</div>
+
+<p>It might be a bit strange for an ad company like us to recommend this,
+but tracker blockers or ad blockers are a great way to keep yourself private and safe
+from malware or scams in advertising.
+Last month, we had a post for privacy week
+where we <a href="https://www.ethicalads.io/blog/2023/01/data-privacy-week-2023-privacy-first-alternatives/#ad-blockers">recommended some ad and tracker blockers</a>
+that we use ourselves.</p>
+<p>We are definitely a bit biased since it doesn't block us (because we don't track you),
+but EFF's <a href="https://privacybadger.org/">Privacy Badger</a> is a great tracker blocker
+that works differently than most other ad blockers out there.
+While it only blocks trackers, since most ads track you, it ends up blocking a lot of ads.</p>
+<p>A lot of yours and our favorite sites on the internet rely on ads to keep operating.
+If you're like us, you want to support them while still protecting your privacy
+and keeping yourself safe.
+Despite ad blockers and tracker blockers, EthicalAds still reaches tons of developers.</p>
+<div class="postimage text-center">
+  <img class="w-75 shadow-lg" src="https://www.ethicalads.io/images/posts/2023-privacy-badger-notrackers.png" alt="Results of the EFF's Privacy Badger on our homepage showing no trackers">
+  <p>Results of the EFF's Privacy Badger on our homepage showing no trackers</p>
+</div>
+
+<h2 id="how-ethicalads-keeps-you-safe">How EthicalAds keeps you safe</h2>
+<p>Our biggest advantage over the big ad networks is that because we're small,
+we have a relationship with every single one of our advertisers.
+This keeps our ads relevant to software development and safe from bad actors promoting malware.
+It would be an impressive feat of social engineering to get a malware advertiser
+onto our network.</p>
+<p>A person on our team reviews every ad for new advertisers before they go live.
+We also never run third-party code or serve advertiser hosted resources.
+Everything is hosted on our servers.
+We built this ad network to run ads on our own site Read the Docs so we completely understand
+the concerns publishers have in running ads on their sites.</p>
+<p>The other side of this coin is that we also have also talked to and vetted every single
+one of our publishers.
+A member of our team checks every publisher site before paid ads go live.
+Advertisers care a lot about brand safety (they tell us a lot!).
+They don't want the brand they're trying to build
+being promoted next to malware or questionable content.</p>
+<p>Both publishers and advertisers care a lot about what they're building.
+Our promise to them is that we will treat their brand the way we treat our own.</p>
+<p>Want to advertise or host ads on a network you can trust?
+<a href="https://www.ethicalads.io/contact/">Get in touch</a>!</p>
       </div>
 
     </div>
@@ -238,35 +215,8 @@ too.</p>
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
         <div class="col mb-10">
           <article class="card h-100 shadow-light-lg lift lift-lg">
-            <a class="card-body" href="/blog/2018/05/update-on-ad-blocking-and-acceptable-ads/" title="Permalink to Update on Ad Blocking and Acceptable Ads">
-              <h3 class="card-title font-weight-light">Update on Ad Blocking and Acceptable Ads</h3>
-
-              <p class="mb-0">This post first appeared on the Read the Docs company blog A few weeks ago, we shared about the challenge …</p>
-
-            </a>
-
-            <a class="card-meta mt-auto" href="/blog/2018/05/update-on-ad-blocking-and-acceptable-ads/">
-
-              <!-- Divider -->
-              <hr class="card-meta-divider">
-
-              <div class="d-flex w-100">
-                <!-- Author -->
-                <div class="flex-fill h6 text-uppercase text-muted mb-0 mr-2">David Fischer</div>
-
-                <!-- Date -->
-                <div class="flex-fill h6 text-uppercase text-muted mb-0 ml-auto text-right">
-                  <time class="text-nowrap" datetime="2018-05-21T00:00:00-07:00">May 21, 2018</time>
-                </div>
-              </div>
-
-            </a>
-          </article>
-        </div>
-        <div class="col mb-10">
-          <article class="card h-100 shadow-light-lg lift lift-lg">
-              <a href="/blog/2023/02/keeping-yourself-safe-from-security-and-privacy-issues-in-advertising/">
-                <img src="/images/posts/2023-malware-advertising-protect-yourself.jpg" alt="Keeping Yourself Safe from Security and Privacy Issues in Advertising" class="card-img-top">
+              <a href="/blog/2022/09/watch-out-ad-scammers-are-impersonating-open-source-devs/">
+                <img src="/images/posts/2022-stopping-ad-fraud.jpg" alt="Watch Out: Ad Scammers are Impersonating Open Source Devs" class="card-img-top">
 
                 <!-- Style shape to the image -->
                 <div class="position-relative">
@@ -275,14 +225,14 @@ too.</p>
                   </div>
                 </div>
               </a>
-            <a class="card-body" href="/blog/2023/02/keeping-yourself-safe-from-security-and-privacy-issues-in-advertising/" title="Permalink to Keeping Yourself Safe from Security and Privacy Issues in Advertising">
-              <h3 class="card-title font-weight-light">Keeping Yourself Safe from Security and Privacy Issues in Advertising</h3>
+            <a class="card-body" href="/blog/2022/09/watch-out-ad-scammers-are-impersonating-open-source-devs/" title="Permalink to Watch Out: Ad Scammers are Impersonating Open Source Devs">
+              <h3 class="card-title font-weight-light">Watch Out: Ad Scammers are Impersonating Open Source Devs</h3>
 
-              <p class="mb-0">Many of our readers are familiar with privacy issues related to advertising. If you need some convincing, check out our …</p>
+              <p class="mb-0">As we mentioned in our newsletter recently, EthicalAds was targeted by an ad scam ring. Fortunately, we were able to …</p>
 
             </a>
 
-            <a class="card-meta mt-auto" href="/blog/2023/02/keeping-yourself-safe-from-security-and-privacy-issues-in-advertising/">
+            <a class="card-meta mt-auto" href="/blog/2022/09/watch-out-ad-scammers-are-impersonating-open-source-devs/">
 
               <!-- Divider -->
               <hr class="card-meta-divider">
@@ -293,7 +243,7 @@ too.</p>
 
                 <!-- Date -->
                 <div class="flex-fill h6 text-uppercase text-muted mb-0 ml-auto text-right">
-                  <time class="text-nowrap" datetime="2023-02-06T00:00:00-08:00">Feb 6, 2023</time>
+                  <time class="text-nowrap" datetime="2022-09-20T00:00:00-07:00">Sep 20, 2022</time>
                 </div>
               </div>
 
@@ -302,8 +252,8 @@ too.</p>
         </div>
         <div class="col mb-10">
           <article class="card h-100 shadow-light-lg lift lift-lg">
-              <a href="/blog/2020/07/advertising-update-and-open-sourcing-our-ad-server/">
-                <img src="/images/posts/2020-ethicalads-opensource.png" alt="Advertising update and open sourcing our ad server" class="card-img-top">
+              <a href="/blog/2023/01/data-privacy-week-2023-privacy-first-alternatives/">
+                <img src="/images/posts/data-privacy-day-2022.jpg" alt="Data Privacy Week 2023 - Privacy-first Alternatives" class="card-img-top">
 
                 <!-- Style shape to the image -->
                 <div class="position-relative">
@@ -312,14 +262,51 @@ too.</p>
                   </div>
                 </div>
               </a>
-            <a class="card-body" href="/blog/2020/07/advertising-update-and-open-sourcing-our-ad-server/" title="Permalink to Advertising update and open sourcing our ad server">
-              <h3 class="card-title font-weight-light">Advertising update and open sourcing our ad server</h3>
+            <a class="card-body" href="/blog/2023/01/data-privacy-week-2023-privacy-first-alternatives/" title="Permalink to Data Privacy Week 2023 - Privacy-first Alternatives">
+              <h3 class="card-title font-weight-light">Data Privacy Week 2023 - Privacy-first Alternatives</h3>
 
-              <p class="mb-0">This post first appeared on the Read the Docs company blog It&#39;s been a while since our last advertising update …</p>
+              <p class="mb-0">This week is Data Privacy Week! To celebrate, we&#39;re helping you take charge of your own data by sharing some …</p>
 
             </a>
 
-            <a class="card-meta mt-auto" href="/blog/2020/07/advertising-update-and-open-sourcing-our-ad-server/">
+            <a class="card-meta mt-auto" href="/blog/2023/01/data-privacy-week-2023-privacy-first-alternatives/">
+
+              <!-- Divider -->
+              <hr class="card-meta-divider">
+
+              <div class="d-flex w-100">
+                <!-- Author -->
+                <div class="flex-fill h6 text-uppercase text-muted mb-0 mr-2">David Fischer & Ra Cohen</div>
+
+                <!-- Date -->
+                <div class="flex-fill h6 text-uppercase text-muted mb-0 ml-auto text-right">
+                  <time class="text-nowrap" datetime="2023-01-23T00:00:00-08:00">Jan 23, 2023</time>
+                </div>
+              </div>
+
+            </a>
+          </article>
+        </div>
+        <div class="col mb-10">
+          <article class="card h-100 shadow-light-lg lift lift-lg">
+              <a href="/blog/2022/10/privacy-teardown-search-engines/">
+                <img src="/images/posts/2022-privacy-teardown-search-engines.png" alt="Privacy Teardown: Search Engines" class="card-img-top">
+
+                <!-- Style shape to the image -->
+                <div class="position-relative">
+                  <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
+                    <svg viewBox="0 0 2880 480" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2160 0C1440 240 720 240 720 240H0v240h2880V0h-720z" fill="currentColor"/></svg>
+                  </div>
+                </div>
+              </a>
+            <a class="card-body" href="/blog/2022/10/privacy-teardown-search-engines/" title="Permalink to Privacy Teardown: Search Engines">
+              <h3 class="card-title font-weight-light">Privacy Teardown: Search Engines</h3>
+
+              <p class="mb-0">Do search engines really track you? What about search engines that claim not to track you? In this privacy teardown …</p>
+
+            </a>
+
+            <a class="card-meta mt-auto" href="/blog/2022/10/privacy-teardown-search-engines/">
 
               <!-- Divider -->
               <hr class="card-meta-divider">
@@ -330,7 +317,7 @@ too.</p>
 
                 <!-- Date -->
                 <div class="flex-fill h6 text-uppercase text-muted mb-0 ml-auto text-right">
-                  <time class="text-nowrap" datetime="2020-07-01T00:00:00-07:00">Jul 1, 2020</time>
+                  <time class="text-nowrap" datetime="2022-10-04T00:00:00-07:00">Oct 4, 2022</time>
                 </div>
               </div>
 
