@@ -11,7 +11,7 @@ What about search engines that claim not to track you?
 In this privacy teardown, we use off-the-shelf tools, data,
 and methods to see how traditional and more privacy-focused search engines treat and share your data.
 
-<a href="#results">Skip to the results!</a>
+<a href="#results">Skip to the results</a> or skip to our [follow-up post with recommendations]({filename}../posts/2022-best-search-engines-for-your-privacy.md)!
 
 ## Methodology
 
