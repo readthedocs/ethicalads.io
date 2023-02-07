@@ -105,6 +105,13 @@ This keeps your measurements simple and lets you easily compare the conversions
 you're seeing from us against other networks you're using.
 We are confident in our performance and know the results will speak for themselves.
 
+We also have a few variables you can use in your landing page links
+in order to capture data about the publisher where the ad was clicked or the specific advertisement.
+For example, using the landing page link below would let you measure EthicalAds as a whole
+as well as different publishers and specific ad creatives:
+
+    https://example.com?utm_medium=cpc&utm_source=ethicalads&utm_campaign=${advertisement}&utm_content=${publisher}
+
 Our advertiser platform will measure all performance metrics before a user clicks-through
 to your landing page like the number of impressions and click-through rate (CTR) your ads receive.
 
