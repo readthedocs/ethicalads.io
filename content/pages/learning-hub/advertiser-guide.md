@@ -100,7 +100,7 @@ but it's worth trying more focused variations as well.
 ## Measuring conversions
 
 Rather than using pixels or beacons which are frequently blocked by ad or tracker blockers,
-we recommend adding UTM or other parameters to your landing page links.
+we recommend adding UTM parameters to your landing page links.
 This keeps your measurements simple and lets you easily compare the actual conversions
 you're seeing from us against any other network where your ads are running.
 We are confident in our performance and think you'll see the results speak for themselves.
