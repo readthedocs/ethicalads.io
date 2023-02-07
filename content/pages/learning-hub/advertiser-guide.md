@@ -101,9 +101,9 @@ but it's worth trying more focused variations as well.
 
 Rather than using pixels or beacons which are frequently blocked by ad or tracker blockers,
 we recommend adding UTM parameters to your landing page links.
-This keeps your measurements simple and lets you easily compare the actual conversions
-you're seeing from us against any other network where your ads are running.
-We are confident in our performance and think you'll see the results speak for themselves.
+This keeps your measurements simple and lets you easily compare the conversions
+you're seeing from us against other networks you're using.
+We are confident in our performance and know the results will speak for themselves.
 
 Our advertiser platform will measure all performance metrics before a user clicks-through
 to your landing page like the number of impressions and click-through rate your ads receive.
