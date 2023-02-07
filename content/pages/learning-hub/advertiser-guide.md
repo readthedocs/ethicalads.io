@@ -106,7 +106,11 @@ you're seeing from us against other networks you're using.
 We are confident in our performance and know the results will speak for themselves.
 
 We also have a few variables you can use in your landing page links
-in order to capture data about the publisher where the ad was clicked or the specific advertisement.
+in order to capture data about the publisher where the ad was clicked or the specific advertisement:
+
+* `${publisher}` is used to insert the name of the publisher
+* `${advertisement}` is used to insert the name of the ad that was served
+
 For example, using the landing page link below would let you measure EthicalAds as a whole
 as well as different publishers and specific ad creatives:
 
