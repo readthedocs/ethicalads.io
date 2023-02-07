@@ -106,7 +106,7 @@ you're seeing from us against other networks you're using.
 We are confident in our performance and know the results will speak for themselves.
 
 Our advertiser platform will measure all performance metrics before a user clicks-through
-to your landing page like the number of impressions and click-through rate your ads receive.
+to your landing page like the number of impressions and click-through rate (CTR) your ads receive.
 
 
 ## Optimizing conversions
