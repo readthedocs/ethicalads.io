@@ -113,6 +113,7 @@ see our <a href="https://www.ethicalads.io/prospectus/ad-specs.pdf">ad design sp
 <li><a href="#recommended-ad-images">Recommended ad images</a></li>
 </ul>
 </li>
+<li><a href="#measuring-conversions">Measuring conversions</a></li>
 <li><a href="#optimizing-conversions">Optimizing conversions</a><ul>
 <li><a href="#pair-ad-copy-with-the-landing-page">Pair ad copy with the landing page</a></li>
 <li><a href="#set-expectations-with-the-ad">Set expectations with the ad</a></li>
@@ -187,6 +188,26 @@ without providing any new images, information, or offers.
 </ul>
 <p>Our <a href="#saas-product">SaaS product example</a> example shows a good combination of this approach,
 but it's worth trying more focused variations as well.</p>
+<h2 id="measuring-conversions">Measuring conversions</h2>
+<p>Rather than using pixels or beacons which are frequently blocked by ad or tracker blockers,
+we recommend adding UTM parameters to your landing page links.
+This keeps your measurements simple and lets you easily compare the conversions
+you're seeing from us against other networks you're using.
+We are confident in our performance and know the results will speak for themselves.</p>
+<p>We also have a few variables you can use in your landing page links
+in order to capture data about the publisher where the ad was clicked or the specific advertisement:</p>
+<ul>
+<li><code>${publisher}</code> is used to insert the name of the publisher</li>
+<li><code>${advertisement}</code> is used to insert the name of the ad that was served</li>
+</ul>
+<p>For example, using the landing page link below would let you measure EthicalAds as a whole
+as well as different publishers and specific ad creatives:</p>
+<div class="highlight"><pre><span></span>  https://example.com?utm_medium=cpc<span class="err">&amp;</span>utm_source=ethicalads<span class="err">&amp;</span>utm_campaign=<span class="cp">${</span><span class="n">advertisement</span><span class="cp">}</span><span class="err">&amp;</span>utm_content=<span class="cp">${</span><span class="n">publisher</span><span class="cp">}</span>
+</pre></div>
+
+
+<p>Our advertiser platform will measure all performance metrics before a user clicks-through
+to your landing page like the number of impressions and click-through rate (CTR) your ads receive.</p>
 <h2 id="optimizing-conversions">Optimizing conversions</h2>
 <p>Having developers click on your ad is only half the battle.
 Once users arrive at your landing page,
@@ -210,7 +231,7 @@ with our in-depth guidance:</p>
 <li><strong>Initial audit</strong>: Before your campaign launches we look over your ads and give ideas for ad iterations based on what we've seen work in the past.</li>
 <li><strong>Two-week check in</strong>: After we get click-through data on your ad variations, we conduct additional analysis to recommend which ads to disable, and new iterations of your highest performing ads.</li>
 <li><strong>Campaign Wrapup</strong>: At the end of your campaign, we will share an analysis of how your campaign performed overall, and suggestions for next steps to continue iterating on your marketing goals.</li>
-<li><strong>Video Overviews</strong>: For campaigns over $5,000/mo, we provide custom video reports of your campaign that walk through your performance and any additional feedback that we have on your campaign. </li>
+<li><strong>Video Overviews</strong>: For campaigns over $5,000/mo, we provide custom video reports of your campaign that walk through your performance and any additional feedback that we have on your campaign.</li>
 </ul>
 <p>We are also available at any time during your campaign for feedback and suggestions on how to tweak your campaign to improve performance,
 along with our proactive outreach.</p>
