@@ -96,6 +96,30 @@ In terms of high-performing ad images we have a few recommendations:
 Our [SaaS product example](#saas-product) example shows a good combination of this approach,
 but it's worth trying more focused variations as well.
 
+
+## Measuring conversions
+
+Rather than using pixels or beacons which are frequently blocked by ad or tracker blockers,
+we recommend adding UTM parameters to your landing page links.
+This keeps your measurements simple and lets you easily compare the conversions
+you're seeing from us against other networks you're using.
+We are confident in our performance and know the results will speak for themselves.
+
+We also have a few variables you can use in your landing page links
+in order to capture data about the publisher where the ad was clicked or the specific advertisement:
+
+* `${publisher}` is used to insert the name of the publisher
+* `${advertisement}` is used to insert the name of the ad that was served
+
+For example, using the landing page link below would let you measure EthicalAds as a whole
+as well as different publishers and specific ad creatives:
+
+    https://example.com?utm_medium=cpc&utm_source=ethicalads&utm_campaign=${advertisement}&utm_content=${publisher}
+
+Our advertiser platform will measure all performance metrics before a user clicks-through
+to your landing page like the number of impressions and click-through rate (CTR) your ads receive.
+
+
 ## Optimizing conversions
 
 Having developers click on your ad is only half the battle.
@@ -127,7 +151,7 @@ with our in-depth guidance:
 * **Initial audit**: Before your campaign launches we look over your ads and give ideas for ad iterations based on what we've seen work in the past.
 * **Two-week check in**: After we get click-through data on your ad variations, we conduct additional analysis to recommend which ads to disable, and new iterations of your highest performing ads.
 * **Campaign Wrapup**: At the end of your campaign, we will share an analysis of how your campaign performed overall, and suggestions for next steps to continue iterating on your marketing goals.
-* **Video Overviews**: For campaigns over $5,000/mo, we provide custom video reports of your campaign that walk through your performance and any additional feedback that we have on your campaign. 
+* **Video Overviews**: For campaigns over $5,000/mo, we provide custom video reports of your campaign that walk through your performance and any additional feedback that we have on your campaign.
 
 We are also available at any time during your campaign for feedback and suggestions on how to tweak your campaign to improve performance,
 along with our proactive outreach.
