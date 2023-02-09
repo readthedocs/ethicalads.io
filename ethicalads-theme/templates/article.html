@@ -66,7 +66,23 @@
 
   <div class="container">
 
-    <h3 class="mb-4">Similar posts</h3>
+    <h3 class="mb-4">Want posts like these in your inbox?</h3>
+
+    <form class="validate" action="https://ethicalads.us17.list-manage.com/subscribe/post?u=ca5e74de3ea2867d373058271&amp;id=5746f18bb8" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+      <div class="form-row">
+        <div class="col-8">
+          <input type="email" class="form-control form-control-sm required" name="EMAIL" id="mce-EMAIL" placeholder="you@domain.com" required>
+        </div>
+        <div class="col-4">
+          <button class="btn btn-sm btn-primary" type="submit">Subscribe</button>
+        </div>
+      </div>
+      <div class="d-none" aria-hidden="true"><input type="text" name="b_ca5e74de3ea2867d373058271_5746f18bb8" tabindex="-1" value=""></div>
+
+      <small class="form-text text-muted">Your email, after you confirm it, will be stored with Mailchimp who handles this newsletter</small>
+    </form>
+
+    <h3 class="mb-4 mt-6">Similar posts</h3>
 
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
       {% for related_article in article.related_posts %}
