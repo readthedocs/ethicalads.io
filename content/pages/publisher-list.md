@@ -1,4 +1,4 @@
-Title: Publisher list 
+Title: Publisher list
 url: publishers/list/
 save_as: publishers/list/index.html
 description: A curated selection of our publishers that exemplify each of our topics.

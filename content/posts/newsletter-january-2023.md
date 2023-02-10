@@ -14,7 +14,7 @@ These are the major features we released in January:
 
 * We made numerous reporting and performance improvements
   to our advertiser and publisher platform.
-* Our ML model has been updated to improve performance. It has also been migrated into its own private repository, so that we can iterate on it without compromising data privacy of our users. 
+* Our ML model has been updated to improve performance. It has also been migrated into its own private repository, so that we can iterate on it without compromising data privacy of our users.
 * We got a couple content pieces out on [Privacy Week 2023]({filename}../posts/2023-data-privacy-week.md)
   and on [protecting yourself from security and privacy issues on big ad networks](#).
 

@@ -2,7 +2,7 @@ Title: A new approach to content-based targeting for advertising
 Date: November 7, 2022
 description: Content-based targeting allows us to provide great ad targeting without the privacy downsides of user-based tracking
 tags: content-targeting, advertisers
-authors: Eric Holscher 
+authors: Eric Holscher
 image: /images/posts/2022-bullseye.jpg
 image_credit: <span>Photo by <a href="https://unsplash.com/@silvanarnet?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Silvan Arnet</a> on <a href="https://unsplash.com/s/photos/bullseye?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>
 
@@ -48,7 +48,7 @@ It had a few drawbacks though:
 
 We wanted to build a more robust solution that was able to understand a lot more about each page.
 
-### The solution: machine learning 
+### The solution: machine learning
 
 We have implemented a machine learning model that is able to categorize pages based on past content it has seen.
 This process is started with an initial set of human categorized data.
@@ -68,7 +68,7 @@ many more than we could ever add manually.**
 The ML-based model has the following benefits:
 
 * The model scales across any technical content that was pass in, without requiring page authors to do anything
-* It takes into account the entire page content, and word context, to 
+* It takes into account the entire page content, and word context, to
 * We can easily add more topics, as long as we can categorize a small number of pages of content that belong to that topic.
 
 We're excited to expand our ML targeting in the future.
