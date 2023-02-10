@@ -8,7 +8,7 @@
 &lt;ul&gt;
 &lt;li&gt;We made numerous reporting and performance improvements
   to our advertiser and publisher platform.&lt;/li&gt;
-&lt;li&gt;Our ML model has been updated to improve performance. It has also been migrated into its own private repository, so that we can iterate on it without compromising data privacy of our users. &lt;/li&gt;
+&lt;li&gt;Our ML model has been updated to improve performance. It has also been migrated into its own private repository, so that we can iterate on it without compromising data privacy of our users.&lt;/li&gt;
 &lt;li&gt;We got a couple content pieces out on &lt;a href="https://www.ethicalads.io/blog/2023/01/data-privacy-week-2023-privacy-first-alternatives/"&gt;Privacy Week 2023&lt;/a&gt;
   and on &lt;a href="#"&gt;protecting yourself from security and privacy issues on big ad networks&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
@@ -514,7 +514,7 @@ many more than we could ever add manually.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;The ML-based model has the following benefits:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;The model scales across any technical content that was pass in, without requiring page authors to do anything&lt;/li&gt;
-&lt;li&gt;It takes into account the entire page content, and word context, to &lt;/li&gt;
+&lt;li&gt;It takes into account the entire page content, and word context, to&lt;/li&gt;
 &lt;li&gt;We can easily add more topics, as long as we can categorize a small number of pages of content that belong to that topic.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;We're excited to expand our ML targeting in the future.&lt;/p&gt;
