@@ -43,7 +43,7 @@ In February 2023:
 
 As we mentioned last month, we expected February to be a bit stronger than January
 and we generated about $2,500 in additional revenue for our publishers despite the shorter month.
-We expect March to be an even stronger still.
+We expect March to be even stronger still.
 
 
 ## Upcoming features
