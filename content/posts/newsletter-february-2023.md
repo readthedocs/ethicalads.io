@@ -15,15 +15,14 @@ Our progress in February was:
 * We released a number of performance improvements to our reporting.
   All timeout issues have been resolved and performance is downright snappy on most reports.
 * We released some improvements to our ad pacing that will yield
-  better performance for our advertisers. Specifically we now allow pacing by the hour instead of by the day to spread out ads across the day more effectively. 
+  better performance for our advertisers. Specifically we now allow pacing by the hour instead of by the day to spread out ads across the day more effectively.
 * We released a change that will prioritize ads
   with high CTRs. This is another quality of life change for advertisers
   in order to improve their performance.
-* A common question we get from advertisers is around measuring conversions.
-  Advertisers are always measuring how much they spent on ads and how many conversions they received.
-  We [documented a few tips on measuring conversions]({filename}../pages/learning-hub/advertiser-guide.md#measuring-conversions)
-  but we always want our ad network to be measured
-  the same way against others so advertisers can see for themselves that our network works well.
+* We [documented a few tips on measuring conversions]({filename}../pages/learning-hub/advertiser-guide.md#measuring-conversions).
+  Advertisers are always comparing how much they spend on ads and what they got in return.
+  We want our ad network to be measured consistently
+  against other channels so advertisers can see for themselves that our network works well.
 * We built a number of internal sales dashboards to better measure our inventory,
   what's starting soon and what is outstanding. The hope here is to be able to bring
   in some additional hands for our small sales team.
