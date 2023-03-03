@@ -10,7 +10,7 @@ image_credit: <span>Photo by <a href="https://unsplash.com/@blue_jean?utm_source
 
 ## New features
 
-These are the major features we released in February:
+Our progress in February was:
 
 * We released a number of performance improvements to our reporting.
   All timeout issues have been resolved and performance is downright snappy on most reports.
