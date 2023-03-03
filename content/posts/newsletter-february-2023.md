@@ -16,8 +16,8 @@ Our progress in February was:
   All timeout issues have been resolved and performance is downright snappy on most reports.
 * We released some improvements to our ad pacing that will yield
   better performance for our advertisers. Specifically we now allow pacing by the hour instead of by the day to spread out ads across the day more effectively. 
-* Also in our server, we released a change that will prioritize ads
-  with slightly better performance. This is another quality of life change for advertisers
+* We released a change that will prioritize ads
+  with high CTRs. This is another quality of life change for advertisers
   in order to improve their performance.
 * A common question we get from advertisers is around measuring conversions.
   Advertisers are always measuring how much they spent on ads and how many conversions they received.
