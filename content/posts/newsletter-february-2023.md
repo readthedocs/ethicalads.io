@@ -14,8 +14,8 @@ Our progress in February was:
 
 * We released a number of performance improvements to our reporting.
   All timeout issues have been resolved and performance is downright snappy on most reports.
-* We released some improvements to our ad pacing that we believe will yield
-  slightly better performance for our advertisers.
+* We released some improvements to our ad pacing that will yield
+  better performance for our advertisers. Specifically we now allow pacing by the hour instead of by the day to spread out ads across the day more effectively. 
 * Also in our server, we released a change that will prioritize ads
   with slightly better performance. This is another quality of life change for advertisers
   in order to improve their performance.
