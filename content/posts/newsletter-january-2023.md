@@ -16,7 +16,7 @@ These are the major features we released in January:
   to our advertiser and publisher platform.
 * Our ML model has been updated to improve performance. It has also been migrated into its own private repository, so that we can iterate on it without compromising data privacy of our users.
 * We got a couple content pieces out on [Privacy Week 2023]({filename}../posts/2023-data-privacy-week.md)
-  and on [protecting yourself from security and privacy issues on big ad networks](#).
+  and on [protecting yourself from security and privacy issues on big ad networks]({filename}../posts/2023-keeping-yourself-safe-privacy-issues-advertising.md).
 
 <!-- IMPORTANT: Update with link when we merge the ad blocker post -->
 
@@ -55,7 +55,7 @@ The major features in our upcoming roadmap for February:
 * We aim to support GitHub Sponsors as a payout option for open source projects.
 * We are working on some changes to how we pace ads over the day and over a campaign.
   We believe there are a number of optimizations to help campaigns perform a little better.
-  * We're considering additional product changes that help advertisers optimize their campaigns effectively on our platform over the length of the campaign.
+* We're considering additional product changes that help advertisers optimize their campaigns effectively on our platform over the length of the campaign.
 
 Thanks again for being along with us on this journey to build an ethical ad network.
 Please [email us](mailto:ads@ethicalads.io) if you have any ideas or feedback on our product or roadmap,
