@@ -15,7 +15,7 @@ Pairing that with great landing pages will ensure a success campaign.
 When you [work with us](#collaborate-with-us-to-get-great-results),
 we ensure you follow this process.
 For design specifications and screenshots of ads,
-see our [ad design specs]({static}/prospectus/ad-specs.pdf).
+see our [ad specs page]({filename}/pages/learning-hub/ad-design-and-specs.md).
 
 Below are our top recommendations for your developer ad campaign.
 

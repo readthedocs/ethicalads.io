@@ -1,0 +1,226 @@
+{% extends "page.html" %}
+
+
+{% block content %}
+<section class="py-10">
+  <div class="container">
+
+    <div class="mb-8">
+      <h1 class="font-weight-bold text-center">EthicalAds ad creative specs &amp; design</h1>
+      {% if page.subtitle %}<p class="lead text-center">{{ page.subtitle }}</p>{% endif %}
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-3 mb-8">
+
+      <!-- The body -->
+      <div class="col mb-2">
+        <div class="card shadow-sm h-100">
+          <div class="card-body">
+            <h3 class="card-title">Ad body</h3>
+            <p class="card-text">The ad body can be <strong>up to 100 characters</strong> and can include an optional bold headline and call to action.</p>
+
+            <div class="text-center bg-light small rounded py-3">
+              <strong>Read the Docs for Business:</strong>
+              <span> You write the docs. We do the rest. </span>
+              <strong>Try it today!</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- The image -->
+      <div class="col mb-2">
+        <div class="card shadow-sm h-100">
+          <div class="card-body">
+            <h3 class="card-title">Ad image</h3>
+            <p class="card-text">The image is <strong>240*180 pixels</strong> and is displayed at 120*90px on high resolution displays. The image can be optional to support publishers who use text-only ads.</p>
+
+            <div class="text-center bg-light rounded py-3">
+              <img src="/images/pages/rtd-ad-example.png" width="120">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- The link -->
+      <div class="col mb-2">
+        <div class="card shadow-sm h-100">
+          <div class="card-body">
+            <h3 class="card-title">Landing page URL</h3>
+            <p class="card-text">The URL is where users land after clicking and can include measurement parameters so you know the traffic came from us.</p>
+
+            <div class="text-center bg-light rounded py-3">
+              <code class="small">https://about.readthedocs.com/?ref=ethicalads</code>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div> <!-- /row -->
+
+    <div class="row">
+      <div class="col col-md-8 mx-auto text-center">
+
+        <h2 class="font-weight-bold mb-2">Putting it together: the final ad</h2>
+
+        <div class="mt-5 loaded raised" data-ea-type="image" data-ea-publisher="unknown">
+          <div class="ea-content">
+            <a href="https://about.readthedocs.com/?ref=ethicalads" rel="nofollow noopener" target="_blank">
+              <img src="/images/pages/rtd-ad-example.png">
+            </a>
+            <div class="ea-text">
+              <a href="https://about.readthedocs.com/?ref=ethicalads" rel="nofollow noopener" target="_blank">
+                <strong>Read the Docs for Business:</strong>
+                <span> You write the docs. We do the rest. </span>
+                <strong>Try it today!</strong>
+              </a>
+            </div>
+          </div>
+          <div class="ea-callout">
+            <a rel="nofollow noopener" href="https://ethicalads.io/">Ad by EthicalAds</a>
+          </div>
+        </div>
+
+        <div class="mt-5 loaded raised" data-ea-type="text" data-ea-publisher="unknown">
+          <div class="ea-content">
+            <div class="ea-text">
+              <a href="https://about.readthedocs.com/?ref=ethicalads" rel="nofollow" target="_blank">
+                <strong>Read the Docs for Business:</strong>
+                <span> You write the docs. We do the rest. </span>
+                <strong>Try it today!</strong>
+              </a>
+            </div>
+          </div>
+          <div class="ea-callout">
+            <a rel="nofollow noopener" href="https://ethicalads.io/">Ad by EthicalAds</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="container py-5" id="performance-tips">
+  <h2 class="font-weight-bold mb-8 text-center">Tips to improve your ad performance</h2>
+  <div class="row mb-5">
+    <div class="col col-md-6 mb-3">
+      <ul>
+        <li>Provide 2 or more variations of the ad.</li>
+        <li>Make sure to provide at least one of a headline or call to action.</li>
+        <li>Logo-only images can work but they work best if the brand is well-known to devs.</li>
+        <li>Product images, diagrams, or infographic-style images work very well.</li>
+        <li>Make sure any text in the image is visible and legible.</li>
+      </ul>
+    </div>
+
+    <div class="col col-md-6 mb-3 text-center">
+
+      <!-- Bad ad example -->
+      <div class="loaded raised" data-ea-type="image" data-ea-publisher="unknown">
+        <div class="ea-content">
+          <a href="https://about.readthedocs.com/?ref=ethicalads" rel="nofollow noopener" target="_blank">
+            <img src="/images/pages/rtd-ad-example-2.png">
+          </a>
+          <div class="ea-text">
+            <a href="https://about.readthedocs.com/?ref=ethicalads" rel="nofollow noopener" target="_blank">You write the docs. We do the rest.</a>
+          </div>
+        </div>
+        <div class="ea-callout">
+          <a rel="nofollow noopener" href="https://ethicalads.io/">Ad by EthicalAds</a>
+        </div>
+      </div>
+
+      <p class="small mt-5">
+        No headline or call to action.<br>
+        Bland logo image won't attract attention.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="container py-5" id="top-examples">
+  <h2 class="font-weight-bold mb-8 text-center">Top performing examples</h2>
+  <div class="row mb-5">
+
+    <div class="col col-md-4 mb-3 text-center">
+      <div class="loaded raised" data-ea-type="image" data-ea-publisher="unknown">
+        <div class="ea-content">
+          <a href="#" rel="nofollow noopener" target="_blank">
+            <img src="/images/pages/top-ad-example-1.png">
+          </a>
+          <div class="ea-text">
+            <a href="#" rel="nofollow noopener" target="_blank">
+              <strong>Free e-book:</strong>
+              <span> Learn to choose the best open source packages. </span>
+              <strong>Download now!</strong>
+            </a>
+          </div>
+        </div>
+        <div class="ea-callout">
+          <a rel="nofollow noopener" href="https://ethicalads.io/">Ad by EthicalAds</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col col-md-4 mb-3 text-center">
+      <div class="loaded raised" data-ea-type="image" data-ea-publisher="unknown">
+        <div class="ea-content">
+          <a href="#" rel="nofollow noopener" target="_blank">
+            <img src="/images/pages/top-ad-example-2.png">
+          </a>
+          <div class="ea-text">
+            <a href="#" rel="nofollow noopener" target="_blank">
+              <strong>Compiling to Assembly from Scratch</strong>
+              <span> — the book — </span>
+              <strong>#ARM #TypeScript</strong>
+            </a>
+          </div>
+        </div>
+        <div class="ea-callout">
+          <a rel="nofollow noopener" href="https://ethicalads.io/">Ad by EthicalAds</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col col-md-4 mb-3 text-center">
+      <div class="loaded raised" data-ea-type="image" data-ea-publisher="unknown">
+        <div class="ea-content">
+          <a href="#" rel="nofollow noopener" target="_blank">
+            <img src="/images/pages/top-ad-example-3.png">
+          </a>
+          <div class="ea-text">
+            <a href="#" rel="nofollow noopener" target="_blank">
+              <strong>Private Cloud in a Box:</strong>
+              <span> Run 100+ VPS and deploy in &lt;10 seconds. </span>
+              <strong>Try Risk-Free!</strong>
+            </a>
+          </div>
+        </div>
+        <div class="ea-callout">
+          <a rel="nofollow noopener" href="https://ethicalads.io/">Ad by EthicalAds</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<section class="container py-5" id="we-work-with-you">
+  <h2 class="font-weight-bold mb-8 text-center">We work with you to help your campaign succeed</h2>
+  <div class="row mb-5">
+    <div class="col-12 col-md-6 mb-3">
+      <h4 class="font-weight-bold">Need help with your creatives?</h4>
+      <p>We are happy to help you get your campaign up and running. If you have creatives you're running successfully elsewhere, we can help you adapt them to our ad formats. If you need more help creating ads that convert, let us know. We've run a lot of campaigns on our network and we know what works.</p>
+    </div>
+    <div class="col-md-6">
+      <h4 class="font-weight-bold" id="faq-how-much">We ensure your ads are working</h4>
+      <p>We check-in on your campaign multiple times with tips about what is working and what isn't. We want your campaign to do well and we will give you advice throughout the duration and work with you to make it work as well as it can.</p>
+    </div>
+  </div>
+</section>
+{% endblock content %}
