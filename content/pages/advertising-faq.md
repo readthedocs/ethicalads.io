@@ -95,8 +95,8 @@ and we have seen great performance for advertisers and publishers with both type
 * There's also a text-only placement that uses up to 100 characters without an image.
 
 Check out our
-[ad specs]({static}/prospectus/ad-specs.pdf)
-with more details and screenshots.
+[ad specs page]({filename}/pages/learning-hub/ad-design-and-specs.md)
+with more details and tips.
 
 
 ## Where do the ads link to?
