@@ -23,7 +23,7 @@ Our progress in March was:
 * The improvements we made in [February]({filename}../posts/newsletter-february-2023.md#new-features)
   to pacing and prioritization were rolled out to (almost) everybody.
 * We are making a lot of improvements to our sales process.
-  We have another announcement coming but we are onboarding somebody to help with sales for the next few months.
+  Beginning in early April, Eric and I are onboarding a sales rep to help for the next few months.
 
 You can always see our latest server updates in our
 [ethical-ad-server changelog](https://ethical-ad-server.readthedocs.io/en/latest/developer/changelog.html)
