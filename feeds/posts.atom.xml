@@ -1,5 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds - posts</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/posts.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2023-03-07T00:00:00-08:00</updated><entry><title>EthicalAds Newsletter - February 2023</title><link href="https://www.ethicalads.io/blog/2023/03/ethicalads-newsletter-february-2023/" rel="alternate"></link><published>2023-03-07T00:00:00-08:00</published><updated>2023-03-07T00:00:00-08:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2023-03-07:/blog/2023/03/ethicalads-newsletter-february-2023/</id><summary type="html">&lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds - posts</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/posts.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2023-04-11T00:00:00-07:00</updated><entry><title>EthicalAds Newsletter - March 2023</title><link href="https://www.ethicalads.io/blog/2023/04/ethicalads-newsletter-march-2023/" rel="alternate"></link><published>2023-04-11T00:00:00-07:00</published><updated>2023-04-11T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2023-04-11:/blog/2023/04/ethicalads-newsletter-march-2023/</id><summary type="html">&lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
+&lt;p&gt;Our progress in March was:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We rolled out a
+  &lt;a href="https://www.ethicalads.io/advertisers/ad-design-and-specs/"&gt;new landing page detailing our ad specs&lt;/a&gt;
+  with a …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
+&lt;p&gt;Our progress in March was:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We rolled out a
+  &lt;a href="https://www.ethicalads.io/advertisers/ad-design-and-specs/"&gt;new landing page detailing our ad specs&lt;/a&gt;
+  with a number of examples and tips to help campaigns perform their best.&lt;/li&gt;
+&lt;li&gt;We made some improvements to the landing pages that compare us against
+  &lt;a href="https://www.ethicalads.io/alternative-to-carbon-ads/"&gt;Carbon&lt;/a&gt; and &lt;a href="https://www.ethicalads.io/alternative-to-google-ads/"&gt;Google&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;We made a number of improvements to our open source ad server
+  which aim to help the folks who use it for their own purposes.
+  We'd received some helpful feedback and wanted to show the community some love.&lt;/li&gt;
+&lt;li&gt;The improvements we made in &lt;a href="https://www.ethicalads.io/blog/2023/03/ethicalads-newsletter-february-2023/#new-features"&gt;February&lt;/a&gt;
+  to pacing and prioritization were rolled out to (almost) everybody.&lt;/li&gt;
+&lt;li&gt;We are making a lot of improvements to our sales process.
+  Beginning in early April, Eric and I are onboarding a sales rep to help for the next few months.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can always see our latest server updates in our
+&lt;a href="https://ethical-ad-server.readthedocs.io/en/latest/developer/changelog.html"&gt;ethical-ad-server changelog&lt;/a&gt;
+and &lt;a href="https://ethical-ad-client.readthedocs.io/en/latest/changelog.html"&gt;ethical-ad-client changelog&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="march-advertising-stats"&gt;March advertising stats&lt;/h2&gt;
+&lt;p&gt;In March 2023:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We generated &lt;strong&gt;$48,749.84&lt;/strong&gt; for our publishers. This was our &lt;strong&gt;best month ever&lt;/strong&gt; for publisher revenue!&lt;/li&gt;
+&lt;li&gt;We had &lt;strong&gt;152 publishers&lt;/strong&gt; on our network with at least one paid ad impression.
+  This number has been creeping up nicely. We want it to grow slowly and steadily.&lt;/li&gt;
+&lt;li&gt;We had &lt;strong&gt;23,744,797&lt;/strong&gt; paid ad views across the world.
+  This was another record for us.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;March was a record month for us.
+One change we made to our pricing recently was to lower the cost of some campaigns
+in regions that have been historically undersold.
+Partially as a result, we sold &lt;strong&gt;a lot&lt;/strong&gt; of traffic in those regions resulting in a huge increase
+in total paid ads. While many of these don't earn a lot of money
+(region is the biggest factor in &lt;a href="https://www.ethicalads.io/advertisers/#pricing"&gt;our prices&lt;/a&gt;),
+this was very nice to see.&lt;/p&gt;
+&lt;p&gt;We don't expect April to be quite as good as March, but it should still be a very good month.&lt;/p&gt;
+&lt;h2 id="upcoming-features"&gt;Upcoming features&lt;/h2&gt;
+&lt;p&gt;The major features in our upcoming roadmap for March:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We have more advertiser UX improvements coming including
+  a live preview so our advertisers can see exactly what their ads will look like.&lt;/li&gt;
+&lt;li&gt;We are still putting the finishing touches on some ML improvements
+  to our content targeting.
+  We continue to work with the team behind &lt;a href="https://spacy.io/"&gt;SpaCy&lt;/a&gt;
+  to get those most out of our model (using their tool).
+  It's great to keep contracting money in the OSS ecosystem.&lt;/li&gt;
+&lt;li&gt;A number of improvements we're working on are for our sales process.
+  The goal of these are to smooth the process for new and returning advertisers.
+  In the past, we've joked that we could sell triple the amount of ads with no
+  changes to our product. While that's a bit of an exaggeration,
+  advertising requires doing sales and we are ramping up there.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thanks again for being along with us on this journey to build an ethical ad network.
+Please &lt;a href="mailto:ads@ethicalads.io"&gt;email us&lt;/a&gt; if you have any ideas or feedback on our product or roadmap,
+we always love to hear from you.&lt;/p&gt;</content><category term="posts"></category><category term="newsletter"></category><category term="community"></category><category term="build-in-public"></category></entry><entry><title>EthicalAds Newsletter - February 2023</title><link href="https://www.ethicalads.io/blog/2023/03/ethicalads-newsletter-february-2023/" rel="alternate"></link><published>2023-03-07T00:00:00-08:00</published><updated>2023-03-07T00:00:00-08:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2023-03-07:/blog/2023/03/ethicalads-newsletter-february-2023/</id><summary type="html">&lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
 &lt;p&gt;Our progress in February was:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;We released a number of performance improvements to our reporting.
