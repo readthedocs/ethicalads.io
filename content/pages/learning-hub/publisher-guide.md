@@ -49,16 +49,23 @@ This improves performance by helping the text of the ad standout while the rest 
 
 **If your website's theme has adaptive dark mode & light mode, consider adding `{html} class = "adaptive"` as it handles both light and dark themes automatically.**
 
+
 ### Content tagging
 
-For better content targeting, letting us know about the content of your pages with
-[page-specific keywords](https://ethical-ad-client.readthedocs.io/en/latest/#page-specific-keywords),
+Usually, our site crawler will periodically crawl your site and index your pages
+so we can serve the best ad on any individual page.
+For example, we can target an ad for a DevOps related service to DevOps related content on your site.
+However, this process can struggle on some single page apps (SPAs)
+or when connecting directly to our ads API instead of using our client.
+
+In those cases, you can help by letting us know about the content of your pages with
+[page-specific keywords](https://ethical-ad-client.readthedocs.io/en/latest/#page-specific-keywords).
 This allows us to better target the ads for your audience.
-For example, we can target an ad for a DevOps related service to DevOps related content.
 Ads targeted specifically to your content can also result in higher payouts
 as we charge higher rates for highly targeted ads.
 
-You can find a [list of the major keywords we target](https://github.com/readthedocs/ethical-ad-server/blob/main/adserver/regiontopics.py) in our source code.
+You can find a [list of the major keywords we target](https://github.com/readthedocs/ethical-ad-client/blob/4ffd34eb5f843e9cfef80894cff9a43db9af72f4/index.js#L45-L171) in our client source code.
+
 
 ### Bringing it all together
 
@@ -66,6 +73,7 @@ Complementary placement, pleasing aesthetics, and accurate content tagging will
 boost your earnings with EthicalAds by helping us provide your users
 with high quality, relevant advertisements.
 And if you haven't already, [become a publisher today](/publishers/#inbound-form)!
+
 
 ## More questions?
 
