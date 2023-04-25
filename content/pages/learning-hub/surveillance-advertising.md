@@ -40,6 +40,8 @@ This data is very useful to target ads
 but all that data at least was given directly to Facebook willfully and voluntarily.
 Things get a little murkier when tracking users across the web on third-party sites.
 
+
+### Retargeting & remarketing
 Building a profile from users' visits to third-party sites is typically accomplished by the use of trackers
 (sometimes called beacons or pixels).
 For example, if a site uses a tracker from an ad network and a user visits that site,
@@ -49,11 +51,27 @@ The site operator (often just a small business) gets to target their own ads bet
 but also helps the ad network create their enormous database of all the sites users have visited in the past.
 Critically, the site visitor didn't agree to share this data with the ad network but their browser did it anyway.
 
+
+### Fine geographic targeting (geofences & beacons)
+Both iOS and Android allow apps to register geofences.
+These are geographic areas where when a user's phone enters that area,
+the app will briefly wake up and take an action.
+They can also work similarly when a phone sees a unique bluetooth beacon they've been configured to watch for.
+When the geofence is seen, the device wakes up, sends a request to an ad network beacon, and the ad network can now target users who have been inside a specific geographic area in a similar way to retargeting.
+
+A relatively benign example was an ad campaign for McDonald's that involved sending push notifications when people walked by a McDonald's.
+However, ad geofences have been used to target people who visit medical clinics,
+military bases, and other sensitive areas.
+
+
+### Lookalike audiences & similar audiences
 Other ad predictions are made by grouping similar users together based on some user data and using machine learning.
 Frequently this involves an advertiser uploading personal data on users (often past customers of the advertiser)
 to an ad network and telling the network to target similar users.
 The idea is that two users with similar demographic information and similar interests would like the same products.
 In ad tech, this is known as *lookalike audiences* or *similar audiences*.
+This is frequently done without getting the permission or knowledge of the person
+whose personal information has been shared.
 
 Understandably, many people have concerns about these targeting techniques.
 If you've ever felt that ads "follow you around" while you browse the web, it's because of these.
