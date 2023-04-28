@@ -140,13 +140,17 @@ The majority of our ads do have images so if in doubt, go with the image ad spot
 This improves performance by helping the text of the ad standout while the rest of the ad blends in.</p>
 <p><strong>If your website's theme has adaptive dark mode &amp; light mode, consider adding <code>{html} class = "adaptive"</code> as it handles both light and dark themes automatically.</strong></p>
 <h3 id="content-tagging">Content tagging</h3>
-<p>For better content targeting, letting us know about the content of your pages with
-<a href="https://ethical-ad-client.readthedocs.io/en/latest/#page-specific-keywords">page-specific keywords</a>,
+<p>Usually, our site crawler will periodically crawl your site and index your pages
+so we can serve the best ad on any individual page.
+For example, we can target an ad for a DevOps related service to DevOps related content on your site.
+However, this process can struggle on some single page apps (SPAs)
+or when connecting directly to our ads API instead of using our client.</p>
+<p>In those cases, you can help by letting us know about the content of your pages with
+<a href="https://ethical-ad-client.readthedocs.io/en/latest/#page-specific-keywords">page-specific keywords</a>.
 This allows us to better target the ads for your audience.
-For example, we can target an ad for a DevOps related service to DevOps related content.
 Ads targeted specifically to your content can also result in higher payouts
 as we charge higher rates for highly targeted ads.</p>
-<p>You can find a <a href="https://github.com/readthedocs/ethical-ad-server/blob/main/adserver/regiontopics.py">list of the major keywords we target</a> in our source code.</p>
+<p>You can find a <a href="https://github.com/readthedocs/ethical-ad-client/blob/4ffd34eb5f843e9cfef80894cff9a43db9af72f4/index.js#L45-L171">list of the major keywords we target</a> in our client source code.</p>
 <h3 id="bringing-it-all-together">Bringing it all together</h3>
 <p>Complementary placement, pleasing aesthetics, and accurate content tagging will
 boost your earnings with EthicalAds by helping us provide your users
