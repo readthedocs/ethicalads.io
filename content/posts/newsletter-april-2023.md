@@ -1,5 +1,5 @@
 Title: EthicalAds Newsletter - April 2023
-Date: May 8, 2023
+Date: May 11, 2023
 description: Updates from April 2023, including stats and commentary on our progress as we build EthicalAds
 tags: newsletter, community, build-in-public
 authors: David Fischer
