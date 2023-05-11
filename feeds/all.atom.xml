@@ -1,5 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/all.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2023-04-11T00:00:00-07:00</updated><entry><title>EthicalAds Newsletter - March 2023</title><link href="https://www.ethicalads.io/blog/2023/04/ethicalads-newsletter-march-2023/" rel="alternate"></link><published>2023-04-11T00:00:00-07:00</published><updated>2023-04-11T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2023-04-11:/blog/2023/04/ethicalads-newsletter-march-2023/</id><summary type="html">&lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/all.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2023-05-11T00:00:00-07:00</updated><entry><title>EthicalAds Newsletter - April 2023</title><link href="https://www.ethicalads.io/blog/2023/05/ethicalads-newsletter-april-2023/" rel="alternate"></link><published>2023-05-11T00:00:00-07:00</published><updated>2023-05-11T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2023-05-11:/blog/2023/05/ethicalads-newsletter-april-2023/</id><summary type="html">&lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
+&lt;p&gt;Our progress in April was:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The ads now have a live preview while advertisers edit them.
+  We've always …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
+&lt;p&gt;Our progress in April was:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The ads now have a live preview while advertisers edit them.
+  We've always shown a preview of exactly what the ad looks like, but now it changes in real-time.&lt;/li&gt;
+&lt;li&gt;We're slowly rolling out more discussion of our machine learning topic classifier
+  into our landing pages. Readers of our blog and our advertisers know about it,
+  but we want to highlight it and be transparent about exactly how we classify content
+  for great contextual ad targeting.&lt;/li&gt;
+&lt;li&gt;Some of our sales process improvements rolled out over the last month.
+  Along with a new team member, Emily, we've been able to followup
+  with a lot more past advertisers, past leads, and improve the quality of our sales process.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can always see our latest server updates in our
+&lt;a href="https://ethical-ad-server.readthedocs.io/en/latest/developer/changelog.html"&gt;ethical-ad-server changelog&lt;/a&gt;
+and &lt;a href="https://ethical-ad-client.readthedocs.io/en/latest/changelog.html"&gt;ethical-ad-client changelog&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="april-advertising-stats"&gt;April advertising stats&lt;/h2&gt;
+&lt;p&gt;In April 2023:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We generated &lt;strong&gt;$44,423.82&lt;/strong&gt; for our publishers. While not a record, this is a very good month.&lt;/li&gt;
+&lt;li&gt;We had &lt;strong&gt;160 publishers&lt;/strong&gt; on our network with at least one paid ad impression.
+  This number has been creeping up nicely. We want it to grow slowly and steadily.&lt;/li&gt;
+&lt;li&gt;We had &lt;strong&gt;28,954,706&lt;/strong&gt; paid ad views across the world.
+  This beat last month's record.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We've had some success selling a few more very broadly targeted campaigns that are increasing
+our overall paid view numbers although sometimes those don't earn as much money as some other campaigns.
+Regardless, we are very happy with these numbers. We are expecting May to be similar to April.&lt;/p&gt;
+&lt;h2 id="upcoming-features"&gt;Upcoming features&lt;/h2&gt;
+&lt;p&gt;The major features in our upcoming roadmap for May:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We have a new report coming for advertisers
+  that shows a performance breakdown by topic.
+  This will be especially interesting for advertisers focused on multiple topics.&lt;/li&gt;
+&lt;li&gt;We intend to rollout some additional publisher-focused changes
+  that will help publishers using EthicalAds on multiple sites.&lt;/li&gt;
+&lt;li&gt;We've been very happy with the performance of our topic classifier.
+  It's proven to be more accurate than some of our previous naive attempts
+  such as detecting keywords with our ad client.
+  As a result we're going to be phasing out some of our other attempts
+  and relying on our machine learning a bit more.&lt;/li&gt;
+&lt;li&gt;We're still refining it, but we will also have a content piece
+  with the lay of the land of the ad industry. Lots of our publishers and many developers
+  don't fully understand the ad industry and exploring what it looks like
+  and the direction we hope to steer it toward are important.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thanks again for being along with us on this journey to build an ethical ad network.
+Please &lt;a href="mailto:ads@ethicalads.io"&gt;email us&lt;/a&gt; if you have any ideas or feedback on our product or roadmap,
+we always love to hear from you.&lt;/p&gt;</content><category term="posts"></category><category term="newsletter"></category><category term="community"></category><category term="build-in-public"></category></entry><entry><title>EthicalAds Newsletter - March 2023</title><link href="https://www.ethicalads.io/blog/2023/04/ethicalads-newsletter-march-2023/" rel="alternate"></link><published>2023-04-11T00:00:00-07:00</published><updated>2023-04-11T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2023-04-11:/blog/2023/04/ethicalads-newsletter-march-2023/</id><summary type="html">&lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
 &lt;p&gt;Our progress in March was:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;We rolled out a
