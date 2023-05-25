@@ -4,18 +4,18 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 <meta name="generator" content="Pelican" />
-<meta property="og:site_name" content="EthicalAds"/><meta name="description" content="Tech giants and browser vendors are making changes that will affect the world of ad tech and ad tracking. Consumers and privacy advocates may benefit but the future is still uncertain." />
-    <meta property="og:description" content="Tech giants and browser vendors are making changes that will affect the world of ad tech and ad tracking. Consumers and privacy advocates may benefit but the future is still uncertain." /><meta name="tags" content="cookies" /><meta name="tags" content="adtech" /><meta name="tags" content="fingerprinting" /><meta name="author" content="David Fischer" /><meta property="og:type" content="article">
-  <meta property="og:title" content="Cookie Changes are Coming to Ad Tech" />
-  <meta property="twitter:title" content="Cookie Changes are Coming to Ad Tech" /><meta property="og:image" content="https://www.ethicalads.io/images/posts/2021-post-cookie-world.jpg" />
-    <meta property="twitter:image" content="https://www.ethicalads.io/images/posts/2021-post-cookie-world.jpg" /><meta property="article:published_time" content="2021-03-11" />
+<meta property="og:site_name" content="EthicalAds"/><meta name="description" content="The advertising industry is complex for the uninitiated and we detail the industry today, its players and methods, and how we&#39;re trying to change it." />
+    <meta property="og:description" content="The advertising industry is complex for the uninitiated and we detail the industry today, its players and methods, and how we&#39;re trying to change it." /><meta name="tags" content="adtech" /><meta name="tags" content="business" /><meta name="author" content="David Fischer" /><meta property="og:type" content="article">
+  <meta property="og:title" content="How the Internet ads industry works: Players, Tactics &amp; PII (Part I)" />
+  <meta property="twitter:title" content="How the Internet ads industry works: Players, Tactics &amp; PII (Part I)" /><meta property="og:image" content="https://www.ethicalads.io/images/posts/2023-ad-industry-overview.png" />
+    <meta property="twitter:image" content="https://www.ethicalads.io/images/posts/2023-ad-industry-overview.png" /><meta property="article:published_time" content="2023-05-25" />
       <!-- Bootstrap CSS -->
       <link rel="stylesheet" href="/theme/dist/main.css">
 
-      <title>Cookie Changes are Coming to Ad Tech - EthicalAds</title>
+      <title>How the Internet ads industry works: Players, Tactics & PII (Part I) - EthicalAds</title>
 
-  <link rel="canonical" href="https://www.ethicalads.io/blog/2021/03/cookie-changes-are-coming-to-ad-tech/" />
-  <meta property="og:url" content="https://www.ethicalads.io/blog/2021/03/cookie-changes-are-coming-to-ad-tech/" />
+  <link rel="canonical" href="https://www.ethicalads.io/blog/2023/05/how-the-internet-ads-industry-works-players-tactics-pii-part-i/" />
+  <meta property="og:url" content="https://www.ethicalads.io/blog/2023/05/how-the-internet-ads-industry-works-players-tactics-pii-part-i/" />
 
       <!-- Feeds -->
         <link href="https://www.ethicalads.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="EthicalAds Full Atom Feed" />
@@ -95,7 +95,7 @@
   <div class="row justify-content-center">
     <div class="col-12 col-md-10 col-lg-9 col-xl-8">
       <!-- Heading -->
-      <h1 class="display-4">Cookie Changes are Coming to Ad Tech</h1>
+      <h1 class="display-4">How the Internet ads industry works: Players, Tactics & PII (Part I)</h1>
 
       <!-- Meta -->
       <div class="row align-items-center py-5 border-top border-bottom">
@@ -107,7 +107,7 @@
 
             <!-- Date -->
             <div class="flex-fill h6 text-uppercase text-muted mb-0 ml-auto text-right">
-              <time class="text-nowrap" datetime="2021-03-11T00:00:00-08:00">Mar 11, 2021</time>
+              <time class="text-nowrap" datetime="2023-05-25T00:00:00-07:00">May 25, 2023</time>
             </div>
           </div>
         </div>
@@ -118,105 +118,71 @@
         <figure class="figure mb-7">
 
           <!-- Image -->
-          <img class="figure-img img-fluid rounded" src="/images/posts/2021-post-cookie-world.jpg" alt="Cookie Changes are Coming to Ad Tech">
+          <img class="figure-img img-fluid rounded" src="/images/posts/2023-ad-industry-overview.png" alt="How the Internet ads industry works: Players, Tactics & PII (Part I)">
 
           <!-- Caption -->
-        <figcaption class="figure-caption text-center"><small><span>Photo by <a href="https://unsplash.com/@enginakyurt?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">engin akyurt</a> on <a href="https://unsplash.com/photos/WxUNinQmGy4?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></small></figcaption>
 
         </figure>
 
       <div>
-        <p>Last week, <a href="https://www.blog.google/products/ads-commerce/a-more-privacy-first-web/">Google announced</a>
-that after they phase out third-party cookies in Chrome next year,
-they "will not build alternate identifiers to track individuals as they browse across the web."
-On the surface, this looks like a win for a more private web.
-This would put Chrome, the most popular browser, on a similar footing to Safari and Firefox
-which block most third-party tracking out of the box.
-As more details started to come out about Google's vision, however,
-things started to get a bit murkier.</p>
-<h2 id="googles-vision-for-the-future-of-ads">Google's vision for the future of ads</h2>
-<p>In Google's vision, ads targeted to users' interests aren't going away but are merely changing.
-Built on Google's <a href="https://www.chromium.org/Home/chromium-privacy/privacy-sandbox">Privacy Sandbox</a>,
-which is part of the open source engine behind Chrome,
-Google promises these changes will create a more private web
-while keeping targeted advertising just as effective.</p>
-<blockquote>
-<p>"Advances in aggregation, anonymization, on-device processing and other privacy-preserving technologies offer a clear path to replacing individual identifiers."</p>
-<p>David Temkin</p>
-<p><em>Director of Product Management, Ads Privacy and Trust at Google</em></p>
-</blockquote>
-<p>Instead of ad networks or ad tech companies keeping and storing data on users to target them with ads,
-Google is testing an approach they call <a href="https://github.com/WICG/floc">Federated Learning of Cohorts (FLoC)</a>
-which will have your browser learn about the things you like so you can be targeted with ads.
-Likewise, for personalized ads, they have another approach called <a href="https://github.com/WICG/turtledove">Turtledove</a>.
-These will expose new browser APIs that advertisers and ad networks can use to target ads.</p>
-<p>Make no mistake,
-while these changes have some privacy benefits, they also are about control.
-Google's vision for ads put them at the center of the ads ecosystem.
-Google controls the browser you're probably using right now
-and they'll control how these new tools and APIs like FLoC can be used for advertising.
-In addition, Google has a first-party relationship with you and they don't need third-party cookies.
-They can continue to use the emails you receive in Gmail,
-the places you get directions to in Google Maps, the videos you watch on YouTube,
-and the things you search for on Google to target you with ads.</p>
-<p>The <a href="https://www.eff.org/deeplinks/2021/03/googles-floc-terrible-idea">Electronic Frontier Foundation (EFF) called FLoC a "terrible idea"</a>.
-They say it will help ad tech companies fingerprint users
-so they can uniquely identify them more easily.
-Any site which supports logging in could easily request FLoC data and add it to users' data profiles,
-connecting that with the existing personal information they have on this user.</p>
-<h2 id="what-ad-tech-companies-are-doing-about-it">What ad tech companies are doing about it</h2>
-<p>The response from the ad tech side of the industry ranges
-depending on where the company sits in the ecosystem.
-Even if Google's vision doesn't become a reality
--- we expect some of it will and some of it won't --
-the end of third-party cookies won't be the death knell for ad tech,
-behavioral targeting, or personalized ads.</p>
-<p>There are a lot of alternatives to cookies for tracking users across the web which are more invasive.
-For many ad tech players, third-party cookies going away won't affect them at all because they use these methods of tracking.
-The list of the techniques used to circumvent cookie restrictions
-is potentially endless but here are some common techniques:</p>
-<ul>
-<li><strong>Fingerprinting:</strong> As the EFF called out, fingerprinting,
-  or the process of uniquely identifying individual users based on their browser
-  and other data about them like their IP address is common practice in the ad tech space.</li>
-<li><strong>Supercookies:</strong> So called <a href="https://blog.mozilla.org/security/2021/01/26/supercookie-protections/">"supercookies"</a>
-  use trackers hidden in other parts of browser like ETags or HSTS headers.
-  These are not cleared by clearing cookies and can potentially identify users uniquely or be used with fingerprinting.</li>
-<li><strong>CNAME Cloaking:</strong> <a href="https://webkit.org/blog/11338/cname-cloaking-and-bounce-tracking-defense/">CNAME Cloaking</a>
-  involves a publisher setting up a subdomain for an ad tech tracker so it appears as a first-party domain for cookie purposes.</li>
-</ul>
-<p>Advertisers and ad tech companies are also leery of Google having too much control.
-With states like California and Virginia adopting privacy legislation,
-they know the privacy landscape is changing and some of them are trying to get in front of it with their own proposals.
-The Trade Desk, an ad tech company,
-has an alternative approach they call <a href="https://www.thetradedesk.com/us/about-us/industry-initiatives/unified-id-solution-2-0">Unified ID 2.0</a>.
-This will only work for sites and apps that support logins
-since it operates off of hashed email addresses, but once logged in,
-users can be targeted with personalized ads.
-While this isn't an approach we want to see become the norm, it is at least upfront and clear.</p>
-<p>Lastly, some companies are trying to pressure Google and other players into slowing or reversing these changes.
-When Apple's iOS 14 required apps using ad tracking to request user permission,
-Facebook cried foul and is claiming that these <a href="https://www.washingtonpost.com/technology/2020/12/16/facebook-apple-idfa-ios14-small-business/">privacy protections hurt small businesses</a>.
-The UK's Competition and Markets Authority (CMA) at the request of advertising market participants
-is specifically investigating the changes to Chrome and the Privacy Sandbox.
-Only the big ad players want to keep the status quo for ad tracking.
-These tactics might delay things, but with users and governments asking for privacy improvements, they're going to come.</p>
-<p>We generally oppose all of these attempts at tracking users across the web,
-and are building on a more privacy-focused foundation of contextual ad targeting.</p>
-<h2 id="how-do-these-changes-affect-ethical-advertising">How do these changes affect ethical advertising?</h2>
-<p>For our small ethical advertising segment of the industry,
-these changes will have pretty minimal effect.
-Third-party cookies and all their prospective replacements
-are all about gathering information on you (and millions of people like you)
-in order to target ads to you based on your interests or to you personally.
-Ethical advertising doesn't use third-party cookies
-and doesn't store personal information.
-We aren't trying to show ads to you personally, but instead
-like traditional advertising on TV, in newspapers, or in magazines,
-ethical ads are targeted to the content of the page.
-We put ads for developers on developer focused sites. That's it.</p>
-<p>If you're interested in a future for advertising without intrusive surveillance and user tracking,
-read more about our <a href="https://www.ethicalads.io/advertising-vision/">vision for ethical advertising</a>.</p>
+        <p>At the most basic level, advertising is a two-sided marketplace with publishers supplying ad impressions and advertisers buying them.
+However, as Internet advertising has become more complicated, the landscape has grown
+and there's some other parts of the AdTech ecosystem worth highlighting.</p>
+<h2 id="supply-side">Supply side</h2>
+<h3 id="ad-networks">Ad networks</h3>
+<p>An ad network like EthicalAds connects advertisers who want to advertise with publishers
+that want to show those ads.
+The largest such ad network is <a href="https://www.ethicalads.io/alternative-to-google-ads/">Google AdSense</a> that covers every possible topic and geography.
+Facebook has their own much smaller one called Facebook Audience Network,
+but there are many smaller networks that focus on niches like ours (developers who care about privacy).
+<a href="https://www.ethicalads.io/alternative-to-carbon-ads/">CarbonAds</a> is probably the closest ad network to us.</p>
+<h3 id="publishers">Publishers</h3>
+<p>Publishers are websties, apps, podcasts, or newsletters that show ads.
+These range in size from small sites with very little traffic,
+up to some of the biggest ad-funded websites on the Internet.</p>
+<p>Many very large publishers sell their ad inventory directly or even have their own ad server.
+This makes most sense for perhaps the top 100 largest websites and apps on the Internet
+such as Facebook, Amazon, Snapchat, StackOverflow or Reddit. These publishers are large enough to have their own ad formats, servers, and sales teams.</p>
+<p>Because some of these large publishers have multiple sites
+(eg. Amazon sells Twitch ads as well as sponsored products on Amazon itself, Facebook sells Instagram ads),
+many very large publishers start to look like ad networks except they are the parent company for their publishers.
+Their ads may still be sold by programmatic bidding in a similar way to an exchange or network,
+except it is sold directly (called "Programmatic Direct Advertising").</p>
+<h2 id="demand-side">Demand side</h2>
+<h3 id="advertisers">Advertisers</h3>
+<p>Advertisers are companies trying to reach consumers to inform them about their products and services
+with the ultimate goal of driving more usage and sales.
+Advertisers go where their customers or potential customers are
+and that usually involves multiple networks and publishers.</p>
+<p>Advertisers have different goals but ultimately they are always concerned with
+how much exposure and how many new customers they are getting for their brand and products
+compared to how much they are spending while also keeping their brand safe.
+They might buy campaigns priced in a variety of different ways from per impression, per click, per lead/acquisition, or even a duration-based ad buy like an offline billboard or a monthly sponsorship.</p>
+<h3 id="ad-agencies">Ad agencies</h3>
+<p>Many advertisers use an ad agency to buy and place their ads for them on the right networks and publishers.
+At EthicalAds, we deal with a number of ad agencies directly and have had good relationships with them.
+Frequently, these agencies specialize in a particular segment of the market like developer advertising.</p>
+<p>While agencies usually have access to data like a company's analytics system,
+they may not have access to all the same data as the advertiser themselves such as direct conversions
+or conversions that happen after talking to a sales rep.</p>
+<h2 id="ad-exchanges">Ad exchanges</h2>
+<p>Ad exchanges look very similar to ad networks but they are a marketplace that connects multiple advertisers,
+the demand side, with multiple ad networks or large publishers, the supply side.
+The key difference between a network and an exchange is that the exchange is merely facilitating the sale
+like a stock exchange while a network is responsible for their own publishers.
+Google operates one of the largest ad exchanges called AdX.</p>
+<p>Ad exchanges create markets for buying and selling of ad space.
+In order for ad exchanges to run true auctions and have both bidding prices and asking prices,
+they have to treat a lot of traffic as fungible commodities of user metadata such as location information or past actions.
+Is an ad placement on the New York Times is the same as an ad on a personal blog if it reaches the right demographic (<a href="https://www.ethicalads.io/blog/2021/05/how-invasive-ad-targeting-is-bad-for-journalism-and-other-high-quality-publishers/">we don't think so</a>)?</p>
+<p>Sales through ad exchanges are frequently handled by "real-time bidding" (RTB) and programmatic advertising,
+systems where advertisers place bids against user metadata
+(geographic, demographics, past actions, and other behavioral attributes)
+and these bids are matched against publisher traffic.</p>
+<p>These approaches usually involve building up databases of personal information on users
+in order to better target them with ads.
+Like many people in the ad ecosystem, these vast troves of data on millions of users scare us.
+They will be covered in more detail in part two of this post.</p>
       </div>
 
     </div>
@@ -251,8 +217,8 @@ read more about our <a href="https://www.ethicalads.io/advertising-vision/">visi
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
         <div class="col mb-10">
           <article class="card h-100 shadow-light-lg lift lift-lg">
-              <a href="/blog/2021/10/do-the-ads-on-your-site-respect-privacy/">
-                <img src="/images/posts/2021-privacy-respect.jpg" alt="Do the Ads on your Site Respect Privacy" class="card-img-top">
+              <a href="/blog/2023/02/keeping-yourself-safe-from-security-and-privacy-issues-in-advertising/">
+                <img src="/images/posts/2023-malware-advertising-protect-yourself.jpg" alt="Keeping Yourself Safe from Security and Privacy Issues in Advertising" class="card-img-top">
 
                 <!-- Style shape to the image -->
                 <div class="position-relative">
@@ -261,14 +227,14 @@ read more about our <a href="https://www.ethicalads.io/advertising-vision/">visi
                   </div>
                 </div>
               </a>
-            <a class="card-body" href="/blog/2021/10/do-the-ads-on-your-site-respect-privacy/" title="Permalink to Do the Ads on your Site Respect Privacy">
-              <h3 class="card-title font-weight-light">Do the Ads on your Site Respect Privacy</h3>
+            <a class="card-body" href="/blog/2023/02/keeping-yourself-safe-from-security-and-privacy-issues-in-advertising/" title="Permalink to Keeping Yourself Safe from Security and Privacy Issues in Advertising">
+              <h3 class="card-title font-weight-light">Keeping Yourself Safe from Security and Privacy Issues in Advertising</h3>
 
-              <p class="mb-0">As a website owner (a publisher), you take pride in the work you put on the internet. However, with many …</p>
+              <p class="mb-0">Many of our readers are familiar with privacy issues related to advertising. If you need some convincing, check out our …</p>
 
             </a>
 
-            <a class="card-meta mt-auto" href="/blog/2021/10/do-the-ads-on-your-site-respect-privacy/">
+            <a class="card-meta mt-auto" href="/blog/2023/02/keeping-yourself-safe-from-security-and-privacy-issues-in-advertising/">
 
               <!-- Divider -->
               <hr class="card-meta-divider">
@@ -279,7 +245,7 @@ read more about our <a href="https://www.ethicalads.io/advertising-vision/">visi
 
                 <!-- Date -->
                 <div class="flex-fill h6 text-uppercase text-muted mb-0 ml-auto text-right">
-                  <time class="text-nowrap" datetime="2021-10-12T00:00:00-07:00">Oct 12, 2021</time>
+                  <time class="text-nowrap" datetime="2023-02-06T00:00:00-08:00">Feb 6, 2023</time>
                 </div>
               </div>
 
@@ -288,8 +254,8 @@ read more about our <a href="https://www.ethicalads.io/advertising-vision/">visi
         </div>
         <div class="col mb-10">
           <article class="card h-100 shadow-light-lg lift lift-lg">
-              <a href="/blog/2021/02/can-you-eliminate-annoying-cookie-banners-from-your-site/">
-                <img src="/images/posts/2021-cookie-banners-header.jpg" alt="Can you Eliminate Annoying Cookie Banners from your Site?" class="card-img-top">
+              <a href="/blog/2022/09/watch-out-ad-scammers-are-impersonating-open-source-devs/">
+                <img src="/images/posts/2022-stopping-ad-fraud.jpg" alt="Watch Out: Ad Scammers are Impersonating Open Source Devs" class="card-img-top">
 
                 <!-- Style shape to the image -->
                 <div class="position-relative">
@@ -298,14 +264,14 @@ read more about our <a href="https://www.ethicalads.io/advertising-vision/">visi
                   </div>
                 </div>
               </a>
-            <a class="card-body" href="/blog/2021/02/can-you-eliminate-annoying-cookie-banners-from-your-site/" title="Permalink to Can you Eliminate Annoying Cookie Banners from your Site?">
-              <h3 class="card-title font-weight-light">Can you Eliminate Annoying Cookie Banners from your Site?</h3>
+            <a class="card-body" href="/blog/2022/09/watch-out-ad-scammers-are-impersonating-open-source-devs/" title="Permalink to Watch Out: Ad Scammers are Impersonating Open Source Devs">
+              <h3 class="card-title font-weight-light">Watch Out: Ad Scammers are Impersonating Open Source Devs</h3>
 
-              <p class="mb-0">Even before the General Data Protection Regulation (GDPR) went into effect in 2018 with its cookie consent policy, internet users …</p>
+              <p class="mb-0">As we mentioned in our newsletter recently, EthicalAds was targeted by an ad scam ring. Fortunately, we were able to …</p>
 
             </a>
 
-            <a class="card-meta mt-auto" href="/blog/2021/02/can-you-eliminate-annoying-cookie-banners-from-your-site/">
+            <a class="card-meta mt-auto" href="/blog/2022/09/watch-out-ad-scammers-are-impersonating-open-source-devs/">
 
               <!-- Divider -->
               <hr class="card-meta-divider">
@@ -316,7 +282,7 @@ read more about our <a href="https://www.ethicalads.io/advertising-vision/">visi
 
                 <!-- Date -->
                 <div class="flex-fill h6 text-uppercase text-muted mb-0 ml-auto text-right">
-                  <time class="text-nowrap" datetime="2021-02-22T00:00:00-08:00">Feb 22, 2021</time>
+                  <time class="text-nowrap" datetime="2022-09-20T00:00:00-07:00">Sep 20, 2022</time>
                 </div>
               </div>
 
@@ -325,8 +291,8 @@ read more about our <a href="https://www.ethicalads.io/advertising-vision/">visi
         </div>
         <div class="col mb-10">
           <article class="card h-100 shadow-light-lg lift lift-lg">
-              <a href="/blog/2023/05/how-the-internet-ads-industry-works-players-tactics-pii-part-i/">
-                <img src="/images/posts/2023-ad-industry-overview.png" alt="How the Internet ads industry works: Players, Tactics & PII (Part I)" class="card-img-top">
+              <a href="/blog/2021/03/cookie-changes-are-coming-to-ad-tech/">
+                <img src="/images/posts/2021-post-cookie-world.jpg" alt="Cookie Changes are Coming to Ad Tech" class="card-img-top">
 
                 <!-- Style shape to the image -->
                 <div class="position-relative">
@@ -335,14 +301,14 @@ read more about our <a href="https://www.ethicalads.io/advertising-vision/">visi
                   </div>
                 </div>
               </a>
-            <a class="card-body" href="/blog/2023/05/how-the-internet-ads-industry-works-players-tactics-pii-part-i/" title="Permalink to How the Internet ads industry works: Players, Tactics & PII (Part I)">
-              <h3 class="card-title font-weight-light">How the Internet ads industry works: Players, Tactics & PII (Part I)</h3>
+            <a class="card-body" href="/blog/2021/03/cookie-changes-are-coming-to-ad-tech/" title="Permalink to Cookie Changes are Coming to Ad Tech">
+              <h3 class="card-title font-weight-light">Cookie Changes are Coming to Ad Tech</h3>
 
-              <p class="mb-0">At the most basic level, advertising is a two-sided marketplace with publishers supplying ad impressions and advertisers buying them. However …</p>
+              <p class="mb-0">Last week, Google announced that after they phase out third-party cookies in Chrome next year, they &#34;will not build alternate …</p>
 
             </a>
 
-            <a class="card-meta mt-auto" href="/blog/2023/05/how-the-internet-ads-industry-works-players-tactics-pii-part-i/">
+            <a class="card-meta mt-auto" href="/blog/2021/03/cookie-changes-are-coming-to-ad-tech/">
 
               <!-- Divider -->
               <hr class="card-meta-divider">
@@ -353,7 +319,7 @@ read more about our <a href="https://www.ethicalads.io/advertising-vision/">visi
 
                 <!-- Date -->
                 <div class="flex-fill h6 text-uppercase text-muted mb-0 ml-auto text-right">
-                  <time class="text-nowrap" datetime="2023-05-25T00:00:00-07:00">May 25, 2023</time>
+                  <time class="text-nowrap" datetime="2021-03-11T00:00:00-08:00">Mar 11, 2021</time>
                 </div>
               </div>
 

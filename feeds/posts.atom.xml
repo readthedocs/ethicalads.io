@@ -1,5 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds - posts</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/posts.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2023-05-11T00:00:00-07:00</updated><entry><title>EthicalAds Newsletter - April 2023</title><link href="https://www.ethicalads.io/blog/2023/05/ethicalads-newsletter-april-2023/" rel="alternate"></link><published>2023-05-11T00:00:00-07:00</published><updated>2023-05-11T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2023-05-11:/blog/2023/05/ethicalads-newsletter-april-2023/</id><summary type="html">&lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds - posts</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/posts.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2023-05-25T00:00:00-07:00</updated><entry><title>How the Internet ads industry works: Players, Tactics &amp; PII (Part I)</title><link href="https://www.ethicalads.io/blog/2023/05/how-the-internet-ads-industry-works-players-tactics-pii-part-i/" rel="alternate"></link><published>2023-05-25T00:00:00-07:00</published><updated>2023-05-25T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2023-05-25:/blog/2023/05/how-the-internet-ads-industry-works-players-tactics-pii-part-i/</id><summary type="html">&lt;p&gt;At the most basic level, advertising is a two-sided marketplace with publishers supplying ad impressions and advertisers buying them.
+However …&lt;/p&gt;</summary><content type="html">&lt;p&gt;At the most basic level, advertising is a two-sided marketplace with publishers supplying ad impressions and advertisers buying them.
+However, as Internet advertising has become more complicated, the landscape has grown
+and there's some other parts of the AdTech ecosystem worth highlighting.&lt;/p&gt;
+&lt;h2 id="supply-side"&gt;Supply side&lt;/h2&gt;
+&lt;h3 id="ad-networks"&gt;Ad networks&lt;/h3&gt;
+&lt;p&gt;An ad network like EthicalAds connects advertisers who want to advertise with publishers
+that want to show those ads.
+The largest such ad network is &lt;a href="https://www.ethicalads.io/alternative-to-google-ads/"&gt;Google AdSense&lt;/a&gt; that covers every possible topic and geography.
+Facebook has their own much smaller one called Facebook Audience Network,
+but there are many smaller networks that focus on niches like ours (developers who care about privacy).
+&lt;a href="https://www.ethicalads.io/alternative-to-carbon-ads/"&gt;CarbonAds&lt;/a&gt; is probably the closest ad network to us.&lt;/p&gt;
+&lt;h3 id="publishers"&gt;Publishers&lt;/h3&gt;
+&lt;p&gt;Publishers are websties, apps, podcasts, or newsletters that show ads.
+These range in size from small sites with very little traffic,
+up to some of the biggest ad-funded websites on the Internet.&lt;/p&gt;
+&lt;p&gt;Many very large publishers sell their ad inventory directly or even have their own ad server.
+This makes most sense for perhaps the top 100 largest websites and apps on the Internet
+such as Facebook, Amazon, Snapchat, StackOverflow or Reddit. These publishers are large enough to have their own ad formats, servers, and sales teams.&lt;/p&gt;
+&lt;p&gt;Because some of these large publishers have multiple sites
+(eg. Amazon sells Twitch ads as well as sponsored products on Amazon itself, Facebook sells Instagram ads),
+many very large publishers start to look like ad networks except they are the parent company for their publishers.
+Their ads may still be sold by programmatic bidding in a similar way to an exchange or network,
+except it is sold directly (called "Programmatic Direct Advertising").&lt;/p&gt;
+&lt;h2 id="demand-side"&gt;Demand side&lt;/h2&gt;
+&lt;h3 id="advertisers"&gt;Advertisers&lt;/h3&gt;
+&lt;p&gt;Advertisers are companies trying to reach consumers to inform them about their products and services
+with the ultimate goal of driving more usage and sales.
+Advertisers go where their customers or potential customers are
+and that usually involves multiple networks and publishers.&lt;/p&gt;
+&lt;p&gt;Advertisers have different goals but ultimately they are always concerned with
+how much exposure and how many new customers they are getting for their brand and products
+compared to how much they are spending while also keeping their brand safe.
+They might buy campaigns priced in a variety of different ways from per impression, per click, per lead/acquisition, or even a duration-based ad buy like an offline billboard or a monthly sponsorship.&lt;/p&gt;
+&lt;h3 id="ad-agencies"&gt;Ad agencies&lt;/h3&gt;
+&lt;p&gt;Many advertisers use an ad agency to buy and place their ads for them on the right networks and publishers.
+At EthicalAds, we deal with a number of ad agencies directly and have had good relationships with them.
+Frequently, these agencies specialize in a particular segment of the market like developer advertising.&lt;/p&gt;
+&lt;p&gt;While agencies usually have access to data like a company's analytics system,
+they may not have access to all the same data as the advertiser themselves such as direct conversions
+or conversions that happen after talking to a sales rep.&lt;/p&gt;
+&lt;h2 id="ad-exchanges"&gt;Ad exchanges&lt;/h2&gt;
+&lt;p&gt;Ad exchanges look very similar to ad networks but they are a marketplace that connects multiple advertisers,
+the demand side, with multiple ad networks or large publishers, the supply side.
+The key difference between a network and an exchange is that the exchange is merely facilitating the sale
+like a stock exchange while a network is responsible for their own publishers.
+Google operates one of the largest ad exchanges called AdX.&lt;/p&gt;
+&lt;p&gt;Ad exchanges create markets for buying and selling of ad space.
+In order for ad exchanges to run true auctions and have both bidding prices and asking prices,
+they have to treat a lot of traffic as fungible commodities of user metadata such as location information or past actions.
+Is an ad placement on the New York Times is the same as an ad on a personal blog if it reaches the right demographic (&lt;a href="https://www.ethicalads.io/blog/2021/05/how-invasive-ad-targeting-is-bad-for-journalism-and-other-high-quality-publishers/"&gt;we don't think so&lt;/a&gt;)?&lt;/p&gt;
+&lt;p&gt;Sales through ad exchanges are frequently handled by "real-time bidding" (RTB) and programmatic advertising,
+systems where advertisers place bids against user metadata
+(geographic, demographics, past actions, and other behavioral attributes)
+and these bids are matched against publisher traffic.&lt;/p&gt;
+&lt;p&gt;These approaches usually involve building up databases of personal information on users
+in order to better target them with ads.
+Like many people in the ad ecosystem, these vast troves of data on millions of users scare us.
+They will be covered in more detail in part two of this post.&lt;/p&gt;</content><category term="posts"></category><category term="adtech"></category><category term="business"></category></entry><entry><title>EthicalAds Newsletter - April 2023</title><link href="https://www.ethicalads.io/blog/2023/05/ethicalads-newsletter-april-2023/" rel="alternate"></link><published>2023-05-11T00:00:00-07:00</published><updated>2023-05-11T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2023-05-11:/blog/2023/05/ethicalads-newsletter-april-2023/</id><summary type="html">&lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
 &lt;p&gt;Our progress in April was:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;The ads now have a live preview while advertisers edit them.
