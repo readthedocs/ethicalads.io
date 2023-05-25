@@ -1,5 +1,5 @@
 Title: How the Internet ads industry works: Players, Tactics & PII (Part I)
-Date: May 2, 2023
+Date: May 25, 2023
 description: The advertising industry is complex for the uninitiated and we detail the industry today, its players and methods, and how we're trying to change it.
 tags: adtech, business
 authors: David Fischer
