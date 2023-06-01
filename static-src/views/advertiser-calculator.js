@@ -51,7 +51,9 @@ function AdvertiserCalculatorViewModel() {
     let region_slug = this.selected_region();
     let cpm = this.pricing[topic_slug][region_slug];
 
-    if (this.budget() >= 3000) {
+    if (this.budget() >= 25000) {
+      cpm = cpm * 0.85;
+    } else if (this.budget() >= 3000) {
       cpm = cpm * 0.9;
     }
     return cpm;

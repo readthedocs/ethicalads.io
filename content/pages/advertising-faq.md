@@ -12,7 +12,8 @@ description: These are common questions from advertisers about the EthicalAds ne
 Our [prices](/advertisers/#pricing) differ by topic and by geography and rates change quarterly to balance demand.
 
 Ads are priced in cost per thousand impressions (CPM) and
-we also offer an automatic 10% discount for ad buys of $3,000 or more.
+we also offer an automatic 10% discount for ad buys of $3,000,
+and 15% for ad buys of $25,000 or more.
 
 While you might setup a recurring campaign to be billed monthly,
 all our pricing is per impression.

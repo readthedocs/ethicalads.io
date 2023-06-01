@@ -44,20 +44,20 @@
 
           <div class="form-group mb-8">
             <h3>Campaign budget</h3>
-            <p class="small">This budget could be over just a few weeks or as long as a quarter. There is an automatic discount of 10% for campaigns over $3k in size.</p>
+            <p class="small">This budget could be over just a few weeks or as long as a quarter. There is an automatic discount of 10% for campaigns over $3k and 15% for campaigns over $25k.</p>
 
             <div class="d-print-none">
               <div class="input-group input-group-sm mx-auto w-50 w-lg-25">
                 <div class="input-group-prepend">
                   <span class="input-group-text">$</span>
                 </div>
-                <input type="number" class="form-control" data-bind="value: budget" min="500" max="10000" step="100" name="budget-precise" id="budget-precise">
+                <input type="number" class="form-control" data-bind="value: budget" min="500" max="25000" step="500" name="budget-precise" id="budget-precise">
               </div>
 
-              <input type="range" class="form-control-range" min="500" max="10000" step="100" data-bind="value: budget" name="budget" id="budget">
+              <input type="range" class="form-control-range" min="500" max="25000" step="100" data-bind="value: budget" name="budget" id="budget">
               <div class="d-flex">
                 <div class="small flex-fill">$500</div>
-                <div class="small flex-fill text-right">$10k</div>
+                <div class="small flex-fill text-right">$25k</div>
               </div>
             </div>
           </div>
@@ -132,7 +132,8 @@
           <div class="flex-fill text-center mb-5">
             <p class="small mb-0">CPM</p>
             <p class="lead mb-0" data-bind="text: '$' + getCpm().toFixed(2)"></p>
-            <p class="small mb-0" data-bind="if: budget() >= 3000">* 10% discount applied</p>
+            <p class="small mb-0" data-bind="if: budget() >= 3000 && budget() < 25000">* 10% discount applied</p>
+            <p class="small mb-0" data-bind="if: budget() >= 25000">* 15% discount applied</p>
           </div>
           <div class="flex-fill text-center mb-5">
             <p class="small mb-0">Number of impressions</p>
