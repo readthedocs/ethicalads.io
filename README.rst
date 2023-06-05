@@ -23,6 +23,7 @@ You can build the site HTML and serve it locally with:
     $ inv rebuild         # build one time
     $ inv regenerate      # regenerate the site whenever you modify a page/post
     $ inv serve           # serve the site at http://localhost:8000
+    $ inv livereload      # Rebuild and serve the site on http://localhost:8000
 
 If you don't see any styling, you may also need to build static assets (see below).
 
