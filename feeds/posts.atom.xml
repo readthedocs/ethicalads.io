@@ -1,5 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds - posts</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/posts.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2023-05-25T00:00:00-07:00</updated><entry><title>How the Internet ads industry works: Players, Tactics &amp; PII (Part I)</title><link href="https://www.ethicalads.io/blog/2023/05/how-the-internet-ads-industry-works-players-tactics-pii-part-i/" rel="alternate"></link><published>2023-05-25T00:00:00-07:00</published><updated>2023-05-25T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2023-05-25:/blog/2023/05/how-the-internet-ads-industry-works-players-tactics-pii-part-i/</id><summary type="html">&lt;p&gt;At the most basic level, advertising is a two-sided marketplace with publishers supplying ad impressions and advertisers buying them.
+<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds - posts</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/posts.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2023-06-06T00:00:00-07:00</updated><entry><title>EthicalAds Newsletter - May 2023</title><link href="https://www.ethicalads.io/blog/2023/06/ethicalads-newsletter-may-2023/" rel="alternate"></link><published>2023-06-06T00:00:00-07:00</published><updated>2023-06-06T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2023-06-06:/blog/2023/06/ethicalads-newsletter-may-2023/</id><summary type="html">&lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
+&lt;p&gt;Our progress in May was:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We released an updated &lt;a href="https://www.ethicalads.io/prospectus/ethicalads-advertiser-prospectus.pdf"&gt;Q3 prospectus&lt;/a&gt;.
+  The major changes were slightly increased US …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
+&lt;p&gt;Our progress in May was:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We released an updated &lt;a href="https://www.ethicalads.io/prospectus/ethicalads-advertiser-prospectus.pdf"&gt;Q3 prospectus&lt;/a&gt;.
+  The major changes were slightly increased US &amp;amp; Canada prices and slightly decreased European pricing.
+  This is in response to our supply and demand where we've been completely booked in North America
+  for essentially all of Q2. We are also highlighting a slightly higher discount for campaigns
+  exceeding $25k per quarter.&lt;/li&gt;
+&lt;li&gt;We wrote a blog post that features the
+  &lt;a href="https://www.ethicalads.io/blog/2023/05/how-the-internet-ads-industry-works-players-tactics-pii-part-i/"&gt;lay of the land of the ad industry&lt;/a&gt;.
+  We should have the second installment this month detailing how and why these players
+  pass around personal identifiable info.&lt;/li&gt;
+&lt;li&gt;We made some first steps toward phasing out some of our earlier approaches toward topic detection
+  such as client side keyword and topic detection.
+  We've been very happy with the performance and accuracy of our machine learning topic detection.
+  This process will continue over the coming months.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can always see our latest server updates in our
+&lt;a href="https://ethical-ad-server.readthedocs.io/en/latest/developer/changelog.html"&gt;ethical-ad-server changelog&lt;/a&gt;
+and &lt;a href="https://ethical-ad-client.readthedocs.io/en/latest/changelog.html"&gt;ethical-ad-client changelog&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="may-advertising-stats"&gt;May advertising stats&lt;/h2&gt;
+&lt;p&gt;In May 2023:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We generated &lt;strong&gt;$39,935.33&lt;/strong&gt; for our publishers. This is down slightly from April.&lt;/li&gt;
+&lt;li&gt;We had &lt;strong&gt;163 publishers&lt;/strong&gt; on our network with at least one paid ad impression.
+  This is unchanged from April.&lt;/li&gt;
+&lt;li&gt;We had &lt;strong&gt;22,129,392&lt;/strong&gt; paid ad views across the world.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We are expecting a small slow down in June especially in Europe,
+but overall we've seen steady although noisy growth in terms of advertisers
+and campaign sizes.&lt;/p&gt;
+&lt;h2 id="upcoming-features"&gt;Upcoming features&lt;/h2&gt;
+&lt;p&gt;The major features in our upcoming roadmap for June:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We don't do frequency capping (limit showing the same ad to the same user)
+  to quite the extent that many ad networks do due to privacy concerns.
+  Instead, we focus on frequency capping across time and across a campaign.
+  We're working on some additional features in this area which we believe
+  will improve campaign performance and improve ad variety for publishers and site visitors.&lt;/li&gt;
+&lt;li&gt;We have an update coming on our ad client that will improve
+  single page app (SPA) support. Many publishers use single page apps
+  which rewrite the content of the page but don't actually reload it.
+  For long lasting pages that transition based on user interaction,
+  it may make sense to rotate the ad.&lt;/li&gt;
+&lt;li&gt;We are rolling out a number of quality of life improvements
+  for ourselves around speeding up the publisher payout process
+  and configuring campaigns.&lt;/li&gt;
+&lt;li&gt;We built a new report for advertisers
+  that shows a performance breakdown by topic and intended to release it in May.
+  It should be released in the next week.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thanks again for being along with us on this journey to build an ethical ad network.
+Please &lt;a href="mailto:ads@ethicalads.io"&gt;email us&lt;/a&gt; if you have any ideas or feedback on our product or roadmap,
+we always love to hear from you.&lt;/p&gt;</content><category term="posts"></category><category term="newsletter"></category><category term="community"></category><category term="build-in-public"></category></entry><entry><title>How the Internet ads industry works: Players, Tactics &amp; PII (Part I)</title><link href="https://www.ethicalads.io/blog/2023/05/how-the-internet-ads-industry-works-players-tactics-pii-part-i/" rel="alternate"></link><published>2023-05-25T00:00:00-07:00</published><updated>2023-05-25T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2023-05-25:/blog/2023/05/how-the-internet-ads-industry-works-players-tactics-pii-part-i/</id><summary type="html">&lt;p&gt;At the most basic level, advertising is a two-sided marketplace with publishers supplying ad impressions and advertisers buying them.
 However …&lt;/p&gt;</summary><content type="html">&lt;p&gt;At the most basic level, advertising is a two-sided marketplace with publishers supplying ad impressions and advertisers buying them.
 However, as Internet advertising has become more complicated, the landscape has grown
 and there's some other parts of the AdTech ecosystem worth highlighting.&lt;/p&gt;
