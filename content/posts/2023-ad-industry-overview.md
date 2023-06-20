@@ -10,6 +10,9 @@ At the most basic level, advertising is a two-sided marketplace with publishers 
 However, as Internet advertising has become more complicated, the landscape has grown
 and there's some other parts of the AdTech ecosystem worth highlighting.
 
+**Check out [part two covering modern ad targeting and troves of personal data]({filename}../posts/2023-ad-industry-overview-part-ii.md).**
+
+
 
 ## Supply side
 
@@ -82,4 +85,4 @@ and these bids are matched against publisher traffic.
 These approaches usually involve building up databases of personal information on users
 in order to better target them with ads.
 Like many people in the ad ecosystem, these vast troves of data on millions of users scare us.
-They will be covered in more detail in part two of this post.
+They will be covered in more detail in [part two of this post]({filename}../posts/2023-ad-industry-overview-part-ii.md).
