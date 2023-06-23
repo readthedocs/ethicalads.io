@@ -19,48 +19,48 @@
             <thead>
               <tr>
                 <th scope="col">Topic</th>
-                <th scope="col" class="text-center">US, Canada</th>
+                <th scope="col" class="text-center">US, Canada, UK, Australia,<br>New Zealand, Ireland</th>
                 <th scope="col" class="text-center">Blend: US, Canada, UK, W. EU,<br> Australia, New Zealand</th>
-                <th scope="col" class="text-center">UK, W. EU,<br> Australia, New Zealand</th>
+                <th scope="col" class="text-center">Western Europe</th>
               </tr>
             </thead>
 
             <tbody>
               <tr>
                 <th scope="row">Data science / machine learning</th>
-                <td class="text-center">{{ "$%.2f"|format(page.pricing["datascience"]["us-ca"]) }}</td>
+                <td class="text-center">{{ "$%.2f"|format(page.pricing["datascience"]["eng"]) }}</td>
                 <td class="text-center">{{ "$%.2f"|format(page.pricing["datascience"]["blend"]) }}</td>
-                <td class="text-center">{{ "$%.2f"|format(page.pricing["datascience"]["weu-aunz"]) }}</td>
+                <td class="text-center">{{ "$%.2f"|format(page.pricing["datascience"]["weu"]) }}</td>
               </tr>
               <tr>
                 <th scope="row">Security / privacy</th>
-                <td class="text-center">{{ "$%.2f"|format(page.pricing["security"]["us-ca"]) }}</td>
+                <td class="text-center">{{ "$%.2f"|format(page.pricing["security"]["eng"]) }}</td>
                 <td class="text-center">{{ "$%.2f"|format(page.pricing["security"]["blend"]) }}</td>
-                <td class="text-center">{{ "$%.2f"|format(page.pricing["security"]["weu-aunz"]) }}</td>
+                <td class="text-center">{{ "$%.2f"|format(page.pricing["security"]["weu"]) }}</td>
               </tr>
               <tr>
                 <th scope="row">DevOps</th>
-                <td class="text-center">{{ "$%.2f"|format(page.pricing["devops"]["us-ca"]) }}</td>
+                <td class="text-center">{{ "$%.2f"|format(page.pricing["devops"]["eng"]) }}</td>
                 <td class="text-center">{{ "$%.2f"|format(page.pricing["devops"]["blend"]) }}</td>
-                <td class="text-center">{{ "$%.2f"|format(page.pricing["devops"]["weu-aunz"]) }}</td>
+                <td class="text-center">{{ "$%.2f"|format(page.pricing["devops"]["weu"]) }}</td>
               </tr>
               <tr>
                 <th scope="row">Frontend web / JavaScript</th>
-                <td class="text-center">{{ "$%.2f"|format(page.pricing["frontend"]["us-ca"]) }}</td>
+                <td class="text-center">{{ "$%.2f"|format(page.pricing["frontend"]["eng"]) }}</td>
                 <td class="text-center">{{ "$%.2f"|format(page.pricing["frontend"]["blend"]) }}</td>
-                <td class="text-center">{{ "$%.2f"|format(page.pricing["frontend"]["weu-aunz"]) }}</td>
+                <td class="text-center">{{ "$%.2f"|format(page.pricing["frontend"]["weu"]) }}</td>
               </tr>
               <tr>
                 <th scope="row">Backend web development</th>
-                <td class="text-center">{{ "$%.2f"|format(page.pricing["backend"]["us-ca"]) }}</td>
+                <td class="text-center">{{ "$%.2f"|format(page.pricing["backend"]["eng"]) }}</td>
                 <td class="text-center">{{ "$%.2f"|format(page.pricing["backend"]["blend"]) }}</td>
-                <td class="text-center">{{ "$%.2f"|format(page.pricing["backend"]["weu-aunz"]) }}</td>
+                <td class="text-center">{{ "$%.2f"|format(page.pricing["backend"]["weu"]) }}</td>
               </tr>
               <tr>
                 <th scope="row">All developers</th>
-                <td class="text-center">{{ "$%.2f"|format(page.pricing["all-developers"]["us-ca"]) }}</td>
+                <td class="text-center">{{ "$%.2f"|format(page.pricing["all-developers"]["eng"]) }}</td>
                 <td class="text-center">{{ "$%.2f"|format(page.pricing["all-developers"]["blend"]) }}</td>
-                <td class="text-center">{{ "$%.2f"|format(page.pricing["all-developers"]["weu-aunz"]) }}</td>
+                <td class="text-center">{{ "$%.2f"|format(page.pricing["all-developers"]["weu"]) }}</td>
               </tr>
             </tbody>
 
