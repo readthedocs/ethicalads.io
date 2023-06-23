@@ -129,7 +129,7 @@ DEFAULT_METADATA = {
         {"slug": "eng", "name": "US, Canada, UK, Australia, New Zealand, Ireland"},
         {
             "slug": "blend",
-            "name": "Blend: US, Canada, UK, W. EU, Australia, New Zealand",
+            "name": "Blend: W. Europe, US, Canada, UK, Australia, New Zealand",
         },
         {"slug": "weu", "name": "Western Europe"},
         {"slug": "eeu-apac", "name": "Eastern EU, Asia Pacific"},
