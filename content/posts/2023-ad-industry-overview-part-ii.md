@@ -124,7 +124,7 @@ Instead of letting any advertiser run anything in exchange for high ad bids,
 we make sure the products advertisers are promoting are real products relevant to our audience.
 No bogus sites, no scammy ads, and relevant products next to relevant content. That's it!
 
-While this focus on quality means we'll never grow to be as big as Google (or even 1/1,000th of Google),
+While this focus on quality means we'll never grow to be as big as Google,
 it has let us build a sustainable ad business that supports hundreds
 of developers with tens of thousands of dollars in ad revenue every month.
 Thanks again for coming along with us on this journey to build an ethical ad network
