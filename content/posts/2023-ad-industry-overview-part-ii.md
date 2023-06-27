@@ -48,7 +48,7 @@ The same technique can be used to show ads to users who watch a specific video, 
 </div>
 
 
-## Privacy concerns: crossing the line or good business
+## Privacy concerns: crossing the line or good business?
 
 When we talk about invasive ad targeting, privacy concerns inevitably take center stage.
 Modern ad targeting techniques mean that huge amounts of personal data
