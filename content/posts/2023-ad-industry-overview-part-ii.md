@@ -69,12 +69,12 @@ the big ad players will ask advertisers to upload even more personal data to bet
 In our [previous post]({filename}../posts/2023-ad-industry-overview.md),
 we discussed ad exchanges, which facilitate the buying and selling of ad inventory in real-time.
 They present some especially acute privacy concerns.
-Firstly, they necessarily involve publishers sending personal data to the exchanges
+By design, exchanges involve publishers sending up user personal data
 (usually obfuscated) for advertisers to bid on.
 Unlike the example of browsing Facebook or Google,
 it spreads copies of users' personal data to multiple companies,
 many of which don't have a direct relationship with the person being shown the ad.
-Lastly, it means that a data breach at any of the companies in the chain can expose personal data.
+As a result, it means that a data breach at any of the companies in the chain can expose personal data.
 
 Adtech companies will argue that well-targeted ads enhance the user experience.
 Certainly it is better to show relevant products and services that align with a website visitors interests
