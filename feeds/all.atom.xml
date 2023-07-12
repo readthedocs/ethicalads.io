@@ -1,5 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/all.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2023-06-27T00:00:00-07:00</updated><entry><title>How the Internet ads industry works: modern invasive ad targeting</title><link href="https://www.ethicalads.io/blog/2023/06/how-the-internet-ads-industry-works-modern-invasive-ad-targeting/" rel="alternate"></link><published>2023-06-27T00:00:00-07:00</published><updated>2023-06-27T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2023-06-27:/blog/2023/06/how-the-internet-ads-industry-works-modern-invasive-ad-targeting/</id><summary type="html">&lt;p&gt;&lt;strong&gt;This is a follow-up post to our &lt;a href="https://www.ethicalads.io/blog/2023/05/how-the-internet-ads-industry-works-players-tactics-pii-part-i/"&gt;overview of the ads industry&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/all.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2023-07-12T00:00:00-07:00</updated><entry><title>EthicalAds Newsletter - June 2023</title><link href="https://www.ethicalads.io/blog/2023/07/ethicalads-newsletter-june-2023/" rel="alternate"></link><published>2023-07-12T00:00:00-07:00</published><updated>2023-07-12T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2023-07-12:/blog/2023/07/ethicalads-newsletter-june-2023/</id><summary type="html">&lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
+&lt;p&gt;Our progress in June was:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We released an update to our ad client that will improve
+  single page …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
+&lt;p&gt;Our progress in June was:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We released an update to our ad client that will improve
+  single page app (SPA) support. Many publishers use single page apps
+  which rewrite the content of the page but don't actually reload it.
+  For long lasting pages that transition based on user interaction,
+  it may make sense to rotate the ad.&lt;/li&gt;
+&lt;li&gt;We wrote a part two blog post of the ad industry that details
+  &lt;a href="https://www.ethicalads.io/blog/2023/06/how-the-internet-ads-industry-works-modern-invasive-ad-targeting/"&gt;modern invasive ad targeting&lt;/a&gt;
+  and how it's still possible to get great ad performance without it.&lt;/li&gt;
+&lt;li&gt;We added the ability for advertisers to request a new campaign.
+  This is a first step toward making our ad platform more self-serve,
+  something we've wanted for a long time.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can always see our latest server updates in our
+&lt;a href="https://ethical-ad-server.readthedocs.io/en/latest/developer/changelog.html"&gt;ethical-ad-server changelog&lt;/a&gt;
+and &lt;a href="https://ethical-ad-client.readthedocs.io/en/latest/changelog.html"&gt;ethical-ad-client changelog&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="june-advertising-stats"&gt;June advertising stats&lt;/h2&gt;
+&lt;p&gt;In June 2023:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We generated &lt;strong&gt;$40,336.00&lt;/strong&gt; for our publishers. This is up marginally from May.&lt;/li&gt;
+&lt;li&gt;We had &lt;strong&gt;169 publishers&lt;/strong&gt; on our network with at least one paid ad impression.&lt;/li&gt;
+&lt;li&gt;We had &lt;strong&gt;24,375,898&lt;/strong&gt; paid ad views across the world.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;June outperformed for us in terms of expectations made in late May.
+Overall, we continue to be almost completely booked up in the US and Canada
+and have a little bit of spare capacity in Europe.
+As a result, we lowered our European ad prices slightly for Q3 outside of the UK.&lt;/p&gt;
+&lt;p&gt;Looking forward, we expect similar performance in July to June.&lt;/p&gt;
+&lt;h2 id="upcoming-features"&gt;Upcoming features&lt;/h2&gt;
+&lt;p&gt;The major features in our upcoming roadmap for July:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We built some frequency capping features that will allow
+  setting maximum percentages of a campaign that will fill
+  on certain publishers or in certain countries or regions.
+  This should give better performance to our advertisers.&lt;/li&gt;
+&lt;li&gt;We are going to release our ad client as a UMD JavaScript module
+  which should allow it to be installed by NPM and similar tools.
+  This is a quality of life improvement a few publishers have asked for.&lt;/li&gt;
+&lt;li&gt;For advertiser campaigns that absolutely need to stop on a certain date
+  because they promote a certain event or time-sensitive release,
+  we are implementing a "hard stop" date.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thanks again for being along with us on this journey to build an ethical ad network.
+Please &lt;a href="mailto:ads@ethicalads.io"&gt;email us&lt;/a&gt; if you have any ideas or feedback on our product or roadmap,
+we always love to hear from you.&lt;/p&gt;</content><category term="posts"></category><category term="newsletter"></category><category term="community"></category><category term="build-in-public"></category></entry><entry><title>How the Internet ads industry works: modern invasive ad targeting</title><link href="https://www.ethicalads.io/blog/2023/06/how-the-internet-ads-industry-works-modern-invasive-ad-targeting/" rel="alternate"></link><published>2023-06-27T00:00:00-07:00</published><updated>2023-06-27T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2023-06-27:/blog/2023/06/how-the-internet-ads-industry-works-modern-invasive-ad-targeting/</id><summary type="html">&lt;p&gt;&lt;strong&gt;This is a follow-up post to our &lt;a href="https://www.ethicalads.io/blog/2023/05/how-the-internet-ads-industry-works-players-tactics-pii-part-i/"&gt;overview of the ads industry&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;The ads we encounter online seem to be …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;strong&gt;This is a follow-up post to our &lt;a href="https://www.ethicalads.io/blog/2023/05/how-the-internet-ads-industry-works-players-tactics-pii-part-i/"&gt;overview of the ads industry&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;The ads we encounter online seem to be increasingly tailored to our personal interests and preferences.
 This is no accident but rather the result of modern ad targeting
