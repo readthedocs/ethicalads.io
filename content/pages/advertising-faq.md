@@ -163,10 +163,16 @@ After you've collected enough data, turn the lower performing variant off to max
 Absolutely. You can contact us anytime, but an ad specialist will proactively reach out
 a few weeks into your campaign with suggestions.
 We also offer advice on crafting ads that resonate with our audience.
-See our [advertising guide]({filename}/pages/learning-hub/advertiser-guide.md) for more details.
+See our [advertising guide]({filename}/pages/learning-hub/advertiser-guide.md) for more details
+and our [creative specs guide]({filename}/pages/learning-hub/ad-design-and-specs.md) has a number of tips and tricks about what works.
+
+We can work with you to ensure your campaign is successful.
+If you have creatives you're running on other networks, we can help you adapt them to our ad formats.
+If you need more help creating ads that convert, let us know.
+We've run a lot of campaigns on our network for ourselves and for advertisers and we know what works.
 
 For larger campaigns,
-we provide a short video summary of how your campaign is performing
+we provide periodic video summaries of how your campaigns are performing
 with detailed suggestions to try to boost performance.
 
 
