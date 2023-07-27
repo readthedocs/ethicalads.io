@@ -168,7 +168,7 @@ and our [creative specs guide]({filename}/pages/learning-hub/ad-design-and-specs
 
 We can work with you to ensure your campaign is successful.
 If you have creatives you're running on other networks, we can help you adapt them to our ad formats.
-If you need more help creating ads that convert, let us know.
+If you need more help creating ads that convert, we can help with that.
 We've run a lot of campaigns on our network for ourselves and for advertisers and we know what works.
 
 For larger campaigns,
