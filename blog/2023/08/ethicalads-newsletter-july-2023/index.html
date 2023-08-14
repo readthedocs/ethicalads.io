@@ -4,18 +4,18 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 <meta name="generator" content="Pelican" />
-<meta property="og:site_name" content="EthicalAds"/><meta name="description" content="Updates from June 2022, including stats and commentary on our progress as we build EthicalAds" />
-    <meta property="og:description" content="Updates from June 2022, including stats and commentary on our progress as we build EthicalAds" /><meta name="tags" content="newsletter" /><meta name="tags" content="community" /><meta name="author" content="David Fischer" /><meta property="og:type" content="article">
-  <meta property="og:title" content="EthicalAds Newsletter - June 2022" />
-  <meta property="twitter:title" content="EthicalAds Newsletter - June 2022" /><meta property="og:image" content="https://www.ethicalads.io/images/posts/2022-june-newsletter.jpg" />
-    <meta property="twitter:image" content="https://www.ethicalads.io/images/posts/2022-june-newsletter.jpg" /><meta property="article:published_time" content="2022-07-14" />
+<meta property="og:site_name" content="EthicalAds"/><meta name="description" content="Updates from July 2023, including stats and commentary on our progress as we build EthicalAds" />
+    <meta property="og:description" content="Updates from July 2023, including stats and commentary on our progress as we build EthicalAds" /><meta name="tags" content="newsletter" /><meta name="tags" content="community" /><meta name="tags" content="build-in-public" /><meta name="author" content="David Fischer" /><meta property="og:type" content="article">
+  <meta property="og:title" content="EthicalAds Newsletter - July 2023" />
+  <meta property="twitter:title" content="EthicalAds Newsletter - July 2023" /><meta property="og:image" content="https://www.ethicalads.io/images/posts/2023-july-newsletter.jpg" />
+    <meta property="twitter:image" content="https://www.ethicalads.io/images/posts/2023-july-newsletter.jpg" /><meta property="article:published_time" content="2023-08-14" />
       <!-- Bootstrap CSS -->
       <link rel="stylesheet" href="/theme/dist/main.css">
 
-      <title>EthicalAds Newsletter - June 2022 - EthicalAds</title>
+      <title>EthicalAds Newsletter - July 2023 - EthicalAds</title>
 
-  <link rel="canonical" href="https://www.ethicalads.io/blog/2022/07/ethicalads-newsletter-june-2022/" />
-  <meta property="og:url" content="https://www.ethicalads.io/blog/2022/07/ethicalads-newsletter-june-2022/" />
+  <link rel="canonical" href="https://www.ethicalads.io/blog/2023/08/ethicalads-newsletter-july-2023/" />
+  <meta property="og:url" content="https://www.ethicalads.io/blog/2023/08/ethicalads-newsletter-july-2023/" />
 
       <!-- Feeds -->
         <link href="https://www.ethicalads.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="EthicalAds Full Atom Feed" />
@@ -95,7 +95,7 @@
   <div class="row justify-content-center">
     <div class="col-12 col-md-10 col-lg-9 col-xl-8">
       <!-- Heading -->
-      <h1 class="display-4">EthicalAds Newsletter - June 2022</h1>
+      <h1 class="display-4">EthicalAds Newsletter - July 2023</h1>
 
       <!-- Meta -->
       <div class="row align-items-center py-5 border-top border-bottom">
@@ -107,7 +107,7 @@
 
             <!-- Date -->
             <div class="flex-fill h6 text-uppercase text-muted mb-0 ml-auto text-right">
-              <time class="text-nowrap" datetime="2022-07-14T00:00:00-07:00">Jul 14, 2022</time>
+              <time class="text-nowrap" datetime="2023-08-14T00:00:00-07:00">Aug 14, 2023</time>
             </div>
           </div>
         </div>
@@ -118,57 +118,65 @@
         <figure class="figure mb-7">
 
           <!-- Image -->
-          <img class="figure-img img-fluid rounded" src="/images/posts/2022-june-newsletter.jpg" alt="EthicalAds Newsletter - June 2022">
+          <img class="figure-img img-fluid rounded" src="/images/posts/2023-july-newsletter.jpg" alt="EthicalAds Newsletter - July 2023">
 
           <!-- Caption -->
-        <figcaption class="figure-caption text-center"><small><a href="https://unsplash.com/@polarmermaid?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Anne Nygård</a> on <a href="https://unsplash.com/s/photos/june?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></small></figcaption>
+        <figcaption class="figure-caption text-center"><small><span>Photo by <a href="https://unsplash.com/@mcoswalt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Maria Oswalt</a> on <a href="https://unsplash.com/photos/ns5Valsrpho?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span></small></figcaption>
 
         </figure>
 
       <div>
         <h2 id="new-features">New features</h2>
-<p>These are the major features we released in June:</p>
+<p>Our progress in July was:</p>
 <ul>
-<li>We made a number of improvements to detecting keywords where we show ads.
-  In the end, this project scoped up a little bit and we built a pretty awesome (for us anyway)
-  machine learning model that detects what pages are about.
-  It will roll into production in July.</li>
-<li>We rolled out an updated <a href="https://www.ethicalads.io/prospectus/ethicalads-advertiser-prospectus.pdf">Q3 prospectus</a>
-  and a small simplification to our pricing.</li>
-<li>We released a new <a href="https://www.ethicalads.io/blog/2022/06/publisher-spotlight-series-kyle-polich-from-data-skeptic/">publisher spotlight interview</a>
-  with Kyle Polich from Data Skeptic.</li>
-<li>Just to follow up on a May feature, we saw quite a few publishers start using the fallback ads!</li>
+<li>We rolled out some new frequency capping features that allow
+  setting maximum percentages of a campaign that will fill
+  on certain publishers or in certain countries or regions.
+  This will help us balance campaigns and should result in better advertiser performance.</li>
+<li>We implemented a hard stop date for advertising campaigns.
+  Some campaigns absolutely need to stop on a certain date
+  because they promote a certain event or time-sensitive release.
+  This feature should help advertisers run these kinds of campaigns
+  and credit any remaining balance that wasn't filled.</li>
+<li>We made a number of landing page adjustments to highlight
+  our ad-agency-lite customer service features we do for advertisers.
+  Lots of advertisers ask for guidance in creating or tweaking ads
+  both before and during campaigns in order to maximize performance.
+  We know that every ad network is a little different due to different ad formats or a slightly different audience.
+  That's why we check-in on campaigns to make sure advertisers are getting the most for their ad dollars
+  and propose changes that advertisers can make to their campaign.
+  Typically, these are some of the things an ad agency would do for an advertiser
+  and we do it to help us retain advertisers.</li>
 </ul>
-<p>You can always see our latest server updates in our <a href="https://ethical-ad-server.readthedocs.io/en/latest/developer/changelog.html">ethical-ad-server changelog</a> and <a href="https://ethical-ad-client.readthedocs.io/en/latest/changelog.html">ethical-ad-client changelog</a>.</p>
-<h2 id="june-advertising-stats">June advertising stats</h2>
-<p>In June 2022:</p>
+<p>You can always see our latest server updates in our
+<a href="https://ethical-ad-server.readthedocs.io/en/latest/developer/changelog.html">ethical-ad-server changelog</a>
+and <a href="https://ethical-ad-client.readthedocs.io/en/latest/changelog.html">ethical-ad-client changelog</a>.</p>
+<h2 id="july-advertising-stats">July advertising stats</h2>
+<p>In July 2023:</p>
 <ul>
-<li>We generated <strong>$37,579.32</strong> for our publishers.
-  This is slightly down from our record month in May but still very good.</li>
-<li>We had <strong>128 publishers</strong> on our network with at least one paid ad impression.</li>
-<li>We had <strong>15,407,959</strong> paid ad views across the world.</li>
+<li>We generated <strong>$41,849.75</strong> for our publishers. This is up a bit from June.</li>
+<li>We had <strong>170 publishers</strong> on our network with at least one paid ad impression.</li>
+<li>We had <strong>25,941,085</strong> paid ad views across the world.</li>
 </ul>
-<p>There's a lot of talk of a market downturn but that hasn't shown up yet
-in our numbers. We are continuing to see strong demand for advertising.</p>
-<h2 id="tricky-bits">Tricky bits</h2>
-<p>While we're pretty excited about the ML model we built,
-we don't have a true data scientist at EthicalAds or at Read the Docs.
-As a result, there's been quite a ramp up in terms of learning the ML state of the art.
-We have created a <a href="https://spacy.io/">SpaCy</a> based text classifier.
-This is tricky because it's outside of our comfort zone,
-but to go from almost nothing to something just about ready for production
-in less than a month is very cool.</p>
+<p>July slightly outperformed June which was a nice surprise.
+As with last month, we continue to be almost completely booked up in the US and Canada
+and have a little bit of spare capacity in Europe (although that is tightening up due to the price drop).</p>
+<p>August is trending about the same as July and we expect it to be flat to a small improvement.</p>
 <h2 id="upcoming-features">Upcoming features</h2>
-<p>The major features in our upcoming roadmap:</p>
+<p>The major features in our upcoming roadmap for August:</p>
 <ul>
-<li>As I mentioned earlier, our topic detection project will roll out in July.</li>
-<li>I'm a little late in posting this blog but we released support
-  for an <a href="https://ethical-ad-client.readthedocs.io/en/latest/#fixedfooter">ad fixed to the footer</a>
-  of the page directly to our ad client in early July.
-  This allows publishers to have a high performing ad placement without any custom code.</li>
-<li>We are building topic specific landing pages for our core topics
-  like data science and security &amp; privacy. The goal is to help our SEO and rank for things
-  advertisers search for like "advertising to data scientists".</li>
+<li>We've seen some increased advertiser demand for some reporting features
+  that they can plug into their own dashboards.
+  We are still gathering requirements, but we expect to move quickly on this.</li>
+<li>We intend to put together a content piece about what happens
+  when a publisher on our network <a href="https://twitter.com/ethicaladsio/status/1626239820891832327">truly goes viral</a>.</li>
+<li>We are building more pricing features directly into our ad server.
+  Historically, we've updated prices quarterly in our
+  <a href="https://www.ethicalads.io/prospectus/ethicalads-advertiser-prospectus.pdf">prospectus</a>
+  but because some campaigns have non-standard targeting or have volume discounts,
+  our ad server set the price per flight
+  rather than having standard prices for each geographic/topic combination.
+  This is another feature that will help us get our network closer to self-serve.</li>
 </ul>
 <p>Thanks again for being along with us on this journey to build an ethical ad network.
 Please <a href="mailto:ads@ethicalads.io">email us</a> if you have any ideas or feedback on our product or roadmap,
@@ -205,43 +213,6 @@ we always love to hear from you.</p>
     <h3 class="mb-4 mt-6">Similar posts</h3>
 
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
-        <div class="col mb-10">
-          <article class="card h-100 shadow-light-lg lift lift-lg">
-              <a href="/blog/2023/08/ethicalads-newsletter-july-2023/">
-                <img src="/images/posts/2023-july-newsletter.jpg" alt="EthicalAds Newsletter - July 2023" class="card-img-top">
-
-                <!-- Style shape to the image -->
-                <div class="position-relative">
-                  <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
-                    <svg viewBox="0 0 2880 480" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2160 0C1440 240 720 240 720 240H0v240h2880V0h-720z" fill="currentColor"/></svg>
-                  </div>
-                </div>
-              </a>
-            <a class="card-body" href="/blog/2023/08/ethicalads-newsletter-july-2023/" title="Permalink to EthicalAds Newsletter - July 2023">
-              <h3 class="card-title font-weight-light">EthicalAds Newsletter - July 2023</h3>
-
-              <p class="mb-0">New features Our progress in July was: We rolled out some new frequency capping features that allow setting maximum percentages …</p>
-
-            </a>
-
-            <a class="card-meta mt-auto" href="/blog/2023/08/ethicalads-newsletter-july-2023/">
-
-              <!-- Divider -->
-              <hr class="card-meta-divider">
-
-              <div class="d-flex w-100">
-                <!-- Author -->
-                <div class="flex-fill h6 text-uppercase text-muted mb-0 mr-2">David Fischer</div>
-
-                <!-- Date -->
-                <div class="flex-fill h6 text-uppercase text-muted mb-0 ml-auto text-right">
-                  <time class="text-nowrap" datetime="2023-08-14T00:00:00-07:00">Aug 14, 2023</time>
-                </div>
-              </div>
-
-            </a>
-          </article>
-        </div>
         <div class="col mb-10">
           <article class="card h-100 shadow-light-lg lift lift-lg">
               <a href="/blog/2023/07/ethicalads-newsletter-june-2023/">
@@ -310,6 +281,43 @@ we always love to hear from you.</p>
                 <!-- Date -->
                 <div class="flex-fill h6 text-uppercase text-muted mb-0 ml-auto text-right">
                   <time class="text-nowrap" datetime="2023-06-06T00:00:00-07:00">Jun 6, 2023</time>
+                </div>
+              </div>
+
+            </a>
+          </article>
+        </div>
+        <div class="col mb-10">
+          <article class="card h-100 shadow-light-lg lift lift-lg">
+              <a href="/blog/2023/05/ethicalads-newsletter-april-2023/">
+                <img src="/images/posts/2023-april-newsletter.jpg" alt="EthicalAds Newsletter - April 2023" class="card-img-top">
+
+                <!-- Style shape to the image -->
+                <div class="position-relative">
+                  <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
+                    <svg viewBox="0 0 2880 480" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2160 0C1440 240 720 240 720 240H0v240h2880V0h-720z" fill="currentColor"/></svg>
+                  </div>
+                </div>
+              </a>
+            <a class="card-body" href="/blog/2023/05/ethicalads-newsletter-april-2023/" title="Permalink to EthicalAds Newsletter - April 2023">
+              <h3 class="card-title font-weight-light">EthicalAds Newsletter - April 2023</h3>
+
+              <p class="mb-0">New features Our progress in April was: The ads now have a live preview while advertisers edit them. We&#39;ve always …</p>
+
+            </a>
+
+            <a class="card-meta mt-auto" href="/blog/2023/05/ethicalads-newsletter-april-2023/">
+
+              <!-- Divider -->
+              <hr class="card-meta-divider">
+
+              <div class="d-flex w-100">
+                <!-- Author -->
+                <div class="flex-fill h6 text-uppercase text-muted mb-0 mr-2">David Fischer</div>
+
+                <!-- Date -->
+                <div class="flex-fill h6 text-uppercase text-muted mb-0 ml-auto text-right">
+                  <time class="text-nowrap" datetime="2023-05-11T00:00:00-07:00">May 11, 2023</time>
                 </div>
               </div>
 
