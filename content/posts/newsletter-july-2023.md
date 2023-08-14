@@ -1,5 +1,5 @@
 Title: EthicalAds Newsletter - July 2023
-Date: August 10, 2023
+Date: August 14, 2023
 description: Updates from July 2023, including stats and commentary on our progress as we build EthicalAds
 tags: newsletter, community, build-in-public
 authors: David Fischer
