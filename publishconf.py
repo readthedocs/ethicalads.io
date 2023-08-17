@@ -10,8 +10,12 @@ sys.path.append(os.curdir)
 from pelicanconf import *
 
 
-# This setting is needed to make the RSS/Atom feeds generate correctly
-SITEURL = "https://www.ethicalads.io"
+if "READTHEDOCS" in os.environ:
+    # Make all URLs "domainless" in the RTD preview
+    SITEURL = ""
+else:
+    # This setting is needed to make the RSS/Atom feeds generate correctly
+    SITEURL = "https://www.ethicalads.io"
 RELATIVE_URLS = False
 
 # Generate from scratch when building for production
