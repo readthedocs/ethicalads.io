@@ -1,5 +1,101 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds - posts</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/posts.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2023-09-12T00:00:00-07:00</updated><entry><title>EthicalAds Newsletter - August 2023</title><link href="https://www.ethicalads.io/blog/2023/09/ethicalads-newsletter-august-2023/" rel="alternate"></link><published>2023-09-12T00:00:00-07:00</published><updated>2023-09-12T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2023-09-12:/blog/2023/09/ethicalads-newsletter-august-2023/</id><summary type="html">&lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds - posts</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/posts.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2023-09-19T00:00:00-07:00</updated><entry><title>What Happens When Elon Musk Tweets A Link To Your Service</title><link href="https://www.ethicalads.io/blog/2023/09/what-happens-when-elon-musk-tweets-a-link-to-your-service/" rel="alternate"></link><published>2023-09-19T00:00:00-07:00</published><updated>2023-09-19T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2023-09-19:/blog/2023/09/what-happens-when-elon-musk-tweets-a-link-to-your-service/</id><summary type="html">&lt;p&gt;Back in February, one of the publishers on our ad network went truly viral.
+Simon Willison is the author of …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Back in February, one of the publishers on our ad network went truly viral.
+Simon Willison is the author of &lt;a href="https://datasette.io/"&gt;Datasette&lt;/a&gt;,
+a tool for exploring and publishing data,
+and he'd written a &lt;a href="https://simonwillison.net/2023/Feb/15/bing/"&gt;great post&lt;/a&gt;
+about some of the issues with Microsoft's hasty release of AI-powered Bing.&lt;/p&gt;
+&lt;p&gt;In addition to being in the #1 spot on HackerNews,
+Elon Musk &lt;a href="https://twitter.com/elonmusk/status/1625936009841213440"&gt;tweeted&lt;/a&gt; a link directly to the post.
+This post is going to cover how our infrastructure responded to this huge spike in traffic
+and what we've done since then to make sure EthicalAds will be better prepared if this happens again.&lt;/p&gt;
+&lt;div class="postimage text-center"&gt;
+  &lt;img class="w-75 shadow-lg" src="https://www.ethicalads.io/images/posts/2023-musk-tweet-bing.png" alt="Elon Musk tweets a link to Simon's blog on Bing"&gt;
+  &lt;p&gt;Elon Musk &lt;a href="https://twitter.com/elonmusk/status/1625936009841213440"&gt;tweets&lt;/a&gt; (X's?) a link directly to Simon's blog on AI-powered Bing&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h2 id="going-viral-vs-going-truly-viral"&gt;Going viral vs. going truly viral&lt;/h2&gt;
+&lt;p&gt;On a normal weekday morning US time, EthicalAds serves about 15,000 ad requests every 5 minutes.
+That's about 3k requests per minute or ~50 per second
+(check out our post about &lt;a href="https://www.ethicalads.io/blog/2021/07/handling-100-requests-per-second-with-python-django/"&gt;scaling to 100 req/s&lt;/a&gt;).
+This is our peak traffic as there's overlap between the US and Europe
+which is where a lot of the audience for our ads live and work.
+In the vast majority of cases, these requests cannot be cached
+and involve reads and writes to databases and caches.&lt;/p&gt;
+&lt;p&gt;Both our own blog and various publishers have made it to the top of HackerNews before,
+and that usually results in a pretty sizable traffic spike.
+However, that's usually just tens of thousands of extra hits.
+Between autoscaling and a focus on performant code, we won't even notice.
+This spike quadrupled our traffic to ~200 requests per second
+and over 1M additional requests.&lt;/p&gt;
+&lt;div class="postimage text-center"&gt;
+  &lt;img class="w-75 shadow-lg" src="https://www.ethicalads.io/images/posts/2023-cf-traffic-spike.png" alt="Traffic spiked to 200 requests per second at the peak"&gt;
+  &lt;p&gt;Traffic spiked to 200 requests per second at the peak&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h2 id="how-our-infrastructure-responded"&gt;How our infrastructure responded&lt;/h2&gt;
+&lt;p&gt;After the tweet at 11:15am local time, we saw a brief downtime for less than 1 minute at 11:19.
+In hindsight, this was autoscaling kicking in to handle the surge of requests,
+but at the time we mostly dismissed it as a network blip.&lt;/p&gt;
+&lt;div class="postimage text-center"&gt;
+  &lt;img class="w-75 shadow-lg" src="https://www.ethicalads.io/images/posts/2023-pagerduty-downtime-alert.png" alt="PagerDuty downtime alert"&gt;
+  &lt;p&gt;We got a brief 1 minute downtime alert as we autoscaled up&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Within about 10 minutes, we knew something was wrong.
+We have a number of alerts to let us know when our infrastructure is having a problems.
+One of those is an &lt;a href="https://en.wikipedia.org/wiki/Apdex"&gt;Apdex alert&lt;/a&gt;
+that triggers whenever our Apdex score drops.
+Apdex is pretty convoluted, but basically it measures how far performance is from normal, acceptable performance.
+For us, we aim for 50-60ms per ad request with a 95th percentile below 100ms.
+By 11:30, despite autoscaling, our median performance was over 100ms and our 95th percentile was over 200!
+We weren't down, but our ad server wasn't exactly happy either.&lt;/p&gt;
+&lt;p&gt;We immediately dug into Cloudflare traffic analytics,
+which is a much lighterweight, shorter term analytics than something like Google Analytics.
+Ours stores only a week's worth of data.
+Rather than understanding user intent, it's used to get a snapshot of overall
+traffic, see who is hitting your servers and how frequently.
+It's great for mitigating DDOS attacks
+(or an inadvertant one like the &lt;a href="https://en.wikipedia.org/wiki/Slashdot_effect"&gt;Slashdot effect&lt;/a&gt;)
+and not intended to optimize conversions.&lt;/p&gt;
+&lt;h2 id="what-we-saw-and-how-we-responded"&gt;What we saw and how we responded&lt;/h2&gt;
+&lt;p&gt;Cloudflare Analytics showed that we were getting hammered by iPhones.
+Nine of our top 15 user agents were iPhones which is &lt;em&gt;not normal&lt;/em&gt; for us at all.
+Under normal conditions, our network is about 90% desktop/laptop traffic.
+Developers read developer resources on computers, not their phones apparently.
+Briefly, we thought our ad server or one of our publishers was getting DDOSed
+by disguising fake traffic as iPhones.
+We considered a &lt;a href="https://www.cloudflare.com/application-services/products/waf/"&gt;Cloudflare WAF&lt;/a&gt; rules
+to challenge all iPhones and Android mobile traffic as well as some per-publisher rules.&lt;/p&gt;
+&lt;p&gt;By 12:15, we'd figured out that Simon's blog was getting clobbered,
+and that he was #1 on HN.
+However, we hadn't seen Elon's tweet yet and we were confused as to why it was so much more traffic than a site usually gets from the #1 spot.
+We were also pretty sure by this point that it wasn't a DDOS.
+Cloudflare was showing that the requests per IP was low
+which usually indicates legitimate traffic rather than something malicious.&lt;/p&gt;
+&lt;p&gt;By about 1pm, traffic was still elevated but performance had settled back to normal.
+This is also about when we saw Elon's tweet and figured out the cause of this spike.
+Simon had a &lt;a href="https://simonwillison.net/2023/Feb/17/analytics/"&gt;followup post&lt;/a&gt;
+that showed he got about 1.1M pageviews from that post in a 24 hour period
+with the vast majority of that traffic coming from Twitter.&lt;/p&gt;
+&lt;div class="postimage text-center"&gt;
+  &lt;img class="w-75 shadow-lg" src="https://www.ethicalads.io/images/posts/2023-cloudflare-waf-challenge-phones.png" alt="A Cloudflare WAF rule to challenge any mobile user"&gt;
+  &lt;p&gt;During the traffic spike, we considered creating a rule to challenge all mobile traffic&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h2 id="setting-ourselves-up-for-future-success"&gt;Setting ourselves up for future success&lt;/h2&gt;
+&lt;p&gt;Huge traffic spikes like this happen and it's good to be prepared.
+Since February, we've setup a number of WAF rules
+and rate limiting rules specifically to handle spikes whether natural or from a DDOS.
+Some of these rules are running all the time
+while some can be toggled on with a moment's notice to handle huge traffic spikes.
+Many similar rules have also been rolled out by our parent Read the Docs
+which also gets surges of traffic periodically.
+Cloudflare has been invaluable for handling these traffic spikes.&lt;/p&gt;
+&lt;p&gt;Thanks for reading this post-mortem all the way to the end.
+If you have any feedback on this post, our product, or anything else,
+&lt;a href="https://www.ethicalads.io/contact/"&gt;get in touch&lt;/a&gt;!
+We always love to hear from you.&lt;/p&gt;</content><category term="posts"></category><category term="community"></category><category term="analytics"></category><category term="performance"></category><category term="publishers"></category></entry><entry><title>EthicalAds Newsletter - August 2023</title><link href="https://www.ethicalads.io/blog/2023/09/ethicalads-newsletter-august-2023/" rel="alternate"></link><published>2023-09-12T00:00:00-07:00</published><updated>2023-09-12T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2023-09-12:/blog/2023/09/ethicalads-newsletter-august-2023/</id><summary type="html">&lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
 &lt;p&gt;Our progress in August was:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;We started rolling out some pricing features directly into our ad server.
