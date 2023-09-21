@@ -87,9 +87,32 @@ The later you are in the day,
 the more likely that you might see more unpaid ads if we haven't fully sold your specific location and keywords.
 You can always look in your publisher dashboard to see more information on what is happening, once data has started to be collected.
 
+
 ## How do I ensure the ads will perform well on my site?
 
 Please read our [Publisher Guide](/publisher-guide) for placement help.
+
+
+## Analytics shows more pageviews than you're showing ad views. Why?
+
+There are a number of reasons why this might happen.
+
+* Ads have to be in the viewport for a full second in order to count as viewed.
+  If the user navigates away, scrolls past the ad, or the ad isn't in the viewport for some reason
+  like it requires scrolling to the ad on mobile,
+  then we do not count an ad view and don't bill the advertiser.
+* Your "view rate" in our reporting is the ratio of ads viewed to ads requested.
+  <a href="#how-do-i-improve-view-rate">Improving your view rate</a> will close this gap.
+* Notably, we do not bill advertisers for ads viewed by bots or over VPNs.
+  We do our best to only charge advertisers when real people view and click their ads.
+* Any request to us that is blocked, by an ad or tracker blocker cannot be viewed.
+  We are on some ad blocker allow lists such as
+  <a href="https://acceptableads.com/">Acceptable Ads</a> which helps minimize ads being blocked.
+* Most of our advertisers focus on certain regions such as North America and Europe.
+  If a substantial amount of your site's audience is from regions outside of those,
+  we may not have all of our traffic sold in those regions.
+  If you have house ads enabled, you will still see ad views in our reporting there,
+  but they will not add to your revenue.
 
 
 ## How do you target ads?
