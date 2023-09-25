@@ -82,36 +82,36 @@ DEFAULT_METADATA = {
     # Used to fill out the pricing matrix
     # And the advertiser calculator
     "pricing": {
+        "security": {
+            "eng": 6.5,
+            "blend": 5.25,
+            "weu": 4.0,
+            "eeu-apac": 1.75,
+            "global": 0.7,
+        },
         "datascience": {
-            "eng": 6.0,
+            "eng": 6.25,
             "blend": 5.0,
             "weu": 4.0,
             "eeu-apac": 2.0,
             "global": 0.8,
         },
-        "security": {
-            "eng": 6.0,
-            "blend": 5.0,
-            "weu": 4.0,
-            "eeu-apac": 1.75,
-            "global": 0.7,
-        },
         "devops": {
-            "eng": 6.0,
+            "eng": 6.25,
             "blend": 5.0,
             "weu": 4.0,
             "eeu-apac": 1.75,
             "global": 0.7,
         },
         "frontend": {
-            "eng": 6.0,
+            "eng": 6.25,
             "blend": 5.0,
             "weu": 4.0,
             "eeu-apac": 1.75,
             "global": 0.7,
         },
         "backend": {
-            "eng": 5.5,
+            "eng": 5.75,
             "blend": 4.5,
             "weu": 3.5,
             "eeu-apac": 1.5,
@@ -136,8 +136,8 @@ DEFAULT_METADATA = {
         {"slug": "global", "name": "Global"},
     ],
     "topics": [
-        {"slug": "datascience", "name": "Data science & machine learning"},
         {"slug": "security", "name": "Security & privacy"},
+        {"slug": "datascience", "name": "Data science & machine learning"},
         {"slug": "devops", "name": "DevOps"},
         {"slug": "frontend", "name": "Frontend web development"},
         {"slug": "backend", "name": "Backend web development"},
