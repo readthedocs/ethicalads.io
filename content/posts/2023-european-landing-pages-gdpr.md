@@ -1,8 +1,9 @@
 Title: Optimizing European Ad Campaigns in the GDPR Era
-Date: September 19, 2023
+Date: September 26, 2023
 description: Advertising in Europe? Cookie banners, consent forms, and privacy notifications might be killing your conversions. Make sure you test your campaign and landing pages.
 tags: advertisers, business, gdpr
 authors: David Fischer
+image: /images/posts/2023-eu-landing-pages.png
 
 
 General Data Protection Regulation ([GDPR](https://gdpr.eu/))
@@ -48,7 +49,7 @@ both compliance and the user experience with European ad campaigns and landing p
 
 * Disable your analytics (statistics cookies) and retargeting (marketing cookies) on EU-focused landing pages. You don't need a cookie banner if you only have strictly necessary cookies or no cookies at all. This will involve finding other nonintrusive ways to attribute conversions to advertising, but your landing pages will convert better with fewer banners before the user learns about your product.
 * Create landing pages that are specific to the ad network used (eg. `www.example.com/ethical-ads`). When a user converts from that page, you will know it was the result of advertising.
-* Prompt for cookie consent later in the process after the visitor has read a little bit about your product. If the user is already interested, they are more likely to give their consent.
+* Only use cookies and prompt for cookie consent later in the process after the visitor has read a little bit about your product. If the user is already interested, they are more likely to give their consent.
 * If you insist on having upfront cookies and therefore a banner, prioritize a thoughtful layout and messaging that respects user privacy and clearly communicates the purpose of data collection.
 
 <div class="postimage text-center">
@@ -85,8 +86,8 @@ can be even more annoying.
 ## Wrapping it all up
 
 Nobody likes cookie banners,
-but making sure your landing pages and ad attribution is streamlined
-and keeps both privacy regulation and user experience in mind is critical
+but making sure your landing pages and ad attribution are streamlined
+and keep both privacy regulation and user experience in mind is critical
 to making sure your ad campaigns will turn visitors into customers.
 
 If you're ready to advertise on a network that understands the privacy and regulatory landscape
