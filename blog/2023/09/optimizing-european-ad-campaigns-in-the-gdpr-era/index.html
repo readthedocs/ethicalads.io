@@ -4,18 +4,18 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 <meta name="generator" content="Pelican" />
-<meta property="og:site_name" content="EthicalAds"/><meta name="description" content="Data exploration, key performance indicators, and helping our customers all required us to put together a data stack to better understand our ads" />
-    <meta property="og:description" content="Data exploration, key performance indicators, and helping our customers all required us to put together a data stack to better understand our ads" /><meta name="tags" content="graphing" /><meta name="tags" content="business" /><meta name="tags" content="kpis" /><meta name="author" content="David Fischer" /><meta property="og:type" content="article">
-  <meta property="og:title" content="Graphing Ad Data at EthicalAds" />
-  <meta property="twitter:title" content="Graphing Ad Data at EthicalAds" /><meta property="og:image" content="https://www.ethicalads.io/images/posts/2021-graphing-kpis.jpg" />
-    <meta property="twitter:image" content="https://www.ethicalads.io/images/posts/2021-graphing-kpis.jpg" /><meta property="article:published_time" content="2021-12-07" />
+<meta property="og:site_name" content="EthicalAds"/><meta name="description" content="Advertising in Europe? Cookie banners, consent forms, and privacy notifications might be killing your conversions. Make sure you test your campaign and landing pages." />
+    <meta property="og:description" content="Advertising in Europe? Cookie banners, consent forms, and privacy notifications might be killing your conversions. Make sure you test your campaign and landing pages." /><meta name="tags" content="advertisers" /><meta name="tags" content="business" /><meta name="tags" content="gdpr" /><meta name="author" content="David Fischer" /><meta property="og:type" content="article">
+  <meta property="og:title" content="Optimizing European Ad Campaigns in the GDPR Era" />
+  <meta property="twitter:title" content="Optimizing European Ad Campaigns in the GDPR Era" /><meta property="og:image" content="https://www.ethicalads.io/images/posts/2023-eu-landing-pages.png" />
+    <meta property="twitter:image" content="https://www.ethicalads.io/images/posts/2023-eu-landing-pages.png" /><meta property="article:published_time" content="2023-09-26" />
       <!-- Bootstrap CSS -->
       <link rel="stylesheet" href="/theme/dist/main.css">
 
-      <title>Graphing Ad Data at EthicalAds - EthicalAds</title>
+      <title>Optimizing European Ad Campaigns in the GDPR Era - EthicalAds</title>
 
-  <link rel="canonical" href="https://www.ethicalads.io/blog/2021/12/graphing-ad-data-at-ethicalads/" />
-  <meta property="og:url" content="https://www.ethicalads.io/blog/2021/12/graphing-ad-data-at-ethicalads/" />
+  <link rel="canonical" href="https://www.ethicalads.io/blog/2023/09/optimizing-european-ad-campaigns-in-the-gdpr-era/" />
+  <meta property="og:url" content="https://www.ethicalads.io/blog/2023/09/optimizing-european-ad-campaigns-in-the-gdpr-era/" />
 
       <!-- Feeds -->
         <link href="https://www.ethicalads.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="EthicalAds Full Atom Feed" />
@@ -95,7 +95,7 @@
   <div class="row justify-content-center">
     <div class="col-12 col-md-10 col-lg-9 col-xl-8">
       <!-- Heading -->
-      <h1 class="display-4">Graphing Ad Data at EthicalAds</h1>
+      <h1 class="display-4">Optimizing European Ad Campaigns in the GDPR Era</h1>
 
       <!-- Meta -->
       <div class="row align-items-center py-5 border-top border-bottom">
@@ -107,7 +107,7 @@
 
             <!-- Date -->
             <div class="flex-fill h6 text-uppercase text-muted mb-0 ml-auto text-right">
-              <time class="text-nowrap" datetime="2021-12-07T00:00:00-08:00">Dec 7, 2021</time>
+              <time class="text-nowrap" datetime="2023-09-26T00:00:00-07:00">Sep 26, 2023</time>
             </div>
           </div>
         </div>
@@ -118,59 +118,82 @@
         <figure class="figure mb-7">
 
           <!-- Image -->
-          <img class="figure-img img-fluid rounded" src="/images/posts/2021-graphing-kpis.jpg" alt="Graphing Ad Data at EthicalAds">
+          <img class="figure-img img-fluid rounded" src="/images/posts/2023-eu-landing-pages.png" alt="Optimizing European Ad Campaigns in the GDPR Era">
 
           <!-- Caption -->
-        <figcaption class="figure-caption text-center"><small><span>Photo by <a href="https://unsplash.com/@kmuza?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Carlos Muza</a> on <a href="https://unsplash.com/photos/hpjSkU2UYSU?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></small></figcaption>
 
         </figure>
 
       <div>
-        <p>Respecting user privacy doesn't mean flying blind.
-While we don't track or store personal data at EthicalAds,
-running an ad network does generate a ton of data!
-This is data like the publishers where certain ads perform best
-or the best time of day or region to run certain ads.</p>
-<p>However, the data was a bit hard to explore,
-let alone creating and telling a compelling story from the data.
-It was tied up in PostgreSQL and usually required complex joins
-to get at anything meaningful.
-We knew the data we were collecting could help us understand and improve our product,
-but exploring our data, understanding it,
-and presenting it to our advertisers, publishers, or even just ourselves was hard.</p>
-<h2 id="business-intelligence-more-than-just-an-oxymoron">Business intelligence - more than just an oxymoron</h2>
-<p>We knew we needed a tool to bridge the gap between what we had and what we wanted to know.
-Ideally, it could help us with exploration, tracking our key performance indicators,
-and presenting data to our advertisers, publishers, and ourselves.</p>
-<p>We gave <a href="https://www.metabase.com/?ref=ethicalads.io">Metabase</a> a try
-on a glowing recommendation from <a href="https://twitter.com/coderberry">Eric Berry</a>,
-who previously founded CodeFund, another company dedicated to ethical advertising.
-Eric raved about Metabase and used it in CodeFund's product before it shut down.</p>
-<p>Maybe as developers we have an implicit bias against data analysis and BI tools
-or maybe it's just me and I hadn't found one I liked.
-However, after trying Metabase, I was hooked.
-You could explore data with or without SQL, share graphs with coworkers,
-and there was an easy and secure way to embed them into our product.
-Lastly, this never impacts production since our setup exclusively connects to a read-replica.</p>
+        <p>General Data Protection Regulation (<a href="https://gdpr.eu/">GDPR</a>)
+has had a huge effect on the web in Europe and on advertising in particular.
+While the GDPR helps safeguard user privacy and data security and broadly we're fans,
+it has also introduced a series of compliance requirements
+that can impact the performance of ad campaigns if you aren't careful.</p>
+<p>In this post, we'll explore some of the compliance issues that can arise, discuss alternatives,
+and provide practical steps to test your landing pages and maximize ad campaign effectiveness.</p>
+<h2 id="the-gdpr-and-its-impact-on-advertising">The GDPR and its impact on advertising</h2>
+<p>The GDPR, which came into effect in May 2018,
+was designed to protect the privacy of European citizens.
+For advertisers, this means that collecting and using personal data
+for targeting and tracking purposes has become more regulated.</p>
+<p>One of the biggest challenges from the GDPR
+and <a href="https://edps.europa.eu/data-protection/our-work/subjects/eprivacy-directive_en">the ePrivacy Directive</a>
+which came before it is ensuring that your landing pages don't get lost
+in the shadow of those ubiquitous and annoying cookie consent banners.</p>
 <div class="postimage text-center">
-  <img class="w-75" src="https://www.ethicalads.io/images/posts/2021-dashboard-screenshot-graphs.png" alt="A screenshot of the EthicalAds dashboard with an embedded Metabase graph">
-  <p>The EthicalAds dashboard with an embedded Metabase graph</p>
+  <img class="w-50 shadow-lg" src="https://www.ethicalads.io/images/posts/2023-okta-landing-page-banners.png" alt="Landing page for an Okta ad campaign as viewed from the Netherlands via a VPN">
+  <p>It's not entirely clear what is being advertised on this ad landing page</p>
 </div>
 
-<p>In about a week, we went from no data stack at all,
-to taking visualizations from the exploration stage right into production.
-It was easy to explore our data and there was a nice way to embed
-graphs and charts directly into our ad server for advertisers and publishers.
-It also became an invaluable way to track our business KPIs.
-Metabase is the perfect tool for a small team like ours.</p>
-<h2 id="data-we-have-yet-to-explore">Data we have yet to explore</h2>
-<p>A few months back, we started collecting data on how long an ad is on the screen (we call it "view time").
-We think this is a really valuable metric in understanding what leads to clickthroughs
-and we think that advertisers will really like it.
-Advertisers routinely tell us they love all the data we share with them
-and that other networks are far less transparent.</p>
-<p>Over the next couple months, we'll be diving into this and other data.
-Hopefully we'll have some great insights to share.</p>
+<p>In order to <a href="https://gdpr.eu/cookies/">comply with the GDPR on cookies</a>,
+advertisers need to obtain consent before storing
+any cookies that aren't "strictly necessary".
+Cookies for targeting, remarketing, and tracking don't count as necessary.
+As an American who recently visited the EU, I was overwhelmed with the quantity and verbosity
+of the cookie banners I saw on the sites I normally browse from the USA when I visited the same sites from Europe.</p>
+<h2 id="optimizing-landing-pages-with-the-gdpr-in-mind">Optimizing landing pages with the GDPR in mind</h2>
+<p>Ignoring the GDPR isn't an option but there are a number of ways to maintain
+both compliance and the user experience with European ad campaigns and landing pages:</p>
+<ul>
+<li>Disable your analytics (statistics cookies) and retargeting (marketing cookies) on EU-focused landing pages. You don't need a cookie banner if you only have strictly necessary cookies or no cookies at all. This will involve finding other nonintrusive ways to attribute conversions to advertising, but your landing pages will convert better with fewer banners before the user learns about your product.</li>
+<li>Create landing pages that are specific to the ad network used (eg. <code>www.example.com/ethical-ads</code>). When a user converts from that page, you will know it was the result of advertising.</li>
+<li>Only use cookies and prompt for cookie consent later in the process after the visitor has read a little bit about your product. If the user is already interested, they are more likely to give their consent.</li>
+<li>If you insist on having upfront cookies and therefore a banner, prioritize a thoughtful layout and messaging that respects user privacy and clearly communicates the purpose of data collection.</li>
+</ul>
+<div class="postimage text-center">
+  <img class="w-50 shadow-lg" src="https://www.ethicalads.io/images/posts/2023-adobe-landing-page-banners.png" alt="Adobe landing page with a single cookie banner">
+  <p>While this site has a cookie banner, most of the page and product is visible and apparent and the banner can be easily dismissed</p>
+</div>
+
+<h2 id="testing-your-landing-pages">Testing your landing pages</h2>
+<p>Testing your landing pages is a crucial step in ensuring GDPR compliance
+and a smooth user experience for your European ad campaigns.
+You'll need both of these if you want your campaigns to perform well.
+A great way to test your pages combines Virtual Private Networks (VPNs) and <a href="https://www.mozilla.org/en-US/firefox/browsers/incognito-browser/">browser incognito windows</a>.</p>
+<p>With a VPN, you can simulate accessing your landing pages from different geographic locations.
+This is especially helpful for a marketer outside Europe testing a campaign focused on Europe.
+While there are many VPNs out there, even the <a href="https://protonvpn.com/free-vpn">free version of ProtonVPN</a>
+will let you test European focused landing pages from outside Europe.</p>
+<p>Browser incognito windows allow you to view your landing pages as if you were a first-time visitor,
+without the influence of previously stored cookies or user data.
+This helps you evaluate how well your landing pages handle consent requests
+and whether they deliver a seamless user experience for users accessing your site for the first time.
+The developer tools will also let you simulate browsing from a mobile device where cookie banners
+can be even more annoying.</p>
+<div class="postimage text-center">
+  <img class="w-75 shadow-lg" src="https://www.ethicalads.io/images/posts/2023-chrome-developer-tools.png" alt="Chrome incognito window with developer tools for simulating mobile devices and controlling cookies">
+  <p>The Chrome developer tools combined with an incognito window allow simulating a new user visiting your landing page from their phone</p>
+</div>
+
+<h2 id="wrapping-it-all-up">Wrapping it all up</h2>
+<p>Nobody likes cookie banners,
+but making sure your landing pages and ad attribution are streamlined
+and keep both privacy regulation and user experience in mind is critical
+to making sure your ad campaigns will turn visitors into customers.</p>
+<p>If you're ready to advertise on a network that understands the privacy and regulatory landscape
+and will help you run campaigns that convert,
+<a href="https://www.ethicalads.io/advertisers/#inbound-form">let's get started</a>!</p>
       </div>
 
     </div>
@@ -205,8 +228,8 @@ Hopefully we'll have some great insights to share.</p>
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
         <div class="col mb-10">
           <article class="card h-100 shadow-light-lg lift lift-lg">
-              <a href="/blog/2023/09/optimizing-european-ad-campaigns-in-the-gdpr-era/">
-                <img src="/images/posts/2023-eu-landing-pages.png" alt="Optimizing European Ad Campaigns in the GDPR Era" class="card-img-top">
+              <a href="/blog/2022/11/a-new-approach-to-content-based-targeting-for-advertising/">
+                <img src="/images/posts/2022-bullseye.jpg" alt="A new approach to content-based targeting for advertising" class="card-img-top">
 
                 <!-- Style shape to the image -->
                 <div class="position-relative">
@@ -215,25 +238,62 @@ Hopefully we'll have some great insights to share.</p>
                   </div>
                 </div>
               </a>
-            <a class="card-body" href="/blog/2023/09/optimizing-european-ad-campaigns-in-the-gdpr-era/" title="Permalink to Optimizing European Ad Campaigns in the GDPR Era">
-              <h3 class="card-title font-weight-light">Optimizing European Ad Campaigns in the GDPR Era</h3>
+            <a class="card-body" href="/blog/2022/11/a-new-approach-to-content-based-targeting-for-advertising/" title="Permalink to A new approach to content-based targeting for advertising">
+              <h3 class="card-title font-weight-light">A new approach to content-based targeting for advertising</h3>
 
-              <p class="mb-0">General Data Protection Regulation (GDPR) has had a huge effect on the web in Europe and on advertising in particular …</p>
+              <p class="mb-0">In the past few years, advancements in machine learning have made a new era of content-based ad targeting possible. Computers …</p>
 
             </a>
 
-            <a class="card-meta mt-auto" href="/blog/2023/09/optimizing-european-ad-campaigns-in-the-gdpr-era/">
+            <a class="card-meta mt-auto" href="/blog/2022/11/a-new-approach-to-content-based-targeting-for-advertising/">
 
               <!-- Divider -->
               <hr class="card-meta-divider">
 
               <div class="d-flex w-100">
                 <!-- Author -->
-                <div class="flex-fill h6 text-uppercase text-muted mb-0 mr-2">David Fischer</div>
+                <div class="flex-fill h6 text-uppercase text-muted mb-0 mr-2">Eric Holscher</div>
 
                 <!-- Date -->
                 <div class="flex-fill h6 text-uppercase text-muted mb-0 ml-auto text-right">
-                  <time class="text-nowrap" datetime="2023-09-26T00:00:00-07:00">Sep 26, 2023</time>
+                  <time class="text-nowrap" datetime="2022-11-07T00:00:00-08:00">Nov 7, 2022</time>
+                </div>
+              </div>
+
+            </a>
+          </article>
+        </div>
+        <div class="col mb-10">
+          <article class="card h-100 shadow-light-lg lift lift-lg">
+              <a href="/blog/2022/04/does-content-imply-user-intent/">
+                <img src="/images/posts/2022-content-as-intent.jpg" alt="Does Content Imply User Intent?" class="card-img-top">
+
+                <!-- Style shape to the image -->
+                <div class="position-relative">
+                  <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
+                    <svg viewBox="0 0 2880 480" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2160 0C1440 240 720 240 720 240H0v240h2880V0h-720z" fill="currentColor"/></svg>
+                  </div>
+                </div>
+              </a>
+            <a class="card-body" href="/blog/2022/04/does-content-imply-user-intent/" title="Permalink to Does Content Imply User Intent?">
+              <h3 class="card-title font-weight-light">Does Content Imply User Intent?</h3>
+
+              <p class="mb-0">When was the last time you clicked on an ad while browsing social media? While scrolling through your feed of …</p>
+
+            </a>
+
+            <a class="card-meta mt-auto" href="/blog/2022/04/does-content-imply-user-intent/">
+
+              <!-- Divider -->
+              <hr class="card-meta-divider">
+
+              <div class="d-flex w-100">
+                <!-- Author -->
+                <div class="flex-fill h6 text-uppercase text-muted mb-0 mr-2">Ra Cohen</div>
+
+                <!-- Date -->
+                <div class="flex-fill h6 text-uppercase text-muted mb-0 ml-auto text-right">
+                  <time class="text-nowrap" datetime="2022-04-26T00:00:00-07:00">Apr 26, 2022</time>
                 </div>
               </div>
 
@@ -271,43 +331,6 @@ Hopefully we'll have some great insights to share.</p>
                 <!-- Date -->
                 <div class="flex-fill h6 text-uppercase text-muted mb-0 ml-auto text-right">
                   <time class="text-nowrap" datetime="2023-06-27T00:00:00-07:00">Jun 27, 2023</time>
-                </div>
-              </div>
-
-            </a>
-          </article>
-        </div>
-        <div class="col mb-10">
-          <article class="card h-100 shadow-light-lg lift lift-lg">
-              <a href="/blog/2023/05/how-the-internet-ads-industry-works-players-tactics-pii-part-i/">
-                <img src="/images/posts/2023-ad-industry-overview.png" alt="How the Internet ads industry works: Players, Tactics & PII (Part I)" class="card-img-top">
-
-                <!-- Style shape to the image -->
-                <div class="position-relative">
-                  <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
-                    <svg viewBox="0 0 2880 480" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2160 0C1440 240 720 240 720 240H0v240h2880V0h-720z" fill="currentColor"/></svg>
-                  </div>
-                </div>
-              </a>
-            <a class="card-body" href="/blog/2023/05/how-the-internet-ads-industry-works-players-tactics-pii-part-i/" title="Permalink to How the Internet ads industry works: Players, Tactics & PII (Part I)">
-              <h3 class="card-title font-weight-light">How the Internet ads industry works: Players, Tactics & PII (Part I)</h3>
-
-              <p class="mb-0">At the most basic level, advertising is a two-sided marketplace with publishers supplying ad impressions and advertisers buying them. However …</p>
-
-            </a>
-
-            <a class="card-meta mt-auto" href="/blog/2023/05/how-the-internet-ads-industry-works-players-tactics-pii-part-i/">
-
-              <!-- Divider -->
-              <hr class="card-meta-divider">
-
-              <div class="d-flex w-100">
-                <!-- Author -->
-                <div class="flex-fill h6 text-uppercase text-muted mb-0 mr-2">David Fischer</div>
-
-                <!-- Date -->
-                <div class="flex-fill h6 text-uppercase text-muted mb-0 ml-auto text-right">
-                  <time class="text-nowrap" datetime="2023-05-25T00:00:00-07:00">May 25, 2023</time>
                 </div>
               </div>
 

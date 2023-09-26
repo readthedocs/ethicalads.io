@@ -1,5 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/all.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2023-09-19T00:00:00-07:00</updated><entry><title>What Happens When Elon Musk Tweets A Link To Your Service</title><link href="https://www.ethicalads.io/blog/2023/09/what-happens-when-elon-musk-tweets-a-link-to-your-service/" rel="alternate"></link><published>2023-09-19T00:00:00-07:00</published><updated>2023-09-19T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2023-09-19:/blog/2023/09/what-happens-when-elon-musk-tweets-a-link-to-your-service/</id><summary type="html">&lt;p&gt;Back in February, one of the publishers on our ad network went truly viral.
+<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/all.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2023-09-26T00:00:00-07:00</updated><entry><title>Optimizing European Ad Campaigns in the GDPR Era</title><link href="https://www.ethicalads.io/blog/2023/09/optimizing-european-ad-campaigns-in-the-gdpr-era/" rel="alternate"></link><published>2023-09-26T00:00:00-07:00</published><updated>2023-09-26T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2023-09-26:/blog/2023/09/optimizing-european-ad-campaigns-in-the-gdpr-era/</id><summary type="html">&lt;p&gt;General Data Protection Regulation (&lt;a href="https://gdpr.eu/"&gt;GDPR&lt;/a&gt;)
+has had a huge effect on the web in Europe and on advertising in particular …&lt;/p&gt;</summary><content type="html">&lt;p&gt;General Data Protection Regulation (&lt;a href="https://gdpr.eu/"&gt;GDPR&lt;/a&gt;)
+has had a huge effect on the web in Europe and on advertising in particular.
+While the GDPR helps safeguard user privacy and data security and broadly we're fans,
+it has also introduced a series of compliance requirements
+that can impact the performance of ad campaigns if you aren't careful.&lt;/p&gt;
+&lt;p&gt;In this post, we'll explore some of the compliance issues that can arise, discuss alternatives,
+and provide practical steps to test your landing pages and maximize ad campaign effectiveness.&lt;/p&gt;
+&lt;h2 id="the-gdpr-and-its-impact-on-advertising"&gt;The GDPR and its impact on advertising&lt;/h2&gt;
+&lt;p&gt;The GDPR, which came into effect in May 2018,
+was designed to protect the privacy of European citizens.
+For advertisers, this means that collecting and using personal data
+for targeting and tracking purposes has become more regulated.&lt;/p&gt;
+&lt;p&gt;One of the biggest challenges from the GDPR
+and &lt;a href="https://edps.europa.eu/data-protection/our-work/subjects/eprivacy-directive_en"&gt;the ePrivacy Directive&lt;/a&gt;
+which came before it is ensuring that your landing pages don't get lost
+in the shadow of those ubiquitous and annoying cookie consent banners.&lt;/p&gt;
+&lt;div class="postimage text-center"&gt;
+  &lt;img class="w-50 shadow-lg" src="https://www.ethicalads.io/images/posts/2023-okta-landing-page-banners.png" alt="Landing page for an Okta ad campaign as viewed from the Netherlands via a VPN"&gt;
+  &lt;p&gt;It's not entirely clear what is being advertised on this ad landing page&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;In order to &lt;a href="https://gdpr.eu/cookies/"&gt;comply with the GDPR on cookies&lt;/a&gt;,
+advertisers need to obtain consent before storing
+any cookies that aren't "strictly necessary".
+Cookies for targeting, remarketing, and tracking don't count as necessary.
+As an American who recently visited the EU, I was overwhelmed with the quantity and verbosity
+of the cookie banners I saw on the sites I normally browse from the USA when I visited the same sites from Europe.&lt;/p&gt;
+&lt;h2 id="optimizing-landing-pages-with-the-gdpr-in-mind"&gt;Optimizing landing pages with the GDPR in mind&lt;/h2&gt;
+&lt;p&gt;Ignoring the GDPR isn't an option but there are a number of ways to maintain
+both compliance and the user experience with European ad campaigns and landing pages:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Disable your analytics (statistics cookies) and retargeting (marketing cookies) on EU-focused landing pages. You don't need a cookie banner if you only have strictly necessary cookies or no cookies at all. This will involve finding other nonintrusive ways to attribute conversions to advertising, but your landing pages will convert better with fewer banners before the user learns about your product.&lt;/li&gt;
+&lt;li&gt;Create landing pages that are specific to the ad network used (eg. &lt;code&gt;www.example.com/ethical-ads&lt;/code&gt;). When a user converts from that page, you will know it was the result of advertising.&lt;/li&gt;
+&lt;li&gt;Only use cookies and prompt for cookie consent later in the process after the visitor has read a little bit about your product. If the user is already interested, they are more likely to give their consent.&lt;/li&gt;
+&lt;li&gt;If you insist on having upfront cookies and therefore a banner, prioritize a thoughtful layout and messaging that respects user privacy and clearly communicates the purpose of data collection.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="postimage text-center"&gt;
+  &lt;img class="w-50 shadow-lg" src="https://www.ethicalads.io/images/posts/2023-adobe-landing-page-banners.png" alt="Adobe landing page with a single cookie banner"&gt;
+  &lt;p&gt;While this site has a cookie banner, most of the page and product is visible and apparent and the banner can be easily dismissed&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h2 id="testing-your-landing-pages"&gt;Testing your landing pages&lt;/h2&gt;
+&lt;p&gt;Testing your landing pages is a crucial step in ensuring GDPR compliance
+and a smooth user experience for your European ad campaigns.
+You'll need both of these if you want your campaigns to perform well.
+A great way to test your pages combines Virtual Private Networks (VPNs) and &lt;a href="https://www.mozilla.org/en-US/firefox/browsers/incognito-browser/"&gt;browser incognito windows&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;With a VPN, you can simulate accessing your landing pages from different geographic locations.
+This is especially helpful for a marketer outside Europe testing a campaign focused on Europe.
+While there are many VPNs out there, even the &lt;a href="https://protonvpn.com/free-vpn"&gt;free version of ProtonVPN&lt;/a&gt;
+will let you test European focused landing pages from outside Europe.&lt;/p&gt;
+&lt;p&gt;Browser incognito windows allow you to view your landing pages as if you were a first-time visitor,
+without the influence of previously stored cookies or user data.
+This helps you evaluate how well your landing pages handle consent requests
+and whether they deliver a seamless user experience for users accessing your site for the first time.
+The developer tools will also let you simulate browsing from a mobile device where cookie banners
+can be even more annoying.&lt;/p&gt;
+&lt;div class="postimage text-center"&gt;
+  &lt;img class="w-75 shadow-lg" src="https://www.ethicalads.io/images/posts/2023-chrome-developer-tools.png" alt="Chrome incognito window with developer tools for simulating mobile devices and controlling cookies"&gt;
+  &lt;p&gt;The Chrome developer tools combined with an incognito window allow simulating a new user visiting your landing page from their phone&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h2 id="wrapping-it-all-up"&gt;Wrapping it all up&lt;/h2&gt;
+&lt;p&gt;Nobody likes cookie banners,
+but making sure your landing pages and ad attribution are streamlined
+and keep both privacy regulation and user experience in mind is critical
+to making sure your ad campaigns will turn visitors into customers.&lt;/p&gt;
+&lt;p&gt;If you're ready to advertise on a network that understands the privacy and regulatory landscape
+and will help you run campaigns that convert,
+&lt;a href="https://www.ethicalads.io/advertisers/#inbound-form"&gt;let's get started&lt;/a&gt;!&lt;/p&gt;</content><category term="posts"></category><category term="advertisers"></category><category term="business"></category><category term="gdpr"></category></entry><entry><title>What Happens When Elon Musk Tweets A Link To Your Service</title><link href="https://www.ethicalads.io/blog/2023/09/what-happens-when-elon-musk-tweets-a-link-to-your-service/" rel="alternate"></link><published>2023-09-19T00:00:00-07:00</published><updated>2023-09-19T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2023-09-19:/blog/2023/09/what-happens-when-elon-musk-tweets-a-link-to-your-service/</id><summary type="html">&lt;p&gt;Back in February, one of the publishers on our ad network went truly viral.
 Simon Willison is the author of …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Back in February, one of the publishers on our ad network went truly viral.
 Simon Willison is the author of &lt;a href="https://datasette.io/"&gt;Datasette&lt;/a&gt;,
 a tool for exploring and publishing data,
