@@ -114,4 +114,4 @@ Our ethical ad network is just about ready for launch and we're
 actively looking for projects to beta test the network. If you run a
 developer focused website and you're looking for a way to earn money
 without selling out your visitors' privacy, please [get in
-touch](mailto:ads@readthedocs.org?subject=Ethical%20Ad%20Network%20beta).
+touch](mailto:ads@ethicalads.io?subject=Ethical%20Ad%20Network%20beta).
