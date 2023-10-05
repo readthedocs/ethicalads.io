@@ -74,7 +74,7 @@ program** and help more projects reach sustainability with an ethical
 advertising approach. If your project on Read the Docs does 100k+
 pageviews per month and you are interested in exploring a new revenue
 stream, please [let us
-know](mailto:ads@readthedocs.org?subject=Ethical%20Ads%20revenue%20share).
+know](mailto:ads@ethicalads.io?subject=Ethical%20Ads%20revenue%20share).
 
 We are testing a **new text-only ad format** which we will detail in a
 future post. Text-only ads are something we've wanted for a while
@@ -91,7 +91,7 @@ sharing some of the lessons we've learned building our own advertising.
 If you know a site that might be interested in being a beta tester of a
 pro-privacy ad network built specifically to help fund open source,
 please [get in
-touch](mailto:ads@readthedocs.org?subject=Ethical%20Ad%20Network%20beta).
+touch](mailto:ads@ethicalads.io?subject=Ethical%20Ad%20Network%20beta).
 
 Thanks
 ------

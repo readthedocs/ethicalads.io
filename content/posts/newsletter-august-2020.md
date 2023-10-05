@@ -67,4 +67,4 @@ Our large roadmap items are:
 * Write more blog content around how to market to developers.
 
 We're always open to additional feedback and ideas on our approach,
-so feel free to [email us](mailto:ads@readthedocs.org) directly.
+so feel free to [email us](mailto:ads@ethicalads.io) directly.

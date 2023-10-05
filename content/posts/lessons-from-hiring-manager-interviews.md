@@ -234,7 +234,7 @@ I'd like to thank all the hiring managers who took time out of their
 days (or in some cases evenings) to talk to us. If you're a hiring
 manager or an internal company recruiter and you'd like to share your
 experiences and help Read the Docs, please [get in
-touch](mailto:ads@readthedocs.org?subject=Lessons+From+Hiring+Managers+Post).
+touch](mailto:ads@ethicalads.io?subject=Lessons+From+Hiring+Managers+Post).
 
 Check back soon for our
 [next post in this series]({filename}tips-for-getting-a-developer-interview.md)

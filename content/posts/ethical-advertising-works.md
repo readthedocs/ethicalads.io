@@ -88,7 +88,7 @@ need to do ad sales.
 
 Our ethical ad network is still in the planning phases, but if you know
 a project that might be interested in being a beta tester, please [get
-in touch](mailto:ads@readthedocs.org).
+in touch](mailto:ads@ethicalads.io).
 
 
 Thanks

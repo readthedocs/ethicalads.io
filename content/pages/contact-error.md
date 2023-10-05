@@ -3,6 +3,14 @@ Slug: contact-error
 description: There was a problem reaching us so please email us directly
 status: hidden
 
-Our email system couldn't process your note to us. Please email us at ads@readthedocs.org and we'll get back to you as soon as we can.
+<!--
+
+	This is rare, but can happen if people use browser extensions that prevent
+	cross-domain form submissions.
+
+-->
+
+Our email system couldn't process your note to us.
+Please email us at [ads@ethicalads.io](mailto:ads@ethicalads.io) and we'll get back to you as soon as we can.
 
 [Learn more about EthicalAds](/)
