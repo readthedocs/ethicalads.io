@@ -16,8 +16,6 @@ Our progress in September was:
   when a publisher on our network [truly goes viral]({filename}../posts/2023-going-truly-viral.md)
   and one on [optimizing European ad campaigns in the GDPR era]({filename}../posts/2023-european-landing-pages-gdpr.md).
 * Our ad server hit v3.0 when we upgraded Django, a core dependency
-  added some pricing estimations for advertisers to get a better idea
-  of campaign prices when requesting a new campaign.
 * Our [Q4 prospectus]({static}../prospectus/ethicalads-advertiser-prospectus.pdf) is up on our site.
   It contained small price increases for specific [audiences]({filename}/pages/advertisers.md#audiences)
   in the US & Canada.
