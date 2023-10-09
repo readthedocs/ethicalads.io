@@ -53,7 +53,7 @@ The major features in our upcoming roadmap for October:
 * We are making some improvements to better handle multiple ad placements on the same page.
   Our policy is still to not have our ads beside competitors' ads
   and to have just 1 ad at a time,
-  but there are some situations like very long pages where multiple ad placements make sense.
+  but there are some situations like very long pages where we allow multiple ad placements on a case by case basis.
 
 
 Thanks again for being along with us on this journey to build an ethical ad network.
