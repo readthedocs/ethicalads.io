@@ -1,7 +1,7 @@
 Title: What Happens When Elon Musk Tweets A Link To Your Service
 Date: September 19, 2023
 description: Back in February, we had a service degradation event resulting from a massive surge of viral traffic. This is a post-mortem about that near-downtime event.
-tags: community, analytics, performance, publishers
+tags: analytics, performance, publishers
 authors: David Fischer
 image: /images/posts/going-viral-2023.png
 

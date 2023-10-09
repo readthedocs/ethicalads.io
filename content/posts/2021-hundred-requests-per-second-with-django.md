@@ -7,6 +7,9 @@ image: /images/posts/2021-django-100-requests-second.jpg
 image_credit: <span>Photo by <a href="https://unsplash.com/@rockthechaos?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Kolleen Gladden</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
 
+**In a followup post, we discuss a traffic spike to [200 requests per second]({filename}../posts/2023-going-truly-viral.md)!**
+
+
 Usually, our blog focuses on advertising, privacy,
 and our journey in building a business around the intersection of the two.
 This post is going to go under the hood and discuss some of the technology and scaling challenges
