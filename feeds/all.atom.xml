@@ -1,5 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/all.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2023-09-26T00:00:00-07:00</updated><entry><title>Optimizing European Ad Campaigns in the GDPR Era</title><link href="https://www.ethicalads.io/blog/2023/09/optimizing-european-ad-campaigns-in-the-gdpr-era/" rel="alternate"></link><published>2023-09-26T00:00:00-07:00</published><updated>2023-09-26T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2023-09-26:/blog/2023/09/optimizing-european-ad-campaigns-in-the-gdpr-era/</id><summary type="html">&lt;p&gt;General Data Protection Regulation (&lt;a href="https://gdpr.eu/"&gt;GDPR&lt;/a&gt;)
+<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/all.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2023-10-10T00:00:00-07:00</updated><entry><title>EthicalAds Newsletter - September 2023</title><link href="https://www.ethicalads.io/blog/2023/10/ethicalads-newsletter-september-2023/" rel="alternate"></link><published>2023-10-10T00:00:00-07:00</published><updated>2023-10-10T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2023-10-10:/blog/2023/10/ethicalads-newsletter-september-2023/</id><summary type="html">&lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
+&lt;p&gt;Our progress in September was:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We produced two content pieces about what happens
+  when a publisher on our …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
+&lt;p&gt;Our progress in September was:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We produced two content pieces about what happens
+  when a publisher on our network &lt;a href="https://www.ethicalads.io/blog/2023/09/what-happens-when-elon-musk-tweets-a-link-to-your-service/"&gt;truly goes viral&lt;/a&gt;
+  and one on &lt;a href="https://www.ethicalads.io/blog/2023/09/optimizing-european-ad-campaigns-in-the-gdpr-era/"&gt;optimizing European ad campaigns in the GDPR era&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Our ad server hit v3.0 when we upgraded Django, a core dependency&lt;/li&gt;
+&lt;li&gt;Our &lt;a href="https://www.ethicalads.io/prospectus/ethicalads-advertiser-prospectus.pdf"&gt;Q4 prospectus&lt;/a&gt; is up on our site.
+  It contained small price increases for specific &lt;a href="https://www.ethicalads.io/advertisers/#audiences"&gt;audiences&lt;/a&gt;
+  in the US &amp;amp; Canada.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can always see our latest server updates in our
+&lt;a href="https://ethical-ad-server.readthedocs.io/en/latest/developer/changelog.html"&gt;ethical-ad-server changelog&lt;/a&gt;
+and &lt;a href="https://ethical-ad-client.readthedocs.io/en/latest/changelog.html"&gt;ethical-ad-client changelog&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="september-advertising-stats"&gt;September advertising stats&lt;/h2&gt;
+&lt;p&gt;In September 2023:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We generated &lt;strong&gt;$38,554.01&lt;/strong&gt; for our publishers. This is down slightly from August but is about the same on a day by day basis accounting for the shorter month.&lt;/li&gt;
+&lt;li&gt;We had &lt;strong&gt;173 publishers&lt;/strong&gt; on our network with at least one paid ad impression.&lt;/li&gt;
+&lt;li&gt;We had &lt;strong&gt;18,374,509&lt;/strong&gt; paid ad views across the world. A slight increase over August.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;October is trending a bit higher than September
+so we're expecting a slightly stronger month.
+We are running a few very broadly targeted campaigns by both geography and topic
+which usually results in a higher percentage of our overall inventory being sold.&lt;/p&gt;
+&lt;h2 id="upcoming-features"&gt;Upcoming features&lt;/h2&gt;
+&lt;p&gt;The major features in our upcoming roadmap for October:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The advertiser reporting features that will help integrate our metrics with Tableau
+  to update performance metrics automatically, is continuing but very slowly.
+  We're aiming to collaborate with a few advertisers who use Tableau (or something similar)
+  to make sure we build exactly what our advertisers want.
+  If you're interested in this, please &lt;a href="https://www.ethicalads.io/contact/"&gt;get in touch&lt;/a&gt;!&lt;/li&gt;
+&lt;li&gt;We are making some improvements to better handle multiple ad placements on the same page.
+  Our policy is still to not have our ads beside competitors' ads
+  and to have just 1 ad at a time,
+  but there are some situations like very long pages where we allow multiple ad placements on a case by case basis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thanks again for being along with us on this journey to build an ethical ad network.
+Please &lt;a href="mailto:ads@ethicalads.io"&gt;email us&lt;/a&gt; if you have any ideas or feedback on our product or roadmap,
+we always love to hear from you.&lt;/p&gt;</content><category term="posts"></category><category term="newsletter"></category><category term="community"></category><category term="build-in-public"></category></entry><entry><title>Optimizing European Ad Campaigns in the GDPR Era</title><link href="https://www.ethicalads.io/blog/2023/09/optimizing-european-ad-campaigns-in-the-gdpr-era/" rel="alternate"></link><published>2023-09-26T00:00:00-07:00</published><updated>2023-09-26T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2023-09-26:/blog/2023/09/optimizing-european-ad-campaigns-in-the-gdpr-era/</id><summary type="html">&lt;p&gt;General Data Protection Regulation (&lt;a href="https://gdpr.eu/"&gt;GDPR&lt;/a&gt;)
 has had a huge effect on the web in Europe and on advertising in particular …&lt;/p&gt;</summary><content type="html">&lt;p&gt;General Data Protection Regulation (&lt;a href="https://gdpr.eu/"&gt;GDPR&lt;/a&gt;)
 has had a huge effect on the web in Europe and on advertising in particular.
 While the GDPR helps safeguard user privacy and data security and broadly we're fans,
