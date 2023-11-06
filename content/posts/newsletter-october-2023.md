@@ -53,7 +53,7 @@ The major features in our upcoming roadmap for November:
 
 * We are going to run some experiments with ad rotation
   where ads have been visible on the page for a minute or more.
-  This is part of improving our support for single-page apps.
+  This is part of improving our support for single-page apps and pages with long view times.
 * The reporting features we've discussed for the last few months are proceeding, but very slowly.
   We're aiming to collaborate with a few advertisers who use Tableau (or something similar)
   to make sure we build exactly what they want.
