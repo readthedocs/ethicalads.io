@@ -42,9 +42,10 @@ Inventory is still very tight especially in North America where we continue to b
 There's a bit more inventory globally and a small amount in Europe.
 
 Last month, I mentioned we were working to bring on some high-quality publishers.
-We did bring a few publishers on and lost a couple small ones.
-Larger publishers usually take a little more time to bring on
-because they usually want a tighter integration.
+We're happy to announce that [dev.to](https://dev.to/) has started using EthicalAds
+and thrilled to work with the DEV community.
+This is the culmination of some hard work and testing
+to get a tight integration that works well on both sides.
 
 
 ## Upcoming features
