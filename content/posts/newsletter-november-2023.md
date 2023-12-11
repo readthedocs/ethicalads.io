@@ -1,5 +1,5 @@
 Title: EthicalAds Newsletter - November 2023
-Date: December 5, 2023
+Date: December 11, 2023
 description: Updates from November 2023, including stats and commentary on our progress as we build EthicalAds
 tags: newsletter, community, build-in-public
 authors: David Fischer
