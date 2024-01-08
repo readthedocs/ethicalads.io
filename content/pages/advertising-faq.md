@@ -100,6 +100,17 @@ Check out our
 with more details and tips.
 
 
+## What about ad blockers?
+
+Ad blockers are a fact of life when it comes to internet advertising
+and developers block ads at an even higher rate than the general public.
+Our privacy focus helps us get through some ad blockers but not all of them.
+For example, EthicalAds is on the
+<a href="https://acceptableads.com/">AcceptableAds</a> list which helps minimize ad blocking.
+However, our ads are still blocked sometimes but
+advertisers never pay for ads that aren't viewed and that includes ads that are blocked.
+
+
 ## Where do the ads link to?
 
 The ads can link to any URL. Typically they will link to your
