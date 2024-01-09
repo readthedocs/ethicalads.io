@@ -1,5 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds - posts</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/posts.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2023-12-11T00:00:00-08:00</updated><entry><title>EthicalAds Newsletter - November 2023</title><link href="https://www.ethicalads.io/blog/2023/12/ethicalads-newsletter-november-2023/" rel="alternate"></link><published>2023-12-11T00:00:00-08:00</published><updated>2023-12-11T00:00:00-08:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2023-12-11:/blog/2023/12/ethicalads-newsletter-november-2023/</id><summary type="html">&lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds - posts</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/posts.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2024-01-09T00:00:00-08:00</updated><entry><title>EthicalAds Newsletter - December 2023</title><link href="https://www.ethicalads.io/blog/2024/01/ethicalads-newsletter-december-2023/" rel="alternate"></link><published>2024-01-09T00:00:00-08:00</published><updated>2024-01-09T00:00:00-08:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2024-01-09:/blog/2024/01/ethicalads-newsletter-december-2023/</id><summary type="html">&lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
+&lt;p&gt;Our progress in December was:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We trained and released a new version of our topic classifier
+  that roughly …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
+&lt;p&gt;Our progress in December was:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We trained and released a new version of our topic classifier
+  that roughly doubles the size of the training set.
+  So far, we're seeing improved accuracy in analyzing the pages where our ads appear.&lt;/li&gt;
+&lt;li&gt;On our website, we released our &lt;a href="https://www.ethicalads.io/prospectus/ethicalads-advertiser-prospectus.pdf"&gt;Q1 prospectus&lt;/a&gt;.
+  There were no pricing changes but we did change up the prospectus considerably
+  to talk more about our advertising worldview and focus on the value we provide to advertisers.&lt;/li&gt;
+&lt;li&gt;Our experiment with ads that rotate occasionally when there's user input hit a few snags
+  with a couple publishers. This experiment is live on Read the Docs and our beta client
+  and it should roll out more widely in January.&lt;/li&gt;
+&lt;li&gt;Years ago, we ran a few campaigns that targeted geographically more finely than countries.
+  We made a few improvements to be better able to target both US states and major US metro areas
+  in response to advertiser demand.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can always see our latest server updates in our
+&lt;a href="https://ethical-ad-server.readthedocs.io/en/latest/developer/changelog.html"&gt;ethical-ad-server changelog&lt;/a&gt;
+and &lt;a href="https://ethical-ad-client.readthedocs.io/en/latest/changelog.html"&gt;ethical-ad-client changelog&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="december-advertising-stats"&gt;December advertising stats&lt;/h2&gt;
+&lt;p&gt;In December 2023:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We generated &lt;strong&gt;$39,248.91&lt;/strong&gt; for our publishers.&lt;/li&gt;
+&lt;li&gt;We had &lt;strong&gt;173 publishers&lt;/strong&gt; on our network with at least one paid ad impression.&lt;/li&gt;
+&lt;li&gt;We had &lt;strong&gt;19,916,532&lt;/strong&gt; paid ad views across the world.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Our business is highly seasonal and traffic to our network drops drastically
+starting around December 18th or so to ~1/3 of normal levels.
+All things considered, this was a very strong month for advertising
+and we expect a strong January.&lt;/p&gt;
+&lt;div class="postimage text-center"&gt;
+  &lt;img class="w-100 shadow-lg" src="https://www.ethicalads.io/images/posts/2023-december-newsletter-graph.png" alt="2023 holiday traffic levels"&gt;
+  &lt;p&gt;2023 holiday traffic levels&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h2 id="upcoming-features"&gt;Upcoming features&lt;/h2&gt;
+&lt;p&gt;The major features in our upcoming roadmap for January:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We're continuing to work on ad rotation and expect to have more hard stats
+  about how rotated ads (currently a tiny fraction of the total) perform.&lt;/li&gt;
+&lt;li&gt;We're actively working on some incentives for publishers who switch from other networks
+  to EthicalAds. If you've been on the fence about trying out our network,
+  &lt;a href="https://www.ethicalads.io/contact/"&gt;let us know&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;One service we frequently provide to advertisers is to more actively manage their advertising.
+  We can turn off lower performing ads or even slightly tweak ads to try to find something
+  that performs even better. We want to highlight these "agency-lite" features on our website
+  and prospectus.&lt;/li&gt;
+&lt;li&gt;We're still hoping to collaborate with a few advertisers who use Tableau (or something similar)
+  to make sure we build exactly what they want in terms of reporting.
+  If you're interested in this, please &lt;a href="https://www.ethicalads.io/contact/"&gt;get in touch&lt;/a&gt;!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thanks again for being along with us on this journey to build an ethical ad network.
+Please &lt;a href="mailto:ads@ethicalads.io"&gt;email us&lt;/a&gt; if you have any ideas or feedback on our product or roadmap,
+we always love to hear from you.&lt;/p&gt;</content><category term="posts"></category><category term="newsletter"></category><category term="community"></category><category term="build-in-public"></category></entry><entry><title>EthicalAds Newsletter - November 2023</title><link href="https://www.ethicalads.io/blog/2023/12/ethicalads-newsletter-november-2023/" rel="alternate"></link><published>2023-12-11T00:00:00-08:00</published><updated>2023-12-11T00:00:00-08:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2023-12-11:/blog/2023/12/ethicalads-newsletter-november-2023/</id><summary type="html">&lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
 &lt;p&gt;Our progress in November was:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;We built an initial experiment to test rotating ads on our own publisher …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
