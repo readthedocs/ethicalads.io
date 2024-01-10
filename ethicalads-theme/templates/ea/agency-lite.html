@@ -1,0 +1,114 @@
+{% extends "page.html" %}
+
+
+{% block content %}
+<section class="container py-5 mb-10">
+  <article class="page">
+    <h1 class="font-weight-light display-3">{{ page.title }}</h1>
+    {% if page.subtitle %}<p class="lead">{{ page.subtitle }}</p>{% endif %}
+
+  </article>
+</section>
+
+
+<!-- Case Study & Example -->
+<!-- ================================================== -->
+<section class="py-10 bg-gray-200">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-12 col-md-6">
+
+        <span class="badge badge-pill badge-primary-soft mb-2">
+          <span class="h6 text-uppercase font-weight-bold">Case study</span>
+        </span>
+
+        <!-- Heading -->
+        <h2 class="font-weight-bold">DevCycle's campaign improvements</h2>
+
+        <!-- Text -->
+        <p>Early in their first campaign, DevCycle started with ads that featured their logo prominently but didn't grab developer's attention. After the campaign started slowly, we proposed a few alternatives which more strongly suggested their product (Feature Flags). Their in-house design team made new creatives which <strong>improved the <abbr title="Click-through rate">CTR</abbr> by 115%</strong> and resulted in a lot more conversions for the same campaign cost.</p>
+
+      </div>
+      <div class="col-12 col-md-6 text-center">
+
+        <!-- Begin Ad -->
+        <div class="mt-5 loaded raised" data-ea-type="image" data-ea-publisher="unknown">
+          <div class="ea-content">
+            <a href="https://devcycle.com/?utm_source=ethical-ads" rel="nofollow noopener" target="_blank">
+              <img src="https://ethicalads.blob.core.windows.net/media/images/2023/07/Opt1_2.png" alt="Read the Docs advertisement">
+            </a>
+            <div class="ea-text">
+              <a href="https://devcycle.com/?utm_source=ethical-ads" rel="nofollow noopener" target="_blank">
+                <strong>DevCycle Feature Flags</strong>
+                <span> Seamless integration into your workflow so you can ship faster. </span>
+                <strong>Try for Free</strong>
+              </a>
+            </div>
+          </div>
+          <div class="ea-callout">
+            <a rel="nofollow noopener" href="https://ethicalads.io/">Ad by EthicalAds</a>
+          </div>
+        </div>
+        <!-- /End Ad -->
+
+      </div>
+    </div> <!-- / .row -->
+
+  </div> <!-- / .container -->
+</section>
+
+
+<!-- Testimonial & Quote -->
+<!-- ================================================== -->
+<section class="py-10">
+  <div class="container">
+
+    <div class="mb-10 w-md-50 mx-auto">
+      <blockquote class="blockquote mb-0 text-center">
+
+        <!-- Text -->
+        <p class="mb-5 mb-md-7">
+          “EthicalAds worked with our design team to improve the ads we were running and it made a huge difference in clickthroughs and conversions.”
+        </p>
+
+        <!-- Footer -->
+        <footer class="blockquote-footer">
+          <img src="/images/pages/testimonials/devcycle-matt.jpg" class="w-25 rounded-circle d-block mx-auto mb-3" alt="Matt Picariello" />
+          <h5 class="bold">Matt Picariello</h5>
+          <span>Senior Manager, Demand Generation at DevCycle</span>
+        </footer>
+
+      </blockquote>
+    </div>
+
+  </div>
+</section>
+
+
+<section class="container py-10" id="we-work-with-you">
+  <h2 class="font-weight-bold mb-8 text-center">Other ways we can help</h2>
+  <div class="row mb-5">
+    <div class="col-12 col-md-6 mb-3">
+      <h4 class="font-weight-bold">Balancing many campaigns across networks?</h4>
+      <p>We proactively update you throughout your campaign with tips and progress. For larger campaigns of $10k+ per quarter, we produce short videos detailing your ad performanace with personalized tips to help you get the most from EthicalAds.</p>
+    </div>
+    <div class="col-md-6">
+      <h4 class="font-weight-bold">We ensure your ads are working</h4>
+      <p>We check-in on your campaign multiple times with tips about what is working and what isn't. We want your campaign to work well and we give you advice throughout the duration and work with you to make it successful.</p>
+    </div>
+  </div>
+  <div class="row mb-5">
+    <div class="col-md-6">
+      <h4 class="font-weight-bold">Keep as much control as you want</h4>
+      <p>We review ads before they go live and we check that there aren't common issues with your landing pages. We can propose new ads for you to run, but you stay in control of your campaign unless you want to let us manage it for you.</p>
+    </div>
+    <div class="col-12 col-md-6 mb-3">
+      <h4 class="font-weight-bold">Need help with something else?</h4>
+      <p><a href="/contact/">Just ask</a>! Unlike the big ad platforms, with EthicalAds, you'll always connect quickly with a real person.</p>
+    </div>
+  </div>
+
+</section>
+
+{% endblock content %}
