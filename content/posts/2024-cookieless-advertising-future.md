@@ -106,7 +106,7 @@ and Sentry has advertised with EthicalAds in the past).
 The post has a ton of great real-world details of an advertiser proactively dealing with these changes
 and is well worth the read. I want to highlight a few key parts though.
 
-Firstly, removing cookies wasn't a calamity, but it did force a number of adaptations.
+Removing cookies wasn't a calamity, but it did force a number of adaptations.
 They had to rework a lot of how they attributed a new user to marketing channels
 which is critical as a marketer to know what's working and what isn't.
 In something we expect to hear more about as third-party cookies are removed,
