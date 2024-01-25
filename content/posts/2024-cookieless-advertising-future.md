@@ -1,6 +1,6 @@
 Title: The Cookieless Ad Future: Does Cookieless Advertising Work?
 Date: January 30, 2024
-description: It shouldn't come as a surprise that we think it does work, there are examples of it working well (including with us), and we can show how it can work for you too.
+description: In this post we'll share some examples of cookieless advertising working well, and show how it can work for you too.
 tags: privacy, gdpr, adtech
 authors: David Fischer
 image: /images/posts/2024-cookieless-advertising.jpg
