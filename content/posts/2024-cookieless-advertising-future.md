@@ -13,7 +13,7 @@ While many adtech companies will claim that it's impossible do effective adverti
 without tracking, there are countless success stories from both offline advertising
 and even modern Internet advertising (we built a profitable business around it).
 
-Later this year, third-party cookies like almost all ad cookies that aren't Google's and Facebook's,
+Later this year, third-party cookies, including almost all ad cookies that aren't Google's and Facebook's,
 will stop working in Google Chrome.
 This is going to have a major effect on advertisers, publishers,
 and especially smaller ad networks.
