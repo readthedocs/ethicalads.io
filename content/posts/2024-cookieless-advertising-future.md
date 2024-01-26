@@ -85,8 +85,10 @@ Without the signal from these third-party cookies,
 impressions on their site are going to be worth less than before.
 
 However, as advertisers move toward direct sponsorships and direct marketing,
-this will reverse and high quality publishers
-will see more interest and be able to command higher prices.
+this trend will probably reverse.
+With advertisers looking for good places to reach their target audience,
+high quality publishers will be able to differentiate their inventory better.
+These publishers will see more interest and be able to command higher ad prices.
 
 
 ## A success story with cookieless advertising: Sentry
