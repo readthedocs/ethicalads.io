@@ -29,7 +29,7 @@ necessary and ripe for abuse? Check out this brief video from [#AskFirefox](http
 
 <div class="postimage text-center ">
   <div class="embed-responsive embed-responsive-16by9">
-  	<iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/tAxj-7Bn8-s?si=0eXi8L25XA0AS7NF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/tAxj-7Bn8-s?si=0eXi8L25XA0AS7NF" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   </div>
   <p>#AskFirefox explains cookies</p>
 </div>
