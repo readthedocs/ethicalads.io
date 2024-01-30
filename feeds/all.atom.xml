@@ -1,5 +1,119 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/all.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2024-01-09T00:00:00-08:00</updated><entry><title>EthicalAds Newsletter - December 2023</title><link href="https://www.ethicalads.io/blog/2024/01/ethicalads-newsletter-december-2023/" rel="alternate"></link><published>2024-01-09T00:00:00-08:00</published><updated>2024-01-09T00:00:00-08:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2024-01-09:/blog/2024/01/ethicalads-newsletter-december-2023/</id><summary type="html">&lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/all.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2024-01-30T00:00:00-08:00</updated><entry><title>The Cookieless Ad Future: Does Cookieless Advertising Work?</title><link href="https://www.ethicalads.io/blog/2024/01/the-cookieless-ad-future-does-cookieless-advertising-work/" rel="alternate"></link><published>2024-01-30T00:00:00-08:00</published><updated>2024-01-30T00:00:00-08:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2024-01-30:/blog/2024/01/the-cookieless-ad-future-does-cookieless-advertising-work/</id><summary type="html">&lt;p&gt;As an ad network that never uses advertising cookies,
+you probably won't be surprised that we think cookieless advertising does …&lt;/p&gt;</summary><content type="html">&lt;p&gt;As an ad network that never uses advertising cookies,
+you probably won't be surprised that we think cookieless advertising does work.
+While many adtech companies will claim that it's impossible do effective advertising
+without tracking, there are countless success stories from both offline advertising
+and even modern Internet advertising (we built a profitable business around it).&lt;/p&gt;
+&lt;p&gt;Later this year, third-party cookies, including almost all ad cookies that aren't Google's and Facebook's,
+will stop working in Google Chrome.
+This is going to have a major effect on advertisers, publishers,
+and especially smaller ad networks.
+This post aims to serve as a guide to what's changing, why it's changing,
+what we expect the second order effects of the change will be,
+and how advertisers can succeed anyway.&lt;/p&gt;
+&lt;h2 id="third-party-cookies-history-and-phase-out"&gt;Third-party cookies, history and phase-out&lt;/h2&gt;
+&lt;p&gt;Need a brief explainer on cookies, first-party vs. third-party, and why cookies are both
+necessary and ripe for abuse? Check out this brief video from &lt;a href="https://www.youtube.com/playlist?list=PLFlAJDI87Jg1It3hFaH61sYytK1lAU7fG"&gt;#AskFirefox&lt;/a&gt;:&lt;/p&gt;
+&lt;div class="postimage text-center "&gt;
+  &lt;div class="embed-responsive embed-responsive-16by9"&gt;
+    &lt;iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/tAxj-7Bn8-s?si=0eXi8L25XA0AS7NF" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen&gt;&lt;/iframe&gt;
+  &lt;/div&gt;
+  &lt;p&gt;#AskFirefox explains cookies&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Google plans to phase out third-party cookies completely to &lt;a href="https://developers.google.com/privacy-sandbox/blog/cookie-countdown-2023oct"&gt;Chrome users in Q3 2024&lt;/a&gt;
+although this has been &lt;a href="https://www.theverge.com/2021/6/24/22547339/google-chrome-cookiepocalypse-delayed-2023"&gt;delayed before&lt;/a&gt;.
+Firefox and Safari have had this privacy feature for years.
+While this is a good step by Google,
+and the delay is mostly due to &lt;a href="https://www.gov.uk/cma-cases/investigation-into-googles-privacy-sandbox-browser-changes"&gt;competition authorities&lt;/a&gt;
+worried about the effect on smaller ad players,
+it will hurt smaller ad networks a lot more than the big players like Google and Facebook.&lt;/p&gt;
+&lt;p&gt;Google and Facebook do use third-party cookies to be sure.
+This is crucial to many forms of retargeting (see &lt;a href="https://www.ethicalads.io/surveillance-advertising/"&gt;surveillance advertising&lt;/a&gt;).
+However, when you see an ad from Google in search, on YouTube or in Google Maps,
+Google knows who you are because you are logged in to Google.
+They don't need a third-party cookie because they already have a first-party cookie.
+They can use everything they know about you to target you with ads.&lt;/p&gt;
+&lt;p&gt;Third-party cookie removal will have a significant effect on Google Display Network,
+third-party sites that show ads from Google,
+but a much smaller effect on most of Google's ads.
+By contrast, it will be much harder for a small network to track users
+in order to build a profile across the websites they visit.
+While third-party cookies being phased out is a positive privacy development,
+it will also help entrench the major ad players.&lt;/p&gt;
+&lt;h2 id="challenges-for-advertisers-in-the-cookieless-future"&gt;Challenges for advertisers in the cookieless future&lt;/h2&gt;
+&lt;p&gt;Without ad cookies, there's going to be a lot of challenges for advertisers and publishers.
+Let's discuss advertisers first.&lt;/p&gt;
+&lt;p&gt;Advertisers using retargeting are going to struggle with that part of their marketing without cookies.
+Most common forms of retargeting, like showing ads to people who have visited the advertiser's website before,
+are mostly not going to work without third-party cookies.&lt;/p&gt;
+&lt;p&gt;As a result, we think marketing budgets will move from smaller ad networks to the larger ones
+as they will be better at using the marketing signals they have to target ads to relevant users.
+It will also migrate to direct sponsorships with larger publishers, newsletters, and podcasts,
+where the advertiser knows their core audience is.
+This is going to cause a strategic shift in how advertisers buy ads.&lt;/p&gt;
+&lt;h2 id="how-publishers-will-be-affected"&gt;How publishers will be affected&lt;/h2&gt;
+&lt;p&gt;For publishers,
+though not publishers on EthicalAds since we already don't have third-party cookies,
+they will see reduced revenue in the short run due to Chrome removing third-party cookies.
+Many ad networks &lt;a href="https://www.ethicalads.io/blog/2021/05/how-invasive-ad-targeting-is-bad-for-journalism-and-other-high-quality-publishers/"&gt;treat ad impressions as commodities&lt;/a&gt;
+trade-able based on the personal data coming from the ad cookies.
+Without the signal from these third-party cookies,
+impressions on their site are going to be worth less than before.&lt;/p&gt;
+&lt;p&gt;However, as advertisers move toward direct sponsorships and direct marketing,
+this trend will probably reverse.
+With advertisers looking for good places to reach their target audience,
+high quality publishers will be able to differentiate their inventory better.
+These publishers will see more interest and be able to command higher ad prices.&lt;/p&gt;
+&lt;h2 id="a-success-story-with-cookieless-advertising-sentry"&gt;A success story with cookieless advertising: Sentry&lt;/h2&gt;
+&lt;blockquote class="blockquote mb-2"&gt;
+  &lt;p class="mb-2"&gt;
+    “Display and other channels were severely hampered after cookie removal; our traditional retargeting motion died off pretty quickly as we couldn’t use GA4’s audiences or our Google Ads pixel.”
+  &lt;/p&gt;
+  &lt;p class="small"&gt;- &lt;a href="https://blog.sentry.io/we-removed-advertising-cookies-heres-what-happened/"&gt;Matt Henderson @ Sentry&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;A few months back, &lt;a href="https://sentry.io/"&gt;Sentry&lt;/a&gt; decided to remove ad cookies
+and did a &lt;a href="https://blog.sentry.io/we-removed-advertising-cookies-heres-what-happened/"&gt;retrospective&lt;/a&gt;
+on the positives and negatives of that change
+(EthicalAds and our parent Read the Docs use Sentry for error reporting
+and Sentry has advertised with EthicalAds in the past).
+The post has a ton of great real-world details of an advertiser proactively dealing with these changes
+and is well worth the read. I want to highlight a few key parts though.&lt;/p&gt;
+&lt;p&gt;Removing cookies wasn't a calamity, but it did force a number of adaptations.
+They had to rework a lot of how they attributed a new user to marketing channels
+which is critical as a marketer to know what's working and what isn't.
+In something we expect to hear more about as third-party cookies are removed,
+Sentry said they "decided to migrate budget to sponsorships and publishers that we instinctively knew had our core audience".&lt;/p&gt;
+&lt;p&gt;Probably most important for regular users of the web, it allowed them to
+"do away with the annoying cookie consent banners".
+Everybody hates cookie banners and they have a
+&lt;a href="2023-european-landing-pages-gdpr.md"&gt;negative effect on conversion rates&lt;/a&gt;.
+Removing that is a win for everyone.&lt;/p&gt;
+&lt;h2 id="the-future-of-advertising-without-third-party-cookies"&gt;The future of advertising without third-party cookies&lt;/h2&gt;
+&lt;p&gt;In many ways, this feels like a vindication of our &lt;a href="https://www.ethicalads.io/advertising-vision/"&gt;ad vision&lt;/a&gt;.
+Back in 2017 and 2018, we asked ad networks about how we could run their ads
+while respecting visitor privacy on our own site, Read the Docs.
+These ad networks told us to take it or leave it.
+&lt;strong&gt;We left it&lt;/strong&gt; and built our own sponsorship platform and later ad network.
+Now those same networks have to adapt as both regulators and regular people
+wake up to the downsides of invasive ad tracking.&lt;/p&gt;
+&lt;p&gt;There are going to be ad networks that essentially ignore these coming changes.
+They will substitute IP-based targeting or other types of browser fingerprinting
+for third-party cookies.
+It will be cruder and less accurate, but it will probably work for a while.
+There's also going to be new ways to target users with some privacy protections like &lt;a href="https://privacysandbox.com/"&gt;Google's Privacy Sandbox&lt;/a&gt;.
+However, Google removing third-party cookies shows the longer term trajectory is clear.
+Browsers, regulators, and even regular users with &lt;a href="https://www.ethicalads.io/blog/2023/01/data-privacy-week-2023-privacy-first-alternatives/#ad-blockers"&gt;ad and tracker blockers&lt;/a&gt;
+are going to nibble away at broad data collection and personalized ad targeting.&lt;/p&gt;
+&lt;p&gt;This doesn't mean that advertisers won't be able to reach their audience online.
+However, it will force a number of adaptations from advertisers, publishers,
+and the wider ad ecosystem.
+We built our entire business around contextually targeting users with relevant ads
+based on the site and page where the ad appears. No personal info required.&lt;/p&gt;
+&lt;p&gt;If you want to work with an ad network that understands these issues,
+&lt;a href="https://www.ethicalads.io/contact/"&gt;get in touch&lt;/a&gt;!&lt;/p&gt;</content><category term="posts"></category><category term="privacy"></category><category term="gdpr"></category><category term="adtech"></category></entry><entry><title>EthicalAds Newsletter - December 2023</title><link href="https://www.ethicalads.io/blog/2024/01/ethicalads-newsletter-december-2023/" rel="alternate"></link><published>2024-01-09T00:00:00-08:00</published><updated>2024-01-09T00:00:00-08:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2024-01-09:/blog/2024/01/ethicalads-newsletter-december-2023/</id><summary type="html">&lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
 &lt;p&gt;Our progress in December was:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;We trained and released a new version of our topic classifier
