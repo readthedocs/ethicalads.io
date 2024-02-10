@@ -56,7 +56,7 @@ The major features in our upcoming roadmap for February:
 
 * We had a few advertisers who wanted to target based on weekdays or weekends.
   That should roll out for advertisers who want it next month.
-* We're working on a huge improvement to our [machine learning based contextual targeting]({filename}../post/2022-content-based-targeting.md).
+* We're working on a huge improvement to our [machine learning based contextual targeting]({filename}../posts/2022-content-based-targeting.md).
   This will involve building some improvements
   that will let us target webpages similar to advertiser product landing pages.
   This will mean that for almost any developer product, we can find the content on our network
