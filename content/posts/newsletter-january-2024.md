@@ -12,7 +12,7 @@ image_credit: <span>Photo by <a href="https://unsplash.com/@noemimk?utm_content=
 
 Our progress in January was:
 
-* We rolled out some initial ad rotations across our network to all publishers.
+* We rolled out initial support for ad rotations across our network to all publishers.
   Currently, we're only rotating ads that have been visible a full minute
   and then only when the user navigates an in-page link.
   Overall, about 1% of ads are being rotated based on these metrics
