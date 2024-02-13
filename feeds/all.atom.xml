@@ -1,5 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/all.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2024-01-30T00:00:00-08:00</updated><entry><title>The Cookieless Ad Future: Does Cookieless Advertising Work?</title><link href="https://www.ethicalads.io/blog/2024/01/the-cookieless-ad-future-does-cookieless-advertising-work/" rel="alternate"></link><published>2024-01-30T00:00:00-08:00</published><updated>2024-01-30T00:00:00-08:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2024-01-30:/blog/2024/01/the-cookieless-ad-future-does-cookieless-advertising-work/</id><summary type="html">&lt;p&gt;As an ad network that never uses advertising cookies,
+<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/all.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2024-02-13T00:00:00-08:00</updated><entry><title>EthicalAds Newsletter - January 2024</title><link href="https://www.ethicalads.io/blog/2024/02/ethicalads-newsletter-january-2024/" rel="alternate"></link><published>2024-02-13T00:00:00-08:00</published><updated>2024-02-13T00:00:00-08:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2024-02-13:/blog/2024/02/ethicalads-newsletter-january-2024/</id><summary type="html">&lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
+&lt;p&gt;Our progress in January was:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We rolled out initial support for ad rotations across our network to all …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
+&lt;p&gt;Our progress in January was:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We rolled out initial support for ad rotations across our network to all publishers.
+  Currently, we're only rotating ads that have been visible a full minute
+  and then only when the user navigates an in-page link.
+  Overall, about 1% of ads are being rotated based on these metrics
+  with no drop in ad performance.&lt;/li&gt;
+&lt;li&gt;We put together some incentives for great developer sites for trying EthicalAds.
+  We are promising we'll beat their existing ad network's revenue for a similar placement by 10% for at least 3 months.
+  If you've been thinking about trying EthicalAds, &lt;a href="https://www.ethicalads.io/publishers/#inbound-form"&gt;let us know&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;We put together a content piece about advertising's (third-party)
+  &lt;a href="https://www.ethicalads.io/blog/2024/01/the-cookieless-ad-future-does-cookieless-advertising-work/"&gt;cookieless future&lt;/a&gt;.
+  This talks about why and how Chrome is phasing out third-party cookies
+  and what the implications are for advertisers, publishers, and ad networks like ours.
+  This is a positive privacy step and we were excited to hear
+  &lt;a href="https://blog.sentry.io/we-removed-advertising-cookies-heres-what-happened/"&gt;Sentry's success story&lt;/a&gt;
+  removing third-party cookies from their homepage.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can always see our latest server updates in our
+&lt;a href="https://ethical-ad-server.readthedocs.io/en/latest/developer/changelog.html"&gt;ethical-ad-server changelog&lt;/a&gt;
+and &lt;a href="https://ethical-ad-client.readthedocs.io/en/latest/changelog.html"&gt;ethical-ad-client changelog&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="january-advertising-stats"&gt;January advertising stats&lt;/h2&gt;
+&lt;p&gt;In January 2024:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We generated &lt;strong&gt;$42,745.38&lt;/strong&gt; for our publishers.&lt;/li&gt;
+&lt;li&gt;We had &lt;strong&gt;174 publishers&lt;/strong&gt; on our network with at least one paid ad impression.&lt;/li&gt;
+&lt;li&gt;We had &lt;strong&gt;16,906,108&lt;/strong&gt; paid ad views across the world.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Despite starting slow as people return to work
+(developer sites are visited most when people are working),
+we saw good traffic levels throughout the month.
+Our ad inventory continues to be very tight in North America and Western Europe
+with some openings for more globally targeted campaigns.&lt;/p&gt;
+&lt;h2 id="upcoming-features"&gt;Upcoming features&lt;/h2&gt;
+&lt;p&gt;The major features in our upcoming roadmap for February:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We had a few advertisers who wanted to target based on weekdays or weekends.
+  That should roll out for advertisers who want it next month.&lt;/li&gt;
+&lt;li&gt;We're working on a huge improvement to our &lt;a href="https://www.ethicalads.io/blog/2022/11/a-new-approach-to-content-based-targeting-for-advertising/"&gt;machine learning based contextual targeting&lt;/a&gt;.
+  This will involve building some improvements
+  that will let us target webpages similar to advertiser product landing pages.
+  This will mean that for almost any developer product, we can find the content on our network
+  that would be a great place to promote that product.
+  We're aiming for a demo in March.&lt;/li&gt;
+&lt;li&gt;For advertisers who want it, we can take a more actively manage their advertising.
+  We can turn off lower performing ads or even slightly tweak ads to try to find something
+  that performs even better. Our landing pages talking to these are mostly ready,
+  but we're waiting on a few testimonials before they go live.&lt;/li&gt;
+&lt;li&gt;We're still hoping to collaborate with a few advertisers who use Tableau (or something similar)
+  to make sure we build exactly what they want in terms of reporting.
+  If you're interested in this, please &lt;a href="https://www.ethicalads.io/contact/"&gt;get in touch&lt;/a&gt;!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thanks again for being along with us on this journey to build an ethical ad network.
+Please &lt;a href="https://www.ethicalads.io/contact/"&gt;let us know&lt;/a&gt; if you have any ideas or feedback on our product or roadmap,
+we always love to hear from you.&lt;/p&gt;</content><category term="posts"></category><category term="newsletter"></category><category term="community"></category><category term="build-in-public"></category></entry><entry><title>The Cookieless Ad Future: Does Cookieless Advertising Work?</title><link href="https://www.ethicalads.io/blog/2024/01/the-cookieless-ad-future-does-cookieless-advertising-work/" rel="alternate"></link><published>2024-01-30T00:00:00-08:00</published><updated>2024-01-30T00:00:00-08:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2024-01-30:/blog/2024/01/the-cookieless-ad-future-does-cookieless-advertising-work/</id><summary type="html">&lt;p&gt;As an ad network that never uses advertising cookies,
 you probably won't be surprised that we think cookieless advertising does …&lt;/p&gt;</summary><content type="html">&lt;p&gt;As an ad network that never uses advertising cookies,
 you probably won't be surprised that we think cookieless advertising does work.
 While many adtech companies will claim that it's impossible do effective advertising
