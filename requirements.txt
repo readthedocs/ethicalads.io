@@ -54,7 +54,7 @@ platformdirs==2.5.2
     # via virtualenv
 pre-commit==2.9.2
     # via -r requirements.in
-pygments==2.12.0
+pygments==2.15.0
     # via pelican
 python-dateutil==2.8.2
     # via pelican
