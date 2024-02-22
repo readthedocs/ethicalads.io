@@ -1,0 +1,22 @@
+{% extends "page.html" %}
+
+{% block content %}
+<section class="container py-5 mb-10">
+    <article class="page">
+        <h1 class="font-weight-light display-3">{{ page.title }}</h1>
+        <form hx-get="http://localhost:5000/api/v1/similar/" hx-trigger="submit" hx-target="#response" hx-swap="innerHTML">
+            <div class="form-group">
+                <label for="urlInput">URL:</label>
+                <input type="text" class="form-control" id="urlInput" name="url">
+            </div>
+            <button type="submit" class="btn btn-primary">Check Similarity</button>
+        </form>
+        <div id="response">
+            <h2>Response:</h2>
+            <pre id="responseData"></pre>
+        </div>
+
+        <script src="https://unpkg.com/htmx.org@1.6.1"></script>
+    </article>
+</section>
+{% endblock %}
