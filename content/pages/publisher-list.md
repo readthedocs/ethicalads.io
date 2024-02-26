@@ -9,7 +9,7 @@ description: A curated selection of our publishers that exemplify each of our to
 This page is shows a listing of our publishers in each of our various topics.
 It's a great way to get a sense of who's on our network.
 
-<section class="container py-10">
+<section class="container py-10" id="frontend-publishers">
   <div class="row">
     <div class="col mb-3">
       <h2 class="text-center font-weight-bold mb-8">Selected frontend and JS publishers</h2>
@@ -76,7 +76,7 @@ It's a great way to get a sense of who's on our network.
 
 </section>
 
-<section class="container py-10">
+<section class="container py-10" id="backend-publishers">
   <div class="row">
     <div class="col mb-3">
       <h2 class="text-center font-weight-bold mb-8">Selected backend and full stack publishers</h2>
@@ -143,7 +143,7 @@ It's a great way to get a sense of who's on our network.
 
 </section>
 
-<section class="container py-10">
+<section class="container py-10" id="datascience-publishers">
   <div class="row">
     <div class="col mb-3">
       <h2 class="text-center font-weight-bold mb-8">Selected data science and machine learning publishers</h2>
@@ -210,7 +210,7 @@ It's a great way to get a sense of who's on our network.
 
 </section>
 
-<section class="container py-10">
+<section class="container py-10" id="devops-publishers">
   <div class="row">
     <div class="col mb-3">
       <h2 class="text-center font-weight-bold mb-8">Selected DevOps publishers</h2>
@@ -277,7 +277,7 @@ It's a great way to get a sense of who's on our network.
 
 </section>
 
-<section class="container py-10">
+<section class="container py-10" id="security-publishers">
   <div class="row">
     <div class="col mb-3">
       <h2 class="text-center font-weight-bold mb-8">Selected security and privacy publishers</h2>
