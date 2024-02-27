@@ -40,8 +40,6 @@ jobs:
           inv preview
 
       - name: HTML5 Validator
-        uses: Cyb3r-Jak3/html5validator-action@v0.4.4
+        uses: Cyb3r-Jak3/html5validator-action@v7.2.0
         with:
-          root: output/
-          log_level: INFO
-          extra: --ignore "hx-"
+          config: htmlvalidator.yaml
