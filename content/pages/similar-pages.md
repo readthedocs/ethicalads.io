@@ -1,6 +1,6 @@
-Title: Similar Pages
+Title: Automatic Campaign Targeting
 slug: similar-pages
 url: advertisers/similar-pages/
 save_as: advertisers/similar-pages/index.html
 template: ea/similar-pages
-description: A demo that shows our ad targeting and what pages your ad might show on.
+description: A demo of machine-learning powered, automatic campaign targeting: Automatically target your campaign to the most-relevant pages across our advertising network based on your landing and product pages.

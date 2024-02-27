@@ -79,6 +79,13 @@ import './landkit/js/tooltips.js';
 // End Landkit
 ////////////////////////////////////////////////////////////////////////////
 
+// HTMX
+import * as htmx from 'htmx.org';
+
+// HTMX includes some inline styles which can be disabled
+//htmx.config.includeIndicatorStyles = false;
+
+
 // Views
 import './views/advertiser-calculator.js';
 import './views/inbound-form.js';
