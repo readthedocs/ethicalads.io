@@ -44,3 +44,4 @@ jobs:
         with:
           root: output/
           log_level: INFO
+          extra: --ignore "hx-"
