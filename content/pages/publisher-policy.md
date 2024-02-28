@@ -45,6 +45,7 @@ We currently support payouts via the following methods:
 - Stripe Connect (Bank transfer)
 - Paypal
 - OpenCollective
+- GitHub Sponsors
 
 For our compliance and for tax purposes, we may require a government ID from you
 in certain circumstances to process payouts.
