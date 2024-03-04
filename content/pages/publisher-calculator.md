@@ -1,5 +1,5 @@
 Title: Revenue Calculator: How Much You'll Earn with EthicalAds
-slug: calculator
+slug: revenue-calculator
 url: publishers/calculator/
 save_as: publishers/calculator/index.html
 template: ea/publishers-calculator
