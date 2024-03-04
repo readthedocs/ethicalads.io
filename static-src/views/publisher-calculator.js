@@ -30,6 +30,10 @@ function PublisherCalculatorViewModel() {
     return (this.getNumAdImpressions() / 1000) * this.cpm();
   };
 
+  this.getCpm = function () {
+    return parseFloat(this.cpm());
+  };
+
   // Generate a URL to the calculator with these values
   this.getUrl = function () {
     let url = window.location.origin + window.location.pathname;

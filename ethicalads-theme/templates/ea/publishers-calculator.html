@@ -85,7 +85,7 @@
           </div>
           <div class="flex-fill text-center mb-5">
             <p class="small mb-0">Estimated CPM</p>
-            <p class="lead mb-0" data-bind="text: '$' + cpm().toFixed(2)"></p>
+            <p class="lead mb-0" data-bind="text: '$' + getCpm().toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})"></p>
           </div>
           <div class="flex-fill text-center mb-5">
             <p class="small mb-0">Estimated ad impressions</p>
