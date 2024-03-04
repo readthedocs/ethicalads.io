@@ -1,4 +1,4 @@
-Title: Ad Calculator: How Much You'll Earn with EthicalAds
+Title: Revenue Calculator: How Much You'll Earn with EthicalAds
 slug: calculator
 url: publishers/calculator/
 save_as: publishers/calculator/index.html
