@@ -1,0 +1,112 @@
+{% extends "page.html" %}
+
+
+{% block content %}
+<section class="container py-5 mb-10">
+  <article class="page">
+    <h1 class="font-weight-light display-3">{{ page.title }}</h1>
+
+    <p>There's a few important variables that determine how much you'll make with EthicalAds. We built this calculator so you know what kind of a monthly payout to expect.</p>
+
+<div id="publisher-calculator" class="card card-border border-primary shadow-light-lg">
+  <div class="card-body">
+    <div class="row justify-content-center">
+      <div class="col-md-8 col-xs-12">
+
+        <form>
+
+          <div class="form-group mb-8">
+            <h3>Monthly site pageviews</h3>
+            <p class="small">How many pageviews your site gets is the most important input into how much you'll earn with us. Use "unique pageviews" if that is broken out in your analytics.</p>
+
+            <div class="d-print-none">
+              <div class="input-group input-group-sm mx-auto w-50 w-lg-25">
+                <input type="number" class="form-control" data-bind="value: pageviews" min="20000" max="25000000" step="10000" name="pageviews-precise" id="pageviews-precise">
+              </div>
+
+              <input type="range" class="form-control-range" min="20000" max="25000000" step="10000" data-bind="value: pageviews" name="pageviews" id="pageviews">
+              <div class="d-flex">
+                <div class="small flex-fill">20K</div>
+                <div class="small flex-fill text-right">25M</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group mb-8">
+            <h3>Pageview estimate source</h3>
+            <p class="small">Where did you get the figure for your monthly pageviews? Different tools will vary in how accurately they are able to count billable pageviews (see <a href="/publishers/faq/#analytics-shows-more-pageviews-than-youre-showing-ad-views-why">why that is</a>).</p>
+
+            <div class="d-print-none">
+
+              <select class="form-control" data-bind="foreach: PAGEVIEW_SOURCES, value: pageview_source" name="pageview_source" id="pageview_source">
+                <option data-bind="text: text, value: value">-- select pageviews source --</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group mb-8">
+            <h3>Estimated CPM</h3>
+            <p class="small">Most publishers on our network earn between $2.25 and $2.75 CPM. You earn 70% of what <a href="/advertisers/#pricing">we charge advertisers</a> which varies based on site topic and the geography of your audience. Our standard CPM numbers assume more than half of your audience is located in North America and Western Europe.</p>
+
+            <div class="d-print-none">
+              <div class="input-group input-group-sm mx-auto w-50 w-lg-25">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">$</span>
+                </div>
+                <input type="number" class="form-control" data-bind="value: cpm" min="0" max="5" step="0.01" name="cpm-precise" id="cpm-precise">
+              </div>
+
+              <input type="range" class="form-control-range" min="0" max="5" step="0.01" data-bind="value: cpm" name="cpm" id="cpm">
+              <div class="d-flex">
+                <div class="small flex-fill">$1</div>
+                <div class="small flex-fill text-right">$5</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- This shows a link to this specific calculation but only when printing -->
+          <div class="d-none d-print-block">
+            <div class="form-group mb-8">
+              <h3>Campaign calculator URL</h3>
+              <a href data-bind="text: getUrl(), attr: {'href': getUrl()}"></a>
+            </div>
+          </div>
+
+        </form>
+
+      </div>
+
+      <!-- Details and calculations -->
+      <div class="col-md-4 col-xs-12">
+        <div class="py-5 text-white bg-secondary rounded" data-bind="if: getNumAdImpressions() && getMonthlyPayout()">
+          <div class="flex-fill text-center mb-5">
+            <p class="small mb-0">Monthly pageviews</p>
+            <p class="lead mb-0" data-bind="text: pageviews().toLocaleString(undefined, {maximumFractionDigits: 0})"></p>
+          </div>
+          <div class="flex-fill text-center mb-5">
+            <p class="small mb-0">Estimated CPM</p>
+            <p class="lead mb-0" data-bind="text: '$' + cpm().toFixed(2)"></p>
+          </div>
+          <div class="flex-fill text-center mb-5">
+            <p class="small mb-0">Estimated ad impressions</p>
+            <p class="lead mb-0" data-bind="text: getNumAdImpressions().toLocaleString(undefined, {maximumFractionDigits: 0})"></p>
+          </div>
+          <div class="flex-fill text-center mb-5">
+            <p class="small mb-0 font-weight-bold">Estimated monthly payout</p>
+            <p class="lead mb-0 font-weight-bold" data-bind="text: '$' + getMonthlyPayout().toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})"></p>
+          </div>
+        </div>
+
+        <p class="text-center mt-10 d-print-none">
+          <a href="/publishers/#inbound-form" class="btn btn-primary lift">
+            <span>Apply to become a publisher</span>
+          </a>
+        </p>
+      </div>
+    </div> <!-- / .row -->
+  </div>
+</div>
+
+  </article>
+</section>
+{% endblock content %}
