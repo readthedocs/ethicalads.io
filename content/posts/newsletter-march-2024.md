@@ -46,7 +46,7 @@ and [ethical-ad-client changelog](https://ethical-ad-client.readthedocs.io/en/la
 In February 2024:
 
 * We generated **$47,124.69** for our publishers.
-  This is just a little shy of our best month (March 2024)
+  This is just a little shy of our best month (March 2023)
   but on a 30 day basis, it is the best we've had.
 * We had **177 publishers** on our network with at least one paid ad impression.
 * We had **19,009,922** paid ad views across the world.
