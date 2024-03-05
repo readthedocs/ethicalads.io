@@ -24,7 +24,11 @@ from February and what's coming in the rest of March.
   These changes will let us target a lot of niches that were previously too hard or too small to target.
   We are still aiming for a public demo this month!
 * We are experimenting with some self-serve features to let advertisers
-  who know exactly what they want to start a campaign without doing a call with a co-found^D^D^D sales rep.
+  who know exactly what they want to start a campaign without doing a call with a <s>co-founder</s> sales rep.
+* In related news, we are onboarding a sales rep to help with ad sales
+  and publisher outreach. Eric Raszewski is the newest member of our small team
+  and has been helping with some sales automation and working
+  both our advertiser and publisher funnels.
 * There were some UX and other improvements aimed at new and returning publisher
   including added support for GitHub Sponsors as a payout option.
   We're very focused on acquiring premium publishers right now and we're
