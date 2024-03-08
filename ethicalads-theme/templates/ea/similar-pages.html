@@ -7,7 +7,18 @@
 
     <p>Try our machine-learning powered, automatic campaign targeting: Automatically target your campaign to the most-relevant pages across our advertising network based on your landing and product pages.</p>
 
-    <form hx-get="http://server.ethicalads.io/api/v1/similar/" hx-trigger="submit" hx-target="#response" hx-swap="innerHTML">
+    <!-- GET url argument from URL after page is loaded -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const url = urlParams.get('url');
+        if (url) {
+          document.getElementById('urlInput').value = url;
+        }
+      });
+    </script>
+
+    <form name="similar-pages" hx-get="https://server2.ethicalads.io/api/v1/similar/" hx-trigger="submit" hx-target="#response" hx-swap="innerHTML">
       <div class="form-row">
         <div class="col mb-2">
           <label for="urlInput" class="sr-only">Landing/Product Page URL</label>
