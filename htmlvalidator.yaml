@@ -1,0 +1,4 @@
+root: ./output
+log: INFO
+ignore:
+  - 'hx-'

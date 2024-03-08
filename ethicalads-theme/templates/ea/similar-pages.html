@@ -1,0 +1,44 @@
+{% extends "page.html" %}
+
+{% block content %}
+<section class="container py-5 mb-10">
+  <article class="page">
+    <h1 class="font-weight-light display-3">{{ page.title }}</h1>
+
+    <p>Try our machine-learning powered, automatic campaign targeting: Automatically target your campaign to the most-relevant pages across our advertising network based on your landing and product pages.</p>
+
+    <!-- GET url argument from URL after page is loaded -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const url = urlParams.get('url');
+        if (url) {
+          document.getElementById('urlInput').value = url;
+        }
+      });
+    </script>
+
+    <form name="similar-pages" hx-get="https://server2.ethicalads.io/api/v1/similar/" hx-trigger="submit" hx-target="#response" hx-swap="innerHTML">
+      <div class="form-row">
+        <div class="col mb-2">
+          <label for="urlInput" class="sr-only">Landing/Product Page URL</label>
+          <input type="text" class="form-control" id="urlInput" name="url" placeholder="http://example.com/product-page">
+          <small class="form-text text-muted">This works best (and our model was trained) on landing pages or product pages with plenty of marketing copy explaining your developer-focused product offering.</small>
+        </div>
+        <div class="col-md-2 col-sm mb-2">
+          <button type="submit" class="btn btn-primary">Find&nbsp;similar&nbsp;pages</button>
+        </div>
+      </div>
+    </form>
+
+    <div id="response" class="mt-5">
+      <p>Enter your landing page or product page to see similar pages where your ad could appear across our network.</p>
+      <pre id="responseData"></pre>
+    </div>
+
+    <div class="my-10 text-center">
+      <a href="/advertisers/#inbound-form" class="btn btn-primary">Start your auto-targeted campaign</a>
+    </div>
+  </article>
+</section>
+{% endblock %}
