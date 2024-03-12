@@ -1,4 +1,4 @@
 Title: Advertise with Us
 slug: advertisers
-description: Reach millions of engaged developers with relevant advertising that respects their privacy. Advertise with EthicalAds to reach your target audience and meet your marketing goals.
+description: Reach millions of engaged developers with AI-powered contextual advertising. Advertise with EthicalAds to reach the exact right developers you're looking for.
 template: ea/advertisers
