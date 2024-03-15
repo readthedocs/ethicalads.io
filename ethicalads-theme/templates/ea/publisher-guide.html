@@ -10,58 +10,55 @@
       {% if page.subtitle %}<p class="lead text-center">{{ page.subtitle }}</p>{% endif %}
     </div>
 
-    <div class="row row-cols-1 row-cols-md-3 mb-8">
+    <div class="card-deck">
 
       <!-- Apply -->
-      <div class="col mb-2">
-        <div class="card shadow-sm h-100">
-          <div class="card-body">
-            <h3 class="card-title">Step #1: Apply</h3>
-            <p class="card-text">The first step is <a href="/publishers/#inbound-form">applying to be a publisher</a>. We're actively seeking <strong>developer-focused sites with 50k+ monthly pageviews</strong>. Once accepted, you'll have access to our publisher dashboard with reporting.</p>
+      <div class="card shadow-sm card-border card-border-xl border-primary">
+        <div class="card-body">
+          <h3 class="card-title">Step #1: Apply</h3>
+          <p class="card-text">The first step is <a href="/publishers/#inbound-form">applying to be a publisher</a>. We're actively seeking <strong>developer-focused sites with 50k+ monthly pageviews</strong>. Once accepted, you'll have access to our publisher dashboard with reporting.</p>
+        </div>
+        <div class="card-footer pt-0">
+          <hr>
 
-            <hr>
-
-            <div class="text-center py-3">
-              <img src="/theme/img/illustrations/illustration-3.png" alt="Apply to EthicalAds" class="w-75">
-            </div>
-
+          <div class="text-center py-3">
+            <img src="/theme/img/illustrations/illustration-3.png" alt="Apply to EthicalAds" class="w-75">
           </div>
         </div>
       </div>
 
       <!-- Setup -->
-      <div class="col mb-2">
-        <div class="card shadow-sm h-100">
-          <div class="card-body">
-            <h3 class="card-title">Step #2: Setup</h3>
-            <p class="card-text">Setup the EthicalAds <a href="https://ethical-ad-client.readthedocs.io/">ad client</a> on your site with your custom ID from our publisher dashboard. Out of the box you'll serve unpaid ads until your site is approved for paid ads.</p>
+      <div class="card shadow-sm card-border card-border-xl border-secondary">
+        <div class="card-body">
+          <h3 class="card-title">Step #2: Setup</h3>
+          <p class="card-text">Setup the EthicalAds <a href="https://ethical-ad-client.readthedocs.io/">ad client</a> on your site with your custom ID from our publisher dashboard. Out of the box you'll serve unpaid ads until your site is approved for paid ads.</p>
+        </div>
 
-            <hr>
+        <div class="card-footer pt-8"><!-- Extra padding to account for shorter text -->
+          <hr>
 
-            <div class="text-center rounded py-3">
-              <img src="/images/pages/publishers/publisher-code-example.png" class="w-75" alt="Client code example">
-            </div>
+          <div class="text-center rounded py-3">
+            <img src="/images/pages/publishers/publisher-code-example.png" class="w-75" alt="Client code example">
           </div>
         </div>
       </div>
 
       <!-- Approval -->
-      <div class="col mb-2">
-        <div class="card shadow-sm h-100">
-          <div class="card-body">
-            <h3 class="card-title">Step #3: Approval</h3>
-            <p class="card-text">After configuring our ad client and seeing your first ad, the last step is to request approval for paid ads and configure how you'd like to be paid.</p>
+      <div class="card shadow-sm card-border card-border-xl border-success">
+        <div class="card-body">
+          <h3 class="card-title">Step #3: Approval</h3>
+          <p class="card-text">After configuring our ad client and seeing your first ad, the last step is to request approval for paid ads and configure how you'd like to be paid.</p>
+        </div>
+        <div class="card-footer pt-10"><!-- Extra padding to account for shorter text -->
+          <hr>
 
-            <hr>
-
-            <div class="text-center py-3">
-              <img src="/images/pages/publishers/publisher-dashboard-earnings.png" alt="Publisher earnings report" class="screenshot w-75">
-            </div>
+          <div class="text-center py-3">
+            <img src="/images/pages/publishers/publisher-dashboard-earnings.png" alt="Publisher earnings report" class="screenshot w-75">
           </div>
         </div>
       </div>
 
-    </div> <!-- /row -->
+    </div> <!-- /.card-deck -->
   </div> <!-- /.container -->
 
 </section>
@@ -120,7 +117,7 @@
 
     <!-- Light mode -->
     <div class="col mb-2">
-      <div class="card shadow-sm h-100">
+      <div class="card shadow-sm h-100 card-border card-border-xl border-dark">
         <div class="card-body text-center">
           <h3 class="card-title">Light mode</h3>
 
@@ -164,9 +161,9 @@
 
     <!-- Dark mode -->
     <div class="col mb-2">
-      <div class="card shadow-sm h-100 bg-gray-900">
+      <div class="card shadow-sm h-100 bg-dark card-border card-border-xl border-light">
         <div class="card-body text-center">
-          <h3 class="card-title text-white">Dark mode</h3>
+          <h3 class="card-title text-light">Dark mode</h3>
 
           <div class="loaded dark horizontal raised" data-ea-type="image" data-ea-publisher="unknown">
             <div class="ea-content">
