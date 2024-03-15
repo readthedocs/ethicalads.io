@@ -1,5 +1,5 @@
 title: Publisher's Guide
 slug: publisher-guide
-description: A guide to help publishers get setup earning with EthicalAds with tips to get the most out of our network in terms of optimizing your ad placement and revenue.
+description: A guide to help publishers start earning revenue with EthicalAds. Contains tips around optimizing your ad placement and ensuring the most possible revenue.
 subtitle: Get setup with EthicalAds and maximize your site's ad revenue
 template: ea/publisher-guide
