@@ -19,7 +19,6 @@ but we expect publishers to stay within these guidelines at all times.
 
 ## Ad display
 
-
 We have the following rules around display of our ads:
 
 - Our ad should be the only ad on the page. We currently only allow a single EthicalAds ad per page, but are discussing how to support multiple. Promotion of your own content or services on your site is fine, but we do not want our ads alongside ads from competing networks. It's fine to show our ad and other ad networks' ads on different pages or different requests, just not on the same page at the same time.
