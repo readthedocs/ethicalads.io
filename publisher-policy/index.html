@@ -113,10 +113,10 @@ but we expect publishers to stay within these guidelines at all times.</p>
 <h2 id="ad-display">Ad display</h2>
 <p>We have the following rules around display of our ads:</p>
 <ul>
-<li>Our ad should be the only ad network visible when loaded. We currently only allow a single EthicalAds ad per page, but are discussing how to support multiple. Promotion of your own content or services on your site is fine, you just can't run be using other ad networks at the same time. It's also fine to show our ad and other ad networks on alternating requests, just not on the same page load.</li>
-<li>The ad should appear when the user first visits, above the fold, on both desktop and mobile. You can disable the ad on mobile if this isn't possible.</li>
+<li>Our ad should be the only ad on the page. We currently only allow a single EthicalAds ad per page, but are discussing how to support multiple. Promotion of your own content or services on your site is fine, but we do not want our ads alongside ads from competing networks. It's fine to show our ad and other ad networks' ads on different pages or different requests, just not on the same page at the same time.</li>
+<li>The ad should appear when the user first visits, above the fold, on both desktop and mobile. You can disable the ad on mobile if this isn't possible or we can disable mobile ads for your site.</li>
 <li>The ad should not disrupt the natural reading flow of the page. It should be placed above, beside or below the main content, not within it. This is an <a href="https://acceptableads.com/standard/">Acceptable Ads</a> requirement, and something we think is best for users as well.</li>
-<li>The ad placement should result in at least a .1% CTR (click-through rate). This will be reported in your publisher dashboard.</li>
+<li>The ad placement should result in at least a 0.1% CTR (click-through rate). This will be reported in your publisher dashboard.</li>
 </ul>
 <p>You are welcome to <a href="https://ethical-ad-client.readthedocs.io/en/latest/#customization">display a different ad</a> as a fallback if EthicalAds doesn't have a paid ad to show.
 You are also welcome to show EthicalAds to a share of your visitors (eg. 50%) along with another ad network, as long as they aren't shown on the same page.</p>
@@ -148,10 +148,10 @@ and alert the publisher if we find any traffic that looks inauthentic.</p>
 <p>We already invalidate different types of traffic automatically,
 which won't be counted as a paid ad view:</p>
 <ul>
-<li>Known bot user-agents</li>
+<li>Known bots</li>
 <li>Users with IP addresses we can't geolocate</li>
-<li>Users with IP address that map to known hosting providers, VPN's, and web proxies</li>
-<li>Multiple views of an ad within 5 seconds from the same browser</li>
+<li>Users with IP address that map to known hosting providers, VPNs, and web proxies</li>
+<li>Multiple views of an ad within a short period from the same browser</li>
 </ul>
 <p>We are regularly tweaking our ad fraud detection in response to new challenges,
 and we're happy to work with publishers to make sure our ads work for them.</p>
