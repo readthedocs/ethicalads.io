@@ -4,14 +4,14 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 <meta name="generator" content="Pelican" />
-<meta property="og:site_name" content="EthicalAds"/><meta name="description" content="A guide to help publishers get the most out of our network in terms of optimizing their ad placement and contextual targeting." />
-    <meta property="og:description" content="A guide to help publishers get the most out of our network in terms of optimizing their ad placement and contextual targeting." /><meta property="og:type" content="article" />
-  <meta property="og:title" content="Publisher&#39;s Guide to Improving Ad Revenue" /><!-- Default image -->
+<meta property="og:site_name" content="EthicalAds"/><meta name="description" content="A guide to help publishers start earning revenue with EthicalAds. Contains tips around optimizing your ad placement and ensuring the most possible revenue." />
+    <meta property="og:description" content="A guide to help publishers start earning revenue with EthicalAds. Contains tips around optimizing your ad placement and ensuring the most possible revenue." /><meta property="og:type" content="article" />
+  <meta property="og:title" content="Publisher&#39;s Guide" /><!-- Default image -->
   <meta property="og:image" content="https://www.ethicalads.io/theme/img/logo-opengraph.png" />
       <!-- Bootstrap CSS -->
       <link rel="stylesheet" href="/theme/dist/main.css">
 
-      <title>Publisher's Guide to Improving Ad Revenue - EthicalAds</title>
+      <title>Publisher's Guide - EthicalAds</title>
 
     <link rel="canonical" href="https://www.ethicalads.io/publisher-guide/" />
     <meta property="og:url" content="https://www.ethicalads.io/publisher-guide/" />
@@ -89,77 +89,251 @@
 </nav>
     <main>
 
-<section class="container py-5 mb-10">
-  <article class="page">
-    <h1 class="font-weight-light display-3">Publisher's Guide to Improving Ad Revenue</h1>
-<p class="lead">Maximize your site's ad revenue while complementing your user experience.</p>
-    <p>Our <a href="https://ethical-ad-client.readthedocs.io/en/latest/">EthicalAds client</a> gets you started with how to host ads.
-To ensure your site generates as much revenue from your ads as possible,
-you need to make sure your ad placement, targeting, and user experience compliment your content.</p>
-<p><strong>Contents</strong></p>
-<div class="toc">
-<ul>
-<li><a href="#ensuring-a-good-ad-placement">Ensuring a good ad placement</a><ul>
-<li><a href="#the-basics">The basics</a></li>
-<li><a href="#tailored-display-types">Tailored display types</a></li>
-<li><a href="#light-vs-dark-themes">Light vs dark themes</a></li>
-<li><a href="#content-tagging">Content tagging</a></li>
-<li><a href="#bringing-it-all-together">Bringing it all together</a></li>
-</ul>
-</li>
-<li><a href="#more-questions">More questions?</a></li>
-</ul>
-</div>
-<h2 id="ensuring-a-good-ad-placement">Ensuring a good ad placement</h2>
-<p>Without tracking users, the best way to make sure ads perform well is to have a good ad placement.
-A good ad placement means the ad is clearly visible and separate from the content of the page.
-How long the ad is visible on the page is also a factor.
-If the UX of your site means that users quickly scroll past ads, the ads on your site won't perform well.</p>
-<h3 id="the-basics">The basics</h3>
-<p><strong>Having the ad visible by default on page load ("above the fold") is the most effective way to have a <a href="https://www.ethicalads.io/publishers/faq/#what-data-can-i-see-about-the-ads">high view rate</a>.</strong>
-Ads that are more visible get viewed more frequently and clicked at a higher rate.</p>
-<p>As our <a href="https://www.ethicalads.io/publisher-policy/">publisher policy</a> lays out:</p>
-<ul>
-<li>The ad should appear when the user first visits, above the fold, on both desktop and mobile.
-  You can disable the ad on mobile if this isn't possible.</li>
-<li>The ad should not disrupt the natural reading flow of the page.
-  It should be placed above, beside or below the main content, not within it.</li>
-</ul>
-<h3 id="tailored-display-types">Tailored display types</h3>
-<p>On the EthicalAds network, there are two main types of ads:</p>
-<ol>
-<li>Ads with images (<code>image</code>)</li>
-<li>Ads without images (<code>text</code>)</li>
-</ol>
-<p>Which type of ad to place depends a lot on the available real estate of your page.
-A banner across the bottom of the page works well on static pages like <a href="https://jsbin.com/?html,output">jsbin.com</a>
-otherwise we've found image ads in the sidebar which are static when scrolling to be really successful.
-The majority of our ads do have images so if in doubt, go with the image ad spot.</p>
-<h3 id="light-vs-dark-themes">Light vs dark themes</h3>
-<p>If your website uses a dark theme, consider adding <code>{html} class = "dark"</code> as seen <a href="https://ethical-ad-client.readthedocs.io/en/latest/#dark-mode">here</a>.
-This improves performance by helping the text of the ad standout while the rest of the ad blends in.</p>
-<p><strong>If your website's theme has adaptive dark mode &amp; light mode, consider adding <code>{html} class = "adaptive"</code> as it handles both light and dark themes automatically.</strong></p>
-<h3 id="content-tagging">Content tagging</h3>
-<p>Usually, our site crawler will periodically crawl your site and index your pages
-so we can serve the best ad on any individual page.
-For example, we can target an ad for a DevOps related service to DevOps related content on your site.
-However, this process can struggle on some single page apps (SPAs)
-or when connecting directly to our ads API instead of using our client.</p>
-<p>In those cases, you can help by letting us know about the content of your pages with
-<a href="https://ethical-ad-client.readthedocs.io/en/latest/#page-specific-keywords">page-specific keywords</a>.
-This allows us to better target the ads for your audience.
-Ads targeted specifically to your content can also result in higher payouts
-as we charge higher rates for highly targeted ads.</p>
-<p>You can find a <a href="https://github.com/readthedocs/ethical-ad-client/blob/4ffd34eb5f843e9cfef80894cff9a43db9af72f4/index.js#L45-L171">list of the major keywords we target</a> in our client source code.</p>
-<h3 id="bringing-it-all-together">Bringing it all together</h3>
-<p>Complementary placement, pleasing aesthetics, and accurate content tagging will
-boost your earnings with EthicalAds by helping us provide your users
-with high quality, relevant advertisements.
-And if you haven't already, <a href="/publishers/#inbound-form">become a publisher today</a>!</p>
-<h2 id="more-questions">More questions?</h2>
-<p>Check out our full <a href="../publishers/faq/">Publisher FAQ</a>,
-which answers a lot more of your questions.</p>
-  </article>
+<section class="py-10">
+  <div class="container">
+
+    <div class="mb-8">
+      <h1 class="font-weight-bold text-center">Publisher's Guide</h1>
+<p class="lead text-center">Get setup with EthicalAds and maximize your site's ad revenue</p>    </div>
+
+    <div class="card-deck">
+
+      <!-- Apply -->
+      <div class="card shadow-sm card-border card-border-xl border-primary">
+        <div class="card-body">
+          <h3 class="card-title">Step #1: Apply</h3>
+          <p class="card-text">The first step is <a href="/publishers/#inbound-form">applying to be a publisher</a>. We're actively seeking <strong>developer-focused sites with 50k+ monthly pageviews</strong>. Once accepted, you'll have access to our publisher dashboard with reporting.</p>
+        </div>
+        <div class="card-footer pt-0">
+          <hr>
+
+          <div class="text-center py-3">
+            <img src="/theme/img/illustrations/illustration-3.png" alt="Apply to EthicalAds" class="w-75">
+          </div>
+        </div>
+      </div>
+
+      <!-- Setup -->
+      <div class="card shadow-sm card-border card-border-xl border-secondary">
+        <div class="card-body">
+          <h3 class="card-title">Step #2: Setup</h3>
+          <p class="card-text">Setup the EthicalAds <a href="https://ethical-ad-client.readthedocs.io/">ad client</a> on your site with your custom ID from our publisher dashboard. Out of the box you'll serve unpaid ads until your site is approved for paid ads.</p>
+        </div>
+
+        <div class="card-footer pt-8"><!-- Extra padding to account for shorter text -->
+          <hr>
+
+          <div class="text-center rounded py-3">
+            <img src="/images/pages/publishers/publisher-code-example.png" class="w-75" alt="Client code example">
+          </div>
+        </div>
+      </div>
+
+      <!-- Approval -->
+      <div class="card shadow-sm card-border card-border-xl border-success">
+        <div class="card-body">
+          <h3 class="card-title">Step #3: Approval</h3>
+          <p class="card-text">After configuring our ad client and seeing your first ad, the last step is to request approval for paid ads and configure how you'd like to be paid.</p>
+        </div>
+        <div class="card-footer pt-10"><!-- Extra padding to account for shorter text -->
+          <hr>
+
+          <div class="text-center py-3">
+            <img src="/images/pages/publishers/publisher-dashboard-earnings.png" alt="Publisher earnings report" class="screenshot w-75">
+          </div>
+        </div>
+      </div>
+
+    </div> <!-- /.card-deck -->
+  </div> <!-- /.container -->
+
+</section>
+
+
+<section class="container py-5" id="getting-approved">
+  <h2 class="font-weight-bold mb-8 text-center">Getting approved</h2>
+
+  <div class="row">
+    <div class="col col-md-6">
+      <div class="device device-macbook">
+        <img src="/images/pages/publishers/publisher-stylized-screenshot-good.png" class="device-screen" alt="A single above-the-fold ad with good placement">
+        <img src="/theme/img/devices/macbook.svg" class="img-fluid" alt="...">
+        <span class="text-success" style="position: absolute; top: 0; right: 5%; width: 15%">
+          <svg xmlns="http://www.w3.org/2000/svg" width="100%" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"></path>
+            <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"></path>
+          </svg>
+        </span>
+      </div>
+    </div>
+    <div class="col col-md-6">
+      <div class="device device-macbook">
+        <img src="/images/pages/publishers/publisher-stylized-screenshot-bad.png" class="device-screen" alt="Unacceptable placement - multiple ads on the page">
+        <img src="/theme/img/devices/macbook.svg" class="img-fluid" alt="...">
+        <span class="text-danger" style="position: absolute; top: 0; right: 5%; width: 15%">
+          <svg xmlns="http://www.w3.org/2000/svg" width="100%" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"></path>
+            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"></path>
+          </svg>
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div class="row my-5">
+    <div class="col col-md-6 mx-auto">
+      <ul>
+        <li>EthicalAds should be the only ad on the page (your own promotions are fine).</li>
+        <li>The ad should be above the fold on both desktop and mobile. You can disable the ad on mobile if this isn't possible.</li>
+        <li>The ad should not disrupt the natural reading flow of the page. It should be placed above, beside or below the main content, not within it.</li>
+      </ul>
+
+      <p class="text-center">For more details, see our <a href="/publisher-policy/">publisher policy</a>.</p>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="container py-5" id="maximize-ux-revenue">
+  <h2 class="font-weight-bold mb-8 text-center">Maximize UX &amp; Revenue</h2>
+  <p class="mx-auto text-center w-100 w-md-75">To ensure your site generates as much revenue from ads as possible, you need to make sure your ad placement and targeting complement your content.</p>
+
+  <div class="row row-cols-1 row-cols-md-2 mb-8">
+
+    <!-- Light mode -->
+    <div class="col mb-2">
+      <div class="card shadow-sm h-100 card-border card-border-xl border-dark">
+        <div class="card-body text-center">
+          <h3 class="card-title">Light mode</h3>
+
+          <div class="loaded horizontal raised" data-ea-type="image" data-ea-publisher="unknown">
+            <div class="ea-content">
+              <a href="#" rel="nofollow noopener">
+                <img src="/images/pages/top-ad-example-1.png" alt="Top ad example">
+              </a>
+              <div class="ea-text">
+                <a href="#" rel="nofollow noopener">
+                  <strong>Free e-book:</strong>
+                  <span> Learn to choose the best open source packages. </span>
+                  <strong>Download now!</strong>
+                </a>
+              </div>
+            </div>
+            <div class="ea-callout">
+              <a rel="nofollow noopener" href="https://ethicalads.io/">Ad by EthicalAds</a>
+            </div>
+          </div>
+
+          <hr>
+
+          <div class="loaded horizontal raised" data-ea-type="text" data-ea-publisher="unknown">
+            <div class="ea-content">
+              <div class="ea-text">
+                <a href="#" rel="nofollow noopener">
+                  <strong>Free e-book:</strong>
+                  <span> Learn to choose the best open source packages. </span>
+                  <strong>Download now!</strong>
+                </a>
+              </div>
+            </div>
+            <div class="ea-callout">
+              <a rel="nofollow noopener" href="https://ethicalads.io/">Ad by EthicalAds</a>
+            </div>
+          </div>
+        </div>
+      </div> <!-- /div.card -->
+    </div>
+
+    <!-- Dark mode -->
+    <div class="col mb-2">
+      <div class="card shadow-sm h-100 bg-dark card-border card-border-xl border-light">
+        <div class="card-body text-center">
+          <h3 class="card-title text-light">Dark mode</h3>
+
+          <div class="loaded dark horizontal raised" data-ea-type="image" data-ea-publisher="unknown">
+            <div class="ea-content">
+              <a href="#" rel="nofollow noopener">
+                <img src="/images/pages/top-ad-example-1.png" alt="Top ad example">
+              </a>
+              <div class="ea-text">
+                <a href="#" rel="nofollow noopener">
+                  <strong>Free e-book:</strong>
+                  <span> Learn to choose the best open source packages. </span>
+                  <strong>Download now!</strong>
+                </a>
+              </div>
+            </div>
+            <div class="ea-callout">
+              <a rel="nofollow noopener" href="https://ethicalads.io/">Ad by EthicalAds</a>
+            </div>
+          </div>
+
+          <hr>
+
+          <div class="loaded dark raised" data-ea-type="text" data-ea-publisher="unknown">
+            <div class="ea-content">
+              <div class="ea-text">
+                <a href="#" rel="nofollow noopener">
+                  <strong>Free e-book:</strong>
+                  <span> Learn to choose the best open source packages. </span>
+                  <strong>Download now!</strong>
+                </a>
+              </div>
+            </div>
+            <div class="ea-callout">
+              <a rel="nofollow noopener" href="https://ethicalads.io/">Ad by EthicalAds</a>
+            </div>
+          </div>
+
+        </div>
+      </div> <!-- /div.card -->
+    </div>
+  </div>
+
+
+  <div class="row my-5" id="tips-written">
+    <div class="col col-md-9 mx-auto">
+      <ul>
+        <li>Choose the right ad placement for your site. There are options for <a href="https://ethical-ad-client.readthedocs.io/en/latest/#themes">vertical</a>, <a href="https://ethical-ad-client.readthedocs.io/en/latest/#horizontal-image">horizontal</a>, <a href="https://ethical-ad-client.readthedocs.io/en/latest/#dark-mode">dark mode</a>, <a href="https://ethical-ad-client.readthedocs.io/en/latest/#text-placement">text-only</a>, or <a href="https://ethical-ad-client.readthedocs.io/en/latest/#placement-style">floating placements</a>.</li>
+        <li>Our site crawler will periodically crawl your site and index your pages so we can serve the best ad on any individual page with AI-powered contextual targeting. However, on single-page apps (SPAs) or publishers using our API, you can pass <a href="https://ethical-ad-client.readthedocs.io/en/latest/#page-specific-keywords">page-specific keywords</a> to ensure you get the best ad targeting.</li>
+        <li>We have <a href="https://ethical-ad-client.readthedocs.io/en/latest/#single-page-apps">support for SPAs</a> to help improve targeting and dynamic ad rotation.</li>
+        <li>There are easy ways to show your own promotions when we do not have a paid ad to show or to fallback to another ad network.</li>
+      </ul>
+
+      <p class="text-center">For more options, see our <a href="https://ethical-ad-client.readthedocs.io/">ad client docs</a>.</p>
+    </div>
+  </div>
+
+</section>
+
+
+<section class="container py-5" id="more-questions">
+  <h2 class="font-weight-bold mb-8 text-center">More questions</h2>
+  <div class="row mb-5">
+    <div class="col-12 col-md-6">
+      <h4 class="font-weight-bold">How much will I make?</h4>
+      <p>
+        Try our <a href="/publishers/calculator/">publisher calculator</a> to get an estimate of your monthly payout.
+        Generally publishers see around $2.50 per 1,000 pageviews (CPM),
+        assuming most of your traffic is from the EU & North America.
+        These numbers will vary based on your audience and topics that you write about.
+      </p>
+    </div>
+    <div class="col-12 col-md-6">
+      <h4 class="font-weight-bold">How can I be paid?</h4>
+      <p>
+        We currently support payment via PayPal, OpenCollective, GitHub Sponsors, or a bank transfer (via Stripe).
+        <strong>Our minimum payment to publishers is currently $50</strong>,
+        so you need that amount to receive a payment.
+      </p>
+      <p>See our full <a href="/publisher-policy/#payouts">Payout Policy</a>.</p>
+    </div>
+  </div>
+
+  <p class="mt-6 text-center">
+    Have even more questions? Our <a href="/publishers/faq/">Publisher FAQ</a> has more answers!
+  </p>
 </section>
 
     </main>
@@ -302,6 +476,9 @@ which answers a lot more of your questions.</p>
             <a href="/publishers/calculator/" class="text-reset">Revenue Calculator</a>
           </li>
           <li class="mb-3">
+            <a href="/publisher-guide/" class="text-reset">Publisher Guide</a>
+          </li>
+          <li class="mb-3">
             <a href="/publishers/faq/" class="text-reset">Publisher FAQ</a>
           </li>
           <li class="mb-3">
@@ -309,9 +486,6 @@ which answers a lot more of your questions.</p>
           </li>
           <li class="mb-3">
             <a href="https://ethical-ad-client.readthedocs.io/en/latest/" class="text-reset">Ad Client Documentation</a>
-          </li>
-          <li class="mb-3">
-            <a href="/publishers/topics/open-source/" class="text-reset">Open Source</a>
           </li>
           <li class="mb-3">
             <a href="https://server.ethicalads.io/" class="text-reset">Publisher Login</a>
