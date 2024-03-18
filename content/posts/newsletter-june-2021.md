@@ -17,7 +17,7 @@ These are the major features we added in the last month:
 * Also in our ad server, we added actions to allow our staff to handle
   adding new publishers and processing publisher payouts.
 * On our website, we updated our [prospectus]({static}/prospectus/ethicalads-advertiser-prospectus.pdf) and [pricing]({filename}/pages/advertisers.md#pricing) information for Q3.
-* We also recently expanded our [Publisher Guide]({filename}/pages/learning-hub/publisher-guide.md) on the Learning Hub.
+* We also recently expanded our [Publisher Guide]({filename}/pages/publisher-guide.md) on the Learning Hub.
 
 You can always see our latest server updates in our [ethical-ad-server changelog](https://ethical-ad-server.readthedocs.io/en/latest/developer/changelog.html).
 

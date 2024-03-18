@@ -68,7 +68,7 @@ The major features in our upcoming roadmap for March:
   pages on our network to their landing or product page. We're really excited for this.
 * We're working on a number of landing pages focused on publishers
   and generally smoothing out our onboarding process for publishers.
-  To start, this will be an updated [publisher guide]({filename}../pages/learning-hub/publisher-guide.md).
+  To start, this will be an updated [publisher guide]({filename}../pages/publisher-guide.md).
 * We have some UX improvements coming for advertisers as well
   including better ways to compare campaigns with different prices and CTR on an eCPC basis.
 

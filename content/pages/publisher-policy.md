@@ -3,7 +3,7 @@ description: The publisher policy for the EthicalAds server and network
 status: hidden
 
 Effective date: **August 19, 2020**
-Last updated: [March 22, 2022](https://github.com/readthedocs/ethicalads.io/commits/main/content/pages/publisher-policy.md)
+Last updated: [March 14, 2024](https://github.com/readthedocs/ethicalads.io/commits/main/content/pages/publisher-policy.md)
 
 The goal of this page is to set expectations between EthicalAds and our publishers about what is expected for each of us.
 Our goal is for these to be easily understandable and fair,
