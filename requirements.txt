@@ -4,11 +4,9 @@
 #
 #    pip-compile
 #
-appdirs==1.4.4
-    # via black
 aspy-refactor-imports==3.0.1
     # via reorder-python-imports
-black==21.5b1
+black==24.3.0
     # via -r requirements.in
 blinker==1.4
     # via pelican
@@ -42,6 +40,8 @@ mypy-extensions==0.4.3
     # via black
 nodeenv==1.6.0
     # via pre-commit
+packaging==24.0
+    # via black
 pathspec==0.9.0
     # via black
 pelican==4.5.0
@@ -51,7 +51,9 @@ pelican==4.5.0
 pelican-related-posts==1.0.0
     # via -r requirements.in
 platformdirs==2.5.2
-    # via virtualenv
+    # via
+    #   black
+    #   virtualenv
 pre-commit==2.9.2
     # via -r requirements.in
 pygments==2.15.0
@@ -64,8 +66,6 @@ pytz==2022.1
     #   pelican
 pyyaml==6.0
     # via pre-commit
-regex==2022.4.24
-    # via black
 reorder-python-imports==2.5.0
     # via -r requirements.in
 six==1.16.0
@@ -74,11 +74,13 @@ six==1.16.0
     #   python-dateutil
     #   virtualenv
 toml==0.10.2
-    # via
-    #   black
-    #   pre-commit
+    # via pre-commit
+tomli==2.0.1
+    # via black
 tornado==6.1
     # via livereload
+typing-extensions==4.10.0
+    # via black
 unidecode==1.3.4
     # via pelican
 virtualenv==20.14.1

@@ -13,6 +13,6 @@ invoke<1.5
 livereload==2.6.3
 
 # Code formatters and pre-commit checks
-black==21.5b1
+black==24.3.0
 reorder-python-imports==2.5.0
 pre-commit==2.9.2
