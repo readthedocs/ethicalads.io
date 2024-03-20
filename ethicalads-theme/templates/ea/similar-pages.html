@@ -31,7 +31,10 @@
 
       <!-- An error occurred -->
       <div data-bind="if: state() == 'error'">
-        <p>An error occurred. Please try again or <a href="/contact/">contact us</a> to learn more about automatic campaign targeting.</p>
+        <div class="alert alert-warning" role="alert">
+          <h4 class="alert-heading font-weight-bold">An error occurred</h4>
+          <p>Please try again or <a href="/contact/">contact us</a> to learn more about automatic campaign targeting.</p>
+        </div>
       </div>
 
 
