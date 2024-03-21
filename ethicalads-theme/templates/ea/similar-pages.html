@@ -75,7 +75,14 @@
                 <h4 class="my-0">
                   <a href="#" data-bind="text: $data.title, attr:{'href': $data.url}" rel="nofollow noopener" target="_blank"></a>
                 </h4>
-                <h6 class="my-0 text-muted" data-bind="text: $data.url"></h6>
+                <h6 class="my-0 text-muted">
+                  <span data-bind="if: $data.distance">
+                    <span>Dist: </span>
+                    <span data-bind="text: $data.distance.toLocaleString(undefined, {minimumFractionDigits: 4, maximumFractionDigits: 4})"></span>
+                    <span> &middot; </span>
+                  </span>
+                  <span data-bind="text: $data.url"></span>
+                </h6>
                 <p class="mt-0" data-bind="text: $data.description"></p>
               </div>
             </div>
