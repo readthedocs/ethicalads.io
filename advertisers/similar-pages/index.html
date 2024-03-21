@@ -95,22 +95,11 @@
 
     <p>Try our machine-learning powered, automatic campaign targeting: Automatically target your campaign to the most-relevant pages across our advertising network based on your landing and product pages.</p>
 
-    <!-- GET url argument from URL after page is loaded -->
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const urlParams = new URLSearchParams(window.location.search);
-        const url = urlParams.get('url');
-        if (url) {
-          document.getElementById('urlInput').value = url;
-        }
-      });
-    </script>
-
-    <form name="similar-pages" hx-get="https://server2.ethicalads.io/api/v1/similar/" hx-trigger="submit" hx-target="#response" hx-swap="innerHTML">
+    <form name="similar-pages" id="similar-pages" data-bind="submit: getSimilarPages">
       <div class="form-row">
         <div class="col mb-2">
           <label for="urlInput" class="sr-only">Landing/Product Page URL</label>
-          <input type="text" class="form-control" id="urlInput" name="url" placeholder="http://example.com/product-page">
+          <input type="text" class="form-control" id="urlInput" name="url" data-bind="value: url" placeholder="http://example.com/product-page">
           <small class="form-text text-muted">This works best (and our model was trained) on landing pages or product pages with plenty of marketing copy explaining your developer-focused product offering.</small>
         </div>
         <div class="col-md-2 col-sm mb-2">
@@ -119,14 +108,85 @@
       </div>
     </form>
 
+
     <div id="response" class="mt-5">
-      <p>Enter your landing page or product page to see similar pages where your ad could appear across our network.</p>
-      <pre id="responseData"></pre>
+
+      <!-- Nothing loaded: prompt the user -->
+      <div data-bind="if: state() != 'loading' && state() != 'loaded'">
+        <p>Enter your landing page or product page to see similar pages where your ad could appear across our network.</p>
+      </div>
+
+
+      <!-- An error occurred -->
+      <div data-bind="if: state() == 'error'">
+        <div class="alert alert-warning" role="alert">
+          <h4 class="alert-heading font-weight-bold">An error occurred</h4>
+          <p>Please try again or <a href="/contact/">contact us</a> to learn more about automatic campaign targeting.</p>
+        </div>
+      </div>
+
+
+      <!-- Loading indicator -->
+      <div class="text-center" data-bind="if: state() == 'loading'">
+        <div class="spinner-border text-primary" role="status">
+          <span class="sr-only">Loading...</span>
+        </div>
+      </div>
+
+
+      <!-- Loaded w/ or w/o results -->
+      <div data-bind="if: state() == 'loaded'">
+
+        <div class="text-center" data-bind="if: results().length == 0">
+          <p>No pages were found across our network that were sufficiently similar to the page you entered. Try another page.</p>
+        </div>
+
+        <div data-bind="if: results().length > 0">
+
+          <h2>Similar results</h2>
+
+          <div data-bind="foreach: results">
+
+            <div class="media mb-3">
+
+              <!-- OpenGraph image -->
+              <div data-bind="if: $data.image">
+                <img src="#" alt="..." class="mr-3" width="32" height="32" data-bind="attr:{'src': $data.image}">
+              </div>
+
+              <!-- Image placeholder -->
+              <div data-bind="ifnot: $data.image">
+                <svg data-bind="ifnot: $data.image" class="bd-placeholder-img mr-3" width="32" height="32" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 32x32"><title>Placeholder</title><rect fill="none" stroke="black" width="100%" height="100%"></rect></svg>
+              </div>
+
+              <div class="media-body">
+                <h4 class="my-0">
+                  <a href="#" data-bind="text: $data.title, attr:{'href': $data.url}" rel="nofollow noopener" target="_blank"></a>
+                </h4>
+                <h6 class="my-0 text-muted">
+                  <span data-bind="if: $data.distance">
+                    <span>Dist: </span>
+                    <span data-bind="text: $data.distance.toLocaleString(undefined, {minimumFractionDigits: 4, maximumFractionDigits: 4})"></span>
+                    <span> &middot; </span>
+                  </span>
+                  <span data-bind="text: $data.url"></span>
+                </h6>
+                <p class="mt-0" data-bind="text: $data.description"></p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- CTA -->
+        <div class="my-10 text-center">
+          <a href="/advertisers/#inbound-form" class="btn btn-primary">Start your auto-targeted campaign</a>
+        </div>
+      </div>
+
     </div>
 
-    <div class="my-10 text-center">
-      <a href="/advertisers/#inbound-form" class="btn btn-primary">Start your auto-targeted campaign</a>
-    </div>
   </article>
 </section>
 
