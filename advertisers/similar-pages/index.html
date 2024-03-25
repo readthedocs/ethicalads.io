@@ -121,6 +121,12 @@
       <div data-bind="if: state() == 'error'">
         <div class="alert alert-warning" role="alert">
           <h4 class="alert-heading font-weight-bold">An error occurred</h4>
+          <div data-bind="if: statusMessage">
+            <p class="font-italic">
+              <span>Error message: </span>
+              <span data-bind="text: statusMessage"></span>
+            </p>
+          </div>
           <p>Please try again or <a href="/contact/">contact us</a> to learn more about automatic campaign targeting.</p>
         </div>
       </div>
@@ -130,6 +136,13 @@
       <div class="text-center" data-bind="if: state() == 'loading'">
         <div class="spinner-border text-primary" role="status">
           <span class="sr-only">Loading...</span>
+        </div>
+
+        <div data-bind="if: statusMessage">
+          <p class="font-italic">
+            <span>Status: </span>
+            <span data-bind="text: statusMessage"></span>
+          </p>
         </div>
       </div>
 
