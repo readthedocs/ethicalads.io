@@ -13,6 +13,7 @@ function SimilarPagesViewModel() {
   this.url = ko.observable(initialUrl);
   this.results = ko.observable([]);
   this.state = ko.observable();
+  this.statusMessage = ko.observable();
 
 
   // Gets the current URL with the extra custom URL query parameter
@@ -53,7 +54,15 @@ function SimilarPagesViewModel() {
       "url": SIMILAR_PAGES_URL,
       "data": {"url": this.url()},
     })
-    .done(function(data) {
+    .done(function(data, textStatus, jqXHR) {
+      if (jqXHR.status === 202) {
+        // 202 is a special status meaning that the URL is queued for analysis
+        // 5 seconds is usually enough for the analysis to finish
+        viewmodel.statusMessage("Your landing page is queued for analysis...");
+        window.setTimeout(function () { viewmodel.getSimilarPages(); }, 5 * 1000);
+        return;
+      }
+
       let res = [];
       data.results.forEach(function (result) {
         let url = new URL(result.url);
@@ -68,9 +77,15 @@ function SimilarPagesViewModel() {
       });
       viewmodel.results(res);
       viewmodel.state("loaded");
+      viewmodel.statusMessage(null);
     })
     .fail(function(data) {
       viewmodel.state("error");
+      if (data.responseJSON && data.responseJSON.error) {
+        viewmodel.statusMessage(data.responseJSON.error);
+      } else {
+        viewmodel.statusMessage("Unknown error");
+      }
       console.debug("Error getting similar pages", data);
     });
   };
