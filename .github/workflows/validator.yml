@@ -19,7 +19,7 @@ jobs:
 
       - name: Build static assets
         run: |
-          npm install
+          npm clean-install
           npm run dist
 
       - name: Cache dependencies
