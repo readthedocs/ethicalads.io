@@ -198,12 +198,16 @@ We are confident in our performance and know the results will speak for themselv
 <p>We also have a few variables you can use in your landing page links
 in order to capture data about the publisher where the ad was clicked or the specific advertisement:</p>
 <ul>
-<li><code>${publisher}</code> is used to insert the name of the publisher</li>
-<li><code>${advertisement}</code> is used to insert the name of the ad that was served</li>
+<li><code>${publisher_slug}</code> is used to insert the slug of the publisher</li>
+<li><code>${publisher_name}</code> is used to insert the name of the publisher</li>
+<li><code>${advertisement_slug}</code> is used to insert the name of the ad that was served</li>
+<li><code>${advertisement_name}</code> is used to insert the name of the ad that was served</li>
 </ul>
+<p>The <code>slug</code> variable is useful because it doesn't change when the name of the publisher or ad changes.
+It's a lowercase representation of the name with spaces replaced by hyphens, generated when the publisher or ad is created.</p>
 <p>For example, using the landing page link below would let you measure EthicalAds as a whole
 as well as different publishers and specific ad creatives:</p>
-<div class="highlight"><pre><span></span><span class="w">  </span>https://example.com?utm_medium=cpc<span class="err">&amp;</span>utm_source=ethicalads<span class="err">&amp;</span>utm_campaign=<span class="cp">${</span><span class="n">advertisement</span><span class="cp">}</span><span class="err">&amp;</span>utm_content=<span class="cp">${</span><span class="n">publisher</span><span class="cp">}</span>
+<div class="highlight"><pre><span></span><span class="w">  </span>https://example.com?utm_medium=cpc<span class="err">&amp;</span>utm_source=ethicalads<span class="err">&amp;</span>utm_campaign=<span class="cp">${</span><span class="n">advertisement_slug</span><span class="cp">}</span><span class="err">&amp;</span>utm_content=<span class="cp">${</span><span class="n">publisher_slug</span><span class="cp">}</span>
 </pre></div>
 
 
