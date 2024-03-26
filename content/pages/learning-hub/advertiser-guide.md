@@ -108,13 +108,18 @@ We are confident in our performance and know the results will speak for themselv
 We also have a few variables you can use in your landing page links
 in order to capture data about the publisher where the ad was clicked or the specific advertisement:
 
-* `${publisher}` is used to insert the name of the publisher
-* `${advertisement}` is used to insert the name of the ad that was served
+* `${publisher_slug}` is used to insert the slug of the publisher
+* `${publisher_name}` is used to insert the name of the publisher
+* `${advertisement_slug}` is used to insert the name of the ad that was served
+* `${advertisement_name}` is used to insert the name of the ad that was served
+
+The `slug` variable is useful because it doesn't change when the name of the publisher or ad changes.
+It's a lowercase representation of the name with spaces replaced by hyphens, generated when the publisher or ad is created.
 
 For example, using the landing page link below would let you measure EthicalAds as a whole
 as well as different publishers and specific ad creatives:
 
-    https://example.com?utm_medium=cpc&utm_source=ethicalads&utm_campaign=${advertisement}&utm_content=${publisher}
+    https://example.com?utm_medium=cpc&utm_source=ethicalads&utm_campaign=${advertisement_slug}&utm_content=${publisher_slug}
 
 Our advertiser platform will measure all performance metrics before a user clicks-through
 to your landing page like the number of impressions and click-through rate (CTR) your ads receive.
