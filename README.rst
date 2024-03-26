@@ -36,7 +36,7 @@ if files under ``static-src/`` are modified.
 
 .. code-block:: bash
 
-    $ npm install
+    $ npm clean-install
     $ npm run build     # use "npm run dist" for minified builds
 
 The static content appears in ``ethicalads-theme/static/``
