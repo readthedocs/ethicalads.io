@@ -26,7 +26,7 @@ SUMMARY_MAX_LENGTH = 20  # Words
 # Add non-default markdown extensions
 MARKDOWN = {
     "extension_configs": {
-        "markdown.extensions.codehilite": {"css_class": "highlight"},
+        "markdown.extensions.codehilite": {"css_class": "codehilite"},
         "markdown.extensions.extra": {},
         "markdown.extensions.meta": {},
         # This adds id's to each header. Currently only shows items with `##` & `###` header.
