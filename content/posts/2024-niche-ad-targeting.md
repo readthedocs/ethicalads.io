@@ -31,52 +31,51 @@ but this was perfect for our initial tests.
 A simple example of what this looks like might be:
 
 ```python
-    # Generate embeddings for a page
-    import requests
-    from bs4 import BeautifulSoup
-    from sentence_transformers import SentenceTransformer
+# Generate embeddings for a page
+import requests
+from bs4 import BeautifulSoup
+from sentence_transformers import SentenceTransformer
 
-    model = SentenceTransformer(MODEL_NAME, cache_folder=CACHE_FOLDER)
-    text = BeautifulSoup(requests.get(url), 'html.parser').get_text()
-    embedding = model.encode(text)
-    return embedding.tolist()
-
+model = SentenceTransformer(MODEL_NAME, cache_folder=CACHE_FOLDER)
+text = BeautifulSoup(requests.get(url), 'html.parser').get_text()
+embedding = model.encode(text)
+return embedding.tolist()
 ```
 
 We're then using [pgvector](https://github.com/pgvector/pgvector) and [pgvector-python](https://github.com/pgvector/pgvector-python) to manage these embeddings in Django & Postgres,
 which is what we're already using in production.
 
 ```python
-    from django.db import models
-    from pgvector.django import VectorField
+from django.db import models
+from pgvector.django import VectorField
 
-    # Store the content in Postgres/Django
-    
-    class Embedding(models.Model):
+# Store the content in Postgres/Django
 
-    # FK where we keep metadata about the URL
-    analyzed_url = models.ForeignKey(
-        AnalyzedUrl,
-        on_delete=models.CASCADE,
-        related_name="embeddings",
-    )
+class Embedding(models.Model):
 
-    # Model name so we can use different models in the future
-    model = models.CharField(max_length=255, default=None, null=True, blank=True)
+# FK where we keep metadata about the URL
+analyzed_url = models.ForeignKey(
+    AnalyzedUrl,
+    on_delete=models.CASCADE,
+    related_name="embeddings",
+)
 
-    # The actual embedding
-    vector = VectorField(dimensions=384, default=None, null=True, blank=True)
+# Model name so we can use different models in the future
+model = models.CharField(max_length=255, default=None, null=True, blank=True)
+
+# The actual embedding
+vector = VectorField(dimensions=384, default=None, null=True, blank=True)
 ```
 
 Then we're able to query the database for the most similar pages to a given ad:
 
 ```python
-    from pgvector.django import CosineDistance
-    from .models import Embedding
+from pgvector.django import CosineDistance
+from .models import Embedding
 
-    Embedding.objects.exclude(vector=None)
-    .annotate(distance=CosineDistance("vector", embedding))
-    .order_by("distance")
+Embedding.objects.exclude(vector=None)
+.annotate(distance=CosineDistance("vector", embedding))
+.order_by("distance")
 ```
 
 ## Try out a demo
@@ -84,7 +83,7 @@ Then we're able to query the database for the most similar pages to a given ad:
 Here you can see a screenshot of our niche targeting page in action at the top of this page.
 This is a simple proof of concept,
 but you can see how we're able to target ads specifically focusing on MongoDB and Databases,
-when serving a MongoDB ad. 
+when serving a MongoDB ad.
 
 You can [try out our Niche Targeting demo](https://www.ethicalads.io/advertisers/similar-pages/?url=https%3A%2F%2Fwww.mongodb.com%2Fatlas),
 and let us know how it goes!
@@ -110,7 +109,7 @@ This approach is still in its early stages, but we're excited about the potentia
 The better we can get at ethical ad targeting,
 everyone in our network benefits:
 
-* **Advertisers** get better ad targeting, ensuring they show up in front of the right users. 
+* **Advertisers** get better ad targeting, ensuring they show up in front of the right users.
 * **Publishers** get more money while showing a single, minimalist ad.
 * **Users** get a better experience, with fewer ads that are more relevant to them.
 
