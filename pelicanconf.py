@@ -55,7 +55,7 @@ DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
 MENUITEMS = [
     ("Blog", "/blog/"),
-    ("Learning Hub", "/learning-hub/"),
+    ("Pricing", "/advertisers/pricing/"),
     ("Advertisers", "/advertisers/"),
     ("Publishers", "/publishers/"),
 ]
