@@ -3,8 +3,7 @@ Date: Apr 2, 2024
 description: How we build better contextual ad targeting using embeddings.
 tags: content-targeting, engineering
 authors: Eric Holscher
-
-## Introduction
+image: /images/posts/niche-targeting.png
 
 This is an update to our original post on [content-based ad targeting](https://www.ethicalads.io/blog/2022/11/a-new-approach-to-content-based-targeting-for-advertising/).
 In this post, I'll talk a bit more about our next step, using AI (embeddings specifically) to build better contextual ad targeting.
@@ -80,19 +79,15 @@ Then we're able to query the database for the most similar pages to a given ad:
     .order_by("distance")
 ```
 
-## A quick demo
+## Try out a demo
 
-Here you can see a screenshot of our niche targeting page in action:
-
-<div class="postimage text-center">
-  <img class="w-100 shadow-lg" src="{static}../images/posts/niche-targeting.png" alt="Niche Targeting Demo">
-</div>
-
+Here you can see a screenshot of our niche targeting page in action at the top of this page.
 This is a simple proof of concept,
 but you can see how we're able to target ads specifically focusing on MongoDB and Databases,
 when serving a MongoDB ad. 
 
-You can [try out Niche Targeting demo](https://www.ethicalads.io/advertisers/similar-pages/?url=https%3A%2F%2Fwww.mongodb.com%2Fatlas).
+You can [try out our Niche Targeting demo](https://www.ethicalads.io/advertisers/similar-pages/?url=https%3A%2F%2Fwww.mongodb.com%2Fatlas),
+and let us know how it goes!
 
 ## Advantages of Niche Targeting
 
