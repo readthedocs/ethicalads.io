@@ -1,6 +1,6 @@
 Title: Why Some Sites Show More Ads Than Content
 Date: April 9, 2024
-description: In this post we'll share some examples of cookieless advertising working well, and show how it can work for you too.
+description: Why do some ad-supported sites build a great experience while others overwhelm users with ads? Who the site is optimized for and whether it's maximizing short-term or long-term revenue are the big factors.
 tags: publishers
 authors: David Fischer
 image: /images/posts/2024-more-ads-than-content.jpg
