@@ -1,0 +1,242 @@
+{% extends "page.html" %}
+
+
+{% block content %}
+
+<section class="position-relative mt-5 mb-10">
+
+  <!-- Content -->
+  <div class="container">
+    <div class="row align-items-center text-center text-md-left">
+      <div class="col-12 col-md-6">
+
+        <!-- Image -->
+        <img src="/theme/img/advertiser-dashboard-in-laptop.png" alt="..." class="img-fluid mw-100 float-right mb-6 mb-md-0" data-aos="fade-right">
+
+      </div>
+      <div class="col-12 col-md-6">
+
+        <!-- Heading -->
+        <h1 class="display-3 font-weight-light" data-aos="fade-left">Fair and upfront pricing for your campaign</h1>
+
+        <!-- Text -->
+        <p class="font-size-lg" data-aos="fade-left" data-aos-delay="200">Our ad pricing is completely transparent, simple to understand, and not hidden behind a lead gate</p>
+
+      </div>
+    </div> <!-- / .row -->
+  </div> <!-- / .container -->
+
+</section>
+
+
+<!-- Pricing -->
+<!-- ================================================== -->
+{% include 'ea/includes/packages.html' %}
+
+
+<section class="container py-5" id="icons">
+<!-- Social proof -- Company icons only -->
+<!-- ================================================== -->
+{% include 'ea/includes/advertiser-icons.html' %}
+</section>
+
+
+<section class="container py-5">
+  <div class="text-center mb-8">
+
+    <h2 class="font-weight-bold mb-2">Example campaigns</h2>
+
+    <p class="lead">These example campaigns will give illustrate the prices and what you can expect.</p>
+
+  </div>
+
+  <div class="row justify-content-md-center">
+    <div class="col-12 col-md-4">
+
+      <!-- Card -->
+      <div class="card shadow-lg mb-6 mb-md-0">
+        <div class="card-body">
+
+          <!-- Preheading -->
+          <div class="text-center mb-3">
+            <span class="badge badge-pill badge-primary-soft">
+              <span class="h6 text-uppercase">North America Campaign</span>
+            </span>
+          </div>
+
+          <!-- Price -->
+          <div class="d-flex justify-content-center mb-5">
+            <span class="h2 mb-0 mt-2">$</span>
+            <span class="price display-2 mb-0">1,330</span>
+          </div>
+
+          <!-- List -->
+          <div class="d-flex">
+
+            <!-- Badge -->
+            <div class="badge badge-rounded-circle mt-1 mr-4">
+              <i class="fe fe-users"></i>
+            </div>
+
+            <p> 280k impressions</p>
+
+          </div>
+          <div class="d-flex">
+
+            <!-- Badge -->
+            <div class="badge badge-rounded-circle mt-1 mr-4">
+              <i class="fe fe-globe"></i>
+            </div>
+
+            <p><span class="sr-only">Geo targeting</span> US &amp; Canada</p>
+
+          </div>
+          <div class="d-flex">
+
+            <!-- Badge -->
+            <div class="badge badge-rounded-circle mt-1 mr-4">
+              <i class="fe fe-code"></i>
+            </div>
+
+            <p><span class="sr-only">Topic targeting</span> All developers</p>
+
+          </div>
+          <div class="d-flex">
+
+            <!-- Badge -->
+            <div class="badge badge-rounded-circle mt-1 mr-4">
+              <i class="fe fe-zap"></i>
+            </div>
+
+            <p><span class="sr-only">Rate</span> $4.75 CPM</p>
+
+          </div>
+          <div class="d-flex">
+
+            <!-- Badge -->
+            <div class="badge badge-rounded-circle mt-1 mr-4">
+              <i class="fe fe-user-check"></i>
+            </div>
+
+            <p>Est. <a href="/advertisers/calculator/?budget=1330&region=eng&topic=all-developers">~336 clickthroughs</a></p>
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+    <div class="col-12 col-md-4">
+
+      <!-- Card -->
+      <div class="card shadow-lg mb-6 mb-md-0">
+        <div class="card-body">
+
+          <!-- Preheading -->
+          <div class="text-center mb-3">
+            <span class="badge badge-pill badge-primary-soft">
+              <span class="h6 text-uppercase">Data Scientist Campaign</span>
+            </span>
+          </div>
+
+          <!-- Price -->
+          <div class="d-flex justify-content-center mb-5">
+            <span class="h2 mb-0 mt-2">$</span>
+            <span class="price display-2 mb-0">4,500</span>
+          </div>
+
+          <!-- List -->
+          <div class="d-flex">
+
+            <!-- Badge -->
+            <div class="badge badge-rounded-circle mt-1 mr-4">
+              <i class="fe fe-users"></i>
+            </div>
+
+            <p> 1,000k impressions</p>
+
+          </div>
+          <div class="d-flex">
+
+            <!-- Badge -->
+            <div class="badge badge-rounded-circle mt-1 mr-4">
+              <i class="fe fe-globe"></i>
+            </div>
+
+            <p><span class="sr-only">Geo targeting</span> North America, W. Europe, Australia, New Zealand</p>
+
+          </div>
+          <div class="d-flex">
+
+            <!-- Badge -->
+            <div class="badge badge-rounded-circle mt-1 mr-4">
+              <i class="fe fe-code"></i>
+            </div>
+
+            <p><span class="sr-only">Topic targeting</span> Data scientists</p>
+
+          </div>
+          <div class="d-flex">
+
+            <!-- Badge -->
+            <div class="badge badge-rounded-circle mt-1 mr-4">
+              <i class="fe fe-zap"></i>
+            </div>
+
+            <p><span class="sr-only">Rate</span> $4.50 CPM<br> <span class="small">(10% discount for $3k+)</span></p>
+
+          </div>
+          <div class="d-flex">
+
+            <!-- Badge -->
+            <div class="badge badge-rounded-circle mt-1 mr-4">
+              <i class="fe fe-user-check"></i>
+            </div>
+
+            <p>Est. <a href="/advertisers/calculator/?budget=4500&region=blend&topic=datascience">~1,200 clickthroughs</a></p>
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div><!-- / row -->
+
+  <p class="mt-6 text-center">
+    Price your exact campaign with the <a href="/advertisers/calculator/">campaign calculator</a>.
+  </p>
+</section>
+
+
+<!-- Mini-FAQ -->
+<!-- ================================================== -->
+<section class="py-10">
+  <div class="container">
+    <div class="text-center">
+
+      <!-- Badge -->
+      <span class="badge badge-pill badge-primary-desat-soft mb-3">
+        <span class="h6 text-uppercase">FAQ</span>
+      </span>
+
+      <h2 class="font-weight-bold mb-8">Frequently asked pricing questions</h2>
+
+    </div>
+    <div class="row mb-5">
+      <div class="col-12 col-md-6 mb-3">
+        <h4 class="font-weight-bold" id="prices-vary">How do prices vary?</h4>
+        <p>Depending on the <a href="/advertisers/#audiences">audiences</a> and geography of the developers you're trying to reach, the prices can vary although we try to be as upfront as possible. We also make small updates to our prices quarterly to balance demand.</p>
+      </div>
+      <div class="col-md-6">
+        <h4 class="font-weight-bold" id="prices-monthly">Are the prices monthly? Quarterly?</h4>
+        <p>It is possible to setup a campaign to recur monthly or quarterly but all pricing is per impression. You will receive an invoice for your campaign (or you can be billed monthly for longer campaigns) and the per impression price will not change over your campaign.</p>
+      </div>
+    </div>
+    <p class="mt-6 text-center">
+      Have more questions? Our <a href="/advertisers/faq/">Advertiser FAQ</a> has more answers!
+    </p>
+  </div>
+</section>
+
+{% endblock content %}
