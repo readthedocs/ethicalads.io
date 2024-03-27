@@ -52,19 +52,18 @@ from pgvector.django import VectorField
 # Store the content in Postgres/Django
 
 class Embedding(models.Model):
+    # FK where we keep metadata about the URL
+    analyzed_url = models.ForeignKey(
+        AnalyzedUrl,
+        on_delete=models.CASCADE,
+        related_name="embeddings",
+    )
 
-# FK where we keep metadata about the URL
-analyzed_url = models.ForeignKey(
-    AnalyzedUrl,
-    on_delete=models.CASCADE,
-    related_name="embeddings",
-)
+    # Model name so we can use different models in the future
+    model = models.CharField(max_length=255, default=None, null=True, blank=True)
 
-# Model name so we can use different models in the future
-model = models.CharField(max_length=255, default=None, null=True, blank=True)
-
-# The actual embedding
-vector = VectorField(dimensions=384, default=None, null=True, blank=True)
+    # The actual embedding
+    vector = VectorField(dimensions=384, default=None, null=True, blank=True)
 ```
 
 Then we're able to query the database for the most similar pages to a given ad:
