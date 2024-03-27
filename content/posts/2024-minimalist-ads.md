@@ -35,7 +35,7 @@ The site and content were good but in their application they wrote:
 
 <blockquote class="blockquote mb-2">
   <p class="mb-2">
-    “I have been trying to transition away from the large video and image ads as they slow down my website. I'm hoping EthicalAds will not only be lightweight, but also not compromise current earnings of ~ $4 to $8 CPM.”
+    “I have been trying to transition away from large video and image ads as they slow down my website. I'm hoping EthicalAds will not only be lightweight, but also not compromise current earnings of ~ $4 to $8 CPM.”
   </p>
   <p class="small">- A recent Linux-focused publisher prospect</p>
 </blockquote>
