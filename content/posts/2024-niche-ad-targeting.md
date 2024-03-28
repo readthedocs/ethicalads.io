@@ -1,6 +1,6 @@
 Title: Niche Targeting: Using AI to build better contextual ad targeting
 Date: Apr 2, 2024
-description: How we build better contextual ad targeting using embeddings.
+description: How we build better contextual ad targeting using PostgreSQL, Django, and embeddings which are a way to encode the "relatedness" of text and pages for use in machine learning.
 tags: content-targeting, engineering
 authors: Eric Holscher
 image: /images/posts/niche-targeting.png
