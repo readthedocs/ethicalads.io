@@ -6,7 +6,7 @@ authors: Eric Holscher
 image: /images/posts/niche-targeting.png
 
 This is an update to our original post on [content-based ad targeting](https://www.ethicalads.io/blog/2022/11/a-new-approach-to-content-based-targeting-for-advertising/).
-In this post, I'll talk a bit more about our next step, using AI (embeddings specifically) to build better contextual ad targeting.
+In this post, I'll talk a bit more about our next step, using machine learning (embeddings specifically) to build better contextual ad targeting.
 
 At the end of our last post,
 we were able to bucket pages into _Topics_ based on page content.
