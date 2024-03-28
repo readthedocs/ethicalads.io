@@ -39,7 +39,7 @@ from sentence_transformers import SentenceTransformer
 model = SentenceTransformer(MODEL_NAME, cache_folder=CACHE_FOLDER)
 text = BeautifulSoup(requests.get(url), 'html.parser').get_text()
 embedding = model.encode(text)
-return embedding.tolist()
+print(embedding.tolist())
 ```
 
 We're then using [pgvector](https://github.com/pgvector/pgvector) and [pgvector-python](https://github.com/pgvector/pgvector-python) to manage these embeddings in Django & Postgres,
