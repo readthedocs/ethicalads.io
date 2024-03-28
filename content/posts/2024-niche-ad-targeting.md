@@ -115,7 +115,5 @@ everyone in our network benefits:
 This is our vision for advertising,
 and we're excited about the potential of this approach.
 
-## Resources
-
 Thanks so much to Simon Willison for his [blog post on embeddings](https://simonwillison.net/2023/Oct/23/embeddings/),
 which is what inspired me to try this approach.
