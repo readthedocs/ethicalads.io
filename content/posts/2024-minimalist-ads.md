@@ -22,7 +22,7 @@ while others show as many obtrusive ads as possible.
 On the surface, why some sites have a barrage of bad ads is obvious.
 More ads, larger ads, and particularly video ads make more money for site owners.
 Advertisers are willing to pay more for ad placements that have greater visibility.
-This translates into a tempting proposition for site owners seeking to maximize their earnings but comes at a cost.
+This translates into a tempting proposition for site owners seeking to maximize their earnings, but comes at a cost.
 
 These higher revenue ads often come at the expense of user experience.
 Overloading pages with ads, especially intrusive formats like autoplay videos, leads to users being frustrated.
