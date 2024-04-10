@@ -19,7 +19,7 @@ image_credit: <span>Photo by <a href="https://unsplash.com/@datingscout?utm_cont
   [machine learning based niche targeting]({filename}../posts/2022-content-based-targeting.md).
   These changes will let us target a lot of smaller audiences that were previously too hard or too small to target.
   We're going to do a bigger launch with blogs and social media explaining this change in April,
-  but you can see a technology demo where we show the ability to find similar pages to an advertiser's product or landing page [here]({filename}../pages/similar-pages.md).
+  but you can see a technology demo where we show the ability to find similar pages to an advertiser's product or landing page [here]({filename}../pages/similar-pages.md?url=https%3A%2F%2Fwww.mongodb.com%2Fatlas).
 
 
 You can always see our latest server updates in our
