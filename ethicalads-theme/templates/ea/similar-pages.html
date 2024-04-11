@@ -1,11 +1,12 @@
 {% extends "page.html" %}
 
+
 {% block content %}
 <section class="container py-5 mb-10">
   <article class="page">
     <h1 class="font-weight-light display-3">{{ page.title }}</h1>
 
-    <p>Try our machine-learning powered, automatic campaign targeting: Automatically target your campaign to the most-relevant pages across our advertising network based on your landing and product pages.</p>
+    <p>Try our machine-learning powered contextual targeting: Find and automatically target your campaign to the most-relevant pages across our advertising network based on your landing and product pages.</p>
 
     <form name="similar-pages" id="similar-pages" data-bind="submit: getSimilarPages">
       <div class="form-row">
@@ -105,8 +106,9 @@
         </div>
 
         <!-- CTA -->
-        <div class="my-10 text-center">
-          <a href="/advertisers/#inbound-form" class="btn btn-primary">Start your auto-targeted campaign</a>
+        <p class="mt-10 lead text-center">Want to run your next ad campaign across highly-relevant sites like these?</p>
+        <div class="my-5 text-center">
+          <a href="/advertisers/#inbound-form" class="btn btn-primary">Start your campaign today!</a>
         </div>
       </div>
 
