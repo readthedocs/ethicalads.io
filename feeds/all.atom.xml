@@ -1,5 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/all.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2024-03-05T00:00:00-08:00</updated><entry><title>EthicalAds Newsletter - March 2024</title><link href="https://www.ethicalads.io/blog/2024/03/ethicalads-newsletter-march-2024/" rel="alternate"></link><published>2024-03-05T00:00:00-08:00</published><updated>2024-03-05T00:00:00-08:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2024-03-05:/blog/2024/03/ethicalads-newsletter-march-2024/</id><summary type="html">&lt;p&gt;There's a small change from past newsletters for this month.
+<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/all.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2024-04-11T00:00:00-07:00</updated><entry><title>EthicalAds Newsletter - April 2024</title><link href="https://www.ethicalads.io/blog/2024/04/ethicalads-newsletter-april-2024/" rel="alternate"></link><published>2024-04-11T00:00:00-07:00</published><updated>2024-04-11T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2024-04-11:/blog/2024/04/ethicalads-newsletter-april-2024/</id><summary type="html">&lt;h2 id="new-features-from-march"&gt;New features from March&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;We shipped an updated version of our &lt;a href="https://www.ethicalads.io/publisher-guide/"&gt;publisher guide&lt;/a&gt;
+  with simplified graphics and explainers about what …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h2 id="new-features-from-march"&gt;New features from March&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;We shipped an updated version of our &lt;a href="https://www.ethicalads.io/publisher-guide/"&gt;publisher guide&lt;/a&gt;
+  with simplified graphics and explainers about what we expect from publishers
+  and how they can get the most out of EthicalAds.&lt;/li&gt;
+&lt;li&gt;We released a new &lt;a href="https://www.ethicalads.io/advertisers/pricing/"&gt;advertiser pricing page&lt;/a&gt;.
+  While our pricing was always upfront, we think having a dedicated pricing page
+  in our core navigation will help us set the tone for how we're upfront and transparent with advertisers.&lt;/li&gt;
+&lt;li&gt;We're continuing to make progress on our
+  &lt;a href="https://www.ethicalads.io/blog/2022/11/a-new-approach-to-content-based-targeting-for-advertising/"&gt;machine learning based niche targeting&lt;/a&gt;.
+  These changes will let us target a lot of smaller audiences that were previously too hard or too small to target.
+  We're going to do a bigger launch with blogs and social media explaining this change in April,
+  but you can see a technology demo where we show the ability to find similar pages to an advertiser's product or landing page &lt;a href="https://www.ethicalads.io/advertisers/similar-pages/?url=https%3A%2F%2Fwww.mongodb.com%2Fatlas"&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can always see our latest server updates in our
+&lt;a href="https://ethical-ad-server.readthedocs.io/en/latest/developer/changelog.html"&gt;ethical-ad-server changelog&lt;/a&gt;
+and &lt;a href="https://ethical-ad-client.readthedocs.io/en/latest/changelog.html"&gt;ethical-ad-client changelog&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="march-advertising-stats"&gt;March advertising stats&lt;/h2&gt;
+&lt;p&gt;In March 2024:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We generated &lt;strong&gt;$44,375.69&lt;/strong&gt; for our publishers.&lt;/li&gt;
+&lt;li&gt;We had &lt;strong&gt;177 publishers&lt;/strong&gt; on our network with at least one paid ad impression.&lt;/li&gt;
+&lt;li&gt;We had &lt;strong&gt;17,592,121&lt;/strong&gt; paid ad views across the world.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;March was a very strong month but we're seeing a little softness in early April.
+Some of this may be seasonality but we're seeing some established advertisers
+pulling back in April.&lt;/p&gt;
+&lt;h2 id="upcoming-features"&gt;Upcoming features&lt;/h2&gt;
+&lt;p&gt;The major features in our upcoming roadmap for April:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;As I highlighted above, we're aiming for a bigger launch for our niche targeting features
+  including blog posts and working them into our actual ad serving algorithms.&lt;/li&gt;
+&lt;li&gt;We are continuing to work on some UX improvements for advertisers
+  including better ways to compare campaigns with different prices and CTR on an eCPC basis.&lt;/li&gt;
+&lt;li&gt;We aim to release an improvement to our ad rotation features we were working on a few months back.
+  Specifically, we are going to try rotating an ad when somebody backgrounds a tab and returns
+  to it after a certain amount of time. This kind of change requires some trial and error
+  and testing to make sure performance stays as good or gets better,
+  but we're excited to keep iterating on ad rotation to make our network better for publishers.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thanks again for being along with us on this journey to build an ethical ad network.
+Please &lt;a href="https://www.ethicalads.io/contact/"&gt;let us know&lt;/a&gt; if you have any ideas or feedback on our product or roadmap,
+we always love to hear from you.&lt;/p&gt;</content><category term="posts"></category><category term="newsletter"></category><category term="community"></category><category term="build-in-public"></category></entry><entry><title>EthicalAds Newsletter - March 2024</title><link href="https://www.ethicalads.io/blog/2024/03/ethicalads-newsletter-march-2024/" rel="alternate"></link><published>2024-03-05T00:00:00-08:00</published><updated>2024-03-05T00:00:00-08:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2024-03-05:/blog/2024/03/ethicalads-newsletter-march-2024/</id><summary type="html">&lt;p&gt;There's a small change from past newsletters for this month.
 Rather than publishing a February newsletter in early March,
 we're …&lt;/p&gt;</summary><content type="html">&lt;p&gt;There's a small change from past newsletters for this month.
 Rather than publishing a February newsletter in early March,
