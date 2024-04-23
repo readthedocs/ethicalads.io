@@ -4,18 +4,18 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 <meta name="generator" content="Pelican" />
-<meta property="og:site_name" content="EthicalAds"/><meta name="description" content="Content-based targeting allows us to provide great ad targeting without the privacy downsides of user-based tracking" />
-    <meta property="og:description" content="Content-based targeting allows us to provide great ad targeting without the privacy downsides of user-based tracking" /><meta name="tags" content="content-targeting" /><meta name="tags" content="advertisers" /><meta name="author" content="Eric Holscher" /><meta property="og:type" content="article">
-  <meta property="og:title" content="A new approach to content-based targeting for advertising" />
-  <meta property="twitter:title" content="A new approach to content-based targeting for advertising" /><meta property="og:image" content="https://www.ethicalads.io/images/posts/2022-bullseye.jpg" />
-    <meta property="twitter:image" content="https://www.ethicalads.io/images/posts/2022-bullseye.jpg" /><meta property="article:published_time" content="2022-11-07" />
+<meta property="og:site_name" content="EthicalAds"/><meta name="description" content="How we built better contextual ad targeting using PostgreSQL, Django, and embeddings which are a way to encode the &#34;relatedness&#34; of text and pages for use in machine learning." />
+    <meta property="og:description" content="How we built better contextual ad targeting using PostgreSQL, Django, and embeddings which are a way to encode the &#34;relatedness&#34; of text and pages for use in machine learning." /><meta name="tags" content="content-targeting" /><meta name="tags" content="engineering" /><meta name="author" content="Eric Holscher" /><meta property="og:type" content="article">
+  <meta property="og:title" content="Using embeddings in production with Postgres &amp; Django for niche ad targeting" />
+  <meta property="twitter:title" content="Using embeddings in production with Postgres &amp; Django for niche ad targeting" /><meta property="og:image" content="https://www.ethicalads.io/images/posts/niche-targeting.png" />
+    <meta property="twitter:image" content="https://www.ethicalads.io/images/posts/niche-targeting.png" /><meta property="article:published_time" content="2024-04-23" />
       <!-- Bootstrap CSS -->
       <link rel="stylesheet" href="/theme/dist/main.css">
 
-      <title>A new approach to content-based targeting for advertising - EthicalAds</title>
+      <title>Using embeddings in production with Postgres & Django for niche ad targeting - EthicalAds</title>
 
-  <link rel="canonical" href="https://www.ethicalads.io/blog/2022/11/a-new-approach-to-content-based-targeting-for-advertising/" />
-  <meta property="og:url" content="https://www.ethicalads.io/blog/2022/11/a-new-approach-to-content-based-targeting-for-advertising/" />
+  <link rel="canonical" href="https://www.ethicalads.io/blog/2024/04/using-embeddings-in-production-with-postgres-django-for-niche-ad-targeting/" />
+  <meta property="og:url" content="https://www.ethicalads.io/blog/2024/04/using-embeddings-in-production-with-postgres-django-for-niche-ad-targeting/" />
 
       <!-- Feeds -->
         <link href="https://www.ethicalads.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="EthicalAds Full Atom Feed" />
@@ -95,7 +95,7 @@
   <div class="row justify-content-center">
     <div class="col-12 col-md-10 col-lg-9 col-xl-8">
       <!-- Heading -->
-      <h1 class="display-4">A new approach to content-based targeting for advertising</h1>
+      <h1 class="display-4">Using embeddings in production with Postgres & Django for niche ad targeting</h1>
 
       <!-- Meta -->
       <div class="row align-items-center py-5 border-top border-bottom">
@@ -107,7 +107,7 @@
 
             <!-- Date -->
             <div class="flex-fill h6 text-uppercase text-muted mb-0 ml-auto text-right">
-              <time class="text-nowrap" datetime="2022-11-07T00:00:00-08:00">Nov 7, 2022</time>
+              <time class="text-nowrap" datetime="2024-04-23T00:00:00-07:00">Apr 23, 2024</time>
             </div>
           </div>
         </div>
@@ -118,82 +118,112 @@
         <figure class="figure mb-7">
 
           <!-- Image -->
-          <img class="figure-img img-fluid rounded" src="/images/posts/2022-bullseye.jpg" alt="A new approach to content-based targeting for advertising">
+          <img class="figure-img img-fluid rounded" src="/images/posts/niche-targeting.png" alt="Using embeddings in production with Postgres & Django for niche ad targeting">
 
           <!-- Caption -->
-        <figcaption class="figure-caption text-center"><small><span>Photo by <a href="https://unsplash.com/@silvanarnet?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Silvan Arnet</a> on <a href="https://unsplash.com/s/photos/bullseye?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span></small></figcaption>
 
         </figure>
 
       <div>
-        <p>In the past few years,
-advancements in machine learning have made a new era of content-based ad targeting possible.
-Computers are now stunningly good at learning how to categorize documents,
-which allows us to automate and scale content-based targeting to our entire network.</p>
-<p>This post will cover how our content-based targeting works at a high level,
-and the implications for the future growth of our business.
-Building great privacy-first ad targeting helps the industry move past the era of invasive user tracking.</p>
-<h3 id="the-problem-grouping-targeting">The problem: grouping &amp; targeting</h3>
-<p>Building an ad network requires us to serve ads across a number of different sites with differing content.
-Many of these sites have content that focuses on a number of different topics.
-You can imagine a blog with both Python and Kubernetes content,
-and the audience for each of those posts is different.
-<strong>Each page of content that we serve should have targeting based on what it's about.</strong></p>
-<p>The other major problem is trying to find ways to bundle content together,
-so that advertisers can buy a large amount of it.
-If we can only offer $100 a month of a very specific audience,
-that doesn't scale very effectively.
-<strong>We need a way to easily bundle content into high-level topics.</strong></p>
-<h3 id="our-original-approach-using-naive-tags">Our original approach: using naive tags</h3>
-<p>Our first approach to solving this problem was based on tagging.
-Many publishers manually added tags to their content,
-and we allowed them to pass these to us in our ad client.
-Our ad client also created tags based on related words appearing multiple times on a page.
-Then we grouped a set of keywords together to make topics,
-so for example our <em>Data Science</em> topic was made of <code>nlp</code>, <code>jupyter</code>, <code>pytorch</code>, <code>tensorflow</code>, and similar keywords.</p>
-<p>This approach allowed us to build out our initial product,
-and have reasonably good targeting.
-It had a few drawbacks though:</p>
+        <p>This is an update to our original post on <a href="https://www.ethicalads.io/blog/2022/11/a-new-approach-to-content-based-targeting-for-advertising/">content-based ad targeting</a>.
+In this post, I'll talk a bit more about our next step, using machine learning (embeddings specifically) to build better contextual ad targeting.</p>
+<p>At the end of our last post,
+we were crawling all our publisher's pages,
+and categorizing pages into <em>Topics</em> based on page text.
+We did this by training a model with ~100 examples of each topic,
+and then storing the topics in our database for fast ad serving.</p>
+<p>This gave us a good starting point for targeting ads by topic,
+but we wanted to get more granular.</p>
+<h2 id="targeting-each-page-individually-with-embeddings">Targeting each page individually with embeddings</h2>
+<p>Our new approach is to use <a href="https://en.wikipedia.org/wiki/Word_embedding">word embeddings</a> to represent both the advertisers landing page and the publisher pages.
+This allows us to generate a representation of these pages,
+which can be compared against each other.</p>
+<p>We're currently using Python's <a href="https://www.sbert.net/">SentenceTransformers</a> library to generate these embeddings.
+We will likely upgrade to a more advanced model in the future,
+but this was perfect for our initial tests.</p>
+<h3 id="generating-storing-and-querying-embeddings">Generating, storing, and querying embeddings</h3>
+<p>A simple example of what this looks like might be:</p>
+<div class="codehilite"><pre><span></span><span class="kn">import</span> <span class="nn">requests</span>
+<span class="kn">from</span> <span class="nn">bs4</span> <span class="kn">import</span> <span class="n">BeautifulSoup</span>
+<span class="kn">from</span> <span class="nn">sentence_transformers</span> <span class="kn">import</span> <span class="n">SentenceTransformer</span>
+
+<span class="c1"># Generate embeddings for a page</span>
+
+<span class="n">model</span> <span class="o">=</span> <span class="n">SentenceTransformer</span><span class="p">(</span><span class="n">MODEL_NAME</span><span class="p">,</span> <span class="n">cache_folder</span><span class="o">=</span><span class="n">CACHE_FOLDER</span><span class="p">)</span>
+<span class="n">text</span> <span class="o">=</span> <span class="n">BeautifulSoup</span><span class="p">(</span><span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">url</span><span class="p">),</span> <span class="s1">&#39;html.parser&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">get_text</span><span class="p">()</span>
+<span class="n">embedding</span> <span class="o">=</span> <span class="n">model</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="n">text</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">embedding</span><span class="o">.</span><span class="n">tolist</span><span class="p">())</span>
+</pre></div>
+
+
+<p>We're then using <a href="https://github.com/pgvector/pgvector">pgvector</a> and <a href="https://github.com/pgvector/pgvector-python">pgvector-python</a> to manage these embeddings in Django &amp; Postgres,
+which is what we're already using in production.</p>
+<div class="codehilite"><pre><span></span><span class="kn">from</span> <span class="nn">django.db</span> <span class="kn">import</span> <span class="n">models</span>
+<span class="kn">from</span> <span class="nn">pgvector.django</span> <span class="kn">import</span> <span class="n">VectorField</span>
+
+<span class="c1"># Store the content in Postgres/Django</span>
+
+<span class="k">class</span> <span class="nc">Embedding</span><span class="p">(</span><span class="n">models</span><span class="o">.</span><span class="n">Model</span><span class="p">):</span>
+    <span class="c1"># FK where we keep metadata about the URL</span>
+    <span class="n">analyzed_url</span> <span class="o">=</span> <span class="n">models</span><span class="o">.</span><span class="n">ForeignKey</span><span class="p">(</span>
+        <span class="n">AnalyzedUrl</span><span class="p">,</span>
+        <span class="n">on_delete</span><span class="o">=</span><span class="n">models</span><span class="o">.</span><span class="n">CASCADE</span><span class="p">,</span>
+        <span class="n">related_name</span><span class="o">=</span><span class="s2">&quot;embeddings&quot;</span><span class="p">,</span>
+    <span class="p">)</span>
+
+    <span class="c1"># Model name so we can use different models in the future</span>
+    <span class="n">model</span> <span class="o">=</span> <span class="n">models</span><span class="o">.</span><span class="n">CharField</span><span class="p">(</span><span class="n">max_length</span><span class="o">=</span><span class="mi">255</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">null</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">blank</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+    <span class="c1"># The actual embedding</span>
+    <span class="n">vector</span> <span class="o">=</span> <span class="n">VectorField</span><span class="p">(</span><span class="n">dimensions</span><span class="o">=</span><span class="mi">384</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">null</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">blank</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</pre></div>
+
+
+<p>Then we're able to query the database for the most similar publisher pages to an advertiser's landing page:</p>
+<div class="codehilite"><pre><span></span><span class="kn">from</span> <span class="nn">pgvector.django</span> <span class="kn">import</span> <span class="n">CosineDistance</span>
+<span class="kn">from</span> <span class="nn">.models</span> <span class="kn">import</span> <span class="n">Embedding</span>
+
+<span class="c1"># Find the most similar ads for the page we&#39;re serving an ad on</span>
+
+<span class="n">Embedding</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">annotate</span><span class="p">(</span>
+    <span class="n">distance</span><span class="o">=</span><span class="n">CosineDistance</span><span class="p">(</span><span class="s2">&quot;vector&quot;</span><span class="p">,</span> <span class="n">embedding</span><span class="p">)</span>
+<span class="p">)</span><span class="o">.</span><span class="n">order_by</span><span class="p">(</span><span class="s2">&quot;distance&quot;</span><span class="p">)</span>
+</pre></div>
+
+
+<h2 id="try-out-a-demo">Try out a demo</h2>
+<p>You can see a screenshot of our niche targeting in action at the top of this page.
+This is a simple proof of concept,
+but you can see how we're able to target ads specifically focusing on MongoDB and Databases,
+when serving a MongoDB ad.</p>
+<p>You can <a href="https://www.ethicalads.io/advertisers/similar-pages/?url=https%3A%2F%2Fwww.mongodb.com%2Fatlas">try out our Niche Targeting Demo</a>,
+and let us know how it goes!</p>
+<h2 id="advantages-of-niche-targeting">Advantages of Niche Targeting</h2>
+<p>There is a huge win both in terms of privacy and user experience with this approach:</p>
 <ul>
-<li>It needed users to tag content, and most pages aren't tagged (eg. software documentation)</li>
-<li>We needed to combine tags into topics, and there will always be some tags we don't know about</li>
-<li>The automatic tagging was quite naive, and had some false positives</li>
+<li><strong>We're able to target ads to pages without needing to know anything about the user.</strong> The better we get at targeting, the more powerful our ethical advertising approach becomes, and the larger we can scale out network.</li>
+<li>The user experience of minimalist, well-targeted ads is better. We're able to show fewer ads and charge more for them because they perform better. This is a win-win for everyone.</li>
+<li>We were able to implement this approach with minimal changes to our existing infrastructure, mostly because we're already heavily invested in the Python ecosystem and Postgres.</li>
 </ul>
-<p>We wanted to build a more robust solution that was able to understand a lot more about each page.</p>
-<h3 id="the-solution-machine-learning">The solution: machine learning</h3>
-<p>We have implemented a machine learning model that is able to categorize pages based on past content it has seen.
-This process is started with an initial set of human categorized data.
-Then we pass in data the model hasn't seen before,
-and grade it based on how good it scores these topics.
-Those grades are then used to update the model,
-and it does this thousands of times,
-creating the best possible guess for a piece of content.</p>
-<p>When we "train" the ML model,
-it is mapping all the various words and phrases in a document into the topic we've assigned the page.
-So for example,
-the model learns that "natural language processing" on a page means it's highly likely related to <em>Data Science</em>.
-<strong>The magic of the model is that it understands a massive number of words and phrases,
-many more than we could ever add manually.</strong></p>
-<p>The ML-based model has the following benefits:</p>
+<h2 id="challenges-and-considerations">Challenges and Considerations</h2>
+<p>We have a few challenges to overcome with this approach:</p>
 <ul>
-<li>The model scales across any technical content that was pass in, without requiring page authors to do anything</li>
-<li>It takes into account the entire page content, and word context, to</li>
-<li>We can easily add more topics, as long as we can categorize a small number of pages of content that belong to that topic.</li>
+<li>We currently aim for 50ms for ad response time, and this approach is currently slower than that. We're working on optimizing this with indexing, and might look at using an in-memory vector store in the future.</li>
+<li>Embeddings currently work pretty well, but can often associate things that are not relevant. For example, we're run into issues where the same words are used to mean different things (eg. "model"), and the embeddings can get confused.</li>
 </ul>
-<p>We're excited to expand our ML targeting in the future.</p>
-<h3 id="next-steps-more-topics-and-more-privacy">Next steps: more topics and more privacy</h3>
-<p>The ease of adding new topics to our models allows us to continue to expand the topics we're able to target.
-In the future,
-if an advertiser comes to us wanting to target a specific subset of content,
-we should be able to train a deploy this targeting within a week.
-We can also scale down into smaller niches,
-because we are able to find all the content within our network that matches more specific topics.</p>
-<p>We're excited about this approach,
-and hope that improving content-based ad targeting will remove the incentives to track users.
-There is a long way to go on our <a href="https://www.ethicalads.io/advertising-vision/">vision for privacy-first ads</a>,
-but we think that our machine learning approach is a scalable foundation to build on.</p>
-<p>If you're looking for an ad network that won't compromise your audience,
-<a href="https://www.ethicalads.io/publishers/">join EthicalAds</a> and help preserve privacy on the web!</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>This approach is still in its early stages, but we're excited about the potential.
+The better we can get at ethical ad targeting,
+everyone in our network benefits:</p>
+<ul>
+<li><strong>Advertisers</strong> get better ad targeting, ensuring they show up in front of the right users.</li>
+<li><strong>Publishers</strong> get more money while showing a single ad rather than resorting to multiple, larger ads that take over their site</li>
+<li><strong>Users</strong> get a better experience, with ads that are relevant to the content they are reading.</li>
+</ul>
+<p>This is our vision for advertising,
+and we're excited about the potential of this approach.</p>
+<p>Thanks so much to Simon Willison for his <a href="https://simonwillison.net/2023/Oct/23/embeddings/">blog post on embeddings</a>,
+which is what inspired me to try this approach.</p>
       </div>
 
     </div>
@@ -228,6 +258,43 @@ but we think that our machine learning approach is a scalable foundation to buil
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
         <div class="col mb-10">
           <article class="card h-100 shadow-light-lg lift lift-lg">
+              <a href="/blog/2022/11/a-new-approach-to-content-based-targeting-for-advertising/">
+                <img src="/images/posts/2022-bullseye.jpg" alt="A new approach to content-based targeting for advertising" class="card-img-top">
+
+                <!-- Style shape to the image -->
+                <div class="position-relative">
+                  <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
+                    <svg viewBox="0 0 2880 480" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2160 0C1440 240 720 240 720 240H0v240h2880V0h-720z" fill="currentColor"/></svg>
+                  </div>
+                </div>
+              </a>
+            <a class="card-body" href="/blog/2022/11/a-new-approach-to-content-based-targeting-for-advertising/" title="Permalink to A new approach to content-based targeting for advertising">
+              <h3 class="card-title font-weight-light">A new approach to content-based targeting for advertising</h3>
+
+              <p class="mb-0">In the past few years, advancements in machine learning have made a new era of content-based ad targeting possible. Computers …</p>
+
+            </a>
+
+            <a class="card-meta mt-auto" href="/blog/2022/11/a-new-approach-to-content-based-targeting-for-advertising/">
+
+              <!-- Divider -->
+              <hr class="card-meta-divider">
+
+              <div class="d-flex w-100">
+                <!-- Author -->
+                <div class="flex-fill h6 text-uppercase text-muted mb-0 mr-2">Eric Holscher</div>
+
+                <!-- Date -->
+                <div class="flex-fill h6 text-uppercase text-muted mb-0 ml-auto text-right">
+                  <time class="text-nowrap" datetime="2022-11-07T00:00:00-08:00">Nov 7, 2022</time>
+                </div>
+              </div>
+
+            </a>
+          </article>
+        </div>
+        <div class="col mb-10">
+          <article class="card h-100 shadow-light-lg lift lift-lg">
               <a href="/blog/2022/04/does-content-imply-user-intent/">
                 <img src="/images/posts/2022-content-as-intent.jpg" alt="Does Content Imply User Intent?" class="card-img-top">
 
@@ -257,80 +324,6 @@ but we think that our machine learning approach is a scalable foundation to buil
                 <!-- Date -->
                 <div class="flex-fill h6 text-uppercase text-muted mb-0 ml-auto text-right">
                   <time class="text-nowrap" datetime="2022-04-26T00:00:00-07:00">Apr 26, 2022</time>
-                </div>
-              </div>
-
-            </a>
-          </article>
-        </div>
-        <div class="col mb-10">
-          <article class="card h-100 shadow-light-lg lift lift-lg">
-              <a href="/blog/2024/04/using-embeddings-in-production-with-postgres-django-for-niche-ad-targeting/">
-                <img src="/images/posts/niche-targeting.png" alt="Using embeddings in production with Postgres & Django for niche ad targeting" class="card-img-top">
-
-                <!-- Style shape to the image -->
-                <div class="position-relative">
-                  <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
-                    <svg viewBox="0 0 2880 480" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2160 0C1440 240 720 240 720 240H0v240h2880V0h-720z" fill="currentColor"/></svg>
-                  </div>
-                </div>
-              </a>
-            <a class="card-body" href="/blog/2024/04/using-embeddings-in-production-with-postgres-django-for-niche-ad-targeting/" title="Permalink to Using embeddings in production with Postgres & Django for niche ad targeting">
-              <h3 class="card-title font-weight-light">Using embeddings in production with Postgres & Django for niche ad targeting</h3>
-
-              <p class="mb-0">This is an update to our original post on content-based ad targeting. In this post, I&#39;ll talk a bit more …</p>
-
-            </a>
-
-            <a class="card-meta mt-auto" href="/blog/2024/04/using-embeddings-in-production-with-postgres-django-for-niche-ad-targeting/">
-
-              <!-- Divider -->
-              <hr class="card-meta-divider">
-
-              <div class="d-flex w-100">
-                <!-- Author -->
-                <div class="flex-fill h6 text-uppercase text-muted mb-0 mr-2">Eric Holscher</div>
-
-                <!-- Date -->
-                <div class="flex-fill h6 text-uppercase text-muted mb-0 ml-auto text-right">
-                  <time class="text-nowrap" datetime="2024-04-23T00:00:00-07:00">Apr 23, 2024</time>
-                </div>
-              </div>
-
-            </a>
-          </article>
-        </div>
-        <div class="col mb-10">
-          <article class="card h-100 shadow-light-lg lift lift-lg">
-              <a href="/blog/2023/09/optimizing-european-ad-campaigns-in-the-gdpr-era/">
-                <img src="/images/posts/2023-eu-landing-pages.png" alt="Optimizing European Ad Campaigns in the GDPR Era" class="card-img-top">
-
-                <!-- Style shape to the image -->
-                <div class="position-relative">
-                  <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
-                    <svg viewBox="0 0 2880 480" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2160 0C1440 240 720 240 720 240H0v240h2880V0h-720z" fill="currentColor"/></svg>
-                  </div>
-                </div>
-              </a>
-            <a class="card-body" href="/blog/2023/09/optimizing-european-ad-campaigns-in-the-gdpr-era/" title="Permalink to Optimizing European Ad Campaigns in the GDPR Era">
-              <h3 class="card-title font-weight-light">Optimizing European Ad Campaigns in the GDPR Era</h3>
-
-              <p class="mb-0">General Data Protection Regulation (GDPR) has had a huge effect on the web in Europe and on advertising in particular …</p>
-
-            </a>
-
-            <a class="card-meta mt-auto" href="/blog/2023/09/optimizing-european-ad-campaigns-in-the-gdpr-era/">
-
-              <!-- Divider -->
-              <hr class="card-meta-divider">
-
-              <div class="d-flex w-100">
-                <!-- Author -->
-                <div class="flex-fill h6 text-uppercase text-muted mb-0 mr-2">David Fischer</div>
-
-                <!-- Date -->
-                <div class="flex-fill h6 text-uppercase text-muted mb-0 ml-auto text-right">
-                  <time class="text-nowrap" datetime="2023-09-26T00:00:00-07:00">Sep 26, 2023</time>
                 </div>
               </div>
 

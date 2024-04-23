@@ -1,5 +1,104 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds - posts</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/posts.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2024-04-11T00:00:00-07:00</updated><entry><title>EthicalAds Newsletter - April 2024</title><link href="https://www.ethicalads.io/blog/2024/04/ethicalads-newsletter-april-2024/" rel="alternate"></link><published>2024-04-11T00:00:00-07:00</published><updated>2024-04-11T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2024-04-11:/blog/2024/04/ethicalads-newsletter-april-2024/</id><summary type="html">&lt;h2 id="new-features-from-march"&gt;New features from March&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds - posts</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/posts.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2024-04-23T00:00:00-07:00</updated><entry><title>Using embeddings in production with Postgres &amp; Django for niche ad targeting</title><link href="https://www.ethicalads.io/blog/2024/04/using-embeddings-in-production-with-postgres-django-for-niche-ad-targeting/" rel="alternate"></link><published>2024-04-23T00:00:00-07:00</published><updated>2024-04-23T00:00:00-07:00</updated><author><name>Eric Holscher</name></author><id>tag:www.ethicalads.io,2024-04-23:/blog/2024/04/using-embeddings-in-production-with-postgres-django-for-niche-ad-targeting/</id><summary type="html">&lt;p&gt;This is an update to our original post on &lt;a href="https://www.ethicalads.io/blog/2022/11/a-new-approach-to-content-based-targeting-for-advertising/"&gt;content-based ad targeting&lt;/a&gt;.
+In this post, I'll talk a bit more …&lt;/p&gt;</summary><content type="html">&lt;p&gt;This is an update to our original post on &lt;a href="https://www.ethicalads.io/blog/2022/11/a-new-approach-to-content-based-targeting-for-advertising/"&gt;content-based ad targeting&lt;/a&gt;.
+In this post, I'll talk a bit more about our next step, using machine learning (embeddings specifically) to build better contextual ad targeting.&lt;/p&gt;
+&lt;p&gt;At the end of our last post,
+we were crawling all our publisher's pages,
+and categorizing pages into &lt;em&gt;Topics&lt;/em&gt; based on page text.
+We did this by training a model with ~100 examples of each topic,
+and then storing the topics in our database for fast ad serving.&lt;/p&gt;
+&lt;p&gt;This gave us a good starting point for targeting ads by topic,
+but we wanted to get more granular.&lt;/p&gt;
+&lt;h2 id="targeting-each-page-individually-with-embeddings"&gt;Targeting each page individually with embeddings&lt;/h2&gt;
+&lt;p&gt;Our new approach is to use &lt;a href="https://en.wikipedia.org/wiki/Word_embedding"&gt;word embeddings&lt;/a&gt; to represent both the advertisers landing page and the publisher pages.
+This allows us to generate a representation of these pages,
+which can be compared against each other.&lt;/p&gt;
+&lt;p&gt;We're currently using Python's &lt;a href="https://www.sbert.net/"&gt;SentenceTransformers&lt;/a&gt; library to generate these embeddings.
+We will likely upgrade to a more advanced model in the future,
+but this was perfect for our initial tests.&lt;/p&gt;
+&lt;h3 id="generating-storing-and-querying-embeddings"&gt;Generating, storing, and querying embeddings&lt;/h3&gt;
+&lt;p&gt;A simple example of what this looks like might be:&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;requests&lt;/span&gt;
+&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;bs4&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;BeautifulSoup&lt;/span&gt;
+&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;sentence_transformers&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;SentenceTransformer&lt;/span&gt;
+
+&lt;span class="c1"&gt;# Generate embeddings for a page&lt;/span&gt;
+
+&lt;span class="n"&gt;model&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;SentenceTransformer&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;MODEL_NAME&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;cache_folder&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;CACHE_FOLDER&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;text&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;BeautifulSoup&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;requests&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;get&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;url&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;html.parser&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;get_text&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;span class="n"&gt;embedding&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;model&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;encode&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;text&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;embedding&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;tolist&lt;/span&gt;&lt;span class="p"&gt;())&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;We're then using &lt;a href="https://github.com/pgvector/pgvector"&gt;pgvector&lt;/a&gt; and &lt;a href="https://github.com/pgvector/pgvector-python"&gt;pgvector-python&lt;/a&gt; to manage these embeddings in Django &amp;amp; Postgres,
+which is what we're already using in production.&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;django.db&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;models&lt;/span&gt;
+&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;pgvector.django&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;VectorField&lt;/span&gt;
+
+&lt;span class="c1"&gt;# Store the content in Postgres/Django&lt;/span&gt;
+
+&lt;span class="k"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;Embedding&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;models&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Model&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="c1"&gt;# FK where we keep metadata about the URL&lt;/span&gt;
+    &lt;span class="n"&gt;analyzed_url&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;models&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;ForeignKey&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;
+        &lt;span class="n"&gt;AnalyzedUrl&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+        &lt;span class="n"&gt;on_delete&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;models&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;CASCADE&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+        &lt;span class="n"&gt;related_name&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;embeddings&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="p"&gt;)&lt;/span&gt;
+
+    &lt;span class="c1"&gt;# Model name so we can use different models in the future&lt;/span&gt;
+    &lt;span class="n"&gt;model&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;models&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;CharField&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;max_length&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;255&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;default&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="kc"&gt;None&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;null&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="kc"&gt;True&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;blank&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="kc"&gt;True&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+    &lt;span class="c1"&gt;# The actual embedding&lt;/span&gt;
+    &lt;span class="n"&gt;vector&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;VectorField&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;dimensions&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;384&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;default&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="kc"&gt;None&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;null&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="kc"&gt;True&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;blank&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="kc"&gt;True&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Then we're able to query the database for the most similar publisher pages to an advertiser's landing page:&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;pgvector.django&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;CosineDistance&lt;/span&gt;
+&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;.models&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;Embedding&lt;/span&gt;
+
+&lt;span class="c1"&gt;# Find the most similar ads for the page we&amp;#39;re serving an ad on&lt;/span&gt;
+
+&lt;span class="n"&gt;Embedding&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;objects&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;annotate&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;
+    &lt;span class="n"&gt;distance&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;CosineDistance&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;vector&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;embedding&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;order_by&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;distance&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2 id="try-out-a-demo"&gt;Try out a demo&lt;/h2&gt;
+&lt;p&gt;You can see a screenshot of our niche targeting in action at the top of this page.
+This is a simple proof of concept,
+but you can see how we're able to target ads specifically focusing on MongoDB and Databases,
+when serving a MongoDB ad.&lt;/p&gt;
+&lt;p&gt;You can &lt;a href="https://www.ethicalads.io/advertisers/similar-pages/?url=https%3A%2F%2Fwww.mongodb.com%2Fatlas"&gt;try out our Niche Targeting Demo&lt;/a&gt;,
+and let us know how it goes!&lt;/p&gt;
+&lt;h2 id="advantages-of-niche-targeting"&gt;Advantages of Niche Targeting&lt;/h2&gt;
+&lt;p&gt;There is a huge win both in terms of privacy and user experience with this approach:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;We're able to target ads to pages without needing to know anything about the user.&lt;/strong&gt; The better we get at targeting, the more powerful our ethical advertising approach becomes, and the larger we can scale out network.&lt;/li&gt;
+&lt;li&gt;The user experience of minimalist, well-targeted ads is better. We're able to show fewer ads and charge more for them because they perform better. This is a win-win for everyone.&lt;/li&gt;
+&lt;li&gt;We were able to implement this approach with minimal changes to our existing infrastructure, mostly because we're already heavily invested in the Python ecosystem and Postgres.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="challenges-and-considerations"&gt;Challenges and Considerations&lt;/h2&gt;
+&lt;p&gt;We have a few challenges to overcome with this approach:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We currently aim for 50ms for ad response time, and this approach is currently slower than that. We're working on optimizing this with indexing, and might look at using an in-memory vector store in the future.&lt;/li&gt;
+&lt;li&gt;Embeddings currently work pretty well, but can often associate things that are not relevant. For example, we're run into issues where the same words are used to mean different things (eg. "model"), and the embeddings can get confused.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="conclusion"&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;This approach is still in its early stages, but we're excited about the potential.
+The better we can get at ethical ad targeting,
+everyone in our network benefits:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Advertisers&lt;/strong&gt; get better ad targeting, ensuring they show up in front of the right users.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Publishers&lt;/strong&gt; get more money while showing a single ad rather than resorting to multiple, larger ads that take over their site&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Users&lt;/strong&gt; get a better experience, with ads that are relevant to the content they are reading.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is our vision for advertising,
+and we're excited about the potential of this approach.&lt;/p&gt;
+&lt;p&gt;Thanks so much to Simon Willison for his &lt;a href="https://simonwillison.net/2023/Oct/23/embeddings/"&gt;blog post on embeddings&lt;/a&gt;,
+which is what inspired me to try this approach.&lt;/p&gt;</content><category term="posts"></category><category term="content-targeting"></category><category term="engineering"></category></entry><entry><title>EthicalAds Newsletter - April 2024</title><link href="https://www.ethicalads.io/blog/2024/04/ethicalads-newsletter-april-2024/" rel="alternate"></link><published>2024-04-11T00:00:00-07:00</published><updated>2024-04-11T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2024-04-11:/blog/2024/04/ethicalads-newsletter-april-2024/</id><summary type="html">&lt;h2 id="new-features-from-march"&gt;New features from March&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;We shipped an updated version of our &lt;a href="https://www.ethicalads.io/publisher-guide/"&gt;publisher guide&lt;/a&gt;
   with simplified graphics and explainers about what …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h2 id="new-features-from-march"&gt;New features from March&lt;/h2&gt;
@@ -6098,7 +6197,7 @@ views, clicks, and revenue was immediate&lt;/strong&gt;.&lt;/p&gt;
   criteria&lt;/a&gt; and we also
   qualified for &lt;a href="https://adblockplus.org/en/acceptable-ads#privacy-friendly-acceptable-ads"&gt;Acceptable Ads without third-party
   tracking&lt;/a&gt;.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;While&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;Eyeo&lt;/span&gt;,&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;the&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;company&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;behind&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;AdBlock&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;Plus&lt;/span&gt;,&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;derives&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;[&lt;span class="nv"&gt;most&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;of&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;their&lt;/span&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;While&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;Eyeo&lt;/span&gt;,&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;the&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;company&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;behind&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;AdBlock&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;Plus&lt;/span&gt;,&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;derives&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;[&lt;span class="nv"&gt;most&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;of&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;their&lt;/span&gt;
 &lt;span class="nv"&gt;revenue&lt;/span&gt;]&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;https&lt;/span&gt;:&lt;span class="o"&gt;//&lt;/span&gt;&lt;span class="nv"&gt;adblockplus&lt;/span&gt;.&lt;span class="nv"&gt;org&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="nv"&gt;about&lt;/span&gt;#&lt;span class="nv"&gt;monetization&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;from&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;the&lt;/span&gt;
 &lt;span class="nv"&gt;Acceptable&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;Ads&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;initiative&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;by&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;charging&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;large&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;entities&lt;/span&gt;,&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;Read&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;the&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;Docs&lt;/span&gt;
 &lt;span class="o"&gt;**&lt;/span&gt;&lt;span class="nv"&gt;did&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;not&lt;/span&gt;&lt;span class="o"&gt;**&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;pay&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;for&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;inclusion&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;on&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;the&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;list&lt;/span&gt;.
