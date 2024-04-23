@@ -23,7 +23,7 @@ Our new approach is to use [word embeddings](https://en.wikipedia.org/wiki/Word_
 This allows us to generate a representation of these pages,
 which can be compared against each other.
 
-We're currently using the [Sentence Transformers](https://www.sbert.net/) library to generate these embeddings.
+We're currently using Python's [SentenceTransformers](https://www.sbert.net/) library to generate these embeddings.
 We will likely upgrade to a more advanced model in the future,
 but this was perfect for our initial tests.
 
@@ -97,7 +97,7 @@ and let us know how it goes!
 There is a huge win both in terms of privacy and user experience with this approach:
 
 * **We're able to target ads to pages without needing to know anything about the user.** The better we get at targeting, the more powerful our ethical advertising approach becomes, and the larger we can scale out network.
-* The user experience of minimalist, well-targeted ads is better. We're able to show fewer ads and charge more for them, which is a win-win for everyone.
+* The user experience of minimalist, well-targeted ads is better. We're able to show fewer ads and charge more for them because they perform better. This is a win-win for everyone.
 * We were able to implement this approach with minimal changes to our existing infrastructure, mostly because we're already heavily invested in the Python ecosystem and Postgres.
 
 ## Challenges and Considerations
@@ -114,7 +114,7 @@ The better we can get at ethical ad targeting,
 everyone in our network benefits:
 
 * **Advertisers** get better ad targeting, ensuring they show up in front of the right users.
-* **Publishers** get more money while showing a single, minimalist ad.
+* **Publishers** get more money while showing a single ad rather than resorting to multiple, larger ads that take over their site
 * **Users** get a better experience, with ads that are relevant to the content they are reading.
 
 This is our vision for advertising,
