@@ -1,5 +1,5 @@
 Title: Why Some Sites Show More Ads Than Content
-Date: April 9, 2024
+Date: April 30, 2024
 description: Why do some ad-supported sites build a great experience while others overwhelm users with ads? Who the site is optimized for and whether it's maximizing short-term or long-term revenue are the big factors.
 tags: publishers
 authors: David Fischer
