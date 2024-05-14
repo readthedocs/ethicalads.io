@@ -1,5 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds - posts</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/posts.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2024-05-02T00:00:00-07:00</updated><entry><title>Why Some Sites Show More Ads Than Content</title><link href="https://www.ethicalads.io/blog/2024/05/why-some-sites-show-more-ads-than-content/" rel="alternate"></link><published>2024-05-02T00:00:00-07:00</published><updated>2024-05-02T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2024-05-02:/blog/2024/05/why-some-sites-show-more-ads-than-content/</id><summary type="html">&lt;p&gt;Across the Internet, websites adopt different strategies when it comes to incorporating advertisements.
+<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds - posts</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/posts.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2024-05-14T00:00:00-07:00</updated><entry><title>EthicalAds Newsletter - May 2024</title><link href="https://www.ethicalads.io/blog/2024/05/ethicalads-newsletter-may-2024/" rel="alternate"></link><published>2024-05-14T00:00:00-07:00</published><updated>2024-05-14T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2024-05-14:/blog/2024/05/ethicalads-newsletter-may-2024/</id><summary type="html">&lt;h2 id="new-features-from-april"&gt;New features from April&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;We did a wider demo and tech explanation of our
+  &lt;a href="https://www.ethicalads.io/advertisers/similar-pages/?url=https%3A%2F%2Fwww.mongodb.com%2Fatlas"&gt;page similarity&lt;/a&gt;
+  features that will help …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h2 id="new-features-from-april"&gt;New features from April&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;We did a wider demo and tech explanation of our
+  &lt;a href="https://www.ethicalads.io/advertisers/similar-pages/?url=https%3A%2F%2Fwww.mongodb.com%2Fatlas"&gt;page similarity&lt;/a&gt;
+  features that will help us target small audiences by matching pages where our ads appear directly
+  with advertiser landing pages.
+  The integration into our ad targeting is still being worked on and should be released later this month
+  or early June.&lt;/li&gt;
+&lt;li&gt;We released a UX improvement for advertisers to let them more easily and quickly
+  compare campaigns on a CTR and eCPC basis.&lt;/li&gt;
+&lt;li&gt;We had a content piece exploring the trade-offs publishers make and why
+  &lt;a href="https://www.ethicalads.io/blog/2024/05/why-some-sites-show-more-ads-than-content/"&gt;some pages have more ads than content&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can always see our latest server updates in our
+&lt;a href="https://ethical-ad-server.readthedocs.io/en/latest/developer/changelog.html"&gt;ethical-ad-server changelog&lt;/a&gt;
+and &lt;a href="https://ethical-ad-client.readthedocs.io/en/latest/changelog.html"&gt;ethical-ad-client changelog&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="april-advertising-stats"&gt;April advertising stats&lt;/h2&gt;
+&lt;p&gt;In April 2024:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We generated &lt;strong&gt;$34,269.56&lt;/strong&gt; for our publishers.&lt;/li&gt;
+&lt;li&gt;We had &lt;strong&gt;179 publishers&lt;/strong&gt; on our network with at least one paid ad impression.&lt;/li&gt;
+&lt;li&gt;We had &lt;strong&gt;14,605,508&lt;/strong&gt; paid ad views across the world.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;April was not a particularly strong month for us due to a few advertisers pulling back simultaneously.
+However, the latter half of the month was much better and while May isn't shaping up to be stellar,
+it looks much better than April.&lt;/p&gt;
+&lt;h2 id="upcoming-features"&gt;Upcoming features&lt;/h2&gt;
+&lt;p&gt;The major features in our upcoming roadmap for May:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We are going to do a marketing blog post to go along with our
+  &lt;a href="https://www.ethicalads.io/blog/2024/04/using-embeddings-in-production-with-postgres-django-for-niche-ad-targeting/"&gt;tech blog&lt;/a&gt;
+  about the new similar pages/niche targeting functionality.&lt;/li&gt;
+&lt;li&gt;We are building some additional integrations to get better niche targeting
+  using the same embeddings features and use it directly in our ad serving.&lt;/li&gt;
+&lt;li&gt;We are working on some additional testimonials around the "agency-lite"
+  features we provide to advertisers to help ensure their campaigns are successful.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thanks again for being along with us on this journey to build an ethical ad network.
+Please &lt;a href="https://www.ethicalads.io/contact/"&gt;let us know&lt;/a&gt; if you have any ideas or feedback on our product or roadmap,
+we always love to hear from you.&lt;/p&gt;</content><category term="posts"></category><category term="newsletter"></category><category term="community"></category><category term="build-in-public"></category></entry><entry><title>Why Some Sites Show More Ads Than Content</title><link href="https://www.ethicalads.io/blog/2024/05/why-some-sites-show-more-ads-than-content/" rel="alternate"></link><published>2024-05-02T00:00:00-07:00</published><updated>2024-05-02T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2024-05-02:/blog/2024/05/why-some-sites-show-more-ads-than-content/</id><summary type="html">&lt;p&gt;Across the Internet, websites adopt different strategies when it comes to incorporating advertisements.
 Some sites carefully curate ad placements to …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Across the Internet, websites adopt different strategies when it comes to incorporating advertisements.
 Some sites carefully curate ad placements to offer a seamless and unobtrusive browsing experience for their visitors.
 On the other hand, some sites bombard visitors with more ads than content, including autoplay videos,
