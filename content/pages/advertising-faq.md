@@ -166,7 +166,7 @@ We also offer advice on crafting ads that resonate with our audience.
 See our [advertising guide]({filename}/pages/learning-hub/advertiser-guide.md) for more details
 and our [creative specs guide]({filename}/pages/learning-hub/ad-design-and-specs.md) has a number of tips and tricks about what works.
 
-[Learn more]({filename}/pages/agency-lite.md)
+[Learn more]({filename}/pages/help-with-your-ads.md)
 about the ways we can help ensure you have a successful campaign.
 
 

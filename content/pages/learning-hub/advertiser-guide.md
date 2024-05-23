@@ -156,7 +156,7 @@ with our in-depth guidance:
 We are also available at any time during your campaign for feedback and suggestions on how to tweak your campaign to improve performance,
 along with our proactive outreach.
 
-[Learn more]({filename}../../pages/agency-lite.md) about our full service approach to advertising.
+[Learn more]({filename}../../pages/help-with-your-ads.md) about our full service approach to advertising.
 
 ## Examples of some top developer ads
 
