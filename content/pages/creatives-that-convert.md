@@ -2,7 +2,7 @@ title: Creatives that Convert
 slug: creatives-that-convert
 url: advertisers/creatives-that-convert/
 save_as: advertisers/creatives-that-convert/index.html
-description: Whether you need help adapting ads you're running elsewhere or need new ads for your new landing pages, we can help you craft a campaign that converts.
+description: Whether you need help adapting ads you're running elsewhere or need new ads for your landing pages, we can help you craft a campaign that converts.
 subtitle: We can help you craft a campaign that converts
 template: ea/creatives-that-convert
 contact_footer_subject: Get our creatives guide
