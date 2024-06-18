@@ -3,6 +3,7 @@
 {#   contact_footer_subheadline - sub headline of the form #}
 {#   contact_form_action - set to a custom form action to direct the destination #}
 {#   contact_footer_why - add a "why" field with this label #}
+{#   contact_restrict_email - restrict emails from public email providers (default false) #}
 {#   contact_submit_text - customize the "submit" button text #}
 {#   pcontact_submit_helptext - help text below the submit button #}
 
@@ -44,7 +45,7 @@
 
                   <div class="form-group">
                     <label for="email">Your email</label>
-                    <input class="form-control" type="email" id="email" name="email" placeholder="you@yourcompany.com" required>
+                    <input class="form-control" type="email" id="email" name="email" placeholder="you@yourcompany.com" {% if page.contact_restrict_email %}{% include 'ea/includes/restrict-emails-attributes.html' %}{% endif %} required>
                   </div>
 
                   {% if page.contact_footer_why %}
