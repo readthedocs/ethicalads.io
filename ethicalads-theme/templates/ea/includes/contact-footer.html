@@ -1,3 +1,12 @@
+{# Set the following variables to customize: #}
+{#   contact_footer_subject - subject line of the email and displayed in the form #}
+{#   contact_footer_subheadline - sub headline of the form #}
+{#   contact_form_action - set to a custom form action to direct the destination #}
+{#   contact_footer_why - add a "why" field with this label #}
+{#   contact_submit_text - customize the "submit" button text #}
+{#   pcontact_submit_helptext - help text below the submit button #}
+
+
 <section class="inbound-form py-10" id="inbound-form">
   <div class="container">
 
@@ -17,7 +26,7 @@
                 <form
                   method="POST"
                   name="fa-form-1"
-                  action="https://webhook.frontapp.com/forms/036c4169294f3b04abaa/DuKS0GvCzn12Ok6ut39qdXF14M7Xq3c9dw0P-FijQO86l_7eSJ0aa874H0r-NmLPI2QXYh6HUTncyk-9ET8X9SKh5zZPdKP-hBsFPPXBOZQUk95-7o6sGdRBLrY"
+                  action="{% if page.contact_form_action %}{{ page.contact_form_action }}{% else %}https://webhook.frontapp.com/forms/036c4169294f3b04abaa/DuKS0GvCzn12Ok6ut39qdXF14M7Xq3c9dw0P-FijQO86l_7eSJ0aa874H0r-NmLPI2QXYh6HUTncyk-9ET8X9SKh5zZPdKP-hBsFPPXBOZQUk95-7o6sGdRBLrY{% endif %}"
                   enctype="multipart/form-data"
                   accept-charset="utf-8"
                 >
@@ -35,16 +44,21 @@
 
                   <div class="form-group">
                     <label for="email">Your email</label>
-                    <input class="form-control" type="email" id="email" name="email" required>
+                    <input class="form-control" type="email" id="email" name="email" placeholder="you@yourcompany.com" required>
                   </div>
 
+                  {% if page.contact_footer_why %}
                   <div class="form-group">
                     <label for="why">{{ page.contact_footer_why }}</label>
                     <textarea class="form-control" id="why" name="why" required></textarea>
                   </div>
+                  {% endif %}
 
                   <div class="form-group my-5">
-                    <input type="submit" value="Submit Inquiry" class="btn btn-sm btn-primary">
+                    <input type="submit" value="{% if page.contact_submit_text %}{{ page.contact_submit_text }}{% else %}Submit Inquiry{% endif %}" class="btn btn-sm btn-primary">
+                    {% if page.contact_submit_helptext %}
+                    <small class="form-text text-muted">{{ page.contact_submit_helptext }}</small>
+                    {% endif %}
                   </div>
                 </form>
 

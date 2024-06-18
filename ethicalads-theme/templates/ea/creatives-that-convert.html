@@ -1,0 +1,41 @@
+{% extends "page.html" %}
+
+
+{% block content %}
+<section class="container py-5 mb-10">
+  <article class="page">
+
+    <div class="row align-items-center justify-content-between py-5">
+      <div class="col-12 col-md-5">
+
+        <!-- Heading -->
+        <h1>
+          EthicalAds guide to
+          <span class="text-success">Creatives that Convert</span>
+        </h1>
+
+        <!-- Text -->
+        <p class="font-size-lg text-gray-700 mb-6 mb-md-0">
+          See real ads from advertisers who ran successful campaigns on EthicalAds.
+          This downloadable guide includes case studies about specific ads that performed well with creative tweaks the advertiser made to get the most out of their campaign.
+        </p>
+
+      </div>
+      <div class="col-12 col-md-6">
+
+        <!-- Image -->
+        <div class="img-skewed img-skewed-left">
+          <img src="/theme/img/creatives-guide-screenshot.png" alt="Crafting creatives that convert guide" class="screenshot img-fluid img-skewed-item" data-aos="fade-right">
+        </div>
+
+      </div>
+    </div>
+
+  </article>
+</section>
+
+
+{% include 'ea/includes/contact-footer.html' %}
+
+
+{% endblock content %}
