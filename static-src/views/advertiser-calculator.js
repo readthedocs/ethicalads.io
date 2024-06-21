@@ -56,6 +56,10 @@ function AdvertiserCalculatorViewModel() {
     } else if (this.budget() >= 3000) {
       cpm = cpm * 0.9;
     }
+    if (this.autorenewing()) {
+      // 10% discount for auto-renewing
+      cpm = cpm * 0.9;
+    }
     return cpm;
   };
 
@@ -78,6 +82,7 @@ function AdvertiserCalculatorViewModel() {
       budget: this.budget(),
       region: this.selected_region(),
       topic: this.selected_topic(),
+      autorenewing: this.autorenewing(),
     });
     return url + "?" + searchParams.toString();
   };
@@ -89,6 +94,7 @@ function AdvertiserCalculatorViewModel() {
       "budget": this.getBudget(),
       "region": this.selected_region(),
       "topic": this.selected_topic(),
+      "autorenewing": this.autorenewing(),
     };
 
     window.history.pushState(state, null, url);
@@ -103,15 +109,17 @@ function AdvertiserCalculatorViewModel() {
   let initial_budget = parseInt(params.get("budget"), 10) || 1000;
   let initial_region = this.validateRegion(params.get("region")) || "blend";
   let initial_topic = this.validateTopic(params.get("topic")) || "all-developers";
+  let initial_autorenewing = Boolean(params.get("autorenewing")) || false;
 
   this.selected_region = ko.observable(initial_region);
   this.selected_topic = ko.observable(initial_topic);
   this.budget = ko.observable(initial_budget);
+  this.autorenewing = ko.observable(initial_autorenewing);
 
   this.ctr = ko.observable(0.12);
   this.conversion_rate = ko.observable(5.0);
 
-  // On changes to the region, topic, or budget,
+  // On changes to the region, topic, autorenew, or budget,
   // push the state to the browser's history API
   // This updates the URL in the URL bar without reloading the page
   this.selected_region.subscribe(function () {
@@ -121,6 +129,9 @@ function AdvertiserCalculatorViewModel() {
     this.setUrlState();
   }, this);
   this.budget.subscribe(function () {
+    this.setUrlState();
+  }, this);
+  this.autorenewing.subscribe(function () {
     this.setUrlState();
   }, this);
 }
