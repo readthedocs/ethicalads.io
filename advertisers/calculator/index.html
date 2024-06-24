@@ -131,7 +131,7 @@
 
           <div class="form-group mb-8">
             <h3>Campaign budget</h3>
-            <p class="small">This budget could be over just a few weeks or as long as a quarter. There is an automatic discount of 10% for campaigns over $3k and 15% for campaigns over $25k.</p>
+            <p class="small">This budget could be over just a few weeks or as long as a quarter. There is an automatic discount of 10% for campaigns over $3k and 15% for campaigns over $25k. Set your monthly or quarterly campaign to renew automatically and receive an additional 10% discount.</p>
 
             <div class="d-print-none">
               <div class="input-group input-group-sm mx-auto w-50 w-lg-25">
@@ -146,6 +146,15 @@
                 <div class="small flex-fill">$500</div>
                 <div class="small flex-fill text-right">$25k</div>
               </div>
+
+              <div class="form-check mt-5 text-right">
+                <input class="form-check-input" type="checkbox" value="" id="autorenewing" data-bind="checked: autorenewing">
+                <label class="form-check-label" for="autorenewing">
+                  Auto-renewing
+                </label>
+              </div>
+
+
             </div>
           </div>
 
@@ -221,6 +230,7 @@
             <p class="lead mb-0" data-bind="text: '$' + getCpm().toFixed(2)"></p>
             <p class="small mb-0" data-bind="if: budget() >= 3000 && budget() < 25000">* 10% discount applied</p>
             <p class="small mb-0" data-bind="if: budget() >= 25000">* 15% discount applied</p>
+            <p class="small mb-0" data-bind="if: autorenewing()">* 10% auto-renewal discount</p>
           </div>
           <div class="flex-fill text-center mb-5">
             <p class="small mb-0">Number of impressions</p>
