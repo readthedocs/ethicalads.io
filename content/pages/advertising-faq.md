@@ -14,6 +14,8 @@ Our [prices](/advertisers/#pricing) differ by topic and by geography and rates c
 Ads are priced in cost per thousand impressions (CPM) and
 we also offer an automatic 10% discount for ad buys of $3,000,
 and 15% for ad buys of $25,000 or more.
+You may also opt-in to have your campaign renew automatically
+for an additional 10% discount.
 
 While you might setup a recurring campaign to be billed monthly,
 all our pricing is per impression.
