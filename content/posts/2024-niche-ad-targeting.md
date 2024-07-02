@@ -17,6 +17,10 @@ and then storing the topics in our database for fast ad serving.
 This gave us a good starting point for targeting ads by topic,
 but we wanted to get more granular.
 
+*Just a quick aside. This post is aimed at developers.
+If you're interested in one aimed at marketers, check out our
+[developer-focused post]({filename}../posts/2024-niche-ad-targeting.md).*
+
 ## Targeting each page individually with embeddings
 
 Our new approach is to use [word embeddings](https://en.wikipedia.org/wiki/Word_embedding) to represent both the advertisers landing page and the publisher pages.
