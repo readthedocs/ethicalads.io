@@ -17,9 +17,8 @@ and then storing the topics in our database for fast ad serving.
 This gave us a good starting point for targeting ads by topic,
 but we wanted to get more granular.
 
-*Just a quick aside. This post is aimed at developers.
-If you're interested in one aimed at marketers, check out our
-[developer-focused post]({filename}../posts/2024-niche-ad-targeting.md).*
+*This post is written for developers, but if you're interested in how this applies to marketers, check out our
+[marketing-focused post]({filename}../posts/2024-niche-ad-targeting.md).*
 
 ## Targeting each page individually with embeddings
 
