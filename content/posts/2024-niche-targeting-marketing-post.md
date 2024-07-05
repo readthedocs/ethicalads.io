@@ -53,7 +53,7 @@ It's like having your cake and eating it too, but without anyone spying on your 
 
 While we're still building and refining the capabilities for this targeting,
 we wanted to show some early examples of just how it will work.
-Here's an [example](https://www.ethicalads.io/advertisers/similar-pages/?url=https%3A%2F%2Fwww.mongodb.com%2Fatlas) where you can see how we're able to target ads
+Here's a [niche targeting example](https://www.ethicalads.io/advertisers/similar-pages/?url=https%3A%2F%2Fwww.mongodb.com%2Fatlas) where you can see how we're able to target ads
 specifically focusing on MongoDB and databases, when serving a MongoDB ad.
 
 <div class="postimage text-center">
