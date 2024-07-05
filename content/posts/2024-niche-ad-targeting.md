@@ -18,7 +18,7 @@ This gave us a good starting point for targeting ads by topic,
 but we wanted to get more granular.
 
 *This post is written for developers, but if you're interested in how this applies to marketers, check out our
-[marketing-focused post]({filename}../posts/2024-niche-ad-targeting.md).*
+[marketing-focused post]({filename}../posts/2024-niche-targeting-for-marketers.md).*
 
 ## Targeting each page individually with embeddings
 
