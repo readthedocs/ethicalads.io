@@ -1,5 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds - posts</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/posts.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2024-07-08T00:00:00-07:00</updated><entry><title>EthicalAds Newsletter - July 2024</title><link href="https://www.ethicalads.io/blog/2024/07/ethicalads-newsletter-july-2024/" rel="alternate"></link><published>2024-07-08T00:00:00-07:00</published><updated>2024-07-08T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2024-07-08:/blog/2024/07/ethicalads-newsletter-july-2024/</id><summary type="html">&lt;h2 id="new-features-from-the-previous-month"&gt;New features from the previous month&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds - posts</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/posts.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2024-07-09T00:00:00-07:00</updated><entry><title>AI-Powered Niche Targeting for Developer Marketers</title><link href="https://www.ethicalads.io/blog/2024/07/ai-powered-niche-targeting-for-developer-marketers/" rel="alternate"></link><published>2024-07-09T00:00:00-07:00</published><updated>2024-07-09T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2024-07-09:/blog/2024/07/ai-powered-niche-targeting-for-developer-marketers/</id><summary type="html">&lt;p&gt;Showing the right ad to the right audience is critical to get great performance from advertising.
+Imagine you have a …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Showing the right ad to the right audience is critical to get great performance from advertising.
+Imagine you have a powerful new tool to help ReactJS developers;
+showing this to potential customers already using React and JavaScript
+is the best way to make every ad dollar count.&lt;/p&gt;
+&lt;p&gt;Unlike many display networks that target more broadly,
+at EthicalAds, we've always tried show the most relevant ad
+in order to get the best performance for our advertisers.
+However, advertisers frequently ask how to reach small and more focused groups of developers
+that match their product more finely than &lt;a href="https://www.ethicalads.io/advertisers/#audiences"&gt;our core audiences&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This is why we built a new contextual targeting method that uses AI (ok, it's machine learning) to match
+ads and their landing pages to the most similar pages across our network where ads appear.
+This will allow serving ads to highly-relevant audiences for almost any type of developer-focused product.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This post is aimed at developer marketers, but if you're interested in the tech
+behind this niche targeting and you believe that AI only exists on a PowerPoint
+while machine learning happens in Python, check out our
+&lt;a href="https://www.ethicalads.io/blog/2024/04/using-embeddings-in-production-with-postgres-django-for-niche-ad-targeting/"&gt;developer-focused post&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="why-ai-targeted-ads-are-great-for-marketers-developers-and-privacy"&gt;Why AI targeted ads are great for marketers, developers and privacy&lt;/h2&gt;
+&lt;p&gt;Historically, display ads have worked best for targeting pretty broad audiences
+and focusing on the top of the marketing funnel.
+Search ads have been better for specific niches and reaching people who are actively searching for solutions that your product solves.
+If you have a product that helps with Kubernetes setups,
+reaching developers already struggling with Kubernetes' complexity (and searching Google for solutions)
+was the best way. Display ads just couldn't target finely enough.&lt;/p&gt;
+&lt;p&gt;However, AI has enabled matching any developer niche to pages across our ad network.
+Specifically, it can find sites and pages that pertain to Kubernetes' deployments
+and show very contextually relevant ads on them.
+Marketers reach the right audience and developers don't get off topic ads.&lt;/p&gt;
+&lt;p&gt;Now, you might be thinking, "AI-targeted ads and privacy? Ya right!".
+However, instead of relying on data collection,
+modern machine learning algorithms can analyze pages
+where ads appear and see how similar they are to the ad itself, the company's website and landing pages
+without needing to know anything about the user themselves.
+So yes, AI-targeted ads can indeed be great for privacy.
+It's like having your cake and eating it too, but without anyone spying on your cake preferences.&lt;/p&gt;
+&lt;h2 id="niche-targeting-prototype-and-case-study"&gt;Niche targeting prototype and case study&lt;/h2&gt;
+&lt;p&gt;While we're still building and refining the capabilities for this targeting,
+we wanted to show some early examples of just how it will work.
+Here's a &lt;a href="https://www.ethicalads.io/advertisers/similar-pages/?url=https%3A%2F%2Fwww.mongodb.com%2Fatlas"&gt;niche targeting example&lt;/a&gt; where you can see how we're able to target ads
+specifically focusing on MongoDB and databases, when serving a MongoDB ad.&lt;/p&gt;
+&lt;div class="postimage text-center"&gt;
+  &lt;img class="w-75 shadow-lg" src="https://www.ethicalads.io/images/posts/niche-targeting.png" alt="Niche targeting for MongoDB which matches MongoDB related content"&gt;
+  &lt;p&gt;&lt;a href="https://www.ethicalads.io/advertisers/similar-pages/?url=https%3A%2F%2Fwww.mongodb.com%2Fatlas"&gt;Niche targeting example for MongoDB&lt;/a&gt; which matches MongoDB related content&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;If you sell a developer-focused product, you can
+&lt;a href="https://www.ethicalads.io/advertisers/similar-pages/?url=https%3A%2F%2Fwww.mongodb.com%2Fatlas"&gt;try it&lt;/a&gt; with your own landing page
+and see some of the closest matching across our network.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Tip: the more verbose your landing page is and the more it describes your product in specific terms,
+the better this will work.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;We're still refining this and we plan to replace the fairly generic AI model we're using
+with a model with more knowledge of the different developer tools, technologies,
+and languages. There's also a lot of knobs to twist to set how close an ad needs to be
+to the page it appears to be "close enough" but all those details are coming together.&lt;/p&gt;
+&lt;h2 id="conclusion"&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;While this approach is still in its early stages,
+the end goal is that this new niche targeting will allow us to show ads for almost any product
+on highly relevant pages and get great ad performance.
+Like search ads, it will let marketers reach people already using the relevant technologies
+to the product being offered.&lt;/p&gt;
+&lt;p&gt;This is our vision for developer marketing and we're excited with the early results we're seeing.
+&lt;a href="https://www.ethicalads.io/advertisers/similar-pages/?url=https%3A%2F%2Fwww.mongodb.com%2Fatlas"&gt;Try the demo&lt;/a&gt; with your product or service
+and if the matching pages look like good places where your ad could reach the audience you're looking for,
+&lt;a href="https://www.ethicalads.io/advertisers/#inbound-form"&gt;let's chat&lt;/a&gt; about your next campaign.&lt;/p&gt;</content><category term="posts"></category><category term="content-targeting"></category></entry><entry><title>EthicalAds Newsletter - July 2024</title><link href="https://www.ethicalads.io/blog/2024/07/ethicalads-newsletter-july-2024/" rel="alternate"></link><published>2024-07-08T00:00:00-07:00</published><updated>2024-07-08T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2024-07-08:/blog/2024/07/ethicalads-newsletter-july-2024/</id><summary type="html">&lt;h2 id="new-features-from-the-previous-month"&gt;New features from the previous month&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;We released a downloadable &lt;a href="https://www.ethicalads.io/advertisers/creatives-that-convert/"&gt;"Creatives that Convert"&lt;/a&gt; guide
   with data specific to our network …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h2 id="new-features-from-the-previous-month"&gt;New features from the previous month&lt;/h2&gt;
@@ -235,6 +298,8 @@ We did this by training a model with ~100 examples of each topic,
 and then storing the topics in our database for fast ad serving.&lt;/p&gt;
 &lt;p&gt;This gave us a good starting point for targeting ads by topic,
 but we wanted to get more granular.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This post is written for developers, but if you're interested in how this applies to marketers, check out our
+&lt;a href="https://www.ethicalads.io/blog/2024/07/ai-powered-niche-targeting-for-developer-marketers/"&gt;marketing-focused post&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 &lt;h2 id="targeting-each-page-individually-with-embeddings"&gt;Targeting each page individually with embeddings&lt;/h2&gt;
 &lt;p&gt;Our new approach is to use &lt;a href="https://en.wikipedia.org/wiki/Word_embedding"&gt;word embeddings&lt;/a&gt; to represent both the advertisers landing page and the publisher pages.
 This allows us to generate a representation of these pages,
