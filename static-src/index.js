@@ -35,8 +35,9 @@ import * as bootstrap from 'bootstrap';
 //import './landkit/js/fancybox.js';
 
 // Flickity is for flickable carousels
-//import * as flickity from 'flickity';
-//import * as flickityfade from 'flickity-fade';
+// Import flickity (horizontal scroll carousel)
+import * as flickity from 'flickity';
+import * as flickityfade from 'flickity-fade';
 
 // HighlightJS is for syntax highlighting
 // I'm not sure what Landkit uses it for
