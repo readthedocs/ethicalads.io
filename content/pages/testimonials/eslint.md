@@ -1,4 +1,4 @@
-title: ESLint Uses EthicalAds
+title: ESLint Recommends EthicalAds
 slug: eslint
 url: publishers/eslint/
 save_as: publishers/eslint/index.html
