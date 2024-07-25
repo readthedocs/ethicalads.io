@@ -3,6 +3,8 @@ Date: February 13, 2019
 description: Over the last month, we talked to a few dozen hiring managers and recruiters and we wanted to share some tips that could be useful for candidates looking to land their first tech job
 tags: hiring, readthedocs
 authors: David Fischer
+image: /images/posts/2019-hiring-interviews.jpg
+image_credit: <span>Photo by <a href="https://unsplash.com/@austindistel?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Austin Distel</a> on <a href="https://unsplash.com/photos/three-men-using-macbooks-_S7-KX8geL0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></span>
 
 
 > This post first appeared

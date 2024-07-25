@@ -69,14 +69,14 @@ PAGE_SAVE_AS = "{slug}/index.html"
 ARTICLE_URL = "blog/{date:%Y}/{date:%m}/{slug}/"
 ARTICLE_SAVE_AS = "blog/{date:%Y}/{date:%m}/{slug}/index.html"
 INDEX_SAVE_AS = "blog/index.html"
+TAG_URL = TAG_SAVE_AS = "blog/tag/{slug}.html"
+
 # Templates for these pages are not yet styled for the ethicalads-theme
 AUTHOR_URL = AUTHOR_SAVE_AS = ""
 CATEGORY_URL = CATEGORY_SAVE_AS = ""
-TAG_URL = TAG_SAVE_AS = ""
 ARCHIVES_SAVE_AS = ""
 AUTHORS_SAVE_AS = ""
 CATEGORIES_SAVE_AS = ""
-TAGS_SAVE_AS = ""
 
 DEFAULT_METADATA = {
     # Used to fill out the pricing matrix
