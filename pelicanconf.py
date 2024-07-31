@@ -70,7 +70,7 @@ ARTICLE_URL = "blog/{date:%Y}/{date:%m}/{slug}/"
 ARTICLE_SAVE_AS = "blog/{date:%Y}/{date:%m}/{slug}/index.html"
 INDEX_SAVE_AS = "blog/index.html"
 TAG_URL = TAG_SAVE_AS = "blog/tags/{slug}/index.html"
-TAGS_SAVE_AS = "/blog/tags/index.html"
+TAGS_SAVE_AS = "blog/tags/index.html"
 
 # Templates for these pages are not yet styled for the ethicalads-theme
 AUTHOR_URL = AUTHOR_SAVE_AS = ""
