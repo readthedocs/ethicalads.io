@@ -23,7 +23,7 @@ image_credit: <span>Photo by <a href="https://unsplash.com/@mattragland?utm_cont
   create compelling ads.
 * We made a small change to show the domain where the user will go
   when they click on an ad. This is a good move we've wanted to make in the name
-  of transparency, one of our core differentiators as an ad network.
+  of user experience and transparency, a couple of our core differentiators as an ad network.
 
 
 You can always see our latest server updates in our
