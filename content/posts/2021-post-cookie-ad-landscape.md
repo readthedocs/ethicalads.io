@@ -16,6 +16,8 @@ which block most third-party tracking out of the box.
 As more details started to come out about Google's vision, however,
 things started to get a bit murkier.
 
+*Update: After delaying phasing out third-party cookies multiple times and sometimes for reasons legitimately outside their control, Google is [no longer phasing out third-party cookies](https://privacysandbox.com/news/privacy-sandbox-update/). They will instead "introduce a new experience in Chrome that lets people make an informed choice that applies across their web browsing".*
+
 
 ## Google's vision for the future of ads
 
