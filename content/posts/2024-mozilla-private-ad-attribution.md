@@ -26,7 +26,7 @@ and what it means for privacy and advertising more generally.
 
 ## What is ad attribution and how does it work?
 
-Ad attribution is just measuring the effectiveness of marketing channels
+Ad attribution is simply the measuring the effectiveness of marketing channels
 and is usually measured in terms of impressions, clicks, new site visitors, and ultimately conversions and ROI.
 At some level, ad attribution is necessary.
 Advertisers want to know that the money they're spending on advertising is working.
