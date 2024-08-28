@@ -194,7 +194,7 @@ and see if we can verify some of these claims.
 ## Conclusion
 
 So far, there's been pretty wide agreement that some methods of ad attribution
-are more invasive than others and bad for users' privacy.
+are more invasive than others and are bad for users' privacy.
 At EthicalAds, we think that a lot of people would benefit from more privacy-friendly ways of advertising.
 However, as long as the less privacy friendly ways of doing ad attribution
 are possible, legal, and the norm, there probably won't be much interest from advertisers
