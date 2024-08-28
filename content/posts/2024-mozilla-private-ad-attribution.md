@@ -63,7 +63,7 @@ Google Chrome's [now scrapped](https://privacysandbox.com/news/privacy-sandbox-u
 plans to [kill third-party cookies]({filename}../posts/2021-post-cookie-ad-landscape.md)
 were supposed to herald the end of some of the worst kinds of attribution
 as well as some forms of invasive ad targeting.
-However, it looks like those will be sticking around for a while longer.
+However, with Google reversing their decision, these attribution methods will continue for a while longer.
 
 <div class="postimage text-center">
   <img class="w-75" src="{static}../images/posts/2024-mozilla-privacy-anonym.png" alt="Anonym's promise for ad attribution">
