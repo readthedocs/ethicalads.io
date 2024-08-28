@@ -142,7 +142,7 @@ This allows Brave to report that conversion back in their ad reporting tools.
 
 ## How does private ad attribution work and what's Mozilla testing?
 
-Many people on HackerNews seemed to view Mozilla working on ad technology as a betrayal.
+Many developers on HackerNews and elsewhere seemed to view Mozilla working on ad technology as a betrayal.
 However, Mozilla has consistently tried to balance commercial benefits and public benefits
 and has been open in the past to [privacy-preserving advertising](https://blog.mozilla.org/en/mozilla/the-future-of-ads-and-privacy/).
 Like us, Mozilla believes that advertising without invasive tracking is possible.
