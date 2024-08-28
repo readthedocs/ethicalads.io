@@ -132,12 +132,16 @@ which are the non-privacy friendly way of doing ad measurement and attribution.
 [Brave Browser](https://brave.com/) blocks many analytics tools like Google Analytics
 that helps advertisers report on their campaigns.
 Many of those same tools can be used to track users across the web.
-However, Brave also sells advertising and so they have built some [ad reporting](https://ads-help.brave.com/campaign-performance/reporting/)
+However, Brave also sells advertising and so they have built some [ad attribution](https://ads-help.brave.com/campaign-performance/reporting/#conversion-reporting-in-brave-ads-manager)
 directly into their browser.
 
 When a user clicks on an ad in Brave,
 the Brave Browser watches if that user later visits a page that represents a conversion for that ad.
 This allows Brave to report that conversion back in their ad reporting tools.
+I couldn't find a lot of details on exactly how this works
+and the [details I could find](https://github.com/brave/brave-browser/wiki/Security-and-privacy-model-for-ad-confirmations)
+related more to the blockchain-based rewards
+Brave gives to users who interact with ads.
 
 
 ## How does private ad attribution work and what's Mozilla testing?
