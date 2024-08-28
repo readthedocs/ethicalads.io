@@ -167,7 +167,7 @@ As in Apple's approach, they intend to pass data through an anonymous proxy
 in order to make sure the relevant parties don't pass around users' IP addresses.
 
 One big difference is that Mozilla is turning on PPA by default in Firefox.
-This was one of the big points of contention among the developer crowd on HackerNews.
+This was one of the big points of contention among the developer and privacy communities.
 However, for starters at least, it can only be used for Mozilla's own ad campaigns
 on [Mozilla Developer Network (MDN)](https://developer.mozilla.org/en-US/).
 They call this kind of restriction an ["origin trial"](https://wiki.mozilla.org/Origin_Trials) because it is restricted by origin.
