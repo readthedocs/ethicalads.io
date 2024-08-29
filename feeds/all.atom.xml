@@ -1,5 +1,169 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/all.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2024-08-13T00:00:00-07:00</updated><entry><title>EthicalAds Newsletter - August 2024</title><link href="https://www.ethicalads.io/blog/2024/08/ethicalads-newsletter-august-2024/" rel="alternate"></link><published>2024-08-13T00:00:00-07:00</published><updated>2024-08-13T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2024-08-13:/blog/2024/08/ethicalads-newsletter-august-2024/</id><summary type="html">&lt;h2 id="new-features-from-the-previous-month"&gt;New features from the previous month&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/all.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2024-08-29T00:00:00-07:00</updated><entry><title>Mozilla's privacy preserving ad attribution: The future or an oxymoron?</title><link href="https://www.ethicalads.io/blog/2024/08/mozillas-privacy-preserving-ad-attribution-the-future-or-an-oxymoron/" rel="alternate"></link><published>2024-08-29T00:00:00-07:00</published><updated>2024-08-29T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2024-08-29:/blog/2024/08/mozillas-privacy-preserving-ad-attribution-the-future-or-an-oxymoron/</id><summary type="html">&lt;p&gt;Back in June,
+&lt;a href="https://blog.mozilla.org/en/mozilla/mozilla-anonym-raising-the-bar-for-privacy-preserving-digital-advertising/"&gt;Mozilla acquired&lt;/a&gt;
+privacy-centric ad measurement company &lt;a href="https://www.anonymco.com/"&gt;Anonym&lt;/a&gt;
+which was founded a few years back by some senior …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Back in June,
+&lt;a href="https://blog.mozilla.org/en/mozilla/mozilla-anonym-raising-the-bar-for-privacy-preserving-digital-advertising/"&gt;Mozilla acquired&lt;/a&gt;
+privacy-centric ad measurement company &lt;a href="https://www.anonymco.com/"&gt;Anonym&lt;/a&gt;
+which was founded a few years back by some senior Meta staff.
+Then last week, Mozilla unveiled plans for testing
+&lt;a href="https://blog.mozilla.org/netpolicy/2024/08/22/ppa-update/"&gt;privacy preserving attribution&lt;/a&gt;.
+Judging from the &lt;a href="https://news.ycombinator.com/item?id=41311479"&gt;HackerNews sentiment&lt;/a&gt;,
+it was not well received.&lt;/p&gt;
+&lt;p&gt;Clearly we operate an ad network so our opinions are biased.
+We firmly believe that advertising can be effective without invasive tracking
+and we built a profitable business around it.
+In this post I'm going to dive deeper into ad attribution,
+what Mozilla is actually doing
+and what it means for privacy and advertising more generally.&lt;/p&gt;
+&lt;h2 id="what-is-ad-attribution-and-how-does-it-work"&gt;What is ad attribution and how does it work?&lt;/h2&gt;
+&lt;p&gt;Ad attribution is simply the measuring the effectiveness of marketing channels
+and is usually measured in terms of impressions, clicks, new site visitors, and ultimately conversions and ROI.
+At some level, ad attribution is necessary.
+Advertisers want to know that the money they're spending on advertising is working.
+Otherwise, they'll save their money.
+They want to cut channels that don't work well and spend more on ad channels that do.
+Nothing wrong with that.&lt;/p&gt;
+&lt;p&gt;The most basic level of ad attribution is to use query or UTM parameters
+in the URL that attribute a user who visits an advertiser's website
+to a particular source like paid advertising, social media, or other sources.
+Think something like &lt;code&gt;advertiser.com?utm_source=ethicalads&lt;/code&gt;.
+Having a landing page specific to a paid ad channel (&lt;code&gt;advertiser.com/ethicalads&lt;/code&gt;)
+or having a promo code for a specific channel ("use promo code EthicalAds at checkout")
+works similarly.
+When somebody buys a product from an advertiser, the advertiser knows
+whether that user came from paid ads or another channel.&lt;/p&gt;
+&lt;p&gt;However, as ad campaigns get optimized and as some large ad platforms get control of the market,
+ad attribution can sometimes get a little sketchy.
+Another common way attribution works is using pixels or beacons.
+To give a concrete example, if a person clicks an ad on Facebook that points to an ecommerce site,
+the ecommerce site will usually have a Facebook pixel on their product pages, shopping cart pages and checkout page.
+Facebook can then see how the ad click performed,
+which items were &lt;a href="https://www.facebook.com/business/help/256019281275126/"&gt;added to their cart&lt;/a&gt;,
+and if a &lt;a href="https://www.facebook.com/business/help/339239069606476"&gt;purchase was made&lt;/a&gt;.
+This data can then feed into an ad optimization loop within Facebook.
+Facebook will then offer to "optimize the ad campaign for conversions".
+At EthicalAds, we have taken a hard stand against these kinds of ad pixels that track people across the web.&lt;/p&gt;
+&lt;p&gt;A lot of privacy conscious users aren't too keen on being tracked across sites they browse
+and that has led to a number of efforts to try to do ad attribution
+without compromising user privacy.
+Google Chrome's &lt;a href="https://privacysandbox.com/news/privacy-sandbox-update/"&gt;now scrapped&lt;/a&gt;
+plans to &lt;a href="https://www.ethicalads.io/blog/2021/03/cookie-changes-are-coming-to-ad-tech/"&gt;kill third-party cookies&lt;/a&gt;
+were supposed to herald the end of some of the worst kinds of attribution
+as well as some forms of invasive ad targeting.
+However, with Google reversing their decision, these attribution methods will continue for a while longer.&lt;/p&gt;
+&lt;div class="postimage text-center"&gt;
+  &lt;img class="w-75" src="https://www.ethicalads.io/images/posts/2024-mozilla-privacy-anonym.png" alt="Anonym's promise for ad attribution"&gt;
+  &lt;p class="w-75 m-auto"&gt;&lt;small&gt;Anonym's promise for ad attribution: all the advertiser targeting benefits without compromising privacy (credit: &lt;a rel="noopener noreferrer nofollow" href="https://www.anonymco.com/"&gt;Anonym's website&lt;/a&gt;)&lt;/small&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h2 id="current-landscape-of-privacy-preserving-attribution"&gt;Current landscape of privacy-preserving attribution&lt;/h2&gt;
+&lt;p&gt;In response to the outcry against tracking,
+there's quite a few methods ad providers have tried
+when it comes to private ad attribution.
+Nobody seems to agree on how to do it.
+At EthicalAds, we don't measure conversions for advertisers at all
+because we haven't found a method that we've been happy with from a privacy perspective
+and the methods outlined here that others have tried require controlling the browser:&lt;/p&gt;
+&lt;h3 id="private-click-measurement-apple"&gt;Private Click Measurement (Apple)&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://webkit.org/blog/11529/introducing-private-click-measurement-pcm/"&gt;Private Click Measurement&lt;/a&gt; (PCM)
+is an experimental, opt-in feature in the Safari browser championed by Apple.
+It allows sites with advertising and ad networks to collect data on conversions
+while having a number of &lt;a href="https://privacycg.github.io/private-click-measurement/#privacy"&gt;privacy protections&lt;/a&gt; to prevent cross-site tracking and attributing actions to specific users.
+The way it works is that the site that the ads points to will inform the browser of a conversion
+and the browser will at a later date report the conversion
+through a proxy so the ad clicker's IP is not leaked.&lt;/p&gt;
+&lt;p&gt;Apple &lt;a href="https://developer.apple.com/videos/play/wwdc2021/10033/"&gt;promoted this pretty hard&lt;/a&gt;
+back in 2021 and 2022 but it never seemed to get off the ground.
+As an interesting history, &lt;a href="https://blog.mozilla.org/en/mozilla/understanding-apples-private-click-measurement/"&gt;Mozilla released a blog&lt;/a&gt;
+and &lt;a href="https://mozilla.github.io/ppa-docs/pcm.pdf"&gt;a more detailed analysis&lt;/a&gt;
+of it that wasn't too favorable.
+Because these kinds of proposals need to be implemented by multiple browsers
+to become a standard, this all but killed Private Click Measurement.&lt;/p&gt;
+&lt;p&gt;At EthicalAds, when Apple was promoting PCM, we tested it with our ad server.
+It seemed like a promising approach, but there was no interest in PCM
+from our advertisers so we never moved past testing.&lt;/p&gt;
+&lt;h3 id="attribution-reporting-google"&gt;Attribution Reporting (Google)&lt;/h3&gt;
+&lt;p&gt;Google is (was?) working on a number of privacy focused advertising features
+as part of their &lt;a href="https://privacysandbox.com"&gt;Privacy Sandbox&lt;/a&gt; initiative.
+One part of the Privacy Sandbox is &lt;a href="https://developers.google.com/privacy-sandbox/relevance/attribution-reporting"&gt;Attribution Reporting&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Attribution Reporting is currently an experimental, opt-in feature in Chrome
+that is somewhat similar to Safari's PCM.
+However, it differs by allowing measuring ad views in addition to clicks and conversions
+and has more entropy -- more bits sent to the advertiser or ad network --
+that could be used for more granular tracking of individual users
+although far less than would be possible with a cookie.&lt;/p&gt;
+&lt;p&gt;A major reason for the Privacy Sandbox features, however, was that Chrome was deprecating and removing
+third-party cookies (as Safari and Firefox did) and that has been put on hold indefinitely.
+As a result, it's unclear what will happen with Google's Attribution Reporting.&lt;/p&gt;
+&lt;p&gt;Like PCM, we've never had an advertiser ask about this type of attribution reporting from Google
+although we get requests (and respectfully decline) for Google ad pixels
+which are the non-privacy friendly way of doing ad measurement and attribution.&lt;/p&gt;
+&lt;h3 id="ad-confirmations-brave"&gt;Ad Confirmations (Brave)&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://brave.com/"&gt;Brave Browser&lt;/a&gt; blocks many analytics tools like Google Analytics
+that helps advertisers report on their campaigns.
+Many of those same tools can be used to track users across the web.
+However, Brave also sells advertising and so they have built some &lt;a href="https://ads-help.brave.com/campaign-performance/reporting/#conversion-reporting-in-brave-ads-manager"&gt;ad attribution&lt;/a&gt;
+directly into their browser.&lt;/p&gt;
+&lt;p&gt;When a user clicks on an ad in Brave,
+the Brave Browser watches if that user later visits a page that represents a conversion for that ad.
+This allows Brave to report that conversion back in their ad reporting tools.
+I couldn't find a lot of details on exactly how this works
+and the &lt;a href="https://github.com/brave/brave-browser/wiki/Security-and-privacy-model-for-ad-confirmations"&gt;details I could find&lt;/a&gt;
+related more to the blockchain-based rewards
+Brave gives to users who interact with ads.&lt;/p&gt;
+&lt;h2 id="how-does-private-ad-attribution-work-and-whats-mozilla-testing"&gt;How does private ad attribution work and what's Mozilla testing?&lt;/h2&gt;
+&lt;p&gt;Many developers on HackerNews and elsewhere seemed to view Mozilla working on ad technology as a betrayal.
+However, Mozilla has consistently tried to balance commercial benefits and public benefits
+and has been open in the past to &lt;a href="https://blog.mozilla.org/en/mozilla/the-future-of-ads-and-privacy/"&gt;privacy-preserving advertising&lt;/a&gt;.
+Like us, Mozilla believes that advertising without invasive tracking is possible.&lt;/p&gt;
+&lt;blockquote class="blockquote mb-2"&gt;
+  &lt;p class="mb-2"&gt;
+    “Commercial involvement in the development of the internet brings many benefits; a balance between commercial profit and public benefit is critical.”
+  &lt;/p&gt;
+  &lt;p class="small"&gt;- &lt;a href="https://www.mozilla.org/en-US/about/manifesto/#principles-09"&gt;The Mozilla Manifesto&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Based on what &lt;a href="https://blog.mozilla.org/en/mozilla/mozilla-anonym-raising-the-bar-for-privacy-preserving-digital-advertising/"&gt;Mozilla has said publicly&lt;/a&gt;
+about Privacy-Preserving Attribution (PPA),
+their approach has a number of similarities to Apple's and Google's
+but there's a few differences.
+Also, although Meta isn't mentioned in their blog post,
+Meta collaborated with Mozilla on their approach.&lt;/p&gt;
+&lt;p&gt;Like Apple's and Google's approach, Mozilla plans to have a method
+for the browser itself to record ad impressions and conversions.
+As in Apple's approach, they intend to pass data through an anonymous proxy
+in order to make sure the relevant parties don't pass around users' IP addresses.&lt;/p&gt;
+&lt;p&gt;One big difference is that Mozilla is turning on PPA by default in Firefox.
+This was one of the big points of contention among the developer and privacy communities.
+However, for starters at least, it can only be used for Mozilla's own ad campaigns
+on &lt;a href="https://developer.mozilla.org/en-US/"&gt;Mozilla Developer Network (MDN)&lt;/a&gt;.
+They call this kind of restriction an &lt;a href="https://wiki.mozilla.org/Origin_Trials"&gt;"origin trial"&lt;/a&gt; because it is restricted by origin.&lt;/p&gt;
+&lt;p&gt;Another big difference is the level of complexity of the proposal.
+Apple's PCM implementation is actually pretty simple and attempts to keep data safe by collecting relatively little of it.
+Google's proposal is also relatively straight-forward although, as I mentioned, weaker on privacy.
+By contrast, Mozilla's proposal seems a lot more complex.&lt;/p&gt;
+&lt;p&gt;PPA involves dividing up attribution data into pieces,
+adding sufficient statistical noise to ensure privacy,
+encrypting the pieces,
+sending the parts up to different parties,
+and then restricting the types of aggregation reports
+possible that combine the two parts.
+We'll have to see how their test on MDN goes
+and see if we can verify some of these claims.&lt;/p&gt;
+&lt;div class="postimage text-center"&gt;
+  &lt;img class="w-75" src="https://www.ethicalads.io/images/posts/2024-mozilla-ad-attribution.png" alt="Mozilla's proposal for ad attribution"&gt;
+  &lt;p class="w-75 m-auto"&gt;&lt;small&gt;From Mozilla's &lt;a rel="noopener noreferrer nofollow" href="https://docs.google.com/document/d/1QMHkAQ4JiuJkNcyGjAkOikPKNXAzNbQKILqgvSNIAKw/edit"&gt;Outline of a private attribution measurement API&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h2 id="conclusion"&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;So far, there's been pretty wide agreement that some methods of ad attribution
+are more invasive than others and are bad for users' privacy.
+At EthicalAds, we think that a lot of people would benefit from more privacy-friendly ways of advertising.
+However, as long as the less privacy friendly ways of doing ad attribution
+are possible, legal, and the norm, there probably won't be much interest from advertisers
+in other methods.
+We are watching what Mozilla is doing with interest but it might just become &lt;a href="https://xkcd.com/927/"&gt;yet another competing standard&lt;/a&gt;.&lt;/p&gt;</content><category term="posts"></category><category term="privacy"></category><category term="adtech"></category><category term="fingerprinting"></category><category term="attribution"></category></entry><entry><title>EthicalAds Newsletter - August 2024</title><link href="https://www.ethicalads.io/blog/2024/08/ethicalads-newsletter-august-2024/" rel="alternate"></link><published>2024-08-13T00:00:00-07:00</published><updated>2024-08-13T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2024-08-13:/blog/2024/08/ethicalads-newsletter-august-2024/</id><summary type="html">&lt;h2 id="new-features-from-the-previous-month"&gt;New features from the previous month&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;We released some quality of life improvements for advertisers
   around cropping and resizing ads …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h2 id="new-features-from-the-previous-month"&gt;New features from the previous month&lt;/h2&gt;
@@ -627,6 +791,7 @@ and especially smaller ad networks.
 This post aims to serve as a guide to what's changing, why it's changing,
 what we expect the second order effects of the change will be,
 and how advertisers can succeed anyway.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Update: Google is &lt;a href="https://privacysandbox.com/news/privacy-sandbox-update/"&gt;no longer phasing out third-party cookies&lt;/a&gt; and will instead "introduce a new experience in Chrome that lets people make an informed choice that applies across their web browsing".&lt;/em&gt;&lt;/p&gt;
 &lt;h2 id="third-party-cookies-history-and-phase-out"&gt;Third-party cookies, history and phase-out&lt;/h2&gt;
 &lt;p&gt;Need a brief explainer on cookies, first-party vs. third-party, and why cookies are both
 necessary and ripe for abuse? Check out this brief video from &lt;a href="https://www.youtube.com/playlist?list=PLFlAJDI87Jg1It3hFaH61sYytK1lAU7fG"&gt;#AskFirefox&lt;/a&gt;:&lt;/p&gt;
@@ -5162,7 +5327,7 @@ is the reason we built the EthicalAds network.
 There are lots of developer-focused sites that are too small to sell ads directly.
 If you're looking for an ad network that won't compromise your audience,
 &lt;a href="https://www.ethicalads.io/publishers/"&gt;join EthicalAds&lt;/a&gt; and help preserve privacy on the web!&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Thanks to Greg Muscarella for the inspiration and feedback on this post.&lt;/em&gt;&lt;/p&gt;</content><category term="posts"></category><category term="ad-tech"></category><category term="publishers"></category></entry><entry><title>Willful Words and Pretty Pictures</title><link href="https://www.ethicalads.io/blog/2021/05/willful-words-and-pretty-pictures/" rel="alternate"></link><published>2021-05-20T00:00:00-07:00</published><updated>2021-05-20T00:00:00-07:00</updated><author><name>Ra Cohen</name></author><id>tag:www.ethicalads.io,2021-05-20:/blog/2021/05/willful-words-and-pretty-pictures/</id><summary type="html">&lt;h2 id="about-me"&gt;About Me&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Thanks to Greg Muscarella for the inspiration and feedback on this post.&lt;/em&gt;&lt;/p&gt;</content><category term="posts"></category><category term="adtech"></category><category term="publishers"></category></entry><entry><title>Willful Words and Pretty Pictures</title><link href="https://www.ethicalads.io/blog/2021/05/willful-words-and-pretty-pictures/" rel="alternate"></link><published>2021-05-20T00:00:00-07:00</published><updated>2021-05-20T00:00:00-07:00</updated><author><name>Ra Cohen</name></author><id>tag:www.ethicalads.io,2021-05-20:/blog/2021/05/willful-words-and-pretty-pictures/</id><summary type="html">&lt;h2 id="about-me"&gt;About Me&lt;/h2&gt;
 &lt;p&gt;I tried to backpeddle. "No one is personally listening in to your conversations, grandma, it was an analogy …&lt;/p&gt;</summary><content type="html">&lt;h2 id="about-me"&gt;About Me&lt;/h2&gt;
 &lt;p&gt;I tried to backpeddle. "No one is personally listening in to your conversations, grandma, it was an analogy." Explaining my new job to my grandmother was not going well. Bemoaning the evils of modern Ad Tech by highlighting how coporations were tracking her around the web &lt;em&gt;may&lt;/em&gt; not have been the wisest approach. Knowing that my grandmother is an avid online shopper, I tried another tact, "You know how when you're reading the news, you get those big flashy banners for stuff you already looked at and decided to not buy?"  "Oh, I see those all of the time!" Progress. "Yeah! They're big and flashy and purposefully annoying in order to distract you? My company is an advertising network that connects developer-focused publishers," "Developers?" Right, to my grandmother a developer worked in real estate. "Coders, like me - we connect techy publishers with relevant, respectful ads for products that actually work. And we do it without storing any information about you or what you were looking at!" My enthusiasm was met with silence and I was worried that I'd lost her again, "Grandma?" Hesitantly she spoke, "But does &lt;strong&gt;&lt;em&gt;it&lt;/em&gt;&lt;/strong&gt; work? Honey, my dad always said the louder the soap salesman, the more soap he'll sell." She then told me a story of her father, my great-grandfather, who was in fact a soap salesman himself.&lt;/p&gt;
 &lt;p&gt;One morning in the summer of 1938, my great-grandfather was out for a walk by the river early and he noticed people washing their clothing in the river without bar soap. He decided then and there to tap that market and would go down on his walk every morning with a box full of soap to sell. Selling by the river early in the morning before the factory opened worked incredibly well, until other soap vendors realized the simplistic brilliance of his approach. Soon my great-grandfather was in competition and learned that he had to get creative with drawing attention. My grandmother cautioned me, "The loud, charismatic vendor inevitably sells more soap than the quiet, reserved one." Oy. This is the mindset that has been shaping advertising for the past 100 years; this is how we have arrived at the current state of the internet, almost unbrowsable without an ad-blocker thanks to pop-ups, banner ads, and booby-trapped x's. At least, we were getting somewhere. She definitely understood that our publishers were our river and that we are the soap-sellers, but how do I explain ad-blockers? So I asked my grandma "What if yelling was out-lawed?" "Make yelling illegal?" she repeated incredulously. I told her a little bit about how ad-blockers worked, mildly surprised that I hadn't already set her up with one when I set up her laptop, and explained that EthicalAds gets around ad-blockers &lt;em&gt;because&lt;/em&gt; our ads are quiet and reserved. "Hmmm..."  After careful consideration, she made up her mind.&lt;/p&gt;
@@ -5333,6 +5498,7 @@ This would put Chrome, the most popular browser, on a similar footing to Safari 
 which block most third-party tracking out of the box.
 As more details started to come out about Google's vision, however,
 things started to get a bit murkier.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Update: After delaying phasing out third-party cookies multiple times and sometimes for reasons legitimately outside their control, Google is &lt;a href="https://privacysandbox.com/news/privacy-sandbox-update/"&gt;no longer phasing out third-party cookies&lt;/a&gt;. They will instead "introduce a new experience in Chrome that lets people make an informed choice that applies across their web browsing".&lt;/em&gt;&lt;/p&gt;
 &lt;h2 id="googles-vision-for-the-future-of-ads"&gt;Google's vision for the future of ads&lt;/h2&gt;
 &lt;p&gt;In Google's vision, ads targeted to users' interests aren't going away but are merely changing.
 Built on Google's &lt;a href="https://www.chromium.org/Home/chromium-privacy/privacy-sandbox"&gt;Privacy Sandbox&lt;/a&gt;,

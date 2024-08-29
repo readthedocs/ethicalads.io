@@ -4,18 +4,18 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 <meta name="generator" content="Pelican" />
-<meta property="og:site_name" content="EthicalAds"/><meta name="description" content="In this post we&#39;ll share some examples of cookieless advertising working well, and show how it can work for you too." />
-    <meta property="og:description" content="In this post we&#39;ll share some examples of cookieless advertising working well, and show how it can work for you too." /><meta name="tags" content="privacy" /><meta name="tags" content="gdpr" /><meta name="tags" content="adtech" /><meta name="author" content="David Fischer" /><meta property="og:type" content="article">
-  <meta property="og:title" content="The Cookieless Ad Future: Does Cookieless Advertising Work?" />
-  <meta property="twitter:title" content="The Cookieless Ad Future: Does Cookieless Advertising Work?" /><meta property="og:image" content="https://www.ethicalads.io/images/posts/2024-cookieless-advertising.jpg" />
-    <meta property="twitter:image" content="https://www.ethicalads.io/images/posts/2024-cookieless-advertising.jpg" /><meta property="article:published_time" content="2024-01-30" />
+<meta property="og:site_name" content="EthicalAds"/><meta name="description" content="Mozilla is the latest company to work on privacy-preserving ad attribution. Is &#34;privacy preserving ad attribution&#34; an oxymoron? Is it even possible? And if it is, should Mozilla do it?" />
+    <meta property="og:description" content="Mozilla is the latest company to work on privacy-preserving ad attribution. Is &#34;privacy preserving ad attribution&#34; an oxymoron? Is it even possible? And if it is, should Mozilla do it?" /><meta name="tags" content="privacy" /><meta name="tags" content="adtech" /><meta name="tags" content="fingerprinting" /><meta name="tags" content="attribution" /><meta name="author" content="David Fischer" /><meta property="og:type" content="article">
+  <meta property="og:title" content="Mozilla&#39;s privacy preserving ad attribution: The future or an oxymoron?" />
+  <meta property="twitter:title" content="Mozilla&#39;s privacy preserving ad attribution: The future or an oxymoron?" /><meta property="og:image" content="https://www.ethicalads.io/images/posts/2024-mozilla-ppa-jumbotron.jpg" />
+    <meta property="twitter:image" content="https://www.ethicalads.io/images/posts/2024-mozilla-ppa-jumbotron.jpg" /><meta property="article:published_time" content="2024-08-29" />
       <!-- Bootstrap CSS -->
       <link rel="stylesheet" href="/theme/dist/main.css">
 
-      <title>The Cookieless Ad Future: Does Cookieless Advertising Work? - EthicalAds</title>
+      <title>Mozilla's privacy preserving ad attribution: The future or an oxymoron? - EthicalAds</title>
 
-  <link rel="canonical" href="https://www.ethicalads.io/blog/2024/01/the-cookieless-ad-future-does-cookieless-advertising-work/" />
-  <meta property="og:url" content="https://www.ethicalads.io/blog/2024/01/the-cookieless-ad-future-does-cookieless-advertising-work/" />
+  <link rel="canonical" href="https://www.ethicalads.io/blog/2024/08/mozillas-privacy-preserving-ad-attribution-the-future-or-an-oxymoron/" />
+  <meta property="og:url" content="https://www.ethicalads.io/blog/2024/08/mozillas-privacy-preserving-ad-attribution-the-future-or-an-oxymoron/" />
 
       <!-- Feeds -->
         <link href="https://www.ethicalads.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="EthicalAds Full Atom Feed" />
@@ -95,7 +95,7 @@
   <div class="row justify-content-center">
     <div class="col-12 col-md-10 col-lg-9 col-xl-8">
       <!-- Heading -->
-      <h1 class="display-4">The Cookieless Ad Future: Does Cookieless Advertising Work?</h1>
+      <h1 class="display-4">Mozilla's privacy preserving ad attribution: The future or an oxymoron?</h1>
 
       <!-- Meta -->
       <div class="row align-items-center py-5 border-top border-bottom">
@@ -107,7 +107,7 @@
 
             <!-- Date -->
             <div class="flex-fill h6 text-uppercase text-muted mb-0 ml-auto text-right">
-              <time class="text-nowrap" datetime="2024-01-30T00:00:00-08:00">Jan 30, 2024</time>
+              <time class="text-nowrap" datetime="2024-08-29T00:00:00-07:00">Aug 29, 2024</time>
             </div>
           </div>
         </div>
@@ -118,129 +118,176 @@
         <figure class="figure mb-7">
 
           <!-- Image -->
-          <img class="figure-img img-fluid rounded" src="/images/posts/2024-cookieless-advertising.jpg" alt="The Cookieless Ad Future: Does Cookieless Advertising Work?">
+          <img class="figure-img img-fluid rounded" src="/images/posts/2024-mozilla-ppa-jumbotron.jpg" alt="Mozilla's privacy preserving ad attribution: The future or an oxymoron?">
 
           <!-- Caption -->
-        <figcaption class="figure-caption text-center"><small><span>Created with <a href="https://openjourney.ai/" title="creepy ad targeting, invasive advertising, personalized advertising, ads that know what you think, ads that follow you around the internet, watercolor style">OpenJourney</a></span></small></figcaption>
+        <figcaption class="figure-caption text-center"><small><span>Photo by <a href="https://unsplash.com/@nathanguzman?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Nathan  Guzman</a> on <a href="https://unsplash.com/photos/white-wall-paint-room-with-lights-turned-on-in-room-xZCJN3BFkWY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></span></small></figcaption>
 
         </figure>
 
       <div>
-        <p>As an ad network that never uses advertising cookies,
-you probably won't be surprised that we think cookieless advertising does work.
-While many adtech companies will claim that it's impossible do effective advertising
-without tracking, there are countless success stories from both offline advertising
-and even modern Internet advertising (we built a profitable business around it).</p>
-<p>Later this year, third-party cookies, including almost all ad cookies that aren't Google's and Facebook's,
-will stop working in Google Chrome.
-This is going to have a major effect on advertisers, publishers,
-and especially smaller ad networks.
-This post aims to serve as a guide to what's changing, why it's changing,
-what we expect the second order effects of the change will be,
-and how advertisers can succeed anyway.</p>
-<p><em>Update: Google is <a href="https://privacysandbox.com/news/privacy-sandbox-update/">no longer phasing out third-party cookies</a> and will instead "introduce a new experience in Chrome that lets people make an informed choice that applies across their web browsing".</em></p>
-<h2 id="third-party-cookies-history-and-phase-out">Third-party cookies, history and phase-out</h2>
-<p>Need a brief explainer on cookies, first-party vs. third-party, and why cookies are both
-necessary and ripe for abuse? Check out this brief video from <a href="https://www.youtube.com/playlist?list=PLFlAJDI87Jg1It3hFaH61sYytK1lAU7fG">#AskFirefox</a>:</p>
-<div class="postimage text-center ">
-  <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/tAxj-7Bn8-s?si=0eXi8L25XA0AS7NF" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-  </div>
-  <p>#AskFirefox explains cookies</p>
+        <p>Back in June,
+<a href="https://blog.mozilla.org/en/mozilla/mozilla-anonym-raising-the-bar-for-privacy-preserving-digital-advertising/">Mozilla acquired</a>
+privacy-centric ad measurement company <a href="https://www.anonymco.com/">Anonym</a>
+which was founded a few years back by some senior Meta staff.
+Then last week, Mozilla unveiled plans for testing
+<a href="https://blog.mozilla.org/netpolicy/2024/08/22/ppa-update/">privacy preserving attribution</a>.
+Judging from the <a href="https://news.ycombinator.com/item?id=41311479">HackerNews sentiment</a>,
+it was not well received.</p>
+<p>Clearly we operate an ad network so our opinions are biased.
+We firmly believe that advertising can be effective without invasive tracking
+and we built a profitable business around it.
+In this post I'm going to dive deeper into ad attribution,
+what Mozilla is actually doing
+and what it means for privacy and advertising more generally.</p>
+<h2 id="what-is-ad-attribution-and-how-does-it-work">What is ad attribution and how does it work?</h2>
+<p>Ad attribution is simply the measuring the effectiveness of marketing channels
+and is usually measured in terms of impressions, clicks, new site visitors, and ultimately conversions and ROI.
+At some level, ad attribution is necessary.
+Advertisers want to know that the money they're spending on advertising is working.
+Otherwise, they'll save their money.
+They want to cut channels that don't work well and spend more on ad channels that do.
+Nothing wrong with that.</p>
+<p>The most basic level of ad attribution is to use query or UTM parameters
+in the URL that attribute a user who visits an advertiser's website
+to a particular source like paid advertising, social media, or other sources.
+Think something like <code>advertiser.com?utm_source=ethicalads</code>.
+Having a landing page specific to a paid ad channel (<code>advertiser.com/ethicalads</code>)
+or having a promo code for a specific channel ("use promo code EthicalAds at checkout")
+works similarly.
+When somebody buys a product from an advertiser, the advertiser knows
+whether that user came from paid ads or another channel.</p>
+<p>However, as ad campaigns get optimized and as some large ad platforms get control of the market,
+ad attribution can sometimes get a little sketchy.
+Another common way attribution works is using pixels or beacons.
+To give a concrete example, if a person clicks an ad on Facebook that points to an ecommerce site,
+the ecommerce site will usually have a Facebook pixel on their product pages, shopping cart pages and checkout page.
+Facebook can then see how the ad click performed,
+which items were <a href="https://www.facebook.com/business/help/256019281275126/">added to their cart</a>,
+and if a <a href="https://www.facebook.com/business/help/339239069606476">purchase was made</a>.
+This data can then feed into an ad optimization loop within Facebook.
+Facebook will then offer to "optimize the ad campaign for conversions".
+At EthicalAds, we have taken a hard stand against these kinds of ad pixels that track people across the web.</p>
+<p>A lot of privacy conscious users aren't too keen on being tracked across sites they browse
+and that has led to a number of efforts to try to do ad attribution
+without compromising user privacy.
+Google Chrome's <a href="https://privacysandbox.com/news/privacy-sandbox-update/">now scrapped</a>
+plans to <a href="https://www.ethicalads.io/blog/2021/03/cookie-changes-are-coming-to-ad-tech/">kill third-party cookies</a>
+were supposed to herald the end of some of the worst kinds of attribution
+as well as some forms of invasive ad targeting.
+However, with Google reversing their decision, these attribution methods will continue for a while longer.</p>
+<div class="postimage text-center">
+  <img class="w-75" src="https://www.ethicalads.io/images/posts/2024-mozilla-privacy-anonym.png" alt="Anonym's promise for ad attribution">
+  <p class="w-75 m-auto"><small>Anonym's promise for ad attribution: all the advertiser targeting benefits without compromising privacy (credit: <a rel="noopener noreferrer nofollow" href="https://www.anonymco.com/">Anonym's website</a>)</small></p>
 </div>
 
-<p>Google plans to phase out third-party cookies completely to <a href="https://developers.google.com/privacy-sandbox/blog/cookie-countdown-2023oct">Chrome users in Q3 2024</a>
-although this has been <a href="https://www.theverge.com/2021/6/24/22547339/google-chrome-cookiepocalypse-delayed-2023">delayed before</a>.
-Firefox and Safari have had this privacy feature for years.
-While this is a good step by Google,
-and the delay is mostly due to <a href="https://www.gov.uk/cma-cases/investigation-into-googles-privacy-sandbox-browser-changes">competition authorities</a>
-worried about the effect on smaller ad players,
-it will hurt smaller ad networks a lot more than the big players like Google and Facebook.</p>
-<p>Google and Facebook do use third-party cookies to be sure.
-This is crucial to many forms of retargeting (see <a href="https://www.ethicalads.io/surveillance-advertising/">surveillance advertising</a>).
-However, when you see an ad from Google in search, on YouTube or in Google Maps,
-Google knows who you are because you are logged in to Google.
-They don't need a third-party cookie because they already have a first-party cookie.
-They can use everything they know about you to target you with ads.</p>
-<p>Third-party cookie removal will have a significant effect on Google Display Network,
-third-party sites that show ads from Google,
-but a much smaller effect on most of Google's ads.
-By contrast, it will be much harder for a small network to track users
-in order to build a profile across the websites they visit.
-While third-party cookies being phased out is a positive privacy development,
-it will also help entrench the major ad players.</p>
-<h2 id="challenges-for-advertisers-in-the-cookieless-future">Challenges for advertisers in the cookieless future</h2>
-<p>Without ad cookies, there's going to be a lot of challenges for advertisers and publishers.
-Let's discuss advertisers first.</p>
-<p>Advertisers using retargeting are going to struggle with that part of their marketing without cookies.
-Most common forms of retargeting, like showing ads to people who have visited the advertiser's website before,
-are mostly not going to work without third-party cookies.</p>
-<p>As a result, we think marketing budgets will move from smaller ad networks to the larger ones
-as they will be better at using the marketing signals they have to target ads to relevant users.
-It will also migrate to direct sponsorships with larger publishers, newsletters, and podcasts,
-where the advertiser knows their core audience is.
-This is going to cause a strategic shift in how advertisers buy ads.</p>
-<h2 id="how-publishers-will-be-affected">How publishers will be affected</h2>
-<p>For publishers,
-though not publishers on EthicalAds since we already don't have third-party cookies,
-they will see reduced revenue in the short run due to Chrome removing third-party cookies.
-Many ad networks <a href="https://www.ethicalads.io/blog/2021/05/how-invasive-ad-targeting-is-bad-for-journalism-and-other-high-quality-publishers/">treat ad impressions as commodities</a>
-trade-able based on the personal data coming from the ad cookies.
-Without the signal from these third-party cookies,
-impressions on their site are going to be worth less than before.</p>
-<p>However, as advertisers move toward direct sponsorships and direct marketing,
-this trend will probably reverse.
-With advertisers looking for good places to reach their target audience,
-high quality publishers will be able to differentiate their inventory better.
-These publishers will see more interest and be able to command higher ad prices.</p>
-<h2 id="a-success-story-with-cookieless-advertising-sentry">A success story with cookieless advertising: Sentry</h2>
+<h2 id="current-landscape-of-privacy-preserving-attribution">Current landscape of privacy-preserving attribution</h2>
+<p>In response to the outcry against tracking,
+there's quite a few methods ad providers have tried
+when it comes to private ad attribution.
+Nobody seems to agree on how to do it.
+At EthicalAds, we don't measure conversions for advertisers at all
+because we haven't found a method that we've been happy with from a privacy perspective
+and the methods outlined here that others have tried require controlling the browser:</p>
+<h3 id="private-click-measurement-apple">Private Click Measurement (Apple)</h3>
+<p><a href="https://webkit.org/blog/11529/introducing-private-click-measurement-pcm/">Private Click Measurement</a> (PCM)
+is an experimental, opt-in feature in the Safari browser championed by Apple.
+It allows sites with advertising and ad networks to collect data on conversions
+while having a number of <a href="https://privacycg.github.io/private-click-measurement/#privacy">privacy protections</a> to prevent cross-site tracking and attributing actions to specific users.
+The way it works is that the site that the ads points to will inform the browser of a conversion
+and the browser will at a later date report the conversion
+through a proxy so the ad clicker's IP is not leaked.</p>
+<p>Apple <a href="https://developer.apple.com/videos/play/wwdc2021/10033/">promoted this pretty hard</a>
+back in 2021 and 2022 but it never seemed to get off the ground.
+As an interesting history, <a href="https://blog.mozilla.org/en/mozilla/understanding-apples-private-click-measurement/">Mozilla released a blog</a>
+and <a href="https://mozilla.github.io/ppa-docs/pcm.pdf">a more detailed analysis</a>
+of it that wasn't too favorable.
+Because these kinds of proposals need to be implemented by multiple browsers
+to become a standard, this all but killed Private Click Measurement.</p>
+<p>At EthicalAds, when Apple was promoting PCM, we tested it with our ad server.
+It seemed like a promising approach, but there was no interest in PCM
+from our advertisers so we never moved past testing.</p>
+<h3 id="attribution-reporting-google">Attribution Reporting (Google)</h3>
+<p>Google is (was?) working on a number of privacy focused advertising features
+as part of their <a href="https://privacysandbox.com">Privacy Sandbox</a> initiative.
+One part of the Privacy Sandbox is <a href="https://developers.google.com/privacy-sandbox/relevance/attribution-reporting">Attribution Reporting</a>.</p>
+<p>Attribution Reporting is currently an experimental, opt-in feature in Chrome
+that is somewhat similar to Safari's PCM.
+However, it differs by allowing measuring ad views in addition to clicks and conversions
+and has more entropy -- more bits sent to the advertiser or ad network --
+that could be used for more granular tracking of individual users
+although far less than would be possible with a cookie.</p>
+<p>A major reason for the Privacy Sandbox features, however, was that Chrome was deprecating and removing
+third-party cookies (as Safari and Firefox did) and that has been put on hold indefinitely.
+As a result, it's unclear what will happen with Google's Attribution Reporting.</p>
+<p>Like PCM, we've never had an advertiser ask about this type of attribution reporting from Google
+although we get requests (and respectfully decline) for Google ad pixels
+which are the non-privacy friendly way of doing ad measurement and attribution.</p>
+<h3 id="ad-confirmations-brave">Ad Confirmations (Brave)</h3>
+<p><a href="https://brave.com/">Brave Browser</a> blocks many analytics tools like Google Analytics
+that helps advertisers report on their campaigns.
+Many of those same tools can be used to track users across the web.
+However, Brave also sells advertising and so they have built some <a href="https://ads-help.brave.com/campaign-performance/reporting/#conversion-reporting-in-brave-ads-manager">ad attribution</a>
+directly into their browser.</p>
+<p>When a user clicks on an ad in Brave,
+the Brave Browser watches if that user later visits a page that represents a conversion for that ad.
+This allows Brave to report that conversion back in their ad reporting tools.
+I couldn't find a lot of details on exactly how this works
+and the <a href="https://github.com/brave/brave-browser/wiki/Security-and-privacy-model-for-ad-confirmations">details I could find</a>
+related more to the blockchain-based rewards
+Brave gives to users who interact with ads.</p>
+<h2 id="how-does-private-ad-attribution-work-and-whats-mozilla-testing">How does private ad attribution work and what's Mozilla testing?</h2>
+<p>Many developers on HackerNews and elsewhere seemed to view Mozilla working on ad technology as a betrayal.
+However, Mozilla has consistently tried to balance commercial benefits and public benefits
+and has been open in the past to <a href="https://blog.mozilla.org/en/mozilla/the-future-of-ads-and-privacy/">privacy-preserving advertising</a>.
+Like us, Mozilla believes that advertising without invasive tracking is possible.</p>
 <blockquote class="blockquote mb-2">
   <p class="mb-2">
-    “Display and other channels were severely hampered after cookie removal; our traditional retargeting motion died off pretty quickly as we couldn’t use GA4’s audiences or our Google Ads pixel.”
+    “Commercial involvement in the development of the internet brings many benefits; a balance between commercial profit and public benefit is critical.”
   </p>
-  <p class="small">- <a href="https://blog.sentry.io/we-removed-advertising-cookies-heres-what-happened/">Matt Henderson @ Sentry</a></p>
+  <p class="small">- <a href="https://www.mozilla.org/en-US/about/manifesto/#principles-09">The Mozilla Manifesto</a></p>
 </blockquote>
 
-<p>A few months back, <a href="https://sentry.io/">Sentry</a> decided to remove ad cookies
-and did a <a href="https://blog.sentry.io/we-removed-advertising-cookies-heres-what-happened/">retrospective</a>
-on the positives and negatives of that change
-(EthicalAds and our parent Read the Docs use Sentry for error reporting
-and Sentry has advertised with EthicalAds in the past).
-The post has a ton of great real-world details of an advertiser proactively dealing with these changes
-and is well worth the read. I want to highlight a few key parts though.</p>
-<p>Removing cookies wasn't a calamity, but it did force a number of adaptations.
-They had to rework a lot of how they attributed a new user to marketing channels
-which is critical as a marketer to know what's working and what isn't.
-In something we expect to hear more about as third-party cookies are removed,
-Sentry said they "decided to migrate budget to sponsorships and publishers that we instinctively knew had our core audience".</p>
-<p>Probably most important for regular users of the web, it allowed them to
-"do away with the annoying cookie consent banners".
-Everybody hates cookie banners and they have a
-<a href="2023-european-landing-pages-gdpr.md">negative effect on conversion rates</a>.
-Removing that is a win for everyone.</p>
-<h2 id="the-future-of-advertising-without-third-party-cookies">The future of advertising without third-party cookies</h2>
-<p>In many ways, this feels like a vindication of our <a href="https://www.ethicalads.io/advertising-vision/">ad vision</a>.
-Back in 2017 and 2018, we asked ad networks about how we could run their ads
-while respecting visitor privacy on our own site, Read the Docs.
-These ad networks told us to take it or leave it.
-<strong>We left it</strong> and built our own sponsorship platform and later ad network.
-Now those same networks have to adapt as both regulators and regular people
-wake up to the downsides of invasive ad tracking.</p>
-<p>There are going to be ad networks that essentially ignore these coming changes.
-They will substitute IP-based targeting or other types of browser fingerprinting
-for third-party cookies.
-It will be cruder and less accurate, but it will probably work for a while.
-There's also going to be new ways to target users with some privacy protections like <a href="https://privacysandbox.com/">Google's Privacy Sandbox</a>.
-However, Google removing third-party cookies shows the longer term trajectory is clear.
-Browsers, regulators, and even regular users with <a href="https://www.ethicalads.io/blog/2023/01/data-privacy-week-2023-privacy-first-alternatives/#ad-blockers">ad and tracker blockers</a>
-are going to nibble away at broad data collection and personalized ad targeting.</p>
-<p>This doesn't mean that advertisers won't be able to reach their audience online.
-However, it will force a number of adaptations from advertisers, publishers,
-and the wider ad ecosystem.
-We built our entire business around contextually targeting users with relevant ads
-based on the site and page where the ad appears. No personal info required.</p>
-<p>If you want to work with an ad network that understands these issues,
-<a href="https://www.ethicalads.io/contact/">get in touch</a>!</p>
+<p>Based on what <a href="https://blog.mozilla.org/en/mozilla/mozilla-anonym-raising-the-bar-for-privacy-preserving-digital-advertising/">Mozilla has said publicly</a>
+about Privacy-Preserving Attribution (PPA),
+their approach has a number of similarities to Apple's and Google's
+but there's a few differences.
+Also, although Meta isn't mentioned in their blog post,
+Meta collaborated with Mozilla on their approach.</p>
+<p>Like Apple's and Google's approach, Mozilla plans to have a method
+for the browser itself to record ad impressions and conversions.
+As in Apple's approach, they intend to pass data through an anonymous proxy
+in order to make sure the relevant parties don't pass around users' IP addresses.</p>
+<p>One big difference is that Mozilla is turning on PPA by default in Firefox.
+This was one of the big points of contention among the developer and privacy communities.
+However, for starters at least, it can only be used for Mozilla's own ad campaigns
+on <a href="https://developer.mozilla.org/en-US/">Mozilla Developer Network (MDN)</a>.
+They call this kind of restriction an <a href="https://wiki.mozilla.org/Origin_Trials">"origin trial"</a> because it is restricted by origin.</p>
+<p>Another big difference is the level of complexity of the proposal.
+Apple's PCM implementation is actually pretty simple and attempts to keep data safe by collecting relatively little of it.
+Google's proposal is also relatively straight-forward although, as I mentioned, weaker on privacy.
+By contrast, Mozilla's proposal seems a lot more complex.</p>
+<p>PPA involves dividing up attribution data into pieces,
+adding sufficient statistical noise to ensure privacy,
+encrypting the pieces,
+sending the parts up to different parties,
+and then restricting the types of aggregation reports
+possible that combine the two parts.
+We'll have to see how their test on MDN goes
+and see if we can verify some of these claims.</p>
+<div class="postimage text-center">
+  <img class="w-75" src="https://www.ethicalads.io/images/posts/2024-mozilla-ad-attribution.png" alt="Mozilla's proposal for ad attribution">
+  <p class="w-75 m-auto"><small>From Mozilla's <a rel="noopener noreferrer nofollow" href="https://docs.google.com/document/d/1QMHkAQ4JiuJkNcyGjAkOikPKNXAzNbQKILqgvSNIAKw/edit">Outline of a private attribution measurement API</a></small></p>
+</div>
+
+<h2 id="conclusion">Conclusion</h2>
+<p>So far, there's been pretty wide agreement that some methods of ad attribution
+are more invasive than others and are bad for users' privacy.
+At EthicalAds, we think that a lot of people would benefit from more privacy-friendly ways of advertising.
+However, as long as the less privacy friendly ways of doing ad attribution
+are possible, legal, and the norm, there probably won't be much interest from advertisers
+in other methods.
+We are watching what Mozilla is doing with interest but it might just become <a href="https://xkcd.com/927/">yet another competing standard</a>.</p>
       </div>
 
       <hr>
@@ -248,8 +295,9 @@ based on the site and page where the ad appears. No personal info required.</p>
         <p>
           Tagged with:
             <a href="https://www.ethicalads.io/blog/tags/privacy/index.html">privacy</a>
-            <a href="https://www.ethicalads.io/blog/tags/gdpr/index.html">gdpr</a>
             <a href="https://www.ethicalads.io/blog/tags/adtech/index.html">adtech</a>
+            <a href="https://www.ethicalads.io/blog/tags/fingerprinting/index.html">fingerprinting</a>
+            <a href="https://www.ethicalads.io/blog/tags/attribution/index.html">attribution</a>
         </p>
 
     </div>
@@ -284,8 +332,8 @@ based on the site and page where the ad appears. No personal info required.</p>
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
         <div class="col mb-10">
           <article class="card h-100 shadow-light-lg lift lift-lg">
-              <a href="/blog/2024/08/mozillas-privacy-preserving-ad-attribution-the-future-or-an-oxymoron/">
-                <img src="/images/posts/2024-mozilla-ppa-jumbotron.jpg" alt="Mozilla's privacy preserving ad attribution: The future or an oxymoron?" class="card-img-top">
+              <a href="/blog/2024/01/the-cookieless-ad-future-does-cookieless-advertising-work/">
+                <img src="/images/posts/2024-cookieless-advertising.jpg" alt="The Cookieless Ad Future: Does Cookieless Advertising Work?" class="card-img-top">
 
                 <!-- Style shape to the image -->
                 <div class="position-relative">
@@ -294,14 +342,14 @@ based on the site and page where the ad appears. No personal info required.</p>
                   </div>
                 </div>
               </a>
-            <a class="card-body" href="/blog/2024/08/mozillas-privacy-preserving-ad-attribution-the-future-or-an-oxymoron/" title="Permalink to Mozilla's privacy preserving ad attribution: The future or an oxymoron?">
-              <h3 class="card-title font-weight-light">Mozilla's privacy preserving ad attribution: The future or an oxymoron?</h3>
+            <a class="card-body" href="/blog/2024/01/the-cookieless-ad-future-does-cookieless-advertising-work/" title="Permalink to The Cookieless Ad Future: Does Cookieless Advertising Work?">
+              <h3 class="card-title font-weight-light">The Cookieless Ad Future: Does Cookieless Advertising Work?</h3>
 
-              <p class="mb-0">Back in June, Mozilla acquired privacy-centric ad measurement company Anonym which was founded a few years back by some senior …</p>
+              <p class="mb-0">As an ad network that never uses advertising cookies, you probably won&#39;t be surprised that we think cookieless advertising does …</p>
 
             </a>
 
-            <a class="card-meta mt-auto" href="/blog/2024/08/mozillas-privacy-preserving-ad-attribution-the-future-or-an-oxymoron/">
+            <a class="card-meta mt-auto" href="/blog/2024/01/the-cookieless-ad-future-does-cookieless-advertising-work/">
 
               <!-- Divider -->
               <hr class="card-meta-divider">
@@ -312,7 +360,7 @@ based on the site and page where the ad appears. No personal info required.</p>
 
                 <!-- Date -->
                 <div class="flex-fill h6 text-uppercase text-muted mb-0 ml-auto text-right">
-                  <time class="text-nowrap" datetime="2024-08-29T00:00:00-07:00">Aug 29, 2024</time>
+                  <time class="text-nowrap" datetime="2024-01-30T00:00:00-08:00">Jan 30, 2024</time>
                 </div>
               </div>
 
@@ -358,8 +406,8 @@ based on the site and page where the ad appears. No personal info required.</p>
         </div>
         <div class="col mb-10">
           <article class="card h-100 shadow-light-lg lift lift-lg">
-              <a href="/blog/2023/01/data-privacy-week-2023-privacy-first-alternatives/">
-                <img src="/images/posts/data-privacy-day-2022.jpg" alt="Data Privacy Week 2023 - Privacy-first Alternatives" class="card-img-top">
+              <a href="/blog/2021/03/cookie-changes-are-coming-to-ad-tech/">
+                <img src="/images/posts/2021-post-cookie-world.jpg" alt="Cookie Changes are Coming to Ad Tech" class="card-img-top">
 
                 <!-- Style shape to the image -->
                 <div class="position-relative">
@@ -368,25 +416,25 @@ based on the site and page where the ad appears. No personal info required.</p>
                   </div>
                 </div>
               </a>
-            <a class="card-body" href="/blog/2023/01/data-privacy-week-2023-privacy-first-alternatives/" title="Permalink to Data Privacy Week 2023 - Privacy-first Alternatives">
-              <h3 class="card-title font-weight-light">Data Privacy Week 2023 - Privacy-first Alternatives</h3>
+            <a class="card-body" href="/blog/2021/03/cookie-changes-are-coming-to-ad-tech/" title="Permalink to Cookie Changes are Coming to Ad Tech">
+              <h3 class="card-title font-weight-light">Cookie Changes are Coming to Ad Tech</h3>
 
-              <p class="mb-0">This week is Data Privacy Week! To celebrate, we&#39;re helping you take charge of your own data by sharing some …</p>
+              <p class="mb-0">Last week, Google announced that after they phase out third-party cookies in Chrome next year, they &#34;will not build alternate …</p>
 
             </a>
 
-            <a class="card-meta mt-auto" href="/blog/2023/01/data-privacy-week-2023-privacy-first-alternatives/">
+            <a class="card-meta mt-auto" href="/blog/2021/03/cookie-changes-are-coming-to-ad-tech/">
 
               <!-- Divider -->
               <hr class="card-meta-divider">
 
               <div class="d-flex w-100">
                 <!-- Author -->
-                <div class="flex-fill h6 text-uppercase text-muted mb-0 mr-2">David Fischer & Ra Cohen</div>
+                <div class="flex-fill h6 text-uppercase text-muted mb-0 mr-2">David Fischer</div>
 
                 <!-- Date -->
                 <div class="flex-fill h6 text-uppercase text-muted mb-0 ml-auto text-right">
-                  <time class="text-nowrap" datetime="2023-01-23T00:00:00-08:00">Jan 23, 2023</time>
+                  <time class="text-nowrap" datetime="2021-03-11T00:00:00-08:00">Mar 11, 2021</time>
                 </div>
               </div>
 
