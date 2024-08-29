@@ -1,5 +1,5 @@
 Title: Mozilla's privacy preserving ad attribution: The future or an oxymoron?
-Date: August 28, 2024
+Date: August 29, 2024
 description: Mozilla is the latest company to work on privacy-preserving ad attribution. Is "privacy preserving ad attribution" an oxymoron? Is it even possible? And if it is, should Mozilla do it?
 tags: privacy, adtech, fingerprinting, attribution
 authors: David Fischer
