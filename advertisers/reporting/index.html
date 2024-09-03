@@ -277,6 +277,10 @@
                     <label>Geographic focus</label>
 
                     <div class="form-check">
+                      <input class="form-check-input" type="checkbox" name="geography" value="Run of Network" id="geo-network" data-bind="checked: passed_region === 'network'">
+                      <label class="form-check-label" for="geo-network">Run of Network</label>
+                    </div>
+                    <div class="form-check">
                       <input class="form-check-input" type="checkbox" name="geography" value="US, Canada, UK, Australia, New Zealand, Ireland" id="geo-eng" data-bind="checked: passed_region === 'eng' || passed_region === 'blend'">
                       <label class="form-check-label" for="geo-eng">US, Canada, UK, Australia, New Zealand, Ireland</label>
                     </div>

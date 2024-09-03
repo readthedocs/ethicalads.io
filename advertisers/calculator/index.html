@@ -96,8 +96,8 @@
     <p>The campaign calculator can help you estimate and appropriately size and price your campaign based on your targeting parameters and desired conversions. Change different audiences or metrics, and choose the budget that is right for you.</p>
 
 <!-- Data passed to the application -->
-<script type="application/json" id="data-pricing">{"all-developers": {"blend": 3.8, "eeu-apac": 1.1, "eng": 4.75, "global": 0.5, "weu": 2.85}, "backend": {"blend": 4.5, "eeu-apac": 1.5, "eng": 5.75, "global": 0.6, "weu": 3.5}, "datascience": {"blend": 5.0, "eeu-apac": 2.0, "eng": 6.25, "global": 0.8, "weu": 4.0}, "devops": {"blend": 5.0, "eeu-apac": 1.75, "eng": 6.25, "global": 0.7, "weu": 4.0}, "frontend": {"blend": 5.0, "eeu-apac": 1.75, "eng": 6.25, "global": 0.7, "weu": 4.0}, "security": {"blend": 5.25, "eeu-apac": 1.75, "eng": 6.5, "global": 0.7, "weu": 4.0}}</script>
-<script type="application/json" id="data-regions">[{"name": "US, Canada, UK, Australia, New Zealand, Ireland", "slug": "eng"}, {"name": "Blend: W. Europe, US, Canada, UK, Australia, New Zealand", "slug": "blend"}, {"name": "Western Europe", "slug": "weu"}, {"name": "Eastern EU, Asia Pacific", "slug": "eeu-apac"}, {"name": "Global", "slug": "global"}]</script>
+<script type="application/json" id="data-pricing">{"all-developers": {"blend": 3.8, "eeu-apac": 1.1, "eng": 4.75, "global": 0.5, "network": 2.75, "weu": 2.85}, "backend": {"blend": 4.5, "eeu-apac": 1.5, "eng": 5.75, "global": 0.6, "network": 3.5, "weu": 3.5}, "datascience": {"blend": 5.0, "eeu-apac": 2.0, "eng": 6.25, "global": 0.8, "network": 4.0, "weu": 4.0}, "devops": {"blend": 5.0, "eeu-apac": 1.75, "eng": 6.25, "global": 0.7, "network": 4.0, "weu": 4.0}, "frontend": {"blend": 5.0, "eeu-apac": 1.75, "eng": 6.25, "global": 0.7, "network": 4.0, "weu": 4.0}, "security": {"blend": 5.25, "eeu-apac": 1.75, "eng": 6.5, "global": 0.7, "network": 4.0, "weu": 4.0}}</script>
+<script type="application/json" id="data-regions">[{"name": "Run of Network", "slug": "network", "tooltip": "33% English speaking, 33% Western Europe, 33% APAC/E-EU"}, {"name": "US, Canada, UK, Australia, New Zealand, Ireland", "slug": "eng"}, {"name": "Blend: W. Europe, US, Canada, UK, Australia, New Zealand", "slug": "blend"}, {"name": "Western Europe", "slug": "weu"}, {"name": "Eastern EU, Asia Pacific", "slug": "eeu-apac"}, {"name": "Global", "slug": "global"}]</script>
 <script type="application/json" id="data-topics">[{"name": "Security \u0026 privacy", "slug": "security"}, {"name": "AI \u0026 machine learning", "slug": "datascience"}, {"name": "DevOps", "slug": "devops"}, {"name": "Frontend web development", "slug": "frontend"}, {"name": "Backend web development", "slug": "backend"}, {"name": "All developers", "slug": "all-developers"}]</script>
 
 <div id="advertiser-calculator" class="card card-border border-primary shadow-light-lg">
@@ -113,7 +113,7 @@
             <div data-bind="foreach: regions">
               <div class="form-check">
                 <input class="form-check-input" type="radio" name="selected_region" data-bind="value: $data.slug, checked: $parent.selected_region, attr: {'id': $data.slug}">
-                <label class="form-check-label" data-bind="text: $data.name, attr: {'for': $data.slug}"></label>
+                <label class="form-check-label" data-toggle="tooltip" data-bind="text: $data.name, attr: {'for': $data.slug, 'title': $data.tooltip}"></label>
               </div>
             </div>
           </div>
