@@ -1,7 +1,7 @@
 Title: How Invasive Ad Targeting is Bad for Journalism and Other High-Quality Publishers
 Date: May 25, 2021
 description: The lie from ad tech is that there's no such thing as a premium publisher and all ad views are basically the same.
-tags: ad-tech, publishers
+tags: adtech, publishers
 authors: David Fischer
 image: /images/posts/2021-invasive-ad-targeting.jpg
 image_credit: <span>Photo by <a href="https://unsplash.com/@jeswinthomas?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jeswin Thomas</a> on <a href="https://unsplash.com/s/photos/watching?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>

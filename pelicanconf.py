@@ -149,7 +149,7 @@ DEFAULT_METADATA = {
     ],
     "topics": [
         {"slug": "security", "name": "Security & privacy"},
-        {"slug": "datascience", "name": "Data science & machine learning"},
+        {"slug": "datascience", "name": "AI & machine learning"},
         {"slug": "devops", "name": "DevOps"},
         {"slug": "frontend", "name": "Frontend web development"},
         {"slug": "backend", "name": "Backend web development"},

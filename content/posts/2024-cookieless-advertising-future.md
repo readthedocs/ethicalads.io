@@ -21,6 +21,7 @@ This post aims to serve as a guide to what's changing, why it's changing,
 what we expect the second order effects of the change will be,
 and how advertisers can succeed anyway.
 
+*Update: Google is [no longer phasing out third-party cookies](https://privacysandbox.com/news/privacy-sandbox-update/) and will instead "introduce a new experience in Chrome that lets people make an informed choice that applies across their web browsing".*
 
 ## Third-party cookies, history and phase-out
 
