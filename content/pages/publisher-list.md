@@ -143,10 +143,10 @@ It's a great way to get a sense of who's on our network.
 
 </section>
 
-<section class="container py-10" id="datascience-publishers">
+<section class="container py-10" id="ai-ml-publishers">
   <div class="row">
     <div class="col mb-3">
-      <h2 class="text-center font-weight-bold mb-8">Selected data science and machine learning publishers</h2>
+      <h2 class="text-center font-weight-bold mb-8">Selected AI and machine learning publishers</h2>
     </div>
   </div>
 

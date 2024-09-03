@@ -101,7 +101,7 @@ we already have a huge leg up in terms of reaching the right audience for an ad.
 If you're browsing a site with our ads, we don't need user profiles to know you're a developer.
 You're browsing a site for developers.
 By knowing a little more about the sites that run our ads,
-we can further focus on developer niches like data science or DevOps
+we can further focus on developer niches like machine learning or DevOps
 to reach just the right audience for an advertiser
 while still respecting the privacy of everyone involved.
 

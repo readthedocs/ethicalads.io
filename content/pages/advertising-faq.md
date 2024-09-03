@@ -44,7 +44,7 @@ For ads targeting the USA, we also support targeting by state.
 Advertisers may also target ads by topics.
 Currently, these topics are:
 
-* Data science and machine learning
+* AI and machine learning
 * Backend web development
 * Frontend web development
 * Security and privacy
