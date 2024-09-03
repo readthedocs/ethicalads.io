@@ -84,6 +84,7 @@ DEFAULT_METADATA = {
     # And the advertiser calculator
     "pricing": {
         "security": {
+            "network": 4.0,
             "eng": 6.5,
             "blend": 5.25,
             "weu": 4.0,
@@ -91,6 +92,7 @@ DEFAULT_METADATA = {
             "global": 0.7,
         },
         "datascience": {
+            "network": 4.0,
             "eng": 6.25,
             "blend": 5.0,
             "weu": 4.0,
@@ -98,6 +100,7 @@ DEFAULT_METADATA = {
             "global": 0.8,
         },
         "devops": {
+            "network": 4.0,
             "eng": 6.25,
             "blend": 5.0,
             "weu": 4.0,
@@ -105,6 +108,7 @@ DEFAULT_METADATA = {
             "global": 0.7,
         },
         "frontend": {
+            "network": 4.0,
             "eng": 6.25,
             "blend": 5.0,
             "weu": 4.0,
@@ -112,6 +116,7 @@ DEFAULT_METADATA = {
             "global": 0.7,
         },
         "backend": {
+            "network": 3.5,
             "eng": 5.75,
             "blend": 4.5,
             "weu": 3.5,
@@ -119,6 +124,7 @@ DEFAULT_METADATA = {
             "global": 0.6,
         },
         "all-developers": {
+            "network": 2.75,
             "eng": 4.75,
             "blend": 3.8,
             "weu": 2.85,
@@ -127,6 +133,11 @@ DEFAULT_METADATA = {
         },
     },
     "regions": [
+        {
+            "slug": "network",
+            "name": "Run of Network",
+            "tooltip": "33% English speaking, 33% Western Europe, 33% APAC/E-EU",
+        },
         {"slug": "eng", "name": "US, Canada, UK, Australia, New Zealand, Ireland"},
         {
             "slug": "blend",

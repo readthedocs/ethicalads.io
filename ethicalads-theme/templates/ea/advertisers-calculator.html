@@ -26,7 +26,7 @@
             <div data-bind="foreach: regions">
               <div class="form-check">
                 <input class="form-check-input" type="radio" name="selected_region" data-bind="value: $data.slug, checked: $parent.selected_region, attr: {'id': $data.slug}">
-                <label class="form-check-label" data-bind="text: $data.name, attr: {'for': $data.slug}"></label>
+                <label class="form-check-label" data-toggle="tooltip" data-bind="text: $data.name, attr: {'for': $data.slug, 'title': $data.tooltip}"></label>
               </div>
             </div>
           </div>

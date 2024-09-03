@@ -107,7 +107,7 @@ function AdvertiserCalculatorViewModel() {
   let params = new URLSearchParams(document.location.search);
 
   let initial_budget = parseInt(params.get("budget"), 10) || 1000;
-  let initial_region = this.validateRegion(params.get("region")) || "blend";
+  let initial_region = this.validateRegion(params.get("region")) || "network";
   let initial_topic = this.validateTopic(params.get("topic")) || "all-developers";
   let initial_autorenewing = Boolean(params.get("autorenewing")) || false;
 
