@@ -72,6 +72,10 @@
                     <label>Topic focus</label>
 
                     <div class="form-check">
+                      <input class="form-check-input" type="checkbox" name="audience" value="niche" id="niche" {% if page.inbound_form_niche %}checked{% endif %}  data-bind="checked: passed_topic === 'niche'">
+                      <label class="form-check-label" for="niche">Custom niche targeting</label>
+                    </div>
+                    <div class="form-check">
                       <input class="form-check-input" type="checkbox" name="audience" value="AI and machine learning" id="datascience" {% if page.inbound_form_datascience %}checked{% endif %}  data-bind="checked: passed_topic === 'datascience'">
                       <label class="form-check-label" for="datascience">AI and machine learning</label>
                     </div>
