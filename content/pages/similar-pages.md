@@ -1,4 +1,4 @@
-Title: Niche Contextual Targeting
+Title: Custom Niche Targeting
 slug: similar-pages
 url: advertisers/similar-pages/
 save_as: advertisers/similar-pages/index.html
