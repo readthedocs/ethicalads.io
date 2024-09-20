@@ -1,0 +1,146 @@
+{% extends "page.html" %}
+
+
+{% block head %}
+{{ super() }}
+
+{% include 'ea/includes/ad-client-tag.html' %}
+{% endblock head %}
+
+
+{% block content %}
+<section class="position-relative mt-5 mb-10">
+
+  <!-- Content -->
+  <div class="container">
+    <div class="row align-items-center text-center text-md-left">
+      <div class="col-12 col-md-6">
+
+        {% block image_and_credit %}
+          <!-- Image -->
+          <img src="/images/pages/niche-targeting-explainer.png" alt="Custom niche targeting explainer" class="img-fluid mw-100 float-right mt-10 mb-6 mb-md-0" data-aos="fade-right">
+        {% endblock image_and_credit %}
+
+      </div>
+      <div class="col-12 col-md-6">
+
+        <!-- Heading -->
+        <h1 class="display-3 font-weight-light" data-aos="fade-left">Target your exact developer niche</h1>
+
+        <!-- Text -->
+        <p class="font-size-lg" data-aos="fade-left" data-aos-delay="200">Automatically focus your campaign on the most relevant pages and audience across our network</p>
+
+        <a href="#inbound-form" class="btn btn-primary lift" data-aos="fade-left" data-aos-delay="200">
+          <span>Start a campaign</span>
+        </a>
+
+      </div>
+    </div> <!-- / .row -->
+  </div> <!-- / .container -->
+
+</section>
+
+
+{% block featurettes %}
+<!-- Marketing messaging and featurettes
+================================================== -->
+<section class="py-10">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-4 mb-5 mb-md-0 text-center" data-aos="fade-up">
+
+        <!-- Icon -->
+        <div class="icon text-primary mb-3">
+          <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"></path><path d="M12.843 16h-1.686l-.172.64a4.547 4.547 0 01-8.784-2.354l1.72-6.418A4.547 4.547 0 0112 6.383a4.547 4.547 0 018.08 1.484l1.719 6.419a4.547 4.547 0 01-8.784 2.353L12.843 16zm4.613 2.105c1.507 0 2.729-1.267 2.729-2.83 0-1.564-1.222-2.831-2.729-2.831-1.506 0-2.728 1.267-2.728 2.83 0 1.564 1.222 2.831 2.728 2.831zm-10.912 0c1.506 0 2.728-1.267 2.728-2.83 0-1.564-1.222-2.831-2.728-2.831-1.507 0-2.729 1.267-2.729 2.83 0 1.564 1.222 2.831 2.729 2.831z" fill="#335EEA"></path></g></svg>
+        </div>
+
+        <!-- Heading -->
+        <h3>Bespoke contextual targeting</h3>
+
+        <!-- Text -->
+        <p class="text-gray-800 mb-6 mb-md-0">Target your next campaign to your exact developer niche with contextual targeting created just for you based on your landing and product pages.</p>
+
+      </div>
+      <div class="col-12 col-md-4 mb-5 mb-md-0 text-center" data-aos="fade-up" data-aos-delay="50">
+
+        <!-- Icon -->
+        <div class="icon text-primary mb-3">
+          <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"></path><path d="M19 11h2a1 1 0 010 2h-2a1 1 0 010-2zM3 11h2a1 1 0 010 2H3a1 1 0 010-2zm9-9a1 1 0 011 1v2a1 1 0 01-2 0V3a1 1 0 011-1zm0 16a1 1 0 011 1v2a1 1 0 01-2 0v-2a1 1 0 011-1z" fill="#335EEA" opacity=".3"></path><circle fill="#335EEA" cx="12" cy="12" r="3"></circle></g></svg>
+        </div>
+
+        <!-- Heading -->
+        <h3>Laser-focused</h3>
+
+        <!-- Text -->
+        <p class="text-gray-800 mb-6 mb-md-0">Using a machine learning model to find similar pages, we only show your ad next to the most relevant content.</p>
+
+      </div>
+      <div class="col-12 col-md-4 mb-5 mb-md-0 text-center" data-aos="fade-up" data-aos-delay="100">
+
+        <!-- Icon -->
+        <div class="icon text-primary mb-3">
+          <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"></path><path d="M6 9v6a3 3 0 003 3h6v.818C15 20.232 14.232 21 12.818 21H5.182C3.768 21 3 20.232 3 18.818v-7.636C3 9.768 3.768 9 5.182 9H6zm11 7v-6a3 3 0 00-3-3H8v-.818C8 4.768 8.768 4 10.182 4h7.636C19.232 4 20 4.768 20 6.182v7.636C20 15.232 19.232 16 17.818 16H17z" fill="#335EEA" opacity=".3"></path><path d="M9.273 9h4.454C14.552 9 15 9.448 15 10.273v4.454c0 .825-.448 1.273-1.273 1.273H9.273C8.448 16 8 15.552 8 14.727v-4.454C8 9.448 8.448 9 9.273 9z" fill="#335EEA"></path></g></svg>
+        </div>
+
+        <!-- Heading -->
+        <h3>Transparent</h3>
+
+        <!-- Text -->
+        <p class="text-gray-800 mb-0">Our ad reporting is completely transparent and shows you exactly where your ads were shown in terms of geography, publishers, and content each and every day.</p>
+
+      </div>
+    </div> <!-- / .row -->
+
+    <p class="mt-6 text-center">
+      <a href="/advertisers/similar-pages/?url=https%3A%2F%2Fwww.mongodb.com%2Fatlas" class="btn btn-outline-primary">Try our custom niche targeting demo</a>
+    </p>
+  </div> <!-- / .container -->
+</section>
+{% endblock featurettes %}
+
+
+<!-- FAQ -->
+<!-- ================================================== -->
+<section class="container py-5" id="faq">
+  <div class="row mb-5">
+    <div class="col-md-6">
+      <h4 class="font-weight-bold">How does it work?</h4>
+      <p>
+        Our ML model analyzes your landing and product pages and matches them to the most relevant pages across our network. This ensures your ads are shown to a highly targeted audience.
+    </div>
+    <div class="col-md-6">
+      <h4 class="font-weight-bold">How much does it cost?</h4>
+      <p>
+        Our <a href="/advertisers/#pricing">pricing</a> is transparent.
+        Currently niche targeting is only available with broad geo-targeting.
+        We ensure at least 33% of the campaign is fulfilled in English Speaking areas
+        and 33% in Western Europe.
+      </p>
+    </div>
+  </div>
+  <div class="row mb-5">
+    <div class="col-md-6">
+      <h4 class="font-weight-bold">What kinds of niches work best?</h4>
+      <p>
+        You can target any developer niche from specific developer frameworks
+        to concepts like two-factor authentication.
+    </div>
+    <div class="col-md-6">
+      <h4 class="font-weight-bold">How big can niche campaigns be?</h4>
+      <p>
+        Custom niche targeting works best on smaller, highly-focused campaigns
+        for products only used by certain developers
+      </p>
+    </div>
+  </div>
+  <p class="mt-6 text-center">
+    Have more questions? Our <a href="/advertisers/faq/">Advertiser FAQ</a> has more answers!
+  </p>
+</section>
+
+
+{# By including variables in front matter like `inbound_form_datascience` #}
+{#  the data science checkbox will be prepopulated. #}
+{% include 'ea/includes/advertisers-inbound.html' %}
+
+{% endblock content %}
