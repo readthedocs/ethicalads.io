@@ -250,4 +250,4 @@ We have space for additional publishers,
 and look forward to building something meaningful with you:
 
 - Become a [publisher]({filename}/pages/publishers.md) today
-- Follow our journey in our [newsletter](https://ethicalads.us17.list-manage.com/subscribe/post?u=ca5e74de3ea2867d373058271&id=5746f18bb8)
+- Follow our journey in our [newsletter](https://www.ethicalads.io/email-list/)
