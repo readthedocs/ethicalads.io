@@ -119,7 +119,9 @@ It's a lowercase representation of the name with spaces replaced by hyphens, gen
 For example, using the landing page link below would let you measure EthicalAds as a whole
 as well as different publishers and specific ad creatives:
 
-    https://example.com?utm_medium=cpc&utm_source=ethicalads&utm_campaign=${advertisement_slug}&utm_content=${publisher_slug}
+```pytb
+https://example.com?utm_medium=cpc&utm_source=ethicalads&utm_campaign=${advertisement_name}&utm_content=${publisher_slug}
+```
 
 Our advertiser platform will measure all performance metrics before a user clicks-through
 to your landing page like the number of impressions and click-through rate (CTR) your ads receive.
