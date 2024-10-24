@@ -4,7 +4,7 @@ description: As a marketer, should your ads link directly to a lead-gen form? Pr
 tags: advertisers, marketing, data-exploration
 authors: David Fischer
 image: /images/posts/2024-ad-conversion-type-billboard-image.jpg
-image_credit: <span>Created with <a href="https://chatgpt.com/" title="advertising that knows what you think, billboards, future in an art sketch or watercolor style">ChatGPT</a></span>
+image_credit: <span>Image created with <a href="https://chatgpt.com/" title="advertising that knows what you think, billboards, future in an art sketch or watercolor style">ChatGPT</a></span>
 
 
 Digital marketing is all about generating conversions,
