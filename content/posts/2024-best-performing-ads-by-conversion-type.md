@@ -19,9 +19,8 @@ or filling out a lead generation form.
 The ad itself primes visitors on what to expect  on the landing page, with terms like "start free", "free ebook", "learn more", or "sign up".
 
 Historically, we've dissuaded advertisers from linking to ebooks and webinars,
-especially gated ones, because we have seen lower CTR
-and advertisers have told us they haven't converted as well as alternatives
-(as a privacy focused ad network, we leave tracking conversions to advertisers).
+especially gated ones, because they tend to have a lower CTR
+and advertisers have told us they don't convert as well.
 While CTOs and marketers may read ebooks at a higher rate, developers and individual contributors,
 who make up the bulk of our ad network don't seem to like them as much.
 In the rest of this post, we aim to back up our guidance with hard data from our own ad network.
