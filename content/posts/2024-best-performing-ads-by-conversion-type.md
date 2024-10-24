@@ -3,8 +3,8 @@ Date: October 29, 2024
 description: As a marketer, should your ads link directly to a lead-gen form? Produce a gated resource like a webinar or ebook? Or go for the long sale and link to a blog with details about your product?
 tags: advertisers, marketing, data-exploration
 authors: David Fischer
-image: /images/posts/2024-cookieless-advertising.jpg
-image_credit: <span>Created with <a href="https://openjourney.ai/" title="creepy ad targeting, invasive advertising, personalized advertising, ads that know what you think, ads that follow you around the internet, watercolor style">OpenJourney</a></span>
+image: /images/posts/2024-ad-conversion-type-billboard-image.jpg
+image_credit: <span>Created with <a href="https://chatgpt.com/" title="advertising that knows what you think, billboards, future in an art sketch or watercolor style">ChatGPT</a></span>
 
 
 Digital marketing is all about generating conversions,
@@ -33,7 +33,7 @@ and we saw that text-heavy ad images were among the lowest performers.
 This time, we categorized all the ads shown on EthicalAds for the last month
 by the desired marketing action and compared it with the click-through rate.
 
-* **Signup form:** The ad linked to a page where a form was the primary above the fold action, generally with a free trial. 
+* **Signup form:** The ad linked to a page where a form was the primary above the fold action, generally with a free trial.
 * **Product page:** The ad linked directly to a landing or product page on the advertiser's website
 * **Homepage:** The ad linked to the advertiser's main home page. In the cases where this works well, the homepage is probably very similar to a product page such as for an advertiser who sells a single product.
 * **Public resource:** The ad linked to a public resource the advertiser created like an ebook, a video, or the product documentation.
