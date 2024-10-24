@@ -8,7 +8,7 @@ image_credit: <span>Created with <a href="https://openjourney.ai/" title="creepy
 
 
 Digital marketing is all about generating conversions,
-getting website visitors and prospective customers to take a specific action on their site.
+getting website visitors to take a specific action on their site.
 Along with metrics like an ad's click-through rate (CTR),
 the conversion rate, the rate at which site visitors take that specific action,
 is one of the most important metrics in digital marketing and advertising.
