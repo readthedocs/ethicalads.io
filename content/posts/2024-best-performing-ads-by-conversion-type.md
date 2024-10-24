@@ -7,23 +7,16 @@ image: /images/posts/2024-ad-conversion-type-billboard-image.jpg
 image_credit: <span>Image created with <a href="https://chatgpt.com/" title="advertising that knows what you think, billboards, future in an art sketch or watercolor style">ChatGPT</a></span>
 
 
-Digital marketing is all about generating conversions,
-getting website visitors to take a specific action on their site.
-Along with metrics like an ad's click-through rate (CTR),
-the conversion rate, the rate at which site visitors take that specific action,
-is one of the most important metrics in digital advertising.
-
-The action that an advertiser wants somebody to take varies
-from signing up for a free trial, reading a blog,
-or filling out a lead generation form.
-The ad itself primes visitors on what to expect  on the landing page, with terms like "start free", "free ebook", "learn more", or "sign up".
-
 Historically, we've dissuaded advertisers from linking to ebooks and webinars,
-especially gated ones, because they tend to have a lower CTR
+especially gated ones, because they tend to have a lower click-through rate (CTR)
 and advertisers have told us they don't convert as well.
 While CTOs and marketers may read ebooks at a higher rate, developers and individual contributors,
 who make up the bulk of our ad network don't seem to like them as much.
-In the rest of this post, we aim to back up our guidance with hard data from our own ad network.
+
+Ad landing pages vary by the type of conversion the marketer is looking for whether signing up for a free trial, putting in a credit card or
+filling out a lead form for a resource like a webinar.
+The ad itself primes visitors on what to expect on the landing page, with terms like "start free", "free ebook", "learn more", or "sign up".
+In the rest of this post, we aim to back up our guidance with hard data from our own ad network on what types of ad conversions work best for developers.
 
 
 ## Types of ad conversions
