@@ -16,8 +16,7 @@ is one of the most important metrics in digital advertising.
 The action that an advertiser wants somebody to take varies
 from signing up for a free trial, reading a blog,
 or filling out a lead generation form.
-The ad itself frequently primes visitors on what to expect when they click an ad
-with terms like "start free", "free ebook", "learn more" or "sign up".
+The ad itself primes visitors on what to expect  on the landing page, with terms like "start free", "free ebook", "learn more", or "sign up".
 
 Historically, we've dissuaded advertisers from linking to ebooks and webinars,
 especially gated ones, because we have seen lower CTR
