@@ -76,7 +76,7 @@ some of this is going to apply to anybody doing developer marketing:
 
 One thing that separates a niche network like us from the huge ad players,
 is that advertisers are always a quick email away from reaching a real person
-who knows developer marketing on EthicalAds and can offer a little assistance
+who knows developer marketing and can offer a little assistance
 in running a successful campaign.
 
 If you need [help with your campaign]({filename}../pages/help-with-your-ads.md),
