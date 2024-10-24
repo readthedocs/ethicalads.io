@@ -1,4 +1,4 @@
-Title: Ad Performance by Conversion Action: Do Developers Hate Ebooks?
+Title: Ad Performance by Conversion Action: Do Developers Like Ebooks?
 Date: October 29, 2024
 description: As a marketer, should your ads link directly to a lead-gen form? Produce a gated resource like a webinar or ebook? Or go for the long sale and link to a blog with details about your product?
 tags: advertisers, marketing, data-exploration
