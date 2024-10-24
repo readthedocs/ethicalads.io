@@ -13,8 +13,8 @@ Along with metrics like an ad's click-through rate (CTR),
 the conversion rate, the rate at which site visitors take that specific action,
 is one of the most important metrics in digital advertising.
 
-The action that an advertiser might want somebody to take on their site varies
-from signing up for a free trial of their product, reading a blog about the product,
+The action that an advertiser wants somebody to take varies
+from signing up for a free trial, reading a blog,
 or filling out a lead generation form.
 The ad itself frequently primes visitors on what to expect when they click an ad
 with terms like "start free", "free ebook", "learn more" or "sign up".
