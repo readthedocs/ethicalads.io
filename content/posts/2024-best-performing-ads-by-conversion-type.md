@@ -55,8 +55,7 @@ and each conversion type except for Blogs had at least one million impressions i
 OK, the headline on this section is perhaps a little too strong.
 However, I think it's fair to say after looking at the data
 that developers on our network do not want to read ebooks especially lead-gated ones.
-Tailoring ad campaigns to the specific audience of the network is an important part
-of making sure ads perform well.
+Tailoring ad campaigns to developers is an important part of making sure ads perform well.
 
 Everyone is busy and developers are no exception.
 However, developers **are interested** in reading about products and services that solve their problems.
