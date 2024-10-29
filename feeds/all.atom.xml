@@ -1,5 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/all.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2024-10-08T00:00:00-07:00</updated><entry><title>EthicalAds Newsletter - October 2024</title><link href="https://www.ethicalads.io/blog/2024/10/ethicalads-newsletter-october-2024/" rel="alternate"></link><published>2024-10-08T00:00:00-07:00</published><updated>2024-10-08T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2024-10-08:/blog/2024/10/ethicalads-newsletter-october-2024/</id><summary type="html">&lt;h2 id="new-features-from-the-previous-month"&gt;New features from the previous month&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/all.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2024-10-29T00:00:00-07:00</updated><entry><title>Ad Performance by Conversion Action: Do Developers Like Ebooks?</title><link href="https://www.ethicalads.io/blog/2024/10/ad-performance-by-conversion-action-do-developers-like-ebooks/" rel="alternate"></link><published>2024-10-29T00:00:00-07:00</published><updated>2024-10-29T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2024-10-29:/blog/2024/10/ad-performance-by-conversion-action-do-developers-like-ebooks/</id><summary type="html">&lt;p&gt;Historically, we've dissuaded advertisers from linking to ebooks and webinars,
+especially gated ones, because they tend to have a lower …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Historically, we've dissuaded advertisers from linking to ebooks and webinars,
+especially gated ones, because they tend to have a lower click-through rate (CTR)
+and advertisers have told us they don't convert as well.
+While CTOs and marketers may read ebooks at a higher rate, developers and individual contributors,
+who make up the bulk of our ad network don't seem to like them as much.&lt;/p&gt;
+&lt;p&gt;Ad landing pages vary by the type of conversion the marketer is looking for whether signing up for a free trial, putting in a credit card or
+filling out a lead form for a resource like a webinar.
+The ad itself primes visitors on what to expect on the landing page, with terms like "start free", "free ebook", "learn more", or "sign up".
+In the rest of this post, we aim to back up our guidance with hard data from our own ad network on what types of ad conversions work best for developers.&lt;/p&gt;
+&lt;h2 id="types-of-ad-conversions"&gt;Types of ad conversions&lt;/h2&gt;
+&lt;p&gt;A few months back, we created &lt;a href="https://www.ethicalads.io/advertisers/creatives-that-convert/"&gt;guide to the kind of ad images that performed best&lt;/a&gt; across EthicalAds
+and we saw that text-heavy ad images were among the lowest performers.
+This time, we categorized all the ads shown on EthicalAds for the last month
+by the desired marketing action and compared it with the click-through rate.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Signup form:&lt;/strong&gt; The ad linked to a page where a form was the primary above the fold action, generally with a free trial.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Product page:&lt;/strong&gt; The ad linked directly to a landing or product page on the advertiser's website&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Homepage:&lt;/strong&gt; The ad linked to the advertiser's main home page. In the cases where this works well, the homepage is probably very similar to a product page such as for an advertiser who sells a single product.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Public resource:&lt;/strong&gt; The ad linked to a public resource the advertiser created like an ebook, a video, or the product documentation.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Gated resource:&lt;/strong&gt; The ad linked to a lead-gated resource like an ebook or webinar but the visitor was required to submit their name and email to get access.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Blog:&lt;/strong&gt; The ad linked to a blog post explaining a product or a feature of the advertiser's product. Arguably, this is similar to public resource, but we broke it out despite some sample size issues.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Across our network, this was about 23 million paid ad impressions and about 32,000 paid clicks
+and each conversion type except for Blogs had at least one million impressions in the month of data.&lt;/p&gt;
+&lt;div class="postimage text-center"&gt;
+  &lt;img class="w-100 shadow-lg" src="https://www.ethicalads.io/images/posts/2024-ad-ctr-conversion-type.png" alt="Ad CTR by Conversion Type (Sept-Oct 2024)"&gt;
+  &lt;p&gt;&lt;small&gt;Ad CTR by Conversion Type (Sept-Oct 2024)&lt;/small&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h2 id="developers-dont-want-to-read-your-ebook"&gt;Developers don't want to read your ebook&lt;/h2&gt;
+&lt;p&gt;OK, the headline on this section is perhaps a little too strong.
+However, I think it's fair to say after looking at the data
+that developers on our network do not want to read ebooks especially lead-gated ones.
+Tailoring ad campaigns to developers is an important part of making sure ads perform well.&lt;/p&gt;
+&lt;p&gt;Everyone is busy and developers are no exception.
+However, developers &lt;strong&gt;are interested&lt;/strong&gt; in reading about products and services that solve their problems.
+While some takeaways that the data points to may be specific to EthicalAds,
+some of this is going to apply to anybody doing developer marketing:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Developers are much more willing to give their email for a product trial or a free tier
+  than they are for gated content like an ebook or webinar.&lt;/li&gt;
+&lt;li&gt;Taking a developer directly to a product landing page or homepage when they click on an ad
+  is fine especially if the page's primary target audience is already developers.&lt;/li&gt;
+&lt;li&gt;For developer resources like webinars or ebooks,
+  make sure this content is public and doesn't require a signup.
+  A call to action of "signup" that isn't for a free trial is likely a red flag.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="we-want-your-campaign-to-succeed"&gt;We want your campaign to succeed&lt;/h2&gt;
+&lt;p&gt;One thing that separates a niche network like us from the huge ad players,
+is that advertisers are always a quick email away from reaching a real person
+who knows developer marketing and can offer a little assistance
+in running a successful campaign.&lt;/p&gt;
+&lt;p&gt;If you need &lt;a href="https://www.ethicalads.io/advertisers/help-with-your-ads/"&gt;help with your campaign&lt;/a&gt;,
+your landing pages, or ads themselves, don't hesitate to get in touch.
+We may be a small team, but we've run a lot of campaigns for our advertisers and learned tricks
+and best practices to help you get the most out of your next campaign&lt;/p&gt;</content><category term="posts"></category><category term="advertisers"></category><category term="marketing"></category><category term="data-exploration"></category></entry><entry><title>EthicalAds Newsletter - October 2024</title><link href="https://www.ethicalads.io/blog/2024/10/ethicalads-newsletter-october-2024/" rel="alternate"></link><published>2024-10-08T00:00:00-07:00</published><updated>2024-10-08T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2024-10-08:/blog/2024/10/ethicalads-newsletter-october-2024/</id><summary type="html">&lt;h2 id="new-features-from-the-previous-month"&gt;New features from the previous month&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;We've started testing our machine-learning powered
   &lt;a href="https://www.ethicalads.io/advertisers/niche-targeting/"&gt;contextual niche targeting&lt;/a&gt;
