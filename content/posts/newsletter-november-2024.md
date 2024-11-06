@@ -48,7 +48,7 @@ Last month:
 
 We are seeing some softness in our core markets
 after a few mid-sized advertisers put campaigns on hold
-and a larger one who wasn't expected to renew pulled back.
+and a larger one pulled back.
 
 We are running a November discount for new advertisers
 where we're offering the discounts we [normally]({filename}../pages/advertisers-pricing.md)
