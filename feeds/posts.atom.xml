@@ -1,5 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds - posts</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/posts.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2024-10-29T00:00:00-07:00</updated><entry><title>Ad Performance by Conversion Action: Do Developers Like Ebooks?</title><link href="https://www.ethicalads.io/blog/2024/10/ad-performance-by-conversion-action-do-developers-like-ebooks/" rel="alternate"></link><published>2024-10-29T00:00:00-07:00</published><updated>2024-10-29T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2024-10-29:/blog/2024/10/ad-performance-by-conversion-action-do-developers-like-ebooks/</id><summary type="html">&lt;p&gt;Historically, we've dissuaded advertisers from linking to ebooks and webinars,
+<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds - posts</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/posts.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2024-11-06T00:00:00-08:00</updated><entry><title>EthicalAds Newsletter - November 2024</title><link href="https://www.ethicalads.io/blog/2024/11/ethicalads-newsletter-november-2024/" rel="alternate"></link><published>2024-11-06T00:00:00-08:00</published><updated>2024-11-06T00:00:00-08:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2024-11-06:/blog/2024/11/ethicalads-newsletter-november-2024/</id><summary type="html">&lt;h2 id="new-features-from-the-previous-month"&gt;New features from the previous month&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;We released a new onboarding improvement to email advertisers
+  when they launch their first …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h2 id="new-features-from-the-previous-month"&gt;New features from the previous month&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;We released a new onboarding improvement to email advertisers
+  when they launch their first campaign.
+  The goal is to help them with onboarding new advertisers,
+  pointing them toward the reporting they want,
+  and generally help with navigating our platform.&lt;/li&gt;
+&lt;li&gt;Publisher payouts using Stripe are now automated and they went well in October.
+  This sped up payouts considerably.&lt;/li&gt;
+&lt;li&gt;We did a &lt;a href="https://www.ethicalads.io/blog/2024/10/ad-performance-by-conversion-action-do-developers-like-ebooks/"&gt;content piece&lt;/a&gt;
+  on Ad Performance by Conversion Action
+  which compared ad CTRs between ads that link to a product, a form,
+  or to some sort of content piece like a webinar or ebook.
+  The findings were what we expected to find based on experience
+  but worth reading if you're an advertiser considering what your lead magnet is.&lt;/li&gt;
+&lt;li&gt;We are continuing to improve our &lt;a href="https://ethical-ad-client.readthedocs.io/en/latest/index.html#automatic-ad-rotation"&gt;ad rotation&lt;/a&gt;
+  features we built for our ad client. We're continuing to iterate here,
+  although we've scaled back rotations somewhat.
+  We also building some reporting features around this.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can always see our latest server updates in our
+&lt;a href="https://ethical-ad-server.readthedocs.io/en/latest/developer/changelog.html"&gt;ethical-ad-server changelog&lt;/a&gt;
+and &lt;a href="https://ethical-ad-client.readthedocs.io/en/latest/changelog.html"&gt;ethical-ad-client changelog&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="october-advertising-stats"&gt;October advertising stats&lt;/h2&gt;
+&lt;p&gt;Last month:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We generated &lt;strong&gt;$41,677.24&lt;/strong&gt; for our publishers and they'll receive this payout next week.&lt;/li&gt;
+&lt;li&gt;We had &lt;strong&gt;181 publishers&lt;/strong&gt; on our network with at least one paid ad impression.&lt;/li&gt;
+&lt;li&gt;We had &lt;strong&gt;26,279,987&lt;/strong&gt; paid ad views across the world.
+  This is the highest it's ever been and our new run of network options
+  are allowing us to sell a larger percentage of our traffic especially in regions
+  that were historically undersold.
+  We also have some very broad campaigns running.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We are seeing some softness in our core markets
+after a few mid-sized advertisers put campaigns on hold
+and a larger one pulled back.&lt;/p&gt;
+&lt;p&gt;We are running a November discount for new advertisers
+where we're offering the discounts we &lt;a href="https://www.ethicalads.io/advertisers/pricing/"&gt;normally&lt;/a&gt;
+give at $3k and $25k at lower thresholds ($1k and $5k).
+If you're interested in running a campaign, &lt;a href="https://www.ethicalads.io/advertisers/#inbound-form"&gt;get in touch&lt;/a&gt;!&lt;/p&gt;
+&lt;h2 id="upcoming-features"&gt;Upcoming features&lt;/h2&gt;
+&lt;p&gt;The major features in our upcoming roadmap for November:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We are building a bulk importer to handle uploading ads in bulk.
+  A couple advertisers have asked for this to speed up the process
+  when running multiple campaigns.&lt;/li&gt;
+&lt;li&gt;We'll be releasing some new advertiser features to have read-only accounts
+  that can just see report data but not make any changes to ads themselves.&lt;/li&gt;
+&lt;li&gt;There may not be a lot of progress here in the next one month
+  but we are beginning to experiment with some larger ad placements on publishers who want this.
+  If you're an advertiser interested in a larger ad format,
+  &lt;a href="https://www.ethicalads.io/advertisers/#inbound-form"&gt;let us know&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thanks again for being along with us on this journey to build an ethical ad network.
+Please &lt;a href="https://www.ethicalads.io/contact/"&gt;let us know&lt;/a&gt; if you have any ideas or feedback on our product or roadmap,
+we always love to hear from you.&lt;/p&gt;</content><category term="posts"></category><category term="newsletter"></category><category term="community"></category><category term="build-in-public"></category></entry><entry><title>Ad Performance by Conversion Action: Do Developers Like Ebooks?</title><link href="https://www.ethicalads.io/blog/2024/10/ad-performance-by-conversion-action-do-developers-like-ebooks/" rel="alternate"></link><published>2024-10-29T00:00:00-07:00</published><updated>2024-10-29T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2024-10-29:/blog/2024/10/ad-performance-by-conversion-action-do-developers-like-ebooks/</id><summary type="html">&lt;p&gt;Historically, we've dissuaded advertisers from linking to ebooks and webinars,
 especially gated ones, because they tend to have a lower …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Historically, we've dissuaded advertisers from linking to ebooks and webinars,
 especially gated ones, because they tend to have a lower click-through rate (CTR)
 and advertisers have told us they don't convert as well.
