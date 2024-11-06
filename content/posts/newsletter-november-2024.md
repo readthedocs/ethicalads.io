@@ -63,7 +63,7 @@ The major features in our upcoming roadmap for November:
 * We are building a bulk importer to handle uploading ads in bulk.
   A couple advertisers have asked for this to speed up the process
   when running multiple campaigns.
-* We should be releasing some new advertiser features to have lower privilege accounts
+* We'll be releasing some new advertiser features to have read-only accounts
   that can just see report data but not make any changes to ads themselves.
 * There may not be a lot of progress here in the next one month
   but we are beginning to experiment with some larger ad placements on publishers who want this.
