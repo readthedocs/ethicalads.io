@@ -211,7 +211,7 @@ Google shows ads based on the user who is viewing your site, which means they co
 
 Google shows whatever ad will make the most money on each page.
 For your site,
-this could be something that upsets or offends you audience,
+this could be something that upsets or offends your audience,
 as well as something you aren't proud to be promoting.
 
 Our network is developer-focused and the ads are hand-curated by our team.
