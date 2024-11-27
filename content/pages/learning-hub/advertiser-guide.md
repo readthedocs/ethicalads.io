@@ -106,21 +106,27 @@ you're seeing from us against other networks you're using.
 We are confident in our performance and know the results will speak for themselves.
 
 We also have a few variables you can use in your landing page links
-in order to capture data about the publisher where the ad was clicked or the specific advertisement:
+in order to capture data about the publisher where the ad was clicked or the specific advertisement
+or very-broad, non-identifying information about the visitor:
 
-* `${publisher_slug}` is used to insert the slug of the publisher
-* `${publisher_name}` is used to insert the name of the publisher
-* `${advertisement_slug}` is used to insert the name of the ad that was served
-* `${advertisement_name}` is used to insert the name of the ad that was served
-
-The `slug` variable is useful because it doesn't change when the name of the publisher or ad changes.
-It's a lowercase representation of the name with spaces replaced by hyphens, generated when the publisher or ad is created.
+* `${publisher}` or `${publisher_slug}` is used to insert the slug of the publisher (all lowercase, no spaces)
+* `${publisher_name}` is used to insert the name of the publisher (may contain spaces)
+* `${advertisement}` or `${advertisement_slug}` is used to insert the slug of the specific ad that was served (all lowercase, no spaces)
+* `${advertisement_name}` is used to insert the name of the ad that was served (may contain spaces)
+* `${flight}` is used to insert the slug of the flight of the ad served (all lowercase, no spaces)
+* `${country}` inserts the visitor's country
+  (2 characters, [ISO 3166 Alpha 2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) format or `None` when unknown).
+  Examples: "US", "CA", or "GB".
+  The country can be unknown even when an ad flight is targeted to a region or list of countries.
+  Only impressions served within the targeted country list are billed to advertisers.
+* `${continent}` inserts the visitor's continent (2 characters or `None` when unknown).
+  Examples: "NA" for North America, "EU" for Europe, "OC" for Oceania.
 
 For example, using the landing page link below would let you measure EthicalAds as a whole
 as well as different publishers and specific ad creatives:
 
 ```pytb
-https://example.com?utm_medium=cpc&utm_source=ethicalads&utm_campaign=${advertisement_name}&utm_content=${publisher_slug}
+https://example.com?utm_medium=cpc&utm_source=ethicalads&utm_campaign=${flight}&utm_content=${advertisement}&country=${country}
 ```
 
 Our advertiser platform will measure all performance metrics before a user clicks-through
