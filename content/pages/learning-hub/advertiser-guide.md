@@ -113,7 +113,8 @@ or very-broad, non-identifying information about the visitor:
 * `${publisher_name}` is used to insert the name of the publisher (may contain spaces)
 * `${advertisement}` or `${advertisement_slug}` is used to insert the slug of the specific ad that was served (all lowercase, no spaces)
 * `${advertisement_name}` is used to insert the name of the ad that was served (may contain spaces)
-* `${flight}` is used to insert the slug of the flight of the ad served (all lowercase, no spaces)
+* `${flight}` or `${flight_slug}` is used to insert the slug of the flight of the ad served (all lowercase, no spaces)
+* `${flight_name}` is used to insert the name of the flight of the ad served (may contain spaces)
 * `${country}` inserts the visitor's country
   (2 characters, [ISO 3166 Alpha 2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) format or `None` when unknown).
   Examples: "US", "CA", or "GB".
