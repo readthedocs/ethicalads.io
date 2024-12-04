@@ -196,18 +196,26 @@ This keeps your measurements simple and lets you easily compare the conversions
 you're seeing from us against other networks you're using.
 We are confident in our performance and know the results will speak for themselves.</p>
 <p>We also have a few variables you can use in your landing page links
-in order to capture data about the publisher where the ad was clicked or the specific advertisement:</p>
+in order to capture data about the publisher where the ad was clicked or the specific advertisement
+or very-broad, non-identifying information about the visitor:</p>
 <ul>
-<li><code>${publisher_slug}</code> is used to insert the slug of the publisher</li>
-<li><code>${publisher_name}</code> is used to insert the name of the publisher</li>
-<li><code>${advertisement_slug}</code> is used to insert the name of the ad that was served</li>
-<li><code>${advertisement_name}</code> is used to insert the name of the ad that was served</li>
+<li><code>${publisher}</code> or <code>${publisher_slug}</code> is used to insert the slug of the publisher (all lowercase, no spaces)</li>
+<li><code>${publisher_name}</code> is used to insert the name of the publisher (may contain spaces)</li>
+<li><code>${advertisement}</code> or <code>${advertisement_slug}</code> is used to insert the slug of the specific ad that was served (all lowercase, no spaces)</li>
+<li><code>${advertisement_name}</code> is used to insert the name of the ad that was served (may contain spaces)</li>
+<li><code>${flight}</code> or <code>${flight_slug}</code> is used to insert the slug of the flight of the ad served (all lowercase, no spaces)</li>
+<li><code>${flight_name}</code> is used to insert the name of the flight of the ad served (may contain spaces)</li>
+<li><code>${country}</code> inserts the visitor's country
+  (2 characters, <a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2">ISO 3166 Alpha 2</a> format or <code>None</code> when unknown).
+  Examples: "US", "CA", or "GB".
+  The country can be unknown even when an ad flight is targeted to a region or list of countries.
+  Only impressions served within the targeted country list are billed to advertisers.</li>
+<li><code>${continent}</code> inserts the visitor's continent (2 characters or <code>None</code> when unknown).
+  Examples: "NA" for North America, "EU" for Europe, "OC" for Oceania.</li>
 </ul>
-<p>The <code>slug</code> variable is useful because it doesn't change when the name of the publisher or ad changes.
-It's a lowercase representation of the name with spaces replaced by hyphens, generated when the publisher or ad is created.</p>
 <p>For example, using the landing page link below would let you measure EthicalAds as a whole
 as well as different publishers and specific ad creatives:</p>
-<div class="codehilite"><pre><span></span><span class="x">https://example.com?utm_medium=cpc&amp;utm_source=ethicalads&amp;utm_campaign=${advertisement_name}&amp;utm_content=${publisher_slug}</span>
+<div class="codehilite"><pre><span></span><span class="x">https://example.com?utm_medium=cpc&amp;utm_source=ethicalads&amp;utm_campaign=${flight}&amp;utm_content=${advertisement}&amp;country=${country}</span>
 </pre></div>
 
 
