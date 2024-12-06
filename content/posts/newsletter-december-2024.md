@@ -15,7 +15,7 @@ image_credit: <span>Photo by <a href="https://unsplash.com/@thebeardbe?utm_conte
   This lets advertisers prepare ads in Google Sheets or Excel and import it.
 * It's now possible to have lower-privilege accounts for advertisers and publishers
   who can view reports but not change any settings or ads.
-* We added some [new variables]({filename}../learning-hub/advertiser-guide.md#measuring-conversions)
+* We added some [new variables]({filename}../pages/learning-hub/advertiser-guide.md#measuring-conversions)
   that advertisers can use in their landing page links and in UTM parameters.
   This lets advertisers capture the specific ad flight the ad was from
   as well as some other possibilities.
