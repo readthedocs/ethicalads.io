@@ -39,11 +39,9 @@ Last month:
   but low priced campaigns.
 
 We are continuing to see weakness in our core markets.
-We are continuing a discount we offered in November for new advertisers.
-[Normally]({filename}../pages/advertisers-pricing.md) we offer discounts
-for campaigns at $3k and $25k,
-but instead we're offering them at $1k and $3k.
-These are only available until our traffic is totally sold again.
+If you've been waiting for a good time to advertise with us,
+we have a holiday [price reduction]({filename}../pages/advertisers-pricing.md)
+you can take advantage of.
 If you're interested in running a campaign, [get in touch]({filename}../pages/advertisers.md#inbound-form)!
 
 
