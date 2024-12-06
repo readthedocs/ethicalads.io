@@ -1,5 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds - posts</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/posts.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2024-11-06T00:00:00-08:00</updated><entry><title>EthicalAds Newsletter - November 2024</title><link href="https://www.ethicalads.io/blog/2024/11/ethicalads-newsletter-november-2024/" rel="alternate"></link><published>2024-11-06T00:00:00-08:00</published><updated>2024-11-06T00:00:00-08:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2024-11-06:/blog/2024/11/ethicalads-newsletter-november-2024/</id><summary type="html">&lt;h2 id="new-features-from-the-previous-month"&gt;New features from the previous month&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds - posts</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/posts.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2024-12-06T00:00:00-08:00</updated><entry><title>EthicalAds Newsletter - December 2024</title><link href="https://www.ethicalads.io/blog/2024/12/ethicalads-newsletter-december-2024/" rel="alternate"></link><published>2024-12-06T00:00:00-08:00</published><updated>2024-12-06T00:00:00-08:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2024-12-06:/blog/2024/12/ethicalads-newsletter-december-2024/</id><summary type="html">&lt;h2 id="new-features-from-the-previous-month"&gt;New features from the previous month&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;We built a bulk importer to handle uploading ads in bulk.
+  A couple advertisers …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h2 id="new-features-from-the-previous-month"&gt;New features from the previous month&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;We built a bulk importer to handle uploading ads in bulk.
+  A couple advertisers asked for this to speed up the process
+  when running multiple campaigns across different geo- or contextual targeting.
+  This lets advertisers prepare ads in Google Sheets or Excel and import it.&lt;/li&gt;
+&lt;li&gt;It's now possible to have lower-privilege accounts for advertisers and publishers
+  who can view reports but not change any settings or ads.&lt;/li&gt;
+&lt;li&gt;We added some &lt;a href="https://www.ethicalads.io/advertiser-guide/#measuring-conversions"&gt;new variables&lt;/a&gt;
+  that advertisers can use in their landing page links and in UTM parameters.
+  This lets advertisers capture the specific ad flight the ad was from
+  as well as some other possibilities.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can always see our latest server updates in our
+&lt;a href="https://ethical-ad-server.readthedocs.io/en/latest/developer/changelog.html"&gt;ethical-ad-server changelog&lt;/a&gt;
+and &lt;a href="https://ethical-ad-client.readthedocs.io/en/latest/changelog.html"&gt;ethical-ad-client changelog&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="november-advertising-stats"&gt;November advertising stats&lt;/h2&gt;
+&lt;p&gt;Last month:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We generated &lt;strong&gt;$34,754.89&lt;/strong&gt; for our publishers and they'll receive this in a payout next week.
+  This number is lower than it has been in recent months.&lt;/li&gt;
+&lt;li&gt;We had &lt;strong&gt;178 publishers&lt;/strong&gt; on our network with at least one paid ad impression.&lt;/li&gt;
+&lt;li&gt;We had &lt;strong&gt;24,144,837&lt;/strong&gt; paid ad views across the world.
+  This number is still pretty high but we are running a number of really broad,
+  but low priced campaigns.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We are continuing to see weakness in our core markets.
+If you've been waiting for a good time to advertise with us,
+we have a holiday &lt;a href="https://www.ethicalads.io/advertisers/pricing/"&gt;price reduction&lt;/a&gt;
+you can take advantage of.
+If you're interested in running a campaign, &lt;a href="https://www.ethicalads.io/advertisers/#inbound-form"&gt;get in touch&lt;/a&gt;!&lt;/p&gt;
+&lt;h2 id="upcoming-features"&gt;Upcoming features&lt;/h2&gt;
+&lt;p&gt;The major features in our upcoming roadmap for December:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We are beginning to experiment with some larger ad placements on publishers who want this.
+  If you're an advertiser interested in a larger ad format,
+  &lt;a href="https://www.ethicalads.io/advertisers/#inbound-form"&gt;let us know&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;In addition to a report by publisher, we're building a report that breaks down advertiser traffic
+  by the domain where the ad was shown. Quite a few advertisers asked for this.&lt;/li&gt;
+&lt;li&gt;We will be releasing our new
+  &lt;a href="https://www.ethicalads.io/prospectus/ethicalads-advertiser-prospectus.pdf"&gt;prospectus&lt;/a&gt;
+  for Q1 in the next week.&lt;/li&gt;
+&lt;li&gt;We're aiming to have a new ad format for sites that want a fixed header ad.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thanks again for being along with us on this journey to build an ethical ad network.
+Please &lt;a href="https://www.ethicalads.io/contact/"&gt;let us know&lt;/a&gt; if you have any ideas or feedback on our product or roadmap,
+we always love to hear from you.&lt;/p&gt;</content><category term="posts"></category><category term="newsletter"></category><category term="community"></category><category term="build-in-public"></category></entry><entry><title>EthicalAds Newsletter - November 2024</title><link href="https://www.ethicalads.io/blog/2024/11/ethicalads-newsletter-november-2024/" rel="alternate"></link><published>2024-11-06T00:00:00-08:00</published><updated>2024-11-06T00:00:00-08:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2024-11-06:/blog/2024/11/ethicalads-newsletter-november-2024/</id><summary type="html">&lt;h2 id="new-features-from-the-previous-month"&gt;New features from the previous month&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;We released a new onboarding improvement to email advertisers
   when they launch their first …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h2 id="new-features-from-the-previous-month"&gt;New features from the previous month&lt;/h2&gt;
