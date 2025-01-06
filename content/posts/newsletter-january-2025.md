@@ -20,10 +20,7 @@ image_credit: <span>Image created with <a href="https://chatgpt.com/" title="A w
 * We got a few more advertisers trying our [niche targeting]({filename}../pages/niche-targeting.md) options.
   This resulted in us building a few additional UX and reporting features for it.
 * We began testing some ads on Reddit in a very small way.
-  This had a couple goals from learning more about what our competitors are doing well
-  so these features can be integrated into our own service
-  as well as trying to get a few new advertisers while doing it.
-
+  This had a couple goals, market research and trying to get a few new advertisers while doing it.   
 You can always see our latest server updates in our
 [ethical-ad-server changelog](https://ethical-ad-server.readthedocs.io/en/latest/developer/changelog.html)
 and [ethical-ad-client changelog](https://ethical-ad-client.readthedocs.io/en/latest/changelog.html).
