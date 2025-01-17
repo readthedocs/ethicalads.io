@@ -1,16 +1,17 @@
-Title: What Makes EthicalAds a Great Carbon Ads Alternative for Your Site
+Title: What Makes EthicalAds a Great Carbon Ads Alternative
 slug: alternative-to-carbon-ads
-description: How are we different? Privacy guarantees, open source code, and community-focus.
+description: How are we different? Privacy guarantees, better performance, better service, open source code, and community-focus.
 
 We know that we are competing with a few other ad networks that focus on developers.
 This page talks a bit more about how we're different,
-and why you might want to choose us instead of Carbon Ads.
+and why you might want to choose us instead of Carbon Ads
+either to run your next campaign or to host ads for your site.
 
 Carbon and their parent company BuySellAds have attractive, unobtrusive ads.
 Like us, they also focus on developers and related niches.
 We are happy to compete with a company that also cares about the user experience around ads.
 However, there are some differences between EthicalAds and Carbon
-especially around privacy, security, and community focus.
+especially around privacy, transparency, and community focus.
 Let's explore them.
 
 
@@ -23,6 +24,34 @@ Let's explore them.
     </tr>
   </thead>
   <tbody>
+    <!-- Transparent -->
+    <tr>
+      <td>
+        <div class="float-left p-3">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="32" height="32"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
+        </div>
+        <div>
+          <strong>Transparent</strong><br>
+          <p class="mb-0 small">Is the network <a href="#transparency">transparent</a> about pricing, earnings, and which ads and advertisers will appear on which sites</p>
+        </div>
+      </td>
+      <td class="text-center">
+        <div class="text-danger mt-3">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+          </svg>
+        </div>
+      </td>
+      <td class="text-center">
+        <div class="text-success mt-3">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"></path>
+            <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"></path>
+          </svg>
+        </div>
+      </td>
+    </tr>
     <!-- Payouts -->
     <tr>
       <td>
@@ -107,34 +136,6 @@ Let's explore them.
         </div>
       </td>
     </tr>
-    <!-- Transparent -->
-    <tr>
-      <td>
-        <div class="float-left p-3">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="32" height="32"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
-        </div>
-        <div>
-          <strong>Transparent</strong><br>
-          <p class="mb-0 small">Is the network <a href="#transparency">transparent</a> about which ads and advertisers will appear on which sites?</p>
-        </div>
-      </td>
-      <td class="text-center">
-        <div class="text-danger mt-3">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
-          </svg>
-        </div>
-      </td>
-      <td class="text-center">
-        <div class="text-success mt-3">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"></path>
-            <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"></path>
-          </svg>
-        </div>
-      </td>
-    </tr>
     <!-- Developer-focused -->
     <tr>
       <td>
@@ -143,7 +144,7 @@ Let's explore them.
         </div>
         <div>
           <strong>Developer-focused</strong><br>
-          <p class="mb-0 small">Will there be <a href="#focus">off-topic ads</a> or ads focused on people besides developers?</p>
+          <p class="mb-0 small">Will there be off-topic ads or ads focused on people besides developers?</p>
         </div>
       </td>
       <td class="text-center">
@@ -171,7 +172,7 @@ Let's explore them.
         </div>
         <div>
           <strong>Open source</strong><br>
-          <p class="mb-0 small">Is the ad network <a href="#community">open source</a> so you can see exactly what it is doing?</p>
+          <p class="mb-0 small">Is the ad network <a href="#opensource">open source</a> so you can see exactly what it is doing?</p>
         </div>
       </td>
       <td class="text-center">
@@ -195,10 +196,35 @@ Let's explore them.
 </table>
 
 
-<a id="privacy"></a>
-## **Privacy**: We never set a cookie on your site, or load third-party scripts.
+<a id="transparency"></a>
+## **Transparency**: Public and clear pricing and performance data
 
-When running a web site, if you integrate with an ad network, you expect to send data to that network. When using a provider like Carbon Ads, you are also sending data to third-parties that you didn't even know about. EthicalAds will never load javascript from other providers on your pages.
+If you're planning a new ad campaign, you want to know how much it will cost and
+on what sites will your ads appear.
+Unlike Carbon, our [pricing]({filename}/pages/advertisers-pricing.md) and minimums are public on our website.
+You know what your campaign will cost without surprises.
+We have reports to show you exactly which sites are showing your ads.
+
+For sites showing ads from EthicalAds, we have a [revenue calculator]({filename}/pages/publisher-calculator.md)
+to help you understand and estimate how much you will earn with us.
+Just as we show advertisers where their ads appear,
+we show publishers the companies whose ads are appear on their site.
+
+
+<a id="support"></a>
+## **Support**: You can always get a human on a call or email
+
+Unlike larger ad networks, we are small, scrappy, and you can always get in touch with a real person
+within a day or two about any support you need.
+
+We are interested in building lasting relationships with both our advertisers and our publishers.
+We want them to succeed and the majority of our business comes from repeat advertisers and long-term publishers.
+
+
+<a id="privacy"></a>
+## **Privacy**: We never set an ad cookie or load third-party scripts.
+
+When running a web site, if you integrate with an ad network, you expect to send data to that network. When using a provider like Carbon Ads, you are also sending data to third-parties that you didn't even know about. EthicalAds will never load JavaScript from other providers on your pages.
 
 **EthicalAds is 100% GDPR and CCPA compliant.**
 
@@ -218,21 +244,8 @@ Carbon Ads reserves the right to set cookies on your browser session, as well as
 EthicalAds will never set cookies on your users, and we don't use any user-specific data to target advertising. This means [you don't need a cookie banner]({filename}../posts/2021-can-you-remove-cookie-banners.md), we are GDPR-compliant, and your users data is not being tracked across the internet.
 
 
-<a id="community"></a>
-## **Community**: We give back with Community Ads
-
-Our long history in the open source community helps guide the actions that we take as an organization.
-We appreciate that we have the ability to give back to other projects,
-so we offer [Community Ads]({filename}/pages/community-ads.md) for projects to show community-focused ads for free.
-
-We have run this program since we launched ads on Read the Docs,
-because we love being able to support other projects.
-This program allows EthicalAds to help give back to other projects in free advertising,
-as well as by giving them money as publishers.
-
-
 <a id="opensource"></a>
-## **Open Source**: Our code is open source, and easy to read
+## **Open Source**: Building on our transparency, our code is open source
 
 The code behind other networks is proprietary and incredibly complex. This is because there is a large amount of time being spent trying to figure out exactly who you are and how to target you with an ad.
 
@@ -249,5 +262,6 @@ since we have a deep understanding of how privacy issues impact the internet.
 We have space for additional publishers,
 and look forward to building something meaningful with you:
 
+- Run your next [ad campaign with EthicalAds]({filename}/pages/advertisers.md)
 - Become a [publisher]({filename}/pages/publishers.md) today
 - Follow our journey in our [newsletter](https://www.ethicalads.io/email-list/)
