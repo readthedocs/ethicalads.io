@@ -1,5 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/all.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2025-01-07T00:00:00-08:00</updated><entry><title>EthicalAds Newsletter - January 2025</title><link href="https://www.ethicalads.io/blog/2025/01/ethicalads-newsletter-january-2025/" rel="alternate"></link><published>2025-01-07T00:00:00-08:00</published><updated>2025-01-07T00:00:00-08:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2025-01-07:/blog/2025/01/ethicalads-newsletter-january-2025/</id><summary type="html">&lt;h2 id="new-features-from-the-previous-month"&gt;New features from the previous month&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/all.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2025-02-06T00:00:00-08:00</updated><entry><title>EthicalAds Newsletter - February 2025</title><link href="https://www.ethicalads.io/blog/2025/02/ethicalads-newsletter-february-2025/" rel="alternate"></link><published>2025-02-06T00:00:00-08:00</published><updated>2025-02-06T00:00:00-08:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2025-02-06:/blog/2025/02/ethicalads-newsletter-february-2025/</id><summary type="html">&lt;h2 id="new-features-from-the-previous-month"&gt;New features from the previous month&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;A new advertiser report with a domain breakdown report was released.
+  This report will …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h2 id="new-features-from-the-previous-month"&gt;New features from the previous month&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;A new advertiser report with a domain breakdown report was released.
+  This report will break down advertiser traffic
+  by the domain where the ad was shown. Quite a few advertisers asked for this.&lt;/li&gt;
+&lt;li&gt;We ran a few &lt;a href="https://www.ethicalads.io/advertisers/niche-targeting/"&gt;niche targeting&lt;/a&gt; campaigns end-to-end
+  and made a number of improvements including a large scanning project across almost all
+  of the commonly browsed pages across our network. We're really excited about this feature
+  and think it will yield better results for advertisers (it has so far)
+  and enable us to target various developer niches that were too small to target previously.&lt;/li&gt;
+&lt;li&gt;We have begun creating a data lake with DuckDB that will allow us to much more efficiently
+  get estimates for how large various audiences are for both niche targeting and for just bespoke campaigns.
+  For example, advertisers ask us how large of a campaign they could put together for backend devs
+  (or SMS 2FA, or databases, or anything they can think of) across just a few countries or even a single country.
+  This will allow us to have much more accurate estimates based on historical data.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can always see our latest server updates in our
+&lt;a href="https://ethical-ad-server.readthedocs.io/en/latest/developer/changelog.html"&gt;ethical-ad-server changelog&lt;/a&gt;
+and &lt;a href="https://ethical-ad-client.readthedocs.io/en/latest/changelog.html"&gt;ethical-ad-client changelog&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="january-advertising-stats"&gt;January advertising stats&lt;/h2&gt;
+&lt;p&gt;Last month:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We generated &lt;strong&gt;$33,801.05&lt;/strong&gt; for our publishers and they'll receive this in a payout next week.&lt;/li&gt;
+&lt;li&gt;We had &lt;strong&gt;176 publishers&lt;/strong&gt; on our network with at least one paid ad impression.&lt;/li&gt;
+&lt;li&gt;We had &lt;strong&gt;23,585,060&lt;/strong&gt; paid ad views across the world.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;January has historically started slowly and this year is no different.
+We have a stronger February lined up.&lt;/p&gt;
+&lt;p&gt;We recently lowered prices on a &lt;a href="https://www.ethicalads.io/advertisers/pricing/"&gt;few audiences&lt;/a&gt;
+so it's a good time to start a campaign if you've been on the fence.
+If you're interested in running a campaign, &lt;a href="https://www.ethicalads.io/advertisers/#inbound-form"&gt;get in touch&lt;/a&gt;!&lt;/p&gt;
+&lt;h2 id="upcoming-features"&gt;Upcoming features&lt;/h2&gt;
+&lt;p&gt;The major features in our upcoming roadmap for February:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We hit a few snags but optimizing PayPal payouts but it should roll out this month.
+  Did you know that PayPal charges an additional fee for making payments with their API?&lt;/li&gt;
+&lt;li&gt;We're aiming to have a new ad format for sites that want a fixed header ad.
+  This wasn't finished up last month.&lt;/li&gt;
+&lt;li&gt;We're aiming to produce a tech-focused content piece about what we're doing with DuckDB
+  and how it's been a great pair with PostgreSQL.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thanks again for being along with us on this journey to build an ethical ad network.
+Please &lt;a href="https://www.ethicalads.io/contact/"&gt;let us know&lt;/a&gt; if you have any ideas or feedback on our product or roadmap,
+we always love to hear from you.&lt;/p&gt;</content><category term="posts"></category><category term="newsletter"></category><category term="community"></category><category term="build-in-public"></category></entry><entry><title>EthicalAds Newsletter - January 2025</title><link href="https://www.ethicalads.io/blog/2025/01/ethicalads-newsletter-january-2025/" rel="alternate"></link><published>2025-01-07T00:00:00-08:00</published><updated>2025-01-07T00:00:00-08:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2025-01-07:/blog/2025/01/ethicalads-newsletter-january-2025/</id><summary type="html">&lt;h2 id="new-features-from-the-previous-month"&gt;New features from the previous month&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;We released our new
   &lt;a href="https://www.ethicalads.io/prospectus/ethicalads-advertiser-prospectus.pdf"&gt;prospectus&lt;/a&gt;
@@ -16,7 +62,7 @@
 &lt;li&gt;We got a few more advertisers trying our &lt;a href="https://www.ethicalads.io/advertisers/niche-targeting/"&gt;niche targeting&lt;/a&gt; options.
   This resulted in us building a few additional UX and reporting features for it.&lt;/li&gt;
 &lt;li&gt;We began testing some ads on Reddit in a very small way.
-  This had a couple goals, market research and trying to get a few new advertisers while doing it. &lt;br&gt;
+  This had a couple goals, market research and trying to get a few new advertisers while doing it.
 You can always see our latest server updates in our
 &lt;a href="https://ethical-ad-server.readthedocs.io/en/latest/developer/changelog.html"&gt;ethical-ad-server changelog&lt;/a&gt;
 and &lt;a href="https://ethical-ad-client.readthedocs.io/en/latest/changelog.html"&gt;ethical-ad-client changelog&lt;/a&gt;.&lt;/li&gt;
