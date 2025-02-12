@@ -18,7 +18,7 @@ on top of our regular daily driver of PostgreSQL.
 
 At both EthicalAds and at our parent company Read the Docs, we use PostgreSQL heavily.
 We use Postgres to store basically all our production data and to be our "source of truth"
-for all advertising stats and expenditures.
+for all advertising stats, billing, and payouts to publishers.
 Postgres handles everything and is among the most dependable pieces of our infrastructure.
 Postgres can handle [ML embeddings]({filename}../posts/2024-niche-ad-targeting.md)
 with [pgvector](https://github.com/pgvector/pgvector) for better contextual ad targeting
@@ -50,7 +50,7 @@ Despite how much we love Postgres at EthicalAds, this specifically has felt like
 
 ## Column-wise storage & DuckDB
 
-These kinds of expensive aggregation queries historically are better fits for column databases, data warehouses and [OLAP databases](https://en.wikipedia.org/wiki/Online_analytical_processing) generally.
+Typically, these kinds of expensive aggregation queries are better fits for column databases, data warehouses and [OLAP databases](https://en.wikipedia.org/wiki/Online_analytical_processing) generally.
 We considered building out a data warehouse or other kinds of column oriented databases
 but never found something we really liked and we were always hesitant to add a second production system
 that could get out of sync with Postgres.
@@ -60,11 +60,11 @@ but these solutions all either didn't work for our use case or
 weren't supported on Azure's Managed Postgres, where we are hosted.
 This is where using DuckDB came to our rescue.
 
-[DuckDB](https://duckdb.org/) is an in-process, analytical database.
+[DuckDB](https://duckdb.org/) is an in-process, analytical database and toolkit for analytical workloads.
 It's sort of like SQLite but for analytical workloads and querying data anywhere in a variety of formats.
 Like SQLite, you either run it in your app's process (Python for us)
 or you can run its own standalone CLI.
-It can read from CSV or Parquet files stored in blob storage
+It can read from CSV or Parquet files stored on disk or in blob storage
 or directly from an SQL database like Postgres.
 
 Because most of our aggregations are for hourly or daily data and then data virtually never changes
@@ -160,9 +160,11 @@ This provides a number of advantages including:
 
 "But David. Won't it be slow to run a SQL query against a remote file?"
 Firstly, these queries are strictly analytical queries, nothing transactional.
-Remember that any of the major clouds these blob storage files are going to be in or near
+Remember that with any of the major clouds these blob storage files are going to be in or near
 the data center where the rest of your servers are running.
-Querying them is a lot faster than I originally expected it to be.
+Querying them is a lot faster than I expected it to be.
+For reports, estimates and other analytical workloads where folks are used to waiting a few seconds,
+it works fairly well.
 
 While DuckDB is pretty smart about [cross database queries](https://duckdb.org/2024/01/26/multi-database-support-in-duckdb.html),
 I put "joins" in scare quotes for a reason.
@@ -175,7 +177,9 @@ Expensive, cross-database queries require a bit of extra testing and scrutiny.
 Lastly, if anybody from the Azure team happens to be reading this,
 we'd love it if you'd add [pg_parquet](https://github.com/CrunchyData/pg_parquet/) to Azure Managed Postgres
 now that it [supports Azure storage](https://www.crunchydata.com/blog/pg_parquet-an-extension-to-connect-postgres-and-parquet).
-Dumping parquets from Postgres directly would be more optimized than what we're currently doing.
+Dumping parquets from Postgres directly would be much more optimized than
+doing that from DuckDB. DuckDB is still amazing for reading these files once they're written,
+but creating them directly with Postgres would be better still.
 
 
 ## Wrapup
