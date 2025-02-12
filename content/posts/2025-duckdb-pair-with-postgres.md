@@ -32,7 +32,7 @@ handles this kind of transaction processing effortlessly.
 
 However, one area where we've struggled a bit with Postgres is on analytical queries.
 When a new advertiser prospect comes to us and asks how much ad inventory we have on content
-related to automating compute infrastructure with a tool like Terraform, we want to be able to answer that easily.
+related a tool like Terraform, we want to be able to answer that easily.
 By aggregating data ahead of time, we can query the data much faster when an advertiser pulls up a report
 or needs an estimate on how long their campaign will take.
 
