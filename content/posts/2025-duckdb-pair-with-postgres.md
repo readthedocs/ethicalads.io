@@ -124,7 +124,7 @@ duckdb.sql("LOAD postgres")
 
 pg_conn_string = os.getenv("REPLICA_DATABASE_URL")
 duckdb.sql(
-    f"ATTACH IF NOT EXISTS '{pg_conn_string}' AS adspg (TYPE POSTGRES)"
+    f"ATTACH IF NOT EXISTS '{pg_conn_string}' AS ads_pg (TYPE POSTGRES)"
 )
 
 # "Join" a daily aggregation back up with our Postgres source of truth
