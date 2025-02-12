@@ -186,7 +186,7 @@ but creating them directly with Postgres would be better still.
 
 Hopefully this was helpful to see some concrete examples of using DuckDB in addition to PostgreSQL
 for analytical workloads. We believe there's a lot of potential to use DuckDB with parquet files
-for these kinds of queries in more places on EthicalAds and with Read the Docs, our parent as well.
+for these kinds of queries in more places on EthicalAds and with Read the Docs as well.
 
 Thanks for tuning in to one of our infrequent posts on technical challenges
 that come along with building an ad network without invasive tracking.
