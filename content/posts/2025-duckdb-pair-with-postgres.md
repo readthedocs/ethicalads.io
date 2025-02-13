@@ -1,6 +1,6 @@
 Title: DuckDB and PostgreSQL Make a Great Pair for Analytical Processing
 Date: February 25, 2025
-description: How we built better contextual ad targeting using PostgreSQL, Django, and embeddings which are a way to encode the "relatedness" of text and pages for use in machine learning.
+description: This post shows how using DuckDB and parquet files for analytical workloads while sticking with Postgres for transactional queries makes for an easy way to get great performance from your database stack.
 tags: postgresql, duckdb, performance, engineering
 authors: David Fischer
 image: /images/posts/2025-duckdb-postgres.jpg
@@ -86,6 +86,7 @@ whether from a developer laptop or directly from a server
 without adding any load on your production database.
 Queries that took 5-10 minutes against Postgres frequently take just a few seconds
 against parquet files optimized for the purpose.
+Here's an example of how to query cloud storage parquet files directly from your app server in Python:
 
 ```python
 import duckdb
@@ -113,12 +114,13 @@ duckdb.sql("""SELECT COUNT(*) FROM read_parquet("abfs://datalake/2025-01-*.parqu
 ## Joining column-wise data with Postgres
 
 Creating our data lake of parquet files is cool,
-but the real power comes from "joining" this columnar optimized data back up against Postgres.
+but the real power comes from "joining" this columnar optimized data back up against Postgres:
 
 
 ```python
 import duckdb
 
+# Enable the Postgres extension for DuckDB
 duckdb.sql("INSTALL postgres")
 duckdb.sql("LOAD postgres")
 
@@ -134,7 +136,7 @@ duckdb.sql("""
         adv.name as 'advertiser_name',
         COUNT(*) as 'impression_cnt'
     FROM read_parquet("abfs://datalake/2025-02-01.parquet") pq
-    INNER JOIN adspg.adserver_advertiser adv
+    INNER JOIN ads_pg.adserver_advertiser adv
         ON pq.advertiser_id = adv.id
     GROUP BY adv.name
     ORDER BY impression_cnt DESC
@@ -147,7 +149,7 @@ This provides a number of advantages including:
 * Unlike some data warehouses that need **lots** of de-normalized data,
   our parquet files only need the data required to make whatever aggregations we need.
   This keeps them small and fast.
-  Joining the aggregated data back to Postgres for additional data is fast and easy.
+  "Joining" the aggregated data back to Postgres for additional data is fast and easy.
 * It's possible to overload your production database with analytical queries,
   but you can't easily overload cloud storage from reading files.
 * It's even possible with the `COPY` command to run aggregations against parquet files
@@ -167,7 +169,7 @@ For reports, estimates and other analytical workloads where folks are used to wa
 it works fairly well.
 
 While DuckDB is pretty smart about [cross database queries](https://duckdb.org/2024/01/26/multi-database-support-in-duckdb.html),
-I put "joins" in scare quotes for a reason.
+I put "joins" in scare quotes in the previous section for a reason.
 These are not traditional database joins and at some level DuckDB is querying records
 from one database into memory and using it to query the other database.
 In some situations, including some we saw in our workloads,
@@ -188,7 +190,7 @@ Hopefully this was helpful to see some concrete examples of using DuckDB in addi
 for analytical workloads. We believe there's a lot of potential to use DuckDB with parquet files
 for these kinds of queries in more places on EthicalAds and with Read the Docs as well.
 
-Thanks for tuning in to one of our infrequent posts on technical challenges
-that come along with building an ad network without invasive tracking.
+Thanks for tuning in to one of our more technical posts
+about some of the challenges of building ad network without invasive tracking.
 Please [let us know]({filename}../pages/contact.md#inbound-form) if you have any ideas or feedback on our product or service.
 We always love to hear from you.
