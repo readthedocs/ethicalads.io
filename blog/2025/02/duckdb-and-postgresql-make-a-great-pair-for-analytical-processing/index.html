@@ -1,0 +1,661 @@
+<!doctype html>
+<html lang="en">
+  <head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<meta name="generator" content="Pelican" />
+<meta property="og:site_name" content="EthicalAds"/><meta name="description" content="This post shows how using DuckDB and parquet files for analytical workloads while sticking with Postgres for transactional queries makes for an easy way to get great performance from your database stack." />
+    <meta property="og:description" content="This post shows how using DuckDB and parquet files for analytical workloads while sticking with Postgres for transactional queries makes for an easy way to get great performance from your database stack." /><meta name="tags" content="postgresql" /><meta name="tags" content="duckdb" /><meta name="tags" content="performance" /><meta name="tags" content="engineering" /><meta name="author" content="David Fischer" /><meta property="og:type" content="article">
+  <meta property="og:title" content="DuckDB and PostgreSQL Make a Great Pair for Analytical Processing" />
+  <meta property="twitter:title" content="DuckDB and PostgreSQL Make a Great Pair for Analytical Processing" /><meta property="og:image" content="https://www.ethicalads.io/images/posts/2025-duckdb-postgres.jpg" />
+    <meta property="twitter:image" content="https://www.ethicalads.io/images/posts/2025-duckdb-postgres.jpg" /><meta property="article:published_time" content="2025-02-25" />
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="/theme/dist/main.css">
+
+      <title>DuckDB and PostgreSQL Make a Great Pair for Analytical Processing - EthicalAds</title>
+
+  <link rel="canonical" href="https://www.ethicalads.io/blog/2025/02/duckdb-and-postgresql-make-a-great-pair-for-analytical-processing/" />
+  <meta property="og:url" content="https://www.ethicalads.io/blog/2025/02/duckdb-and-postgresql-make-a-great-pair-for-analytical-processing/" />
+
+      <!-- Feeds -->
+        <link href="https://www.ethicalads.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="EthicalAds Full Atom Feed" />
+        <link href="https://www.ethicalads.io/feeds/posts.atom.xml" type="application/atom+xml" rel="alternate" title="EthicalAds Categories Atom Feed" />
+
+      <!-- Favicons -->
+      <link rel="icon" href="/theme/img/favicons/favicon.svg" type="image/svg+xml">
+      <link rel="icon" href="/theme/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+      <link rel="icon" href="/theme/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+      <link rel="icon" href="/theme/img/favicons/favicon.ico">
+
+      <!-- Plausible privacy-friendly analytics -->
+      <script defer data-domain="ethicalads.io" src="https://plausible.io/js/plausible.js"></script>
+  </head>
+  <body class="bg-light">
+
+<nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container">
+
+    <!-- Brand -->
+    <a class="navbar-brand" href="/">
+      <img src="/theme/img/ethicalads-logo-blue.svg" class="navbar-brand-img" alt="EthicalAds">
+    </a>
+
+    <!-- Toggler -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Collapse -->
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+
+      <!-- Toggler -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="fa fa-close"></span>
+      </button>
+
+
+      <!-- Navigation -->
+      <ul class="navbar-nav ml-auto">
+
+
+
+          <li class="nav-item">
+            <a class="nav-link mr-md-2" href="/blog/">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mr-md-2" href="/advertisers/pricing/">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mr-md-2" href="/advertisers/">Advertisers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mr-md-2" href="/publishers/">Publishers</a>
+          </li>
+
+
+      </ul>
+
+      <ul class="navbar-nav ml-auto">
+
+        <!---->
+
+          <li class="nav-item lift">
+            <a class="nav-item btn btn-sm btn-outline-primary" href="/advertisers/">Advertise with Us</a>
+          </li>
+
+      </ul>
+
+    </div>
+
+  </div>
+</nav>
+    <main>
+
+<section class="container py-5 mb-10">
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-10 col-lg-9 col-xl-8">
+      <!-- Heading -->
+      <h1 class="display-4">DuckDB and PostgreSQL Make a Great Pair for Analytical Processing</h1>
+
+      <!-- Meta -->
+      <div class="row align-items-center py-5 border-top border-bottom">
+        <div class="col">
+
+          <div class="d-flex w-100">
+            <!-- Author -->
+            <div class="flex-fill h6 text-uppercase mb-0">David Fischer</div>
+
+            <!-- Date -->
+            <div class="flex-fill h6 text-uppercase text-muted mb-0 ml-auto text-right">
+              <time class="text-nowrap" datetime="2025-02-25T00:00:00-08:00">Feb 25, 2025</time>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- IMAGE  -->
+        <!-- Fugure -->
+        <figure class="figure mb-7">
+
+          <!-- Image -->
+          <img class="figure-img img-fluid rounded" src="/images/posts/2025-duckdb-postgres.jpg" alt="DuckDB and PostgreSQL Make a Great Pair for Analytical Processing">
+
+          <!-- Caption -->
+        <figcaption class="figure-caption text-center"><small><span>Image created with <a href="https://chatgpt.com/" title="A duck and an elephant working on a computer to build an analytics platform. The image should have a lighthearted feel, be colorful, but be a bit funny and strange.">ChatGPT</a></span></small></figcaption>
+
+        </figure>
+
+      <div>
+        <p>Typically, our blog lives at the intersection of privacy, advertising,
+and building our business in this niche.
+This time, however, we're going to delve into some database scaling issues
+we have been hitting for some time and how we're solving them with DuckDB
+on top of our regular daily driver of PostgreSQL.</p>
+<h2 id="postgres-can-do-just-about-everything">Postgres can do just about everything</h2>
+<p>At both EthicalAds and at our parent company Read the Docs, we use PostgreSQL heavily.
+We use Postgres to store basically all our production data and to be our "source of truth"
+for all advertising stats, billing, and payouts to publishers.
+Postgres handles everything and is among the most dependable pieces of our infrastructure.
+Postgres can handle <a href="https://www.ethicalads.io/blog/2024/04/using-embeddings-in-production-with-postgres-django-for-niche-ad-targeting/">ML embeddings</a>
+with <a href="https://github.com/pgvector/pgvector">pgvector</a> for better contextual ad targeting
+and combined with a read replica we scaled our setup to
+<a href="https://www.ethicalads.io/blog/2021/07/handling-100-requests-per-second-with-python-django/">hundreds of writes per second</a>.
+At EthicalAds, we generally field ~4-5M ad requests per weekday and Postgres
+handles this kind of transaction processing effortlessly.</p>
+<h2 id="what-about-analytical-processing">What about analytical processing?</h2>
+<p>However, one area where we've struggled a bit with Postgres is on analytical queries.
+When a new advertiser prospect comes to us and asks how much ad inventory we have on content
+related a tool like Terraform, we want to be able to answer that easily.
+By aggregating data ahead of time, we can query the data much faster when an advertiser pulls up a report
+or needs an estimate on how long their campaign will take.</p>
+<div class="postimage text-center">
+  <img class="w-100 shadow-lg" src="https://www.ethicalads.io/images/posts/2025-duckdb-postgres-usage.png" alt="Expensive analytical queries can do a number on your database.">
+  <p>Expensive analytical queries can do a number on your database.</p>
+</div>
+
+<p>We run these expensive aggregations across our database nightly during lower traffic times
+and store the results in a series of tables of daily aggregated data by publisher, by country, by advertiser, and so on.
+Altogether, queries take around 45 minutes to an hour and add significant load to our read replica.
+Occasionally, (or not so occasionally if they happen to coincide with the <a href="https://www.postgresql.org/docs/current/runtime-config-autovacuum.html">autovacuum</a>), they will timeout and have to be re-run.
+Despite how much we love Postgres at EthicalAds, this specifically has felt like one of the most brittle pieces of our setup.</p>
+<h2 id="column-wise-storage-duckdb">Column-wise storage &amp; DuckDB</h2>
+<p>Typically, these kinds of expensive aggregation queries are better fits for column databases, data warehouses and <a href="https://en.wikipedia.org/wiki/Online_analytical_processing">OLAP databases</a> generally.
+We considered building out a data warehouse or other kinds of column oriented databases
+but never found something we really liked and we were always hesitant to add a second production system
+that could get out of sync with Postgres.
+Postgres additionally has extensions to add some of these capabilities
+(eg. <a href="https://github.com/citusdata/citus?tab=readme-ov-file#creating-tables-with-columnar">citus</a>)
+but these solutions all either didn't work for our use case or
+weren't supported on Azure's Managed Postgres, where we are hosted.
+This is where using DuckDB came to our rescue.</p>
+<p><a href="https://duckdb.org/">DuckDB</a> is an in-process, analytical database and toolkit for analytical workloads.
+It's sort of like SQLite but for analytical workloads and querying data anywhere in a variety of formats.
+Like SQLite, you either run it in your app's process (Python for us)
+or you can run its own standalone CLI.
+It can read from CSV or Parquet files stored on disk or in blob storage
+or directly from an SQL database like Postgres.</p>
+<p>Because most of our aggregations are for hourly or daily data and then data virtually never changes
+once it's written, it's a great match for a write-once system.
+As a result, we began writing parquet files on a daily basis to cloud storage.
+<a href="https://parquet.apache.org/">Apache Parquet files</a>, are files optimized for column-wise data files
+that are widely supported by various tools including Python and DuckDB.</p>
+<blockquote class="blockquote mb-2">
+  <p class="mb-2">
+    “Apache Parquet is an open source, column-oriented data file format designed for efficient data storage and retrieval.”
+  </p>
+  <p class="small">- <a href="https://parquet.apache.org/">parquet.apache.org</a></p>
+</blockquote>
+
+<p>Using Python and DuckDB, it's easy to query a day or a month's worth of data
+whether from a developer laptop or directly from a server
+without adding any load on your production database.
+Queries that took 5-10 minutes against Postgres frequently take just a few seconds
+against parquet files optimized for the purpose.
+Here's an example of how to query cloud storage parquet files directly from your app server in Python:</p>
+<div class="codehilite"><pre><span></span><span class="kn">import</span> <span class="nn">duckdb</span>
+<span class="kn">from</span> <span class="nn">fsspec</span> <span class="kn">import</span> <span class="n">filesystem</span>
+
+<span class="c1"># Support for S3 is even more straight-forward</span>
+<span class="n">duckdb</span><span class="o">.</span><span class="n">sql</span><span class="p">(</span><span class="s2">&quot;INSTALL azure&quot;</span><span class="p">)</span>
+<span class="n">duckdb</span><span class="o">.</span><span class="n">sql</span><span class="p">(</span><span class="s2">&quot;LOAD azure&quot;</span><span class="p">)</span>
+
+<span class="n">azure_account_name</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">getenv</span><span class="p">(</span><span class="s2">&quot;AZURE_ACCOUNT_NAME&quot;</span><span class="p">)</span>
+<span class="n">azure_account_key</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">getenv</span><span class="p">(</span><span class="s2">&quot;AZURE_ACCOUNT_KEY&quot;</span><span class="p">)</span>
+<span class="n">azure_conn_string</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;DefaultEndpointsProtocol=https;AccountName=</span><span class="si">{</span><span class="n">azure_account_name</span><span class="si">}</span><span class="s2">;AccountKey=</span><span class="si">{</span><span class="n">azure_account_key</span><span class="si">}</span><span class="s2">&quot;</span>
+
+<span class="n">duckdb</span><span class="o">.</span><span class="n">register_filesystem</span><span class="p">(</span><span class="n">filesystem</span><span class="p">(</span><span class="s2">&quot;abfs&quot;</span><span class="p">,</span> <span class="n">connection_string</span><span class="o">=</span><span class="n">azure_conn_string</span><span class="p">))</span>
+
+<span class="c1"># Query the daily parquet files</span>
+<span class="c1"># Want an ORM? There&#39;s a SqlAlchemy driver for DuckDB</span>
+<span class="n">duckdb</span><span class="o">.</span><span class="n">sql</span><span class="p">(</span><span class="s2">&quot;&quot;&quot;SELECT COUNT(*) FROM read_parquet(&quot;abfs://datalake/2025-02-01.parquet&quot;);&quot;&quot;&quot;</span><span class="p">)</span>
+
+<span class="c1"># Query a month of data</span>
+<span class="n">duckdb</span><span class="o">.</span><span class="n">sql</span><span class="p">(</span><span class="s2">&quot;&quot;&quot;SELECT COUNT(*) FROM read_parquet(&quot;abfs://datalake/2025-01-*.parquet&quot;);&quot;&quot;&quot;</span><span class="p">)</span>
+</pre></div>
+
+
+<h2 id="joining-column-wise-data-with-postgres">Joining column-wise data with Postgres</h2>
+<p>Creating our data lake of parquet files is cool,
+but the real power comes from "joining" this columnar optimized data back up against Postgres:</p>
+<div class="codehilite"><pre><span></span><span class="kn">import</span> <span class="nn">duckdb</span>
+
+<span class="c1"># Enable the Postgres extension for DuckDB</span>
+<span class="n">duckdb</span><span class="o">.</span><span class="n">sql</span><span class="p">(</span><span class="s2">&quot;INSTALL postgres&quot;</span><span class="p">)</span>
+<span class="n">duckdb</span><span class="o">.</span><span class="n">sql</span><span class="p">(</span><span class="s2">&quot;LOAD postgres&quot;</span><span class="p">)</span>
+
+<span class="n">pg_conn_string</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">getenv</span><span class="p">(</span><span class="s2">&quot;REPLICA_DATABASE_URL&quot;</span><span class="p">)</span>
+<span class="n">duckdb</span><span class="o">.</span><span class="n">sql</span><span class="p">(</span>
+    <span class="sa">f</span><span class="s2">&quot;ATTACH IF NOT EXISTS &#39;</span><span class="si">{</span><span class="n">pg_conn_string</span><span class="si">}</span><span class="s2">&#39; AS ads_pg (TYPE POSTGRES)&quot;</span>
+<span class="p">)</span>
+
+<span class="c1"># &quot;Join&quot; a daily aggregation back up with our Postgres source of truth</span>
+<span class="c1"># This query is nearly instant but would take tens of seconds normally</span>
+<span class="n">duckdb</span><span class="o">.</span><span class="n">sql</span><span class="p">(</span><span class="s2">&quot;&quot;&quot;</span>
+<span class="s2">    SELECT</span>
+<span class="s2">        adv.name as &#39;advertiser_name&#39;,</span>
+<span class="s2">        COUNT(*) as &#39;impression_cnt&#39;</span>
+<span class="s2">    FROM read_parquet(&quot;abfs://datalake/2025-02-01.parquet&quot;) pq</span>
+<span class="s2">    INNER JOIN ads_pg.adserver_advertiser adv</span>
+<span class="s2">        ON pq.advertiser_id = adv.id</span>
+<span class="s2">    GROUP BY adv.name</span>
+<span class="s2">    ORDER BY impression_cnt DESC</span>
+<span class="s2">    LIMIT 10;</span>
+<span class="s2">&quot;&quot;&quot;</span><span class="p">)</span>
+</pre></div>
+
+
+<p>This provides a number of advantages including:</p>
+<ul>
+<li>Unlike some data warehouses that need <strong>lots</strong> of de-normalized data,
+  our parquet files only need the data required to make whatever aggregations we need.
+  This keeps them small and fast.
+  "Joining" the aggregated data back to Postgres for additional data is fast and easy.</li>
+<li>It's possible to overload your production database with analytical queries,
+  but you can't easily overload cloud storage from reading files.</li>
+<li>It's even possible with the <code>COPY</code> command to run aggregations against parquet files
+  and copy the aggregated back to Postgres directly from DuckDB.
+  This sounds counter-intuitive but if you're running many different kinds of aggregations
+  against the same data, this can be faster than querying directly.</li>
+</ul>
+<h2 id="a-couple-gotchas-and-other-challenges">A couple gotchas and other challenges</h2>
+<p>"But David. Won't it be slow to run a SQL query against a remote file?"
+Firstly, these queries are strictly analytical queries, nothing transactional.
+Remember that with any of the major clouds these blob storage files are going to be in or near
+the data center where the rest of your servers are running.
+Querying them is a lot faster than I expected it to be.
+For reports, estimates and other analytical workloads where folks are used to waiting a few seconds,
+it works fairly well.</p>
+<p>While DuckDB is pretty smart about <a href="https://duckdb.org/2024/01/26/multi-database-support-in-duckdb.html">cross database queries</a>,
+I put "joins" in scare quotes in the previous section for a reason.
+These are not traditional database joins and at some level DuckDB is querying records
+from one database into memory and using it to query the other database.
+In some situations, including some we saw in our workloads,
+performance can degrade pretty quickly and spike memory and CPU usage on both Postgres and the DuckDB process.
+Expensive, cross-database queries require a bit of extra testing and scrutiny.</p>
+<p>Lastly, if anybody from the Azure team happens to be reading this,
+we'd love it if you'd add <a href="https://github.com/CrunchyData/pg_parquet/">pg_parquet</a> to Azure Managed Postgres
+now that it <a href="https://www.crunchydata.com/blog/pg_parquet-an-extension-to-connect-postgres-and-parquet">supports Azure storage</a>.
+Dumping parquets from Postgres directly would be much more optimized than
+doing that from DuckDB. DuckDB is still amazing for reading these files once they're written,
+but creating them directly with Postgres would be better still.</p>
+<h2 id="wrapup">Wrapup</h2>
+<p>Hopefully this was helpful to see some concrete examples of using DuckDB in addition to PostgreSQL
+for analytical workloads. We believe there's a lot of potential to use DuckDB with parquet files
+for these kinds of queries in more places on EthicalAds and with Read the Docs as well.</p>
+<p>Thanks for tuning in to one of our more technical posts
+about some of the challenges of building ad network without invasive tracking.
+Please <a href="https://www.ethicalads.io/contact/#inbound-form">let us know</a> if you have any ideas or feedback on our product or service.
+We always love to hear from you.</p>
+      </div>
+
+      <hr>
+
+        <p>
+          Tagged with:
+            <a href="https://www.ethicalads.io/blog/tags/postgresql/index.html">postgresql</a>
+            <a href="https://www.ethicalads.io/blog/tags/duckdb/index.html">duckdb</a>
+            <a href="https://www.ethicalads.io/blog/tags/performance/index.html">performance</a>
+            <a href="https://www.ethicalads.io/blog/tags/engineering/index.html">engineering</a>
+        </p>
+
+    </div>
+  </div> <!-- / .row -->
+</section>
+
+
+<!-- Related Posts -->
+<!-- ================================================== -->
+<section class="py-5 bg-gray-200">
+
+  <div class="container">
+
+    <h3 class="mb-4">Want posts like these in your inbox?</h3>
+
+    <form class="validate" action="https://ethicalads.us17.list-manage.com/subscribe/post?u=ca5e74de3ea2867d373058271&amp;id=5746f18bb8" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+      <div class="form-row">
+        <div class="col-8">
+          <input type="email" class="form-control form-control-sm required" name="EMAIL" id="mce-EMAIL" placeholder="you@domain.com" required>
+        </div>
+        <div class="col-4">
+          <button class="btn btn-sm btn-primary" type="submit">Subscribe</button>
+        </div>
+      </div>
+      <div class="d-none" aria-hidden="true"><input type="text" name="b_ca5e74de3ea2867d373058271_5746f18bb8" tabindex="-1" value=""></div>
+
+      <small class="form-text text-muted">Your email, after you confirm it, will be stored with Mailchimp who handles this newsletter</small>
+    </form>
+
+    <h3 class="mb-4 mt-6">Similar posts</h3>
+
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+        <div class="col mb-10">
+          <article class="card h-100 shadow-light-lg lift lift-lg">
+              <a href="/blog/2024/04/using-embeddings-in-production-with-postgres-django-for-niche-ad-targeting/">
+                <img src="/images/posts/niche-targeting.png" alt="Using embeddings in production with Postgres & Django for niche ad targeting" class="card-img-top">
+
+                <!-- Style shape to the image -->
+                <div class="position-relative">
+                  <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
+                    <svg viewBox="0 0 2880 480" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2160 0C1440 240 720 240 720 240H0v240h2880V0h-720z" fill="currentColor"/></svg>
+                  </div>
+                </div>
+              </a>
+            <a class="card-body" href="/blog/2024/04/using-embeddings-in-production-with-postgres-django-for-niche-ad-targeting/" title="Permalink to Using embeddings in production with Postgres & Django for niche ad targeting">
+              <h3 class="card-title font-weight-light">Using embeddings in production with Postgres & Django for niche ad targeting</h3>
+
+              <p class="mb-0">This is an update to our original post on content-based ad targeting. In this post, I&#39;ll talk a bit more …</p>
+
+            </a>
+
+            <a class="card-meta mt-auto" href="/blog/2024/04/using-embeddings-in-production-with-postgres-django-for-niche-ad-targeting/">
+
+              <!-- Divider -->
+              <hr class="card-meta-divider">
+
+              <div class="d-flex w-100">
+                <!-- Author -->
+                <div class="flex-fill h6 text-uppercase text-muted mb-0 mr-2">Eric Holscher</div>
+
+                <!-- Date -->
+                <div class="flex-fill h6 text-uppercase text-muted mb-0 ml-auto text-right">
+                  <time class="text-nowrap" datetime="2024-04-23T00:00:00-07:00">Apr 23, 2024</time>
+                </div>
+              </div>
+
+            </a>
+          </article>
+        </div>
+        <div class="col mb-10">
+          <article class="card h-100 shadow-light-lg lift lift-lg">
+              <a href="/blog/2021/07/handling-100-requests-per-second-with-python-django/">
+                <img src="/images/posts/2021-django-100-requests-second.jpg" alt="Handling 100 Requests Per Second with Python & Django" class="card-img-top">
+
+                <!-- Style shape to the image -->
+                <div class="position-relative">
+                  <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
+                    <svg viewBox="0 0 2880 480" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2160 0C1440 240 720 240 720 240H0v240h2880V0h-720z" fill="currentColor"/></svg>
+                  </div>
+                </div>
+              </a>
+            <a class="card-body" href="/blog/2021/07/handling-100-requests-per-second-with-python-django/" title="Permalink to Handling 100 Requests Per Second with Python & Django">
+              <h3 class="card-title font-weight-light">Handling 100 Requests Per Second with Python & Django</h3>
+
+              <p class="mb-0">In a followup post, we discuss a traffic spike to 200 requests per second! Usually, our blog focuses on advertising …</p>
+
+            </a>
+
+            <a class="card-meta mt-auto" href="/blog/2021/07/handling-100-requests-per-second-with-python-django/">
+
+              <!-- Divider -->
+              <hr class="card-meta-divider">
+
+              <div class="d-flex w-100">
+                <!-- Author -->
+                <div class="flex-fill h6 text-uppercase text-muted mb-0 mr-2">David Fischer</div>
+
+                <!-- Date -->
+                <div class="flex-fill h6 text-uppercase text-muted mb-0 ml-auto text-right">
+                  <time class="text-nowrap" datetime="2021-07-27T00:00:00-07:00">Jul 27, 2021</time>
+                </div>
+              </div>
+
+            </a>
+          </article>
+        </div>
+        <div class="col mb-10">
+          <article class="card h-100 shadow-light-lg lift lift-lg">
+              <a href="/blog/2023/09/what-happens-when-elon-musk-tweets-a-link-to-your-service/">
+                <img src="/images/posts/going-viral-2023.png" alt="What Happens When Elon Musk Tweets A Link To Your Service" class="card-img-top">
+
+                <!-- Style shape to the image -->
+                <div class="position-relative">
+                  <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
+                    <svg viewBox="0 0 2880 480" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2160 0C1440 240 720 240 720 240H0v240h2880V0h-720z" fill="currentColor"/></svg>
+                  </div>
+                </div>
+              </a>
+            <a class="card-body" href="/blog/2023/09/what-happens-when-elon-musk-tweets-a-link-to-your-service/" title="Permalink to What Happens When Elon Musk Tweets A Link To Your Service">
+              <h3 class="card-title font-weight-light">What Happens When Elon Musk Tweets A Link To Your Service</h3>
+
+              <p class="mb-0">Back in February, one of the publishers on our ad network went truly viral. Simon Willison is the author of …</p>
+
+            </a>
+
+            <a class="card-meta mt-auto" href="/blog/2023/09/what-happens-when-elon-musk-tweets-a-link-to-your-service/">
+
+              <!-- Divider -->
+              <hr class="card-meta-divider">
+
+              <div class="d-flex w-100">
+                <!-- Author -->
+                <div class="flex-fill h6 text-uppercase text-muted mb-0 mr-2">David Fischer</div>
+
+                <!-- Date -->
+                <div class="flex-fill h6 text-uppercase text-muted mb-0 ml-auto text-right">
+                  <time class="text-nowrap" datetime="2023-09-19T00:00:00-07:00">Sep 19, 2023</time>
+                </div>
+              </div>
+
+            </a>
+          </article>
+        </div>
+    </div>
+  </div>
+</section>
+
+
+    </main>
+
+<!-- SHAPE
+================================================== -->
+<div class="position-relative d-print-none">
+  <div class="shape shape-bottom shape-fluid-x svg-shim text-dark">
+    <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor" />
+    </svg>
+  </div>
+</div>
+
+<!-- CTA
+================================================== -->
+<section class="pt-6 pt-md-8 bg-dark text-light d-print-none">
+  <div class="container pb-6 pb-md-8 border-bottom border-gray-300">
+    <div class="row" id="newsletter">
+      <div class="col-12 col-md">
+
+        <!-- Heading -->
+        <h3 class="mb-3 font-weight-bold">Become an advertiser</h3>
+
+        <!-- Text -->
+        <p class="mb-6 mb-md-0">
+          <a class="btn btn-sm btn-primary" href="/advertisers/">Start your campaign today!</a>
+        </p>
+
+      </div>
+      <div class="col-12 col-md">
+
+        <!-- Heading -->
+        <h3 class="mb-3 font-weight-bold">Become a publisher</h3>
+
+        <!-- Text -->
+        <p class="mb-6 mb-md-0">
+          <a class="btn btn-sm btn-primary" href="/publishers/">Start earning money from your site</a>
+        </p>
+
+      </div>
+    </div> <!-- / .row -->
+  </div> <!-- / .container -->
+</section>
+
+
+
+<footer class="py-8 py-md-11 bg-dark d-print-none">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-12 col-md-4 col-lg-3 text-center">
+
+        <!-- Brand -->
+        <img src="/theme/img/ethicalads-logo-blue.svg" alt="EthicalAds" class="footer-brand img-fluid mb-2">
+
+        <!-- Text -->
+        <p class="text-gray-600 mb-2 text-center">A division of <a class="text-reset"
+            href="https://readthedocs.org?ref=ethicalads-footer">Read the Docs</a></p>
+
+        <!-- Social -->
+        <ul class="list-unstyled list-inline list-social mt-4 mb-6 mb-md-0 d-flex">
+          <li class="list-inline-item list-social-item flex-fill text-center">
+            <a href="https://twitter.com/ethicaladsio" class="text-decoration-none text-gray-600">
+              <svg aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512" width="32" height="32">
+                <path fill="currentColor"
+                  d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
+                </path>
+              </svg>
+              <span class="sr-only">Twitter</span>
+            </a>
+          </li>
+          <li class="list-inline-item list-social-item flex-fill text-center">
+            <a href="https://github.com/readthedocs" class="text-decoration-none text-gray-600">
+              <svg aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 496 512" width="32" height="32">
+                <path fill="currentColor"
+                  d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z">
+                </path>
+              </svg>
+              <span class="sr-only">GitHub</span>
+            </a>
+          </li>
+          <li class="list-inline-item list-social-item flex-fill text-center">
+            <a href="https://youtube.com/@ethicalads" class="text-decoration-none text-gray-600">
+              <svg aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 310 310" width="32" height="32">
+                <path fill="currentColor"
+                  d="M297.917,64.645c-11.19-13.302-31.85-18.728-71.306-18.728H83.386c-40.359,0-61.369,5.776-72.517,19.938 C0,79.663,0,100.008,0,128.166v53.669c0,54.551,12.896,82.248,83.386,82.248h143.226c34.216,0,53.176-4.788,65.442-16.527 C304.633,235.518,310,215.863,310,181.835v-53.669C310,98.471,309.159,78.006,297.917,64.645z M199.021,162.41l-65.038,33.991 c-1.454,0.76-3.044,1.137-4.632,1.137c-1.798,0-3.592-0.484-5.181-1.446c-2.992-1.813-4.819-5.056-4.819-8.554v-67.764 c0-3.492,1.822-6.732,4.808-8.546c2.987-1.814,6.702-1.938,9.801-0.328l65.038,33.772c3.309,1.718,5.387,5.134,5.392,8.861 C204.394,157.263,202.325,160.684,199.021,162.41z">
+                </path>
+              </svg>
+              <span class="sr-only">YouTube</span>
+            </a>
+          </li>
+        </ul>
+
+      </div>
+      <div class="col-12 col-md-4 col-lg-3">
+
+        <!-- Heading -->
+        <a href="/advertisers/">
+          <h6 class="font-weight-bold text-uppercase text-gray-700">Advertisers</h6>
+        </a>
+
+        <!-- List -->
+        <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
+          <li class="mb-3">
+            <a href="/advertisers/ad-design-and-specs/" class="text-reset">Creative Specs</a>
+          </li>
+          <li class="mb-3">
+            <a href="/publishers/list/" class="text-reset">Top Publishers</a>
+          </li>
+          <li class="mb-3">
+            <a href="https://www.ethicalads.io/prospectus/ethicalads-advertiser-prospectus.pdf"
+              class="text-reset">Advertiser Prospectus</a>
+          </li>
+          <li class="mb-3">
+            <a href="https://ethicalads.io/advertisers/calculator/" class="text-reset">Campaign Calculator</a>
+          </li>
+          <li class="mb-3">
+            <a href="/advertisers/similar-pages/" class="text-reset">Niche Targeting Demo</a>
+          </li>
+          <li class="mb-3">
+            <a href="/advertisers/faq/" class="text-reset">Advertiser FAQ</a>
+          </li>
+          <li class="mb-3">
+            <a href="https://server.ethicalads.io/" class="text-reset">Advertiser Login</a>
+          </li>
+        </ul>
+
+      </div>
+      <div class="col-12 col-md-4 col-lg-3">
+
+        <!-- Heading -->
+        <a href="/publishers/">
+          <h6 class="font-weight-bold text-uppercase text-gray-700">Publishers</h6>
+        </a>
+
+        <!-- List -->
+        <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
+          <li class="mb-3">
+            <a href="/publishers/calculator/" class="text-reset">Revenue Calculator</a>
+          </li>
+          <li class="mb-3">
+            <a href="/publisher-guide/" class="text-reset">Publisher Guide</a>
+          </li>
+          <li class="mb-3">
+            <a href="/publishers/faq/" class="text-reset">Publisher FAQ</a>
+          </li>
+          <li class="mb-3">
+            <a href="/publisher-policy/" class="text-reset">Publisher Policy</a>
+          </li>
+          <li class="mb-3">
+            <a href="https://ethical-ad-client.readthedocs.io/en/latest/" class="text-reset">Ad Client Documentation</a>
+          </li>
+          <li class="mb-3">
+            <a href="https://server.ethicalads.io/" class="text-reset">Publisher Login</a>
+          </li>
+        </ul>
+
+      </div>
+      <div class="col-12 col-md-4 offset-md-4 col-lg-3 offset-lg-0">
+
+        <!-- Heading -->
+        <h6 class="font-weight-bold text-uppercase text-gray-700">Content</h6>
+
+        <!-- List -->
+        <ul class="list-unstyled text-muted mb-0">
+          <li class="mb-3">
+            <a href="/blog/" class="text-reset">Blog</a>
+          </li>
+          <li class="mb-3">
+            <a href="/learning-hub/" class="text-reset">Learning Hub</a>
+          </li>
+          <li class="mb-3">
+            <a href="/alternative-to-google-ads/" class="text-reset">Google Ads Comparison</a>
+          </li>
+          <li class="mb-3">
+            <a href="/alternative-to-carbon-ads/" class="text-reset">Carbon Ads Comparison</a>
+          </li>
+        </ul>
+
+        <!-- Heading -->
+        <h6 class="font-weight-bold text-uppercase text-gray-700">Company</h6>
+
+        <!-- List -->
+        <ul class="list-unstyled text-muted mb-0">
+          <li class="mb-3">
+            <a href="/about/" class="text-reset">About Us</a>
+          </li>
+          <li class="mb-3">
+            <a href="/contact/" class="text-reset">Contact</a>
+          </li>
+          <li class="mb-3">
+            <a href="/press/" class="text-reset">Press Kit</a>
+          </li>
+          <li class="mb-3">
+            <a href="/privacy-policy/" class="text-reset">Privacy Policy</a>
+          </li>
+          <li class="mb-3">
+            <a href="/terms-of-service/" class="text-reset">Terms of Service</a>
+          </li>
+          <!--
+          <li class="mb-3">
+            <a href="/jobs/" class="text-reset">Jobs</a>
+          </li>
+          -->
+        </ul>
+
+      </div>
+    </div> <!-- / .row -->
+  </div> <!-- / .container -->
+</footer>
+    <script src="/theme/dist/bundle.js"></script>
+  </body>
+</html>

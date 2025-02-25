@@ -1,5 +1,166 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds - posts</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/posts.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2025-02-06T00:00:00-08:00</updated><entry><title>EthicalAds Newsletter - February 2025</title><link href="https://www.ethicalads.io/blog/2025/02/ethicalads-newsletter-february-2025/" rel="alternate"></link><published>2025-02-06T00:00:00-08:00</published><updated>2025-02-06T00:00:00-08:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2025-02-06:/blog/2025/02/ethicalads-newsletter-february-2025/</id><summary type="html">&lt;h2 id="new-features-from-the-previous-month"&gt;New features from the previous month&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds - posts</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/posts.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2025-02-25T00:00:00-08:00</updated><entry><title>DuckDB and PostgreSQL Make a Great Pair for Analytical Processing</title><link href="https://www.ethicalads.io/blog/2025/02/duckdb-and-postgresql-make-a-great-pair-for-analytical-processing/" rel="alternate"></link><published>2025-02-25T00:00:00-08:00</published><updated>2025-02-25T00:00:00-08:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2025-02-25:/blog/2025/02/duckdb-and-postgresql-make-a-great-pair-for-analytical-processing/</id><summary type="html">&lt;p&gt;Typically, our blog lives at the intersection of privacy, advertising,
+and building our business in this niche.
+This time, however …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Typically, our blog lives at the intersection of privacy, advertising,
+and building our business in this niche.
+This time, however, we're going to delve into some database scaling issues
+we have been hitting for some time and how we're solving them with DuckDB
+on top of our regular daily driver of PostgreSQL.&lt;/p&gt;
+&lt;h2 id="postgres-can-do-just-about-everything"&gt;Postgres can do just about everything&lt;/h2&gt;
+&lt;p&gt;At both EthicalAds and at our parent company Read the Docs, we use PostgreSQL heavily.
+We use Postgres to store basically all our production data and to be our "source of truth"
+for all advertising stats, billing, and payouts to publishers.
+Postgres handles everything and is among the most dependable pieces of our infrastructure.
+Postgres can handle &lt;a href="https://www.ethicalads.io/blog/2024/04/using-embeddings-in-production-with-postgres-django-for-niche-ad-targeting/"&gt;ML embeddings&lt;/a&gt;
+with &lt;a href="https://github.com/pgvector/pgvector"&gt;pgvector&lt;/a&gt; for better contextual ad targeting
+and combined with a read replica we scaled our setup to
+&lt;a href="https://www.ethicalads.io/blog/2021/07/handling-100-requests-per-second-with-python-django/"&gt;hundreds of writes per second&lt;/a&gt;.
+At EthicalAds, we generally field ~4-5M ad requests per weekday and Postgres
+handles this kind of transaction processing effortlessly.&lt;/p&gt;
+&lt;h2 id="what-about-analytical-processing"&gt;What about analytical processing?&lt;/h2&gt;
+&lt;p&gt;However, one area where we've struggled a bit with Postgres is on analytical queries.
+When a new advertiser prospect comes to us and asks how much ad inventory we have on content
+related a tool like Terraform, we want to be able to answer that easily.
+By aggregating data ahead of time, we can query the data much faster when an advertiser pulls up a report
+or needs an estimate on how long their campaign will take.&lt;/p&gt;
+&lt;div class="postimage text-center"&gt;
+  &lt;img class="w-100 shadow-lg" src="https://www.ethicalads.io/images/posts/2025-duckdb-postgres-usage.png" alt="Expensive analytical queries can do a number on your database."&gt;
+  &lt;p&gt;Expensive analytical queries can do a number on your database.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;We run these expensive aggregations across our database nightly during lower traffic times
+and store the results in a series of tables of daily aggregated data by publisher, by country, by advertiser, and so on.
+Altogether, queries take around 45 minutes to an hour and add significant load to our read replica.
+Occasionally, (or not so occasionally if they happen to coincide with the &lt;a href="https://www.postgresql.org/docs/current/runtime-config-autovacuum.html"&gt;autovacuum&lt;/a&gt;), they will timeout and have to be re-run.
+Despite how much we love Postgres at EthicalAds, this specifically has felt like one of the most brittle pieces of our setup.&lt;/p&gt;
+&lt;h2 id="column-wise-storage-duckdb"&gt;Column-wise storage &amp;amp; DuckDB&lt;/h2&gt;
+&lt;p&gt;Typically, these kinds of expensive aggregation queries are better fits for column databases, data warehouses and &lt;a href="https://en.wikipedia.org/wiki/Online_analytical_processing"&gt;OLAP databases&lt;/a&gt; generally.
+We considered building out a data warehouse or other kinds of column oriented databases
+but never found something we really liked and we were always hesitant to add a second production system
+that could get out of sync with Postgres.
+Postgres additionally has extensions to add some of these capabilities
+(eg. &lt;a href="https://github.com/citusdata/citus?tab=readme-ov-file#creating-tables-with-columnar"&gt;citus&lt;/a&gt;)
+but these solutions all either didn't work for our use case or
+weren't supported on Azure's Managed Postgres, where we are hosted.
+This is where using DuckDB came to our rescue.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://duckdb.org/"&gt;DuckDB&lt;/a&gt; is an in-process, analytical database and toolkit for analytical workloads.
+It's sort of like SQLite but for analytical workloads and querying data anywhere in a variety of formats.
+Like SQLite, you either run it in your app's process (Python for us)
+or you can run its own standalone CLI.
+It can read from CSV or Parquet files stored on disk or in blob storage
+or directly from an SQL database like Postgres.&lt;/p&gt;
+&lt;p&gt;Because most of our aggregations are for hourly or daily data and then data virtually never changes
+once it's written, it's a great match for a write-once system.
+As a result, we began writing parquet files on a daily basis to cloud storage.
+&lt;a href="https://parquet.apache.org/"&gt;Apache Parquet files&lt;/a&gt;, are files optimized for column-wise data files
+that are widely supported by various tools including Python and DuckDB.&lt;/p&gt;
+&lt;blockquote class="blockquote mb-2"&gt;
+  &lt;p class="mb-2"&gt;
+    “Apache Parquet is an open source, column-oriented data file format designed for efficient data storage and retrieval.”
+  &lt;/p&gt;
+  &lt;p class="small"&gt;- &lt;a href="https://parquet.apache.org/"&gt;parquet.apache.org&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Using Python and DuckDB, it's easy to query a day or a month's worth of data
+whether from a developer laptop or directly from a server
+without adding any load on your production database.
+Queries that took 5-10 minutes against Postgres frequently take just a few seconds
+against parquet files optimized for the purpose.
+Here's an example of how to query cloud storage parquet files directly from your app server in Python:&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;duckdb&lt;/span&gt;
+&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;fsspec&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;filesystem&lt;/span&gt;
+
+&lt;span class="c1"&gt;# Support for S3 is even more straight-forward&lt;/span&gt;
+&lt;span class="n"&gt;duckdb&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;sql&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;INSTALL azure&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;duckdb&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;sql&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;LOAD azure&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="n"&gt;azure_account_name&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;os&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;getenv&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;AZURE_ACCOUNT_NAME&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;azure_account_key&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;os&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;getenv&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;AZURE_ACCOUNT_KEY&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;azure_conn_string&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="sa"&gt;f&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;DefaultEndpointsProtocol=https;AccountName=&lt;/span&gt;&lt;span class="si"&gt;{&lt;/span&gt;&lt;span class="n"&gt;azure_account_name&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;;AccountKey=&lt;/span&gt;&lt;span class="si"&gt;{&lt;/span&gt;&lt;span class="n"&gt;azure_account_key&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;
+
+&lt;span class="n"&gt;duckdb&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;register_filesystem&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;filesystem&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;abfs&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;connection_string&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;azure_conn_string&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+
+&lt;span class="c1"&gt;# Query the daily parquet files&lt;/span&gt;
+&lt;span class="c1"&gt;# Want an ORM? There&amp;#39;s a SqlAlchemy driver for DuckDB&lt;/span&gt;
+&lt;span class="n"&gt;duckdb&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;sql&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&amp;quot;&amp;quot;SELECT COUNT(*) FROM read_parquet(&amp;quot;abfs://datalake/2025-02-01.parquet&amp;quot;);&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="c1"&gt;# Query a month of data&lt;/span&gt;
+&lt;span class="n"&gt;duckdb&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;sql&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&amp;quot;&amp;quot;SELECT COUNT(*) FROM read_parquet(&amp;quot;abfs://datalake/2025-01-*.parquet&amp;quot;);&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2 id="joining-column-wise-data-with-postgres"&gt;Joining column-wise data with Postgres&lt;/h2&gt;
+&lt;p&gt;Creating our data lake of parquet files is cool,
+but the real power comes from "joining" this columnar optimized data back up against Postgres:&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;duckdb&lt;/span&gt;
+
+&lt;span class="c1"&gt;# Enable the Postgres extension for DuckDB&lt;/span&gt;
+&lt;span class="n"&gt;duckdb&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;sql&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;INSTALL postgres&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;duckdb&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;sql&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;LOAD postgres&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="n"&gt;pg_conn_string&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;os&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;getenv&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;REPLICA_DATABASE_URL&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;duckdb&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;sql&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;
+    &lt;span class="sa"&gt;f&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;ATTACH IF NOT EXISTS &amp;#39;&lt;/span&gt;&lt;span class="si"&gt;{&lt;/span&gt;&lt;span class="n"&gt;pg_conn_string&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;&amp;#39; AS ads_pg (TYPE POSTGRES)&amp;quot;&lt;/span&gt;
+&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="c1"&gt;# &amp;quot;Join&amp;quot; a daily aggregation back up with our Postgres source of truth&lt;/span&gt;
+&lt;span class="c1"&gt;# This query is nearly instant but would take tens of seconds normally&lt;/span&gt;
+&lt;span class="n"&gt;duckdb&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;sql&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
+&lt;span class="s2"&gt;    SELECT&lt;/span&gt;
+&lt;span class="s2"&gt;        adv.name as &amp;#39;advertiser_name&amp;#39;,&lt;/span&gt;
+&lt;span class="s2"&gt;        COUNT(*) as &amp;#39;impression_cnt&amp;#39;&lt;/span&gt;
+&lt;span class="s2"&gt;    FROM read_parquet(&amp;quot;abfs://datalake/2025-02-01.parquet&amp;quot;) pq&lt;/span&gt;
+&lt;span class="s2"&gt;    INNER JOIN ads_pg.adserver_advertiser adv&lt;/span&gt;
+&lt;span class="s2"&gt;        ON pq.advertiser_id = adv.id&lt;/span&gt;
+&lt;span class="s2"&gt;    GROUP BY adv.name&lt;/span&gt;
+&lt;span class="s2"&gt;    ORDER BY impression_cnt DESC&lt;/span&gt;
+&lt;span class="s2"&gt;    LIMIT 10;&lt;/span&gt;
+&lt;span class="s2"&gt;&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;This provides a number of advantages including:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Unlike some data warehouses that need &lt;strong&gt;lots&lt;/strong&gt; of de-normalized data,
+  our parquet files only need the data required to make whatever aggregations we need.
+  This keeps them small and fast.
+  "Joining" the aggregated data back to Postgres for additional data is fast and easy.&lt;/li&gt;
+&lt;li&gt;It's possible to overload your production database with analytical queries,
+  but you can't easily overload cloud storage from reading files.&lt;/li&gt;
+&lt;li&gt;It's even possible with the &lt;code&gt;COPY&lt;/code&gt; command to run aggregations against parquet files
+  and copy the aggregated back to Postgres directly from DuckDB.
+  This sounds counter-intuitive but if you're running many different kinds of aggregations
+  against the same data, this can be faster than querying directly.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="a-couple-gotchas-and-other-challenges"&gt;A couple gotchas and other challenges&lt;/h2&gt;
+&lt;p&gt;"But David. Won't it be slow to run a SQL query against a remote file?"
+Firstly, these queries are strictly analytical queries, nothing transactional.
+Remember that with any of the major clouds these blob storage files are going to be in or near
+the data center where the rest of your servers are running.
+Querying them is a lot faster than I expected it to be.
+For reports, estimates and other analytical workloads where folks are used to waiting a few seconds,
+it works fairly well.&lt;/p&gt;
+&lt;p&gt;While DuckDB is pretty smart about &lt;a href="https://duckdb.org/2024/01/26/multi-database-support-in-duckdb.html"&gt;cross database queries&lt;/a&gt;,
+I put "joins" in scare quotes in the previous section for a reason.
+These are not traditional database joins and at some level DuckDB is querying records
+from one database into memory and using it to query the other database.
+In some situations, including some we saw in our workloads,
+performance can degrade pretty quickly and spike memory and CPU usage on both Postgres and the DuckDB process.
+Expensive, cross-database queries require a bit of extra testing and scrutiny.&lt;/p&gt;
+&lt;p&gt;Lastly, if anybody from the Azure team happens to be reading this,
+we'd love it if you'd add &lt;a href="https://github.com/CrunchyData/pg_parquet/"&gt;pg_parquet&lt;/a&gt; to Azure Managed Postgres
+now that it &lt;a href="https://www.crunchydata.com/blog/pg_parquet-an-extension-to-connect-postgres-and-parquet"&gt;supports Azure storage&lt;/a&gt;.
+Dumping parquets from Postgres directly would be much more optimized than
+doing that from DuckDB. DuckDB is still amazing for reading these files once they're written,
+but creating them directly with Postgres would be better still.&lt;/p&gt;
+&lt;h2 id="wrapup"&gt;Wrapup&lt;/h2&gt;
+&lt;p&gt;Hopefully this was helpful to see some concrete examples of using DuckDB in addition to PostgreSQL
+for analytical workloads. We believe there's a lot of potential to use DuckDB with parquet files
+for these kinds of queries in more places on EthicalAds and with Read the Docs as well.&lt;/p&gt;
+&lt;p&gt;Thanks for tuning in to one of our more technical posts
+about some of the challenges of building ad network without invasive tracking.
+Please &lt;a href="https://www.ethicalads.io/contact/#inbound-form"&gt;let us know&lt;/a&gt; if you have any ideas or feedback on our product or service.
+We always love to hear from you.&lt;/p&gt;</content><category term="posts"></category><category term="postgresql"></category><category term="duckdb"></category><category term="performance"></category><category term="engineering"></category></entry><entry><title>EthicalAds Newsletter - February 2025</title><link href="https://www.ethicalads.io/blog/2025/02/ethicalads-newsletter-february-2025/" rel="alternate"></link><published>2025-02-06T00:00:00-08:00</published><updated>2025-02-06T00:00:00-08:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2025-02-06:/blog/2025/02/ethicalads-newsletter-february-2025/</id><summary type="html">&lt;h2 id="new-features-from-the-previous-month"&gt;New features from the previous month&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;A new advertiser report with a domain breakdown report was released.
   This report will …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h2 id="new-features-from-the-previous-month"&gt;New features from the previous month&lt;/h2&gt;
@@ -989,7 +1150,7 @@ everyone in our network benefits:&lt;/p&gt;
 &lt;p&gt;This is our vision for advertising,
 and we're excited about the potential of this approach.&lt;/p&gt;
 &lt;p&gt;Thanks so much to Simon Willison for his &lt;a href="https://simonwillison.net/2023/Oct/23/embeddings/"&gt;blog post on embeddings&lt;/a&gt;,
-which is what inspired me to try this approach.&lt;/p&gt;</content><category term="posts"></category><category term="content-targeting"></category><category term="engineering"></category></entry><entry><title>EthicalAds Newsletter - April 2024</title><link href="https://www.ethicalads.io/blog/2024/04/ethicalads-newsletter-april-2024/" rel="alternate"></link><published>2024-04-11T00:00:00-07:00</published><updated>2024-04-11T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2024-04-11:/blog/2024/04/ethicalads-newsletter-april-2024/</id><summary type="html">&lt;h2 id="new-features-from-march"&gt;New features from March&lt;/h2&gt;
+which is what inspired me to try this approach.&lt;/p&gt;</content><category term="posts"></category><category term="content-targeting"></category><category term="engineering"></category><category term="postgresql"></category></entry><entry><title>EthicalAds Newsletter - April 2024</title><link href="https://www.ethicalads.io/blog/2024/04/ethicalads-newsletter-april-2024/" rel="alternate"></link><published>2024-04-11T00:00:00-07:00</published><updated>2024-04-11T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2024-04-11:/blog/2024/04/ethicalads-newsletter-april-2024/</id><summary type="html">&lt;h2 id="new-features-from-march"&gt;New features from March&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;We shipped an updated version of our &lt;a href="https://www.ethicalads.io/publisher-guide/"&gt;publisher guide&lt;/a&gt;
   with simplified graphics and explainers about what …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h2 id="new-features-from-march"&gt;New features from March&lt;/h2&gt;
@@ -5508,7 +5669,7 @@ Multi-writer scenarios for databases are never easy.&lt;/p&gt;
 &lt;p&gt;Thanks for coming along with us on this journey to build an ethical ad network
 and the technical challenges that come along with that.
 Please &lt;a href="mailto:ads@ethicalads.io"&gt;email us&lt;/a&gt; if you have any ideas or feedback on our product or service.
-We always love to hear from you.&lt;/p&gt;</content><category term="posts"></category><category term="django"></category><category term="python"></category><category term="performance"></category><category term="scalability"></category></entry><entry><title>EthicalAds Publisher Referral Offer - July 2021</title><link href="https://www.ethicalads.io/blog/2021/07/ethicalads-publisher-referral-offer-july-2021/" rel="alternate"></link><published>2021-07-16T00:00:00-07:00</published><updated>2021-07-16T00:00:00-07:00</updated><author><name>Ra Cohen</name></author><id>tag:www.ethicalads.io,2021-07-16:/blog/2021/07/ethicalads-publisher-referral-offer-july-2021/</id><summary type="html">&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: This referral program has ended.
+We always love to hear from you.&lt;/p&gt;</content><category term="posts"></category><category term="django"></category><category term="python"></category><category term="performance"></category><category term="scalability"></category><category term="engineering"></category></entry><entry><title>EthicalAds Publisher Referral Offer - July 2021</title><link href="https://www.ethicalads.io/blog/2021/07/ethicalads-publisher-referral-offer-july-2021/" rel="alternate"></link><published>2021-07-16T00:00:00-07:00</published><updated>2021-07-16T00:00:00-07:00</updated><author><name>Ra Cohen</name></author><id>tag:www.ethicalads.io,2021-07-16:/blog/2021/07/ethicalads-publisher-referral-offer-july-2021/</id><summary type="html">&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: This referral program has ended.
 However, we are still interested in additional publishers.
 Please reach out at &lt;a href="mailto:ads@ethicalads.io"&gt;ads@ethicalads …&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: This referral program has ended.
 However, we are still interested in additional publishers.
