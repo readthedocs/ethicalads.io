@@ -1,7 +1,7 @@
 Title: Using embeddings in production with Postgres & Django for niche ad targeting
 Date: Apr 23, 2024
 description: How we built better contextual ad targeting using PostgreSQL, Django, and embeddings which are a way to encode the "relatedness" of text and pages for use in machine learning.
-tags: content-targeting, engineering
+tags: content-targeting, engineering, postgresql
 authors: Eric Holscher
 image: /images/posts/niche-targeting.png
 

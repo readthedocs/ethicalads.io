@@ -1,7 +1,7 @@
 Title: Handling 100 Requests Per Second with Python & Django
 Date: July 27, 2021
 description: Rather than discussing advertising and privacy, in this post we're going to talk about how we scaled our ad server using some of the same tools and techniques we use on Read the Docs.
-tags: django, python, performance, scalability
+tags: django, python, performance, scalability, engineering
 authors: David Fischer
 image: /images/posts/2021-django-100-requests-second.jpg
 image_credit: <span>Photo by <a href="https://unsplash.com/@rockthechaos?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Kolleen Gladden</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
