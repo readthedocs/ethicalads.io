@@ -1,7 +1,7 @@
 # Static site generation with Pelican
 pelican==4.5.0
 Markdown==3.1.1
-jinja2<3.1.0
+jinja2<3.2.0
 
 # Plugins
 pelican-related-posts==1.0.0
