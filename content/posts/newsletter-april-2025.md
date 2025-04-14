@@ -1,0 +1,55 @@
+Title: EthicalAds Newsletter - April 2025
+Date: April 15, 2025
+description: Monthly update from March 2025, covering the previous month and including stats and commentary on our progress as we build EthicalAds
+tags: newsletter, community, build-in-public
+authors: David Fischer
+image: /images/posts/2025-april-newsletter.jpg
+image_credit: <span>Photo by <a href="https://unsplash.com/@frostroomhead?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Rodion Kutsaiev</a> on <a href="https://unsplash.com/photos/selective-focus-photography-of-pink-flower-JemKKIu-bQA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></span>
+
+
+## New features from the previous month
+
+* We released our [Q2 advertiser prospectus](https://www.ethicalads.io/prospectus/ethicalads-advertiser-prospectus.pdf).
+
+* There was a cool content piece we created about [how we're using DuckDB]({filename}../posts/2025-duckdb-pair-with-postgres.md)
+  and parquet files combined with our usual workhorse of PostgreSQL for all our analytical needs.
+* We completed the implementation of a fixed header ad that publishers can opt-in to use on their sites.
+  This will roll out in the next week or two after it is done testing.
+* We simplified PayPal payouts considerably on our end which should help us complete our publisher payouts faster.
+
+
+
+You can always see our latest server updates in our
+[ethical-ad-server changelog](https://ethical-ad-server.readthedocs.io/en/latest/developer/changelog.html)
+and [ethical-ad-client changelog](https://ethical-ad-client.readthedocs.io/en/latest/changelog.html).
+
+
+## March advertising stats
+
+[comment]: https://server.ethicalads.io/publisher/all/report/?start_date=2025-03-01&end_date=2025-03-31
+
+Last month:
+
+* We generated **$38,899.15** for our publishers and they'll receive this in a payout today. February picked up considerably toward the end and March stayed fairly strong.
+* We had **176 publishers** on our network with at least one paid ad impression.
+* We had **22,122,792** paid ad views across the world. This is back up from February based on a few broad campaigns.
+
+April is trending pretty similarly to March.
+We haven't yet seen significant economic blowback from current events.
+
+
+## Upcoming features
+
+The major features in our upcoming roadmap for March:
+
+* While working on the fixed header ad I mentioned above,
+  we're going to make our ads a bit easier to customize for publishers using CSS variables.
+  This should roll out over the next month.
+* We're working on some big improvements in how accurately we can estimate audience sizes for niche campaigns.
+  This was enabled by the [analytical improvements we built with DuckDB]({filename}../posts/2025-duckdb-pair-with-postgres.md).
+
+
+
+Thanks again for being along with us on this journey to build an ethical ad network.
+Please [let us know]({filename}../pages/contact.md) if you have any ideas or feedback on our product or roadmap,
+we always love to hear from you.
