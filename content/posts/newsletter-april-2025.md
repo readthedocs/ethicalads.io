@@ -1,6 +1,6 @@
 Title: EthicalAds Newsletter - April 2025
 Date: April 15, 2025
-description: Monthly update from March 2025, covering the previous month and including stats and commentary on our progress as we build EthicalAds
+description: Monthly update from April 2025, covering the previous month and including stats and commentary on our progress as we build EthicalAds
 tags: newsletter, community, build-in-public
 authors: David Fischer
 image: /images/posts/2025-april-newsletter.jpg
