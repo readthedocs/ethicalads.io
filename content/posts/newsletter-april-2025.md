@@ -10,13 +10,10 @@ image_credit: <span>Photo by <a href="https://unsplash.com/@frostroomhead?utm_co
 ## New features from the previous month
 
 * We released our [Q2 advertiser prospectus](https://www.ethicalads.io/prospectus/ethicalads-advertiser-prospectus.pdf).
-
-* There was a cool content piece we created about [how we're using DuckDB]({filename}../posts/2025-duckdb-pair-with-postgres.md)
-  and parquet files combined with our usual workhorse of PostgreSQL for all our analytical needs.
-* We completed the implementation of a fixed header ad that publishers can opt-in to use on their sites.
-  This will roll out in the next week or two after it is done testing.
-* We simplified PayPal payouts considerably on our end which should help us complete our publisher payouts faster.
-
+* Internally, we released a big improvement in estimating audience sizes for niche campaigns.
+  This was enabled by the [analytical improvements we built with DuckDB]({filename}../posts/2025-duckdb-pair-with-postgres.md)
+  that we wrote about a couple months ago.
+* Our fixed header ad placement was slightly delayed due to testing but is rolling out in April.
 
 
 You can always see our latest server updates in our
@@ -30,7 +27,7 @@ and [ethical-ad-client changelog](https://ethical-ad-client.readthedocs.io/en/la
 
 Last month:
 
-* We generated **$38,899.15** for our publishers and they'll receive this in a payout today. February picked up considerably toward the end and March stayed fairly strong.
+* We generated **$38,899.15** for our publishers and they'll receive this in a payout today. February picked up considerably toward the end and March stayed about as strong throughout.
 * We had **176 publishers** on our network with at least one paid ad impression.
 * We had **22,122,792** paid ad views across the world. This is back up from February based on a few broad campaigns.
 
@@ -40,14 +37,13 @@ We haven't yet seen significant economic blowback from current events.
 
 ## Upcoming features
 
-The major features in our upcoming roadmap for March:
+The major features in our upcoming roadmap for April:
 
-* While working on the fixed header ad I mentioned above,
-  we're going to make our ads a bit easier to customize for publishers using CSS variables.
-  This should roll out over the next month.
-* We're working on some big improvements in how accurately we can estimate audience sizes for niche campaigns.
-  This was enabled by the [analytical improvements we built with DuckDB]({filename}../posts/2025-duckdb-pair-with-postgres.md).
-
+* We are preparing a release that enables advertisers and publishers to use 2FA on our management platform.
+  We will be supporting TOTP authenticator codes as well as backup one-time codes.
+* We are working to improve our automated renewals for advertisers.
+  Currently, advertisers can set campaigns to automatically renew
+  but we are working on improvements to automate the billing around those campaigns.
 
 
 Thanks again for being along with us on this journey to build an ethical ad network.
