@@ -1,5 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds - posts</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/posts.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2025-04-15T00:00:00-07:00</updated><entry><title>EthicalAds Newsletter - April 2025</title><link href="https://www.ethicalads.io/blog/2025/04/ethicalads-newsletter-april-2025/" rel="alternate"></link><published>2025-04-15T00:00:00-07:00</published><updated>2025-04-15T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2025-04-15:/blog/2025/04/ethicalads-newsletter-april-2025/</id><summary type="html">&lt;h2 id="new-features-from-the-previous-month"&gt;New features from the previous month&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds - posts</title><link href="https://www.ethicalads.io/" rel="alternate"></link><link href="https://www.ethicalads.io/feeds/posts.atom.xml" rel="self"></link><id>https://www.ethicalads.io/</id><updated>2025-06-05T00:00:00-07:00</updated><entry><title>EthicalAds Newsletter - June 2025</title><link href="https://www.ethicalads.io/blog/2025/06/ethicalads-newsletter-june-2025/" rel="alternate"></link><published>2025-06-05T00:00:00-07:00</published><updated>2025-06-05T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2025-06-05:/blog/2025/06/ethicalads-newsletter-june-2025/</id><summary type="html">&lt;h2 id="new-features-from-the-previous-month"&gt;New features from the previous month&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;We rolled out a number of optimizations to our aggregations and reports based on …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h2 id="new-features-from-the-previous-month"&gt;New features from the previous month&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;We rolled out a number of optimizations to our aggregations and reports based on the
+  &lt;a href="https://www.ethicalads.io/blog/2025/02/duckdb-and-postgresql-make-a-great-pair-for-analytical-processing/"&gt;improvements we built with DuckDB&lt;/a&gt;.
+  Our reports are both faster and more robust and the data that generates these on a periodic basis
+  (mostly nightly but some more frequently) are much faster and have a much lower rate of having to be re-run.&lt;/li&gt;
+&lt;li&gt;We have rolled out an improvement to invoicing for advertisers who are automatically renewing campaigns.
+  For a little while now, we have had a 10% discount for auto-renewing campaigns. Now it's possible for these
+  invoices to be automatically created and billed to a card on file
+  (paying manually with a bank transfer is still possible). This smoothes this process for recurring advertisers.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can always see our latest server updates in our
+&lt;a href="https://ethical-ad-server.readthedocs.io/en/latest/developer/changelog.html"&gt;ethical-ad-server changelog&lt;/a&gt;
+and &lt;a href="https://ethical-ad-client.readthedocs.io/en/latest/changelog.html"&gt;ethical-ad-client changelog&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="may-advertising-stats"&gt;May advertising stats&lt;/h2&gt;
+&lt;p&gt;Last month:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We generated &lt;strong&gt;$37,937.94&lt;/strong&gt; for our publishers and they'll receive this in a payout by the 15th.
+  This was a bit higher than April but only slightly and about what's expected given the extra day in the month.&lt;/li&gt;
+&lt;li&gt;We had &lt;strong&gt;178 publishers&lt;/strong&gt; on our network with at least one paid ad impression.&lt;/li&gt;
+&lt;li&gt;We had &lt;strong&gt;18,679,646&lt;/strong&gt; paid ad views across the world. This was pretty flat compared with April.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We are seeing very strong demand across North America and pretty robust demand but with some openings
+in Europe and Oceania.&lt;/p&gt;
+&lt;h2 id="upcoming-features"&gt;Upcoming features&lt;/h2&gt;
+&lt;p&gt;The major features in our upcoming roadmap for June:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We are actively working on some improvements to our analyzer that we use for &lt;a href="https://www.ethicalads.io/advertisers/niche-targeting/"&gt;niche targeting&lt;/a&gt;.
+  We are hoping to make it easier to use off the shelf models and LLM APIs in addition to ones we train.
+  The goal is to be able to swap and rerun all the pages where our ads appear through a model quickly.&lt;/li&gt;
+&lt;li&gt;We have some styling improvements prepared on our ad client that publishers can use to better style ads
+  on their site using CSS properties (here's the &lt;a href="https://github.com/readthedocs/ethical-ad-client/pull/219"&gt;PR&lt;/a&gt;).
+  The goal was to roll this out in May, but it will happen in June.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thanks again for being along with us on this journey to build an ethical ad network.
+Please &lt;a href="https://www.ethicalads.io/contact/"&gt;let us know&lt;/a&gt; if you have any ideas or feedback on our product or roadmap,
+we always love to hear from you.&lt;/p&gt;</content><category term="posts"></category><category term="newsletter"></category><category term="community"></category><category term="build-in-public"></category></entry><entry><title>EthicalAds Newsletter - May 2025</title><link href="https://www.ethicalads.io/blog/2025/05/ethicalads-newsletter-may-2025/" rel="alternate"></link><published>2025-05-12T00:00:00-07:00</published><updated>2025-05-12T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2025-05-12:/blog/2025/05/ethicalads-newsletter-may-2025/</id><summary type="html">&lt;h2 id="new-features-from-the-previous-month"&gt;New features from the previous month&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;We rolled out two-factor authentication on our adserver for both publishers and advertisers
+  as …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h2 id="new-features-from-the-previous-month"&gt;New features from the previous month&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;We rolled out two-factor authentication on our adserver for both publishers and advertisers
+  as an opt-in feature. This was requested primarily by developer publishers
+  and we are supporting both TOTP authenticator codes as well as backup one-time codes.&lt;/li&gt;
+&lt;li&gt;We build a change where advertisers can set a daily cap on their ad buys.
+  In many cases, this isn't necessary because our ad server already paces campaigns over
+  the length of their campaign, but it can be useful in cases where campaigns are paused
+  or when there's a prolonged period of low fill rate (eg. holidays).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can always see our latest server updates in our
+&lt;a href="https://ethical-ad-server.readthedocs.io/en/latest/developer/changelog.html"&gt;ethical-ad-server changelog&lt;/a&gt;
+and &lt;a href="https://ethical-ad-client.readthedocs.io/en/latest/changelog.html"&gt;ethical-ad-client changelog&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="april-advertising-stats"&gt;April advertising stats&lt;/h2&gt;
+&lt;p&gt;Last month:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We generated &lt;strong&gt;$37,346.21&lt;/strong&gt; for our publishers and they'll receive this in a payout next week.
+  April ended up pretty close to March in terms of revenue.&lt;/li&gt;
+&lt;li&gt;We had &lt;strong&gt;177 publishers&lt;/strong&gt; on our network with at least one paid ad impression.&lt;/li&gt;
+&lt;li&gt;We had &lt;strong&gt;18,849,912&lt;/strong&gt; paid ad views across the world. This is down a bit from last month mostly due to reduced global buys.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;April started to pick up toward the end of the month and I'm expecting May
+to be a bit higher than April.&lt;/p&gt;
+&lt;h2 id="upcoming-features"&gt;Upcoming features&lt;/h2&gt;
+&lt;p&gt;The major features in our upcoming roadmap for May:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Following up on the &lt;a href="https://www.ethicalads.io/blog/2025/02/duckdb-and-postgresql-make-a-great-pair-for-analytical-processing/"&gt;improvements we built with DuckDB&lt;/a&gt;,
+  we are building a number of improvements to the aggregated data that we show to advertisers and publishers.
+  This should make a lot of our reports faster both on our dashboard and to generate the data that goes into them.&lt;/li&gt;
+&lt;li&gt;We are working to improve our automated renewals for advertisers.
+  Currently, advertisers can set campaigns to automatically renew
+  but we are working on improvements to automate the billing around those campaigns.&lt;/li&gt;
+&lt;li&gt;We have some styling improvements prepared on our ad client that publishers can use to better style ads
+  on their site using CSS properties (here's the &lt;a href="https://github.com/readthedocs/ethical-ad-client/pull/219"&gt;PR&lt;/a&gt;).
+  This will roll out in May.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thanks again for being along with us on this journey to build an ethical ad network.
+Please &lt;a href="https://www.ethicalads.io/contact/"&gt;let us know&lt;/a&gt; if you have any ideas or feedback on our product or roadmap,
+we always love to hear from you.&lt;/p&gt;</content><category term="posts"></category><category term="newsletter"></category><category term="community"></category><category term="build-in-public"></category></entry><entry><title>EthicalAds Newsletter - April 2025</title><link href="https://www.ethicalads.io/blog/2025/04/ethicalads-newsletter-april-2025/" rel="alternate"></link><published>2025-04-15T00:00:00-07:00</published><updated>2025-04-15T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2025-04-15:/blog/2025/04/ethicalads-newsletter-april-2025/</id><summary type="html">&lt;h2 id="new-features-from-the-previous-month"&gt;New features from the previous month&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;We released our &lt;a href="https://www.ethicalads.io/prospectus/ethicalads-advertiser-prospectus.pdf"&gt;Q2 advertiser prospectus&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;Internally, we released a big improvement in estimating …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h2 id="new-features-from-the-previous-month"&gt;New features from the previous month&lt;/h2&gt;
