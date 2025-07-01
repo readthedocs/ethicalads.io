@@ -84,16 +84,16 @@ DEFAULT_METADATA = {
     # And the advertiser calculator
     "pricing": {
         "niche": {
-            "network": 5.00,
-            "eng": 5.00,
-            "blend": 5.00,
-            "weu": 5.00,
-            "eeu-apac": 5.00,
-            "global": 5.00,
+            "network": 4.75,
+            "eng": 7.25,
+            "blend": 5.50,
+            "weu": 4.75,
+            "eeu-apac": 2.25,
+            "global": 1.00,
         },
         "security": {
             "network": 3.80,
-            "eng": 6.00,
+            "eng": 6.25,
             "blend": 4.87,
             "weu": 3.75,
             "eeu-apac": 1.65,
@@ -109,7 +109,7 @@ DEFAULT_METADATA = {
         },
         "devops": {
             "network": 3.71,
-            "eng": 5.75,
+            "eng": 6.00,
             "blend": 4.75,
             "weu": 3.75,
             "eeu-apac": 1.65,
@@ -124,10 +124,10 @@ DEFAULT_METADATA = {
             "global": 0.7,
         },
         "backend": {
-            "network": 3.3,
-            "eng": 5.25,
-            "blend": 4.25,
-            "weu": 3.25,
+            "network": 3.4,
+            "eng": 5.50,
+            "blend": 4.50,
+            "weu": 3.50,
             "eeu-apac": 1.4,
             "global": 0.6,
         },
@@ -156,7 +156,7 @@ DEFAULT_METADATA = {
         {"slug": "global", "name": "Global"},
     ],
     "topics": [
-        {"slug": "niche", "name": "Custom niche targeting (Run of Network only)"},
+        {"slug": "niche", "name": "Custom niche targeting"},
         {"slug": "security", "name": "Security & privacy"},
         {"slug": "datascience", "name": "AI & machine learning"},
         {"slug": "devops", "name": "DevOps"},
