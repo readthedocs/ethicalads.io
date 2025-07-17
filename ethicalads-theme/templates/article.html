@@ -35,7 +35,7 @@
       </div>
 
       <!-- IMAGE  -->
-      {% if article.image %}
+      {% if article.image and not article.skipimage %}
         <!-- Fugure -->
         <figure class="figure mb-7">
 
