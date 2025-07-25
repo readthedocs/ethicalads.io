@@ -76,17 +76,17 @@ Instead, we target based solely upon:
 
 * Details of the page where the advertisement is shown including:
 
-    - The name and keywords associated with the publisher's content
-    - Content of the page (eg. H1, title, etc.)
-    - Whether the page is being viewed on a mobile device
+  - The name and keywords associated with the publisher's content
+  - Content of the page (eg. H1, title, etc.)
+  - Whether the page is being viewed on a mobile device
 
 * General geography
 
-    - We allow advertisers to target ads to a list of countries or to exclude
-      countries from their advertising.
-      For ads targeting the USA, we also support targeting states or large metro areas.
-    - We geolocate a user's IP address when a request is made and we don't store
-      precise locations or precise IPs for longer than a few days to detect fraud and keep our site secure.
+  - We allow advertisers to target ads to a list of countries or to exclude
+    countries from their advertising.
+    For ads targeting the USA, we also support targeting states or large metro areas.
+  - We geolocate a user's IP address when a request is made and we don't store
+    precise locations or precise IPs for longer than a few days to detect fraud and keep our site secure.
 
 
 ## Why our ads work
