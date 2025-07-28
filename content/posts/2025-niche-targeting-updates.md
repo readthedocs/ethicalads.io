@@ -63,7 +63,7 @@ from .models import TopicEmbedding
 
 # Get the centroid for DevOps related content
 embeddings = TopicEmbedding.objects.filter(topic="devops").values("embedding__vector")
-embeddings.aggregate(
+centroid = embeddings.aggregate(
     centroid=models.Avg("embedding__vector"),
 )["centroid"]
 ```
