@@ -7,7 +7,7 @@ image: /images/posts/niche-targeting.png
 
 
 Going back to our [original vision for EthicalAds]({filename}../pages/vision.md),
-our goal has always been to show the best ad possible based on page context rather than users' private details.
+our goal has always been to show the best ad possible based on page context rather than any data about the user.
 By delivering the best possible ad on a given page,
 this will result in great advertiser performance with high earnings for the sites
 where the ads appear and without compromising privacy.
