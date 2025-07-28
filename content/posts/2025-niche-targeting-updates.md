@@ -70,7 +70,7 @@ centroid = embeddings.aggregate(
 
 When classifying new content (a new embedding), it's easy to see how similar it is to all of the topic centroids.
 This essentially answers the question of "how DevOps-ey is this content" or "how Frontend-ey is this content"
-for all possibly topics.
+for all possible topics.
 
 ```python
 from pgvector.django import CosineDistance
