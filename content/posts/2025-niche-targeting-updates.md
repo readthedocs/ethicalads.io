@@ -50,7 +50,7 @@ A centroid is simply the average of these embeddings: a single vector that repre
 
 New content that's semantically similar will automatically fall close to related content in the embedding space.
 Just as before with our topic classifier model, this let us sell advertisers on the topic they're looking for.
-But unlike the previous approach, you only need to classify a few tens of pages of content for a new centroid to start taking shape. This scales much better to hundreds of topics or more.
+But unlike the previous approach, you only need to classify 15-20 pages of content for a new centroid to start taking shape. This scales much better to hundreds of topics or more.
 It's also far easier to explain to advertisers that we are targeting content related to the right topic for their product.
 
 To show some concrete code examples, here's a code example of generating a centroid for a number of manually classified embeddings with [pgvector](https://github.com/pgvector/pgvector-python) and Django:
