@@ -37,7 +37,7 @@ This approach worked by targeting pages similar to an advertiser's specific land
 Using this approach, we saw ad performance 25-30% better in most cases.
 However, campaign sizes were very limited, because there just aren't enough very similar pages and
 it was hard to fill campaign sizes advertisers wanted to run.
-It also was simply harder to explain how this worked to marketers which made it harder to sell despite strong performance.
+It also was harder to explain how this worked to marketers which made it harder to sell despite strong performance.
 
 
 ## Hybrid approach with embedding centroids
