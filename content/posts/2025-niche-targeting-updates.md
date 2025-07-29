@@ -3,7 +3,8 @@ Date: August 5, 2025
 description: This post shows how we improved our contextual targeting to handle hundreds of developer-specific topic niches with embeddings, pgvector, and centroids.
 tags: content-targeting, engineering, postgresql
 authors: David Fischer
-image: /images/posts/niche-targeting.png
+image: /images/posts/2025-embedding-map.png
+image_credit: <span>Image generated with <a href="https://matplotlib.org/">Matplotlib</a> from embeddings and centroids</span>
 
 
 Going back to our [original vision for EthicalAds]({filename}../pages/vision.md),
