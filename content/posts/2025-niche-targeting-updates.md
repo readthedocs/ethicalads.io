@@ -1,60 +1,62 @@
-Title: Contextual Topic Targeting with Embedding Centroids
+Title: Improving AI Ad Targeting with Embeddings
 Date: August 5, 2025
 description: This post shows how we improved our contextual targeting to handle hundreds of developer-specific topic niches with embeddings, pgvector, and centroids.
 tags: content-targeting, engineering, postgresql
 authors: David Fischer
 image: /images/posts/2025-embedding-map.png
-image_credit: <span>Image generated with <a href="https://matplotlib.org/">Matplotlib</a> from embeddings and centroids</span>
+image_credit: <span>Image generated with <a href="https://matplotlib.org/">Matplotlib</a> from embeddings and centroids and <a href="https://github.com/lmcinnes/umap">umap</a> for dimension reduction</span>
 
 
-Going back to our [original vision for EthicalAds]({filename}../pages/vision.md),
-our goal has always been to show the best ad possible based on page context rather than any data about the user.
-By delivering the best possible ad on a given page,
-this will result in great advertiser performance with high earnings for the sites
-where the ads appear;  without compromising privacy.
-
-However, our approach to best fulfill that vision has changed over time.
-The tools available to target contextually are rapidly improving
-with the advances in language models (LLMs).
-This post is going to delve into how to use those advances for ad targeting
-but similar approaches can be used for many types of classifiers.
+Large language models and their surrounding tools are evolving fast
+and they are a powerful way to improve ad targeting and content classification,
+which is great when you're building a contextual ad network that doesn't track people.
+However, LLM prompts and responses can be inconsistent or unpredictable.
+We've taken a more reliable approach.
+By using (more) deterministic embeddings, we were able to sharpen up our targeting
+and boost performance with less guesswork without relying on any user-specific data.
+The method in this post should work well for many multi-classification tasks,
+particularly when the set of classes evolves or grows over time.
 
 
 ## Historical context and scaling topic classification
 
+First, a little bit of background.
 A few years back, we built [our first topic classifier](https://www.ethicalads.io/blog/2022/11/a-new-approach-to-content-based-targeting-for-advertising/)
-that essentially bundled content and keywords together into topics that advertisers could target and buy.
-To give a few examples, in addition to our [core audiences]({filename}../pages/advertisers.md#audiences),
-this allowed advertisers to target database related content or blockchain related content with relevant ads.
-This approach scaled well up to about 15-20 topics which was great for ad performance.
-However, adding another topic to target involved not just adding training set examples for that topic
-but also making sure any of our existing examples that also applied to the new topic were marked appropriately.
-Scaling became a pain.
+that essentially bundled content and keywords together into topics that advertisers could target and buy
+similar to what they do for search ads.
+To give an example, this allowed advertisers to target DevOps related content with relevant ads.
+This approach scaled well up to about 10-15 topics
+and gave advertisers an easily understandable way to get good contextual targeting for their campaigns.
 
-Last year, we built a more advanced way of targeting very specific content with language model embeddings
-that we called [niche targeting]({filename}../pages/niche-targeting.md)
-(see our [blog]({filename}../posts/2024-niche-ad-targeting.md) with more details).
-This approach worked by targeting pages similar to an advertiser's specific landing and product pages.
-Using this approach, we saw ad performance 25-30% better in most cases.
-However, campaign sizes were very limited, because there just aren't enough very similar pages and
-it was hard to fill campaign sizes advertisers wanted to run.
-It also was harder to explain how this worked to marketers which made it harder to sell despite strong performance.
+Last year, we built a more advanced way to target content using language model embeddings,
+a strategy we called [niche targeting]({filename}../pages/niche-targeting.md)
+(see our [blog]({filename}../posts/2024-niche-ad-targeting.md) with more dev details).
+It works by comparing embedding vectors to find pages semantically similar to an advertiser's landing or product page.
+The results were strong, about 25% better performance on average, but scale was a challenge.
+There simply weren't enough closely related pages to build large campaigns.
+Also, while the results were great, explaining embeddings and page similarity to marketers proved difficult,
+making the approach harder to sell despite its effectiveness.
 
 
 ## Hybrid approach with embedding centroids
 
 After generating embeddings for nearly a million pages across our network,
-clusters started to emerge of related content.
-Think of Kubernetes related content clustering together
-and Python related content clustering together in a different section.
-A centroid is simply the average of these embeddings: a single vector that represents the center of that topic cluster.
+clear clusters of related content began to emerge.
+For example, pages about Kubernetes tended to group closely together,
+while Python-related content formed its own nearby cluster in a different region of the embedding space.
+One of the powerful things about embeddings is that you can apply standard math to them,
+like taking an average of a group of vectors.
+A **centroid** is just that: the average of a set of related embeddings,
+representing the semantic center of a topic.
 
-New content that's semantically similar will automatically fall close to related content in the embedding space.
-Just as before with our topic classifier model, this let us sell advertisers on the topic they're looking for.
-But unlike the previous approach, you only need to classify 15-20 pages of content for a new centroid to start taking shape. This scales much better to hundreds of topics or more.
-It's also far easier to explain to advertisers that we are targeting content related to the right topic for their product.
+Classifying new content that's semantically related lands near similar content in embedding space
+(as shown in the 2D projection graphic in this post).
+Like our earlier topic classifier, this allows us to target ads based on the topics advertisers care about.
+But unlike the old model, this approach requires only a few examples to form a new centroid,
+making it far more scalable to hundreds of topics or more.
+It's also far easier to explain this type of classification to advertisers.
 
-To show some concrete code examples, here's a code example of generating a centroid for a number of manually classified embeddings with [pgvector](https://github.com/pgvector/pgvector-python) and Django:
+To show some concrete code examples, here's code to generate a centroid for a number of manually classified embeddings with [pgvector](https://github.com/pgvector/pgvector-python) and Django:
 
 ```python
 from django.db import models
@@ -69,9 +71,10 @@ centroid = embeddings.aggregate(
 )["centroid"]
 ```
 
-When classifying new content (a new embedding), it's easy to see how similar it is to all of the topic centroids.
+When classifying new content, it's easy to see how similar the content's embedding is to each of the topic centroids.
 This essentially answers the question of "how DevOps-ey is this content" or "how Frontend-ey is this content"
-for all possible topics.
+for an arbitrary number of topics.
+To steal a term, it's a vibes-based classifier.
 
 ```python
 from pgvector.django import CosineDistance
@@ -82,27 +85,28 @@ from .models import TopicCentroid
 vector = [-1.457664e-02,  3.473443e-02, ...]
 
 # Closer than this threshold implies the content is related.
-# This threshold differs based on your embedding model.
-distance_threshold = 0.45
+# This threshold differs based on your embedding model
+distance_threshold = 0.40
 
 TopicCentroid.objects.all().annotate(
     distance=CosineDistance("vector", vector)
 ).filter(distance__lte=distance_threshold).order_by("distance")
 ```
 
-This approach yields all the benefits of using embeddings like much better semantic relevance than simple keywords
-while still being explainable like simple keyword targeting used in search ads.
-It also scales perfectly fine with any number of topics
-and new content just gets an embedding and gets matched and clustered automatically.
-As more content is manually classified and added to the centroid, the centroid better reflects that topic
-and classifications for that topic improve over time.
-Adding new topics for classification
+This approach offers the best of both worlds.
+It has the semantic depth of embeddings, far beyond what simple keywords can capture,
+with the clarity and explainability of keyword-style targeting.
+It scales to any number of topics, since new content just gets an embedding and automatically matched to the right clusters.
+Adding a new topic is as simple as giving 15-20 example pages.
+From there, a new centroid forms and begins matching relevant content automatically.
+As more content is manually classified and added to a centroid, that topic representation improves,
+making future classifications even more accurate.
 
 
 ## Conclusion
 
-From the moment we started using embeddings for ad targeting,
-we recognized they had great potential for improving contextual targeting performance for advertisers.
+From the moment we started using embeddings for contextual ad targeting,
+we recognized they had great potential for improving performance for advertisers.
 Better ad performance means we can generate more money for the sites that host our ads
 which is a great virtuous cycle.
 
