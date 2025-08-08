@@ -7,6 +7,13 @@ image: /images/posts/2025-august-newsletter.jpg
 image_credit: <span>Photo by <a href="https://unsplash.com/@ultratunafish?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Tunafish</a> on <a href="https://unsplash.com/photos/a-field-of-sunflowers-HGr-WnBxkNU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></span>
 
 
+Before I dive into the monthly update, going forward,
+we'll be switching to having these updates quarterly instead of monthly.
+This will mean there's fewer, larger updates but we're hoping it makes it easier to keep up-to-date
+with our progress on building a more transparent ad network.
+Expect the next update in early October.
+
+
 ## New features from the previous month
 
 * We made a number of improvements to our [niche targeting]({filename}../pages/niche-targeting.md)
