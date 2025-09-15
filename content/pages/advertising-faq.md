@@ -164,6 +164,14 @@ where you can create, change, or turn off your ads as well as see live reports b
 Check out a video overview of our <a href="https://www.youtube.com/watch?v=Ow75lzOs4EM&t=34s">management interface</a>.
 
 
+## Will you sign an NDA or other type of contract?
+
+We don't require it, but if desired, we can produce an insertion order for your ad campaign
+([example]({static}../prospectus/insertion-order-sample.pdf)).
+If you require additional contracts or agreements such as a non-disclosure agreement (NDA),
+we can accommodate these for ad campaigns of $10,000 or more.
+
+
 ## How can I optimize my ads?
 
 For all but the smallest campaigns, we recommend running multiple ads in your campaign.
