@@ -38,7 +38,7 @@ making the approach harder to sell despite its effectiveness.
 
 
 <div class="postimage text-center" id="chart">
-  <iframe width="100%" height="525" class="w-100 shadow-lg" frameborder="0"
+  <iframe height="525" class="w-100 shadow-lg border-0"
   src="https://observablehq.com/embed/34e5f0a6a04bbf16@117?cells=plot"></iframe>
 </div>
 
