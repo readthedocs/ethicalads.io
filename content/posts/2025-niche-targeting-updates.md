@@ -1,4 +1,4 @@
-Title: Mathing with Embeddings for Better AI Ad Targeting
+Title: Doing Math with Embeddings for Better AI Ad Targeting
 Date: October 15, 2025
 description: This post shows how we improved our contextual targeting to handle hundreds of developer-specific topic niches with embeddings, pgvector, and centroids.
 tags: content-targeting, engineering, postgresql
