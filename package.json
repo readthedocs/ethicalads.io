@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "npm": ">=10.0.0 <11.0.0",
+    "node": ">=20.0.0 <21.0.0"
+  },
   "scripts": {
     "build": "webpack --config webpack.config.js --mode=development --progress --color",
     "watch": "webpack --config webpack.config.js --mode=development --watch",
@@ -47,7 +51,7 @@
     "file-loader": "^6.2.0",
     "gh-pages": "^4.0.0",
     "mini-css-extract-plugin": "^2.4.5",
-    "node-sass": "^8.0.0",
+    "node-sass": "^9.0.0",
     "postcss": "^8.4.4",
     "prettier": "^2.1.1",
     "sass-loader": "^14.1.1",
