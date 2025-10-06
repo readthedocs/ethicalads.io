@@ -8,7 +8,7 @@ Site details
 ------------
 
 The site is built as a static site using `Pelican <https://blog.getpelican.com/>`_
-and hosted by `GitHub pages <https://pages.github.com/>`_.
+and hosted by `Read the Docs <https://about.readthedocs.com/>`_.
 The site is automatically built and updated when there are commits on the main branch
 although it can take up to 5 minutes.
 
