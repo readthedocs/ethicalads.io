@@ -16,11 +16,11 @@ module.exports = {
       {
         // https://webpack.js.org/guides/asset-management/#loading-fonts
         test: /\.(woff|woff2|eot|ttf|otf)$/i,
-        type: 'asset/resource',
+        type: "asset/resource",
       },
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
-        type: 'asset/resource',
+        type: "asset/resource",
       },
       {
         test: /\.s?css$/,
@@ -33,7 +33,10 @@ module.exports = {
                 // e.g. for ./css/admin/main.css the publicPath will be ../../
                 // while for ./css/main.css the publicPath will be ../
                 // https://webpack.js.org/plugins/mini-css-extract-plugin/#the-publicpath-option-as-function
-                return path.relative(path.dirname(resourcePath), context) + "/theme/dist/";
+                return (
+                  path.relative(path.dirname(resourcePath), context) +
+                  "/theme/dist/"
+                );
               },
             },
           },
