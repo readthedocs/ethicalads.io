@@ -1,3 +1,4 @@
+# https://docs.astral.sh/uv/guides/integration/github/
 name: Build and HTML validate the Pelican site
 
 on: push
@@ -8,38 +9,38 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
-        with:
-          persist-credentials: false
+        uses: actions/checkout@v5
 
-      - name: Install Python
-        uses: actions/setup-python@v2
+      # Installs Python specified in pyproject.toml
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          python-version: "3.10"
+          python-version-file: "pyproject.toml"
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+        with:
+          # Install a specific version of uv.
+          version: "0.8.22"
+          # Cache project deps
+          # https://docs.astral.sh/uv/guides/integration/github/#caching
+          enable-cache: true
 
       - name: Build static assets
         run: |
           npm clean-install
           npm run dist
 
-      - name: Cache dependencies
-        uses: actions/cache@v4
-        with:
-          path: ~/.cache/pip
-          key: pelican-${{ hashFiles('requirements.txt') }}
-          restore-keys: |
-            pelican-
+      - name: Install project deps
+        run: uv sync --locked --all-extras --dev
 
-      - name: Install Pelican
-        run: |
-          pip install -r requirements.txt
+      - name: Run linting
+        run: uv run pre-commit run --all-files
 
-      - name: Run Pelican
+      - name: Build site with Pelican
         id: run-pelican
         run: |
-          inv preview
+          uv run inv preview
 
-      - name: HTML5 Validator
-        uses: Cyb3r-Jak3/html5validator-action@v7.2.0
-        with:
-          config: htmlvalidator.yaml
+      - name: Run Validator
+        run: uvx html5validator --config htmlvalidator.yaml

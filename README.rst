@@ -7,23 +7,27 @@ This is a landing page for EthicalAds.io, the developer network from Read the Do
 Site details
 ------------
 
-The site is built as a static site using `Pelican <https://blog.getpelican.com/>`_ and hosted by `GitHub pages <https://pages.github.com/>`_.
-The site is automatically built and updated when there are commits on the main branch although it can take up to 5 minutes.
+The site is built as a static site using `Pelican <https://blog.getpelican.com/>`_
+and hosted by `Read the Docs <https://about.readthedocs.com/>`_.
+The site is automatically built and updated when there are commits on the main branch
+although it can take up to 5 minutes.
 
 
 Building the site locally
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
+The environment relies on `uv <https://docs.astral.sh/uv/>`_.
+
 You can build the site HTML and serve it locally with:
 
 .. code-block:: bash
 
-    $ pip install -r requirements.txt
-    $ pre-commit install  # Install a code style pre-commit hook
-    $ inv rebuild         # build one time
-    $ inv regenerate      # regenerate the site whenever you modify a page/post
-    $ inv serve           # serve the site at http://localhost:8000
-    $ inv livereload      # Rebuild and serve the site on http://localhost:8000
+    uv python install       # Install a compatible Python version
+    uv sync                 # Install dependencies
+    uv run inv rebuild      # build one time
+    uv run inv regenerate   # regenerate the site whenever you modify a page/post
+    uv run inv serve        # serve the site at http://localhost:8000
+    uv run inv livereload   # Rebuild and serve the site on http://localhost:8000
 
 If you don't see any styling, you may also need to build static assets (see below).
 
@@ -36,8 +40,8 @@ if files under ``static-src/`` are modified.
 
 .. code-block:: bash
 
-    $ npm clean-install
-    $ npm run build     # use "npm run dist" for minified builds
+    npm clean-install
+    npm run build     # use "npm run dist" for minified builds
 
 The static content appears in ``ethicalads-theme/static/``
 
@@ -56,8 +60,21 @@ For more details on the deployment actions, see workflows_.
 
 Developing the site
 -------------------
-Style Guide
-~~~~~~~~~~~
+
+Code style and pre-commit
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The output HTML is validated and the files are checked for style.
+
+.. code-block:: bash
+
+    uv run pre-commit install           # Install pre-commit
+    uv run pre-commit run --all-files   # Run pre-commit one time
+    tox                                 # Run HTML validator
+
+
+Writing style guide
+~~~~~~~~~~~~~~~~~~~
 
 Our style is loosely based on the `Wikipedia Manual of Style <https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style>`_.
 
