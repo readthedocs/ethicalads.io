@@ -98,7 +98,7 @@ DEFAULT_METADATA = {
         },
         "security": {
             "network": 3.80,
-            "eng": 6.25,
+            "eng": 6.5,
             "blend": 4.87,
             "weu": 3.75,
             "eeu-apac": 1.65,
@@ -106,7 +106,7 @@ DEFAULT_METADATA = {
         },
         "datascience": {
             "network": 4.05,
-            "eng": 6.25,
+            "eng": 6.5,
             "blend": 5.12,
             "weu": 4.0,
             "eeu-apac": 1.9,
@@ -122,7 +122,7 @@ DEFAULT_METADATA = {
         },
         "frontend": {
             "network": 3.80,
-            "eng": 6.0,
+            "eng": 6.5,
             "blend": 4.87,
             "weu": 3.75,
             "eeu-apac": 1.65,
@@ -130,7 +130,7 @@ DEFAULT_METADATA = {
         },
         "backend": {
             "network": 3.4,
-            "eng": 5.50,
+            "eng": 5.75,
             "blend": 4.50,
             "weu": 3.50,
             "eeu-apac": 1.4,
@@ -149,7 +149,7 @@ DEFAULT_METADATA = {
         {
             "slug": "network",
             "name": "Run of Network",
-            "tooltip": "33% English speaking, 33% Western Europe, 33% APAC/E-EU",
+            "tooltip": "~33% English speaking, ~33% Western Europe, ~33% APAC/E-EU",
         },
         {"slug": "eng", "name": "US, Canada, UK, Australia, New Zealand, Ireland"},
         {
