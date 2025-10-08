@@ -4,18 +4,18 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 <meta name="generator" content="Pelican" />
-<meta property="og:site_name" content="EthicalAds"/><meta name="description" content="Rather than discussing advertising and privacy, in this post we&#39;re going to talk about how we scaled our ad server using some of the same tools and techniques we use on Read the Docs." />
-    <meta property="og:description" content="Rather than discussing advertising and privacy, in this post we&#39;re going to talk about how we scaled our ad server using some of the same tools and techniques we use on Read the Docs." /><meta name="tags" content="django" /><meta name="tags" content="python" /><meta name="tags" content="performance" /><meta name="tags" content="scalability" /><meta name="tags" content="engineering" /><meta name="author" content="David Fischer" /><meta property="og:type" content="article">
-  <meta property="og:title" content="Handling 100 Requests Per Second with Python &amp; Django" />
-  <meta property="twitter:title" content="Handling 100 Requests Per Second with Python &amp; Django" /><meta property="og:image" content="https://www.ethicalads.io/images/posts/2021-django-100-requests-second.jpg" />
-    <meta property="twitter:image" content="https://www.ethicalads.io/images/posts/2021-django-100-requests-second.jpg" /><meta property="article:published_time" content="2021-07-27" />
+<meta property="og:site_name" content="EthicalAds"/><meta name="description" content="This post shows how we improved our contextual targeting to handle hundreds of developer-specific topic niches with embeddings, pgvector, and centroids." />
+    <meta property="og:description" content="This post shows how we improved our contextual targeting to handle hundreds of developer-specific topic niches with embeddings, pgvector, and centroids." /><meta name="tags" content="content-targeting" /><meta name="tags" content="engineering" /><meta name="tags" content="postgresql" /><meta name="author" content="David Fischer" /><meta property="og:type" content="article">
+  <meta property="og:title" content="Doing Math with Embeddings for Better AI Ad Targeting" />
+  <meta property="twitter:title" content="Doing Math with Embeddings for Better AI Ad Targeting" /><meta property="og:image" content="https://www.ethicalads.io/images/posts/2025-embedding-map.png" />
+    <meta property="twitter:image" content="https://www.ethicalads.io/images/posts/2025-embedding-map.png" /><meta property="article:published_time" content="2025-10-08" />
       <!-- Bootstrap CSS -->
       <link rel="stylesheet" href="/theme/dist/main.css">
 
-      <title>Handling 100 Requests Per Second with Python & Django - EthicalAds</title>
+      <title>Doing Math with Embeddings for Better AI Ad Targeting - EthicalAds</title>
 
-  <link rel="canonical" href="https://www.ethicalads.io/blog/2021/07/handling-100-requests-per-second-with-python-django/" />
-  <meta property="og:url" content="https://www.ethicalads.io/blog/2021/07/handling-100-requests-per-second-with-python-django/" />
+  <link rel="canonical" href="https://www.ethicalads.io/blog/2025/10/doing-math-with-embeddings-for-better-ai-ad-targeting/" />
+  <meta property="og:url" content="https://www.ethicalads.io/blog/2025/10/doing-math-with-embeddings-for-better-ai-ad-targeting/" />
 
       <!-- Feeds -->
         <link href="https://www.ethicalads.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="EthicalAds Full Atom Feed" />
@@ -95,7 +95,7 @@
   <div class="row justify-content-center">
     <div class="col-12 col-md-10 col-lg-9 col-xl-8">
       <!-- Heading -->
-      <h1 class="display-4">Handling 100 Requests Per Second with Python & Django</h1>
+      <h1 class="display-4">Doing Math with Embeddings for Better AI Ad Targeting</h1>
 
       <!-- Meta -->
       <div class="row align-items-center py-5 border-top border-bottom">
@@ -107,7 +107,7 @@
 
             <!-- Date -->
             <div class="flex-fill h6 text-uppercase text-muted mb-0 ml-auto text-right">
-              <time class="text-nowrap" datetime="2021-07-27T00:00:00-07:00">Jul 27, 2021</time>
+              <time class="text-nowrap" datetime="2025-10-08T00:00:00-07:00">Oct 8, 2025</time>
             </div>
           </div>
         </div>
@@ -118,133 +118,139 @@
         <figure class="figure mb-7">
 
           <!-- Image -->
-          <img class="figure-img img-fluid rounded" src="/images/posts/2021-django-100-requests-second.jpg" alt="Handling 100 Requests Per Second with Python & Django">
+          <img class="figure-img img-fluid rounded" src="/images/posts/2025-embedding-map.png" alt="Doing Math with Embeddings for Better AI Ad Targeting">
 
           <!-- Caption -->
-        <figcaption class="figure-caption text-center"><small><span>Photo by <a href="https://unsplash.com/@rockthechaos?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Kolleen Gladden</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></small></figcaption>
+        <figcaption class="figure-caption text-center"><small><span>Image generated with <a href="https://observablehq.com/">Observable</a> from embeddings and centroids and <a href="https://github.com/lmcinnes/umap">umap</a> for dimension reduction. Look <a href="#chart">below</a> for an interactive version.</span></small></figcaption>
 
         </figure>
 
       <div>
-        <p><strong>In a followup post, we discuss a traffic spike to <a href="https://www.ethicalads.io/blog/2023/09/what-happens-when-elon-musk-tweets-a-link-to-your-service/">200 requests per second</a>!</strong></p>
-<p>Usually, our blog focuses on advertising, privacy,
-and our journey in building a business around the intersection of the two.
-This post is going to go under the hood and discuss some of the technology and scaling challenges
-we ran into with our ad server.</p>
-<div class="postimage">
- <img class="w-100" src="https://www.ethicalads.io/images/posts/2021-adserver-performance-throughput.png" alt="Ethical ad server throughput on a normal week">
- <p>Normal throughput of our ad server peaks at about 3,500 requests per minute which is ~60 requests per second. The small drops are nights and the big ones are weekends.</p>
+        <p>Large language models and their adjacent tools are evolving fast
+and they are a powerful way to improve content classification,
+which is great when you're building a contextual ad network that doesn't track people.
+However, LLM prompts and responses can be inconsistent or unpredictable.
+We've taken a more reliable approach.
+By using (more) deterministic embeddings and creating centroids with related embeddings,
+we were able to sharpen up our targeting
+and boost performance with less guesswork without relying on any user-specific data.</p>
+<h2 id="historical-context-and-scaling-topic-classification">Historical context and scaling topic classification</h2>
+<p>First, a little bit of background.
+A few years back, we built <a href="https://www.ethicalads.io/blog/2022/11/a-new-approach-to-content-based-targeting-for-advertising/">our first topic classifier</a>
+that essentially bundled content and keywords together into topics that advertisers could target and buy
+similar to what they do for search ads.
+To give an example, this allowed advertisers to target DevOps related content with relevant ads.
+This approach scaled well up to about 10-15 topics
+and gave advertisers an easily understandable way to get good contextual targeting for their campaigns.</p>
+<p>Last year, we built a more advanced way to target content using language model embeddings,
+a strategy we called <a href="https://www.ethicalads.io/advertisers/niche-targeting/">niche targeting</a>
+(see our <a href="https://www.ethicalads.io/blog/2024/04/using-embeddings-in-production-with-postgres-django-for-niche-ad-targeting/">blog</a> with more dev details).
+It works by comparing embedding vectors to find pages semantically similar to an advertiser's landing or product page.
+The results were strong, about 25% better performance on average, but scale was a challenge.
+There simply weren't enough very closely related pages to build large campaigns.
+Also, while the results were great, explaining embeddings to marketers proved difficult,
+making the approach harder to sell despite its effectiveness.</p>
+<div class="postimage text-center" id="chart">
+  <iframe height="525" class="w-100 shadow-lg border-0"
+  src="https://observablehq.com/embed/34e5f0a6a04bbf16@117?cells=plot"></iframe>
 </div>
 
-<h2 id="breaking-out-the-ad-server">Breaking out the ad server</h2>
-<p>Before late 2019, ads on Read the Docs were served by a Django app that was actually part of the Read the Docs code line.
-We knew we wanted to break it out into a separate service to prepare for launching our ad network.
-However, the process was a bit tricky since we knew that on day one this new server
-would need to handle around 20-30 requests per second and traffic spikes could take that number to 60 or higher.
-To prepare for this, we relentlessly focused on our app performance.</p>
-<blockquote>
-<p>Anecdotally, Python and Django are not considered the most performant language and framework.
-We didn't want to do a from-scratch rewrite, however, in a more performant language.
-There was also a strong desire to use a similar setup to Read the Docs
-as that's what our small team (of 5 at that time) knew well.</p>
-</blockquote>
-<p>To improve the performance, we actually spent quite a bit of time digging through New Relic traces
-and going over each Postgres query in <a href="https://django-debug-toolbar.readthedocs.io/en/latest/">Django Debug Toolbar</a>.
-For an ad server like ours, just a few different APIs -- like requesting an ad and viewing an ad --
-account for almost all transactions.
-We even have unit tests to ensure the number of database queries doesn't change in these APIs.</p>
-<p>When we were pretty confident that the ad server was ready to go live code-wise,
-we did some load testing to make sure it could handle the traffic.
-There were definitely a few false starts during the initial rollout
-and in the end we decided to put it through a full load test.</p>
-<h2 id="load-testing-our-ad-server">Load testing our ad server</h2>
-<p>To make sure we could handle the load we knew we were going to see once we rolled out the ad server,
-we did a staging deployment to Heroku and to <a href="https://azure.microsoft.com/en-us/services/app-service/">Azure's AppService</a>
-to compare how they performed.
-This wasn't particularly complex given that this app was structured to be cloud agnostic from the start.
-After that, we used <a href="https://github.com/JoeDog/siege">siege</a> to test the deployment
-at various loads up to 100 ad requests per second.
-These were real requests exactly like we'd see in production and we wanted to see how staging would cope.</p>
-<dl>
-<dt>Heroku (4 Standard-2x dynos, 10 Gunicorn processes each, ~$200/mo)</dt>
-<dd>
-<p>This is a pretty standard Heroku setup to handle a performance heavy application.
-  We tested it at various thoughputs but it was able to handle 100 requests per second without dropping requests.
-  However, we did see our 99th percentile performance (p99) creep up to the 550-600ms range which is pretty bad.
-  On Heroku, 100 concurrent requests would also bump us into some pricier Redis and Postgres setups
-  to handle over 100 connections.</p>
-</dd>
-<dt>Heroku (10 Standard-2x dynos, 10 Gunicorn processes each, ~$500/mo)</dt>
-<dd>
-<p>In this example, we more than doubled the provisioning.
-  This setup performed much better although it didn't seem to be exactly linearly better which was a little odd.
-  Our p99 was closer to 350ms in a 100 requests per second setup and it didn't drop any requests.
-  The median performance (p50) stayed about the same at 80-90ms.</p>
-</dd>
-<dt>AppService (4 Premium P1s, 10 Gunicorn processes each, ~$300/mo)</dt>
-<dd>
-<p>This was a pretty comparable setup in Azure to the Heroku setups.
-  We ran the exact same code and the configuration was as close as possible.
-  We tested various numbers of instances and the performance scaled very linearly with instance count.
-  Performance was quite a bit better with a p50 of ~75ms and the p99 was drastically improved to ~200ms.
-  Even in longer and larger tests (with more instances in some cases),
-  we saw much better performance on AppService than on Heroku.</p>
-</dd>
-</dl>
-<p>The end result of the load tests was that we launched the ad server on AppService
-where got predictable performance and the right bang for the buck.
-Heroku definitely wins in ease of deployment and it has a lot of advantages and flexibility.
-However, for this kind of application where performance and predictability were critical,
-AppService was the right choice.</p>
-<div class="postimage">
- <img class="w-100" src="https://www.ethicalads.io/images/posts/2021-adserver-performance-percentile.png" alt="Normal real-world performance from New Relic">
- <p>With our current performance over a normal week, New Relic reports our p50 at 58ms and the p99 at 105ms.</p>
-</div>
+<h2 id="hybrid-approach-with-embedding-centroids">Hybrid approach with embedding centroids</h2>
+<p>After generating embeddings for nearly a million pages across our network,
+clear clusters of related content began to emerge.
+Looking at the <a href="#chart">graph above</a>, you can see that URLs for <a href="https://pylint.readthedocs.io">PyLint</a>
+are close and even somewhat overlapping with those of <a href="https://eslint.org">ESLint</a>.
+URLs for <a href="https://flask.palletsprojects.com">Flask</a> and <a href="https://www.djangoproject.com">Django</a>,
+two Python web frameworks, form a pretty tight cluster.
+And web scraping tools like <a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/">BeautifulSoup</a>
+and <a href="https://docs.scrapy.org">Scrapy</a> are also very close
+showing that embeddings are really capturing the semantic meaning.</p>
+<p>One of the powerful things about embeddings is that you can apply ordinary math to them,
+like averaging a group of vectors.
+A <strong>centroid</strong> is exactly that: the mean of a set of related embeddings.
+For example, averaging paragraph embeddings can yield a strong representation of an entire page,
+and averaging page embeddings often produces a good vector for a domain.
+In the graph above, the small circles represent individual web pages
+while the larger circles represent these domain centroids,
+the semantic center of the pages for each domain.</p>
+<p>New content that's semantically related to domains we've already classified
+will land near that content in embedding space
+(the <a href="#chart">chart</a> reduces this to 2d space, but imagine 100s of dimensions).
+This lets us easily answer questions like
+"what domains are most closely related to a new domain we're classifying?" or
+"how 'Flask-ey' is this new content?".
+It also scales to any number of clusters of closely related content.</p>
+<p>Like our earlier topic classifier, this allows us to target ads to content advertisers care about.
+But unlike the old model, this approach just requires a few URLs or domains
+with the kinds of content an advertiser wants to target.
+It's also far easier to explain this type of classification to advertisers:
+"we target your ads to the most similar domains across our network based on your landing pages or other URLs you provide"
+is easy to understand <em>and</em> it works pretty well.</p>
+<h2 id="show-me-the-code">Show me the code!</h2>
+<p>To show some concrete code examples, here's code to generate a domain centroid
+from URL embeddings with <a href="https://github.com/pgvector/pgvector-python">pgvector</a> and Django:</p>
+<div class="codehilite"><pre><span></span><span class="kn">from</span> <span class="nn">django.db</span> <span class="kn">import</span> <span class="n">models</span>
+<span class="kn">from</span> <span class="nn">.models</span> <span class="kn">import</span> <span class="n">UrlEmbedding</span>
 
-<h2 id="performance-today">Performance today</h2>
-<p>A few months after rolling things out to production we encountered some issues with AppService.
-In response, we switched to autoscaled <a href="https://docs.microsoft.com/en-us/azure/virtual-machine-scale-sets/overview">VM scaling sets</a>.
-Using the same siege setup, we were able to show that VM scaling sets
-(which we also use on Read the Docs) not only scaled better
-but also cut about 15ms off of our p50.
-We aren't sure why they're faster but we assume it's some overhead with AppService and containerization.
-That doesn't sound like much but it's actually quite a lot when
-you consider we didn't change the database or ad server code whatsoever.
-Except under unusual load, we're usually scaled to about 3-4 instances.</p>
-<p>We've done a few further optimizations like reducing cache requests to Redis
-(the fastest request is the one you don't have to make).
-Currently, about 20ms of a normal request is taken in Python
-while the remainder is consumed in Postgres and Redis.
-This shows the upper bound of any framework or language optimizations.
-Django and Python may be slow but at most replacing them could shave 10-15ms off our performance.
-Improvements on our infrastructure or how we handle data would yield better results.</p>
-<div class="postimage">
- <img class="w-100" src="https://www.ethicalads.io/images/posts/2021-adserver-performance-breakdown.png" alt="Performance breakdown of the ad server">
- <p>A little over half our server time is spent in Postgres while Python is just under half</p>
-</div>
+<span class="n">UrlEmbedding</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">filter</span><span class="p">(</span>
+    <span class="c1"># Store the model the embedding is for</span>
+    <span class="c1"># This lets you easily swap the model down the road</span>
+    <span class="n">model</span><span class="o">=</span><span class="n">model</span><span class="p">,</span>
+<span class="p">)</span><span class="o">.</span><span class="n">exclude</span><span class="p">(</span>
+    <span class="n">vector__isnull</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+<span class="p">)</span><span class="o">.</span><span class="n">values</span><span class="p">(</span><span class="s2">&quot;domain&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">annotate</span><span class="p">(</span>
+    <span class="n">centroid</span><span class="o">=</span><span class="n">models</span><span class="o">.</span><span class="n">Avg</span><span class="p">(</span><span class="s2">&quot;vector&quot;</span><span class="p">),</span>
+<span class="p">)</span>
+</pre></div>
 
-<h2 id="our-next-scaling-challenge">Our next scaling challenge</h2>
-<p>Our next big scaling challenge is how to have good performance on different continents.
-We can optimize server performance all we want but Europe and Asia are 80-100ms worse due purely to latency.
-Currently, our source of truth is what is in our Postgres database
-and reworking our solution to actually process ad requests at the edge will be a big change.
-This will be more complex than CDN edge caching since most of our requests involve DB writes.
-Multi-writer scenarios for databases are never easy.</p>
-<p>Thanks for coming along with us on this journey to build an ethical ad network
-and the technical challenges that come along with that.
-Please <a href="mailto:ads@ethicalads.io">email us</a> if you have any ideas or feedback on our product or service.
-We always love to hear from you.</p>
+
+<p>When classifying new pages, it's easy to see how similar the new content's embedding is
+to domains where we already have an embedding.
+From there, domains can be classified and grouped into topics that advertisers are interested in
+although we have found that taking centroids of multiple domains frequently doesn't make sense.
+Two web frameworks across different languages may be somewhat far in embedding space
+although content very close to either of them is usually a good semantic match.</p>
+<div class="codehilite"><pre><span></span><span class="kn">from</span> <span class="nn">pgvector.django</span> <span class="kn">import</span> <span class="n">CosineDistance</span>
+<span class="kn">from</span> <span class="nn">.models</span> <span class="kn">import</span> <span class="n">DomainCentroid</span>
+
+<span class="c1"># New embedding to compare to previously classified domains</span>
+<span class="n">vector</span> <span class="o">=</span> <span class="p">[</span><span class="o">-</span><span class="mf">1.457664e-02</span><span class="p">,</span>  <span class="mf">3.473443e-02</span><span class="p">,</span> <span class="o">...</span><span class="p">]</span>
+
+<span class="c1"># Closer than this threshold implies the content is related.</span>
+<span class="c1"># This threshold differs based on your embedding model</span>
+<span class="n">distance_threshold</span> <span class="o">=</span> <span class="mf">0.40</span>
+
+<span class="n">DomainCentroid</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">all</span><span class="p">()</span><span class="o">.</span><span class="n">annotate</span><span class="p">(</span>
+    <span class="n">distance</span><span class="o">=</span><span class="n">CosineDistance</span><span class="p">(</span><span class="s2">&quot;vector&quot;</span><span class="p">,</span> <span class="n">vector</span><span class="p">)</span>
+<span class="p">)</span><span class="o">.</span><span class="n">filter</span><span class="p">(</span><span class="n">distance__lte</span><span class="o">=</span><span class="n">distance_threshold</span><span class="p">)</span><span class="o">.</span><span class="n">order_by</span><span class="p">(</span><span class="s2">&quot;distance&quot;</span><span class="p">)</span>
+</pre></div>
+
+
+<p>This approach offers the best of both worlds.
+It has the semantic depth of embeddings, far beyond what simple keywords can capture,
+with the clarity and explainability closer to keyword-style targeting.
+It scales to anything an advertiser might want to target
+since new pages and domains just get embeddings and are automatically matched
+to the right clusters of domains and topics.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>From the moment we started using embeddings for contextual ad targeting,
+we recognized they had great potential for improving performance for advertisers.
+Better ad performance means we can generate more money for the sites that host our ads
+which is a great virtuous cycle.</p>
+<p>With this approach using centroids, we hope to have another virtuous cycle
+where our classifications improve over time as we classify more content.</p>
+<p>Simon Willison's <a href="https://simonwillison.net/2023/Oct/23/embeddings/">blog post on embeddings</a>
+as well as some of his other posts and presentations have been very influential
+in honing our approach. Thanks Simon!</p>
       </div>
 
       <hr>
 
         <p>
           Tagged with:
-            <a href="https://www.ethicalads.io/blog/tags/django/index.html">django</a>
-            <a href="https://www.ethicalads.io/blog/tags/python/index.html">python</a>
-            <a href="https://www.ethicalads.io/blog/tags/performance/index.html">performance</a>
-            <a href="https://www.ethicalads.io/blog/tags/scalability/index.html">scalability</a>
+            <a href="https://www.ethicalads.io/blog/tags/content-targeting/index.html">content-targeting</a>
             <a href="https://www.ethicalads.io/blog/tags/engineering/index.html">engineering</a>
+            <a href="https://www.ethicalads.io/blog/tags/postgresql/index.html">postgresql</a>
         </p>
 
     </div>
@@ -277,6 +283,43 @@ We always love to hear from you.</p>
     <h3 class="mb-4 mt-6">Similar posts</h3>
 
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+        <div class="col mb-10">
+          <article class="card h-100 shadow-light-lg lift lift-lg">
+              <a href="/blog/2024/04/using-embeddings-in-production-with-postgres-django-for-niche-ad-targeting/">
+                <img src="/images/posts/niche-targeting.png" alt="Using embeddings in production with Postgres & Django for niche ad targeting" class="card-img-top">
+
+                <!-- Style shape to the image -->
+                <div class="position-relative">
+                  <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
+                    <svg viewBox="0 0 2880 480" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2160 0C1440 240 720 240 720 240H0v240h2880V0h-720z" fill="currentColor"/></svg>
+                  </div>
+                </div>
+              </a>
+            <a class="card-body" href="/blog/2024/04/using-embeddings-in-production-with-postgres-django-for-niche-ad-targeting/" title="Permalink to Using embeddings in production with Postgres & Django for niche ad targeting">
+              <h3 class="card-title font-weight-light">Using embeddings in production with Postgres & Django for niche ad targeting</h3>
+
+              <p class="mb-0">This is an update to our original post on content-based ad targeting. In this post, I&#39;ll talk a bit more …</p>
+
+            </a>
+
+            <a class="card-meta mt-auto" href="/blog/2024/04/using-embeddings-in-production-with-postgres-django-for-niche-ad-targeting/">
+
+              <!-- Divider -->
+              <hr class="card-meta-divider">
+
+              <div class="d-flex w-100">
+                <!-- Author -->
+                <div class="flex-fill h6 text-uppercase text-muted mb-0 mr-2">Eric Holscher</div>
+
+                <!-- Date -->
+                <div class="flex-fill h6 text-uppercase text-muted mb-0 ml-auto text-right">
+                  <time class="text-nowrap" datetime="2024-04-23T00:00:00-07:00">Apr 23, 2024</time>
+                </div>
+              </div>
+
+            </a>
+          </article>
+        </div>
         <div class="col mb-10">
           <article class="card h-100 shadow-light-lg lift lift-lg">
               <a href="/blog/2025/02/duckdb-and-postgresql-make-a-great-pair-for-analytical-processing/">
@@ -316,8 +359,8 @@ We always love to hear from you.</p>
         </div>
         <div class="col mb-10">
           <article class="card h-100 shadow-light-lg lift lift-lg">
-              <a href="/blog/2023/09/what-happens-when-elon-musk-tweets-a-link-to-your-service/">
-                <img src="/images/posts/going-viral-2023.png" alt="What Happens When Elon Musk Tweets A Link To Your Service" class="card-img-top">
+              <a href="/blog/2025/07/ethicalads-on-catchys-bits-bants-a-dev-marketing-podcast/">
+                <img src="/images/posts/2025-catchy-bits-bants.jpg" alt="EthicalAds on Catchy's Bits & Bants - A Dev Marketing Podcast" class="card-img-top">
 
                 <!-- Style shape to the image -->
                 <div class="position-relative">
@@ -326,14 +369,14 @@ We always love to hear from you.</p>
                   </div>
                 </div>
               </a>
-            <a class="card-body" href="/blog/2023/09/what-happens-when-elon-musk-tweets-a-link-to-your-service/" title="Permalink to What Happens When Elon Musk Tweets A Link To Your Service">
-              <h3 class="card-title font-weight-light">What Happens When Elon Musk Tweets A Link To Your Service</h3>
+            <a class="card-body" href="/blog/2025/07/ethicalads-on-catchys-bits-bants-a-dev-marketing-podcast/" title="Permalink to EthicalAds on Catchy's Bits & Bants - A Dev Marketing Podcast">
+              <h3 class="card-title font-weight-light">EthicalAds on Catchy's Bits & Bants - A Dev Marketing Podcast</h3>
 
-              <p class="mb-0">Back in February, one of the publishers on our ad network went truly viral. Simon Willison is the author of …</p>
+              <p class="mb-0">Long time friends of the network Catchy had me on their podcast Bits and Bants to talk about developer marketing …</p>
 
             </a>
 
-            <a class="card-meta mt-auto" href="/blog/2023/09/what-happens-when-elon-musk-tweets-a-link-to-your-service/">
+            <a class="card-meta mt-auto" href="/blog/2025/07/ethicalads-on-catchys-bits-bants-a-dev-marketing-podcast/">
 
               <!-- Divider -->
               <hr class="card-meta-divider">
@@ -344,44 +387,7 @@ We always love to hear from you.</p>
 
                 <!-- Date -->
                 <div class="flex-fill h6 text-uppercase text-muted mb-0 ml-auto text-right">
-                  <time class="text-nowrap" datetime="2023-09-19T00:00:00-07:00">Sep 19, 2023</time>
-                </div>
-              </div>
-
-            </a>
-          </article>
-        </div>
-        <div class="col mb-10">
-          <article class="card h-100 shadow-light-lg lift lift-lg">
-              <a href="/blog/2025/10/doing-math-with-embeddings-for-better-ai-ad-targeting/">
-                <img src="/images/posts/2025-embedding-map.png" alt="Doing Math with Embeddings for Better AI Ad Targeting" class="card-img-top">
-
-                <!-- Style shape to the image -->
-                <div class="position-relative">
-                  <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
-                    <svg viewBox="0 0 2880 480" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2160 0C1440 240 720 240 720 240H0v240h2880V0h-720z" fill="currentColor"/></svg>
-                  </div>
-                </div>
-              </a>
-            <a class="card-body" href="/blog/2025/10/doing-math-with-embeddings-for-better-ai-ad-targeting/" title="Permalink to Doing Math with Embeddings for Better AI Ad Targeting">
-              <h3 class="card-title font-weight-light">Doing Math with Embeddings for Better AI Ad Targeting</h3>
-
-              <p class="mb-0">Large language models and their adjacent tools are evolving fast and they are a powerful way to improve content classification …</p>
-
-            </a>
-
-            <a class="card-meta mt-auto" href="/blog/2025/10/doing-math-with-embeddings-for-better-ai-ad-targeting/">
-
-              <!-- Divider -->
-              <hr class="card-meta-divider">
-
-              <div class="d-flex w-100">
-                <!-- Author -->
-                <div class="flex-fill h6 text-uppercase text-muted mb-0 mr-2">David Fischer</div>
-
-                <!-- Date -->
-                <div class="flex-fill h6 text-uppercase text-muted mb-0 ml-auto text-right">
-                  <time class="text-nowrap" datetime="2025-10-08T00:00:00-07:00">Oct 8, 2025</time>
+                  <time class="text-nowrap" datetime="2025-07-17T00:00:00-07:00">Jul 17, 2025</time>
                 </div>
               </div>
 
