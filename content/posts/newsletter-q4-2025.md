@@ -34,6 +34,9 @@ The next update will come early next year.
   We have greatly simplified this process for advertisers who want to do that.
   Renewing an existing campaign can be totally automated for the advertiser
   or even if there's a gap before the renewal, the advertiser can now do it with 1 button.
+* We released a [Q4 prospectus]({static}../prospectus/ethicalads-advertiser-prospectus.pdf).
+  There was a small price increase of roughly 5% in North American topic targeted content.
+  We have been consistently sold out or close to it in North America for the last few quarters.
 
 
 <div class="postimage text-center" id="chart">
