@@ -149,7 +149,7 @@ DEFAULT_METADATA = {
         {
             "slug": "network",
             "name": "Run of Network",
-            "tooltip": "33% English speaking, 33% Western Europe, 33% APAC/E-EU",
+            "tooltip": "~33% English speaking, ~33% Western Europe, ~33% APAC/E-EU",
         },
         {"slug": "eng", "name": "US, Canada, UK, Australia, New Zealand, Ireland"},
         {
