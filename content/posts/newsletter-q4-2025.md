@@ -1,5 +1,5 @@
 Title: EthicalAds Newsletter - October 2025
-Date: October 8, 2025
+Date: October 13, 2025
 description: Quarterly update for Q4 2025, covering the previous 3 months and including stats and commentary on our progress as we build EthicalAds
 tags: newsletter, community, build-in-public
 authors: David Fischer
@@ -25,7 +25,8 @@ The next update will come early next year.
   and then classify new content based on similarity to these domains.
   This can make ad targeting into a problem of showing the right ad based on domains an advertiser wants to target
   while still being flexible enough to add new relevant content to their targeting.
-* We published a [tech-focused blog](#UPDATE-LINK) on this classification and domains and how new language models
+* We published a [tech-focused blog]({filename}../posts/2025-niche-targeting-updates.md)
+  on this classification and domains and how new language models
   have made this process much more powerful.
 * We released an [automatic light-dark mode](https://ethical-ad-client.readthedocs.io/en/latest/index.html#adaptive-color-scheme) on our ad client.
   We already supported pages with dark mode, but this change helps toggle ads automatically
@@ -39,7 +40,7 @@ The next update will come early next year.
   We have been consistently sold out or close to it in North America for the last few quarters.
 
 
-<div class="postimage text-center" id="chart">
+<div class="postimage text-center">
   <video class="w-100" controls>
     <source src="{static}../video/light-dark-mode.mp4" type="video/mp4">
   </video>
@@ -60,7 +61,7 @@ Just a reminder that these stats are now for the quarter. I'll post a bit of det
 
 Last quarter:
 
-* We generated **$116.7k** for our publishers and they'll receive September's portion of this in a payout next week.
+* We generated **$116.7k** for our publishers and they'll receive September's portion of this in a payout this week.
   Despite reporting numbers quarterly, we are continuing to pay publishers monthly.
   This number is roughly in-line with previously monthly numbers.
 * We had **187 publishers** on our network with at least one paid ad impression.
@@ -71,6 +72,13 @@ Last quarter:
 
 We are seeing strong demand across our network and we are seeing very robust demand
 from advertisers especially for North America and Western Europe.
+
+
+<div class="postimage text-center" id="chart">
+  <iframe height="525" class="w-100 shadow-lg border-0"
+  src="https://observablehq.com/embed/34e5f0a6a04bbf16@117?cells=plot"></iframe>
+  <p>This graph highlights some of the improvements we're making to niche targeting. This was taken from our <a href="/blog/2025/10/doing-math-with-embeddings-for-better-ai-ad-targeting/">blog</a> on domains classification and clustering.</p>
+</div>
 
 
 ## Upcoming features
