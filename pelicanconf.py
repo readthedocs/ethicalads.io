@@ -18,6 +18,7 @@ STATIC_PATHS = [
     "downloads",
     "prospectus",
     "audio",
+    "video",
 ]
 
 TIMEZONE = "US/Pacific"
