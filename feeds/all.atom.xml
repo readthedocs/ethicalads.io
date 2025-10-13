@@ -1,5 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds</title><link href="https://www.ethicalads.io/" rel="alternate"/><link href="https://www.ethicalads.io/feeds/all.atom.xml" rel="self"/><id>https://www.ethicalads.io/</id><updated>2025-10-08T00:00:00-07:00</updated><entry><title>Doing Math with Embeddings for Better AI Ad Targeting</title><link href="https://www.ethicalads.io/blog/2025/10/doing-math-with-embeddings-for-better-ai-ad-targeting/" rel="alternate"/><published>2025-10-08T00:00:00-07:00</published><updated>2025-10-08T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2025-10-08:/blog/2025/10/doing-math-with-embeddings-for-better-ai-ad-targeting/</id><summary type="html">&lt;p&gt;Large language models and their adjacent tools are evolving fast
+<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds</title><link href="https://www.ethicalads.io/" rel="alternate"/><link href="https://www.ethicalads.io/feeds/all.atom.xml" rel="self"/><id>https://www.ethicalads.io/</id><updated>2025-10-13T00:00:00-07:00</updated><entry><title>EthicalAds Newsletter - October 2025</title><link href="https://www.ethicalads.io/blog/2025/10/ethicalads-newsletter-october-2025/" rel="alternate"/><published>2025-10-13T00:00:00-07:00</published><updated>2025-10-13T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2025-10-13:/blog/2025/10/ethicalads-newsletter-october-2025/</id><summary type="html">&lt;p&gt;This is our first update after switching to the quarterly cadence.
+There will be a bit more to say and …&lt;/p&gt;</summary><content type="html">&lt;p&gt;This is our first update after switching to the quarterly cadence.
+There will be a bit more to say and the numbers will be bigger because they cover 3 months.
+However, you can expect the same level of transparency about the network we're building.
+The next update will come early next year.&lt;/p&gt;
+&lt;h2 id="new-features-from-the-previous-quarter"&gt;New features from the previous quarter&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Some of the improvements we made earlier this year around reporting on campaigns for larger advertisers
+  has paid off as a few more advertisers have started using it.
+  Larger advertisers have different wants than smaller advertisers: they're running more campaigns in more places
+  and they want to see it all in one place. They want performance data in their own system.&lt;/li&gt;
+&lt;li&gt;We continued to make improvements to our &lt;a href="https://www.ethicalads.io/advertisers/niche-targeting/"&gt;niche targeting&lt;/a&gt;.
+  A big breakthrough that has helped a lot with classifying content is to group pages by domains
+  where we can (many, but not all domains cover similar content),
+  and then classify new content based on similarity to these domains.
+  This can make ad targeting into a problem of showing the right ad based on domains an advertiser wants to target
+  while still being flexible enough to add new relevant content to their targeting.&lt;/li&gt;
+&lt;li&gt;We published a &lt;a href="https://www.ethicalads.io/blog/2025/10/doing-math-with-embeddings-for-better-ai-ad-targeting/"&gt;tech-focused blog&lt;/a&gt;
+  on this classification and domains and how new language models
+  have made this process much more powerful.&lt;/li&gt;
+&lt;li&gt;We released an &lt;a href="https://ethical-ad-client.readthedocs.io/en/latest/index.html#adaptive-color-scheme"&gt;automatic light-dark mode&lt;/a&gt; on our ad client.
+  We already supported pages with dark mode, but this change helps toggle ads automatically
+  for sites that use a UI to toggle their theme between light and dark mode.&lt;/li&gt;
+&lt;li&gt;A lot of advertiser campaigns are renewed month to month or quarter to quarter.
+  We have greatly simplified this process for advertisers who want to do that.
+  Renewing an existing campaign can be totally automated for the advertiser
+  or even if there's a gap before the renewal, the advertiser can now do it with 1 button.&lt;/li&gt;
+&lt;li&gt;We released a &lt;a href="https://www.ethicalads.io/prospectus/ethicalads-advertiser-prospectus.pdf"&gt;Q4 prospectus&lt;/a&gt;.
+  There was a small price increase of roughly 5% in North American topic targeted content.
+  We have been consistently sold out or close to it in North America for the last few quarters.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="postimage text-center"&gt;
+  &lt;video class="w-100" controls&gt;
+    &lt;source src="https://www.ethicalads.io/video/light-dark-mode.mp4" type="video/mp4"&gt;
+  &lt;/video&gt;
+  &lt;p&gt;Video showing the automatic light-dark mode feature for the ad client&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;You can always see our latest server updates in our
+&lt;a href="https://ethical-ad-server.readthedocs.io/en/latest/developer/changelog.html"&gt;ethical-ad-server changelog&lt;/a&gt;
+and &lt;a href="https://ethical-ad-client.readthedocs.io/en/latest/changelog.html"&gt;ethical-ad-client changelog&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="q3-advertising-stats"&gt;Q3 advertising stats&lt;/h2&gt;
+&lt;p&gt;Just a reminder that these stats are now for the quarter. I'll post a bit of detail here about how it compares with the monthly stats we previously reported.&lt;/p&gt;
+&lt;p&gt;Last quarter:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We generated &lt;strong&gt;$116.7k&lt;/strong&gt; for our publishers and they'll receive September's portion of this in a payout this week.
+  Despite reporting numbers quarterly, we are continuing to pay publishers monthly.
+  This number is roughly in-line with previously monthly numbers.&lt;/li&gt;
+&lt;li&gt;We had &lt;strong&gt;187 publishers&lt;/strong&gt; on our network with at least one paid ad impression.
+  This is slowly growing and the trickiest thing is finding high quality publishers
+  who are as good for advertisers as the rest of the publishers on our network.&lt;/li&gt;
+&lt;li&gt;We had &lt;strong&gt;56.6M&lt;/strong&gt; paid ad views across the world.
+  On a monthly basis, this is very similar to what we reported previously.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We are seeing strong demand across our network and we are seeing very robust demand
+from advertisers especially for North America and Western Europe.&lt;/p&gt;
+&lt;div class="postimage text-center" id="chart"&gt;
+  &lt;iframe height="525" class="w-100 shadow-lg border-0"
+  src="https://observablehq.com/embed/34e5f0a6a04bbf16@117?cells=plot"&gt;&lt;/iframe&gt;
+  &lt;p&gt;This graph highlights some of the improvements we're making to niche targeting. This was taken from our &lt;a href="/blog/2025/10/doing-math-with-embeddings-for-better-ai-ad-targeting/"&gt;blog&lt;/a&gt; on domains classification and clustering.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h2 id="upcoming-features"&gt;Upcoming features&lt;/h2&gt;
+&lt;p&gt;The major features in our upcoming roadmap for the rest of the year:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;As I mentioned, we're still making improvements constantly to our analyzer and to our niche targeting.
+  One thing coming is we're going to start surfacing to publishers how much of their site has been
+  analyzed for niche targeting. Since niche targeted campaigns are some of our highest demand and highest priced
+  campaigns, this will give publishers an incentive to help get their sites analyzed.
+  Sites can not be analyzed for a few reasons like the publisher blocks automated traffic
+  or just challenges we need to work through for specific sites.&lt;/li&gt;
+&lt;li&gt;Another big change we're planning to make is to make our analyzer better
+  at processing smaller chunks of pages where ads appear.&lt;/li&gt;
+&lt;li&gt;We've started to receive some publisher inquiries from developer AI tools.
+  We believe this is a growth area for us although we aren't yet sure what the best way to serve these folks is.
+  In a lot of cases, there aren't "pages" to analyze and instead there's interactions with AI agents or models
+  and choosing the best ad to show depends on what users are asking the AI.
+  We're exploring options about great ways to help these publishers monetize their AI tools.
+  This may become a priority over the next few months.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thanks again for being along with us on this journey to build an ethical ad network.
+Please &lt;a href="https://www.ethicalads.io/contact/"&gt;let us know&lt;/a&gt; if you have any ideas or feedback on our product or roadmap,
+we always love to hear from you.&lt;/p&gt;</content><category term="posts"/><category term="newsletter"/><category term="community"/><category term="build-in-public"/></entry><entry><title>Doing Math with Embeddings for Better AI Ad Targeting</title><link href="https://www.ethicalads.io/blog/2025/10/doing-math-with-embeddings-for-better-ai-ad-targeting/" rel="alternate"/><published>2025-10-08T00:00:00-07:00</published><updated>2025-10-08T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2025-10-08:/blog/2025/10/doing-math-with-embeddings-for-better-ai-ad-targeting/</id><summary type="html">&lt;p&gt;Large language models and their adjacent tools are evolving fast
 and they are a powerful way to improve content classification …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Large language models and their adjacent tools are evolving fast
 and they are a powerful way to improve content classification,
 which is great when you're building a contextual ad network that doesn't track people.
@@ -7013,97 +7095,4 @@ and look forward to building something meaningful with you:&lt;/p&gt;
 &lt;li&gt;Become a &lt;a href="https://www.ethicalads.io/publishers/"&gt;publisher&lt;/a&gt; today&lt;/li&gt;
 &lt;li&gt;Become an &lt;a href="https://www.ethicalads.io/advertisers/"&gt;advertiser&lt;/a&gt; today&lt;/li&gt;
 &lt;li&gt;Follow our journey in our &lt;a href="https://www.ethicalads.io/email-list/"&gt;newsletter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><category term="posts"/></entry><entry><title>Advertising update and open sourcing our ad server</title><link href="https://www.ethicalads.io/blog/2020/07/advertising-update-and-open-sourcing-our-ad-server/" rel="alternate"/><published>2020-07-01T00:00:00-07:00</published><updated>2020-07-01T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2020-07-01:/blog/2020/07/advertising-update-and-open-sourcing-our-ad-server/</id><summary type="html">&lt;blockquote&gt;
-&lt;p&gt;This post first appeared
-on the &lt;a href="https://blog.readthedocs.com/advertising-improvements-2020/"&gt;Read the Docs company blog&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;It's been a while since our
-&lt;a href="https://www.ethicalads.io/blog/2019/06/ad-funding-at-read-the-docs-and-whats-next-for-ethical-advertising/"&gt;last advertising update …&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;blockquote&gt;
-&lt;p&gt;This post first appeared
-on the &lt;a href="https://blog.readthedocs.com/advertising-improvements-2020/"&gt;Read the Docs company blog&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;It's been a while since our
-&lt;a href="https://www.ethicalads.io/blog/2019/06/ad-funding-at-read-the-docs-and-whats-next-for-ethical-advertising/"&gt;last advertising update&lt;/a&gt;
-and it felt like a good time to talk about what's working
-with our advertising model and how things are getting better.&lt;/p&gt;
-&lt;h2 id="how-advertising-is-working-for-read-the-docs"&gt;How advertising is working for Read the Docs&lt;/h2&gt;
-&lt;p&gt;In our &lt;a href="https://blog.readthedocs.com/read-the-docs-2019-stats/"&gt;2019 stats post&lt;/a&gt;,
-we broke out our advertising revenue which was fairly flat
-year over year. The way our ad business is structured, our revenue
-mostly grows with increases in traffic and Read the Docs is mature
-enough that it isn't doubling in size every year.&lt;/p&gt;
-&lt;p&gt;With that said, we're pleased with our steady and sustainable growth.
-Read the Docs doesn't have any investors putting pressure on us for
-short term growth and that has allowed us to invest in our ad business,
-commercial hosting, and in our community version for the long term.
-We've rolled out a huge number of improvements to all the sides of our
-business in the last year and we're happy with the results. Advertising
-remains the single largest source of funding for Read the Docs and one
-that scales as our costs scale.&lt;/p&gt;
-&lt;p&gt;On a real world note, Covid-19 had a short term impact on our
-advertising revenue with a number of advertisers understandably pulling
-back due to uncertainty in funding and the economy in general. While the
-world isn't completely back to normal, we have returned some degree of
-normalcy and most of these advertisers returned once there was a bit
-more clarity in the broader economy and the virus' effect on the tech
-industry specifically. Advertising on Read the Docs is now close to
-capacity in the US, Canada, and Europe which are our largest advertising
-markets.&lt;/p&gt;
-&lt;h2 id="improved-targeting-for-ads"&gt;Improved targeting for ads&lt;/h2&gt;
-&lt;p&gt;Advertising on Read the Docs is different from most ad networks out
-there. Our ad targeting is based on the content and the reader's
-geography rather than personal data about our users. Read the Docs'
-authors and readers have told us that privacy is important to them.
-That's great because it's important to us too! With that said, there
-are great ways to target specific content niches with ads relevant to
-those readers without compromising on privacy.&lt;/p&gt;
-&lt;p&gt;To start, we chose a few groups of content advertisers can target where
-we have enough traffic without the ads being focused on a tiny number of
-projects. These niches are:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Data science and machine learning&lt;/li&gt;
-&lt;li&gt;Frontend web development&lt;/li&gt;
-&lt;li&gt;Backend web development&lt;/li&gt;
-&lt;li&gt;Security&lt;/li&gt;
-&lt;li&gt;DevOps&lt;/li&gt;
-&lt;li&gt;Technical writing&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;We tested this improved content targeting with a select group of
-advertisers and the results were great. In some cases we saw click
-through rates more than double. Whether the ad is to hire a developer or
-to promote a service, we always want to deliver ads that are most
-relevant to the documentation being served. This results in better value
-to our advertisers while still respecting the privacy of our readers.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Would your company like to get in front of more developers?&lt;/p&gt;
-&lt;p&gt;Tell your &lt;a href="https://www.ethicalads.io/advertisers/"&gt;marketing or recruiting team&lt;/a&gt; about Read the Docs and show
-them how they can reach over 7 million developers who Read the Docs each
-month!&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id="open-sourcing-our-ad-server"&gt;Open sourcing our ad server&lt;/h2&gt;
-&lt;p&gt;One thing we've wanted to do for a long time is open source the code we
-use to run advertising at Read the Docs. While there's always a bit of
-an incentive to keep advertising code closed so it can't be abused, our
-hope is that the trust we're building with the ethical ads model can be
-used by others who want to run their own ethical advertising. Read the
-Docs is an open source company and it's nice to have all our code out
-there. We call it the ethical ad server.&lt;/p&gt;
-&lt;p&gt;The ethical ad server is built to handle the kind of load Read the Docs
-itself receives -- over a million hits per day -- and it delivers
-advertising based only on content and geographic targeting rather than
-building up user profiles from personal information. It's built from
-the ground up with user privacy in mind. We're excited to share it with
-you so please &lt;a href="https://github.com/readthedocs/ethical-ad-server"&gt;check out the code on
-GitHub&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id="conclusion"&gt;Conclusion&lt;/h2&gt;
-&lt;p&gt;Just as we're constantly delivering improvements to Read the Docs
-itself for our readers and project maintainers, we also strive to give a
-better experience and better results to the companies who trust Read the
-Docs as a marketing channel. I want to thank all our advertisers who
-believe in our approach and continue to support us and stay tuned to
-this space for more great features in the future!&lt;/p&gt;
-&lt;p&gt;Our ethical ad network is just about ready for launch and we're
-actively looking for projects to beta test the network. If you run a
-developer focused website and you're looking for a way to earn money
-without selling out your visitors' privacy, please &lt;a href="mailto:ads@ethicalads.io?subject=Ethical%20Ad%20Network%20beta"&gt;get in
-touch&lt;/a&gt;.&lt;/p&gt;</content><category term="posts"/><category term="opensource"/><category term="readthedocs"/></entry></feed>
+&lt;/ul&gt;</content><category term="posts"/></entry></feed>
