@@ -19,7 +19,10 @@ STATIC_PATHS = [
     "prospectus",
     "audio",
     "video",
+    "extras",
 ]
+
+EXTRA_PATH_METADATA = {"extras/llms.txt": {"path": "llms.txt"}}
 
 TIMEZONE = "US/Pacific"
 DEFAULT_LANG = "en"

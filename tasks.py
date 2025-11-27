@@ -97,7 +97,7 @@ def livereload(c):
     # Watch the base settings file
     server.watch(CONFIG["settings_base"], lambda: build(c))
     # Watch content source files
-    content_file_extensions = [".md", ".rst"]
+    content_file_extensions = [".md", ".rst", ".txt"]
     for extension in content_file_extensions:
         content_blob = "{0}/**/*{1}".format(SETTINGS["PATH"], extension)
         server.watch(content_blob, lambda: build(c))
