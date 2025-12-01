@@ -13,7 +13,6 @@ repos:
     rev: 0.8.22
     hooks:
       - id: uv-lock
-      - id: uv-export
   - repo: https://github.com/astral-sh/ruff-pre-commit
     # Ruff version.
     rev: v0.13.2
