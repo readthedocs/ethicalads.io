@@ -9,7 +9,10 @@ description: These are common questions from advertisers about the EthicalAds ne
 
 ## How are ads priced?
 
-Our [prices](/advertisers/#pricing) differ by topic and by geography and rates change quarterly to balance demand.
+Our [prices]({filename}/pages/advertisers-pricing.md) differ by topic and by geography and rates
+can change quarterly to balance demand.
+Your price will be fixed for the length of your campaign (3 months or less)
+so there will be no surprises in campaign billing.
 
 Ads are priced in cost per thousand impressions (CPM) and
 we also offer an automatic 10% discount for ad buys of $3,000,
@@ -102,6 +105,29 @@ Check out our
 with more details and tips.
 
 
+## How are campaigns billed?
+
+Campaigns are [priced]({filename}/pages/advertisers-pricing.md) in CPM
+and rates are transparent.
+
+Each campaign will get an invoice that can be paid with a credit card or bank transfer (wire or ACH).
+[Stripe](https://stripe.com/) is our payments processor.
+Except for a customer's first invoice, invoices are net-30.
+
+Recurring campaigns or campaigns that are quarterly or longer are billed monthly.
+Recurring campaigns can either receive an invoice as normal or charge a card on file.
+We are happy to submit campaign billing directly to your procurement system for campaigns of $5,000 or more.
+
+
+## Do you work with agencies or media buyers?
+
+EthicalAds can support agencies for a single client or multiple clients.
+We can bill through your agency's billing system or invoice your clients directly.
+
+Agency campaigns benefit from the same trusted
+[performance reporting]({filename}/pages/advertiser-reporting.md) we provide to direct advertisers.
+
+
 ## What about ad blockers?
 
 Ad blockers are a fact of life when it comes to internet advertising
@@ -153,7 +179,17 @@ live reports on the performance of your ads including how many times
 they were viewed and clicked. We count a viewable impression when
 the ad comes into the browser viewport.
 
-See more details about <a href="/advertisers/reporting/">advertiser reports</a>.
+There are additional reporting breakdowns:
+
+* By daily performance
+* By country and region
+* By publisher where ads appear or similarly by domain
+* By keywords and topics
+
+For larger enterprise clients, we can provide daily data reports directly to your datalake (S3, Azure) or data warehouse as a daily parquet or CSV file.
+This data provides the same breakdowns as those above.
+
+See more details about [advertiser reports]({filename}/pages/advertiser-reporting.md).
 
 
 ## How can I manage my ads?
