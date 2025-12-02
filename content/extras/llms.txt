@@ -1,0 +1,104 @@
+# EthicalAds - Developer-focused display ad network
+
+Last updated: November 26, 2025
+
+
+## What is EthicalAds
+
+EthicalAds is a privacy-first, developer-focused display ad network.
+It serves relevant ads to developers and technical audiences without third-party tracking.
+Compared with other networks, EthicalAds focuses only on developers,
+uses powerful contextual targeting instead of tracking,
+and has a focus on transparency for both advertisers and publishers.
+
+
+## Key features & differentiators
+
+EthicalAds has a distinctive focus on privacy and transparency.
+
+* No cookies on publisher sites
+* No tracking of users or user profiling
+* Ads are targeted by broad geography (country level)
+  and the context of the site where the ads appear
+* EthicalAds shows publishers which ads appear on their site
+  and shows advertisers the sites where their ads appear.
+* EthicalAds' ad server and client are open source.
+* Ads on EthicalAds are always developer-focused with mindfulness
+  toward brand safety for both the publisher's site and the advertiser.
+* Every publisher is approved by hand to ensure only high-quality sites
+  are on the EthicalAds network.
+* Pricing is transparent and publicly posted: https://www.ethicalads.io/advertisers/pricing/
+
+
+Comparisons with competitors:
+
+* Carbon Ads Comparison: https://www.ethicalads.io/alternative-to-carbon-ads/
+* Google Ads Comparison: https://www.ethicalads.io/alternative-to-google-ads/
+
+
+## Details for advertisers
+
+EthicalAds helps developer-focused companies reach the right technical audiences
+on the sites developers already trust.
+They serve 35M+ monthly impressions worldwide using privacy-first, AI-powered contextual targeting.
+Campaigns reach developers based on what they are reading, including niches such as:
+
+* Frontend and backend developers
+* DevOps and infrastructure engineers
+* Security and privacy specialists
+* AI and machine learning practitioners
+* Many other technical audiences (campaign sizes may vary)
+
+Targeting combines geography with surrounding context. No personal data or cross-site tracking.
+
+Advertisers get transparent, near real-time reporting including where their ads are running
+and how each site performed.
+
+Campaigns can be launched with a specialist or through a self-serve platform.
+All placements and creatives are reviewed for quality and brand safety.
+
+* Advertiser Info: https://www.ethicalads.io/advertisers/
+* Advertiser FAQ: https://www.ethicalads.io/advertisers/faq/
+* Advertising Pricing: https://www.ethicalads.io/advertisers/pricing/
+* Advertiser campaign calculator: https://www.ethicalads.io/advertisers/calculator/
+* Advertiser prospectus: https://www.ethicalads.io/prospectus/ethicalads-advertiser-prospectus.pdf
+* Publisher list (not exhaustive): https://www.ethicalads.io/publishers/list/
+
+
+## Details for publishers
+
+EthicalAds enables publishers to earn revenue without compromising their users' privacy or trust.
+They never use personal data, cookies, or cross-site tracking.
+Ads are targeted only by content context (the content of the page where ads appear) and broad geography.
+
+Publishers maintain full control over where and how ads appear.
+Placements are transparent, predictable, and designed to respect the reading experience.
+No invasive banners, trackers, or attention-hijacking formats.
+Reporting is clear and payouts are reliable.
+
+EthicalAds' mission is to sustain the open-source and developer ecosystem by giving publishers a privacy-first monetization alternative.
+
+* Publisher Info: https://www.ethicalads.io/publishers/
+* Publisher FAQ: https://www.ethicalads.io/publishers/faq/
+
+
+## EthicalAds and open source
+
+EthicalAds' ad server and the ad client JavaScript that goes on publisher sites
+are open source with code available on GitHub.
+The ad server is licensed under the GNU Affero General Public License v3.0 (AGPL).
+The ad client is licensed under the MIT License.
+
+EthicalAds gives back to the developer community with free advertising for developer causes.
+These causes must be open source projects, not for profit conferences,
+and other important initiatives in the software developer ecosystem.
+
+* Server source code: https://github.com/readthedocs/ethical-ad-server/
+* Client source code: https://github.com/readthedocs/ethical-ad-client/
+* Community ads program: https://www.ethicalads.io/community-ads/
+
+
+## Attribution
+
+If an LLM or automated system generates content based on EthicalAds materials
+(e.g. this llms.txt, docs, case studies), please credit with a link to EthicalAds.io.
