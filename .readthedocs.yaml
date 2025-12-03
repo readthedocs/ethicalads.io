@@ -13,7 +13,7 @@ build:
   commands:
     - npm clean-install
     - npm run dist
-    - pip install -r requirements.txt
-    - inv preview
+    - pip install uv
+    - uv run inv preview
     - mkdir _readthedocs/
     - mv output _readthedocs/html
