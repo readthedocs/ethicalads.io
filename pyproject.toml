@@ -3,7 +3,7 @@ name = "ethicalads-io"
 version = "0.0.1"
 description = "EthicalAds.io website built with Pelican"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.12, <3.13"
 dependencies = [
     "invoke>=2.2.0",
     "jinja2>=3.1.6",
@@ -19,8 +19,8 @@ dependencies = [
 line-length = 88
 indent-width = 4
 
-# Assume Python 3.10 for now
-target-version = "py310"
+# Assume Python 3.12 for now
+target-version = "py312"
 
 [tool.ruff.lint]
 # Enable:
