@@ -1,4 +1,4 @@
-Title: New Larger Ad Format
+Title: Announcing a New Larger Ad Format
 Date: January 9, 2026
 description: We're launching a new, larger ad format that gives advertisers more space to tell their story and helps publishers earn more. It's opt-in and easy to try.
 tags: publishers, advertisers, announcement
