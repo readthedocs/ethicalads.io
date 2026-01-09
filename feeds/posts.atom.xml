@@ -1,5 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds - posts</title><link href="https://www.ethicalads.io/" rel="alternate"/><link href="https://www.ethicalads.io/feeds/posts.atom.xml" rel="self"/><id>https://www.ethicalads.io/</id><updated>2025-10-13T00:00:00-07:00</updated><entry><title>EthicalAds Newsletter - October 2025</title><link href="https://www.ethicalads.io/blog/2025/10/ethicalads-newsletter-october-2025/" rel="alternate"/><published>2025-10-13T00:00:00-07:00</published><updated>2025-10-13T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2025-10-13:/blog/2025/10/ethicalads-newsletter-october-2025/</id><summary type="html">&lt;p&gt;This is our first update after switching to the quarterly cadence.
+<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds - posts</title><link href="https://www.ethicalads.io/" rel="alternate"/><link href="https://www.ethicalads.io/feeds/posts.atom.xml" rel="self"/><id>https://www.ethicalads.io/</id><updated>2026-01-09T00:00:00-08:00</updated><entry><title>Announcing a New Larger Ad Format</title><link href="https://www.ethicalads.io/blog/2026/01/announcing-a-new-larger-ad-format/" rel="alternate"/><published>2026-01-09T00:00:00-08:00</published><updated>2026-01-09T00:00:00-08:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2026-01-09:/blog/2026/01/announcing-a-new-larger-ad-format/</id><summary type="html">&lt;p&gt;This month, we're launching a new, larger ad format.
+We've heard from advertisers that our existing formats can sometimes feel …&lt;/p&gt;</summary><content type="html">&lt;p&gt;This month, we're launching a new, larger ad format.
+We've heard from advertisers that our existing formats can sometimes feel too small
+to fully tell their story. At the same time, some publishers have layouts that can comfortably support a larger placement, and they're looking for ways to earn more than our &lt;a href="https://www.ethicalads.io/advertisers/ad-design-and-specs/"&gt;standard formats&lt;/a&gt; allow.&lt;/p&gt;
+&lt;p&gt;This new format is completely opt-in for both advertisers and publishers.
+Advertisers can enable it as an add-on to an existing campaign,
+while publishers only need to make a small change to how they request ads from us.
+Nothing is being replaced or changed by default.
+We're simply offering more flexibility and a new option for those who want it.&lt;/p&gt;
+&lt;div class="postimage text-center"&gt;
+  &lt;img class="w-100 shadow-lg" src="https://www.ethicalads.io/images/posts/2026-larger-ad-format-example.png" alt="Example of a larger format ad"&gt;
+  &lt;p&gt;Example ad using this larger ad format&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h2 id="specs"&gt;Specs&lt;/h2&gt;
+&lt;p&gt;The only differences from our &lt;a href="https://www.ethicalads.io/advertisers/ad-design-and-specs/"&gt;ad specs&lt;/a&gt; are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The text can be up to 240 characters&lt;/li&gt;
+&lt;li&gt;The logo, which is optional, should be a single color and is 160x60 pixels.
+  It needs to be a single color to accommodate both light and dark mode sites.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="pricing"&gt;Pricing&lt;/h2&gt;
+&lt;p&gt;Initial pricing for this format is set at 2× our &lt;a href="https://www.ethicalads.io/advertisers/pricing/"&gt;standard ad rates&lt;/a&gt;,
+reflecting the increased size and prominence of the placement.
+For publishers, this translates directly into &lt;strong&gt;earning double&lt;/strong&gt; what they would from our standard ad formats.
+Advertisers get the same high-quality contextual and geo-targeting they expect today but with more space to tell their story.&lt;/p&gt;
+&lt;h2 id="getting-started"&gt;Getting started&lt;/h2&gt;
+&lt;p&gt;If you're a publisher interested in earning more from your existing inventory,
+just send us a &lt;a href="https://server.ethicalads.io/accounts/support/?subject=Larger+ad+format"&gt;support request&lt;/a&gt; and we'll walk you through the details.&lt;/p&gt;
+&lt;p&gt;If you're an advertiser, whether you're already running campaigns with us or considering your first one,
+we'd love to help you &lt;a href="https://www.ethicalads.io/advertisers/#inbound-form"&gt;launch a campaign&lt;/a&gt; using this new, larger format.&lt;/p&gt;</content><category term="posts"/><category term="publishers"/><category term="advertisers"/><category term="announcement"/></entry><entry><title>EthicalAds Newsletter - October 2025</title><link href="https://www.ethicalads.io/blog/2025/10/ethicalads-newsletter-october-2025/" rel="alternate"/><published>2025-10-13T00:00:00-07:00</published><updated>2025-10-13T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2025-10-13:/blog/2025/10/ethicalads-newsletter-october-2025/</id><summary type="html">&lt;p&gt;This is our first update after switching to the quarterly cadence.
 There will be a bit more to say and …&lt;/p&gt;</summary><content type="html">&lt;p&gt;This is our first update after switching to the quarterly cadence.
 There will be a bit more to say and the numbers will be bigger because they cover 3 months.
 However, you can expect the same level of transparency about the network we're building.
@@ -7037,62 +7067,4 @@ so folks have an idea of what we're working on this month.&lt;/p&gt;
 &lt;li&gt;Write more blog content around how to market to developers.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;We're always open to additional feedback and ideas on our approach,
-so feel free to &lt;a href="mailto:ads@ethicalads.io"&gt;email us&lt;/a&gt; directly.&lt;/p&gt;</content><category term="posts"/><category term="newsletter"/><category term="community"/></entry><entry><title>Announcing EthicalAds</title><link href="https://www.ethicalads.io/blog/2020/08/announcing-ethicalads/" rel="alternate"/><published>2020-08-24T00:00:00-07:00</published><updated>2020-08-24T00:00:00-07:00</updated><author><name>Eric Holscher</name></author><id>tag:www.ethicalads.io,2020-08-24:/blog/2020/08/announcing-ethicalads/</id><summary type="html">&lt;p&gt;We're excited to announce the release of EthicalAds,
-a privacy-focused ad network for developers.
-We think advertising is one of …&lt;/p&gt;</summary><content type="html">&lt;p&gt;We're excited to announce the release of EthicalAds,
-a privacy-focused ad network for developers.
-We think advertising is one of the best ways to fund open source development,
-and we have first hand experience.
-Ethical advertising was first created to make Read the Docs,
-our own open source project,
-sustainable.
-We're now bringing ethical ads to other developers.&lt;/p&gt;
-&lt;p&gt;We've found that privacy preserving ads are a win for both developers and advertisers.
-Advertisers are able to target developers on the sites they frequent without being blocked.
-Developers trust our ads because our code is open source, and we're developers ourselves.&lt;/p&gt;
-&lt;h2 id="the-background"&gt;The background&lt;/h2&gt;
-&lt;p&gt;Ethical advertising as a concept was something we &lt;a href="https://www.ericholscher.com/blog/2016/aug/31/funding-oss-marketing-money/#funding-read-the-docs"&gt;originally conceived&lt;/a&gt; for Read the Docs back in 2016.
-We were an open source project trying to find sustainability,
-and advertising was the answer we knew we needed.
-We knew our users cared about privacy,
-so we decided to build the most privacy-focused ad solution we could.
-We have been working on building a sturdy business around advertising ever since.&lt;/p&gt;
-&lt;p&gt;As we started building this vision,
-we were inspired to see CodeFund adopt our ideals and push them forward.
-We were sad when we heard CodeFund was &lt;a href="https://twitter.com/codefundio/status/1278119643937296384"&gt;shutting down&lt;/a&gt; on July 1 of this year.
-We talked with Eric Berry at CodeFund,
-deciding to launch our network in beta to provide a smooth transition for the people depending on that money each month.&lt;/p&gt;
-&lt;p&gt;We've spent the last month onboarding over 50 publishers.
-&lt;strong&gt;Developers have already earned more than $5,000 since we launched&lt;/strong&gt;.
-We're excited to officially announce that we're open for additional publishers and advertisers.&lt;/p&gt;
-&lt;h2 id="our-vision"&gt;Our vision&lt;/h2&gt;
-&lt;p&gt;Ethical ads respect users while still providing value to advertisers.
-The vision is pretty simple:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;We don’t track you or sell your data&lt;/li&gt;
-&lt;li&gt;We only make money showing ads, so our interests are fully aligned&lt;/li&gt;
-&lt;li&gt;We target ads based on the content of the current page, not your past browsing history&lt;/li&gt;
-&lt;li&gt;We are as transparent in our business as possible&lt;/li&gt;
-&lt;li&gt;We only show high quality ads from companies that are of interest to developers.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;As we talked about in our &lt;a href="https://blog.readthedocs.com/ethical-advertising-works/"&gt;2018 blog post&lt;/a&gt;: &lt;strong&gt;ethical advertising works&lt;/strong&gt;.
-We're thrilled to be able to bring our vision of advertising to a larger audience,
-and help fund open source without compromise.
-Our &lt;a href="https://github.com/readthedocs/ethical-ad-server"&gt;entire ad server&lt;/a&gt; is open source,
-so you can inspect how we're doing things.
-We believe strongly in open source,
-and we practice what we preach.&lt;/p&gt;
-&lt;h2 id="join-us"&gt;Join us&lt;/h2&gt;
-&lt;p&gt;We are planning to grow slowly in the near term,
-making sure that everything we've built is ready for new demands.
-We've already learned a number of lessons in the last month,
-and we want to make sure our ads work well for everyone.&lt;/p&gt;
-&lt;p&gt;Ethical advertising is our vision for the future of internet advertising,
-and we hope that you'll join us.
-We have space for additional publishers and advertisers,
-and look forward to building something meaningful with you:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Become a &lt;a href="https://www.ethicalads.io/publishers/"&gt;publisher&lt;/a&gt; today&lt;/li&gt;
-&lt;li&gt;Become an &lt;a href="https://www.ethicalads.io/advertisers/"&gt;advertiser&lt;/a&gt; today&lt;/li&gt;
-&lt;li&gt;Follow our journey in our &lt;a href="https://www.ethicalads.io/email-list/"&gt;newsletter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><category term="posts"/></entry></feed>
+so feel free to &lt;a href="mailto:ads@ethicalads.io"&gt;email us&lt;/a&gt; directly.&lt;/p&gt;</content><category term="posts"/><category term="newsletter"/><category term="community"/></entry></feed>
