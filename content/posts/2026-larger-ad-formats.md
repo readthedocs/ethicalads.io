@@ -28,7 +28,7 @@ We're simply offering more flexibility and a new option for those who want it.
 The only differences from our [ad specs]({filename}../pages/learning-hub/ad-design-and-specs.md) are:
 
 * The text can be up to 240 characters
-* The logo, which is optional, should be a single color and is a 160x60 pixels.
+* The logo, which is optional, should be a single color and is 160x60 pixels.
   It needs to be a single color to accommodate both light and dark mode sites.
 
 
