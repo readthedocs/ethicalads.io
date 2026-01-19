@@ -15,7 +15,7 @@ image_credit: <span>Photo by <a href="https://unsplash.com/@raimondklavins?utm_s
   and analyze more, smaller parts to improve analysis.
   This has begun rolling out to our niche targeting.
 * We launched a new [larger ad format]({filename}../posts/2026-larger-ad-formats.md).
-  We got a lot of demand for this from advertisers and there's been some publisher interest. While it's rolling out more fully this month, it is the culmination of a lot of work from the last few months.
+  We got a lot of demand for this from advertisers and  publishers. While it's rolling out more fully this month, it is the culmination of a lot of work from the last few months.
 * One interesting thing we noticed is an uptick in demand from advertising agencies.
   Agencies have always been part of our advertiser mix, especially for large companies.
   However, there's been a noticeable increase in demand.
