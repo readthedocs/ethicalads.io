@@ -7,6 +7,12 @@ image: /images/posts/2026-q1-newsletter.jpg
 image_credit: <span>Photo by <a href="https://unsplash.com/@raimondklavins?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Raimond Klavins</a> on <a href="https://unsplash.com/photos/white-flowers-in-tilt-shift-lens-n55-5mU1zVk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>
 
 
+Normally, the later part of the year into the new year are slow times for us.
+However, while traffic did slow down over the holidays,
+advertiser demand was higher than ever.
+We continue to almost completely sold out in North America and Western Europe.
+
+
 ## New features from the previous 3 months
 
 * We are continuing to work on our [niche targeting]({filename}../pages/niche-targeting.md) and analyzer.
@@ -43,7 +49,8 @@ and [ethical-ad-client changelog](https://ethical-ad-client.readthedocs.io/en/la
 
 Last quarter:
 
-* We generated **$124.3k** for our publishers and they received December's portion of this in a payout last week.
+* We generated **$124.3k** for our publishers and they received December's portion
+  of this in a payout last week.
   We are on track to send over half a million dollars to publishers in 2026.
 * We had **195 publishers** on our network with at least one paid ad impression.
   This is slowly growing and we're seeing some publishers come in from other networks to ours.
@@ -52,10 +59,6 @@ Last quarter:
   and it appears to be paying off a bit.
 * We had **66.3M** paid ad views across the world.
   This is a little higher than Q3 2025 but mostly due to some global campaigns.
-
-Normally, late Q4 and early Q1 are a slow time for us.
-However, while traffic does slow down over the holidays, advertiser demand was higher than ever.
-We continue to be close to sold out in North America and Western Europe.
 
 
 ## Upcoming features
