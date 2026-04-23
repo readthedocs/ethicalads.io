@@ -14,7 +14,7 @@ image_credit: <span>Photo by <a href="https://unsplash.com/@ultratunafish?utm_so
   even the ones that are targeted by topic or simply by geography.
   Advertisers frequently have multiple ads in their campaign and now we're using the same embeddings we use for niche targeting to select the ad we think will perform best
   based on the page context.
-  It's a little early to say how this is performing, but we're expecting a small bump in performance across the network for this.
+  It's a little early to say how this is performing, but we're expecting a small bump in performance across the network from this.
 * We made some small improvements to make renewals even easier for advertisers
   since it's such a huge part of our business (~65%). Specifically, we have improved billing to allow advertisers to charge a card on file or request a manual invoice.
 * Lately, there's been a bit more demand from publishers who operate their own LLMs
