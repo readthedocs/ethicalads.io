@@ -1,5 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds</title><link href="https://www.ethicalads.io/" rel="alternate"/><link href="https://www.ethicalads.io/feeds/all.atom.xml" rel="self"/><id>https://www.ethicalads.io/</id><updated>2026-01-20T00:00:00-08:00</updated><entry><title>EthicalAds Newsletter - January 2026</title><link href="https://www.ethicalads.io/blog/2026/01/ethicalads-newsletter-january-2026/" rel="alternate"/><published>2026-01-20T00:00:00-08:00</published><updated>2026-01-20T00:00:00-08:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2026-01-20:/blog/2026/01/ethicalads-newsletter-january-2026/</id><summary type="html">&lt;p&gt;Normally, the later part of the year into the new year are slow times for us.
+<feed xmlns="http://www.w3.org/2005/Atom"><title>EthicalAds</title><link href="https://www.ethicalads.io/" rel="alternate"/><link href="https://www.ethicalads.io/feeds/all.atom.xml" rel="self"/><id>https://www.ethicalads.io/</id><updated>2026-04-23T00:00:00-07:00</updated><entry><title>EthicalAds Newsletter - April 2026</title><link href="https://www.ethicalads.io/blog/2026/04/ethicalads-newsletter-april-2026/" rel="alternate"/><published>2026-04-23T00:00:00-07:00</published><updated>2026-04-23T00:00:00-07:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2026-04-23:/blog/2026/04/ethicalads-newsletter-april-2026/</id><summary type="html">&lt;h2 id="new-features-from-the-previous-3-months"&gt;New features from the previous 3 months&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;We are continuing to work on our &lt;a href="https://www.ethicalads.io/advertisers/niche-targeting/"&gt;niche targeting&lt;/a&gt; and analyzer.
+  However, we …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h2 id="new-features-from-the-previous-3-months"&gt;New features from the previous 3 months&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;We are continuing to work on our &lt;a href="https://www.ethicalads.io/advertisers/niche-targeting/"&gt;niche targeting&lt;/a&gt; and analyzer.
+  However, we wanted to take some of our learnings and apply them to help all campaigns,
+  even the ones that are targeted by topic or simply by geography.
+  Advertisers frequently have multiple ads in their campaign and now we're using the same embeddings we use for niche targeting to select the ad we think will perform best
+  based on the page context.
+  It's a little early to say how this is performing, but we're expecting a small bump in performance across the network from this.&lt;/li&gt;
+&lt;li&gt;We made some small improvements to make renewals even easier for advertisers
+  since it's such a huge part of our business (~65%). Specifically, we have improved billing to allow advertisers to charge a card on file or request a manual invoice.&lt;/li&gt;
+&lt;li&gt;Lately, there's been a bit more demand from publishers who operate their own LLMs
+  and want to inject ads into LLM responses. We made some improvements specifically so these
+  AI publishers can get the domain where the ad goes (something we've shown on our ads for a long time) and get an icon for the advertiser.&lt;/li&gt;
+&lt;li&gt;In addition to all of this, we migrated our infrastructure from Azure to AWS.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can always see our latest server updates in our
+&lt;a href="https://ethical-ad-server.readthedocs.io/en/latest/developer/changelog.html"&gt;ethical-ad-server changelog&lt;/a&gt;
+and &lt;a href="https://ethical-ad-client.readthedocs.io/en/latest/changelog.html"&gt;ethical-ad-client changelog&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="q1-advertising-stats"&gt;Q1 advertising stats&lt;/h2&gt;
+&lt;p&gt;Last quarter:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We generated &lt;strong&gt;$161.8k&lt;/strong&gt; for our publishers and they received March's portion
+  of this in a payout last week.
+  At the beginning of the year, we were hoping to send $500k to publishers this year
+  and it's looking like we're going to get there and then some.&lt;/li&gt;
+&lt;li&gt;We had &lt;strong&gt;210 publishers&lt;/strong&gt; on our network with at least one paid ad impression.
+  This is slowly growing and we're seeing some publishers come in from other networks to ours.
+  Interestingly, the most common way they're finding us is through ChatGPT and other AI chatbots.
+  We've invested a little into making ourselves more discoverable by AI
+  and it appears to be paying off a bit.&lt;/li&gt;
+&lt;li&gt;We had &lt;strong&gt;82.2M&lt;/strong&gt; paid ad views across the world.
+  This is quite a bit higher than late last year and we've seen a bit of growth in global campaigns.
+  We are continuing to see that in Q2.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="upcoming-features"&gt;Upcoming features&lt;/h2&gt;
+&lt;p&gt;The major features in our upcoming roadmap for the next few months:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Last quarter, we launched a new &lt;a href="https://www.ethicalads.io/blog/2026/01/announcing-a-new-larger-ad-format/"&gt;larger ad format&lt;/a&gt;.
+  We're actively working on a change to make it trivial to request that format
+  but fall back to our more common format if there's no matching advertiser.&lt;/li&gt;
+&lt;li&gt;We're planning to surface metrics to publishers around how much of their site
+  is indexed for niche targeting. The goal is to increase this by making the data
+  more transparent.&lt;/li&gt;
+&lt;li&gt;Because of the uptick in demand from publishers wanting to inject ads into LLM responses
+  on their own sites, we're building a landing page specifically for these kind of publishers
+  to explain why they should choose our network.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thanks again for being along with us on this journey to build an ethical ad network.
+Please &lt;a href="https://www.ethicalads.io/contact/"&gt;let us know&lt;/a&gt; if you have any ideas or feedback on our product or roadmap,
+we always love to hear from you.&lt;/p&gt;</content><category term="posts"/><category term="newsletter"/><category term="community"/><category term="build-in-public"/></entry><entry><title>EthicalAds Newsletter - January 2026</title><link href="https://www.ethicalads.io/blog/2026/01/ethicalads-newsletter-january-2026/" rel="alternate"/><published>2026-01-20T00:00:00-08:00</published><updated>2026-01-20T00:00:00-08:00</updated><author><name>David Fischer</name></author><id>tag:www.ethicalads.io,2026-01-20:/blog/2026/01/ethicalads-newsletter-january-2026/</id><summary type="html">&lt;p&gt;Normally, the later part of the year into the new year are slow times for us.
 However, while traffic did …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Normally, the later part of the year into the new year are slow times for us.
 However, while traffic did slow down over the holidays,
 advertiser demand was higher than ever.
@@ -7038,47 +7090,4 @@ which shows that our pricing increases are starting to take effect.&lt;/p&gt;
 &lt;li&gt;We plan to take our expanded publisher reports and add similar improvements to our advertising reports.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;There are many other small tasks we'll continue to work on, along with lots of email :)&lt;/p&gt;
-&lt;p&gt;Thanks again for following along on our journey, and we're excited to continue to build something we can all be proud of.&lt;/p&gt;</content><category term="posts"/><category term="newsletter"/><category term="community"/></entry><entry><title>EthicalAds Newsletter - September 2020</title><link href="https://www.ethicalads.io/blog/2020/10/ethicalads-newsletter-september-2020/" rel="alternate"/><published>2020-10-06T00:00:00-07:00</published><updated>2020-10-06T00:00:00-07:00</updated><author><name>Eric Holscher</name></author><id>tag:www.ethicalads.io,2020-10-06:/blog/2020/10/ethicalads-newsletter-september-2020/</id><summary type="html">&lt;h2 id="advertising-stats"&gt;Advertising stats&lt;/h2&gt;
-&lt;p&gt;September was a solid month of growth for our EthicalAds Network.
-We have continued to onboard additional publishers …&lt;/p&gt;</summary><content type="html">&lt;h2 id="advertising-stats"&gt;Advertising stats&lt;/h2&gt;
-&lt;p&gt;September was a solid month of growth for our EthicalAds Network.
-We have continued to onboard additional publishers and expand our list of advertisers.
-We have also released our &lt;a href="https://www.ethicalads.io/prospectus/ethicalads-advertiser-prospectus.pdf"&gt;Q4 advertiser prospectus&lt;/a&gt; which has raised some of our prices given the increased interest we're seeing.&lt;/p&gt;
-&lt;p&gt;The increase in prices should start showing up throughout the month of September for our publishers.
-Publisher revenue is the thing we care most about,
-and we're happy to report that it grew &lt;strong&gt;32%&lt;/strong&gt; this month.&lt;/p&gt;
-&lt;p&gt;In September 2020:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;We generated &lt;strong&gt;$6,966.84&lt;/strong&gt; for our publishers -- so close to $7k!&lt;/li&gt;
-&lt;li&gt;We had &lt;strong&gt;65 publishers&lt;/strong&gt; on our network with a paid ad impression.&lt;/li&gt;
-&lt;li&gt;We had &lt;strong&gt;4,829,240&lt;/strong&gt; paid ad views across the world.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
-&lt;p&gt;We continued to add more features for publishers and advertisers to understand what is happening on the site.&lt;/p&gt;
-&lt;p&gt;The big things we added this month:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;A &lt;a href="https://www.ethicalads.io/"&gt;new website&lt;/a&gt; with an updated design.&lt;/li&gt;
-&lt;li&gt;We combined our Read the Docs &amp;amp; EthicalAds landing pages and prospectus, so we only have a single source of that information now.&lt;/li&gt;
-&lt;li&gt;Our &lt;a href="https://www.ethicalads.io/prospectus/ethicalads-advertiser-prospectus.pdf"&gt;Q4 advertiser prospectus&lt;/a&gt; with updated topics and pricing&lt;/li&gt;
-&lt;li&gt;Ad client support for &lt;a href="https://ethical-ad-client.readthedocs.io/en/latest/#ad-placement-reporting"&gt;placement reporting&lt;/a&gt; which allows seeing reports for specific placements on your site (eg. an ad on a list screen vs. a detail screen)&lt;/li&gt;
-&lt;li&gt;Ad client support for &lt;a href="https://ethical-ad-client.readthedocs.io/en/latest/#page-specific-keywords"&gt;per-page keywords&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;You can always see our latest updates in our &lt;a href="https://ethical-ad-server.readthedocs.io/en/latest/developer/changelog.html"&gt;ethical-ad-server changelog&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id="tricky-bits"&gt;Tricky bits&lt;/h2&gt;
-&lt;p&gt;Our current top priority continues to be getting publishers more revenue. As part of that mission we have raised prices on some of our more popular targeting options for Q4, and are expanding the topics we are targeting to better reflect out publishers.&lt;/p&gt;
-&lt;p&gt;We continue to have issues with ad blocking. We have had a good call with the Acceptable Ads team, and are hopeful that we will be added to the approved list in October. That will raise most of our publishers revenues by an estimated 15%, which would be huge.&lt;/p&gt;
-&lt;p&gt;The other major thing we continue to struggle with is just the amount of work we need to do. Spinning up an entirely new ad network and brand requires a lot of various tasks, and we only have 2 people working on it mostly full-time. We are in discussion in Q4 about doing some kind of hiring, either contract or part-time with the revenue we're seeing from the ad network. We generally try to be conservative in our hiring, so it might get pushed back to next year.&lt;/p&gt;
-&lt;h2 id="upcoming-features"&gt;Upcoming features&lt;/h2&gt;
-&lt;p&gt;We managed to achieve 3 of the 5 &lt;a href="https://www.ethicalads.io/blog/2020/09/ethicalads-newsletter-august-2020/#upcoming-features"&gt;features we wanted from last month&lt;/a&gt;.
-We are still planning to write more blog content and ship a publisher prospectus, but they were pushed back by more pressing work this month.&lt;/p&gt;
-&lt;p&gt;In addition, our roadmap this month includes:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;A number of reporting improvements for both advertisers and publishers, to better understand their traffic.&lt;/li&gt;
-&lt;li&gt;Adapt Read the Docs to use our &lt;a href="https://ethical-ad-client.readthedocs.io/en/latest/"&gt;official ad client&lt;/a&gt; instead of the custom integration we have now.&lt;/li&gt;
-&lt;li&gt;Trademark "EthicalAds", now that we are using it as a brand. We hope we will be able to get it, otherwise we might need to consider a re-brand.&lt;/li&gt;
-&lt;li&gt;Additional publisher &amp;amp; advertiser landing pages. We hope to build topic-specific pages to share more information for specific audiences on these pages.&lt;/li&gt;
-&lt;li&gt;Get testimonials from our users. We have now been serving network ads for close to 3 months, so we should have some happy customers now :)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;That's the big roadmap items for us this next month, but we always have additional tasks each month like replying to email and processing payouts.
-We'll continue working diligently to bring the best ad network that we can to the developer community,
-and we're glad you're with us for the journey.&lt;/p&gt;</content><category term="posts"/><category term="newsletter"/><category term="community"/></entry></feed>
+&lt;p&gt;Thanks again for following along on our journey, and we're excited to continue to build something we can all be proud of.&lt;/p&gt;</content><category term="posts"/><category term="newsletter"/><category term="community"/></entry></feed>
