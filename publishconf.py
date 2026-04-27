@@ -12,14 +12,13 @@ sys.path.append(os.curdir)
 from pelicanconf import *  # noqa
 
 
-if os.environ.get("READTHEDOCS_VERSION_TYPE") == "external":
-    # Make all URLs "domainless" in the RTD PR preview
-    # https://docs.readthedocs.io/en/stable/reference/environment-variables.html
-    SITEURL = ""
-else:
-    # This setting is needed to make the RSS/Atom feeds generate correctly
-    SITEURL = "https://www.ethicalads.io"
+# Use relative URLs so that RTD's files-changed logic
+# can properly diff PR builds against the main build.
+SITEURL = ""
 RELATIVE_URLS = False
+
+# FEED_DOMAIN is needed for RSS/Atom feeds to have absolute URLs
+FEED_DOMAIN = "https://www.ethicalads.io"
 
 # Generate from scratch when building for production
 DELETE_OUTPUT_DIRECTORY = True
