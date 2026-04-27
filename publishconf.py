@@ -12,13 +12,12 @@ sys.path.append(os.curdir)
 from pelicanconf import *  # noqa
 
 
-# Use relative URLs so that RTD's files-changed logic
+# Always use the production SITEURL so that RTD's files-changed logic
 # can properly diff PR builds against the main build.
-SITEURL = ""
+# Previously this was set to "" for PR builds, which caused every page
+# to show as changed since SITEURL is embedded in canonical/og meta tags.
+SITEURL = "https://www.ethicalads.io"
 RELATIVE_URLS = False
-
-# FEED_DOMAIN is needed for RSS/Atom feeds to have absolute URLs
-FEED_DOMAIN = "https://www.ethicalads.io"
 
 # Generate from scratch when building for production
 DELETE_OUTPUT_DIRECTORY = True
