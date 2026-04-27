@@ -12,11 +12,13 @@ sys.path.append(os.curdir)
 from pelicanconf import *  # noqa
 
 
-# Always use the production SITEURL so that RTD's files-changed logic
-# can properly diff PR builds against the main build.
-# Previously this was set to "" for PR builds, which caused every page
-# to show as changed since SITEURL is embedded in canonical/og meta tags.
-SITEURL = "https://www.ethicalads.io"
+if os.environ.get("READTHEDOCS_VERSION_TYPE") == "external":
+    # Make all URLs "domainless" in the RTD PR preview
+    # https://docs.readthedocs.io/en/stable/reference/environment-variables.html
+    SITEURL = ""
+else:
+    # This setting is needed to make the RSS/Atom feeds generate correctly
+    SITEURL = "https://www.ethicalads.io"
 RELATIVE_URLS = False
 
 # Generate from scratch when building for production
