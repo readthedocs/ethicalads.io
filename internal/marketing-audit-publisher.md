@@ -44,14 +44,14 @@ Each item below can be matched in isolation; the combination cannot.
 
 ## Market context and competitor sizing
 
-Concrete numbers that ground the rest of this report:
+Concrete numbers that ground the rest of this report. Sources are linked inline; full reference list at the end.
 
-- **Read the Docs — our parent — serves >55M doc pages/month across 80,000+ open-source projects** and ~100K users. RTD is the institutional asset behind every "built by maintainers, for maintainers" claim. Most prospective publishers we want already use RTD.
-- **CodeFund — the closest precedent for our publisher pitch — shut down July 2020.** Same positioning as us: open-source, ethical, dev-focused. The closure transferred their publishers to us and signaled that this niche supports one credible operator at a time. Today, that's us.
-- **Carbon Ads operates ~350+ publishers** with broader audience composition (designers, PMs, mobile devs alongside backend/frontend). EthicalAds operates ~195 publishers (Q1 2026) — half Carbon's network size, but dev-only and curated tighter. For a publisher choosing between us, the relevant comparison isn't "who's bigger" but "who fits my audience."
-- **Carbon's published publisher CPM range is $0.50–$1.10** (their own FAQ). Our publishers see ~$2.50 CPM on EU + North America traffic — **2–5× higher on a per-impression basis** from the apples-to-apples comparison of each company's stated numbers. Carbon also pays net-30 with Open Collective on a quarterly cycle (publisher waits 1–4 months from impression to payout); we pay monthly. For most indie publishers, the per-CPM gap alone is the deal.
-- **52% of developers use ad blockers on desktop** (vs ~32% globally). uBlock Origin alone has ~39M active users across Chrome and Firefox. For a developer publisher, this means: any network not on the Acceptable Ads list loses roughly half its yield. We're on the list; that's a publisher-revenue moat against generic networks.
-- **AdSense in 2025–26 is increasingly hostile to small dev publishers.** Active publisher-pain narratives: bans for AI-assisted content, copyright edge cases, invalid traffic spikes from HN frontpages, and policy ambiguity. Once banned, you cannot reopen the account. There's a real "AdSense alternatives" search funnel we don't currently rank for.
+- **[Read the Docs](https://about.readthedocs.com/company/) — our parent — serves >55M doc pages/month across 80,000+ open-source projects** and ~100K users. RTD is the institutional asset behind every "built by maintainers, for maintainers" claim. Most prospective publishers we want already use RTD.
+- **CodeFund — the closest precedent for our publisher pitch — shut down July 2020** ([HN discussion](https://news.ycombinator.com/item?id=23696197)). Same positioning as us: open-source, ethical, dev-focused. The closure [transferred their publishers to us](https://www.ethicalads.io/blog/2022/08/going-v10-the-backstory-and-future-of-our-ad-network/) and signaled that this niche supports one credible operator at a time. Today, that's us.
+- **[Carbon Ads](https://www.carbonads.net/) operates ~350+ publishers** with broader audience composition (designers, PMs, mobile devs alongside backend/frontend). EthicalAds operates ~195 publishers (Q1 2026) — half Carbon's network size, but dev-only and curated tighter. For a publisher choosing between us, the relevant comparison isn't "who's bigger" but "who fits my audience."
+- **Carbon's published publisher CPM range is $0.50–$1.10** ([Carbon's own FAQ](https://www.carbonads.net/faq)). Our publishers see ~$2.50 CPM on EU + North America traffic ([our publisher FAQ](https://www.ethicalads.io/publishers/faq/)) — **2–5× higher on a per-impression basis** from the apples-to-apples comparison of each company's stated numbers. Carbon also pays net-30 with Open Collective on a quarterly cycle (publisher waits 1–4 months from impression to payout); we pay monthly. For most indie publishers, the per-CPM gap alone is the deal.
+- **52% of developers use ad blockers on desktop** vs ~32% globally ([source](https://backlinko.com/ad-blockers-users)). uBlock Origin alone has ~39M active users across Chrome and Firefox. For a developer publisher, this means: any network not on the Acceptable Ads list loses roughly half its yield. We're on the list; that's a publisher-revenue moat against generic networks.
+- **AdSense in 2025–26 is increasingly hostile to small dev publishers.** Active publisher-pain narratives: bans for AI-assisted content, copyright edge cases, invalid traffic spikes from HN frontpages, and policy ambiguity. Once banned, you cannot reopen the account. The publisher-exodus narrative is now showing up on HN ([example: "After 20 years I turned off Google AdSense for my websites"](https://news.ycombinator.com/item?id=47668727)). There's a real "AdSense alternatives" search funnel we don't currently rank for.
 - **GitHub Sponsors / Open Collective / Patreon / BuyMeACoffee** are donation-as-funding, not advertising. We're complementary, not competitive. Multiple top OSS projects already run all of these alongside ad revenue — the framing should be *"do both"*, not *"choose us."*
 
 ---
@@ -99,6 +99,28 @@ Concrete numbers that ground the rest of this report:
 - **Monthly publisher transparency report.** A public list of paid-out amounts (anonymized or opt-in), top-earning niches, average $/1K pageviews by topic. Builds the case for publishers on the fence.
 - **A "join the network" application that gives instant feedback.** Today the form is opaque and the response is 2 days. A pre-application checklist (traffic, audience composition, content type) would qualify prospects in advance and reduce wasted review cycles.
 - **Direct outreach to the "I refuse to run ads" cohort.** Identify high-quality OSS docs sites that don't monetize today, send a personalized note about the EthicalAds approach, link to the open-source server. Low-volume, high-conversion outbound.
+
+---
+
+## Sources
+
+**External**
+
+- **Read the Docs scale** — [Read the Docs — About](https://about.readthedocs.com/company/) — 55M doc pages/month, 80,000+ projects, ~100K users.
+- **CodeFund shutdown** — [Hacker News discussion (July 2020)](https://news.ycombinator.com/item?id=23696197). EthicalAds inheritance confirmed in [our own backstory post (Aug 2022)](https://www.ethicalads.io/blog/2022/08/going-v10-the-backstory-and-future-of-our-ad-network/).
+- **Carbon Ads network size** — [carbonads.net](https://www.carbonads.net/) and [About Carbon Ads](https://www.carbonads.net/about) — 350+ publishers, audience composition.
+- **Carbon publisher CPM range ($0.50–$1.10) and payout terms** — [Carbon Ads FAQ](https://www.carbonads.net/faq) — net-30 payment, Open Collective quarterly.
+- **Ad blocker statistics** — [Ad Blocker Usage and Demographic Statistics 2026 (Backlinko)](https://backlinko.com/ad-blockers-users) and [Ad Blocker Usage Statistics 2026 (TechRT)](https://techrt.com/ad-blocker-usage-statistics/) — 52% developer rate, 32% global, uBlock Origin counts.
+- **AdSense publisher-exodus narrative** — [HN: "After 20 years I turned off Google AdSense for my websites"](https://news.ycombinator.com/item?id=47668727).
+
+**Internal**
+
+- **Our $2.50 publisher CPM (EU + NA)** — [EthicalAds Publisher FAQ](https://www.ethicalads.io/publishers/faq/).
+- **70% revenue share, $50 minimum payout, monthly payment, multi-rail payouts** — [EthicalAds Publisher Policy](https://www.ethicalads.io/publisher-policy/).
+- **Open-source ad server** — [github.com/readthedocs/ethical-ad-server](https://github.com/readthedocs/ethical-ad-server) and [ethical-ad-client](https://github.com/readthedocs/ethical-ad-client).
+- **195 publishers, Q1 2026 financials** — most recent EthicalAds quarterly transparency newsletter on the [EthicalAds blog](https://www.ethicalads.io/blog/).
+- **"Bad ads kill repeat visitors" framing** — [Why Some Sites Show More Ads Than Content (EthicalAds blog, 2024)](https://www.ethicalads.io/blog/2024/04/why-some-sites-show-more-ads-than-content/).
+- **Carbon's privacy-policy admission about advertiser creative loading third-party trackers** — cited in our [vs-carbon-ads comparison page](https://www.ethicalads.io/alternative-to-carbon-ads/).
 
 ---
 

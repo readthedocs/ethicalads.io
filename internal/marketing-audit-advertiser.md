@@ -43,15 +43,15 @@ Each item below can be matched in isolation; the combination cannot.
 
 ## Market context and competitor sizing
 
-Concrete numbers that ground the rest of this report:
+Concrete numbers that ground the rest of this report. Sources are linked inline; full reference list at the end.
 
-- **The contextual advertising market reached ~$234B in 2025** with a 10.5% CAGR. The category we play in is large, growing, and — as third-party cookies are phased out across browsers — increasingly the *only* viable category for non-search display.
-- **52% of developers use ad blockers on desktop**, against ~32% globally. uBlock Origin alone has ~39M active users worldwide and ~38% market share among ad-blocker extensions. Any developer-focused network without an Acceptable Ads bypass loses *half its impressions* on the dev audience by default. We have the bypass; this is a real moat.
-- **CodeFund — the most direct precedent for our positioning — shut down July 2020.** Same pitch as us: open-source, ethical, dev-focused. Their closure accelerated our growth and we inherited their publishers. The market signal: this niche tolerates one credible operator at a time. Today, that's us.
-- **Carbon Ads operates ~350+ publishers** (Carbon's stated number) with audience composition reportedly 64% backend / 57% frontend / 27% mobile / 15% PMs. EthicalAds operates ~195 publishers (Q1 2026) — roughly half Carbon's network size, but our audience is *materially purer* (we are dev-only; Carbon explicitly serves designers via Dribbble and product managers).
-- **Privacy-contextual enterprise networks** are scaling fast but not yet in our vertical. Seedtag (founded 2014, Spanish origin) is PE-funded, launched in the US in 2022, and is now expanding into CTV. Peer39 (founded 2006) has raised ~$30M. GumGum is global. None are dev-vertical *yet* — but they will be within ~18 months, and they'll have better infrastructure than us.
-- **Newsletter sponsorships** are the encroaching alternative for advertiser budget. TLDR (~275K subs) charges $3,500–$15,000 per issue (~$12 CPM at the lower tier; meaningfully higher than our developer CPMs). Bytes.dev has ~216K subs; JavaScript Weekly is comparable. These are budgets *not* coming to display networks today.
-- **Read the Docs — our parent — serves >55M doc pages/month across 80,000+ open-source projects.** That's the institutional asset behind "built by maintainers, for maintainers" and the reason our invite-only network has the trust it does.
+- **The contextual advertising market reached ~$234B in 2025** with a 10.5% CAGR ([source](https://www.monetizemore.com/blog/best-contextual-advertising-networks/)). The category we play in is large, growing, and — as third-party cookies are phased out across browsers — increasingly the *only* viable category for non-search display.
+- **52% of developers use ad blockers on desktop**, against ~32% globally ([source](https://backlinko.com/ad-blockers-users)). uBlock Origin alone has ~39M active users worldwide and ~38% market share among ad-blocker extensions. Any developer-focused network without an Acceptable Ads bypass loses *half its impressions* on the dev audience by default. We have the bypass; this is a real moat.
+- **CodeFund — the most direct precedent for our positioning — shut down July 2020** ([HN discussion](https://news.ycombinator.com/item?id=23696197)). Same pitch as us: open-source, ethical, dev-focused. Their closure accelerated our growth and we [inherited their publishers](https://www.ethicalads.io/blog/2022/08/going-v10-the-backstory-and-future-of-our-ad-network/). The market signal: this niche tolerates one credible operator at a time. Today, that's us.
+- **Carbon Ads operates ~350+ publishers** with audience composition reportedly 64% backend / 57% frontend / 27% mobile / 15% PMs ([Carbon's own stats](https://www.carbonads.net/)). EthicalAds operates ~195 publishers (Q1 2026) — roughly half Carbon's network size, but our audience is *materially purer* (we are dev-only; Carbon explicitly serves designers via Dribbble and product managers).
+- **Privacy-contextual enterprise networks** are scaling fast but not yet in our vertical. Seedtag (founded 2014, Spanish origin) is PE-funded, launched in the US in 2022, and is now [expanding into CTV](https://www.adexchanger.com/tv/seedtag-cuts-its-teeth-on-ctv-with-contextual-targeting/). [Peer39](https://www.cbinsights.com/company/peer39) (founded 2006) has raised ~$30M. GumGum is global. None are dev-vertical *yet* — but they will be within ~18 months, and they'll have better infrastructure than us.
+- **Newsletter sponsorships** are the encroaching alternative for advertiser budget. [TLDR](https://advertise.tldr.tech/) (~275K subs) charges $3,500–$15,000 per issue (~$12 CPM at the lower tier; meaningfully higher than our developer CPMs). Bytes.dev has ~216K subs; JavaScript Weekly is comparable. These are budgets *not* coming to display networks today.
+- **[Read the Docs](https://about.readthedocs.com/company/) — our parent — serves >55M doc pages/month across 80,000+ open-source projects.** That's the institutional asset behind "built by maintainers, for maintainers" and the reason our invite-only network has the trust it does.
 
 ---
 
@@ -103,3 +103,25 @@ Concrete numbers that ground the rest of this report:
 ## Bottom line
 
 The advertiser-side moat is real and decisive against Carbon, against Google, and against the newer privacy-contextual entrants. The marketing under-claims it. Five things — pre-disclosed placements, dev-CPM math, the niche-targeting demo, vertical-specific landing pages, and case studies with named numbers — would close most of the gap. The 2022 content-as-intent post and the 2024 niche-targeting series have already made the intellectual case. The advertiser hub just needs to inherit it.
+
+---
+
+## Sources
+
+**External**
+
+- **Contextual ad market sizing** — [Best Contextual Advertising Networks 2026 (MonetizeMore)](https://www.monetizemore.com/blog/best-contextual-advertising-networks/), citing The Business Research Company's 2025 contextual advertising market report ($234B, 10.5% CAGR).
+- **Ad blocker statistics** — [Ad Blocker Usage and Demographic Statistics 2026 (Backlinko)](https://backlinko.com/ad-blockers-users) and [Ad Blocker Usage Statistics 2026 (TechRT)](https://techrt.com/ad-blocker-usage-statistics/) — 52% developer rate, 32% global, uBlock Origin counts.
+- **CodeFund shutdown** — [Hacker News discussion (July 2020)](https://news.ycombinator.com/item?id=23696197). EthicalAds inheritance confirmed in [our own backstory post (Aug 2022)](https://www.ethicalads.io/blog/2022/08/going-v10-the-backstory-and-future-of-our-ad-network/).
+- **Carbon Ads network size and audience** — [carbonads.net](https://www.carbonads.net/) and [About Carbon Ads](https://www.carbonads.net/about). Publisher CPM range from [Carbon Ads FAQ](https://www.carbonads.net/faq).
+- **Seedtag** — [Seedtag Cuts Its Teeth On CTV With Contextual Targeting (AdExchanger)](https://www.adexchanger.com/tv/seedtag-cuts-its-teeth-on-ctv-with-contextual-targeting/) — US launch 2022, PE funding, CTV expansion.
+- **Peer39 funding** — [Peer39 profile (CB Insights)](https://www.cbinsights.com/company/peer39) — ~$30M total raised since founding in 2006.
+- **TLDR sponsorship pricing** — [advertise.tldr.tech](https://advertise.tldr.tech/) and [Growth In Reverse: TLDR profile](https://growthinreverse.com/tldr/) — subscriber count and CPM tiers.
+- **Newsletter sponsorship benchmarks** — [Newsletter Sponsorship Cost (beehiiv)](https://www.beehiiv.com/blog/newsletter-sponsorship-cost) and [developer-newsletters list (jackbridger)](https://github.com/jackbridger/developer-newsletters).
+- **Read the Docs scale** — [Read the Docs — About](https://about.readthedocs.com/company/) — 55M doc pages/month, 80,000+ projects, ~100K users.
+
+**Internal**
+
+- **195 publishers, Q1 2026 financials** — most recent EthicalAds quarterly transparency newsletter on the [EthicalAds blog](https://www.ethicalads.io/blog/).
+- **Carbon's privacy-policy admission about advertiser creative loading third-party trackers** — cited in our own [vs-carbon-ads comparison page](https://www.ethicalads.io/alternative-to-carbon-ads/).
+- **Content-as-intent CTR data** — [Does Content Imply User Intent? (EthicalAds blog, 2022)](https://www.ethicalads.io/blog/2022/11/a-new-approach-to-content-based-targeting-for-advertising/).
