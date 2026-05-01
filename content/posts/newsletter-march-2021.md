@@ -58,7 +58,7 @@ You can always see our latest server updates in our [ethical-ad-server changelog
 
 ## Tricky bits
 
-We still aim to hire an [account manager]({filename}/pages/jobs/account-manager-part-time.md)
+We still aim to hire an account manager
 to help manage advertiser and publisher relationships.
 Initially, we were looking for somebody to work around 20 hours per week
 but we've added a bit more range -- 20 to 32 hours -- to give the role a bit more flexibility.
@@ -67,8 +67,7 @@ and wants to ease into it with a flexible position.
 
 Hiring is always hard and takes a lot of time to do well.
 If this role sounds interesting to you,
-please [get in touch with any questions](mailto:ads@ethicalads.io?subject=Ads%20account%20manager%20role)
-or [apply]({filename}/pages/jobs/account-manager-part-time.md)!
+please [get in touch with any questions](mailto:ads@ethicalads.io?subject=Ads%20account%20manager%20role)!
 In addition, Read the Docs is hiring a [frontend developer](https://blog.readthedocs.com/job-frontend/).
 
 
