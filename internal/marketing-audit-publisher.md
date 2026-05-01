@@ -30,8 +30,8 @@ Today the publisher hub serves persona 1 well (logo wall is exactly Flask/ESLint
 
 Each item below can be matched in isolation; the combination cannot.
 
-- **70% revenue share.** Industry-leading. Carbon is reportedly ~50%; AdSense is ~68% for display. We pay materially more on a per-impression basis.
-- **$50 minimum payout, automatic, multi-rail (PayPal, Open Collective, GitHub Sponsors, Stripe).** AdSense minimum is $100 and net-30+. Carbon requires you to *request* a payout. Our default is automatic and lower-friction. Open Collective and GitHub Sponsors as payout rails are uniquely OSS-aligned — funds can flow directly into a project's treasury.
+- **Materially higher per-impression earnings.** Our publishers see ~$2.50 CPM on EU + North America traffic (our published number); Carbon's own FAQ states publisher earnings of $0.50–$1.10 CPM. That's a 2–5× per-impression gap from the apples-to-apples comparison of each company's stated numbers. Internally we pay a 70% revenue share to publishers, which combined with our advertiser-side CPM is what drives the higher per-impression payout.
+- **$50 minimum payout, automatic, monthly, multi-rail (PayPal, Open Collective, GitHub Sponsors, Stripe).** AdSense minimum is $100 and net-30+. Carbon's Open Collective publishers wait on a quarterly payout cycle (1–4 months from impression to payout). Our default is automatic and monthly. Open Collective and GitHub Sponsors as payout rails are uniquely OSS-aligned — funds can flow directly into a project's treasury.
 - **Open-source ad server.** `github.com/readthedocs/ethical-ad-server` is publicly auditable. No ad network in our space publishes their server. For a publisher who doesn't fully trust ad networks (which is most of them), the ability to *read the code that runs ads on their site* is decisive.
 - **No third-party scripts, ever.** Carbon's privacy policy admits some advertiser creative loads third-party trackers. Ours forbids. Publishers using us never need a cookie banner, never trigger uBlock Origin's privacy warnings, never have to explain to readers why a tracker showed up on their docs page.
 - **One unobtrusive ad per page.** Publishers control placement. No reflow, no autoplay, no interstitials. The 2024 minimalist-ads blog post argues this directly: *"For a site built on repeat visitors, bad ads sacrifice the long-term viability for short-term revenue."* That's the whole publisher pitch in one sentence.
@@ -49,7 +49,7 @@ Concrete numbers that ground the rest of this report:
 - **Read the Docs — our parent — serves >55M doc pages/month across 80,000+ open-source projects** and ~100K users. RTD is the institutional asset behind every "built by maintainers, for maintainers" claim. Most prospective publishers we want already use RTD.
 - **CodeFund — the closest precedent for our publisher pitch — shut down July 2020.** Same positioning as us: open-source, ethical, dev-focused. The closure transferred their publishers to us and signaled that this niche supports one credible operator at a time. Today, that's us.
 - **Carbon Ads operates ~350+ publishers** with broader audience composition (designers, PMs, mobile devs alongside backend/frontend). EthicalAds operates ~195 publishers (Q1 2026) — half Carbon's network size, but dev-only and curated tighter. For a publisher choosing between us, the relevant comparison isn't "who's bigger" but "who fits my audience."
-- **Carbon's reported publisher rev share is ~50%, payout-on-request, net-30, with Open Collective payouts now quarterly (per Carbon's March 2026 update).** We pay 70%, automatically, monthly. On a $1,000/month site, that's $200/month more revenue at our network — $2,400/year. For most indie publishers this single number is the deal.
+- **Carbon's published publisher CPM range is $0.50–$1.10** (their own FAQ). Our publishers see ~$2.50 CPM on EU + North America traffic — **2–5× higher on a per-impression basis** from the apples-to-apples comparison of each company's stated numbers. Carbon also pays net-30 with Open Collective on a quarterly cycle (publisher waits 1–4 months from impression to payout); we pay monthly. For most indie publishers, the per-CPM gap alone is the deal.
 - **52% of developers use ad blockers on desktop** (vs ~32% globally). uBlock Origin alone has ~39M active users across Chrome and Firefox. For a developer publisher, this means: any network not on the Acceptable Ads list loses roughly half its yield. We're on the list; that's a publisher-revenue moat against generic networks.
 - **AdSense in 2025–26 is increasingly hostile to small dev publishers.** Active publisher-pain narratives: bans for AI-assisted content, copyright edge cases, invalid traffic spikes from HN frontpages, and policy ambiguity. Once banned, you cannot reopen the account. There's a real "AdSense alternatives" search funnel we don't currently rank for.
 - **GitHub Sponsors / Open Collective / Patreon / BuyMeACoffee** are donation-as-funding, not advertising. We're complementary, not competitive. Multiple top OSS projects already run all of these alongside ad revenue — the framing should be *"do both"*, not *"choose us."*
@@ -59,7 +59,7 @@ Concrete numbers that ground the rest of this report:
 ## Competitive positioning — sharper than the current hub
 
 - **Google AdSense.** Default for unsophisticated dev publishers. The pitch isn't "we're better than Google" — it's *"AdSense bans dev blogs and you have no recourse; we don't, and we pay materially more on dev content."* Target the search funnel for `"adsense banned my dev blog"`, `"adsense alternatives for python developers"`, `"adsense low CPM developer blog"`. We rank for none of these today.
-- **Carbon Ads / BSA.** Direct peer (~350 sites vs our ~195). We win on revenue share (70% vs Carbon's reported ~50%), payout automation (auto vs request), no third-party scripts (we forbid; Carbon's policy admits some advertiser creative loads them), and the open-source server (uniquely ours). The vs-carbon comparison page already lays this out — it's footer-only and should be promoted.
+- **Carbon Ads / BSA.** Direct peer (~350 sites vs our ~195). We win on per-CPM publisher earnings (our ~$2.50 vs Carbon's published $0.50–$1.10 range, 2–5× higher), payout cadence (monthly vs net-30 / quarterly Open Collective), no third-party scripts (we forbid; Carbon's policy admits some advertiser creative loads them), and the open-source server (uniquely ours). The vs-carbon comparison page already lays this out — it's footer-only and should be promoted.
 - **GitHub Sponsors / Open Collective / Patreon / BuyMeACoffee.** Donation-as-funding. Compatible, not competing. Position as: *"Sponsorships fund big initiatives. EthicalAds funds the mortgage."*
 - **"I refuse to run ads."** The most important competitor for persona 5 and probably the largest untapped market. The pitch isn't "ads aren't bad" — it's *"**our** ads aren't what you're rejecting, and the Read the Docs team built them after RTD faced exactly your decision."*
 
@@ -68,7 +68,7 @@ Concrete numbers that ground the rest of this report:
 ## What's wrong with the current publisher hub specifically
 
 1. **Hero doesn't lead with the financial argument.** The H1 is *"Developers: join the ad network without tracking."* It's good, but a publisher's actual question is *"how much will I make and how hard is it?"*
-2. **70% revenue share is buried in the FAQ.** The most differentiated economic claim we have is not on the publisher hub at all. Carbon's ~50% is the comparable; not knowing this is a missed-conversion event for every visitor.
+2. **The per-impression earnings advantage is buried.** Our published $2.50 CPM (EU+NA) vs Carbon's published $0.50–$1.10 — a 2–5× gap from each company's own stated numbers — is the single most decisive argument for switching. It is currently nowhere on the publisher hub.
 3. **The publisher calculator is buried.** It exists at `/publishers/calculator/` and is footer-only. A prospective publisher's first question should be answered with one click from the hero.
 4. **Logo wall is all big brands.** Flask, ESLint, daily.dev are all top-of-the-network. An indie blogger on the page sees these and thinks "this isn't for me." We need at least one indie or smaller-publisher case study that makes "wait, my 50K-pageview Python blog can use this" instantly clear.
 5. **Open-source ad server is a sentence in the FAQ.** This is the single most uncopyable trust anchor we have. It should be a hero block: *"Audit our ad server before you integrate it."* Today, no publisher knows this is on offer.
@@ -83,7 +83,7 @@ Concrete numbers that ground the rest of this report:
 ## Prioritized next steps for publisher growth
 
 ### Quick wins (1 week)
-- Add 70% revenue share to the publisher hero. The fact alone is a conversion event for anyone comparing to Carbon.
+- Add the per-CPM comparison to the publisher hero. *"~$2.50 CPM on EU + North America traffic. Carbon publishes $0.50–$1.10."* The math alone is a conversion event for anyone comparing to Carbon.
 - Surface the publisher calculator with a hero CTA: *"Estimate your monthly earnings."*
 - Add a "Built by Read the Docs" credibility line to the hero. Currently relegated to the footer.
 
