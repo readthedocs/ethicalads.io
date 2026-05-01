@@ -42,12 +42,26 @@ Each item below can be matched in isolation; the combination cannot.
 
 ---
 
+## Market context and competitor sizing
+
+Concrete numbers that ground the rest of this report:
+
+- **Read the Docs — our parent — serves >55M doc pages/month across 80,000+ open-source projects** and ~100K users. RTD is the institutional asset behind every "built by maintainers, for maintainers" claim. Most prospective publishers we want already use RTD.
+- **CodeFund — the closest precedent for our publisher pitch — shut down July 2020.** Same positioning as us: open-source, ethical, dev-focused. The closure transferred their publishers to us and signaled that this niche supports one credible operator at a time. Today, that's us.
+- **Carbon Ads operates ~350+ publishers** with broader audience composition (designers, PMs, mobile devs alongside backend/frontend). EthicalAds operates ~195 publishers (Q1 2026) — half Carbon's network size, but dev-only and curated tighter. For a publisher choosing between us, the relevant comparison isn't "who's bigger" but "who fits my audience."
+- **Carbon's reported publisher rev share is ~50%, payout-on-request, net-30, with Open Collective payouts now quarterly (per Carbon's March 2026 update).** We pay 70%, automatically, monthly. On a $1,000/month site, that's $200/month more revenue at our network — $2,400/year. For most indie publishers this single number is the deal.
+- **52% of developers use ad blockers on desktop** (vs ~32% globally). uBlock Origin alone has ~39M active users across Chrome and Firefox. For a developer publisher, this means: any network not on the Acceptable Ads list loses roughly half its yield. We're on the list; that's a publisher-revenue moat against generic networks.
+- **AdSense in 2025–26 is increasingly hostile to small dev publishers.** Active publisher-pain narratives: bans for AI-assisted content, copyright edge cases, invalid traffic spikes from HN frontpages, and policy ambiguity. Once banned, you cannot reopen the account. There's a real "AdSense alternatives" search funnel we don't currently rank for.
+- **GitHub Sponsors / Open Collective / Patreon / BuyMeACoffee** are donation-as-funding, not advertising. We're complementary, not competitive. Multiple top OSS projects already run all of these alongside ad revenue — the framing should be *"do both"*, not *"choose us."*
+
+---
+
 ## Competitive positioning — sharper than the current hub
 
-- **Google AdSense.** Default for unsophisticated dev publishers. The pitch isn't "we're better than Google" — it's "AdSense banned a dev blog yesterday, and the publisher had no recourse." Target the search funnel for `"adsense banned my dev blog"`, `"adsense alternatives for python developers"`, `"adsense low CPM developer blog"`. We rank for none of these today.
-- **Carbon Ads / BSA.** Direct peer. We win on revenue share (70 vs ~50), payout automation (auto vs request), no third-party scripts (we forbid; they admit), and the open-source server (uniquely ours). The vs-carbon comparison page already lays this out — it's footer-only and should be promoted.
-- **GitHub Sponsors / Open Collective / Patreon / BuyMeACoffee.** Donation-as-funding. Compatible, not competing. We can run *alongside* these to add a passive revenue stream without compromising the donation pitch. Position as: *"Sponsorships fund big initiatives. EthicalAds funds the mortgage."*
-- **"I refuse to run ads."** The most important competitor for persona 5. The pitch isn't "ads aren't bad" — it's "**our** ads aren't what you're rejecting, and the Read the Docs team built them after Read the Docs faced exactly your decision."
+- **Google AdSense.** Default for unsophisticated dev publishers. The pitch isn't "we're better than Google" — it's *"AdSense bans dev blogs and you have no recourse; we don't, and we pay materially more on dev content."* Target the search funnel for `"adsense banned my dev blog"`, `"adsense alternatives for python developers"`, `"adsense low CPM developer blog"`. We rank for none of these today.
+- **Carbon Ads / BSA.** Direct peer (~350 sites vs our ~195). We win on revenue share (70% vs Carbon's reported ~50%), payout automation (auto vs request), no third-party scripts (we forbid; Carbon's policy admits some advertiser creative loads them), and the open-source server (uniquely ours). The vs-carbon comparison page already lays this out — it's footer-only and should be promoted.
+- **GitHub Sponsors / Open Collective / Patreon / BuyMeACoffee.** Donation-as-funding. Compatible, not competing. Position as: *"Sponsorships fund big initiatives. EthicalAds funds the mortgage."*
+- **"I refuse to run ads."** The most important competitor for persona 5 and probably the largest untapped market. The pitch isn't "ads aren't bad" — it's *"**our** ads aren't what you're rejecting, and the Read the Docs team built them after RTD faced exactly your decision."*
 
 ---
 

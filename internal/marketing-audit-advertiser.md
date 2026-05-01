@@ -41,12 +41,26 @@ Each item below can be matched in isolation; the combination cannot.
 
 ---
 
+## Market context and competitor sizing
+
+Concrete numbers that ground the rest of this report:
+
+- **The contextual advertising market reached ~$234B in 2025** with a 10.5% CAGR. The category we play in is large, growing, and — as third-party cookies are phased out across browsers — increasingly the *only* viable category for non-search display.
+- **52% of developers use ad blockers on desktop**, against ~32% globally. uBlock Origin alone has ~39M active users worldwide and ~38% market share among ad-blocker extensions. Any developer-focused network without an Acceptable Ads bypass loses *half its impressions* on the dev audience by default. We have the bypass; this is a real moat.
+- **CodeFund — the most direct precedent for our positioning — shut down July 2020.** Same pitch as us: open-source, ethical, dev-focused. Their closure accelerated our growth and we inherited their publishers. The market signal: this niche tolerates one credible operator at a time. Today, that's us.
+- **Carbon Ads operates ~350+ publishers** (Carbon's stated number) with audience composition reportedly 64% backend / 57% frontend / 27% mobile / 15% PMs. EthicalAds operates ~195 publishers (Q1 2026) — roughly half Carbon's network size, but our audience is *materially purer* (we are dev-only; Carbon explicitly serves designers via Dribbble and product managers).
+- **Privacy-contextual enterprise networks** are scaling fast but not yet in our vertical. Seedtag (founded 2014, Spanish origin) is PE-funded, launched in the US in 2022, and is now expanding into CTV. Peer39 (founded 2006) has raised ~$30M. GumGum is global. None are dev-vertical *yet* — but they will be within ~18 months, and they'll have better infrastructure than us.
+- **Newsletter sponsorships** are the encroaching alternative for advertiser budget. TLDR (~275K subs) charges $3,500–$15,000 per issue (~$12 CPM at the lower tier; meaningfully higher than our developer CPMs). Bytes.dev has ~216K subs; JavaScript Weekly is comparable. These are budgets *not* coming to display networks today.
+- **Read the Docs — our parent — serves >55M doc pages/month across 80,000+ open-source projects.** That's the institutional asset behind "built by maintainers, for maintainers" and the reason our invite-only network has the trust it does.
+
+---
+
 ## Competitive positioning — sharper than the current hub
 
-- **Google AdSense / Ad Manager.** Bigger reach but dev intent buried in noise. Pitch: *"You're paying Google to show your dev-tool ads on cooking recipe sites."* The math holds; the framing converts.
-- **Carbon Ads / BSA.** Closest peer. We win on pre-disclosed placements, posted pricing, ML niche targeting, and no third-party-resource leak in advertiser creative (Carbon's privacy policy admits some advertiser creative loads third-party trackers; ours forbids).
-- **Direct sponsorships (newsletters, podcasts, YouTube).** Where dev-marketing budget is increasingly flowing. We don't compete on personal-brand fit; we compete on scale and per-impression cost. Bytes / JavaScript Weekly are $2K+ per issue; we deliver comparable impression counts across many publishers at a fraction, with no relationship-management overhead. Position as the *complement* to direct sponsorships, not the alternative.
-- **Privacy-contextual enterprise networks (Seedtag, GumGum, Peer39).** Moving down-market. They'll have better infrastructure than us within ~18 months. Defense: dev-vertical depth and curated publisher list they can't buy.
+- **Google AdSense / Ad Manager.** Massive reach (Google's ad business is ~$300B+ annually), but dev intent is buried in noise. Pitch: *"You're paying Google to show your dev-tool ads on cooking recipe sites."* The math holds; the framing converts. AdSense bans for invalid traffic, AI-generated content, copyright edge cases, and policy violations are an active publisher-pain narrative — relevant for the publisher pitch but indirectly for us as advertisers want to be sure their ads run on stable, vetted publishers (which they don't with Google).
+- **Carbon Ads / BSA.** Closest peer (~350 sites vs our ~195). We win on: pre-disclosed publisher list (Carbon won't show), posted pricing (Carbon's is application-only), ML landing-page-similarity targeting (Carbon's is topic-bucket), and forbidden third-party resources in advertiser creative (Carbon's policy admits some creative loads trackers). We lose on: scale, brand recognition, and audience breadth (Carbon serves designers + PMs + devs; we serve only devs — that's a feature for some buyers, a bug for others).
+- **Direct sponsorships (newsletters, podcasts, YouTube).** Where dev-marketing budget is increasingly flowing. TLDR's $12 CPM is *higher* than our developer CPM, so the math here is straightforward: we deliver comparable dev-targeted impression volume across many publishers at a lower per-impression cost, with no relationship-management overhead. Position as the *complement* to direct sponsorships, not the alternative.
+- **Privacy-contextual enterprise networks (Seedtag, GumGum, Peer39).** Generic-vertical today; moving down-market over the next 18 months. They will arrive with better infrastructure than us. Defense: dev-vertical curation and Read the Docs provenance they can't buy off a list.
 
 ---
 
