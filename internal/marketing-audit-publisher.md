@@ -4,6 +4,14 @@
 
 ---
 
+## A note on terminology
+
+**"Publisher hub"** in this report refers to the `/publishers/` landing page — the main page somebody hits when they click "Publishers" in the top nav, or arrive looking to monetize their site. It contains the hero, the three-column value props, the sample ad, the social-proof block, the developer-audience grid, the publisher testimonial cards, the inbound application form, and the inline FAQ. It is the top-of-funnel destination for prospective publishers and is where most of this report's repositioning work would land.
+
+The equivalent on the demand side is the **advertiser hub** at `/advertisers/`.
+
+---
+
 ## Executive summary
 
 The publisher hub does most of the publisher pitch correctly: invite-only, no tracking, no cookie banner, talk to a human, real customers (Flask, ESLint, daily.dev). What it under-claims is the *economic* decision. Publishers don't choose us because of vision; they choose us because over a year, they earn more, get banned less, and don't have to apologize for the ads. That argument is not on the page in any form a prospective publisher can act on.

@@ -4,6 +4,14 @@
 
 ---
 
+## A note on terminology
+
+**"Advertiser hub"** in this report refers to the `/advertisers/` landing page — the main page somebody hits when they click "Advertisers" in the top nav, or Google their way to us looking to buy ads. It contains the hero, the three-column value props, the sample ad, the audience grid, the testimonial carousel, the pricing table, the FAQ, and the inbound form. It is the top-of-funnel destination for the advertiser audience and is where most of this report's repositioning work would land.
+
+The equivalent on the supply side is the **publisher hub** at `/publishers/`.
+
+---
+
 ## Executive summary
 
 We sell something the advertiser hub does not currently advertise: a curated, 100%-developer audience on a network where the buyer can preview the publisher list before purchase, lock in a posted CPM, and run without DPA negotiation, cookie banners, or third-party scripts. Carbon, Google, and the newer privacy-contextual networks each lack at least three of those. The homepage and advertiser hub instead lead with "AI-powered contextual targeting," a commodity feature label that puts us in a fight against bigger networks on a metric we can't win.
