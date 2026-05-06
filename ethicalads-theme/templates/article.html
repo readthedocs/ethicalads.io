@@ -12,22 +12,22 @@
 
 
 {% block content %}
-<section class="container py-5 mb-10">
-  <div class="row justify-content-center">
-    <div class="col-12 col-md-10 col-lg-9 col-xl-8">
+<section class="container mx-auto px-4 py-12 mb-32">
+  <div class="flex flex-wrap -mx-4 justify-center">
+    <div class="w-full px-4 col-md-10 lg:w-3/4 col-xl-8">
       <!-- Heading -->
-      <h1 class="display-4">{{ article.title }}</h1>
+      <h1 class="text-2xl md:text-3xl font-light">{{ article.title }}</h1>
 
       <!-- Meta -->
-      <div class="row align-items-center py-5 border-top border-bottom">
-        <div class="col">
+      <div class="flex flex-wrap -mx-4 items-center py-12 border-t border-gray-200 dark:border-gray-700 border-b">
+        <div class="flex-1 px-4">
 
-          <div class="d-flex w-100">
+          <div class="flex w-100">
             <!-- Author -->
-            <div class="flex-fill h6 text-uppercase mb-0">{% for author in article.authors %}{{ author }}{% if not loop.last %}, {% endif %}{% endfor %}</div>
+            <div class="flex-fill h6 uppercase mb-0">{% for author in article.authors %}{{ author }}{% if not loop.last %}, {% endif %}{% endfor %}</div>
 
             <!-- Date -->
-            <div class="flex-fill h6 text-uppercase text-muted mb-0 ml-auto text-right">
+            <div class="flex-fill h6 uppercase text-gray-500 mb-0 ml-auto text-right">
               <time class="text-nowrap" datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>
             </div>
           </div>
@@ -40,7 +40,7 @@
         <figure class="figure mb-7">
 
           <!-- Image -->
-          <img class="figure-img img-fluid rounded" src="{{ article.image }}" alt="{{ article.title|striptags }}">
+          <img class="figure-img max-w-full h-auto rounded" src="{{ article.image }}" alt="{{ article.title|striptags }}">
 
           <!-- Caption -->
         {% if article.image_credit %}
@@ -73,11 +73,11 @@
 <!-- Related Posts -->
 <!-- ================================================== -->
 {% if article.related_posts %}
-<section class="py-5 bg-gray-200">
+<section class="py-12 bg-gray-200">
 
-  <div class="container">
+  <div class="container mx-auto px-4">
 
-    <h3 class="mb-4">Want posts like these in your inbox?</h3>
+    <h3 class="mb-6">Want posts like these in your inbox?</h3>
 
     <form class="validate" action="https://ethicalads.us17.list-manage.com/subscribe/post?u=ca5e74de3ea2867d373058271&amp;id=5746f18bb8" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
       <div class="form-row">
@@ -85,20 +85,20 @@
           <input type="email" class="form-control form-control-sm required" name="EMAIL" id="mce-EMAIL" placeholder="you@domain.com" required>
         </div>
         <div class="col-4">
-          <button class="btn btn-sm btn-primary" type="submit">Subscribe</button>
+          <button class="inline-block font-bold rounded transition-colors text-sm px-3 py-1 bg-primary hover:bg-primary-dark text-white px-4 py-2" type="submit">Subscribe</button>
         </div>
       </div>
-      <div class="d-none" aria-hidden="true"><input type="text" name="b_ca5e74de3ea2867d373058271_5746f18bb8" tabindex="-1" value=""></div>
+      <div class="hidden" aria-hidden="true"><input type="text" name="b_ca5e74de3ea2867d373058271_5746f18bb8" tabindex="-1" value=""></div>
 
-      <small class="form-text text-muted">Your email, after you confirm it, will be stored with Mailchimp who handles this newsletter</small>
+      <small class="form-text text-gray-500">Your email, after you confirm it, will be stored with Mailchimp who handles this newsletter</small>
     </form>
 
-    <h3 class="mb-4 mt-6">Similar posts</h3>
+    <h3 class="mb-6 mt-16">Similar posts</h3>
 
-    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+    <div class="flex flex-wrap -mx-4 row-cols-1 row-cols-md-2 row-cols-lg-3">
       {% for related_article in article.related_posts %}
-        <div class="col mb-10">
-          <article class="card h-100 shadow-light-lg lift lift-lg">
+        <div class="flex-1 px-4 mb-32">
+          <article class="bg-white rounded-lg shadow-md border border-gray-100 overflow-hidden dark:bg-gray-800 dark:border-gray-700 h-100 shadow-light-lg lift lift-lg">
             {% if related_article.image %}
               <a href="/{{ related_article.url }}">
                 <img src="{{ related_article.image }}" alt="{{ related_article.title|striptags }}" class="card-img-top">
@@ -111,8 +111,8 @@
                 </div>
               </a>
             {% endif %}
-            <a class="card-body" href="/{{ related_article.url }}" title="Permalink to {{ related_article.title|striptags }}">
-              <h3 class="card-title font-weight-light">{{ related_article.title }}</h3>
+            <a class="p-6" href="/{{ related_article.url }}" title="Permalink to {{ related_article.title|striptags }}">
+              <h3 class="text-xl font-bold mb-2 font-light">{{ related_article.title }}</h3>
 
               <p class="mb-0">{{ related_article.summary|striptags|escape }}</p>
 
@@ -123,12 +123,12 @@
               <!-- Divider -->
               <hr class="card-meta-divider">
 
-              <div class="d-flex w-100">
+              <div class="flex w-100">
                 <!-- Author -->
-                <div class="flex-fill h6 text-uppercase text-muted mb-0 mr-2">{% for author in related_article.authors %}{{ author }}{% if not loop.last %}, {% endif %}{% endfor %}</div>
+                <div class="flex-fill h6 uppercase text-gray-500 mb-0 mr-2">{% for author in related_article.authors %}{{ author }}{% if not loop.last %}, {% endif %}{% endfor %}</div>
 
                 <!-- Date -->
-                <div class="flex-fill h6 text-uppercase text-muted mb-0 ml-auto text-right">
+                <div class="flex-fill h6 uppercase text-gray-500 mb-0 ml-auto text-right">
                   <time class="text-nowrap" datetime="{{ related_article.date.isoformat() }}">{{ related_article.locale_date }}</time>
                 </div>
               </div>

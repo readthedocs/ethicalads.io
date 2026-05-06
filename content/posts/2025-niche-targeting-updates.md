@@ -6,7 +6,6 @@ authors: David Fischer
 image: /images/posts/2025-embedding-map.png
 image_credit: <span>Image generated with <a href="https://observablehq.com/">Observable</a> from embeddings and centroids and <a href="https://github.com/lmcinnes/umap">umap</a> for dimension reduction. Look <a href="#chart">below</a> for an interactive version.</span>
 
-
 Large language models and their adjacent tools are evolving fast
 and they are a powerful way to improve content classification,
 which is great when you're building a contextual ad network that doesn't track people.
@@ -15,7 +14,6 @@ We've taken a more reliable approach.
 By using (more) deterministic embeddings and creating centroids with related embeddings,
 we were able to sharpen up our targeting
 and boost performance with less guesswork without relying on any user-specific data.
-
 
 ## Historical context and scaling topic classification
 
@@ -36,12 +34,10 @@ There simply weren't enough very closely related pages to build large campaigns.
 Also, while the results were great, explaining embeddings to marketers proved difficult,
 making the approach harder to sell despite its effectiveness.
 
-
 <div class="postimage text-center" id="chart">
   <iframe height="525" class="w-100 shadow-lg border-0"
   src="https://observablehq.com/embed/34e5f0a6a04bbf16@117?cells=plot"></iframe>
 </div>
-
 
 ## Hybrid approach with embedding centroids
 
@@ -77,8 +73,7 @@ But unlike the old model, this approach just requires a few URLs or domains
 with the kinds of content an advertiser wants to target.
 It's also far easier to explain this type of classification to advertisers:
 "we target your ads to the most similar domains across our network based on your landing pages or other URLs you provide"
-is easy to understand *and* it works pretty well.
-
+is easy to understand _and_ it works pretty well.
 
 ## Show me the code!
 
@@ -129,7 +124,6 @@ with the clarity and explainability closer to keyword-style targeting.
 It scales to anything an advertiser might want to target
 since new pages and domains just get embeddings and are automatically matched
 to the right clusters of domains and topics.
-
 
 ## Conclusion
 

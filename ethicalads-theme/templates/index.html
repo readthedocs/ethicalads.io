@@ -3,42 +3,42 @@
 
 
 {% block content %}
-<section class="container py-5 mb-10 page">
+<section class="container mx-auto px-4 py-12 mb-32 page">
   {% block content_title %}
-    <h1 class="font-weight-light display-3">EthicalAds Blog</h1>
-    <p class="lead">Privacy-preserving ad network for developers</p>
+    <h1 class="font-light text-3xl md:text-4xl">EthicalAds Blog</h1>
+    <p class="text-lg md:text-xl">Privacy-preserving ad network for developers</p>
   {% endblock %}
 
 
   {% for article in articles_page.object_list %}
     {% if not articles_previous_page and loop.first %}
-      <div class="row">
-        <div class="col-12">
+      <div class="flex flex-wrap -mx-4">
+        <div class="w-full px-4">
 
           <!-- Card -->
-          <div class="card card-row shadow-light-lg mb-6 lift lift-lg mb-10">
-            <div class="row no-gutters">
-              <div class="col-12">
+          <div class="bg-white rounded-lg shadow-md border border-gray-100 overflow-hidden dark:bg-gray-800 dark:border-gray-700 card-row shadow-light-lg mb-16 lift lift-lg mb-32">
+            <div class="flex flex-wrap -mx-4 no-gutters">
+              <div class="w-full px-4">
 
               </div>
-              <a class="col-12 col-md-6 order-md-2 bg-cover card-img-right" style="background-image: url({{ article.image }});" href="/{{ article.url }}">
+              <a class="w-full px-4 md:w-1/2 order-md-2 bg-cover card-img-right" style="background-image: url({{ article.image }});" href="/{{ article.url }}">
 
                 <!-- Image (placeholder) -->
-                <img src="{{ article.image }}" alt="{{ article.title }}" class="img-fluid d-md-none invisible">
+                <img src="{{ article.image }}" alt="{{ article.title }}" class="max-w-full h-auto d-md-none invisible">
 
                 <!-- Shape -->
-                <div class="shape shape-left shape-fluid-y svg-shim text-white d-none d-md-block">
+                <div class="shape shape-left shape-fluid-y svg-shim text-white hidden md:block">
                   <svg viewBox="0 0 112 690" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h62.759v172C38.62 384 112 517 112 517v173H0V0z" fill="currentColor"/></svg>
                 </div>
 
               </a>
-              <div class="col-12 col-md-6 order-md-1">
+              <div class="w-full px-4 md:w-1/2 order-md-1">
 
                 <!-- Body -->
-                <a class="card-body" href="/{{ article.url }}">
+                <a class="p-6" href="/{{ article.url }}">
 
                   <!-- Heading -->
-                  <h3 class="font-weight-light">{{ article.title }}</h3>
+                  <h3 class="font-light">{{ article.title }}</h3>
 
                   <!-- Text -->
                   {% if article.description %}
@@ -55,12 +55,12 @@
                   <!-- Divider -->
                   <hr class="card-meta-divider">
 
-                  <div class="d-flex w-100">
+                  <div class="flex w-100">
                     <!-- Author -->
-                    <div class="flex-fill h6 text-uppercase text-muted mb-0 mr-2">{% for author in article.authors %}{{ author }}{% if not loop.last %}, {% endif %}{% endfor %}</div>
+                    <div class="flex-fill h6 uppercase text-gray-500 mb-0 mr-2">{% for author in article.authors %}{{ author }}{% if not loop.last %}, {% endif %}{% endfor %}</div>
 
                     <!-- Date -->
-                    <div class="flex-fill h6 text-uppercase text-muted mb-0 ml-auto text-right">
+                    <div class="flex-fill h6 uppercase text-gray-500 mb-0 ml-auto text-right">
                       <time class="text-nowrap" datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>
                     </div>
                   </div>
@@ -78,15 +78,15 @@
   {% endfor %}
 
 
-  <div class="row">
+  <div class="flex flex-wrap -mx-4">
 
-    <div class="col">
+    <div class="flex-1 px-4">
 
-      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+      <div class="flex flex-wrap -mx-4 row-cols-1 row-cols-md-2 row-cols-lg-3">
         {% for article in articles_page.object_list %}
           {% if articles_previous_page or not loop.first %}
-            <div class="col mb-10">
-              <article class="card h-100 shadow-light-lg lift lift-lg">
+            <div class="flex-1 px-4 mb-32">
+              <article class="bg-white rounded-lg shadow-md border border-gray-100 overflow-hidden dark:bg-gray-800 dark:border-gray-700 h-100 shadow-light-lg lift lift-lg">
                 {% if article.image %}
                   <a href="/{{ article.url }}">
                     <img src="{{ article.image }}" alt="{{ article.title|striptags }}" class="card-img-top">
@@ -99,8 +99,8 @@
                     </div>
                   </a>
                 {% endif %}
-                <a class="card-body" href="/{{ article.url }}" title="Permalink to {{ article.title|striptags }}">
-                  <h3 class="card-title font-weight-light">{{ article.title }}</h3>
+                <a class="p-6" href="/{{ article.url }}" title="Permalink to {{ article.title|striptags }}">
+                  <h3 class="text-xl font-bold mb-2 font-light">{{ article.title }}</h3>
 
                   {% if article.description %}
                   <p class="mb-0">{{ article.description|striptags|escape }}</p>
@@ -115,12 +115,12 @@
                   <!-- Divider -->
                   <hr class="card-meta-divider">
 
-                  <div class="d-flex w-100">
+                  <div class="flex w-100">
                     <!-- Author -->
-                    <div class="flex-fill h6 text-uppercase text-muted mb-0 mr-2">{% for author in article.authors %}{{ author }}{% if not loop.last %}, {% endif %}{% endfor %}</div>
+                    <div class="flex-fill h6 uppercase text-gray-500 mb-0 mr-2">{% for author in article.authors %}{{ author }}{% if not loop.last %}, {% endif %}{% endfor %}</div>
 
                     <!-- Date -->
-                    <div class="flex-fill h6 text-uppercase text-muted mb-0 ml-auto text-right">
+                    <div class="flex-fill h6 uppercase text-gray-500 mb-0 ml-auto text-right">
                       <time class="text-nowrap" datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>
                     </div>
                   </div>

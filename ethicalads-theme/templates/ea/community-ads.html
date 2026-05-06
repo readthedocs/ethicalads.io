@@ -11,19 +11,19 @@
 {% block content %}
 {{ super() }}
 
-<section class="inbound-form bg-gray-200 py-10" id="inbound-form">
-  <div class="container">
+<section class="inbound-form bg-gray-200 py-32" id="inbound-form">
+  <div class="container mx-auto px-4">
 
-    <div class="row justify-content-center">
-      <div class="col-12 col-md-10 col-lg-8">
+    <div class="flex flex-wrap -mx-4 justify-center">
+      <div class="w-full px-4 col-md-10 lg:w-2/3">
 
         <!-- Card -->
-        <div class="card card-border border-primary shadow-light-lg">
-          <div class="card-body">
-            <div class="row justify-content-center">
-              <div class="col-12 col-xl-11">
+        <div class="bg-white rounded-lg shadow-md border border-gray-100 overflow-hidden dark:bg-gray-800 dark:border-gray-700 card-border border-primary shadow-light-lg">
+          <div class="p-6">
+            <div class="flex flex-wrap -mx-4 justify-center">
+              <div class="w-full px-4 col-xl-11">
 
-                <h2 class="font-weight-bold">Apply to our Community Ads program</h2>
+                <h2 class="font-bold">Apply to our Community Ads program</h2>
                 <p class="font-size-lg">Start growing your cause with our network today.</p>
 
                 <!-- Front - Community Ads Inquiry Form -->
@@ -44,7 +44,7 @@
                     <input class="form-control" type="email" id="email" name="email" placeholder="you@yourproject.org" required>
                   </div>
 
-                  <h4 class="font-weight-bold">Your cause or initiative</h4>
+                  <h4 class="font-bold">Your cause or initiative</h4>
 
                   <div class="form-group">
                     <label>What kind of initiative is your cause?</label>
@@ -73,18 +73,18 @@
                     <input class="form-control" type="url" id="website" name="website" placeholder="https://yourcause.org" required>
                   </div>
 
-                  <h4 class="font-weight-bold">Ad details</h4>
+                  <h4 class="font-bold">Ad details</h4>
 
                   <div class="form-group">
                     <label for="ad-text">Text to accompany your ad</label>
                     <input class="form-control" type="text" id="ad-text" name="ad-text" maxlength="100" placeholder="Support our cause today" required>
-                    <p class="form-text small text-muted">Up to 100 characters. Emojis allowed but please use them sparingly</p>
+                    <p class="form-text small text-gray-500">Up to 100 characters. Emojis allowed but please use them sparingly</p>
                   </div>
 
                   <div class="form-group">
                     <label for="image">Image to go with your ad</label>
                     <input type="file" id="image" name="image" accept="image/png, image/jpeg" required>
-                    <p class="form-text small text-muted">A 240*180px image displayed at 120*90</p>
+                    <p class="form-text small text-gray-500">A 240*180px image displayed at 120*90</p>
                   </div>
 
                   <div class="form-group">
@@ -95,7 +95,7 @@
                   <div class="form-group">
                     <label for="date">Do you have a specific date you'd like to promote before?</label>
                     <input class="form-control" type="date" id="date" name="date">
-                    <p class="form-text small text-muted">Useful for conferences or events that happen on a certain date</p>
+                    <p class="form-text small text-gray-500">Useful for conferences or events that happen on a certain date</p>
                   </div>
 
                   <div class="form-group">
@@ -153,12 +153,12 @@
                     <textarea class="form-control" id="comments" name="comments"></textarea>
                   </div>
 
-                  <div class="form-group my-5">
+                  <div class="form-group my-12">
                     <input type="hidden" name="subject" value="EthicalAds Community Ads Program inquiry" />
                     <input type="hidden" name="body" value="EthicalAds.io community ad inquiry" />
                     {% if page %}<input type="hidden" name="url" value="{{ page.url }}" />{% endif %}
-                    <input type="submit" value="Apply" class="btn btn-sm btn-primary">
-                    <small class="form-text text-muted">We take privacy seriously and we don't share your email. You aren't going to be added to any mailing lists.</small>
+                    <input type="submit" value="Apply" class="inline-block font-bold rounded transition-colors text-sm px-3 py-1 bg-primary hover:bg-primary-dark text-white px-4 py-2">
+                    <small class="form-text text-gray-500">We take privacy seriously and we don't share your email. You aren't going to be added to any mailing lists.</small>
                   </div>
 
 

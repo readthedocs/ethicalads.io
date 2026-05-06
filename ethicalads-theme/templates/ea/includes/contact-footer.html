@@ -8,19 +8,19 @@
 {#   pcontact_submit_helptext - help text below the submit button #}
 
 
-<section class="inbound-form py-10" id="inbound-form">
-  <div class="container">
+<section class="inbound-form py-32" id="inbound-form">
+  <div class="container mx-auto px-4">
 
-    <div class="row justify-content-center">
-      <div class="col-12 col-md-10 col-lg-8">
+    <div class="flex flex-wrap -mx-4 justify-center">
+      <div class="w-full px-4 col-md-10 lg:w-2/3">
 
         <!-- Card -->
-        <div class="card card-border border-primary shadow-light-lg">
-          <div class="card-body">
-            <div class="row justify-content-center">
-              <div class="col-12 col-xl-11">
+        <div class="bg-white rounded-lg shadow-md border border-gray-100 overflow-hidden dark:bg-gray-800 dark:border-gray-700 card-border border-primary shadow-light-lg">
+          <div class="p-6">
+            <div class="flex flex-wrap -mx-4 justify-center">
+              <div class="w-full px-4 col-xl-11">
 
-                <h2 class="font-weight-bold">{{ page.contact_footer_subject }}</h2>
+                <h2 class="font-bold">{{ page.contact_footer_subject }}</h2>
                 <p class="font-size-lg">{{ page.contact_footer_subheadline }}</p>
 
                 <!-- Front - Ads General/Press Inquiry Form -->
@@ -55,10 +55,10 @@
                   </div>
                   {% endif %}
 
-                  <div class="form-group my-5">
-                    <input type="submit" value="{% if page.contact_submit_text %}{{ page.contact_submit_text }}{% else %}Submit Inquiry{% endif %}" class="btn btn-sm btn-primary">
+                  <div class="form-group my-12">
+                    <input type="submit" value="{% if page.contact_submit_text %}{{ page.contact_submit_text }}{% else %}Submit Inquiry{% endif %}" class="inline-block font-bold rounded transition-colors text-sm px-3 py-1 bg-primary hover:bg-primary-dark text-white px-4 py-2">
                     {% if page.contact_submit_helptext %}
-                    <small class="form-text text-muted">{{ page.contact_submit_helptext }}</small>
+                    <small class="form-text text-gray-500">{{ page.contact_submit_helptext }}</small>
                     {% endif %}
                   </div>
                 </form>

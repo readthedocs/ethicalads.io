@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #2c82b9;
+  --color-primary-dark: #226b9a;
+}
+
+@layer base {
+  body {
+    @apply antialiased text-gray-900 bg-gray-50 dark:bg-gray-900 dark:text-gray-100;
+  }
+}
+
+@layer utilities {
+  .lift {
+    @apply transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg;
+  }
+  .lift-lg {
+    @apply transition-transform duration-300 hover:-translate-y-2 hover:shadow-xl;
+  }
+  .page {
+    @apply min-h-screen;
+  }
+}

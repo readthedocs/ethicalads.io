@@ -14,21 +14,18 @@ Leaving aside for a moment how that has conditioned people to discard their priv
 the experience is challenging on laptops. On mobile, it can be especially painful
 with the cookie banner often occupying the majority of the smartphone's screen.
 
-
 <div style="width: 300px; margin: 2rem auto;">
   <img class="w-100" src="{static}../images/posts/2021-cookie-banners-ft-example.png" alt="A cookie banner on the Financial Times taking up about half the screen">
   <p class="text-center"><small>A cookie banner on the Financial Times taking up about half the screen</small></p>
 </div>
 
-
 ## Why exactly are these cookie banners needed?
 
-The [EU's GDPR](https://gdpr.eu/cookies/) requires that web sites get consent from visitors *before* setting any non-essential cookies.
+The [EU's GDPR](https://gdpr.eu/cookies/) requires that web sites get consent from visitors _before_ setting any non-essential cookies.
 "Non-Essential Cookies" are those that are not strictly required for your site to function.
 For example, a cookie to keep you logged in may be essential but an analytics cookie from a third-party would not be.
 [California's Consumer Privacy Act](https://www.oag.ca.gov/privacy/ccpa) (CCPA) requires only that visitors be notified of the use of cookies
 if they are used for the purpose of collecting personal information; consent is not required.
-
 
 ## How can a site eliminate cookie banners?
 
@@ -43,7 +40,6 @@ Until recently these have been difficult to do without.
 Advertising is a proven business model for high traffic websites
 and analytics are critical to understanding your site and users.
 However, the internet has responded to users demand for increased privacy by providing privacy-aware services.
-
 
 ## Privacy-oriented services that eliminate the requirement of cookie banners
 
@@ -66,4 +62,4 @@ And [this approach works]({filename}ethical-advertising-works.md)!
 If you're tired of seeing a cookie banner on your site,
 [join EthicalAds]({filename}../pages/publishers.md) and ditch those annoying banners!
 
-*Thanks to Greg Muscarella for the inspiration and feedback on this post.*
+_Thanks to Greg Muscarella for the inspiration and feedback on this post._

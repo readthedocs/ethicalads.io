@@ -4,7 +4,6 @@ description: Over the last month, we talked to a few dozen hiring managers at te
 tags: hiring, readthedocs
 authors: David Fischer
 
-
 > This post first appeared
 > on the [Read the Docs company blog](https://blog.readthedocs.com/lessons-from-hiring-manager-interviews/)
 
@@ -23,30 +22,28 @@ the same interviews.
 Since this is a long post, I figured I'd share some of the key
 takeaways:
 
--   **Have a strategy for getting more referrals** whether that is
-    actively asking employees or having an overly generous referral
-    bonus. Referrals are probably your top source of candidates so
-    figuring out how to get more will save you time and money in the
-    end. Then do the same for your other best recruiting channels.
--   **Reach passive candidates**. There are a lot more passive
-    candidates than active ones so have a plan to reach them. Great
-    developers (especially senior ones) probably aren't actively
-    looking for a new job and it's a job-seekers market. Even if
-    somebody isn't considering a new job at all, the next time they do,
-    you want them to think of your company.
--   **Recruiting for diversity is a focus** for hiring managers. Put
-    together a concrete plan for getting more diverse candidates and
-    meeting your diversity goals. Engaging with local developer
-    communities and nonprofits and encouraging referrals worked well for
-    companies we talked to.
--   **Get more signal in your application process** by adding a step
-    such as a cover letter, quiz, or simply add a couple questions folks
-    have to answer. Making candidates spend even one extra minute on
-    their application can save you hours filtering resumes.
+- **Have a strategy for getting more referrals** whether that is
+  actively asking employees or having an overly generous referral
+  bonus. Referrals are probably your top source of candidates so
+  figuring out how to get more will save you time and money in the
+  end. Then do the same for your other best recruiting channels.
+- **Reach passive candidates**. There are a lot more passive
+  candidates than active ones so have a plan to reach them. Great
+  developers (especially senior ones) probably aren't actively
+  looking for a new job and it's a job-seekers market. Even if
+  somebody isn't considering a new job at all, the next time they do,
+  you want them to think of your company.
+- **Recruiting for diversity is a focus** for hiring managers. Put
+  together a concrete plan for getting more diverse candidates and
+  meeting your diversity goals. Engaging with local developer
+  communities and nonprofits and encouraging referrals worked well for
+  companies we talked to.
+- **Get more signal in your application process** by adding a step
+  such as a cover letter, quiz, or simply add a couple questions folks
+  have to answer. Making candidates spend even one extra minute on
+  their application can save you hours filtering resumes.
 
-
-Why is Read the Docs tackling hiring? Hasn't that been done?
--------------------------------------------------------------
+## Why is Read the Docs tackling hiring? Hasn't that been done?
 
 While we didn't initially think about Read the Docs ads for recruiting,
 based on some
@@ -74,9 +71,7 @@ but about right for a smaller company. When something costs 50+
 engineering hours to do, any improvement is worth a lot of time and
 money and at Read the Docs we believe we can help significantly here.
 
-
-Top hiring channels
--------------------
+## Top hiring channels
 
 It was no big surprise to hear that **referrals were the top hiring
 channel**. The second best channel was a bit of a surprise with local
@@ -101,9 +96,7 @@ very few great people are actively looking for a job.
 
 <img src="{static}../images/posts/2019-job-seeker-timeline.png" class="mw-100" alt="Job seeker timeline">
 
-
-Reaching people who aren't looking is critical
------------------------------------------------
+## Reaching people who aren't looking is critical
 
 One of our biggest takeaways from the interviews was that companies
 wanted to reach candidates before they started actively looking. Most of
@@ -131,9 +124,7 @@ of them are content at their current position. For those that aren't,
 this is a perfect place to showcase great companies and help Read the
 Docs' visitors to find their next job.
 
-
-Recruiters can be worth it
---------------------------
+## Recruiters can be worth it
 
 In each interview, we asked whether the company used recruiters or
 recruiting related services (eg. Hired, Triplebyte). Universally, hiring
@@ -149,14 +140,12 @@ at a startup that just raised a Series B. He's trying to grow his team
 by 10 developers this year (about a 50% increase). His experience hiring
 his first couple developers through a 2-person boutique recruiting firm
 was great and he would use them for hiring everyone "if hiring 10
-people didn't mean $100k+" in fees alone.
+people didn't mean \$100k+" in fees alone.
 
 Full disclosure: [Triplebyte](https://triplebyte.com) is an advertiser
 on Read the Docs. We're fans.
 
-
-Diversity and inclusivity in hiring
------------------------------------
+## Diversity and inclusivity in hiring
 
 We didn't ask any questions around hiring for diversity but fully six
 hiring managers volunteered information on their companies' strategies
@@ -186,9 +175,7 @@ important to your company, you need to have a plan for actually making
 those goals a reality. It's worth checking whether the strategy
 actually works too.
 
-
-Remember, sourcing is the bigger problem
-----------------------------------------
+## Remember, sourcing is the bigger problem
 
 Every single hiring manager we talked to complained about the time they
 spent filtering resumes from applicants. Some choice quotes I heard
@@ -226,9 +213,7 @@ they weren't considered. The latter solution seemed like the best of
 both worlds as it solves the one-click apply problem without being too
 much of a barrier.
 
-
-Thanks
-------
+## Thanks
 
 I'd like to thank all the hiring managers who took time out of their
 days (or in some cases evenings) to talk to us. If you're a hiring
@@ -239,7 +224,6 @@ touch](mailto:ads@ethicalads.io?subject=Lessons+From+Hiring+Managers+Post).
 Check back soon for our
 [next post in this series]({filename}tips-for-getting-a-developer-interview.md)
 which covers tips for candidates based on the same interviews!
-
 
 > Are you hiring?
 >

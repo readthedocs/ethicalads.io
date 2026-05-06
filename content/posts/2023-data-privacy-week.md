@@ -24,14 +24,13 @@ The open source [Chromium](https://www.chromium.org/) is actually the code upon 
 Google maintains the codebase, documentation, and [download site](https://download-chromium.appspot.com/),
 but as open source projects are wont to do,
 Chromium has expanded into hundreds if not thousands of splinter projects and companies.
-There's an entire section on the Chromium wikipedia page featuring the largest [browsers based on Chromium](https://en.wikipedia.org/wiki/Chromium_(web_browser)#Browsers_based_on_Chromium).
+There's an entire section on the Chromium wikipedia page featuring the largest [browsers based on Chromium](<https://en.wikipedia.org/wiki/Chromium_(web_browser)#Browsers_based_on_Chromium>).
 Many of which are privacy-focused browsers like [Brave](https://brave.com/),
 [Vivaldi](https://vivaldi.com/) and the [Avast Secure Browser](https://www.avast.com/secure-browser).
 
 The EthicalAds team relies on Firefox and Chromium.
 On mobile, DuckDuckGo has a [mobile browser](https://duckduckgo.com/app)
 with some intelligent tracker blocking built-in to keep you safe.
-
 
 ## Ad Blockers
 
@@ -51,7 +50,7 @@ as opposed to the detrimental effects of [surveillance advertising](https://www.
 
 As an alternative, some of our team relies on [Privacy Badger](https://privacybadger.org/).
 Privacy Badger is a browser extension from the Electronic Frontier Foundation, that isn't even an ad blocker.
-It only blocks *trackers*.
+It only blocks _trackers_.
 However, since most ad networks track users, it ends up blocking most ads (but not us).
 Privacy Badger also [doesn't rely](https://privacybadger.org/#How-does-Privacy-Badger-work) on suppression lists which is how most ad blockers work.
 Instead, it learns based on the sites you visit which sites are tracking you across domains and then
@@ -62,7 +61,6 @@ Privacy Badger is supported on Firefox, Chrome, Microsoft Edge, and Opera so if 
   <img class="w-50 shadow-lg" src="{static}../images/posts/2022-privacy-badger-bing.png" alt="Results of the EFF's Privacy Badger run on the Bing homepage">
   <p>Results of the EFF's Privacy Badger run on the Bing homepage</p>
 </div>
-
 
 ## Search Engines
 
@@ -77,7 +75,7 @@ have staked claim that search engines don't have to track users to be profitable
 I'd especially like to shoutout their great blog called [Spread Privacy](https://spreadprivacy.com/) which is filled with
 bite-sized articles on everything from personally actionable privacy tips
 to digests on the latest results from the privacy-focused research they're conducting.
-Not to mention how DuckDuckGo's supported the movement financially with [over $1,000,000 donated](https://spreadprivacy.com/2021-duckduckgo-donations/)
+Not to mention how DuckDuckGo's supported the movement financially with [over \$1,000,000 donated](https://spreadprivacy.com/2021-duckduckgo-donations/)
 to privacy and competition organizations in 2021 alone.
 DuckDuckGo is obviously a great pick for any privacy-concious netizen.
 
@@ -93,7 +91,6 @@ there's a number of great alternatives to Google.
   <img class="w-75 shadow-lg" src="{static}../images/posts/2022-search-engine-privacy-youcom.png" alt="Details of Python's hashlib in YouCode search">
   <p>Details of Python's hashlib in YouCode search</p>
 </div>
-
 
 ## Analytics
 
@@ -115,15 +112,14 @@ but also their [documentation](https://plausible.io/docs) (a cause near and dear
 Adding privacy-focused analytics has empowered us to take a more data-backed approach to our growth.
 We now assess the conversion rates of our A/B test variants for various house ads, landing page SEO-tweaks, as well as our other media inbounds
 in order to direct more time and resources to whichever growth channels are proving most effective,
-all *without* compromising the personal information of our visitors.
+all _without_ compromising the personal information of our visitors.
 That being said, Plausible has only a limited-time free trial period and so isn't necessarily a perfect fit for
 up-and-coming open source developers, technical tutorial creators, or data is beautiful enthusiasts who have yet to monetize their growing platforms.
 
 This is where our second privacy-preserving analytics recommendation shines.
-[Simple Analytics](https://simpleanalytics.com/?ref=ethicalads-blog) is a privacy-first analytics product designed specifically for *developers*. Sound familiar?
+[Simple Analytics](https://simpleanalytics.com/?ref=ethicalads-blog) is a privacy-first analytics product designed specifically for _developers_. Sound familiar?
 The resonance between the EthicalAds' [Our Ad Vision](https://www.ethicalads.io/advertising-vision/?ref=data-privacy-day-2022) and
 Simple Analytics' [Our Promise](https://simpleanalytics.com/our-promise) page is astounding.
-
 
 ## Conclusion
 
@@ -136,6 +132,5 @@ but every single product discussed has been used by one of us at EthicalAds.
 Thanks again for being along with us on this journey to build an ethical ad network.
 Please [email us](mailto:ads@ethicalads.io) if you have any privacy-first products that we should check out,
 we always love to hear from you.
-
 
 **Note:** the first version of the post appeared in 2022 but it has been updated for 2023.

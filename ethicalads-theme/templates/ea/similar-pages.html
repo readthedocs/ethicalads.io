@@ -2,27 +2,27 @@
 
 
 {% block content %}
-<section class="container py-5 mb-10">
+<section class="container mx-auto px-4 py-12 mb-32">
   <article class="page">
-    <h1 class="font-weight-light display-3">{{ page.title }}</h1>
+    <h1 class="font-light text-3xl md:text-4xl">{{ page.title }}</h1>
 
     <p>Try our machine-learning powered contextual targeting: Find and automatically target your campaign to the most-relevant pages across our advertising network based on your landing and product pages. Read more about <a href="/advertisers/niche-targeting/">how it works</a>.</p>
 
     <form name="similar-pages" id="similar-pages" data-bind="submit: getSimilarPages">
       <div class="form-row">
-        <div class="col mb-2">
+        <div class="flex-1 px-4 mb-2">
           <label for="urlInput" class="sr-only">Landing/Product Page URL</label>
           <input type="text" class="form-control" id="urlInput" name="url" data-bind="value: url" placeholder="http://example.com/product-page">
-          <small class="form-text text-muted">This works best (and our model was trained) on landing pages or product pages with plenty of marketing copy explaining your developer-focused product offering.</small>
+          <small class="form-text text-gray-500">This works best (and our model was trained) on landing pages or product pages with plenty of marketing copy explaining your developer-focused product offering.</small>
         </div>
         <div class="col-md-2 col-sm mb-2">
-          <button type="submit" class="btn btn-primary">Find&nbsp;similar&nbsp;pages</button>
+          <button type="submit" class="inline-block font-bold rounded transition-colors bg-primary hover:bg-primary-dark text-white px-4 py-2">Find&nbsp;similar&nbsp;pages</button>
         </div>
       </div>
     </form>
 
 
-    <div id="response" class="mt-5">
+    <div id="response" class="mt-12">
 
       <!-- Nothing loaded: prompt the user -->
       <div data-bind="if: state() != 'loading' && state() != 'loaded'">
@@ -33,7 +33,7 @@
       <!-- An error occurred -->
       <div data-bind="if: state() == 'error'">
         <div class="alert alert-warning" role="alert">
-          <h4 class="alert-heading font-weight-bold">An error occurred</h4>
+          <h4 class="alert-heading font-bold">An error occurred</h4>
           <div data-bind="if: statusMessage">
             <p class="font-italic">
               <span>Error message: </span>
@@ -73,23 +73,23 @@
 
           <div data-bind="foreach: results">
 
-            <div class="media mb-3">
+            <div class="media mb-4">
 
               <!-- OpenGraph image -->
               <div data-bind="if: $data.image">
-                <img src="#" alt="..." class="mr-3" width="32" height="32" data-bind="attr:{'src': $data.image}">
+                <img src="#" alt="..." class="mr-4" width="32" height="32" data-bind="attr:{'src': $data.image}">
               </div>
 
               <!-- Image placeholder -->
               <div data-bind="ifnot: $data.image">
-                <svg data-bind="ifnot: $data.image" class="bd-placeholder-img mr-3" width="32" height="32" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 32x32"><title>Placeholder</title><rect fill="none" stroke="black" width="100%" height="100%"></rect></svg>
+                <svg data-bind="ifnot: $data.image" class="bd-placeholder-img mr-4" width="32" height="32" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 32x32"><title>Placeholder</title><rect fill="none" stroke="black" width="100%" height="100%"></rect></svg>
               </div>
 
               <div class="media-body">
                 <h4 class="my-0">
                   <a href="#" data-bind="text: $data.title, attr:{'href': $data.url}" rel="nofollow noopener" target="_blank"></a>
                 </h4>
-                <h6 class="my-0 text-muted">
+                <h6 class="my-0 text-gray-500">
                   <span data-bind="if: $data.distance">
                     <span>Dist: </span>
                     <span data-bind="text: $data.distance.toLocaleString(undefined, {minimumFractionDigits: 4, maximumFractionDigits: 4})"></span>
@@ -106,9 +106,9 @@
         </div>
 
         <!-- CTA -->
-        <p class="mt-10 lead text-center">Want to run your next ad campaign across highly-relevant sites like these?</p>
-        <div class="my-5 text-center">
-          <a href="/advertisers/#inbound-form" class="btn btn-primary">Start your campaign today!</a>
+        <p class="mt-32 text-lg md:text-xl text-center">Want to run your next ad campaign across highly-relevant sites like these?</p>
+        <div class="my-12 text-center">
+          <a href="/advertisers/#inbound-form" class="inline-block font-bold rounded transition-colors bg-primary hover:bg-primary-dark text-white px-4 py-2">Start your campaign today!</a>
         </div>
       </div>
 

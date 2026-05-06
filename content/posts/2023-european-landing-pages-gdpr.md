@@ -5,7 +5,6 @@ tags: advertisers, business, gdpr
 authors: David Fischer
 image: /images/posts/2023-eu-landing-pages.png
 
-
 General Data Protection Regulation ([GDPR](https://gdpr.eu/))
 has had a huge effect on the web in Europe and on advertising in particular.
 While the GDPR helps safeguard user privacy and data security and broadly we're fans,
@@ -14,7 +13,6 @@ that can impact the performance of ad campaigns if you aren't careful.
 
 In this post, we'll explore some of the compliance issues that can arise, discuss alternatives,
 and provide practical steps to test your landing pages and maximize ad campaign effectiveness.
-
 
 ## The GDPR and its impact on advertising
 
@@ -28,7 +26,6 @@ and [the ePrivacy Directive](https://edps.europa.eu/data-protection/our-work/sub
 which came before it is ensuring that your landing pages don't get lost
 in the shadow of those ubiquitous and annoying cookie consent banners.
 
-
 <div class="postimage text-center">
   <img class="w-50 shadow-lg" src="{static}../images/posts/2023-okta-landing-page-banners.png" alt="Landing page for an Okta ad campaign as viewed from the Netherlands via a VPN">
   <p>It's not entirely clear what is being advertised on this ad landing page</p>
@@ -41,22 +38,20 @@ Cookies for targeting, remarketing, and tracking don't count as necessary.
 As an American who recently visited the EU, I was overwhelmed with the quantity and verbosity
 of the cookie banners I saw on the sites I normally browse from the USA when I visited the same sites from Europe.
 
-
 ## Optimizing landing pages with the GDPR in mind
 
 Ignoring the GDPR isn't an option but there are a number of ways to maintain
 both compliance and the user experience with European ad campaigns and landing pages:
 
-* Disable your analytics (statistics cookies) and retargeting (marketing cookies) on EU-focused landing pages. You don't need a cookie banner if you only have strictly necessary cookies or no cookies at all. This will involve finding other nonintrusive ways to attribute conversions to advertising, but your landing pages will convert better with fewer banners before the user learns about your product.
-* Create landing pages that are specific to the ad network used (eg. `www.example.com/ethical-ads`). When a user converts from that page, you will know it was the result of advertising.
-* Only use cookies and prompt for cookie consent later in the process after the visitor has read a little bit about your product. If the user is already interested, they are more likely to give their consent.
-* If you insist on having upfront cookies and therefore a banner, prioritize a thoughtful layout and messaging that respects user privacy and clearly communicates the purpose of data collection.
+- Disable your analytics (statistics cookies) and retargeting (marketing cookies) on EU-focused landing pages. You don't need a cookie banner if you only have strictly necessary cookies or no cookies at all. This will involve finding other nonintrusive ways to attribute conversions to advertising, but your landing pages will convert better with fewer banners before the user learns about your product.
+- Create landing pages that are specific to the ad network used (eg. `www.example.com/ethical-ads`). When a user converts from that page, you will know it was the result of advertising.
+- Only use cookies and prompt for cookie consent later in the process after the visitor has read a little bit about your product. If the user is already interested, they are more likely to give their consent.
+- If you insist on having upfront cookies and therefore a banner, prioritize a thoughtful layout and messaging that respects user privacy and clearly communicates the purpose of data collection.
 
 <div class="postimage text-center">
   <img class="w-50 shadow-lg" src="{static}../images/posts/2023-adobe-landing-page-banners.png" alt="Adobe landing page with a single cookie banner">
   <p>While this site has a cookie banner, most of the page and product is visible and apparent and the banner can be easily dismissed</p>
 </div>
-
 
 ## Testing your landing pages
 
@@ -81,7 +76,6 @@ can be even more annoying.
   <img class="w-75 shadow-lg" src="{static}../images/posts/2023-chrome-developer-tools.png" alt="Chrome incognito window with developer tools for simulating mobile devices and controlling cookies">
   <p>The Chrome developer tools combined with an incognito window allow simulating a new user visiting your landing page from their phone</p>
 </div>
-
 
 ## Wrapping it all up
 

@@ -5,7 +5,6 @@ tags: opensource, readthedocs
 authors: David Fischer
 image: /images/posts/2020-ethicalads-opensource.png
 
-
 > This post first appeared
 > on the [Read the Docs company blog](https://blog.readthedocs.com/advertising-improvements-2020/)
 
@@ -14,9 +13,7 @@ It's been a while since our
 and it felt like a good time to talk about what's working
 with our advertising model and how things are getting better.
 
-
-How advertising is working for Read the Docs
---------------------------------------------
+## How advertising is working for Read the Docs
 
 In our [2019 stats post](https://blog.readthedocs.com/read-the-docs-2019-stats/),
 we broke out our advertising revenue which was fairly flat
@@ -43,9 +40,7 @@ industry specifically. Advertising on Read the Docs is now close to
 capacity in the US, Canada, and Europe which are our largest advertising
 markets.
 
-
-Improved targeting for ads
---------------------------
+## Improved targeting for ads
 
 Advertising on Read the Docs is different from most ad networks out
 there. Our ad targeting is based on the content and the reader's
@@ -59,12 +54,12 @@ To start, we chose a few groups of content advertisers can target where
 we have enough traffic without the ads being focused on a tiny number of
 projects. These niches are:
 
--   Data science and machine learning
--   Frontend web development
--   Backend web development
--   Security
--   DevOps
--   Technical writing
+- Data science and machine learning
+- Frontend web development
+- Backend web development
+- Security
+- DevOps
+- Technical writing
 
 We tested this improved content targeting with a select group of
 advertisers and the results were great. In some cases we saw click
@@ -79,9 +74,7 @@ to our advertisers while still respecting the privacy of our readers.
 > them how they can reach over 7 million developers who Read the Docs each
 > month!
 
-
-Open sourcing our ad server
----------------------------
+## Open sourcing our ad server
 
 One thing we've wanted to do for a long time is open source the code we
 use to run advertising at Read the Docs. While there's always a bit of
@@ -99,9 +92,7 @@ the ground up with user privacy in mind. We're excited to share it with
 you so please [check out the code on
 GitHub](https://github.com/readthedocs/ethical-ad-server).
 
-
-Conclusion
-----------
+## Conclusion
 
 Just as we're constantly delivering improvements to Read the Docs
 itself for our readers and project maintainers, we also strive to give a

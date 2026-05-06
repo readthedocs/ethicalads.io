@@ -6,7 +6,6 @@ authors: David Fischer
 image: /images/posts/2021-post-cookie-world.jpg
 image_credit: <span>Photo by <a href="https://unsplash.com/@enginakyurt?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">engin akyurt</a> on <a href="https://unsplash.com/photos/WxUNinQmGy4?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
-
 Last week, [Google announced](https://www.blog.google/products/ads-commerce/a-more-privacy-first-web/)
 that after they phase out third-party cookies in Chrome next year,
 they "will not build alternate identifiers to track individuals as they browse across the web."
@@ -16,8 +15,7 @@ which block most third-party tracking out of the box.
 As more details started to come out about Google's vision, however,
 things started to get a bit murkier.
 
-*Update: After delaying phasing out third-party cookies multiple times and sometimes for reasons legitimately outside their control, Google is [no longer phasing out third-party cookies](https://privacysandbox.com/news/privacy-sandbox-update/). They will instead "introduce a new experience in Chrome that lets people make an informed choice that applies across their web browsing".*
-
+_Update: After delaying phasing out third-party cookies multiple times and sometimes for reasons legitimately outside their control, Google is [no longer phasing out third-party cookies](https://privacysandbox.com/news/privacy-sandbox-update/). They will instead "introduce a new experience in Chrome that lets people make an informed choice that applies across their web browsing"._
 
 ## Google's vision for the future of ads
 
@@ -31,7 +29,7 @@ while keeping targeted advertising just as effective.
 >
 > David Temkin
 >
-> *Director of Product Management, Ads Privacy and Trust at Google*
+> _Director of Product Management, Ads Privacy and Trust at Google_
 
 Instead of ad networks or ad tech companies keeping and storing data on users to target them with ads,
 Google is testing an approach they call [Federated Learning of Cohorts (FLoC)](https://github.com/WICG/floc)
@@ -55,7 +53,6 @@ so they can uniquely identify them more easily.
 Any site which supports logging in could easily request FLoC data and add it to users' data profiles,
 connecting that with the existing personal information they have on this user.
 
-
 ## What ad tech companies are doing about it
 
 The response from the ad tech side of the industry ranges
@@ -70,13 +67,13 @@ For many ad tech players, third-party cookies going away won't affect them at al
 The list of the techniques used to circumvent cookie restrictions
 is potentially endless but here are some common techniques:
 
-* **Fingerprinting:** As the EFF called out, fingerprinting,
+- **Fingerprinting:** As the EFF called out, fingerprinting,
   or the process of uniquely identifying individual users based on their browser
   and other data about them like their IP address is common practice in the ad tech space.
-* **Supercookies:** So called ["supercookies"](https://blog.mozilla.org/security/2021/01/26/supercookie-protections/)
+- **Supercookies:** So called ["supercookies"](https://blog.mozilla.org/security/2021/01/26/supercookie-protections/)
   use trackers hidden in other parts of browser like ETags or HSTS headers.
   These are not cleared by clearing cookies and can potentially identify users uniquely or be used with fingerprinting.
-* **CNAME Cloaking:** [CNAME Cloaking](https://webkit.org/blog/11338/cname-cloaking-and-bounce-tracking-defense/)
+- **CNAME Cloaking:** [CNAME Cloaking](https://webkit.org/blog/11338/cname-cloaking-and-bounce-tracking-defense/)
   involves a publisher setting up a subdomain for an ad tech tracker so it appears as a first-party domain for cookie purposes.
 
 Advertisers and ad tech companies are also leery of Google having too much control.
@@ -100,11 +97,8 @@ These tactics might delay things, but with users and governments asking for priv
 We generally oppose all of these attempts at tracking users across the web,
 and are building on a more privacy-focused foundation of contextual ad targeting.
 
-
-[comment]: # (Other changes coming to ad tech)
-[comment]: # (https://github.com/privacycg/private-click-measurement)
-
-
+[comment]: # "Other changes coming to ad tech"
+[comment]: # "https://github.com/privacycg/private-click-measurement"
 
 ## How do these changes affect ethical advertising?
 

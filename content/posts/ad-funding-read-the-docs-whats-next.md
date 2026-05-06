@@ -4,7 +4,6 @@ description: A progress report and next steps in launching an ethical advertisin
 tags: readthedocs
 authors: David Fischer
 
-
 > This post first appeared
 > on the [Read the Docs company blog](https://blog.readthedocs.com/ad-funding-read-the-docs-whats-next/)
 
@@ -15,8 +14,7 @@ and while we gave a limited update in our
 we figured it was time to give an update on ethical advertising and how
 it is working.
 
-Advertising without tracking
-----------------------------
+## Advertising without tracking
 
 **Our ethical advertising model is still going strong.** We proved that
 it is possible to build a business model on top of advertising without
@@ -26,7 +24,7 @@ behavoral profiles of large numbers of individual users. If you are
 browsing documentation for a Python project, you might see a relevant ad
 about Python. It's that simple and it works.
 
-Despite a slow start to the year, we expect to earn about $75,000 from
+Despite a slow start to the year, we expect to earn about \$75,000 from
 advertising in Q2. This brings our advertising revenue back to the level
 before our ads were
 [added to major ad blocking lists]({filename}ads-and-adblocking.md) last year.
@@ -38,33 +36,31 @@ full-time people. Compared with three years ago when we were scraping
 along with very little money, our community issue tracker and support
 requests receive prompt responses.
 
-Progress
---------
+## Progress
 
 We've made great progress on advertising over the past year.
 
--   We survived a major hit to revenue from ad blocking without
-    resorting to cat and mouse games of changing ad layouts and APIs to
-    avoid ad blockers.
--   Our [community ads
-    program](https://docs.readthedocs.io/page/advertising/ethical-advertising.html#community-ads)
-    has been significantly expanded. We are actively running free
-    community advertising promoting over ten open source projects and
-    conferences.
--   While we never tracked users with advertising, we put in place
-    stricter [Do Not Track](https://blog.readthedocs.com/do-not-track/)
-    privacy protections. We continue to believe that
-    advertising can be well targeted without tracking users.
--   We launched an advertising vertical to let companies
-    [promote their open jobs]({filename}lessons-from-hiring-manager-interviews.md) to developers.
--   Our advertising revenue share program tripled in size.
+- We survived a major hit to revenue from ad blocking without
+  resorting to cat and mouse games of changing ad layouts and APIs to
+  avoid ad blockers.
+- Our [community ads
+  program](https://docs.readthedocs.io/page/advertising/ethical-advertising.html#community-ads)
+  has been significantly expanded. We are actively running free
+  community advertising promoting over ten open source projects and
+  conferences.
+- While we never tracked users with advertising, we put in place
+  stricter [Do Not Track](https://blog.readthedocs.com/do-not-track/)
+  privacy protections. We continue to believe that
+  advertising can be well targeted without tracking users.
+- We launched an advertising vertical to let companies
+  [promote their open jobs]({filename}lessons-from-hiring-manager-interviews.md) to developers.
+- Our advertising revenue share program tripled in size.
 
 Our ethical advertising approach, with no user tracking, has been key to
 our sustainability and has allowed Read the Docs to continue to build
 new features and give back to our community.
 
-What's next
-------------
+## What's next
 
 We have some really interesting developments coming regarding ethical
 advertising.
@@ -93,8 +89,7 @@ pro-privacy ad network built specifically to help fund open source,
 please [get in
 touch](mailto:ads@ethicalads.io?subject=Ethical%20Ad%20Network%20beta).
 
-Thanks
-------
+## Thanks
 
 Advertisers always have a choice where to direct their marketing spend
 and for many of them it would have been simpler to just go with the

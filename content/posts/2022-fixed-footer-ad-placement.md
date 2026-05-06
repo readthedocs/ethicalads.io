@@ -5,7 +5,6 @@ tags: ad-client
 authors: David Fischer
 image: /images/posts/2022-fixedfooter.png
 
-
 Last month, we released a new feature in our ad client
 that enabled publishers to quickly and easily add a floating, text-only ad placement
 fixed to their site footer without having to write custom code.
@@ -13,7 +12,6 @@ Ensuring an ad is unobtrusive, visible,
 and fits with the rest of a website goes a long way toward having good ad performance.
 By having a well-tested, high-performing placement out of the box,
 we can help publishers get something that works well quickly.
-
 
 ## Usage
 

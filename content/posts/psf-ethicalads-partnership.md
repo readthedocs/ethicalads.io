@@ -31,8 +31,8 @@ They were able to integrate our ad client,
 and manage the targeting on the backend of our ad server.
 The properties we are currently implementing sponsorship on are:
 
-* The [Python Package Index](https://pypi.org/project/urllib3/1.26.7/#changes)
-* The [PSF sponsor listing page](https://www.python.org/psf/sponsors/)
+- The [Python Package Index](https://pypi.org/project/urllib3/1.26.7/#changes)
+- The [PSF sponsor listing page](https://www.python.org/psf/sponsors/)
 
 <div style="width: 300px; margin: 2rem auto;">
   <img class="w-100" src="/theme/img/example-ads/aws-psf.png" alt="Example PSF placement">

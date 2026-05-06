@@ -2,26 +2,26 @@
 
 
 {% block content %}
-<section class="py-10">
-  <div class="container">
+<section class="py-32">
+  <div class="container mx-auto px-4">
 
-    <div class="mb-8">
-      <h1 class="font-weight-bold text-center">EthicalAds creative specs &amp; design</h1>
-      {% if page.subtitle %}<p class="lead text-center">{{ page.subtitle }}</p>{% endif %}
+    <div class="mb-24">
+      <h1 class="font-bold text-center">EthicalAds creative specs &amp; design</h1>
+      {% if page.subtitle %}<p class="text-lg md:text-xl text-center">{{ page.subtitle }}</p>{% endif %}
     </div>
 
-    <div class="row row-cols-1 row-cols-md-3 mb-8">
+    <div class="flex flex-wrap -mx-4 row-cols-1 row-cols-md-3 mb-24">
 
       <!-- The body -->
-      <div class="col mb-2">
-        <div class="card shadow-sm h-100">
-          <div class="card-body">
-            <h3 class="card-title">Ad body</h3>
-            <p class="card-text">The ad body can be <strong>up to 100 characters</strong> and can include an optional bold headline and call to action.</p>
+      <div class="flex-1 px-4 mb-2">
+        <div class="bg-white rounded-lg shadow-md border border-gray-100 overflow-hidden dark:bg-gray-800 dark:border-gray-700 shadow-sm h-100">
+          <div class="p-6">
+            <h3 class="text-xl font-bold mb-2">Ad body</h3>
+            <p class="text-gray-600">The ad body can be <strong>up to 100 characters</strong> and can include an optional bold headline and call to action.</p>
 
             <hr>
 
-            <div class="text-center small rounded py-3">
+            <div class="text-center small rounded py-4">
               <strong>Read the Docs for Business:</strong>
               <span> You write the docs. We do the rest. </span>
               <strong>Try it today!</strong>
@@ -31,15 +31,15 @@
       </div>
 
       <!-- The image -->
-      <div class="col mb-2">
-        <div class="card shadow-sm h-100">
-          <div class="card-body">
-            <h3 class="card-title">Ad image</h3>
-            <p class="card-text">The image is <strong>240*180 pixels</strong> to support high resolution displays, and is displayed at 120*90px. The image can be optional to support publishers who use text-only ads.</p>
+      <div class="flex-1 px-4 mb-2">
+        <div class="bg-white rounded-lg shadow-md border border-gray-100 overflow-hidden dark:bg-gray-800 dark:border-gray-700 shadow-sm h-100">
+          <div class="p-6">
+            <h3 class="text-xl font-bold mb-2">Ad image</h3>
+            <p class="text-gray-600">The image is <strong>240*180 pixels</strong> to support high resolution displays, and is displayed at 120*90px. The image can be optional to support publishers who use text-only ads.</p>
 
             <hr>
 
-            <div class="text-center rounded py-3">
+            <div class="text-center rounded py-4">
               <img src="/images/pages/rtd-ad-example.png" width="120" alt="Ad image example">
             </div>
           </div>
@@ -47,15 +47,15 @@
       </div>
 
       <!-- The link -->
-      <div class="col mb-2">
-        <div class="card shadow-sm h-100">
-          <div class="card-body">
-            <h3 class="card-title">Landing page URL</h3>
-            <p class="card-text">The URL is where users land after clicking and can include measurement parameters so you know the traffic came from us.</p>
+      <div class="flex-1 px-4 mb-2">
+        <div class="bg-white rounded-lg shadow-md border border-gray-100 overflow-hidden dark:bg-gray-800 dark:border-gray-700 shadow-sm h-100">
+          <div class="p-6">
+            <h3 class="text-xl font-bold mb-2">Landing page URL</h3>
+            <p class="text-gray-600">The URL is where users land after clicking and can include measurement parameters so you know the traffic came from us.</p>
 
             <hr>
 
-            <div class="text-center rounded py-3">
+            <div class="text-center rounded py-4">
               <code class="small">https://about.readthedocs.com/?utm_source=ethicalads</code>
             </div>
           </div>
@@ -64,12 +64,12 @@
 
     </div> <!-- /row -->
 
-    <div class="row">
-      <div class="col col-md-8 mx-auto text-center">
+    <div class="flex flex-wrap -mx-4">
+      <div class="flex-1 px-4 col-md-8 mx-auto text-center">
 
-        <h2 class="font-weight-bold mb-2">Putting it together: the final ad</h2>
+        <h2 class="font-bold mb-2">Putting it together: the final ad</h2>
 
-        <div class="mt-5 loaded raised" data-ea-type="image" data-ea-publisher="unknown">
+        <div class="mt-12 loaded raised" data-ea-type="image" data-ea-publisher="unknown">
           <div class="ea-content">
             <a href="https://about.readthedocs.com/?ref=ethicalads" rel="nofollow noopener" target="_blank">
               <img src="/images/pages/rtd-ad-example.png" alt="Read the Docs advertisement">
@@ -87,7 +87,7 @@
           </div>
         </div>
 
-        <div class="mt-5 loaded raised" data-ea-type="text" data-ea-publisher="unknown">
+        <div class="mt-12 loaded raised" data-ea-type="text" data-ea-publisher="unknown">
           <div class="ea-content">
             <div class="ea-text">
               <a href="https://about.readthedocs.com/?ref=ethicalads" rel="nofollow" target="_blank">
@@ -108,10 +108,10 @@
 </section>
 
 
-<section class="container py-5" id="performance-tips">
-  <h2 class="font-weight-bold mb-8 text-center">Tips to improve your ad performance</h2>
-  <div class="row mb-5">
-    <div class="col col-md-6 mx-auto">
+<section class="container mx-auto px-4 py-12" id="performance-tips">
+  <h2 class="font-bold mb-24 text-center">Tips to improve your ad performance</h2>
+  <div class="flex flex-wrap -mx-4 mb-12">
+    <div class="flex-1 px-4 w-full md:w-1/2 mx-auto">
       <ul>
         <li>Provide 2 or more variations of the ad.</li>
         <li>Make sure to provide at least one of a headline or call to action.</li>
@@ -127,11 +127,11 @@
 
 
 
-<section class="container py-5" id="top-examples">
-  <h2 class="font-weight-bold mb-8 text-center">Top performing examples</h2>
-  <div class="row mb-5">
+<section class="container mx-auto px-4 py-12" id="top-examples">
+  <h2 class="font-bold mb-24 text-center">Top performing examples</h2>
+  <div class="flex flex-wrap -mx-4 mb-12">
 
-    <div class="col col-md-4 mb-3 text-center">
+    <div class="flex-1 px-4 w-full md:w-1/3 mb-4 text-center">
       <div class="loaded raised" data-ea-type="image" data-ea-publisher="unknown">
         <div class="ea-content">
           <a href="#" rel="nofollow noopener" target="_blank">
@@ -151,7 +151,7 @@
       </div>
     </div>
 
-    <div class="col col-md-4 mb-3 text-center">
+    <div class="flex-1 px-4 w-full md:w-1/3 mb-4 text-center">
       <div class="loaded raised" data-ea-type="image" data-ea-publisher="unknown">
         <div class="ea-content">
           <a href="#" rel="nofollow noopener" target="_blank">
@@ -171,7 +171,7 @@
       </div>
     </div>
 
-    <div class="col col-md-4 mb-3 text-center">
+    <div class="flex-1 px-4 w-full md:w-1/3 mb-4 text-center">
       <div class="loaded raised" data-ea-type="image" data-ea-publisher="unknown">
         <div class="ea-content">
           <a href="#" rel="nofollow noopener" target="_blank">
@@ -196,20 +196,20 @@
 </section>
 
 
-<section class="container py-5" id="we-work-with-you">
-  <h2 class="font-weight-bold mb-8 text-center">We work with you to help your campaign succeed</h2>
-  <div class="row mb-5">
-    <div class="col-12 col-md-6 mb-3">
-      <h4 class="font-weight-bold">Need help with your creatives?</h4>
+<section class="container mx-auto px-4 py-12" id="we-work-with-you">
+  <h2 class="font-bold mb-24 text-center">We work with you to help your campaign succeed</h2>
+  <div class="flex flex-wrap -mx-4 mb-12">
+    <div class="w-full px-4 md:w-1/2 mb-4">
+      <h4 class="font-bold">Need help with your creatives?</h4>
       <p>We are happy to help you get your campaign up and running. If you have creatives you're running successfully elsewhere, we can help you adapt them to our ad formats. If you need more help creating ads that convert, let us know. We've run a lot of campaigns on our network and we know what works.</p>
     </div>
-    <div class="col-md-6">
-      <h4 class="font-weight-bold" id="faq-how-much">We ensure your ads are working</h4>
+    <div class="w-full md:w-1/2 px-4">
+      <h4 class="font-bold" id="faq-how-much">We ensure your ads are working</h4>
       <p>We check-in on your campaign multiple times with tips about what is working and what isn't. We want your campaign to work well and we give you advice throughout the duration and work with you to make it successful.</p>
     </div>
   </div>
 
-  <p class="mt-6 text-center">
+  <p class="mt-16 text-center">
     <a href="/advertisers/help-with-your-ads/">Learn more</a> about how we help you run a successful campaign.
   </p>
 </section>
