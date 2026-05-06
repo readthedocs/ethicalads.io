@@ -1,16 +1,16 @@
-<section class="inbound-form bg-gray-200 py-10" id="inbound-form">
-  <div class="container">
+<section class="inbound-form bg-gray-200 py-32" id="inbound-form">
+  <div class="container mx-auto px-4">
 
-    <div class="row justify-content-center">
-      <div class="col-12 col-md-10 col-lg-8">
+    <div class="flex flex-wrap -mx-4 justify-center">
+      <div class="w-full px-4 col-md-10 lg:w-2/3">
 
         <!-- Card -->
-        <div class="card card-border border-primary shadow-light-lg">
-          <div class="card-body">
-            <div class="row justify-content-center">
-              <div class="col-12 col-xl-11">
+        <div class="bg-white rounded-lg shadow-md border border-gray-100 overflow-hidden dark:bg-gray-800 dark:border-gray-700 card-border border-primary shadow-light-lg">
+          <div class="p-6">
+            <div class="flex flex-wrap -mx-4 justify-center">
+              <div class="w-full px-4 col-xl-11">
 
-                <h2 class="font-weight-bold">{% if page.inbound_form_title %}{{ page.inbound_form_title }}{% else %}Apply to be publisher today{% endif %}</h2>
+                <h2 class="font-bold">{% if page.inbound_form_title %}{{ page.inbound_form_title }}{% else %}Apply to be publisher today{% endif %}</h2>
                 <p class="font-size-lg">{% if page.inbound_form_subtitle %}{{ page.inbound_form_subtitle }}{% else %}Tell us more about you and your site and a member of our team will get back to you about joining the EthicalAds network.{% endif %}</p>
 
                 <!-- Front - Publisher Inquiry Form -->
@@ -46,7 +46,7 @@
                       <option value="250k-1M">250,000 to 1,000,000</option>
                       <option value="1M+">1,000,000+</option>
                     </select>
-                    <small class="form-text text-muted"><strong>We are looking for developer-focused sites doing 50k+ pageviews per month.</strong></small>
+                    <small class="form-text text-gray-500"><strong>We are looking for developer-focused sites doing 50k+ pageviews per month.</strong></small>
                   </div>
 
                   <div class="form-group">
@@ -86,14 +86,14 @@
                   <div class="form-group">
                     <label for="notes">Notes</label>
                     <textarea class="form-control" id="notes" name="notes" placeholder="My traffic is mostly Python devs located in Europe" ></textarea>
-                    <small class="form-text text-muted">Anything else you'd like us to know?</small>
+                    <small class="form-text text-gray-500">Anything else you'd like us to know?</small>
                   </div>
 
-                  <div class="form-group my-5">
+                  <div class="form-group my-12">
                     <input type="hidden" name="body" value="Incoming publisher request">
                     {% if page %}<input type="hidden" name="url" value="{{ page.url }}" />{% endif %}
-                    <input type="submit" value="Become a publisher" class="btn btn-sm btn-primary">
-                    <small class="form-text text-muted">We take privacy seriously and we don't share your email. You aren't going to be added to any mailing lists.</small>
+                    <input type="submit" value="Become a publisher" class="inline-block font-bold rounded transition-colors text-sm px-3 py-1 bg-primary hover:bg-primary-dark text-white px-4 py-2">
+                    <small class="form-text text-gray-500">We take privacy seriously and we don't share your email. You aren't going to be added to any mailing lists.</small>
                   </div>
                 </form>
 

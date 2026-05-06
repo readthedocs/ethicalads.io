@@ -6,7 +6,6 @@ authors: Ra Cohen
 image: /images/posts/2022-community-ads-rfp.jpg
 image_credit: <span>Photo by <a href="https://unsplash.com/@presetbase?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Presetbase Lightroom Presets</a> on <a href=" https://unsplash.com/photos/QN6NkYi3CKs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>
 
-
 Here at EthicalAds, we believe advertising can be used as a force for good, supporting open source and fostering community among devs across the world.
 
 ## Seeking proposals for our Community Ads Program
@@ -19,7 +18,6 @@ Historically, we've been proactive about reaching out to causes that we personal
 Do you have an open source project that is entirely free to use that you'd like to share with the world?
 Do you run a conference or are starting a local chapter of a developer group that you'd like to advertise?
 [Let us know](https://www.ethicalads.io/community-ads/?ref=community-ads-rfp)!
-
 
 ## Previous Community Ads
 
@@ -43,7 +41,6 @@ Some examples of ads we've run before:
 
 As you can see, these are often ads for regional technical conferences but they don't have to be.
 We'd love to run more ads supporting the developer community either by raising awareness for dev-focused charities or non-profit organizations.
-
 
 ## Know of a worthy cause?
 

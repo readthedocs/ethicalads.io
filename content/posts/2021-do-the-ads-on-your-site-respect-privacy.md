@@ -6,7 +6,6 @@ authors: David Fischer
 image: /images/posts/2021-privacy-respect.jpg
 image_credit: <span>Photo by <a href="https://unsplash.com/@matthewhenry?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Matthew Henry</a> on <a href="https://unsplash.com/photos/fPxOowbR6ls?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
-
 As a website owner (a publisher), you take pride in the work you put on the internet.
 However, with many approaches to online advertising, your users could be sharing more with ad networks than you think.
 You know some online advertising collects data about your visitors,
@@ -14,17 +13,16 @@ but maybe you aren't quite sure how that works or what you can do to stop it.
 Are the ads you're running on your site spying on you and your users?
 Here's some red flags:
 
-* **External resources:** Does your ad network allow advertisers to run their own scripts or load resources on your site?
-* **Surveillance tech:** Does your ad network use things like cross-site cookies, fingerprinting, or other tracking technologies?
-* **Personalized targeting:** Does your ad network allow targeting that is so specific as to be nearly personal?
-* **Cookie warnings:** Does your ad network recommend you have a cookie warning to comply with privacy regulation?
-* **Data broker:** Does your ad network make money exclusively from ads? Or are they also selling user data?
+- **External resources:** Does your ad network allow advertisers to run their own scripts or load resources on your site?
+- **Surveillance tech:** Does your ad network use things like cross-site cookies, fingerprinting, or other tracking technologies?
+- **Personalized targeting:** Does your ad network allow targeting that is so specific as to be nearly personal?
+- **Cookie warnings:** Does your ad network recommend you have a cookie warning to comply with privacy regulation?
+- **Data broker:** Does your ad network make money exclusively from ads? Or are they also selling user data?
 
 Do you know the answers to the questions above for the ads running on your site.
 Ask your ad network and see what they say.
 Better yet, run a privacy scanner like [Blacklight](https://themarkup.org/blacklight)
 on your site and see what user tracking technologies are running.
-
 
 ## Advertiser provided cookies, code, or resources
 
@@ -61,7 +59,6 @@ Advertising can work without knowing any personal details or past sites you've v
 With us, you don't need a [cookie warning banner]({filename}2021-can-you-remove-cookie-banners.md)
 and the ads on your site will already comply with privacy regulation like the GDPR.
 
-
 ## Fingerprinting, supercookies, and other nefarious tracking tech
 
 Some common browsers like Firefox and Safari already block many third-party cookies.
@@ -71,17 +68,17 @@ in an attempt to uniquely identify visitors for ad targeting.
 
 Fingerprinting and other tracking tech can take a few forms but some of the most common are:
 
-* **Browser Fingerprinting:** [Browser fingerprinting](https://ssd.eff.org/en/module/what-fingerprinting),
+- **Browser Fingerprinting:** [Browser fingerprinting](https://ssd.eff.org/en/module/what-fingerprinting),
   is the process of uniquely identifying individual users based on their browser
   and other data about them like their IP address.
   These browser attributes can be anything from how the browser identifies itself
   to settings you've changed to protect your privacy.
   Customizations can make your browser appear unique rather than look like everybody else.
-* **Supercookies:** So called ["supercookies"](https://blog.mozilla.org/security/2021/01/26/supercookie-protections/)
+- **Supercookies:** So called ["supercookies"](https://blog.mozilla.org/security/2021/01/26/supercookie-protections/)
   use trackers hidden in other parts of browser like local storage, ETags, or HSTS headers.
   These are not cleared by clearing cookies
   and can potentially identify users uniquely or be used in combination with fingerprinting.
-* **CNAME Cloaking:** [CNAME Cloaking](https://webkit.org/blog/11338/cname-cloaking-and-bounce-tracking-defense/)
+- **CNAME Cloaking:** [CNAME Cloaking](https://webkit.org/blog/11338/cname-cloaking-and-bounce-tracking-defense/)
   involves a publisher setting up a subdomain for an ad tech tracker.
   This can make a third-party cookie look like a first-party cookie and gets around most tracking protection.
 
@@ -95,7 +92,6 @@ You don't need to trust us. All our code
 &mdash; both the [client](https://github.com/readthedocs/ethical-ad-client) that runs on your site
 and the [server](https://github.com/readthedocs/ethical-ad-server) serving the ads &mdash; is open source.
 We don't track users to target them with ads because we're confident in our contextual targeting.
-
 
 ## Contextual targeting works
 

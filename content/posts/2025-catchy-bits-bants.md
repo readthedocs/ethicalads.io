@@ -6,7 +6,6 @@ authors: David Fischer
 image: /images/posts/2025-catchy-bits-bants.jpg
 skipimage: true
 
-
 Long time friends of the network [Catchy](https://www.catchyagency.com) had me on their podcast Bits and Bants
 to talk about developer marketing, adblockers, and how AI is and will continue to transform ad targeting and advertising more generally.
 

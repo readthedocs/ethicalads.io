@@ -1,4 +1,4 @@
-import * as jquery from 'jquery';
+
 const ko = require('knockout');
 
 

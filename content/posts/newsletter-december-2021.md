@@ -12,19 +12,18 @@ Happy New Year! December was a shorter month for us at EthicalAds so this update
 
 These are the major features we released in the last month:
 
-* Debuted the beta for our [sponsorship platform](https://www.ethicalads.io/sponsorship-platform/).
-* Released our [advertising prospectus](https://www.ethicalads.io/prospectus/ethicalads-advertiser-prospectus.pdf) for 2022.
+- Debuted the beta for our [sponsorship platform](https://www.ethicalads.io/sponsorship-platform/).
+- Released our [advertising prospectus](https://www.ethicalads.io/prospectus/ethicalads-advertiser-prospectus.pdf) for 2022.
 
 You can always see our latest server updates in our [ethical-ad-server changelog](https://ethical-ad-server.readthedocs.io/en/latest/developer/changelog.html) and [ethical-ad-client changelog](https://ethical-ad-client.readthedocs.io/en/latest/changelog.html).
-
 
 ## December advertising stats
 
 In December 2021:
 
-* We generated **$31,782.17** for our publishers.
-* We had **102 publishers** on our network with at least one paid ad impression.
-* We had **13,654,617** paid ad views across the world.
+- We generated **\$31,782.17** for our publishers.
+- We had **102 publishers** on our network with at least one paid ad impression.
+- We had **13,654,617** paid ad views across the world.
 
 As expected, our views did decrease precipitously during the holidays (down around 40% from November),
 but our revenue only decreased by 8% over the same time.
@@ -44,12 +43,10 @@ we are conducting exciting research into incorporating more complex natural lang
 
 The major features in our upcoming roadmap:
 
-* Improved keyword extraction occuring in the ad server as opposed to the ad client.
-* More intuitive graphs in the ad server for advertisers and publishers.
-* Adding view time reporting to ensure high quality views are counted as such.
-* Highlighting our 10% discount on ad buys over $3000 in the flight report page.
-
-
+- Improved keyword extraction occuring in the ad server as opposed to the ad client.
+- More intuitive graphs in the ad server for advertisers and publishers.
+- Adding view time reporting to ensure high quality views are counted as such.
+- Highlighting our 10% discount on ad buys over \$3000 in the flight report page.
 
 Thanks again for being along with us on this journey to build an ethical ad network.
 Please [email us](mailto:ads@ethicalads.io) if you have any ideas or feedback on our product or roadmap,

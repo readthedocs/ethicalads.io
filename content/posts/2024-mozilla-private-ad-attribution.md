@@ -4,8 +4,7 @@ description: Mozilla is the latest company to work on privacy-preserving ad attr
 tags: privacy, adtech, fingerprinting, attribution
 authors: David Fischer
 image: /images/posts/2024-mozilla-ppa-jumbotron.jpg
-image_credit: <span>Photo by <a href="https://unsplash.com/@nathanguzman?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Nathan  Guzman</a> on <a href="https://unsplash.com/photos/white-wall-paint-room-with-lights-turned-on-in-room-xZCJN3BFkWY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></span>
-
+image_credit: <span>Photo by <a href="https://unsplash.com/@nathanguzman?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Nathan Guzman</a> on <a href="https://unsplash.com/photos/white-wall-paint-room-with-lights-turned-on-in-room-xZCJN3BFkWY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></span>
 
 Back in June,
 [Mozilla acquired](https://blog.mozilla.org/en/mozilla/mozilla-anonym-raising-the-bar-for-privacy-preserving-digital-advertising/)
@@ -22,7 +21,6 @@ and we built a profitable business around it.
 In this post I'm going to dive deeper into ad attribution,
 what Mozilla is actually doing
 and what it means for privacy and advertising more generally.
-
 
 ## What is ad attribution and how does it work?
 
@@ -70,7 +68,6 @@ However, with Google reversing their decision, these attribution methods will co
   <p class="w-75 m-auto"><small>Anonym's promise for ad attribution: all the advertiser targeting benefits without compromising privacy (credit: <a rel="noopener noreferrer nofollow" href="https://www.anonymco.com/">Anonym's website</a>)</small></p>
 </div>
 
-
 ## Current landscape of privacy-preserving attribution
 
 In response to the outcry against tracking,
@@ -80,7 +77,6 @@ Nobody seems to agree on how to do it.
 At EthicalAds, we don't measure conversions for advertisers at all
 because we haven't found a method that we've been happy with from a privacy perspective
 and the methods outlined here that others have tried require controlling the browser:
-
 
 ### Private Click Measurement (Apple)
 
@@ -104,7 +100,6 @@ At EthicalAds, when Apple was promoting PCM, we tested it with our ad server.
 It seemed like a promising approach, but there was no interest in PCM
 from our advertisers so we never moved past testing.
 
-
 ### Attribution Reporting (Google)
 
 Google is (was?) working on a number of privacy focused advertising features
@@ -126,7 +121,6 @@ Like PCM, we've never had an advertiser ask about this type of attribution repor
 although we get requests (and respectfully decline) for Google ad pixels
 which are the non-privacy friendly way of doing ad measurement and attribution.
 
-
 ### Ad Confirmations (Brave)
 
 [Brave Browser](https://brave.com/) blocks many analytics tools like Google Analytics
@@ -142,7 +136,6 @@ I couldn't find a lot of details on exactly how this works
 and the [details I could find](https://github.com/brave/brave-browser/wiki/Security-and-privacy-model-for-ad-confirmations)
 related more to the blockchain-based rewards
 Brave gives to users who interact with ads.
-
 
 ## How does private ad attribution work and what's Mozilla testing?
 

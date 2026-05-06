@@ -2,57 +2,57 @@
 
 
 {% block content %}
-<section class="py-10">
-  <div class="container">
+<section class="py-32">
+  <div class="container mx-auto px-4">
 
-    <div class="mb-8">
-      <h1 class="font-weight-bold text-center">{{ page.title }}</h1>
-      {% if page.subtitle %}<p class="lead text-center">{{ page.subtitle }}</p>{% endif %}
+    <div class="mb-24">
+      <h1 class="font-bold text-center">{{ page.title }}</h1>
+      {% if page.subtitle %}<p class="text-lg md:text-xl text-center">{{ page.subtitle }}</p>{% endif %}
     </div>
 
     <div class="card-deck">
 
       <!-- Apply -->
-      <div class="card shadow-sm card-border card-border-xl border-primary">
-        <div class="card-body">
-          <h3 class="card-title">Step #1: Apply</h3>
-          <p class="card-text">The first step is <a href="/publishers/#inbound-form">applying to be a publisher</a>. We're actively seeking <strong>developer-focused sites with 50k+ monthly pageviews</strong>. Once accepted, you'll have access to our publisher dashboard with reporting.</p>
+      <div class="bg-white rounded-lg shadow-md border border-gray-100 overflow-hidden dark:bg-gray-800 dark:border-gray-700 shadow-sm card-border card-border-xl border-primary">
+        <div class="p-6">
+          <h3 class="text-xl font-bold mb-2">Step #1: Apply</h3>
+          <p class="text-gray-600">The first step is <a href="/publishers/#inbound-form">applying to be a publisher</a>. We're actively seeking <strong>developer-focused sites with 50k+ monthly pageviews</strong>. Once accepted, you'll have access to our publisher dashboard with reporting.</p>
         </div>
         <div class="card-footer pt-0">
           <hr>
 
-          <div class="text-center py-3">
+          <div class="text-center py-4">
             <img src="/theme/img/illustrations/illustration-3.png" alt="Apply to EthicalAds" class="w-75">
           </div>
         </div>
       </div>
 
       <!-- Setup -->
-      <div class="card shadow-sm card-border card-border-xl border-secondary">
-        <div class="card-body">
-          <h3 class="card-title">Step #2: Setup</h3>
-          <p class="card-text">Setup the EthicalAds <a href="https://ethical-ad-client.readthedocs.io/">ad client</a> on your site with your custom ID from our publisher dashboard. Out of the box you'll serve unpaid ads until your site is approved for paid ads.</p>
+      <div class="bg-white rounded-lg shadow-md border border-gray-100 overflow-hidden dark:bg-gray-800 dark:border-gray-700 shadow-sm card-border card-border-xl border-secondary">
+        <div class="p-6">
+          <h3 class="text-xl font-bold mb-2">Step #2: Setup</h3>
+          <p class="text-gray-600">Setup the EthicalAds <a href="https://ethical-ad-client.readthedocs.io/">ad client</a> on your site with your custom ID from our publisher dashboard. Out of the box you'll serve unpaid ads until your site is approved for paid ads.</p>
         </div>
 
-        <div class="card-footer pt-8"><!-- Extra padding to account for shorter text -->
+        <div class="card-footer pt-24"><!-- Extra padding to account for shorter text -->
           <hr>
 
-          <div class="text-center rounded py-3">
+          <div class="text-center rounded py-4">
             <img src="/images/pages/publishers/publisher-code-example.png" class="w-75" alt="Client code example">
           </div>
         </div>
       </div>
 
       <!-- Approval -->
-      <div class="card shadow-sm card-border card-border-xl border-success">
-        <div class="card-body">
-          <h3 class="card-title">Step #3: Approval</h3>
-          <p class="card-text">After configuring our ad client and seeing your first ad, the last step is to request approval for paid ads and configure how you'd like to be paid.</p>
+      <div class="bg-white rounded-lg shadow-md border border-gray-100 overflow-hidden dark:bg-gray-800 dark:border-gray-700 shadow-sm card-border card-border-xl border-success">
+        <div class="p-6">
+          <h3 class="text-xl font-bold mb-2">Step #3: Approval</h3>
+          <p class="text-gray-600">After configuring our ad client and seeing your first ad, the last step is to request approval for paid ads and configure how you'd like to be paid.</p>
         </div>
-        <div class="card-footer pt-10"><!-- Extra padding to account for shorter text -->
+        <div class="card-footer pt-32"><!-- Extra padding to account for shorter text -->
           <hr>
 
-          <div class="text-center py-3">
+          <div class="text-center py-4">
             <img src="/images/pages/publishers/publisher-dashboard-earnings.png" alt="Publisher earnings report" class="screenshot w-75">
           </div>
         </div>
@@ -64,14 +64,14 @@
 </section>
 
 
-<section class="container py-5" id="getting-approved">
-  <h2 class="font-weight-bold mb-8 text-center">Getting approved</h2>
+<section class="container mx-auto px-4 py-12" id="getting-approved">
+  <h2 class="font-bold mb-24 text-center">Getting approved</h2>
 
-  <div class="row">
-    <div class="col col-md-6">
+  <div class="flex flex-wrap -mx-4">
+    <div class="flex-1 px-4 w-full md:w-1/2">
       <div class="device device-macbook">
         <img src="/images/pages/publishers/publisher-stylized-screenshot-good.png" class="device-screen" alt="A single above-the-fold ad with good placement">
-        <img src="/theme/img/devices/macbook.svg" class="img-fluid" alt="">
+        <img src="/theme/img/devices/macbook.svg" class="max-w-full h-auto" alt="">
         <span class="text-success" style="position: absolute; top: 0; right: 5%; width: 15%">
           <svg xmlns="http://www.w3.org/2000/svg" width="100%" fill="currentColor" viewBox="0 0 16 16">
             <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"></path>
@@ -80,10 +80,10 @@
         </span>
       </div>
     </div>
-    <div class="col col-md-6">
+    <div class="flex-1 px-4 w-full md:w-1/2">
       <div class="device device-macbook">
         <img src="/images/pages/publishers/publisher-stylized-screenshot-bad.png" class="device-screen" alt="Unacceptable placement - multiple ads on the page">
-        <img src="/theme/img/devices/macbook.svg" class="img-fluid" alt="">
+        <img src="/theme/img/devices/macbook.svg" class="max-w-full h-auto" alt="">
         <span class="text-danger" style="position: absolute; top: 0; right: 5%; width: 15%">
           <svg xmlns="http://www.w3.org/2000/svg" width="100%" fill="currentColor" viewBox="0 0 16 16">
             <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"></path>
@@ -94,8 +94,8 @@
     </div>
   </div>
 
-  <div class="row my-5">
-    <div class="col col-md-6 mx-auto">
+  <div class="flex flex-wrap -mx-4 my-12">
+    <div class="flex-1 px-4 w-full md:w-1/2 mx-auto">
       <ul>
         <li>EthicalAds should be the only ad on the page (your own promotions are fine).</li>
         <li>The ad should be above the fold on both desktop and mobile. You can disable the ad on mobile if this isn't possible.</li>
@@ -109,17 +109,17 @@
 
 
 
-<section class="container py-5" id="maximize-ux-revenue">
-  <h2 class="font-weight-bold mb-8 text-center">Maximize UX &amp; Revenue</h2>
+<section class="container mx-auto px-4 py-12" id="maximize-ux-revenue">
+  <h2 class="font-bold mb-24 text-center">Maximize UX &amp; Revenue</h2>
   <p class="mx-auto text-center w-100 w-md-75">To ensure your site generates as much revenue from ads as possible, you need to make sure your ad placement and targeting complement your content.</p>
 
-  <div class="row row-cols-1 row-cols-md-2 mb-8">
+  <div class="flex flex-wrap -mx-4 row-cols-1 row-cols-md-2 mb-24">
 
     <!-- Light mode -->
-    <div class="col mb-2">
-      <div class="card shadow-sm h-100 card-border card-border-xl border-dark">
-        <div class="card-body text-center">
-          <h3 class="card-title">Light mode</h3>
+    <div class="flex-1 px-4 mb-2">
+      <div class="bg-white rounded-lg shadow-md border border-gray-100 overflow-hidden dark:bg-gray-800 dark:border-gray-700 shadow-sm h-100 card-border card-border-xl border-dark">
+        <div class="p-6 text-center">
+          <h3 class="text-xl font-bold mb-2">Light mode</h3>
 
           <div class="loaded horizontal raised" data-ea-type="image" data-ea-publisher="unknown">
             <div class="ea-content">
@@ -160,10 +160,10 @@
     </div>
 
     <!-- Dark mode -->
-    <div class="col mb-2">
-      <div class="card shadow-sm h-100 bg-dark card-border card-border-xl border-light">
-        <div class="card-body text-center">
-          <h3 class="card-title text-light">Dark mode</h3>
+    <div class="flex-1 px-4 mb-2">
+      <div class="bg-white rounded-lg shadow-md border border-gray-100 overflow-hidden dark:bg-gray-800 dark:border-gray-700 shadow-sm h-100 bg-gray-900 dark:bg-black card-border card-border-xl border-light">
+        <div class="p-6 text-center">
+          <h3 class="text-xl font-bold mb-2 text-light">Dark mode</h3>
 
           <div class="loaded dark horizontal raised" data-ea-type="image" data-ea-publisher="unknown">
             <div class="ea-content">
@@ -206,8 +206,8 @@
   </div>
 
 
-  <div class="row my-5" id="tips-written">
-    <div class="col col-md-9 mx-auto">
+  <div class="flex flex-wrap -mx-4 my-12" id="tips-written">
+    <div class="flex-1 px-4 col-md-9 mx-auto">
       <ul>
         <li>Choose the right ad placement for your site. There are options for <a href="https://ethical-ad-client.readthedocs.io/en/latest/#themes">vertical</a>, <a href="https://ethical-ad-client.readthedocs.io/en/latest/#horizontal-image">horizontal</a>, <a href="https://ethical-ad-client.readthedocs.io/en/latest/#dark-mode">dark mode</a>, <a href="https://ethical-ad-client.readthedocs.io/en/latest/#text-placement">text-only</a>, or <a href="https://ethical-ad-client.readthedocs.io/en/latest/#placement-style">floating placements</a>.</li>
         <li>Our site crawler will periodically crawl your site and index your pages so we can serve the best ad on any individual page with AI-powered contextual targeting. However, on single-page apps (SPAs) or publishers using our API, you can pass <a href="https://ethical-ad-client.readthedocs.io/en/latest/#page-specific-keywords">page-specific keywords</a> to ensure you get the best ad targeting.</li>
@@ -222,11 +222,11 @@
 </section>
 
 
-<section class="container py-5" id="more-questions">
-  <h2 class="font-weight-bold mb-8 text-center">More questions</h2>
-  <div class="row mb-5">
-    <div class="col-12 col-md-6">
-      <h4 class="font-weight-bold">How much will I make?</h4>
+<section class="container mx-auto px-4 py-12" id="more-questions">
+  <h2 class="font-bold mb-24 text-center">More questions</h2>
+  <div class="flex flex-wrap -mx-4 mb-12">
+    <div class="w-full px-4 md:w-1/2">
+      <h4 class="font-bold">How much will I make?</h4>
       <p>
         Try our <a href="/publishers/calculator/">publisher calculator</a> to get an estimate of your monthly payout.
         Generally publishers see around $2.50 per 1,000 pageviews (CPM),
@@ -234,8 +234,8 @@
         These numbers will vary based on your audience and topics that you write about.
       </p>
     </div>
-    <div class="col-12 col-md-6">
-      <h4 class="font-weight-bold">How can I be paid?</h4>
+    <div class="w-full px-4 md:w-1/2">
+      <h4 class="font-bold">How can I be paid?</h4>
       <p>
         We currently support payment via PayPal, OpenCollective, GitHub Sponsors, or a bank transfer (via Stripe).
         <strong>Our minimum payment to publishers is currently $50</strong>,
@@ -245,7 +245,7 @@
     </div>
   </div>
 
-  <p class="mt-6 text-center">
+  <p class="mt-16 text-center">
     Have even more questions? Our <a href="/publishers/faq/">Publisher FAQ</a> has more answers!
   </p>
 </section>

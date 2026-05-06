@@ -12,9 +12,9 @@ we'll also share our struggles and challenges.
 We believe strongly that being transparent and ethical go hand in hand,
 and will strive to share as much as we can.
 
-[comment]: # (The queries run to get this data, then computed in a spreadsheet for publisher rev)
-[comment]: # (?start_date=2020-08-01&end_date=2020-08-31&campaign_type=All+types&revenue_share_percentage=50.0)
-[comment]: # (?start_date=2020-08-01&end_date=2020-08-31&campaign_type=All+types&revenue_share_percentage=70.0)
+[comment]: # "The queries run to get this data, then computed in a spreadsheet for publisher rev"
+[comment]: # "?start_date=2020-08-01&end_date=2020-08-31&campaign_type=All+types&revenue_share_percentage=50.0"
+[comment]: # "?start_date=2020-08-01&end_date=2020-08-31&campaign_type=All+types&revenue_share_percentage=70.0"
 
 ## Advertising Stats
 
@@ -25,8 +25,8 @@ and revenue paid out is our most important stat.
 
 In August:
 
-* We generated **$5,375.22** for our publishers
-* We had **50 publishers** on our network with a paid ad impression
+- We generated **\$5,375.22** for our publishers
+- We had **50 publishers** on our network with a paid ad impression
 
 ## New features
 
@@ -36,11 +36,11 @@ and we really appreciate how understanding everyone has been with any confusion 
 
 The big things we added this month:
 
-* We added an explicit [Publisher Policy]({filename}../pages/publisher-policy.md) to set expectations in our relationship with our publishers.
-* We added an [FAQ]({filename}../pages/advertising-faq.md) to the EthicalAds site.
-* We documented our [Ad Vision]({filename}../pages/vision.md) on the website, showing how we're different than other ad networks.
-* We improved our fraud detection mechanisms to be smarter about rate limiting ad views and detect when users are using a proxy to view the documentation.
-* Publishers can now store payout setting in the dashboard directly. This improves our workflow for paying out publishers, hopefully making it smoother.
+- We added an explicit [Publisher Policy]({filename}../pages/publisher-policy.md) to set expectations in our relationship with our publishers.
+- We added an [FAQ]({filename}../pages/advertising-faq.md) to the EthicalAds site.
+- We documented our [Ad Vision]({filename}../pages/vision.md) on the website, showing how we're different than other ad networks.
+- We improved our fraud detection mechanisms to be smarter about rate limiting ad views and detect when users are using a proxy to view the documentation.
+- Publishers can now store payout setting in the dashboard directly. This improves our workflow for paying out publishers, hopefully making it smoother.
 
 You can always see the latest code updates in our [changelog](https://ethical-ad-server.readthedocs.io/en/latest/developer/changelog.html).
 
@@ -60,11 +60,11 @@ so folks have an idea of what we're working on this month.
 
 Our large roadmap items are:
 
-* Improve our codebase to support multiple placements for one Publisher. This will be useful for sites with multiple placements that want to track performance between them.
-* Unify the old advertising pages on Read the Docs with our new EthicalAds ones, making everything a bit clearer.
-* Improve Publisher onboarding, including sharing more information about expectations in a Publisher prospectus.
-* Ship our Q4 prospectus, with some additional improvements around explaining what EthicalAds is.
-* Write more blog content around how to market to developers.
+- Improve our codebase to support multiple placements for one Publisher. This will be useful for sites with multiple placements that want to track performance between them.
+- Unify the old advertising pages on Read the Docs with our new EthicalAds ones, making everything a bit clearer.
+- Improve Publisher onboarding, including sharing more information about expectations in a Publisher prospectus.
+- Ship our Q4 prospectus, with some additional improvements around explaining what EthicalAds is.
+- Write more blog content around how to market to developers.
 
 We're always open to additional feedback and ideas on our approach,
 so feel free to [email us](mailto:ads@ethicalads.io) directly.

@@ -36,7 +36,7 @@ which is around industry standard but slightly higher.
 This means you get 70% of the money that we make.
 
 We handle payouts once a month,
-with a minimum payment of **$50**.
+with a minimum payment of **\$50**.
 Our goal is to get payment to our publishers by the 15th of the month,
 with the payment being the balance at the end of the prior month.
 
@@ -52,7 +52,6 @@ in certain circumstances to process payouts.
 We will ask for this explicitly if and when we require it.
 We handle your information securely and it is deleted
 no later than 30 days after your next payout.
-
 
 ## Ad display validation
 

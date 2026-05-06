@@ -5,7 +5,6 @@ subtitle: Good ads speak directly to developers in their language, focused on th
 
 [comment]: <> (The top keywords getting to this page are: guidelines, marketing guide, examples)
 
-
 Marketing to developers is a unique challenge,
 and developer advertising in particular is difficult to get right.
 Our guidelines below are some of the best practices we've found from running hundreds of developer-focused campaigns on [our ad network](/our-audience/).
@@ -51,9 +50,9 @@ For a DevOps related ad, mentioning Kubernetes or Docker will grab attention.
 
 Great ads often feature:
 
-* A brief explanation of the product.
-* A free trial/demo.
-* A competitive discount.
+- A brief explanation of the product.
+- A free trial/demo.
+- A competitive discount.
 
 This informs the viewer of what to expect to see on the linked landing page after clicking the ad.
 
@@ -63,9 +62,9 @@ Developers come in all shapes, sizes, and [specialties](https://www.ethicalads.i
 only some are a perfect fit for your product or service.
 To get the most out of your campaign:
 
-* Make sure your geographic targeting matches the location of your desired customers.
-* Target a specific topic that's relevant to your business.
-* Craft a specific ad for each region of interest.
+- Make sure your geographic targeting matches the location of your desired customers.
+- Target a specific topic that's relevant to your business.
+- Craft a specific ad for each region of interest.
 
 These tips will help increase the click-through rate of your ads,
 and the likelihood of those users resulting in conversions.
@@ -89,13 +88,12 @@ without providing any new images, information, or offers.
 
 In terms of high-performing ad images we have a few recommendations:
 
-* **Conversion-focused campaigns**: Use simplified product screenshots, workflow diagrams, or other ad images that showcase the product.
-* **Brand advertising**: Include your logo somewhere in the ad image and product name in the ad copy. This can also include screenshots or workflows, or a large brand image.
-* **All campaigns**: Take inspiration from your landing pages for the ad images. This keeps things consistent and is an easy way to [pair ad copy with the landing page](#pair-ad-copy-with-the-landing-page).
+- **Conversion-focused campaigns**: Use simplified product screenshots, workflow diagrams, or other ad images that showcase the product.
+- **Brand advertising**: Include your logo somewhere in the ad image and product name in the ad copy. This can also include screenshots or workflows, or a large brand image.
+- **All campaigns**: Take inspiration from your landing pages for the ad images. This keeps things consistent and is an easy way to [pair ad copy with the landing page](#pair-ad-copy-with-the-landing-page).
 
 Our [SaaS product example](#saas-product) example shows a good combination of this approach,
 but it's worth trying more focused variations as well.
-
 
 ## Measuring conversions
 
@@ -109,18 +107,18 @@ We also have a few variables you can use in your landing page links
 in order to capture data about the publisher where the ad was clicked or the specific advertisement
 or very-broad, non-identifying information about the visitor:
 
-* `${publisher}` or `${publisher_slug}` is used to insert the slug of the publisher (all lowercase, no spaces)
-* `${publisher_name}` is used to insert the name of the publisher (may contain spaces)
-* `${advertisement}` or `${advertisement_slug}` is used to insert the slug of the specific ad that was served (all lowercase, no spaces)
-* `${advertisement_name}` is used to insert the name of the ad that was served (may contain spaces)
-* `${flight}` or `${flight_slug}` is used to insert the slug of the flight of the ad served (all lowercase, no spaces)
-* `${flight_name}` is used to insert the name of the flight of the ad served (may contain spaces)
-* `${country}` inserts the visitor's country
+- `${publisher}` or `${publisher_slug}` is used to insert the slug of the publisher (all lowercase, no spaces)
+- `${publisher_name}` is used to insert the name of the publisher (may contain spaces)
+- `${advertisement}` or `${advertisement_slug}` is used to insert the slug of the specific ad that was served (all lowercase, no spaces)
+- `${advertisement_name}` is used to insert the name of the ad that was served (may contain spaces)
+- `${flight}` or `${flight_slug}` is used to insert the slug of the flight of the ad served (all lowercase, no spaces)
+- `${flight_name}` is used to insert the name of the flight of the ad served (may contain spaces)
+- `${country}` inserts the visitor's country
   (2 characters, [ISO 3166 Alpha 2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) format or `None` when unknown).
   Examples: "US", "CA", or "GB".
   The country can be unknown even when an ad flight is targeted to a region or list of countries.
   Only impressions served within the targeted country list are billed to advertisers.
-* `${continent}` inserts the visitor's continent (2 characters or `None` when unknown).
+- `${continent}` inserts the visitor's continent (2 characters or `None` when unknown).
   Examples: "NA" for North America, "EU" for Europe, "OC" for Oceania.
 
 For example, using the landing page link below would let you measure EthicalAds as a whole
@@ -132,7 +130,6 @@ https://example.com?utm_medium=cpc&utm_source=ethicalads&utm_campaign=${flight}&
 
 Our advertiser platform will measure all performance metrics before a user clicks-through
 to your landing page like the number of impressions and click-through rate (CTR) your ads receive.
-
 
 ## Optimizing conversions
 
@@ -153,7 +150,7 @@ so use similar wording and images on your landing page.**
 
 In addition to just pairing with the copy, the ad can prepare the visitor
 for what will be on the landing page.
-A classic example of this is an ad that features a large discount (eg. "get $100 free credit").
+A classic example of this is an ad that features a large discount (eg. "get \$100 free credit").
 This large discount has set the expectation that the product will be fairly expensive,
 but the credit will give the customer a way to try it out.
 
@@ -162,10 +159,10 @@ but the credit will give the customer a way to try it out.
 Our account managers will work with you to ensure the success of your campaign
 with our in-depth guidance:
 
-* **Initial audit**: Before your campaign launches we look over your ads and give ideas for ad iterations based on what we've seen work in the past.
-* **Two-week check in**: After we get click-through data on your ad variations, we conduct additional analysis to recommend which ads to disable, and new iterations of your highest performing ads.
-* **Campaign Wrapup**: At the end of your campaign, we will share an analysis of how your campaign performed overall, and suggestions for next steps to continue iterating on your marketing goals.
-* **Video Overviews**: For campaigns over $15k/qtr, we provide custom video reports of your campaign that walk through your performance and any additional feedback that we have on your campaign.
+- **Initial audit**: Before your campaign launches we look over your ads and give ideas for ad iterations based on what we've seen work in the past.
+- **Two-week check in**: After we get click-through data on your ad variations, we conduct additional analysis to recommend which ads to disable, and new iterations of your highest performing ads.
+- **Campaign Wrapup**: At the end of your campaign, we will share an analysis of how your campaign performed overall, and suggestions for next steps to continue iterating on your marketing goals.
+- **Video Overviews**: For campaigns over \$15k/qtr, we provide custom video reports of your campaign that walk through your performance and any additional feedback that we have on your campaign.
 
 We are also available at any time during your campaign for feedback and suggestions on how to tweak your campaign to improve performance,
 along with our proactive outreach.

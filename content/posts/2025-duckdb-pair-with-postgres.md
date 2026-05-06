@@ -6,13 +6,11 @@ authors: David Fischer
 image: /images/posts/2025-duckdb-postgres.jpg
 image_credit: <span>Image created with <a href="https://chatgpt.com/" title="A duck and an elephant working on a computer to build an analytics platform. The image should have a lighthearted feel, be colorful, but be a bit funny and strange.">ChatGPT</a></span>
 
-
 Typically, our blog lives at the intersection of privacy, advertising,
 and building our business in this niche.
 This time, however, we're going to delve into some database scaling issues
 we have been hitting for some time and how we're solving them with DuckDB
 on top of our regular daily driver of PostgreSQL.
-
 
 ## Postgres can do just about everything
 
@@ -26,7 +24,6 @@ and combined with a read replica we scaled our setup to
 [hundreds of writes per second]({filename}../posts/2021-hundred-requests-per-second-with-django.md).
 At EthicalAds, we generally field ~4-5M ad requests per weekday and Postgres
 handles this kind of transaction processing effortlessly.
-
 
 ## What about analytical processing?
 
@@ -46,7 +43,6 @@ and store the results in a series of tables of daily aggregated data by publishe
 Altogether, queries take around 45 minutes to an hour and add significant load to our read replica.
 Occasionally, (or not so occasionally if they happen to coincide with the [autovacuum](https://www.postgresql.org/docs/current/runtime-config-autovacuum.html)), they will timeout and have to be re-run.
 Despite how much we love Postgres at EthicalAds, this specifically has felt like one of the most brittle pieces of our setup.
-
 
 ## Column-wise storage & DuckDB
 
@@ -72,7 +68,6 @@ once it's written, it's a great match for a write-once system.
 As a result, we began writing parquet files on a daily basis to cloud storage.
 [Apache Parquet files](https://parquet.apache.org/), are files optimized for column-wise data files
 that are widely supported by various tools including Python and DuckDB.
-
 
 <blockquote class="blockquote mb-2">
   <p class="mb-2">
@@ -110,12 +105,10 @@ duckdb.sql("""SELECT COUNT(*) FROM read_parquet("abfs://datalake/2025-02-01.parq
 duckdb.sql("""SELECT COUNT(*) FROM read_parquet("abfs://datalake/2025-01-*.parquet");""")
 ```
 
-
 ## Joining column-wise data with Postgres
 
 Creating our data lake of parquet files is cool,
 but the real power comes from "joining" this columnar optimized data back up against Postgres:
-
 
 ```python
 import duckdb
@@ -146,17 +139,16 @@ duckdb.sql("""
 
 This provides a number of advantages including:
 
-* Unlike some data warehouses that need **lots** of de-normalized data,
+- Unlike some data warehouses that need **lots** of de-normalized data,
   our parquet files only need the data required to make whatever aggregations we need.
   This keeps them small and fast.
   "Joining" the aggregated data back to Postgres for additional data is fast and easy.
-* It's possible to overload your production database with analytical queries,
+- It's possible to overload your production database with analytical queries,
   but you can't easily overload cloud storage from reading files.
-* It's even possible with the `COPY` command to run aggregations against parquet files
+- It's even possible with the `COPY` command to run aggregations against parquet files
   and copy the aggregated back to Postgres directly from DuckDB.
   This sounds counter-intuitive but if you're running many different kinds of aggregations
   against the same data, this can be faster than querying directly.
-
 
 ## A couple gotchas and other challenges
 
@@ -182,7 +174,6 @@ now that it [supports Azure storage](https://www.crunchydata.com/blog/pg_parquet
 Dumping parquets from Postgres directly would be much more optimized than
 doing that from DuckDB. DuckDB is still amazing for reading these files once they're written,
 but creating them directly with Postgres would be better still.
-
 
 ## Wrapup
 

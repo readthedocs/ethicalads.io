@@ -24,9 +24,9 @@ and have a similar audience of developer-focused sites.
 
 Quoting from [Simple Analytics' Our Promise](https://simpleanalytics.com/our-promise) page:
 
-* We will never collect personal information
-* We will never sell your data
-* No tracking pixels on our platform
+- We will never collect personal information
+- We will never sell your data
+- No tracking pixels on our platform
 
 Because they don't sell your data,
 they have to charge money to make the business work.
@@ -60,10 +60,10 @@ To get started apply to be a publisher and mention Simple Analytics in your emai
 
 > Offer Terms:
 
-> * You have a developer-focused site
-> * You have at least 20,000 paid ad views per month
-> * You agree with our [Publisher Policy](https://www.ethicalads.io/publisher-policy/)
-> * This deal is valid until December 31st, 2021, but we will continue to pay for Simple Analytics as long as you are a publisher on EthicalAds
+> - You have a developer-focused site
+> - You have at least 20,000 paid ad views per month
+> - You agree with our [Publisher Policy](https://www.ethicalads.io/publisher-policy/)
+> - This deal is valid until December 31st, 2021, but we will continue to pay for Simple Analytics as long as you are a publisher on EthicalAds
 
 > When you sign up through this deal,
 > EthicalAds will share your email with Simple Analytics so they can open a free account for you.

@@ -6,7 +6,6 @@ authors: David Fischer
 image: /images/posts/2019-hiring-interviews.jpg
 image_credit: <span>Photo by <a href="https://unsplash.com/@austindistel?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Austin Distel</a> on <a href="https://unsplash.com/photos/three-men-using-macbooks-_S7-KX8geL0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></span>
 
-
 > This post first appeared
 > on the [Read the Docs company blog](https://blog.readthedocs.com/tips-for-getting-a-developer-interview/)
 
@@ -27,13 +26,11 @@ Rather than covering how to crack developer interviews or how to gain
 the necessary technical skills, these tips will focus on getting your
 foot in the door. Specifically:
 
--   Making your application stand out
--   Improving your application response rate
--   Getting to the interview process
+- Making your application stand out
+- Improving your application response rate
+- Getting to the interview process
 
-
-When applying, go deep not wide
--------------------------------
+## When applying, go deep not wide
 
 > "I don't want candidates who drive by job sites and pepper every job
 > they find"
@@ -52,9 +49,7 @@ then check for opportunities".
 
 <img src="{static}../images/posts/2019-facebook-job-opening.png" class="mw-100" alt="Facebook job posting with almost 300 applications in 2 weeks on just one of the job sites where this is posted.">
 
-
-Spend a little more time on your application
---------------------------------------------
+## Spend a little more time on your application
 
 While it takes longer to apply to a job post that requires a cover
 letter or requires answers to a few questions, those are great ways to
@@ -79,24 +74,22 @@ While I know I said getting a developer job isn't a numbers game, this
 doesn't strictly mean you can use these techniques to apply to 2-3 jobs
 and you'll get hired. Sometimes by the time you apply, somebody is
 already in the final stages of getting hired. The position may not
-*really* be open anymore. Don't get discouraged in your job search.
+_really_ be open anymore. Don't get discouraged in your job search.
 **Finding the right match can take time.**
 
 <img src="{static}../images/posts/2019-duckduckgo-application-questions.png" class="mw-100" alt="Here's some of the questions from the DuckDuckGo application process.This is your place to stand out! DuckDuckGo was **not** one of the companies we interviewed.">
 
-
-Make yourself a referral: use your network
-------------------------------------------
+## Make yourself a referral: use your network
 
 Hiring managers universally told us their top recruiting channel is
 referrals from existing employees. As a candidate, use this knowledge to
 your advantage and **make yourself into a referral hire**.
 
--   Did you see an acquaintance on social media post about job openings
-    at their company?
--   Does a friend or a friend of friend work at the company?
--   Do you have a first connection (or a very good 2nd connection) on
-    LinkedIn who works there?
+- Did you see an acquaintance on social media post about job openings
+  at their company?
+- Does a friend or a friend of friend work at the company?
+- Do you have a first connection (or a very good 2nd connection) on
+  LinkedIn who works there?
 
 In all of these cases, you should contact that person before applying.
 Even if the person you know isn't on the hiring team, your contact
@@ -116,9 +109,7 @@ company makes it clear that you're very interested. You're far more
 likely to get a response, move on to the interview process, and
 ultimately get hired.
 
-
-Establishing contact with companies
------------------------------------
+## Establishing contact with companies
 
 Turning yourself into a referral is easier for a senior candidate. But
 what if this is your first or second job or don't know anybody at the
@@ -152,9 +143,7 @@ learn more directly from the source, and show you're interested.
 <img src="{static}../images/posts/2019-hiring-manager-phrases.png" class="mw-100" alt="Here's some of the phrases we heard from hiring managers in
 interviews.">
 
-
-Conclusion
-----------
+## Conclusion
 
 **By spending a bit more time on your application, establishing contact
 with the company, and asking good questions about the work and team, you
@@ -166,9 +155,7 @@ Using these methods will improve your response rate and **help you get
 the interview**. By doing a one-click apply on a job site, this is
 completely lost.
 
-
-Thanks
-------
+## Thanks
 
 Again, I'd like to thank all the hiring managers who took the time to
 talk to us.

@@ -5,7 +5,6 @@ tags: analytics, performance, publishers
 authors: David Fischer
 image: /images/posts/going-viral-2023.png
 
-
 Back in February, one of the publishers on our ad network went truly viral.
 Simon Willison is the author of [Datasette](https://datasette.io/),
 a tool for exploring and publishing data,
@@ -21,7 +20,6 @@ and what we've done since then to make sure EthicalAds will be better prepared i
   <img class="w-75 shadow-lg" src="{static}../images/posts/2023-musk-tweet-bing.png" alt="Elon Musk tweets a link to Simon's blog on Bing">
   <p>Elon Musk <a href="https://twitter.com/elonmusk/status/1625936009841213440">tweets</a> (X's?) a link directly to Simon's blog on AI-powered Bing</p>
 </div>
-
 
 ## Going viral vs. going truly viral
 
@@ -44,7 +42,6 @@ and over 1M additional requests.
   <img class="w-75 shadow-lg" src="{static}../images/posts/2023-cf-traffic-spike.png" alt="Traffic spiked to 200 requests per second at the peak">
   <p>Traffic spiked to 200 requests per second at the peak</p>
 </div>
-
 
 ## How our infrastructure responded
 
@@ -75,11 +72,10 @@ It's great for mitigating DDOS attacks
 (or an inadvertant one like the [Slashdot effect](https://en.wikipedia.org/wiki/Slashdot_effect))
 and not intended to optimize conversions.
 
-
 ## What we saw and how we responded
 
 Cloudflare Analytics showed that we were getting hammered by iPhones.
-Nine of our top 15 user agents were iPhones which is *not normal* for us at all.
+Nine of our top 15 user agents were iPhones which is _not normal_ for us at all.
 Under normal conditions, our network is about 90% desktop/laptop traffic.
 Developers read developer resources on computers, not their phones apparently.
 Briefly, we thought our ad server or one of our publishers was getting DDOSed
@@ -104,7 +100,6 @@ with the vast majority of that traffic coming from Twitter.
   <img class="w-75 shadow-lg" src="{static}../images/posts/2023-cloudflare-waf-challenge-phones.png" alt="A Cloudflare WAF rule to challenge any mobile user">
   <p>During the traffic spike, we considered creating a rule to challenge all mobile traffic</p>
 </div>
-
 
 ## Setting ourselves up for future success
 

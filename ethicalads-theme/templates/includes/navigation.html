@@ -1,64 +1,64 @@
-<nav class="navbar navbar-expand-lg navbar-light">
-  <div class="container">
+<nav class="w-full bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-800 py-4">
+  <div class="container mx-auto px-4 flex flex-wrap items-center justify-between">
 
     <!-- Brand -->
-    <a class="navbar-brand" href="/">
-      <img src="/theme/img/ethicalads-logo-blue.svg" class="navbar-brand-img" alt="EthicalAds">
+    <a class="inline-block" href="/">
+      <img src="/theme/img/ethicalads-logo-blue.svg" class="max-w-full h-8" alt="EthicalAds">
     </a>
 
     <!-- Toggler -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+    <button class="block lg:hidden text-gray-500 hover:text-gray-900 focus:outline-none" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
     </button>
 
     <!-- Collapse -->
-    <div class="collapse navbar-collapse" id="navbarCollapse">
+    <div class="hidden lg:flex lg:items-center lg:w-auto w-full" id="navbarCollapse">
 
       <!-- Toggler -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="block lg:hidden mt-4 text-gray-500 hover:text-gray-900" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="fa fa-close"></span>
       </button>
 
 
       <!-- Navigation -->
-      <ul class="navbar-nav ml-auto">
+      <ul class="flex flex-col lg:flex-row lg:space-x-6 mt-4 lg:mt-0">
 
         {% if DISPLAY_PAGES_ON_MENU %}
           {% for p in pages %}
-            <li class="nav-item">
-              <a class="nav-link {% if p == page %}active{% endif %}" href="/{{ p.url }}">{{ p.title }} {% if p == page %}<span class="sr-only">(current)</span>{% endif %}</a>
+            <li class="lg:ml-4">
+              <a class="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white {% if p == page %}font-bold{% endif %}" href="/{{ p.url }}">{{ p.title }} {% if p == page %}<span class="sr-only">(current)</span>{% endif %}</a>
             </li>
           {% endfor %}
         {% endif %}
 
         {% if DISPLAY_CATEGORIES_ON_MENU %}
           {% for cat, null in categories %}
-            <li class="nav-item">
-              <a class="nav-link {% if cat == category %}active{% endif %}" href="/{{ cat.url }}">{{ cat }} {% if cat == category %}<span class="sr-only">(current)</span>{% endif %}</a>
+            <li class="lg:ml-4">
+              <a class="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white {% if cat == category %}font-bold{% endif %}" href="/{{ cat.url }}">{{ cat }} {% if cat == category %}<span class="sr-only">(current)</span>{% endif %}</a>
             </li>
           {% endfor %}
         {% endif %}
 
         {% for title, link in MENUITEMS %}
-          <li class="nav-item">
-            <a class="nav-link mr-md-2" href="{{ link }}">{{ title }}</a>
+          <li class="lg:ml-4">
+            <a class="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white" href="{{ link }}">{{ title }}</a>
           </li>
         {% endfor %}
 
 
       </ul>
 
-      <ul class="navbar-nav ml-auto">
+      <ul class="flex flex-col lg:flex-row lg:ml-auto lg:space-x-4 mt-4 lg:mt-0">
 
         <!--{% for title, link in MENUITEMS_RIGHT %}
-          <li class="nav-item">
-            <a class="nav-link" href="{{ link }}">{{ title }}</a>
+          <li class="lg:ml-4">
+            <a class="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white" href="{{ link }}">{{ title }}</a>
           </li>
         {% endfor %}-->
 
         {% for title, link in MENUITEMS_CTA %}
-          <li class="nav-item lift">
-            <a class="nav-item btn btn-sm btn-outline-primary" href="{{ link }}">{{ title }}</a>
+          <li class="lg:ml-4 lift">
+            <a class="inline-block font-bold rounded transition-colors text-sm px-4 py-2 border border-primary text-primary hover:bg-primary hover:text-white" href="{{ link }}">{{ title }}</a>
           </li>
         {% endfor %}
 
