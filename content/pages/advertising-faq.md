@@ -62,7 +62,7 @@ More niche targeting is possible although campaigns may take longer to fulfill d
 
 ## How does topic targeting work?
 
-We analyze the publishers and web pages where are ads are shown
+We analyze the publishers and web pages where our ads are shown
 in order to understand what those pages are about.
 We use a contextual machine learning model trained on real pages where our ads appear
 and it classifies content into our topics (or no topic).

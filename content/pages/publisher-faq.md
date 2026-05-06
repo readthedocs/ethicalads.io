@@ -57,9 +57,9 @@ These numbers will vary based on your audience and topics that you write about
 since advertisers prices vary by geography and by topic.
 In addition, the performance of your ad placements are a factor
 since some advertisers pay per click rather than per impression.
-Generally, publishers see around $2.00 per 1,000 pageviews (CPM).
-North American pageviews usually bring in a little more than this.
-Traffic from Europe, Australia, or New Zealand is typically right about $2
+Generally, publishers see around $2.50 per 1,000 pageviews (CPM),
+assuming most of your traffic is from the EU and North America.
+Traffic from Australia or New Zealand is typically right around this same range,
 while ads shown to users in the rest of the world usually bring in less.
 
 

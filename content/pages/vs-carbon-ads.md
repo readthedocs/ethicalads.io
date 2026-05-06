@@ -241,7 +241,7 @@ Carbon Ads reserves the right to set cookies on your browser session, as well as
 >
 > — Carbon Ads (BuySellAds) [Privacy Policy](https://www.buysellads.com/about/privacy)
 
-EthicalAds will never set cookies on your users, and we don't use any user-specific data to target advertising. This means [you don't need a cookie banner]({filename}../posts/2021-can-you-remove-cookie-banners.md), we are GDPR-compliant, and your users data is not being tracked across the internet.
+EthicalAds will never set cookies on your users, and we don't use any user-specific data to target advertising. This means [you don't need a cookie banner]({filename}../posts/2021-can-you-remove-cookie-banners.md), we are GDPR-compliant, and your users' data is not being tracked across the internet.
 
 
 <a id="opensource"></a>

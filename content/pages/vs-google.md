@@ -195,7 +195,7 @@ When your user goes to your website, they are assuming they will only be sending
 
 **EthicalAds is 100% GDPR and CCPA compliant.**
 
-When you use EthicalAds, **we never set cookies on your users**, and we don't use any user-specific data to target advertising. This means [you don't need a cookie banner]({filename}../posts/2021-can-you-remove-cookie-banners.md) when you use our ads, and your users data is not being tracked across the internet.
+When you use EthicalAds, **we never set cookies on your users**, and we don't use any user-specific data to target advertising. This means [you don't need a cookie banner]({filename}../posts/2021-can-you-remove-cookie-banners.md) when you use our ads, and your users' data is not being tracked across the internet.
 
 
 <a id="transparency"></a>
