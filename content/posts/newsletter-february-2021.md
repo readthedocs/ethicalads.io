@@ -51,12 +51,11 @@ You can always see our latest updates in our [ethical-ad-server changelog](https
 
 ## Tricky bits
 
-We still aim to hire a part-time [account manager]({filename}/pages/jobs/account-manager-part-time.md)
+We still aim to hire a part-time account manager
 to help manage advertiser and publisher relationships.
 Hiring is always hard and takes a lot of time to do well.
 If this role sounds interesting to you,
-please [get in touch with any questions](mailto:ads@ethicalads.io?subject=Ads%20account%20manager%20role)
-or [apply]({filename}/pages/jobs/account-manager-part-time.md)!
+please [get in touch with any questions](mailto:ads@ethicalads.io?subject=Ads%20account%20manager%20role)!
 In addition, Read the Docs is hiring a [frontend developer](https://blog.readthedocs.com/job-frontend/).
 
 Infrastructure will continue to cause some headaches in the next few months.

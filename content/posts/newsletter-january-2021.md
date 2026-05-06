@@ -48,7 +48,7 @@ You can always see our latest updates in our [ethical-ad-server changelog](https
 
 ## Growing our team
 
-We posted a new part-time [job opening]({filename}/pages/jobs/account-manager-part-time.md)
+We posted a new part-time job opening
 and we're hoping to bring somebody on to help manage advertiser and publisher relationships.
 The job is going to be heavy on customer service but has some
 light sales and marketing involved too.
@@ -61,8 +61,7 @@ We pride ourselves on the high level of service we provide,
 and working closely with both publishers and advertisers helps to get great results.
 
 If this role sounds interesting to you,
-please [get in touch with any questions](mailto:ads@ethicalads.io?subject=Ads%20account%20manager%20role)
-or [apply]({filename}/pages/jobs/account-manager-part-time.md)!
+please [get in touch with any questions](mailto:ads@ethicalads.io?subject=Ads%20account%20manager%20role)!
 
 Also, Read the Docs is hiring a [frontend developer](https://blog.readthedocs.com/job-frontend/)
 and a [developer advocate with documentation skills](https://blog.readthedocs.com/job-devrel/).
