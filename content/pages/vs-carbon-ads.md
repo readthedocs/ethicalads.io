@@ -208,7 +208,7 @@ We have reports to show you exactly which sites are showing your ads.
 For sites showing ads from EthicalAds, we have a [revenue calculator]({filename}/pages/publisher-calculator.md)
 to help you understand and estimate how much you will earn with us.
 Just as we show advertisers where their ads appear,
-we show publishers the companies whose ads are appear on their site.
+we show publishers the companies whose ads appear on their site.
 
 
 <a id="support"></a>

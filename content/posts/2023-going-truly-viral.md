@@ -72,7 +72,7 @@ Ours stores only a week's worth of data.
 Rather than understanding user intent, it's used to get a snapshot of overall
 traffic, see who is hitting your servers and how frequently.
 It's great for mitigating DDOS attacks
-(or an inadvertant one like the [Slashdot effect](https://en.wikipedia.org/wiki/Slashdot_effect))
+(or an inadvertent one like the [Slashdot effect](https://en.wikipedia.org/wiki/Slashdot_effect))
 and not intended to optimize conversions.
 
 

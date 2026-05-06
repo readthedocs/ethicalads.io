@@ -42,7 +42,7 @@ Since data is transmitted to the servers of these search engines, there's no way
 <table class="w-100 mt-5 mb-5">
   <thead>
     <tr>
-      <th colspan="2"><!-- Intentially blank --></th>
+      <th colspan="2"><!-- Intentionally blank --></th>
       <th style="height: 8rem"><span class="small rotate-60-left">Google</span></th>
       <th style="height: 8rem"><span class="small rotate-60-left">Bing</span></th>
       <th style="height: 8rem"><span class="small rotate-60-left">DuckDuckGo</span></th>

@@ -13,7 +13,7 @@ The ad itself is undoubtedly tailored to your own personal interests or brands t
 Because you as a user, had no intention of shopping. Your purpose in logging on was to socialize, not to shop.
 
 
-## Intent is irreplacable
+## Intent is irreplaceable
 
 Search ads have been the dominant form of display ad since they were invented over 20 years ago and to no wonder.
 If a user is actively searching for a flower store, there is already an intent to purchase flowers present which motivated this search.

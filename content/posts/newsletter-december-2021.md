@@ -44,7 +44,7 @@ we are conducting exciting research into incorporating more complex natural lang
 
 The major features in our upcoming roadmap:
 
-* Improved keyword extraction occuring in the ad server as opposed to the ad client.
+* Improved keyword extraction occurring in the ad server as opposed to the ad client.
 * More intuitive graphs in the ad server for advertisers and publishers.
 * Adding view time reporting to ensure high quality views are counted as such.
 * Highlighting our 10% discount on ad buys over $3000 in the flight report page.

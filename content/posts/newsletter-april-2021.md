@@ -24,7 +24,7 @@ Here's the major features we added in the last month:
   and the ability to target more niches with high quality ads which is one of the keys to good ad performance.
 * In our ad server, we made a number of small improvements for our advertisers to improve their workflows
   and better allow them to make decisions to improve ad performance.
-  This included better ways to compare past performance to current performance and the ability to easily re-use
+  This included better ways to compare past performance to current performance and the ability to easily reuse
   past high-performing ads.
 * We also took the first steps toward prioritizing higher performing and higher priced ads.
   We believe this is the right step to ensure that publishers are getting the most they can from their ad spots,

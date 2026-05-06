@@ -22,7 +22,7 @@ Advertising without tracking
 it is possible to build a business model on top of advertising without
 resorting to user tracking. Unlike most other ad-supported sites, we
 show advertising based on the context of the page, not by creating
-behavoral profiles of large numbers of individual users. If you are
+behavioral profiles of large numbers of individual users. If you are
 browsing documentation for a Python project, you might see a relevant ad
 about Python. It's that simple and it works.
 
