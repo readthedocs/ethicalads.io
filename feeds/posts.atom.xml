@@ -2343,7 +2343,7 @@ Ours stores only a week's worth of data.
 Rather than understanding user intent, it's used to get a snapshot of overall
 traffic, see who is hitting your servers and how frequently.
 It's great for mitigating DDOS attacks
-(or an inadvertant one like the &lt;a href="https://en.wikipedia.org/wiki/Slashdot_effect"&gt;Slashdot effect&lt;/a&gt;)
+(or an inadvertent one like the &lt;a href="https://en.wikipedia.org/wiki/Slashdot_effect"&gt;Slashdot effect&lt;/a&gt;)
 and not intended to optimize conversions.&lt;/p&gt;
 &lt;h2 id="what-we-saw-and-how-we-responded"&gt;What we saw and how we responded&lt;/h2&gt;
 &lt;p&gt;Cloudflare Analytics showed that we were getting hammered by iPhones.
@@ -2710,7 +2710,7 @@ Facebook has their own much smaller one called Facebook Audience Network,
 but there are many smaller networks that focus on niches like ours (developers who care about privacy).
 &lt;a href="https://www.ethicalads.io/alternative-to-carbon-ads/"&gt;CarbonAds&lt;/a&gt; is probably the closest ad network to us.&lt;/p&gt;
 &lt;h3 id="publishers"&gt;Publishers&lt;/h3&gt;
-&lt;p&gt;Publishers are websties, apps, podcasts, or newsletters that show ads.
+&lt;p&gt;Publishers are websites, apps, podcasts, or newsletters that show ads.
 These range in size from small sites with very little traffic,
 up to some of the biggest ad-funded websites on the Internet.&lt;/p&gt;
 &lt;p&gt;Many very large publishers sell their ad inventory directly or even have their own ad server.
@@ -3563,7 +3563,7 @@ Since data is transmitted to the servers of these search engines, there's no way
 &lt;table class="w-100 mt-5 mb-5"&gt;
   &lt;thead&gt;
     &lt;tr&gt;
-      &lt;th colspan="2"&gt;&lt;!-- Intentially blank --&gt;&lt;/th&gt;
+      &lt;th colspan="2"&gt;&lt;!-- Intentionally blank --&gt;&lt;/th&gt;
       &lt;th style="height: 8rem"&gt;&lt;span class="small rotate-60-left"&gt;Google&lt;/span&gt;&lt;/th&gt;
       &lt;th style="height: 8rem"&gt;&lt;span class="small rotate-60-left"&gt;Bing&lt;/span&gt;&lt;/th&gt;
       &lt;th style="height: 8rem"&gt;&lt;span class="small rotate-60-left"&gt;DuckDuckGo&lt;/span&gt;&lt;/th&gt;
@@ -4308,7 +4308,7 @@ There were dozens of examples but to name some specific modules:&lt;/p&gt;
 they created dozens of fake sites and dozens of fake personas
 implying that they're doing this with some scale across other ad networks as well.
 These scams weren't particularly hard to see through but were more noteworthy for how shameless they were.
-In each case, the scammers were pretending to be the real developer while attemping to monetize that person's work.&lt;/p&gt;
+In each case, the scammers were pretending to be the real developer while attempting to monetize that person's work.&lt;/p&gt;
 &lt;p&gt;In a few examples where we could get the real developer's email address from their GitHub profile,
 we emailed the developer to see if they'd heard of this "unofficial mirror",
 but in each case they confirmed our suspicion that they hadn't.
@@ -5091,7 +5091,7 @@ While scrolling through your feed of …&lt;/p&gt;</summary><content type="html"
 While scrolling through your feed of friends and family, ads for random gadgets or cheesy games annoy many, but why?
 The ad itself is undoubtedly tailored to your own personal interests or brands that you like. So why is it irritating?
 Because you as a user, had no intention of shopping. Your purpose in logging on was to socialize, not to shop.&lt;/p&gt;
-&lt;h2 id="intent-is-irreplacable"&gt;Intent is irreplacable&lt;/h2&gt;
+&lt;h2 id="intent-is-irreplaceable"&gt;Intent is irreplaceable&lt;/h2&gt;
 &lt;p&gt;Search ads have been the dominant form of display ad since they were invented over 20 years ago and to no wonder.
 If a user is actively searching for a flower store, there is already an intent to purchase flowers present which motivated this search.
 The same can be true of software products and solutions. If a developer is using a search engine to find a cloud hosting service,
@@ -5164,7 +5164,7 @@ We also expanded our network adding 10 more publishers in March alone!&lt;/p&gt;
 &lt;h2 id="tricky-bits"&gt;Tricky bits&lt;/h2&gt;
 &lt;p&gt;We're on track to be sold out in North America and Europe by the end of April!
 This is great news for our publishers as it means we're able to pay them more money for their traffic.
-Our attention now turns back to acquiring more publishers and expanding our network to accomodate all of our advertisers' campaigns.&lt;/p&gt;
+Our attention now turns back to acquiring more publishers and expanding our network to accommodate all of our advertisers' campaigns.&lt;/p&gt;
 &lt;h2 id="upcoming-features"&gt;Upcoming features&lt;/h2&gt;
 &lt;p&gt;The major features in our upcoming roadmap:&lt;/p&gt;
 &lt;ul&gt;
@@ -5201,7 +5201,7 @@ once again served over &lt;strong&gt;2,500,000&lt;/strong&gt; sponsored logo pla
 &lt;h2 id="tricky-bits"&gt;Tricky bits&lt;/h2&gt;
 &lt;p&gt;We're still slightly undersold in February but making gains everyday.
 March is on track to beat February but in order to really set us over the top,
-we're trying to close more globally targetted campaigns.
+we're trying to close more globally targeted campaigns.
 The EthicalAds audience extends all around the globe!
 Getting new and exciting tools in front of developers that actually help them solve problems
 they're working on right now, is always exciting.
@@ -5311,7 +5311,7 @@ like our first &lt;a href="https://www.ethicalads.io/blog/2022/01/publisher-spot
 we are conducting exciting research into incorporating more complex natural language processing methods as a part of our decision engine.&lt;/p&gt;
 &lt;p&gt;The major features in our upcoming roadmap:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Improved keyword extraction occuring in the ad server as opposed to the ad client.&lt;/li&gt;
+&lt;li&gt;Improved keyword extraction occurring in the ad server as opposed to the ad client.&lt;/li&gt;
 &lt;li&gt;More intuitive graphs in the ad server for advertisers and publishers.&lt;/li&gt;
 &lt;li&gt;Adding view time reporting to ensure high quality views are counted as such.&lt;/li&gt;
 &lt;li&gt;Highlighting our 10% discount on ad buys over $3000 in the flight report page.&lt;/li&gt;
@@ -6457,7 +6457,7 @@ If you're looking for an ad network that won't compromise your audience,
 &lt;a href="https://www.ethicalads.io/publishers/"&gt;join EthicalAds&lt;/a&gt; and help preserve privacy on the web!&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Thanks to Greg Muscarella for the inspiration and feedback on this post.&lt;/em&gt;&lt;/p&gt;</content><category term="posts"/><category term="adtech"/><category term="publishers"/></entry><entry><title>Willful Words and Pretty Pictures</title><link href="https://www.ethicalads.io/blog/2021/05/willful-words-and-pretty-pictures/" rel="alternate"/><published>2021-05-20T00:00:00-07:00</published><updated>2021-05-20T00:00:00-07:00</updated><author><name>Ra Cohen</name></author><id>tag:www.ethicalads.io,2021-05-20:/blog/2021/05/willful-words-and-pretty-pictures/</id><summary type="html">&lt;h2 id="about-me"&gt;About Me&lt;/h2&gt;
 &lt;p&gt;I tried to backpeddle. "No one is personally listening in to your conversations, grandma, it was an analogy …&lt;/p&gt;</summary><content type="html">&lt;h2 id="about-me"&gt;About Me&lt;/h2&gt;
-&lt;p&gt;I tried to backpeddle. "No one is personally listening in to your conversations, grandma, it was an analogy." Explaining my new job to my grandmother was not going well. Bemoaning the evils of modern Ad Tech by highlighting how coporations were tracking her around the web &lt;em&gt;may&lt;/em&gt; not have been the wisest approach. Knowing that my grandmother is an avid online shopper, I tried another tact, "You know how when you're reading the news, you get those big flashy banners for stuff you already looked at and decided to not buy?"  "Oh, I see those all of the time!" Progress. "Yeah! They're big and flashy and purposefully annoying in order to distract you? My company is an advertising network that connects developer-focused publishers," "Developers?" Right, to my grandmother a developer worked in real estate. "Coders, like me - we connect techy publishers with relevant, respectful ads for products that actually work. And we do it without storing any information about you or what you were looking at!" My enthusiasm was met with silence and I was worried that I'd lost her again, "Grandma?" Hesitantly she spoke, "But does &lt;strong&gt;&lt;em&gt;it&lt;/em&gt;&lt;/strong&gt; work? Honey, my dad always said the louder the soap salesman, the more soap he'll sell." She then told me a story of her father, my great-grandfather, who was in fact a soap salesman himself.&lt;/p&gt;
+&lt;p&gt;I tried to backpeddle. "No one is personally listening in to your conversations, grandma, it was an analogy." Explaining my new job to my grandmother was not going well. Bemoaning the evils of modern Ad Tech by highlighting how corporations were tracking her around the web &lt;em&gt;may&lt;/em&gt; not have been the wisest approach. Knowing that my grandmother is an avid online shopper, I tried another tact, "You know how when you're reading the news, you get those big flashy banners for stuff you already looked at and decided to not buy?"  "Oh, I see those all of the time!" Progress. "Yeah! They're big and flashy and purposefully annoying in order to distract you? My company is an advertising network that connects developer-focused publishers," "Developers?" Right, to my grandmother a developer worked in real estate. "Coders, like me - we connect techy publishers with relevant, respectful ads for products that actually work. And we do it without storing any information about you or what you were looking at!" My enthusiasm was met with silence and I was worried that I'd lost her again, "Grandma?" Hesitantly she spoke, "But does &lt;strong&gt;&lt;em&gt;it&lt;/em&gt;&lt;/strong&gt; work? Honey, my dad always said the louder the soap salesman, the more soap he'll sell." She then told me a story of her father, my great-grandfather, who was in fact a soap salesman himself.&lt;/p&gt;
 &lt;p&gt;One morning in the summer of 1938, my great-grandfather was out for a walk by the river early and he noticed people washing their clothing in the river without bar soap. He decided then and there to tap that market and would go down on his walk every morning with a box full of soap to sell. Selling by the river early in the morning before the factory opened worked incredibly well, until other soap vendors realized the simplistic brilliance of his approach. Soon my great-grandfather was in competition and learned that he had to get creative with drawing attention. My grandmother cautioned me, "The loud, charismatic vendor inevitably sells more soap than the quiet, reserved one." Oy. This is the mindset that has been shaping advertising for the past 100 years; this is how we have arrived at the current state of the internet, almost unbrowsable without an ad-blocker thanks to pop-ups, banner ads, and booby-trapped x's. At least, we were getting somewhere. She definitely understood that our publishers were our river and that we are the soap-sellers, but how do I explain ad-blockers? So I asked my grandma "What if yelling was out-lawed?" "Make yelling illegal?" she repeated incredulously. I told her a little bit about how ad-blockers worked, mildly surprised that I hadn't already set her up with one when I set up her laptop, and explained that EthicalAds gets around ad-blockers &lt;em&gt;because&lt;/em&gt; our ads are quiet and reserved. "Hmmm..."  After careful consideration, she made up her mind.&lt;/p&gt;
 &lt;p&gt;"You have your foot in the door, not a seat at the table. Have you considered making your ads &lt;strong&gt;&lt;em&gt;~beautiful~&lt;/em&gt;&lt;/strong&gt;?"&lt;/p&gt;
 &lt;p&gt;I'm Ra Cohen: data scientist, people person, and the latest addition to the EthicalAds team. Using pretty pictures, willful words, and data science, I'm on a mission to help people reach their audience and tell their story.&lt;/p&gt;
@@ -6485,7 +6485,7 @@ we always love to hear from you.&lt;/p&gt;</content><category term="posts"/><cat
   and the ability to target more niches with high quality ads which is one of the keys to good ad performance.&lt;/li&gt;
 &lt;li&gt;In our ad server, we made a number of small improvements for our advertisers to improve their workflows
   and better allow them to make decisions to improve ad performance.
-  This included better ways to compare past performance to current performance and the ability to easily re-use
+  This included better ways to compare past performance to current performance and the ability to easily reuse
   past high-performing ads.&lt;/li&gt;
 &lt;li&gt;We also took the first steps toward prioritizing higher performing and higher priced ads.
   We believe this is the right step to ensure that publishers are getting the most they can from their ad spots,
