@@ -35,7 +35,7 @@ We also expanded our network adding 10 more publishers in March alone!
 
 We're on track to be sold out in North America and Europe by the end of April!
 This is great news for our publishers as it means we're able to pay them more money for their traffic.
-Our attention now turns back to acquiring more publishers and expanding our network to accomodate all of our advertisers' campaigns.
+Our attention now turns back to acquiring more publishers and expanding our network to accommodate all of our advertisers' campaigns.
 
 
 ## Upcoming features

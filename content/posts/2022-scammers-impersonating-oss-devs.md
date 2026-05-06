@@ -66,7 +66,7 @@ While the scammers seem to have temporarily stopped applying to our network,
 they created dozens of fake sites and dozens of fake personas
 implying that they're doing this with some scale across other ad networks as well.
 These scams weren't particularly hard to see through but were more noteworthy for how shameless they were.
-In each case, the scammers were pretending to be the real developer while attemping to monetize that person's work.
+In each case, the scammers were pretending to be the real developer while attempting to monetize that person's work.
 
 In a few examples where we could get the real developer's email address from their GitHub profile,
 we emailed the developer to see if they'd heard of this "unofficial mirror",

@@ -26,7 +26,7 @@ but there are many smaller networks that focus on niches like ours (developers w
 
 
 ### Publishers
-Publishers are websties, apps, podcasts, or newsletters that show ads.
+Publishers are websites, apps, podcasts, or newsletters that show ads.
 These range in size from small sites with very little traffic,
 up to some of the biggest ad-funded websites on the Internet.
 

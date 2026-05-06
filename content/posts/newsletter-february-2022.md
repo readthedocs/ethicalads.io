@@ -37,7 +37,7 @@ once again served over **2,500,000** sponsored logo placements in February.
 
 We're still slightly undersold in February but making gains everyday.
 March is on track to beat February but in order to really set us over the top,
-we're trying to close more globally targetted campaigns.
+we're trying to close more globally targeted campaigns.
 The EthicalAds audience extends all around the globe!
 Getting new and exciting tools in front of developers that actually help them solve problems
 they're working on right now, is always exciting.
