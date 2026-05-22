@@ -88,7 +88,7 @@ and these highly focused campaigns will be possible.
 It's not an understatement to say that this kind of more advanced contextual targeting is the future of EthicalAds.
 
 
-Another area we are looking at is to help [sponsorships]({filename}/pages/landing-pages/sponsorship.md)
+Another area we are looking at is to help sponsorships
 at large organizations deliver more value for sponsors.
 Currently, we're helping the Python Software Foundation
 to promote their sponsors across their ecosystem of web properties
