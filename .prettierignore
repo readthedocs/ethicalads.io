@@ -4,6 +4,7 @@
 *.js
 *.yml
 *.yaml
+*.md
 # Actually check these files
 !static-src/client.js
 !webpack.config.js
