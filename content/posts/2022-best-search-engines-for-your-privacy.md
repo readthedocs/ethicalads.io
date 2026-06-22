@@ -4,23 +4,19 @@ description: You care about your privacy. We have tips and recommendations to ke
 authors: David Fischer
 image: /images/posts/2022-search-engine-privacy-banner.png
 
-
-
 You don't have to use a search engine like Google which retains your queries forever to get great results anymore.
 Last month, we did a [privacy teardown]({filename}../posts/2022-privacy-teardown-search-engines.md) of some large search engines as well as the more privacy minded ones.
 Based on our results, we're prepared to make a few recommendations and offer a few tips to keep you safe.
-
 
 ## Privacy search engine landscape
 
 There's a lot of privacy concerns when searching online:
 
-* Big tech companies store search data on millions of individuals including you.
-* You can be shown personalized results that keep you in a sort of exposure bubble.
-* There's also worries about data sharing with third-parties you have no relationship with.
+- Big tech companies store search data on millions of individuals including you.
+- You can be shown personalized results that keep you in a sort of exposure bubble.
+- There's also worries about data sharing with third-parties you have no relationship with.
 
 Fortunately, there's a lot of great alternatives and the right one depends on exactly what you're looking for in a search engine.
-
 
 ### [DuckDuckGo](https://duckduckgo.com/)
 
@@ -40,7 +36,6 @@ The mobile app on Android can also double as tracker protection even for request
 By using Bing's search index under the hood, the search results are pretty close to Google's in quality.
 **DuckDuckGo is a great overall choice for a private search engine.**
 
-
 ### [Mojeek](https://www.mojeek.com/)
 
 <div class="postimage text-center">
@@ -56,7 +51,6 @@ While the search engine results page is a bit spartan,
 it loads very fast and the actual result quality was pretty good.
 **If you're looking for an independent search engine that doesn't rely on big tech at all,
 Mojeek is amazing.**
-
 
 ### [You.com](https://you.com/code)
 
@@ -78,7 +72,6 @@ it's clear that at least in some queries You.com is relying on Bing's index.
 That means that the result quality will stay high.
 In our privacy teardown, You.com and YouCode got close to top marks.
 **For a search engine tuned for developer queries, You.com and specifically YouCode is a good choice.**
-
 
 ### [Brave Search](https://search.brave.com/)
 
@@ -110,10 +103,9 @@ There are even more privacy-focused search engines that we did not detail in our
 You might consider these search engines if you have particular concerns about data jurisdiction.
 From a quality perspective, most of these search engines rely on search indexes from other search engines.
 
-* **[SwissCows](https://swisscows.com/)** - SwissCows is a Swiss-hosted search engine that like DuckDuckGo uses Bing's index to fulfill search queries. It claims its results are "family friendly" and that they do not store any user data.
-* **[Qwant](https://www.qwant.com/)** - Qwant is a French search engine that also uses Bing's search index.
-* **[Searx](https://searx.info/)** - Searx is an open source meta search engine that relies on results from other search engines.
-
+- **[SwissCows](https://swisscows.com/)** - SwissCows is a Swiss-hosted search engine that like DuckDuckGo uses Bing's index to fulfill search queries. It claims its results are "family friendly" and that they do not store any user data.
+- **[Qwant](https://www.qwant.com/)** - Qwant is a French search engine that also uses Bing's search index.
+- **[Searx](https://searx.info/)** - Searx is an open source meta search engine that relies on results from other search engines.
 
 ## Recommendations
 

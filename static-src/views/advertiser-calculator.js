@@ -1,6 +1,5 @@
-import * as jquery from 'jquery';
-const ko = require('knockout');
-
+import * as jquery from "jquery";
+const ko = require("knockout");
 
 function AdvertiserCalculatorViewModel() {
   // Helper function to validate the passed topic
@@ -64,15 +63,15 @@ function AdvertiserCalculatorViewModel() {
   };
 
   this.getNumImpressions = function () {
-    return this.budget() * 1000 / (Math.trunc(this.getCpm() * 100) / 100);
+    return (this.budget() * 1000) / (Math.trunc(this.getCpm() * 100) / 100);
   };
 
   this.getNumClicks = function () {
-    return this.getNumImpressions() * this.ctr() / 100;
+    return (this.getNumImpressions() * this.ctr()) / 100;
   };
 
   this.getNumConversions = function () {
-    return this.getNumClicks() * this.conversion_rate() / 100;
+    return (this.getNumClicks() * this.conversion_rate()) / 100;
   };
 
   // Generate a URL to the calculator with these values
@@ -91,24 +90,25 @@ function AdvertiserCalculatorViewModel() {
     let url = this.getUrl();
 
     let state = {
-      "budget": this.getBudget(),
-      "region": this.selected_region(),
-      "topic": this.selected_topic(),
-      "autorenewing": this.autorenewing(),
+      budget: this.getBudget(),
+      region: this.selected_region(),
+      topic: this.selected_topic(),
+      autorenewing: this.autorenewing(),
     };
 
     window.history.pushState(state, null, url);
   };
 
-  this.pricing = JSON.parse($('#data-pricing').text());
-  this.regions = JSON.parse($('#data-regions').text());
-  this.topics = JSON.parse($('#data-topics').text());
+  this.pricing = JSON.parse($("#data-pricing").text());
+  this.regions = JSON.parse($("#data-regions").text());
+  this.topics = JSON.parse($("#data-topics").text());
 
   let params = new URLSearchParams(document.location.search);
 
   let initial_budget = parseInt(params.get("budget"), 10) || 1000;
   let initial_region = this.validateRegion(params.get("region")) || "network";
-  let initial_topic = this.validateTopic(params.get("topic")) || "all-developers";
+  let initial_topic =
+    this.validateTopic(params.get("topic")) || "all-developers";
   let initial_autorenewing = Boolean(params.get("autorenewing")) || false;
 
   this.selected_region = ko.observable(initial_region);
@@ -136,7 +136,6 @@ function AdvertiserCalculatorViewModel() {
   }, this);
 }
 
-
-if ($('#advertiser-calculator').length > 0) {
+if ($("#advertiser-calculator").length > 0) {
   ko.applyBindings(new AdvertiserCalculatorViewModel());
 }

@@ -6,12 +6,10 @@ authors: Ra Cohen
 image: /images/posts/2022-content-as-intent.jpg
 image_credit: <span>Photo by <a href="https://unsplash.com/@jeshoots?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">JESHOOTS.COM</a> on <a href="https://unsplash.com/s/photos/confused?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>
 
-
 When was the last time you clicked on an ad while browsing social media?
 While scrolling through your feed of friends and family, ads for random gadgets or cheesy games annoy many, but why?
 The ad itself is undoubtedly tailored to your own personal interests or brands that you like. So why is it irritating?
 Because you as a user, had no intention of shopping. Your purpose in logging on was to socialize, not to shop.
-
 
 ## Intent is irreplaceable
 
@@ -25,8 +23,6 @@ But search engines are not the only places where software developers exhibit the
 From using online tools like [jsbin.com](https://jsbin.com) rendering their html edits in real-time to scouring package documentation to fix their latest bug,
 software developers telegraph their intentions primarily through the content that they are viewing.
 This can be numerically demonstrated in the comparison of Click through rates (CTR) on content-targeted campaigns vs non-content targeted campaigns.
-
-
 
 ## What our data says
 
@@ -71,9 +67,8 @@ we can garauntee our advertisers connect not only with the right [software devel
 but more importantly, reach those valuable potential customers right when they're grappling the problem that you're trying to solve.
 When developers posses a problem, they use the EthicalAds network to find answers and thus posses the intent to try your solution.
 
-
 ## Would you like to learn more?
 
 Ready to reach your intended audience when they need you most?
 
-* [Launch your campaign today!](https://www.ethicalads.io/advertisers/?ref=content-as-intent)
+- [Launch your campaign today!](https://www.ethicalads.io/advertisers/?ref=content-as-intent)

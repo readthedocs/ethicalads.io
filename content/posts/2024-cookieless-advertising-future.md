@@ -6,7 +6,6 @@ authors: David Fischer
 image: /images/posts/2024-cookieless-advertising.jpg
 image_credit: <span>Created with <a href="https://openjourney.ai/" title="creepy ad targeting, invasive advertising, personalized advertising, ads that know what you think, ads that follow you around the internet, watercolor style">OpenJourney</a></span>
 
-
 As an ad network that never uses advertising cookies,
 you probably won't be surprised that we think cookieless advertising does work.
 While many adtech companies will claim that it's impossible do effective advertising
@@ -21,7 +20,7 @@ This post aims to serve as a guide to what's changing, why it's changing,
 what we expect the second order effects of the change will be,
 and how advertisers can succeed anyway.
 
-*Update: Google is [no longer phasing out third-party cookies](https://privacysandbox.com/news/privacy-sandbox-update/) and will instead "introduce a new experience in Chrome that lets people make an informed choice that applies across their web browsing".*
+_Update: Google is [no longer phasing out third-party cookies](https://privacysandbox.com/news/privacy-sandbox-update/) and will instead "introduce a new experience in Chrome that lets people make an informed choice that applies across their web browsing"._
 
 ## Third-party cookies, history and phase-out
 
@@ -58,7 +57,6 @@ in order to build a profile across the websites they visit.
 While third-party cookies being phased out is a positive privacy development,
 it will also help entrench the major ad players.
 
-
 ## Challenges for advertisers in the cookieless future
 
 Without ad cookies, there's going to be a lot of challenges for advertisers and publishers.
@@ -73,7 +71,6 @@ as they will be better at using the marketing signals they have to target ads to
 It will also migrate to direct sponsorships with larger publishers, newsletters, and podcasts,
 where the advertiser knows their core audience is.
 This is going to cause a strategic shift in how advertisers buy ads.
-
 
 ## How publishers will be affected
 
@@ -90,7 +87,6 @@ this trend will probably reverse.
 With advertisers looking for good places to reach their target audience,
 high quality publishers will be able to differentiate their inventory better.
 These publishers will see more interest and be able to command higher ad prices.
-
 
 ## A success story with cookieless advertising: Sentry
 
@@ -120,7 +116,6 @@ Probably most important for regular users of the web, it allowed them to
 Everybody hates cookie banners and they have a
 [negative effect on conversion rates](2023-european-landing-pages-gdpr.md).
 Removing that is a win for everyone.
-
 
 ## The future of advertising without third-party cookies
 

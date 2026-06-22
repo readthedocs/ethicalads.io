@@ -6,7 +6,6 @@ authors: David Fischer
 image: /images/posts/2024-more-ads-than-content.jpg
 image_credit: <span>Photo by <a href="https://unsplash.com/@nicolaiberntsen?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Nicolai Berntsen</a> on <a href="https://unsplash.com/photos/people-walking-beside-buildings-F3uyey6ours?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></span>
 
-
 Across the Internet, websites adopt different strategies when it comes to incorporating advertisements.
 Some sites carefully curate ad placements to offer a seamless and unobtrusive browsing experience for their visitors.
 On the other hand, some sites bombard visitors with more ads than content, including autoplay videos,
@@ -18,8 +17,8 @@ In this post, I want to go deeper into why some sites go for an ad experience
 that complements content rather than getting in the way
 while others show as many obtrusive ads as possible.
 
-
 ## Economics of Internet ads: dollars and cents
+
 On the surface, why some sites have a barrage of bad ads is obvious.
 More ads, larger ads, and particularly video ads make more money for site owners.
 Advertisers are willing to pay more for ad placements that have greater visibility.
@@ -49,7 +48,6 @@ We generally beat networks and ads with a similar ad footprint to ours
 in terms of revenue as our target market is premium quality developer-focused sites,
 and we're not trying to have our ads get lost in a sea of ads on a lower quality site.
 
-
 ## A barrage of ads for drive-by visitors
 
 So why do some sites go with the minimalist approach while some fill their site with ads?
@@ -72,7 +70,6 @@ The first result on Google is a site that answers this question exactly.
 However, visitors aren't going to browse the rest of the site or bookmark it for the future.
 As a result, the site tries capitalize on ad revenue rather than cultivating a lasting relationship
 and has 4 ads as well as another modal ad when I went to close the tab.
-
 
 ## Repeat visitors hate bad ads
 

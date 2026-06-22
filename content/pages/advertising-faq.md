@@ -27,13 +27,11 @@ Our
 [prospectus]({static}/prospectus/ethicalads-advertiser-prospectus.pdf)
 has all the details.
 
-
 ## Can I post an ad promoting my job openings?
 
 Absolutely. [Hiring developers]({filename}advertisers-hiring.md)
 is one of the most popular reasons for advertising with us.
 We put your job right in front of developers using your technology.
-
 
 ## How can I target my ads?
 
@@ -47,18 +45,17 @@ For ads targeting the USA, we also support targeting by state.
 Advertisers may also target ads by topics.
 Currently, these topics are:
 
-* AI and machine learning
-* Backend web development
-* Frontend web development
-* Security and privacy
-* DevOps
+- AI and machine learning
+- Backend web development
+- Frontend web development
+- Security and privacy
+- DevOps
 
 Our
 [prospectus]({static}/prospectus/ethicalads-advertiser-prospectus.pdf)
 will have the latest details and rates on keyword targeting.
 More niche targeting is possible although campaigns may take longer to fulfill due to availability.
 [Inquire](/advertisers/#inbound-form) for details.
-
 
 ## How does topic targeting work?
 
@@ -71,10 +68,9 @@ This allows us to show the most relevant ads possible.
 More relevant ads are better for advertisers because they perform better
 and better for publishers because they usually earn more money from them.
 
-
 ## What geographic regions can I target?
 
-[comment]: # (Linked from a footnote in the pricing page)
+[comment]: # "Linked from a footnote in the pricing page"
 
 We can target any region you'd like where we have enough inventory to run a campaign.
 Most of our advertisers are focused on North America and Europe
@@ -88,22 +84,20 @@ For those advertisers, we recommend splitting your budget between what you're in
 For example, you can spend 67% of your budget on North America and Europe and 33% outside those regions.
 This ensures advertisers get exactly what they expect.
 
-
 ## What are the ad specifications?
 
 There are two main ad placements across the EthicalAds network.
 Publishers choose which placement best fits with their site
 and we have seen great performance for advertisers and publishers with both types.
 
-* We support unobtrusive text &amp; image placements which use a 240 * 180px image
-  (displayed at 120 * 90) and up to 100 characters of supporting text.
+- We support unobtrusive text &amp; image placements which use a 240 _ 180px image
+  (displayed at 120 _ 90) and up to 100 characters of supporting text.
   An optional headline and call-to-action (part of the 100 characters) are bolded.
-* There's also a text-only placement that uses up to 100 characters without an image.
+- There's also a text-only placement that uses up to 100 characters without an image.
 
 Check out our
 [ad specs page]({filename}/pages/learning-hub/ad-design-and-specs.md)
 with more details and tips.
-
 
 ## How are campaigns billed?
 
@@ -118,7 +112,6 @@ Recurring campaigns or campaigns that are quarterly or longer are billed monthly
 Recurring campaigns can either receive an invoice as normal or charge a card on file.
 We are happy to submit campaign billing directly to your procurement system for campaigns of $5,000 or more.
 
-
 ## Do you work with agencies or media buyers?
 
 EthicalAds can support agencies for a single client or multiple clients.
@@ -126,7 +119,6 @@ We can bill through your agency's billing system or invoice your clients directl
 
 Agency campaigns benefit from the same trusted
 [performance reporting]({filename}/pages/advertiser-reporting.md) we provide to direct advertisers.
-
 
 ## What about ad blockers?
 
@@ -138,14 +130,12 @@ For example, EthicalAds is on the
 However, our ads are still blocked sometimes but
 advertisers never pay for ads that aren't viewed and that includes ads that are blocked.
 
-
 ## Where do the ads link to?
 
 The ads can link to any URL. Typically they will link to your
 landing page on your website. You may include UTM parameters or
 other URL parameters to know that the traffic came from your ad on
 our site.
-
 
 ## How do I track conversions?
 
@@ -158,19 +148,16 @@ and rely on UTM or other parameters added to your ad destination link.
 Keep in mind that our audience is a little more privacy-focused than the general public
 and JavaScript-based conversion metrics like Google Analytics can understate true conversions.
 
-
 ## How are my ads scheduled?
 
 We attempt to schedule advertising evenly based on the length and
 size of your campaign. However, if you want to advertise as fast as
 possible, we can definitely do that.
 
-
 ## Can I run my ad JavaScript?
 
 In order to respect our users' privacy, we do not allow any
 third-party ad scripts.
-
 
 ## How can I see how my ads are performing?
 
@@ -181,16 +168,15 @@ the ad comes into the browser viewport.
 
 There are additional reporting breakdowns:
 
-* By daily performance
-* By country and region
-* By publisher where ads appear or similarly by domain
-* By keywords and topics
+- By daily performance
+- By country and region
+- By publisher where ads appear or similarly by domain
+- By keywords and topics
 
 For larger enterprise clients, we can provide daily data reports directly to your datalake (S3, Azure) or data warehouse as a daily parquet or CSV file.
 This data provides the same breakdowns as those above.
 
 See more details about [advertiser reports]({filename}/pages/advertiser-reporting.md).
-
 
 ## How can I manage my ads?
 
@@ -199,7 +185,6 @@ where you can create, change, or turn off your ads as well as see live reports b
 
 Check out a video overview of our <a href="https://www.youtube.com/watch?v=Ow75lzOs4EM&t=34s">management interface</a>.
 
-
 ## Will you sign an NDA or other type of contract?
 
 We don't require it, but if desired, we can produce an insertion order for your ad campaign
@@ -207,13 +192,11 @@ We don't require it, but if desired, we can produce an insertion order for your 
 If you require additional contracts or agreements such as a non-disclosure agreement (NDA),
 we can accommodate these for ad campaigns of $10,000 or more.
 
-
 ## How can I optimize my ads?
 
 For all but the smallest campaigns, we recommend running multiple ads in your campaign.
 These A/B tests will usually show that some ads perform better than others.
 After you've collected enough data, turn the lower performing variant off to maximize your performance.
-
 
 ## Will you help me optimize my campaign?
 
@@ -226,19 +209,16 @@ and our [creative specs guide]({filename}/pages/learning-hub/ad-design-and-specs
 [Learn more]({filename}/pages/help-with-your-ads.md)
 about the ways we can help ensure you have a successful campaign.
 
-
 ## Where do my ads appear?
 
 Ads appear on sites that belong to our publisher network. Placement
 is customizable based on their requirements, but we always ensure
 a valuable placement.
 
-
 ## What are the top publishers on your network?
 
 Sure, we have a [curated list of some of the largest publishers](/publishers/list/)
 for each of main topics.
-
 
 ## What type of ads are acceptable?
 
@@ -248,17 +228,14 @@ software developers.
 EthicalAds has final approval for all ads with respect to
 editorial and creative content but generally this isn't an issue.
 
-
 ## What are the details of the EthicalAds audience?
 
 See [our audience](/our-audience/).
-
 
 ## Do my ads support open source?
 
 EthicalAds is open source software and the ads go to support
 development of the publishers where ads are hosted.
-
 
 ## How can I get started advertising?
 

@@ -1,9 +1,7 @@
-import * as jquery from 'jquery';
-const ko = require('knockout');
-
+import * as jquery from "jquery";
+const ko = require("knockout");
 
 function AdvertiserInboundFormViewModel() {
-
   this.getSelectedBudget = function () {
     let selected = null;
 
@@ -29,7 +27,6 @@ function AdvertiserInboundFormViewModel() {
   this.referral = ko.observable();
 }
 
-
-if ($('#inbound-form').length > 0) {
+if ($("#inbound-form").length > 0) {
   ko.applyBindings(new AdvertiserInboundFormViewModel());
 }

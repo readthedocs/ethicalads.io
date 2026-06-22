@@ -6,7 +6,6 @@ authors: David Fischer
 image: /images/posts/2023-malware-advertising-protect-yourself.jpg
 image_credit: <span>Photo by <a href="https://unsplash.com/@jackson_893?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Michael Geiger</a> on <a href="https://unsplash.com/photos/JJPqavJBy_k?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>
 
-
 Many of our readers are familiar with privacy issues related to advertising.
 If you need some convincing, check out our [privacy teardown on search engines]({filename}../posts/2022-privacy-teardown-search-engines.md) from a few months ago
 comparing the big search companies against some privacy-focused search companies.
@@ -14,7 +13,6 @@ Nobody wants their personal information siphoned off to companies they've never 
 
 We're going to highlight some other issues in the minefield that is adtech
 and we have some recommendations to keep you safe and secure.
-
 
 ## Malware in advertising
 
@@ -39,7 +37,6 @@ these kinds of issues resurface periodically both on Google and elsewhere.
 In mid-2018, for example, [Google kicked off some cryptocurrency advertisers](https://support.google.com/adspolicy/answer/7648803) for promoting ICOs, untrusted wallets, and unlicensed option trading.
 Many of those same advertisers just went to less discerning networks to keep doing the same thing.
 Our own network had a massive uptick in prospects interested in blockchain advertising that week.
-
 
 ## How to keep yourself safe
 
@@ -69,7 +66,6 @@ Despite ad blockers and tracker blockers, EthicalAds still reaches tons of devel
   <img class="w-75 shadow-lg" src="{static}../images/posts/2023-privacy-badger-notrackers.png" alt="Results of the EFF's Privacy Badger on our homepage showing no trackers">
   <p>Results of the EFF's Privacy Badger on our homepage showing no trackers</p>
 </div>
-
 
 ## How EthicalAds keeps you safe
 

@@ -7,18 +7,20 @@ This document provides a summary of the EthicalAds.io project structure, build p
 EthicalAds.io is the landing page for the developer ad network from Read the Docs.
 
 ### Technologies Used
-*   **Static Site Generator:** [Pelican](https://getpelican.com/)
-*   **Hosting:** Hosted by [Read the Docs](https://about.readthedocs.com/) and served via Read the Docs at https://www.ethicalads.io.
-*   **Python Package Manager:** [uv](https://docs.astral.sh/uv/)
-*   **Frontend Build:** Webpack (via npm) for building static assets (styles and scripts).
+
+- **Static Site Generator:** [Pelican](https://getpelican.com/)
+- **Hosting:** Hosted by [Read the Docs](https://about.readthedocs.com/) and served via Read the Docs at https://www.ethicalads.io.
+- **Python Package Manager:** [uv](https://docs.astral.sh/uv/)
+- **Frontend Build:** Webpack (via npm) for building static assets (styles and scripts).
 
 ### Directory Structure
-*   `content/pages/`: Contains static pages.
-*   `content/posts/`: Contains blog posts.
-*   `static-src/`: Source files for styles and scripts.
-*   `ethicalads-theme/`: Contains the Pelican HTML templates (extending Pelican's simple theme).
-*   `ethicalads-theme/static/`: Destination for built static assets (not checked into the repository).
-*   `ethicalads-theme/templates/page.html`: The default template for pages.
+
+- `content/pages/`: Contains static pages.
+- `content/posts/`: Contains blog posts.
+- `static-src/`: Source files for styles and scripts.
+- `ethicalads-theme/`: Contains the Pelican HTML templates (extending Pelican's simple theme).
+- `ethicalads-theme/static/`: Destination for built static assets (not checked into the repository).
+- `ethicalads-theme/templates/page.html`: The default template for pages.
 
 ## How to Build the Site
 
@@ -43,6 +45,7 @@ If you modify files under `static-src/` or don't see any styling locally, you mu
 npm clean-install
 npm run build     # use "npm run dist" for minified builds
 ```
+
 The output will be placed in `ethicalads-theme/static/`.
 
 ## Code Style
@@ -59,5 +62,5 @@ tox                                 # Run the HTML validator
 
 When contributing content, follow these writing style guidelines, loosely based on the [Wikipedia Manual of Style](https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style):
 
-*   **Titles:** Use [title case](https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Titles).
-*   **Section Headings:** For `<h2>` and below, use sentence case. Headings should be descriptive and substantive beyond a simple noun.
+- **Titles:** Use [title case](https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Titles).
+- **Section Headings:** For `<h2>` and below, use sentence case. Headings should be descriptive and substantive beyond a simple noun.

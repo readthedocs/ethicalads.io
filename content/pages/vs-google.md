@@ -6,7 +6,6 @@ We often get asked why you should choose EthicalAds instead of an existing displ
 Many people default to Google when they think about online advertising,
 and we think we're a great alternative for developer-focused sites.
 
-
 <table class="w-100 my-10 table table-sm bg-transparent">
   <thead>
     <tr>
@@ -187,8 +186,8 @@ and we think we're a great alternative for developer-focused sites.
   </tbody>
 </table>
 
-
 <a id="privacy"></a>
+
 ## **Privacy**: We never set a cookie on your site, or load third-party scripts.
 
 When your user goes to your website, they are assuming they will only be sending data to you. Some users consider it a breach of trust if you were to share that data with other third parties, and it might be a breach of a privacy law to do this without user consent. Google is well-known for it's data collection policies, and they are used to target ads on your website and many other sites around the internet.
@@ -197,16 +196,16 @@ When your user goes to your website, they are assuming they will only be sending
 
 When you use EthicalAds, **we never set cookies on your users**, and we don't use any user-specific data to target advertising. This means [you don't need a cookie banner]({filename}../posts/2021-can-you-remove-cookie-banners.md) when you use our ads, and your users' data is not being tracked across the internet.
 
-
 <a id="transparency"></a>
+
 ## **Transparency**: See exactly what ads get shown on your site.
 
 Google shows ads based on the user who is viewing your site, which means they could be seeing ads totally unrelated to your site content. Sometimes this results in ads that you might find objectionable, might freak your users out by following them around the web, or many other issues.
 
 **EthicalAds only shows ads based on the content of your site.** They are guaranteed to be developer-focused, and won't follow users around the web. We're so confident in our advertisers, **we give you a dashboard that shows every advertiser on your site** so you know exactly what your users are seeing.
 
-
 <a id="focus"></a>
+
 ## **Focus**: We only show developer-focused ads. Nothing weird
 
 Google shows whatever ad will make the most money on each page.
@@ -217,8 +216,8 @@ as well as something you aren't proud to be promoting.
 Our network is developer-focused and the ads are hand-curated by our team.
 This means you get high-quality ads on your site that you will be happy to see.
 
-
 <a id="community"></a>
+
 ## **Community**: Our product is open source, and our mission is to support the community.
 
 The code behind Google ads is proprietary and incredibly complex. This is because there is a large amount of time being spent trying to figure out exactly who you are and how to target you with an ad.

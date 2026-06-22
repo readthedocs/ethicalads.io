@@ -36,15 +36,15 @@ Many publishers manually added tags to their content,
 and we allowed them to pass these to us in our ad client.
 Our ad client also created tags based on related words appearing multiple times on a page.
 Then we grouped a set of keywords together to make topics,
-so for example our *Data Science* topic was made of `nlp`, `jupyter`, `pytorch`, `tensorflow`, and similar keywords.
+so for example our _Data Science_ topic was made of `nlp`, `jupyter`, `pytorch`, `tensorflow`, and similar keywords.
 
 This approach allowed us to build out our initial product,
 and have reasonably good targeting.
 It had a few drawbacks though:
 
-* It needed users to tag content, and most pages aren't tagged (eg. software documentation)
-* We needed to combine tags into topics, and there will always be some tags we don't know about
-* The automatic tagging was quite naive, and had some false positives
+- It needed users to tag content, and most pages aren't tagged (eg. software documentation)
+- We needed to combine tags into topics, and there will always be some tags we don't know about
+- The automatic tagging was quite naive, and had some false positives
 
 We wanted to build a more robust solution that was able to understand a lot more about each page.
 
@@ -61,15 +61,15 @@ creating the best possible guess for a piece of content.
 When we "train" the ML model,
 it is mapping all the various words and phrases in a document into the topic we've assigned the page.
 So for example,
-the model learns that "natural language processing" on a page means it's highly likely related to *Data Science*.
+the model learns that "natural language processing" on a page means it's highly likely related to _Data Science_.
 **The magic of the model is that it understands a massive number of words and phrases,
 many more than we could ever add manually.**
 
 The ML-based model has the following benefits:
 
-* The model scales across any technical content that was pass in, without requiring page authors to do anything
-* It takes into account the entire page content, and word context, to
-* We can easily add more topics, as long as we can categorize a small number of pages of content that belong to that topic.
+- The model scales across any technical content that was pass in, without requiring page authors to do anything
+- It takes into account the entire page content, and word context, to
+- We can easily add more topics, as long as we can categorize a small number of pages of content that belong to that topic.
 
 We're excited to expand our ML targeting in the future.
 

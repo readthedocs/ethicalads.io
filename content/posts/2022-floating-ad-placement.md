@@ -5,12 +5,10 @@ tags: ad-client
 authors: David Fischer
 image: /images/posts/2022-floating-placement.jpg
 
-
 A couple of months ago, we began testing a new feature in our ad client
 that enabled users to quickly and easily add a floating ad placement
 to their site without having to write custom code.
 Today, we're announcing this feature is available to any publisher.
-
 
 ## Floating placements perform
 
@@ -21,7 +19,7 @@ Having ads that work without resorting to either personalized tracking
 or being intrusive is our core mission.
 Better performing ads result in happier advertisers and more money in independent publishers' pockets.
 
-[comment]: # (31% improvement comes from comparing Oct 1 - Dec 1 vs. Jan 1 - Feb 28 on docs.readthedocs.io)
+[comment]: # "31% improvement comes from comparing Oct 1 - Dec 1 vs. Jan 1 - Feb 28 on docs.readthedocs.io"
 
 ## Usage
 
