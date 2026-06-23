@@ -9,9 +9,9 @@ image_credit: <span>Photo by <a href="https://unsplash.com/@cristina_gottardi?ut
 Here at EthicalAds we've been running a book club to help our team grow and learn.
 This post will cover a few topics:
 
-* Advice on running a lightweight book club
-* How we're running our book club
-* Reviews of the books we've read
+- Advice on running a lightweight book club
+- How we're running our book club
+- Reviews of the books we've read
 
 We've found this process quite valuable for growing our skills.
 Our team is mostly people with a developer background,
@@ -23,30 +23,30 @@ since that's where we all have a lot to learn.
 We've read 4 books in our book club so far,
 and we have learned a few tips and tricks for making sure it feels valuable to everyone:
 
-* Don't overthink what is required to get started. We didn't have a concrete outcome when we started, and are still learning as we go. Just get started!
-* When you pick a book, have an actionable task that we want to be able to solve once we read the book.
-    - As an example, our next book is around writing better email. Our goal is to improve our default email replies for publishers & advertisers in our support tooling.
-* Change the topics of the book each time, so that you're getting a well-rounded set of topics that affect your business.
-    - We've covered open source, positioning, copywriting, and marketing thus far.
-* Make sure you're producing something when you read the book, otherwise it can feel like you're reading a lot of theory, but not putting that knowledge to work.
-    - You'll also retain the information more if you're forced to use it, rather than just read it.
+- Don't overthink what is required to get started. We didn't have a concrete outcome when we started, and are still learning as we go. Just get started!
+- When you pick a book, have an actionable task that we want to be able to solve once we read the book.
+  - As an example, our next book is around writing better email. Our goal is to improve our default email replies for publishers & advertisers in our support tooling.
+- Change the topics of the book each time, so that you're getting a well-rounded set of topics that affect your business.
+  - We've covered open source, positioning, copywriting, and marketing thus far.
+- Make sure you're producing something when you read the book, otherwise it can feel like you're reading a lot of theory, but not putting that knowledge to work.
+  - You'll also retain the information more if you're forced to use it, rather than just read it.
 
 ## How to run a book club
 
 Our book club is pretty lightweight.
 It looks like:
 
-* We have a recurring weekly meeting for 30 minutes, to handle whatever needs to be discussed that week, generally what we've read.
-* During the reading, each member of the team takes notes around what they thought was interesting or actionable for our company, and we mostly discuss this in our 30 meeting.
-* We usually aim for around 30-60 minutes of reading, to keep the time commitment manageable.
+- We have a recurring weekly meeting for 30 minutes, to handle whatever needs to be discussed that week, generally what we've read.
+- During the reading, each member of the team takes notes around what they thought was interesting or actionable for our company, and we mostly discuss this in our 30 meeting.
+- We usually aim for around 30-60 minutes of reading, to keep the time commitment manageable.
 
 When we want to decide which book to read, we:
 
-* Discuss what we want to get out of the book, and which topic to focus on.
-* Then each member of the team looks for a book that they think would fit well (3 total).
-* We discuss each book, and decide as a team which one to read (if there isn't an obvious choice, we just flip a digital coin).
-* We discuss a basic plan for an area of the business to improve after reading the book, so we have an actionable goal at the end of the book to put the information to use.
-* We start reading!
+- Discuss what we want to get out of the book, and which topic to focus on.
+- Then each member of the team looks for a book that they think would fit well (3 total).
+- We discuss each book, and decide as a team which one to read (if there isn't an obvious choice, we just flip a digital coin).
+- We discuss a basic plan for an area of the business to improve after reading the book, so we have an actionable goal at the end of the book to put the information to use.
+- We start reading!
 
 There's likely improvements we'll keep making as we go,
 but this is enough for us to get a lot of value from book club.
@@ -85,10 +85,10 @@ This is the key to having customers read and engage with our business.
 
 There are a few consequences of the Story Brand framework. They are:
 
-* The customer is the hero of the story. Not the brand.
-* Messaging needs to be simple and straight-forward. Our website is akin to an elevator pitch. Offers should be direct and above the fold. Sometimes less is more.
-* Give the customer a plan for how our business helps them succeed. The solution by itself isn't a plan.
-* After the hero has succeeded, affirm their success and tell stories of heroes who have succeeded.
+- The customer is the hero of the story. Not the brand.
+- Messaging needs to be simple and straight-forward. Our website is akin to an elevator pitch. Offers should be direct and above the fold. Sometimes less is more.
+- Give the customer a plan for how our business helps them succeed. The solution by itself isn't a plan.
+- After the hero has succeeded, affirm their success and tell stories of heroes who have succeeded.
 
 ### [The Growth Marketing Handbook - Julian Shapiro](https://www.julian.com/guide/growth/intro)
 

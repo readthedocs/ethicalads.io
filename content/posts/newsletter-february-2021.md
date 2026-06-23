@@ -6,11 +6,9 @@ authors: David Fischer
 image: /images/posts/2021-feb-newsletter.jpg
 image_credit: <span>Photo by <a href="https://unsplash.com/@szmigieldesign?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Lukasz Szmigiel</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
-
-[comment]: # (The queries run to get this data, then computed in a spreadsheet for publisher rev)
-[comment]: # (?start_date=2020-08-01&end_date=2020-08-31&campaign_type=All+types&revenue_share_percentage=50.0)
-[comment]: # (?start_date=2020-09-01&end_date=2020-09-30&campaign_type=paid&revenue_share_percentage=70.0&sort=revenue)
-
+[comment]: # "The queries run to get this data, then computed in a spreadsheet for publisher rev"
+[comment]: # "?start_date=2020-08-01&end_date=2020-08-31&campaign_type=All+types&revenue_share_percentage=50.0"
+[comment]: # "?start_date=2020-09-01&end_date=2020-09-30&campaign_type=paid&revenue_share_percentage=70.0&sort=revenue"
 
 ## February advertising stats
 
@@ -19,35 +17,33 @@ Despite being a shorter month, we were still able to beat our previous bests fro
 
 In February 2021:
 
-* We generated **$23,854.36** for our publishers.
+- We generated **$23,854.36** for our publishers.
   Of this, $11,671.47 was publishers other than our own publisher (Read the Docs) which is a 5.5% increase over January.
   Going forward, we're going to report these numbers together.
   In March and beyond, we expect the revenue to outside publishers will surpass revenue to our own site.
-* We had **106 publishers** on our network with a paid ad impression.
-* We had **13,600,740** paid ad views across the world.
+- We had **106 publishers** on our network with a paid ad impression.
+- We had **13,600,740** paid ad views across the world.
 
 We're working hard to grow revenue for all our publishers, and we're expecting another record month in March.
-
 
 ## New features
 
 Here's the major features we added in the last month:
 
-* On the business side, we released our [Q2 prospectus]({static}/prospectus/ethicalads-advertiser-prospectus.pdf)
+- On the business side, we released our [Q2 prospectus]({static}/prospectus/ethicalads-advertiser-prospectus.pdf)
   which contains some of our new testimonials and some small additions like mentioning that CPC-based pricing is available.
-* On our ad client, we rolled out our dark mode improvements
+- On our ad client, we rolled out our dark mode improvements
   built on [`prefers-color-scheme`](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme)
   to our beta client which is used by Read the Docs. This means sites that want to try it out can do so.
   Some Sphinx documentation themes already are.
-* On our ad server, we improved a few reports (notably a report required by [Acceptable Ads](https://acceptableads.com/))
+- On our ad server, we improved a few reports (notably a report required by [Acceptable Ads](https://acceptableads.com/))
   and made some tweaks to speed up our throughput.
-* In our infrastructure, we're really pushing the I/O on our server which is writing tens of times per second.
+- In our infrastructure, we're really pushing the I/O on our server which is writing tens of times per second.
   We worked to try to alleviate some of this pressure and that will continue into March.
-* While not strictly ads related, Read the Docs did extend an offer to a new person to join our team!
+- While not strictly ads related, Read the Docs did extend an offer to a new person to join our team!
   More on that later.
 
 You can always see our latest updates in our [ethical-ad-server changelog](https://ethical-ad-server.readthedocs.io/en/latest/developer/changelog.html).
-
 
 ## Tricky bits
 
@@ -65,20 +61,19 @@ In addition, we've been hitting I/O limits as I mentioned above and while we've 
 and our latency is pretty darn good, we still want to do more.
 Our data points pretty directly to faster ads performing better.
 
-
 ## Upcoming features
 
 The major features in our upcoming roadmap:
 
-* We want to give both advertisers and publishers high level data right in their dashboard when they first login.
+- We want to give both advertisers and publishers high level data right in their dashboard when they first login.
   These are stats like exactly how much advertising money they've spent or earned this month
   and how this month compares with last month.
   This feature is still on our roadmap but we didn't wrap it up in February.
-* We're going to expand our advertising logic to take into account price when selecting ads.
+- We're going to expand our advertising logic to take into account price when selecting ads.
   One advertiser has agreed to be a flex advertiser with part of their ad buys in Q2
   which will give them lower prices but not guaranteed inventory.
   This helps us ensure that as many ad slots have paid ads for our publishers while letting us balance our inventory.
-* One publisher agreed to try out EthicalAds for some custom ad placements with non-standard sizes
+- One publisher agreed to try out EthicalAds for some custom ad placements with non-standard sizes
   and per-month pricing rather than CPM.
   We have begun pitching this to advertisers and we may build some additional features to better support this based on interest.
 

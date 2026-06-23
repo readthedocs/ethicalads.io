@@ -6,13 +6,11 @@ authors: David Fischer
 image: /images/posts/2022-version-1-0.jpg
 image_credit: <span>Photo by <a href="https://unsplash.com/es/@an_ku_sh?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ankush Minda</a> on <a href="https://unsplash.com/s/photos/release?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>
 
-
 A few weeks ago, we released the v1.0 version of our ad server.
 This release coincided with a huge upgrade to our contextual targeting, machine learning model.
 We wanted to take the time to share our story of how we got here,
 the details of both the software and movement we're building,
 and what's coming next for EthicalAds.
-
 
 ## Our story
 
@@ -22,10 +20,8 @@ It was a service with millions of monthly visitors that thousands of projects re
 but run by folks with day jobs who wore pagers for their side project.
 It wasn't sustainable.
 
-
 > Today, we now have ~130 publishers and we gross just under $60k per month in ad revenue
 > of which 70% goes to publishers
-
 
 The obvious way to monetize was ads.
 However, we cared about the privacy of our visitors
@@ -44,7 +40,6 @@ Today, we now have ~130 publishers and we gross just under $60k per month in ad 
 of which 70% goes to publishers.
 Most of our publishers are small sites or open source projects so to send them ~$40k/mo feels great.
 
-
 ## Building a content-targeted ad network with machine learning
 
 Firstly, we only show developer-related ads on developer sites.
@@ -55,11 +50,9 @@ they're hiring devs, or something like that.
 All our publishers (that's advertising lingo for sites showing ads) are hand approved.
 We make sure each site is the right fit for our advertisers and protect their brands.
 
-
 > "EthicalAds' targeting provides a better ad experience for our community members."
 >
 > &mdash; Ido Shamun, Co-founder & CTO of daily.dev
-
 
 Beyond the basics, we built a crawler that crawls the sites on our network to help target our ads.
 Using an ML classifier (built with [SpaCy](https://spacy.io/)),
@@ -73,7 +66,6 @@ After trying out our model and training it for a couple of months,
 we were finally happy enough with the performance to integrate it into our ad serving pipeline.
 We're really proud of this and that's why we went from v0.55.0 (yes, 50+ pre-stable releases) to v1.0.0.
 
-
 ## What's next
 
 Apart from privacy, one thing that separates us from the big ad players like Google and Facebook
@@ -86,7 +78,6 @@ or "Web Development with Go".
 However, as we get larger, our contextual targeting will scale well as our network scales
 and these highly focused campaigns will be possible.
 It's not an understatement to say that this kind of more advanced contextual targeting is the future of EthicalAds.
-
 
 Another area we are looking at is to help [sponsorships]({filename}/pages/landing-pages/sponsorship.md)
 at large organizations deliver more value for sponsors.

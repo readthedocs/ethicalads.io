@@ -20,7 +20,6 @@ they have sparked privacy concerns and ethical debates about the use and collect
 In this post, we will delve into how ad targeting works, its privacy implications,
 the evolving landscape of regulation, and what you as a user can do to protect yourself.
 
-
 ## Understanding ad targeting: the basics
 
 Before the Internet, to reach a particular group of people,
@@ -41,12 +40,10 @@ The advertiser can then target that user with personalized ads meant only for us
 This technique underpins a lot of Internet advertising and is called "retargeting" or "remarketing".
 The same technique can be used to show ads to users who watch a specific video, launch a specific mobile app, search for specific terms, or even with a bit of work (Facebook and Google don't make this easy, other adtech companies aren't as picky) to target users who visit specific places in the real world.
 
-
 <div class="postimage text-center">
   <img class="w-50 shadow-lg" src="{static}../images/posts/2023-ad-targeting-fbads-retargeting.png" alt="Retargeting options in Facebook Ads">
   <p>Facebook Ads retargeting allows showing ads to visitors of specific web pages</p>
 </div>
-
 
 ## Privacy concerns: crossing the line or good business?
 
@@ -82,7 +79,6 @@ instead of something completely unrelated.
 However, the constant tracking and profiling of individuals can create a sense of unease,
 and leading to a sense that ads "follow people" around the Internet.
 
-
 ## Does all this data result in better ads
 
 You would think that all this data would result in ad targeting better than you could possibly imagine.
@@ -91,7 +87,6 @@ that simply isn't true.
 Almost every single worldwide brand you can name was built with more traditional advertising
 before Internet surveillance advertising.
 In spite of all the tracking, users still consistently complain about seeing irrelevant ads.
-
 
 ## Protect yourself from adtech
 
@@ -110,7 +105,6 @@ tracker blockers or ad blockers are a great (but not foolproof) way to
 Earlier this year for data privacy week,
 we [recommended some ad blockers]({filename}../posts/2023-data-privacy-week.md#ad-blockers)
 as well as web browsers and search engines that help you keep your browsing history to yourself.
-
 
 ## Responsible ad targeting that works
 

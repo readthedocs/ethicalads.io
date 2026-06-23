@@ -53,7 +53,6 @@ We will ask for this explicitly if and when we require it.
 We handle your information securely and it is deleted
 no later than 30 days after your next payout.
 
-
 ## Ad display validation
 
 We reserve the right to validate that the traffic on your site looks authentic.

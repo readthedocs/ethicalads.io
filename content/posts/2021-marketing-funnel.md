@@ -6,7 +6,6 @@ authors: Ra Cohen
 image: /images/posts/2021-marketing-funnel.jpg
 image_credit: <span>Photo by <a href="https://unsplash.com/@campaign_creators?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Campaign Creators</a> on <a href="https://unsplash.com/s/photos/funnel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>
 
-
 ## The marketing funnel problem
 
 When growing an online business, it's important to consider
@@ -23,7 +22,6 @@ However, many implementations of marketing funnels execute this mission
 by collecting and hoarding personally identifiable information of individual customers.
 This is by no means required by the definition nor is it even necessary
 as marketing funnels have existed long before web browser trackers let alone the internet.
-
 
 ## Our specific business
 
@@ -42,16 +40,14 @@ In other words, we needed a marketing funnel.
 Specifically, we wanted our marketing funnel to be privacy-preserving, open-source, and transparent.
 In a word, Ethical.
 
-To get started we needed two things,  a measurement of a successful conversion and
+To get started we needed two things, a measurement of a successful conversion and
 a way to quantify which marketing methods were leading to the most conversions
 while maintaining our must-haves of everything being open-source and not-personally identifying.
-
 
 <div class="postimage px-md-10">
  <img class="w-100" src="{static}../images/posts/2021-marketing-funnel-diagram.png" alt="A diagram of the EthicalAds marketing funnel">
  <p>Our marketing funnel</p>
 </div>
-
 
 ### Defining success
 
@@ -62,16 +58,16 @@ or our home page from a search engine,
 defining a "success" is trickier than it first seems.
 There are some obvious win conditions such as:
 
-* An advertiser prospect fills out the "contact us" form on the Advertiser page
+- An advertiser prospect fills out the "contact us" form on the Advertiser page
   which leads to a conversion (new advertiser account and paid invoice)
-* A prospective publisher fills out the "contact us" form on the Publisher page
+- A prospective publisher fills out the "contact us" form on the Publisher page
   which leads to a conversion (new publisher account and approved to host paid ads)
 
 but there are also harder to quantify successes such as:
 
-* An interested visitor educates themself on Surveilance Advertising in our Learning Hub
-* A media-affiliated user fills out the generic "contact us" form
-* A potential advertiser or publisher navigates to a page, browses for awhile,
+- An interested visitor educates themself on Surveilance Advertising in our Learning Hub
+- A media-affiliated user fills out the generic "contact us" form
+- A potential advertiser or publisher navigates to a page, browses for awhile,
   and then fills out a "contact us" form
 
 Since this is our first marketing funnel,
@@ -90,7 +86,6 @@ and is the only point in our marketing funnel where user PII is collected,
 specifically their name and email address so that we may reply to their inquiry.
 This alone however does not inform us as to how a user arrived on our site or how they heard about us.
 For that we needed analytics.
-
 
 ### Open-source analytics
 
@@ -117,7 +112,6 @@ but also good resonance traffic comprised of potential advertisers or publishers
 Being able to determine which ads or articles are generating not only the most traffic or form submissions,
 but also are generating the most successes proportionally to the amount of traffic,
 enables us to determine where we should spend our time marketing for the most value.
-
 
 We've had our funnel up and running for a little over two months now
 and are looking forward to sharing some preliminary results with y'all in a follow-up blog post.

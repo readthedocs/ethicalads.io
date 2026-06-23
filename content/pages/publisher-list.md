@@ -3,7 +3,6 @@ url: publishers/list/
 save_as: publishers/list/index.html
 description: A curated selection of our publishers that exemplify each of our topics.
 
-
 ### A curated selection of our publishers that exemplify each of our topics.
 
 This page is shows a listing of our publishers in each of our various topics.
@@ -346,5 +345,5 @@ It's a great way to get a sense of who's on our network.
 
 ## Ready to join the network?
 
-* Become a [publisher]({filename}/pages/publishers.md) today
-* Become an [advertiser]({filename}/pages/advertisers.md) today
+- Become a [publisher]({filename}/pages/publishers.md) today
+- Become an [advertiser]({filename}/pages/advertisers.md) today
