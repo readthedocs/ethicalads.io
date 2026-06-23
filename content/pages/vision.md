@@ -7,7 +7,7 @@ We realize that our name, EthicalAds, sets a high bar for what people expect.
 We do our best to live up those expectations in all aspects of our business.
 Whether you are a prospective advertiser or publisher,
 or you just care about privacy and you want to learn more,
-we want to define *ethical advertising* for you here.
+we want to define _ethical advertising_ for you here.
 
 **Contents**
 
@@ -22,9 +22,9 @@ Ethical Advertising
 
 The primary tenets of ethical advertising are:
 
-* **Ethical ads don't track you**. This means no permanent advertising cookies and no indefinite storage of personal information.
-* **Ethical ads are targeted by page content**. We can still show relevant and valuable ads knowing only the content you're reading, not who you are as a person.
-* **Ethical ad networks sell ads, not data**. Companies doing ethical advertising should make money showing ads, not selling user data.
+- **Ethical ads don't track you**. This means no permanent advertising cookies and no indefinite storage of personal information.
+- **Ethical ads are targeted by page content**. We can still show relevant and valuable ads knowing only the content you're reading, not who you are as a person.
+- **Ethical ad networks sell ads, not data**. Companies doing ethical advertising should make money showing ads, not selling user data.
 
 Some companies would like you to believe that it's impossible to do advertising
 without user tracking, but that simply isn't true.
@@ -35,7 +35,6 @@ traditional advertising without tracking built every brand you can name.
 > "Advertising [without tracking] ... created nearly every worldwide brand you can name"
 >
 > &mdash; Doc Searls, editor-in-chief of Linux Journal
-
 
 ## Why we created EthicalAds
 
@@ -61,7 +60,6 @@ We didn't want to be a part of that
 and from talking to our users at Read the Docs,
 there seemed to be lots of other folks out there who didn't either.
 
-
 ## How our ads work
 
 Our ads work a bit differently than most other ad networks out there.
@@ -74,13 +72,13 @@ and ads a person has interacted with in the past.
 At EthicalAds, **we don't use these techniques**.
 Instead, we target based solely upon:
 
-* Details of the page where the advertisement is shown including:
+- Details of the page where the advertisement is shown including:
 
   - The name and keywords associated with the publisher's content
   - Content of the page (eg. H1, title, etc.)
   - Whether the page is being viewed on a mobile device
 
-* General geography
+- General geography
 
   - We allow advertisers to target ads to a list of countries or to exclude
     countries from their advertising.
@@ -88,21 +86,19 @@ Instead, we target based solely upon:
   - We geolocate a user's IP address when a request is made and we don't store
     precise locations or precise IPs for longer than a few days to detect fraud and keep our site secure.
 
-
 ## Why our ads work
 
-In addition to how they work, it's also important to talk about *why* our ads work.
+In addition to how they work, it's also important to talk about _why_ our ads work.
 Tracking users is one way to keep ads relevant and make sure they work for advertisers,
 but it isn't the only way. Instead we:
 
-* Focus on developers. Don't try to build another generic ad network for everyone.
-* Partner only with high-quality publishers who also focus on developers.
+- Focus on developers. Don't try to build another generic ad network for everyone.
+- Partner only with high-quality publishers who also focus on developers.
 
 By focusing,
 we are able to ensure our ads stay relevant even without tracking and work well for our advertisers.
 We also vet every publisher individually to make sure they're a fit for our network
 and ensure that they bring the kind of audience our advertisers want to reach.
-
 
 ## Community Ads
 
@@ -127,7 +123,6 @@ of our privacy policy.
 
 We do not share, sell, rent, or trade personal information with third parties for their commercial purposes.
 
-
 ## Join us
 
 Ethical advertising is our vision for the future of internet advertising,
@@ -137,6 +132,6 @@ since we have a deep understanding of how privacy issues impact the internet.
 We have space for additional publishers and advertisers,
 and look forward to building something meaningful with you:
 
-* Become a [publisher]({filename}/pages/publishers.md) today
-* Become an [advertiser]({filename}/pages/advertisers.md) today
-* Follow our journey in our [newsletter](https://www.ethicalads.io/email-list/)
+- Become a [publisher]({filename}/pages/publishers.md) today
+- Become an [advertiser]({filename}/pages/advertisers.md) today
+- Follow our journey in our [newsletter](https://www.ethicalads.io/email-list/)

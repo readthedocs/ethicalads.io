@@ -4,6 +4,9 @@
 *.js
 *.yml
 *.yaml
+# Ignore sourced files
+static-src/landkit/
 # Actually check these files
-!static-src/client.js
+!static-src/*.js
+!static-src/views/*.js
 !webpack.config.js

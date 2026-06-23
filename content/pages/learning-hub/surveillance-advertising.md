@@ -3,7 +3,6 @@ slug: surveillance-advertising
 description: Online advertising works by collecting data on millions of people without their consent to target ads better. You can opt-out and we can help!
 subtitle: Good advertising doesn't have to follow you around the web
 
-
 Modern online advertising works by accumulating and processing data on millions of people
 usually without their consent to help target ads with ever more granularity.
 **This is called surveillance advertising and we believe in a different approach.**
@@ -22,17 +21,17 @@ To first understand the problem, it's useful to go through some of the basics of
 Showing the right ad is critical to good performance and as an advertiser you want to make sure your ad is shown to a relevant audience.
 As an ad network or publisher, a better ad results in more clicks, more interaction, and importantly more money.
 To ensure that the best-performing ads are shown to the right folks, ad networks build profiles of users.
-In the advertising industry, building a profile of users to target ads is called *behavioral targeting* or *personalized advertising*.
+In the advertising industry, building a profile of users to target ads is called _behavioral targeting_ or _personalized advertising_.
 
 To build these profiles,
 most advertising networks create a database of user data in order to show the right ad.
 This can include data such as:
 
-* sites a user has visited or videos the user has seen in the past
-* a user's search history
-* ads, pages, or stories a user has clicked on in the past
-* demographic information such as age, zip or postal code, gender, or income level
-* personal information such as a name or email
+- sites a user has visited or videos the user has seen in the past
+- a user's search history
+- ads, pages, or stories a user has clicked on in the past
+- demographic information such as age, zip or postal code, gender, or income level
+- personal information such as a name or email
 
 Extremely large sites like Facebook have a lot of first-party data on users already
 such as the posts they've liked or the groups they are a member of.
@@ -40,19 +39,19 @@ This data is very useful to target ads
 but all that data at least was given directly to Facebook willfully and voluntarily.
 Things get a little murkier when tracking users across the web on third-party sites.
 
-
 ### Retargeting & remarketing
+
 Building a profile from users' visits to third-party sites is typically accomplished by the use of trackers
 (sometimes called beacons or pixels).
 For example, if a site uses a tracker from an ad network and a user visits that site,
 the site operator can now target future advertising to that user – a known past visitor – with that network.
-This is called *retargeting* or *remarketing*.
+This is called _retargeting_ or _remarketing_.
 The site operator (often just a small business) gets to target their own ads better
 but also helps the ad network create their enormous database of all the sites users have visited in the past.
 Critically, the site visitor didn't agree to share this data with the ad network but their browser did it anyway.
 
-
 ### Fine geographic targeting (geofences & beacons)
+
 Both iOS and Android allow apps to register geofences.
 These are geographic areas where when a user's phone enters that area,
 the app will briefly wake up and take an action.
@@ -63,13 +62,13 @@ A relatively benign example was an ad campaign for McDonald's that involved send
 However, ad geofences have been used to target people who visit medical clinics,
 military bases, and other sensitive areas.
 
-
 ### Lookalike audiences & similar audiences
+
 Other ad predictions are made by grouping similar users together based on some user data and using machine learning.
 Frequently this involves an advertiser uploading personal data on users (often past customers of the advertiser)
 to an ad network and telling the network to target similar users.
 The idea is that two users with similar demographic information and similar interests would like the same products.
-In ad tech, this is known as *lookalike audiences* or *similar audiences*.
+In ad tech, this is known as _lookalike audiences_ or _similar audiences_.
 This is frequently done without getting the permission or knowledge of the person
 whose personal information has been shared.
 
@@ -77,7 +76,6 @@ Understandably, many people have concerns about these targeting techniques.
 If you've ever felt that ads "follow you around" while you browse the web, it's because of these.
 While the modern advertising industry has built enormous value,
 it's done so by centralizing massive amounts of data on as many people as possible.
-
 
 ## We target our ads differently
 
@@ -88,7 +86,7 @@ we might show you an ad for a Swiss company looking to hire front-end web develo
 These types of ads perform fantastically well and don't require compiling data on millions of users.
 It really is that simple to have a high-performing ad without tracking users.
 
-This approach of putting ads next to relevant content is called *contextual targeting*
+This approach of putting ads next to relevant content is called _contextual targeting_
 and all advertising used to work this way.
 Before online advertising, advertisers placed an ad in a related magazine
 or during a TV program their desired audience watched.
@@ -105,46 +103,42 @@ we can further focus on developer niches like machine learning or DevOps
 to reach just the right audience for an advertiser
 while still respecting the privacy of everyone involved.
 
-
 ## Opting-out of surveillance advertising
-
 
 ### As an individual
 
 If you're an individual just aiming to not get profiled,
 there's a few steps we recommend:
 
-* On your browser, use a lightweight browser plugin that blocks most trackers.
+- On your browser, use a lightweight browser plugin that blocks most trackers.
   Usually by blocking trackers and ads that track you (but not our ads that don't),
   they'll make your browser feel even faster.
   We recommend [Privacy Badger](https://privacybadger.org/).
   Just a note that some sites will prompt you to "disable your ad blocker" while running these plugins
   but know that you are only blocking surveillance advertising.
   Doing this encourages these sites to support ads that don't track you.
-* On your phone, use a privacy-first browser
+- On your phone, use a privacy-first browser
   like the DuckDuckGo Privacy Browser ([App Store](https://apps.apple.com/us/app/duckduckgo-privacy-browser/id663592361),
   [Google Play](https://play.google.com/store/apps/details?id=com.duckduckgo.mobile.android))
   or Firefox Focus ([App Store](https://apps.apple.com/us/app/firefox-focus-privacy-browser/id1055677337),
   [Google Play](https://play.google.com/store/apps/details?id=org.mozilla.focus)).
   These browsers help you block most trackers while your browse the web from your phone.
-* Consider trying an alternative search engine like [DuckDuckGo](https://duckduckgo.com/).
+- Consider trying an alternative search engine like [DuckDuckGo](https://duckduckgo.com/).
   For most people, it works just as well but without the tracking.
-
 
 ### As a site operator
 
 If you're a site operator, say a site for users interested in a certain niche
 or perhaps a small online business, there's a few things you can do:
 
-* If you plan to monetize your site with advertising,
+- If you plan to monetize your site with advertising,
   try to find a privacy-first ad network.
   If your site is for developers, please [get in touch with us]({filename}/pages/publishers.md).
-* Lots of businesses and sites need some amount of analytics to make business decisions.
+- Lots of businesses and sites need some amount of analytics to make business decisions.
   Try a privacy-focused analytics solution like [Fathom](https://usefathom.com/),
   [Plausible](https://plausible.io/), or [SimpleAnalytics](https://simpleanalytics.com/).
-* Even if you plan to advertise at some point in the future,
+- Even if you plan to advertise at some point in the future,
   don't run trackers on your site if possible.
-
 
 ### As an advertiser
 
@@ -153,10 +147,10 @@ You'd quickly be out of a job.
 Whether you're a large or a small advertiser,
 here are some actions you can take to make privacy-focused advertising succeed:
 
-* Carve out a small amount of your ad budget and try a privacy-first ad network.
+- Carve out a small amount of your ad budget and try a privacy-first ad network.
   If you're focused on reaching developers, [we can help]({filename}/pages/advertisers.md).
-* Depending on your business, you may be able to advertise locally or in a medium without surveillance advertising.
+- Depending on your business, you may be able to advertise locally or in a medium without surveillance advertising.
   Podcasts, newsletters, conferences, billboards, and local papers are all good options.
-* If you find a privacy-friendly option that works for you,
+- If you find a privacy-friendly option that works for you,
   tell your ad industry colleagues about it.
   It's in all of our best interests to make sure this side of advertising is a credible alternative.

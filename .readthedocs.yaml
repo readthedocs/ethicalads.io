@@ -7,7 +7,7 @@ build:
   os: ubuntu-22.04
   tools:
     python: "3.12"
-    nodejs: "20"
+    nodejs: "24"
 
   # https://docs.readthedocs.com/platform/latest/config-file/v2.html#build-commands
   commands:

@@ -42,11 +42,11 @@ We're excited to officially announce that we're open for additional publishers a
 Ethical ads respect users while still providing value to advertisers.
 The vision is pretty simple:
 
-* We don’t track you or sell your data
-* We only make money showing ads, so our interests are fully aligned
-* We target ads based on the content of the current page, not your past browsing history
-* We are as transparent in our business as possible
-* We only show high quality ads from companies that are of interest to developers.
+- We don’t track you or sell your data
+- We only make money showing ads, so our interests are fully aligned
+- We target ads based on the content of the current page, not your past browsing history
+- We are as transparent in our business as possible
+- We only show high quality ads from companies that are of interest to developers.
 
 As we talked about in our [2018 blog post](https://blog.readthedocs.com/ethical-advertising-works/): **ethical advertising works**.
 We're thrilled to be able to bring our vision of advertising to a larger audience,
@@ -68,6 +68,6 @@ and we hope that you'll join us.
 We have space for additional publishers and advertisers,
 and look forward to building something meaningful with you:
 
-* Become a [publisher]({filename}/pages/publishers.md) today
-* Become an [advertiser]({filename}/pages/advertisers.md) today
-* Follow our journey in our [newsletter](https://www.ethicalads.io/email-list/)
+- Become a [publisher]({filename}/pages/publishers.md) today
+- Become an [advertiser]({filename}/pages/advertisers.md) today
+- Follow our journey in our [newsletter](https://www.ethicalads.io/email-list/)

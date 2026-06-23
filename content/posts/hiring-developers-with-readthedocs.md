@@ -4,7 +4,6 @@ description: How to advertise your open positions to developers on Read the Docs
 tag: hiring, readthedocs
 authors: David Fischer
 
-
 > This post first appeared
 > on the [Read the Docs company blog](https://blog.readthedocs.com/hiring-developers-with-readthedocs/)
 
@@ -16,8 +15,7 @@ ads](https://docs.readthedocs.io/en/latest/advertising/ethical-advertising.html)
 for recruiting, we discovered that Read the Docs was a great place to
 find developer talent.
 
-Hiring with Read the Docs works
--------------------------------
+## Hiring with Read the Docs works
 
 Developers are not always actively job seeking by browsing job boards or
 company careers pages. However, they are on Read the Docs reading about
@@ -31,9 +29,7 @@ the folks actively using the tech they are recruiting for.
 
 <img src="{static}../images/posts/2018-ctr-adtype.png" class="mw-100" alt="Click-through rate by ad type Q3 2018">
 
-
-Be specific and find the right developers
------------------------------------------
+## Be specific and find the right developers
 
 If you are looking for Python developers, you can configure your hiring
 ad to only show on Python related documentation. You can further refine
@@ -43,9 +39,7 @@ in Switzerland, be as specific as possible. This ensures you don't get
 unqualified candidates as well as making sure you catch the eyes of the
 people you are interested in.
 
-
-Set the right expectations
---------------------------
+## Set the right expectations
 
 In any type of advertising, setting appropriate expectations can make
 the difference between a lackluster and successful campaign. In hiring,
@@ -61,9 +55,7 @@ developers have seen enough hiring posts for "rockstars" and
 "ninjas" to know what to expect. Be honest and upfront and you will
 attract the right folks.
 
-
-Stand out
----------
+## Stand out
 
 Developers get contacted all the time by recruiters and it can be
 difficult to show prospective employees why they should check out your

@@ -1,6 +1,5 @@
-import * as jquery from 'jquery';
-const ko = require('knockout');
-
+import * as jquery from "jquery";
+const ko = require("knockout");
 
 function PublisherCalculatorViewModel() {
   // Helper function to validate the passed source
@@ -49,9 +48,9 @@ function PublisherCalculatorViewModel() {
     let url = this.getUrl();
 
     let state = {
-      "cpm": this.cpm(),
-      "pageviews": this.pageviews(),
-      "pageview_source": this.pageview_source(),
+      cpm: this.cpm(),
+      pageviews: this.pageviews(),
+      pageview_source: this.pageview_source(),
     };
 
     window.history.pushState(state, null, url);
@@ -63,14 +62,24 @@ function PublisherCalculatorViewModel() {
   // but take into account the data from https://docs.readthedocs.io/en/stable/advertising/ad-blocking.html#statistics-and-data
   // as well as we took a few measurements for Read the Docs analytics and compared it with ad views
   this.PAGEVIEW_SOURCES = [
-    {value: "js-analytics", text: "JavaScript-based analytics (GA, Plausible, Simple)", multiplier: 0.65},
-    {value: "logs", text: "Server-side analytics (CDN stats, log parsing)", multiplier: 0.3},
-    {value: "ad-network", text: "Another ad network", multiplier: 0.8},
+    {
+      value: "js-analytics",
+      text: "JavaScript-based analytics (GA, Plausible, Simple)",
+      multiplier: 0.65,
+    },
+    {
+      value: "logs",
+      text: "Server-side analytics (CDN stats, log parsing)",
+      multiplier: 0.3,
+    },
+    { value: "ad-network", text: "Another ad network", multiplier: 0.8 },
   ];
 
   let initial_cpm = parseFloat(params.get("cpm")) || 2.55;
   let initial_pageviews = parseInt(params.get("pageviews"), 10) || 250000;
-  let initial_pageview_source = this.validatePageviewSource(params.get("pageview_source")) || this.PAGEVIEW_SOURCES[0].value;
+  let initial_pageview_source =
+    this.validatePageviewSource(params.get("pageview_source")) ||
+    this.PAGEVIEW_SOURCES[0].value;
 
   this.cpm = ko.observable(initial_cpm);
   this.pageviews = ko.observable(initial_pageviews);
@@ -90,7 +99,6 @@ function PublisherCalculatorViewModel() {
   }, this);
 }
 
-
-if ($('#publisher-calculator').length > 0) {
+if ($("#publisher-calculator").length > 0) {
   ko.applyBindings(new PublisherCalculatorViewModel());
 }

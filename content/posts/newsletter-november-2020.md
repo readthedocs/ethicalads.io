@@ -6,11 +6,9 @@ authors: Eric Holscher
 image: /images/posts/2020-nov-newsletter.jpg
 image_credit: <span>Photo by <a href="https://unsplash.com/@szmigieldesign?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Lukasz Szmigiel</a> on <a href="https://unsplash.com/s/photos/november?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
-
-[comment]: # (The queries run to get this data, then computed in a spreadsheet for publisher rev)
-[comment]: # (?start_date=2020-08-01&end_date=2020-08-31&campaign_type=All+types&revenue_share_percentage=50.0)
-[comment]: # (?start_date=2020-09-01&end_date=2020-09-30&campaign_type=paid&revenue_share_percentage=70.0&sort=revenue)
-
+[comment]: # "The queries run to get this data, then computed in a spreadsheet for publisher rev"
+[comment]: # "?start_date=2020-08-01&end_date=2020-08-31&campaign_type=All+types&revenue_share_percentage=50.0"
+[comment]: # "?start_date=2020-09-01&end_date=2020-09-30&campaign_type=paid&revenue_share_percentage=70.0&sort=revenue"
 
 ## November advertising stats
 
@@ -26,9 +24,9 @@ which we continue to do.
 
 In November 2020:
 
-* We generated **$10,059.39** for our publishers, breaking $10,000 for the first time!
-* We had **79 publishers** on our network with a paid ad impression.
-* We had **5,484,006** paid ad views across the world.
+- We generated **$10,059.39** for our publishers, breaking $10,000 for the first time!
+- We had **79 publishers** on our network with a paid ad impression.
+- We had **5,484,006** paid ad views across the world.
 
 We are excited that all of our core metrics increased this month.
 We hope they will continue to increase in December,
@@ -39,11 +37,11 @@ so we'll have to wait to find out!
 
 The big things we added this month:
 
-* We were approved for the Acceptable Ads program, which required changes to both our server and client to track traffic we can attribute to the program.
-* We added reporting for Advertisers to see what Countries and Publishers their ads are showing on the most.
-* We added keyword reporting for Publishers. This allows them to see the performance of the various keywords they are sending on incoming traffic.
-* We improved our payout workflow, which is part of the work required to lower our payout limit of $50.
-* We added backend support for Fill Rate tracking. This allows us to understand more about how ads are being filled across keywords, geos, and publishers.
+- We were approved for the Acceptable Ads program, which required changes to both our server and client to track traffic we can attribute to the program.
+- We added reporting for Advertisers to see what Countries and Publishers their ads are showing on the most.
+- We added keyword reporting for Publishers. This allows them to see the performance of the various keywords they are sending on incoming traffic.
+- We improved our payout workflow, which is part of the work required to lower our payout limit of $50.
+- We added backend support for Fill Rate tracking. This allows us to understand more about how ads are being filled across keywords, geos, and publishers.
 
 You can always see our latest updates in our [ethical-ad-server changelog](https://ethical-ad-server.readthedocs.io/en/latest/developer/changelog.html).
 
@@ -79,11 +77,10 @@ but it will allow us to grow advertising more quickly as we see growth in the ad
 
 The major features in our upcoming roadmap:
 
-
-* We're still hoping to adapt our ad format to [break out a headline and a call to action](https://github.com/readthedocs/ethical-ad-server/issues/152). This will standardize our ad display, along with making sure that all our advertisers have ads that work across multiple formats.
-* We want to give advertisers a way to change the flight targeting of their advertisements. Changing targeting generally changes the pricing, so this will require the dashboard knowing more about pricing for different targeting options.
-* We're hoping to expand our advertising logic to take into account price when selecting ads. This will allow us to assure maximum revenue for a publisher, but we don't want to always show a single ad on that site, either.
-* We hope to do a beta test of a sponsorship program with a publisher, which is an extension of the ad network to allow for specific placements on high-value publishers.
+- We're still hoping to adapt our ad format to [break out a headline and a call to action](https://github.com/readthedocs/ethical-ad-server/issues/152). This will standardize our ad display, along with making sure that all our advertisers have ads that work across multiple formats.
+- We want to give advertisers a way to change the flight targeting of their advertisements. Changing targeting generally changes the pricing, so this will require the dashboard knowing more about pricing for different targeting options.
+- We're hoping to expand our advertising logic to take into account price when selecting ads. This will allow us to assure maximum revenue for a publisher, but we don't want to always show a single ad on that site, either.
+- We hope to do a beta test of a sponsorship program with a publisher, which is an extension of the ad network to allow for specific placements on high-value publishers.
 
 Thanks again for being along with us on this journey to build an ethical ad network.
 Please [email us](mailto:ads@ethicalads.io) if you have any ideas or feedback on our product or roadmap,

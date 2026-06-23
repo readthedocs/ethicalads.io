@@ -20,11 +20,10 @@ This is why we built a new contextual targeting method that uses AI (ok, it's ma
 ads and their landing pages to the most similar pages across our network where ads appear.
 This will allow serving ads to highly-relevant audiences for almost any type of developer-focused product.
 
-*This post is aimed at developer marketers, but if you're interested in the tech
+_This post is aimed at developer marketers, but if you're interested in the tech
 behind this niche targeting and you believe that AI only exists on a PowerPoint
 while machine learning happens in Python, check out our
-[developer-focused post]({filename}../posts/2024-niche-ad-targeting.md).*
-
+[developer-focused post]({filename}../posts/2024-niche-ad-targeting.md)._
 
 ## Why AI targeted ads are great for marketers, developers and privacy
 
@@ -48,7 +47,6 @@ without needing to know anything about the user themselves.
 So yes, AI-targeted ads can indeed be great for privacy.
 It's like having your cake and eating it too, but without anyone spying on your cake preferences.
 
-
 ## Niche targeting prototype and case study
 
 While we're still building and refining the capabilities for this targeting,
@@ -65,14 +63,13 @@ If you sell a developer-focused product, you can
 [try it](https://www.ethicalads.io/advertisers/similar-pages/?url=https%3A%2F%2Fwww.mongodb.com%2Fatlas) with your own landing page
 and see some of the closest matching across our network.
 
-*Tip: the more verbose your landing page is and the more it describes your product in specific terms,
-the better this will work.*
+_Tip: the more verbose your landing page is and the more it describes your product in specific terms,
+the better this will work._
 
 We're still refining this and we plan to replace the fairly generic AI model we're using
 with a model with more knowledge of the different developer tools, technologies,
 and languages. There's also a lot of knobs to twist to set how close an ad needs to be
 to the page it appears to be "close enough" but all those details are coming together.
-
 
 ## Conclusion
 

@@ -16,18 +16,16 @@ these terms generally do not apply to you.
 If you're just concerned about how we handle data from users
 who view ads on our network, see our [privacy policy]({filename}../pages/privacy-policy.md).
 
-
 **Contents**
 
 [TOC]
 
 ## Definitions
 
-**Short version:** *We use these basic terms throughout the agreement,
+**Short version:** _We use these basic terms throughout the agreement,
 and they have specific meanings. You should know what we mean when we
 use each of the terms. There's not going to be a test on it, but it's
-still useful information.*
-
+still useful information._
 
 1.  The "Agreement" refers, collectively, to all the terms,
     conditions, notices contained or referenced in this document (the
@@ -67,33 +65,31 @@ still useful information.*
     collects from Advertisers, Publishers, or visitors who merely see or click on an ad,
     and why we collect it.
 
-
 ### Our services
 
 EthicalAds is made up of the following sites:
 
 ethicalads.io
 
-:   This website contains landing pages explaining our Service and Network.
+: This website contains landing pages explaining our Service and Network.
 
 server.ethicalads.io ("Ad Server")
 
-:   The website that serves ads on behalf of our Advertisers
-    and are displayed on Publishers' websites.
-
+: The website that serves ads on behalf of our Advertisers
+and are displayed on Publishers' websites.
 
 ## Account terms
 
-*User Accounts have different administrative controls;
+_User Accounts have different administrative controls;
 a human must create your Account (usually after receiving an invite); you must be 13 or over;
 and you must provide a valid email address.
 You alone are responsible for your Account and anything that happens while you are signed in to or using your Account.
-You are responsible for keeping your Account secure.*
+You are responsible for keeping your Account secure._
 
 ### Account controls
 
 Users
-    Subject to these Terms, you retain ultimate administrative control over your User Account and the Content within it. Users can share access to their Publisher or Advertiser accounts with other Users.
+Subject to these Terms, you retain ultimate administrative control over your User Account and the Content within it. Users can share access to their Publisher or Advertiser accounts with other Users.
 
 ### Required information
 
@@ -109,48 +105,48 @@ we may require additional information necessary for billing purposes.
 We have a few simple rules for User Accounts on EthicalAds'
 Services.
 
--   You must be a human to create an Account. Accounts registered by
-    "bots" or other automated methods are not permitted. We do permit
-    machine accounts:
--   A machine account is an Account set up by an individual human who
-    accepts the Terms on behalf of the Account, provides a valid email
-    address, and is responsible for its actions. A machine account is
-    used exclusively for performing automated tasks. Multiple users may
-    direct the actions of a machine account, but the owner of the
-    Account is ultimately responsible for the machine's actions.
--   You must be age 13 or older. We must comply with United States law.
-    EthicalAds does not target
-    our Services to children under 13, and we do not permit any Users
-    under 13 on our Service. If we learn of any User under the age of
-    13, we will have to close your account. If you are a resident of a
-    country outside the United States, your country's minimum age may
-    be older; in such a case, you are responsible for complying with
-    your country's laws.
--   You may not use EthicalAds in violation of export control or
-    sanctions laws of the United States or any other applicable
-    jurisdiction. You may not use EthicalAds if you are or are
-    working on behalf of a [Specially Designated National
-    (SDN)](https://www.treasury.gov/resource-center/sanctions/SDN-List/Pages/default.aspx)
-    or a person subject to similar blocking or denied party prohibitions
-    administered by a U.S. government agency. EthicalAds may allow
-    persons in certain sanctioned countries or territories to access
-    certain EthicalAds services pursuant to U.S. government
-    authorizations.
+- You must be a human to create an Account. Accounts registered by
+  "bots" or other automated methods are not permitted. We do permit
+  machine accounts:
+- A machine account is an Account set up by an individual human who
+  accepts the Terms on behalf of the Account, provides a valid email
+  address, and is responsible for its actions. A machine account is
+  used exclusively for performing automated tasks. Multiple users may
+  direct the actions of a machine account, but the owner of the
+  Account is ultimately responsible for the machine's actions.
+- You must be age 13 or older. We must comply with United States law.
+  EthicalAds does not target
+  our Services to children under 13, and we do not permit any Users
+  under 13 on our Service. If we learn of any User under the age of
+  13, we will have to close your account. If you are a resident of a
+  country outside the United States, your country's minimum age may
+  be older; in such a case, you are responsible for complying with
+  your country's laws.
+- You may not use EthicalAds in violation of export control or
+  sanctions laws of the United States or any other applicable
+  jurisdiction. You may not use EthicalAds if you are or are
+  working on behalf of a [Specially Designated National
+  (SDN)](https://www.treasury.gov/resource-center/sanctions/SDN-List/Pages/default.aspx)
+  or a person subject to similar blocking or denied party prohibitions
+  administered by a U.S. government agency. EthicalAds may allow
+  persons in certain sanctioned countries or territories to access
+  certain EthicalAds services pursuant to U.S. government
+  authorizations.
 
 ### User Account security
 
 You are responsible for keeping your Account secure while you use our
 Service.
 
--   You are responsible for all activity that occurs under your Account.
--   You are responsible for maintaining the security of your Account and
-    password. EthicalAds cannot and will not be liable for any loss
-    or damage from your failure to comply with this security obligation.
--   You will promptly
-    [notify EthicalAds]({filename}../pages/contact.md) if
-    you become aware of any unauthorized use of, or access to, our
-    Services through your Account, including any unauthorized use of
-    your password or Account.
+- You are responsible for all activity that occurs under your Account.
+- You are responsible for maintaining the security of your Account and
+  password. EthicalAds cannot and will not be liable for any loss
+  or damage from your failure to comply with this security obligation.
+- You will promptly
+  [notify EthicalAds]({filename}../pages/contact.md) if
+  you become aware of any unauthorized use of, or access to, our
+  Services through your Account, including any unauthorized use of
+  your password or Account.
 
 ### Additional terms
 
@@ -161,12 +157,11 @@ an application that integrates with EthicalAds. Please be aware that
 while these Terms are our full agreement with you, other parties' terms
 govern their relationships with you.
 
-
 ## Acceptable use
 
-**Short version:** *EthicalAds runs an ad network and our publishers and advertisers
+**Short version:** _EthicalAds runs an ad network and our publishers and advertisers
 are from all over the world. While using our network and
-service, you must follow the terms of this section.*
+service, you must follow the terms of this section._
 
 Your use of our Network and Services must not violate any applicable
 laws, including copyright or trademark laws, export control or sanctions
@@ -174,14 +169,13 @@ laws, or other laws in your jurisdiction. You are responsible for making
 sure that your use of the Service is in compliance with laws and any
 applicable regulations.
 
-
 ## API terms
 
-**Short version:** *You agree to these Terms of Service, plus this
+**Short version:** _You agree to these Terms of Service, plus this
 Section, when using any of EthicalAds' APIs (Application Provider Interface),
 or our ad client which is used by publishers to display ads
 including use of the API through a third party product that
-accesses EthicalAds.*
+accesses EthicalAds._
 
 ### No abuse or overuse of the API
 
@@ -200,12 +194,11 @@ of ad fraud or generating fake traffic that looks like site visitors.
 All use of the EthicalAds API is subject to these Terms of Service
 and our [privacy policy]({filename}../pages/privacy-policy.md).
 
-
 ## Advertising on the EthicalAds network
 
-**Short version:** *We run an ad network and our network provides guarantees
+**Short version:** _We run an ad network and our network provides guarantees
 about how we fairly handle advertising and disputes as well as expectations
-on our advertisers and publishers.*
+on our advertisers and publishers._
 
 ### Our privacy-focused advertising
 
@@ -242,13 +235,12 @@ which will be deemed to be the date sent by EthicalAds.
 Customer will notify EthicalAds of any change in contact information for billing purposes
 by sending such notice by email to ads@ethicalads.io.
 
-
 ## Payment
 
-**Short version:** *You are responsible for any fees associated with
+**Short version:** _You are responsible for any fees associated with
 your use of EthicalAds. We are responsible for communicating those
 fees to you clearly and accurately, and letting you know well in advance
-if those prices change.*
+if those prices change._
 
 ### Pricing
 
@@ -260,10 +252,10 @@ however, prices are subject to change at the end of a payment term.
 
 ### Billing schedule; no refunds
 
--   For advertising campaigns, the Service is billed on net-30 terms
-    usually on a monthly or quarterly basis and is non-refundable.
-    A customer may stop or pause a campaign and apply the credit to a future campaign.
--   Exceptions to these rules are at EthicalAds' sole discretion.
+- For advertising campaigns, the Service is billed on net-30 terms
+  usually on a monthly or quarterly basis and is non-refundable.
+  A customer may stop or pause a campaign and apply the credit to a future campaign.
+- Exceptions to these rules are at EthicalAds' sole discretion.
 
 ### Authorization
 
@@ -295,11 +287,10 @@ no later than 30 days after your next payout.
 For more details, see our
 [publisher policy]({filename}../pages/publisher-policy.md).
 
-
 ## Cancellation and termination
 
-**Short version:** *You may close your Account at any time. If you do,
-we'll treat your information responsibly.*
+**Short version:** _You may close your Account at any time. If you do,
+we'll treat your information responsibly._
 
 ### Publisher account cancellation
 
@@ -337,15 +328,14 @@ to refuse service to anyone for any reason at any time.
 ### Survival
 
 All provisions of this Agreement which, by their nature, should survive
-termination *will* survive termination --including, without limitation:
+termination _will_ survive termination --including, without limitation:
 ownership provisions, warranty disclaimers, indemnity, and limitations
 of liability.
 
-
 ## Communications with EthicalAds
 
-**Short version:** *We use email and other electronic means to stay in
-touch with our users.*
+**Short version:** _We use email and other electronic means to stay in
+touch with our users._
 
 ### Electronic communication required
 
@@ -374,9 +364,9 @@ and electronic messages. We do not offer telephone support.
 
 ## Disclaimer of warranties
 
-**Short version:** *We provide our service as is, and we make no
+**Short version:** _We provide our service as is, and we make no
 promises or guarantees about this service. Please read this section
-carefully; you should understand what to expect.*
+carefully; you should understand what to expect._
 
 EthicalAds provides the Service and the Network "as is" and "as
 available," without warranty of any kind. Without limiting this, we
@@ -395,30 +385,29 @@ components. You assume full responsibility and risk of loss resulting
 from your downloading and/or use of files, information, content or other
 material obtained from the Service.
 
-
 ## Limitation of liability
 
-**Short version:** *We will not be liable for damages or losses arising
+**Short version:** _We will not be liable for damages or losses arising
 from your use or inability to use the Service or otherwise arising under
 this agreement. Please read this section carefully; it limits our
-obligations to you.*
+obligations to you._
 
 You understand and agree that we will not be liable to you or any third
 party for any loss of profits, use, goodwill, or data, or for any
 incidental, indirect, special, consequential or exemplary damages,
 however arising, that result from:
 
--   the use, disclosure, or display of your User-Generated Content;
--   your use or inability to use the Service;
--   any modification, price change, suspension or discontinuance of the
-    Service;
--   the Service generally or the software or systems that make the
-    Service available;
--   unauthorized access to or alterations of your transmissions or data;
--   statements or conduct of any third party on the Service;
--   any other user interactions that you input or receive through your
-    use of the Service; or
--   any other matter relating to the Service.
+- the use, disclosure, or display of your User-Generated Content;
+- your use or inability to use the Service;
+- any modification, price change, suspension or discontinuance of the
+  Service;
+- the Service generally or the software or systems that make the
+  Service available;
+- unauthorized access to or alterations of your transmissions or data;
+- statements or conduct of any third party on the Service;
+- any other user interactions that you input or receive through your
+  use of the Service; or
+- any other matter relating to the Service.
 
 Our liability is limited whether or not we have been informed of the
 possibility of such damages, and even if a remedy set forth in this
@@ -426,12 +415,11 @@ Agreement is found to have failed of its essential purpose. We will have
 no liability for any failure or delay due to matters beyond our
 reasonable control.
 
-
 ## Release and indemnification
 
-**Short version:** *You are responsible for your use of the service. If
+**Short version:** _You are responsible for your use of the service. If
 you harm someone else or get into a dispute with someone else, we will
-not be involved.*
+not be involved._
 
 If you have a dispute with one or more Users, you agree to release EthicalAds
 from any and all claims, demands and damages (actual and
@@ -452,14 +440,13 @@ provided that EthicalAds:
     unconditionally releases EthicalAds of all liability)
 3.  Provides to you all reasonable assistance, at your expense.
 
-
 ## Changes to these terms
 
-**Short version:** *We want our users to be informed of important
+**Short version:** _We want our users to be informed of important
 changes to our terms, but some changes aren't that important --- we
 don't want to bother you every time we fix a typo. So while we may
 modify this agreement at any time, we will notify users of any changes
-that affect your rights and give you time to adjust to them.*
+that affect your rights and give you time to adjust to them._
 
 We reserve the right, at our sole discretion, to amend these Terms of
 Service at any time and will update these Terms of Service in the event
@@ -472,7 +459,6 @@ constitutes agreement to our revisions of these Terms of Service.
 We reserve the right at any time and from time to time to modify or
 discontinue, temporarily or permanently, the Website (or any part of it)
 with or without notice.
-
 
 ## Miscellaneous
 

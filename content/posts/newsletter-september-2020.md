@@ -5,10 +5,9 @@ tags: newsletter, community
 authors: Eric Holscher
 image: /images/posts/ethicalads-network.png
 
-
-[comment]: # (The queries run to get this data, then computed in a spreadsheet for publisher rev)
-[comment]: # (?start_date=2020-08-01&end_date=2020-08-31&campaign_type=All+types&revenue_share_percentage=50.0)
-[comment]: # (?start_date=2020-09-01&end_date=2020-09-30&campaign_type=paid&revenue_share_percentage=70.0&sort=revenue)
+[comment]: # "The queries run to get this data, then computed in a spreadsheet for publisher rev"
+[comment]: # "?start_date=2020-08-01&end_date=2020-08-31&campaign_type=All+types&revenue_share_percentage=50.0"
+[comment]: # "?start_date=2020-09-01&end_date=2020-09-30&campaign_type=paid&revenue_share_percentage=70.0&sort=revenue"
 
 ## Advertising stats
 
@@ -22,9 +21,9 @@ and we're happy to report that it grew **32%** this month.
 
 In September 2020:
 
-* We generated **$6,966.84** for our publishers -- so close to $7k!
-* We had **65 publishers** on our network with a paid ad impression.
-* We had **4,829,240** paid ad views across the world.
+- We generated **$6,966.84** for our publishers -- so close to $7k!
+- We had **65 publishers** on our network with a paid ad impression.
+- We had **4,829,240** paid ad views across the world.
 
 ## New features
 
@@ -32,11 +31,11 @@ We continued to add more features for publishers and advertisers to understand w
 
 The big things we added this month:
 
-* A [new website](https://www.ethicalads.io/) with an updated design.
-* We combined our Read the Docs & EthicalAds landing pages and prospectus, so we only have a single source of that information now.
-* Our [Q4 advertiser prospectus](https://www.ethicalads.io/prospectus/ethicalads-advertiser-prospectus.pdf) with updated topics and pricing
-* Ad client support for [placement reporting](https://ethical-ad-client.readthedocs.io/en/latest/#ad-placement-reporting) which allows seeing reports for specific placements on your site (eg. an ad on a list screen vs. a detail screen)
-* Ad client support for [per-page keywords](https://ethical-ad-client.readthedocs.io/en/latest/#page-specific-keywords)
+- A [new website](https://www.ethicalads.io/) with an updated design.
+- We combined our Read the Docs & EthicalAds landing pages and prospectus, so we only have a single source of that information now.
+- Our [Q4 advertiser prospectus](https://www.ethicalads.io/prospectus/ethicalads-advertiser-prospectus.pdf) with updated topics and pricing
+- Ad client support for [placement reporting](https://ethical-ad-client.readthedocs.io/en/latest/#ad-placement-reporting) which allows seeing reports for specific placements on your site (eg. an ad on a list screen vs. a detail screen)
+- Ad client support for [per-page keywords](https://ethical-ad-client.readthedocs.io/en/latest/#page-specific-keywords)
 
 You can always see our latest updates in our [ethical-ad-server changelog](https://ethical-ad-server.readthedocs.io/en/latest/developer/changelog.html).
 
@@ -55,11 +54,11 @@ We are still planning to write more blog content and ship a publisher prospectus
 
 In addition, our roadmap this month includes:
 
-* A number of reporting improvements for both advertisers and publishers, to better understand their traffic.
-* Adapt Read the Docs to use our [official ad client](https://ethical-ad-client.readthedocs.io/en/latest/) instead of the custom integration we have now.
-* Trademark "EthicalAds", now that we are using it as a brand. We hope we will be able to get it, otherwise we might need to consider a re-brand.
-* Additional publisher & advertiser landing pages. We hope to build topic-specific pages to share more information for specific audiences on these pages.
-* Get testimonials from our users. We have now been serving network ads for close to 3 months, so we should have some happy customers now :)
+- A number of reporting improvements for both advertisers and publishers, to better understand their traffic.
+- Adapt Read the Docs to use our [official ad client](https://ethical-ad-client.readthedocs.io/en/latest/) instead of the custom integration we have now.
+- Trademark "EthicalAds", now that we are using it as a brand. We hope we will be able to get it, otherwise we might need to consider a re-brand.
+- Additional publisher & advertiser landing pages. We hope to build topic-specific pages to share more information for specific audiences on these pages.
+- Get testimonials from our users. We have now been serving network ads for close to 3 months, so we should have some happy customers now :)
 
 That's the big roadmap items for us this next month, but we always have additional tasks each month like replying to email and processing payouts.
 We'll continue working diligently to bring the best ad network that we can to the developer community,

@@ -4,14 +4,13 @@
   "description": "",
   "main": "index.js",
   "engines": {
-    "npm": ">=10.0.0 <11.0.0",
-    "node": ">=20.0.0 <21.0.0"
+    "npm": ">=10.0.0",
+    "node": ">=24.0.0 <25.0.0"
   },
   "scripts": {
     "build": "webpack --config webpack.config.js --mode=development --progress --color",
     "watch": "webpack --config webpack.config.js --mode=development --watch",
     "dist": "webpack --config webpack.config.js --mode=production --progress --color",
-    "deploy": "npm run dist && gh-pages -d www",
     "lint": "prettier -c .",
     "format": "prettier --write ."
   },
@@ -49,11 +48,10 @@
     "css-loader": "^6.5.1",
     "css-minimizer-webpack-plugin": "^6.0.0",
     "file-loader": "^6.2.0",
-    "gh-pages": "^4.0.0",
     "mini-css-extract-plugin": "^2.4.5",
-    "node-sass": "^9.0.0",
     "postcss": "^8.4.4",
-    "prettier": "^2.1.1",
+    "prettier": "^3.0.0",
+    "sass": "~1.77.8",
     "sass-loader": "^14.1.1",
     "style-loader": "^3.3.1",
     "webpack": "^5.76.0",

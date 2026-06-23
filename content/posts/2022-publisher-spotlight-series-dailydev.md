@@ -5,7 +5,6 @@ tags: publisher-spotlight
 authors: David Fischer
 image: /images/posts/2022-publisher-spotlight-dailydev.jpg
 
-
 <figure>
     <figcaption>Listen to this interview:</figcaption>
     <audio controls src="/audio/publisher-spotlight-ido-shamun-dailydev.mp3">
@@ -13,23 +12,18 @@ image: /images/posts/2022-publisher-spotlight-dailydev.jpg
     </audio>
 </figure>
 
-
-*This is part of a new publisher spotlight series where we highlight publishers
+_This is part of a new publisher spotlight series where we highlight publishers
 using EthicalAds and help them tell their story.
-This first episode is with Ido Shamun from [Daily.dev](https://daily.dev).*
-
+This first episode is with Ido Shamun from [Daily.dev](https://daily.dev)._
 
 **David: Hello and and welcome to sort of the first episode of an EthicalAds podcast.
 I'd like to introduce my guest who is Ido Shamun, one of the founders of Daily.dev,
 which aims to be every developers homepage. Welcome Ido.**
 
-
 Ido: Hey David, it's great to be here. Good luck with your new series.
-
 
 **Thanks. It might be a very short series, but we'll see how it goes.
 So firstly I'd love to get in your words, what is Daily.dev?**
-
 
 So Daily.dev is a platform for developers.
 We aggregate news, developer news from all over the web. Hundreds of sources.
@@ -39,11 +33,9 @@ four years and it's growing growing pretty great so far.
 Um, we've reached 100,000 weekly active users,
 almost 60,000 users every day. So it's going pretty good. I would say.
 
-
 **That's a lot of daily actives.
 Yeah, it sounds, it sounds like it's going really well. How'd you get started?
 What made you get started on this?**
-
 
 So we started as a side project honestly.
 We started it as out of a need that we
@@ -58,11 +50,8 @@ world of mouth increased and at some point,
 we decided to go full on on this project and we founded the company and now
 we've been growing the team as well, so yeah.
 
-
-
 **That's fantastic. That sounds like everything's going really well.
 What sort of tech stack are you looking at with with Daily.dev?**
-
 
 So mainly we look at NodeJS, Javascript, React
 for the front end and we have several,
@@ -71,8 +60,6 @@ services written in Golang and Python.
 Really depends on the task at hand. Python is very great at
 scraping and Golang for performance, critical missions,
 but mostly JavaScript is our go to language
-
-
 
 **Sure, that's cool.
 The developer homepage has been sort of like the
@@ -83,8 +70,6 @@ developer homepage gave you some features like that.
 Maybe even Reddit.
 Reddit could be considered the homepage for for people.
 What sets Daily.dev apart from these other things.**
-
-
 
 So first of all,
 I think the fact that we are aiming only for developers really enables
@@ -104,7 +89,6 @@ You can choose and get whatever you want out of it.
 And maybe even comment or up-vote the
 articles you love and contact with other developers.
 
-
 **That's really cool.
 By occupying the new tab space, I feel like every developer has got like 50 tabs and sometimes you close them,
 you declare tab bankruptcy and go back to go back to square zero for the next day.
@@ -115,9 +99,7 @@ actives and your monthly actives or weekly actives.
 What kind of total traffic are you doing even excluding duplicates?
 So, you know, not just users, but like total traffic. You must be doing a ton.**
 
-
 Yes, a total traffic in around 30 million page views per month.
-
 
 **That's a lot.
 I think going back to sort of like my work and Read the Docs,
@@ -135,15 +117,12 @@ goals of developers and what developers want.
 I think that
 there's almost always a niche you can carve out for yourself. So that's really cool.**
 
-
 And today developers are not that niche even.
 It's a very big community in a very big audience.
-
 
 **Yeah, true, true. Yeah.
 This is going to be the simple question: how does Daily.dev make money?
 How do you how do you monetize your traffic and audience.**
-
 
 So obviously we we run ads. This is exactly the reason we're doing this interview.
 But for us we knew from the first moment that this product should be free.
@@ -153,7 +132,6 @@ So we have to figure out a different way
 to make money and make this project sustainable.
 So we saw advertisements as a potential monetization channel,
 which for now works great.
-
 
 **Yeah, that's that's really cool.
 You know, Read the Docs had a similar issue with sustainability early in our history,
@@ -173,7 +151,6 @@ a mix of EthicalAds and ads from Carbon,
 another developer focused ad network.
 Why did you go that route instead of sticking with a single ad network?**
 
-
 I think the same reason as a network
 looks for many publishers and many advertisers you don't want
 to be locked to one single network,
@@ -190,7 +167,6 @@ So for Daily.dev, we actually have three ways to to sell ads.
 So it's through Carbon, through Ethical and through direct deals.
 We also believe that, you know, competition is very good for everyone.
 
-
 **Yeah, good.
 We are happy to compete with Carbon as far as we compete.
 We're both sort of tiny when you compare us with say something like Google.**
@@ -200,8 +176,6 @@ Do you want to talk a little bit about that?
 What happened to CodeFund?
 I think Eric Barry who was sort of the founder of Code Fund, he probably talked to you a lot,
 I talked to Eric a lot too. How did you like working with CodeFund?**
-
-
 
 Eric Berry is still a very good friend even though you know we went our
 separate ways in some way after he had to close CodeFund.
@@ -214,8 +188,6 @@ The people behind it and what they did was truly amazing.
 Unfortunately things have turned out the way they turned,
 but for us it was a real joy.
 
-
-
 **Yeah.
 Eric Berry was fantastic when he was working on CodeFund.
 I mean, he's still fantastic today.
@@ -227,8 +199,6 @@ But at the same time, very good for us as that sort of helped us launch our netw
 **Notably you don't have Google ads in the mix,
 Were you just are you just happy enough with the existing mix of two
 or three if you count your own direct sales or was there a particular reason you didn't want Google ads?**
-
-
 
 Actually there was a particular reason we don't want advertisements that
 don't have to do anything with developers to be on our feed.
@@ -245,8 +215,6 @@ Whereas in GoogleAds,
 you can get something based on your recent Google search,
 so it really doesn't fit our audience?
 
-
-
 **Yeah, I completely understand. That's that's feedback that we do get.
 You're not the first person to give me that feedback.
 In fact on Read the Docs, we thought something similar.
@@ -258,8 +226,6 @@ I know that those work.**
 **I know that those work decently well for advertisers, but it can sort of take you out of the moment.
 If you're reading a very tech heavy site or something like that and then suddenly you get an ad
 for Nike shoes because you bought shoes a week ago that can sort of take you out of it.**
-
-
 
 Yeah, we also prefer --
 so someone coined the term context aware ads --
@@ -273,8 +239,6 @@ If you read a web development article,
 all I have to do is target based on the article which is about web development,
 I don't need to know anything about you,
 which immediately removes all the privacy concerns out of the equation.
-
-
 
 **You're basically pitching my business,
 This is fantastic.
@@ -294,8 +258,6 @@ But I guess if you're selling your own ads some of the time that that becomes [y
 You're going to have advertisers say, "hey, I want to buy Daily.dev,
 but just this niche, not all developers".**
 
-
-
 We are a general purpose tool for developers.
 It's not like we are a data science tool.
 If we were a data science tool or part of the data science community,
@@ -305,8 +267,6 @@ is looking for something different.
 So although you own the network and you sell the ads,
 I still need to be able to indicate to you as a network what kind of
 ad I need in this case because we are more flexible than just the usual [publisher].
-
-
 
 **Yeah.
 You are you you definitely delve a little deeper
@@ -318,15 +278,11 @@ So that that's really cool.**
 **Have you had an advertiser reach out to you and ask you specifically "I want this niche".
 Is that a common occurrence or has that happened a few times or tell me about that.**
 
-
-
 This is especially the case when they reach out to us out for direct deals.
 Otherwise we direct them to you or to Carbon depending on the customer,
 because closing a direct deal for us is a lot of overhead.
 So sometimes we prefer to pay the rev share and just
 direct the client to you.
-
-
 
 **Sure. I understand.
 It does come down to it.
@@ -349,14 +305,10 @@ Once the publisher is enormous,
 they don't need somebody like us or even somebody like Carbon.
 Yeah, there's definitely sort of a mix in this size.**
 
-
 I think the journey is still very long until we just this point.
-
 
 **Sure. Us too.
 What has the revenue from advertising sort of enabled you to do for Daily.dev?**
-
-
 
 It enabled us to go full on on this project without
 risking our personal life in a way because we were able to get a decent salary
@@ -370,13 +322,9 @@ the monetization channels will grow as well and we don't have to think about chu
 and conversion rates and stuff like this.
 We can really focus on delivering great value to the users and just increase the awareness to the product.
 
-
-
 **Cool. Yeah, that's fantastic.
 What are some new features that are coming for Daily.dev?
 If you could talk about them? I don't want spoilers if you don't want to spoil it.**
-
-
 
 We're pretty open about the things we build and we have also the change log
 that we keep pumping with news like almost every week.
@@ -391,8 +339,6 @@ We're thinking about letting the community publish their own [content].
 by submitting like HackerNews or connecting with each others in a way of two.
 So 2022 will probably be around community and networking with other developers on the platform.
 
-
-
 **That's awesome.
 Hopefully 2022 is a big year.
 It's coming up. Every time I say that I sort of scare myself a little bit.
@@ -406,7 +352,6 @@ is there is there anything else you want to add,
 anything about EthicalAds, anything not add related. Really anything.
 Do you want to give a shout out to anybody?**
 
-
 Looking at everything that's going on right now with the developers landscape,
 this is a great time to be a developer.
 Everyone is interested in developer tools and making the life of developers
@@ -416,8 +361,6 @@ I have the chance to serve such a great community and I hope I will
 keep doing it for the upcoming years and
 I'm so grateful to have great partners like you.
 
-
-
 **Thank you very much. You know, I totally agree with you.
 It's a great time to build a product.
 That that's exactly what we're doing. That's exactly what you're doing.
@@ -425,12 +368,8 @@ It's fantastic.
 It's probably the best time in history to create something new.
 So you know that it's a great time to be alive I suppose.**
 
-
-
 Yeah, it's super easy to create products this day.
 You almost need to think only about business logic.
-
-
 
 **Yeah. With all the services out there.
 Basically every time I think about Stripe, I'm like, "oh man Stripe's magical".
@@ -446,6 +385,5 @@ It's such like a great positive outlook. I love it.**
 time out of your day to talk with me
 and answer these questions and everything like that.
 I really appreciate it.**
-
 
 Thank you David.
