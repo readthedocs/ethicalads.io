@@ -7,6 +7,12 @@ description: These are common questions from publishers about the EthicalAds net
 
 [TOC]
 
+## What is the minimum traffic required to join?
+
+Your site needs at least 50,000 pageviews per month.
+This helps us provide enough scale to make it worthwhile for advertisers to buy ads on your site.
+If you're close, we do occasionally make exceptions for sites that are growing quickly and have high-quality, relevant content for our advertisers.
+
 ## What data can I see about the ads?
 
 We have reports for the following data:
@@ -59,6 +65,8 @@ assuming most of your traffic is from the EU and North America.
 Traffic from Australia or New Zealand is typically right around this same range,
 while ads shown to users in the rest of the world usually bring in less.
 
+You can get an estimate from our [publisher revenue calculator]({filename}../pages/publisher-calculator.md).
+
 ## How can I be paid?
 
 Please read our full [Publisher Policy](/publisher-policy/#payouts) on payouts.
@@ -74,11 +82,10 @@ This feedback is how we improve our product.
 
 ## Why do I only see house ads?
 
-You should generally see paid ads if you are in the US or EU.
+You should generally see paid ads in North America and Western Europe,
+which are the most targeted regions by our advertisers.
 If you're somewhere else in the world,
 you might see paid ads or not.
-The later you are in the day,
-the more likely that you might see more unpaid ads if we haven't fully sold your specific location and keywords.
 You can always look in your publisher dashboard to see more information on what is happening, once data has started to be collected.
 
 ## How do I ensure the ads will perform well on my site?
@@ -108,14 +115,21 @@ There are a number of reasons why this might happen.
 
 ## How do you target ads?
 
-We target ads on two primary things: location and keywords.
-Location targeting uses the IP address of the client,
-but we only target this to the Country and US State level.
-Keyword targeting comes from either the site or page the ad is shown on.
-Sites have default keywords,
-but publishers can override this with [Page-specific keywords](https://ethical-ad-client.readthedocs.io/en/latest/#page-specific-keywords).
-**We strongly recommend implementing Page-specific keywords to increase the success of your ads**,
-if you have this metadata on your site.
+We target ads on two primary things: visitor location and page content.
+Location targeting uses the IP address of the visitor,
+but we only target this to the country level.
+IP addresses are not stored.
+
+For page content, we crawl sites just like a search engine spider does
+and index individual pages on your site with their content relevant to advertisers.
+This lets us target ad campaigns to the most relevant sites and pages across our network for each advertiser.
+This is how EthicalAds serves relevant ads without using any personal data or tracking.
+
+You can see exactly how much of your content is categorized in your publisher dashboard.
+This is our most advanced targeting and we charge advertisers more for these highly targeted placements.
+You'll earn more money the more of your content is categorized.
+
+You can read more about our content targeting [here]({filename}../posts/2022-content-based-targeting.md).
 
 ## Is EthicalAds open source?
 
