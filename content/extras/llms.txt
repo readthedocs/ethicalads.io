@@ -80,6 +80,7 @@ EthicalAds' mission is to sustain the open-source and developer ecosystem by giv
 
 * Publisher Info: https://www.ethicalads.io/publishers/
 * Publisher FAQ: https://www.ethicalads.io/publishers/faq/
+* Info for AI Assistant / LLM Publishers: https://www.ethicalads.io/publishers/ai/
 
 
 ## EthicalAds and open source
