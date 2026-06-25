@@ -17,8 +17,8 @@ and then storing the topics in our database for fast ad serving.
 This gave us a good starting point for targeting ads by topic,
 but we wanted to get more granular.
 
-*This post is written for developers, but if you're interested in how this applies to marketers, check out our
-[marketing-focused post]({filename}../posts/2024-niche-targeting-for-marketers.md).*
+_This post is written for developers, but if you're interested in how this applies to marketers, check out our
+[marketing-focused post]({filename}../posts/2024-niche-targeting-for-marketers.md)._
 
 ## Targeting each page individually with embeddings
 
@@ -99,16 +99,16 @@ and let us know how it goes!
 
 There is a huge win both in terms of privacy and user experience with this approach:
 
-* **We're able to target ads to pages without needing to know anything about the user.** The better we get at targeting, the more powerful our ethical advertising approach becomes, and the larger we can scale out network.
-* The user experience of minimalist, well-targeted ads is better. We're able to show fewer ads and charge more for them because they perform better. This is a win-win for everyone.
-* We were able to implement this approach with minimal changes to our existing infrastructure, mostly because we're already heavily invested in the Python ecosystem and Postgres.
+- **We're able to target ads to pages without needing to know anything about the user.** The better we get at targeting, the more powerful our ethical advertising approach becomes, and the larger we can scale out network.
+- The user experience of minimalist, well-targeted ads is better. We're able to show fewer ads and charge more for them because they perform better. This is a win-win for everyone.
+- We were able to implement this approach with minimal changes to our existing infrastructure, mostly because we're already heavily invested in the Python ecosystem and Postgres.
 
 ## Challenges and Considerations
 
 We have a few challenges to overcome with this approach:
 
-* We currently aim for 50ms for ad response time, and this approach is currently slower than that. We're working on optimizing this with indexing, and might look at using an in-memory vector store in the future.
-* Embeddings currently work pretty well, but can often associate things that are not relevant. For example, we're run into issues where the same words are used to mean different things (eg. "model"), and the embeddings can get confused.
+- We currently aim for 50ms for ad response time, and this approach is currently slower than that. We're working on optimizing this with indexing, and might look at using an in-memory vector store in the future.
+- Embeddings currently work pretty well, but can often associate things that are not relevant. For example, we're run into issues where the same words are used to mean different things (eg. "model"), and the embeddings can get confused.
 
 ## Conclusion
 
@@ -116,9 +116,9 @@ This approach is still in its early stages, but we're excited about the potentia
 The better we can get at ethical ad targeting,
 everyone in our network benefits:
 
-* **Advertisers** get better ad targeting, ensuring they show up in front of the right users.
-* **Publishers** get more money while showing a single ad rather than resorting to multiple, larger ads that take over their site
-* **Users** get a better experience, with ads that are relevant to the content they are reading.
+- **Advertisers** get better ad targeting, ensuring they show up in front of the right users.
+- **Publishers** get more money while showing a single ad rather than resorting to multiple, larger ads that take over their site
+- **Users** get a better experience, with ads that are relevant to the content they are reading.
 
 This is our vision for advertising,
 and we're excited about the potential of this approach.

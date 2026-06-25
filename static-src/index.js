@@ -1,6 +1,5 @@
 // CSS includes
-import './scss/index.scss';
-
+import "./scss/index.scss";
 
 ////////////////////////////////////////////////////////////////////////////
 // Landkit
@@ -9,9 +8,8 @@ import './scss/index.scss';
 // https://themes.getbootstrap.com/product/landkit/
 ////////////////////////////////////////////////////////////////////////////
 // JavaScript core requirements
-import * as jquery from 'jquery';
-import * as bootstrap from 'bootstrap';
-
+import * as jquery from "jquery";
+import * as bootstrap from "bootstrap";
 
 // These are minor snippets that allow using 3rd party libraries bundled with Landkit
 // These snippets are pretty minor and readable and may require some modifications
@@ -36,8 +34,8 @@ import * as bootstrap from 'bootstrap';
 
 // Flickity is for flickable carousels
 // Import flickity (horizontal scroll carousel)
-import * as flickity from 'flickity';
-import * as flickityfade from 'flickity-fade';
+import * as flickity from "flickity";
+import * as flickityfade from "flickity-fade";
 
 // HighlightJS is for syntax highlighting
 // I'm not sure what Landkit uses it for
@@ -59,7 +57,7 @@ import * as flickityfade from 'flickity-fade';
 //import './landkit/js/navbar.js';
 
 // A very simple polyfill to fix some IE SVG issues
-import './landkit/js/polyfills.js';
+import "./landkit/js/polyfills.js";
 //import './landkit/js/popovers.js';
 
 // Some animation on pricing pages
@@ -72,7 +70,7 @@ import './landkit/js/polyfills.js';
 //import './landkit/js/smooth-scroll.js';
 
 // Enables bootstrap tooltips
-import './landkit/js/tooltips.js';
+import "./landkit/js/tooltips.js";
 
 // Typed is a library that gives the typing effect you sometimes see on landing pages
 //import './landkit/js/typed.js';
@@ -81,7 +79,7 @@ import './landkit/js/tooltips.js';
 ////////////////////////////////////////////////////////////////////////////
 
 // Views
-import './views/advertiser-calculator.js';
-import './views/publisher-calculator.js';
-import './views/inbound-form.js';
-import './views/similar-pages.js';
+import "./views/advertiser-calculator.js";
+import "./views/publisher-calculator.js";
+import "./views/inbound-form.js";
+import "./views/similar-pages.js";

@@ -5,18 +5,16 @@ tags: adtech, business
 authors: David Fischer
 image: /images/posts/2023-ad-industry-overview.png
 
-
 At the most basic level, advertising is a two-sided marketplace with publishers supplying ad impressions and advertisers buying them.
 However, as Internet advertising has become more complicated, the landscape has grown
 and there's some other parts of the AdTech ecosystem worth highlighting.
 
 **Check out [part two covering modern ad targeting and troves of personal data]({filename}../posts/2023-ad-industry-overview-part-ii.md).**
 
-
-
 ## Supply side
 
 ### Ad networks
+
 An ad network like EthicalAds connects advertisers who want to advertise with publishers
 that want to show those ads.
 The largest such ad network is [Google AdSense]({filename}../pages/vs-google.md) that covers every possible topic and geography.
@@ -24,9 +22,9 @@ Facebook has their own much smaller one called Facebook Audience Network,
 but there are many smaller networks that focus on niches like ours (developers who care about privacy).
 [CarbonAds]({filename}../pages/vs-carbon-ads.md) is probably the closest ad network to us.
 
-
 ### Publishers
-Publishers are websties, apps, podcasts, or newsletters that show ads.
+
+Publishers are websites, apps, podcasts, or newsletters that show ads.
 These range in size from small sites with very little traffic,
 up to some of the biggest ad-funded websites on the Internet.
 
@@ -40,10 +38,10 @@ many very large publishers start to look like ad networks except they are the pa
 Their ads may still be sold by programmatic bidding in a similar way to an exchange or network,
 except it is sold directly (called "Programmatic Direct Advertising").
 
-
 ## Demand side
 
 ### Advertisers
+
 Advertisers are companies trying to reach consumers to inform them about their products and services
 with the ultimate goal of driving more usage and sales.
 Advertisers go where their customers or potential customers are
@@ -54,8 +52,8 @@ how much exposure and how many new customers they are getting for their brand an
 compared to how much they are spending while also keeping their brand safe.
 They might buy campaigns priced in a variety of different ways from per impression, per click, per lead/acquisition, or even a duration-based ad buy like an offline billboard or a monthly sponsorship.
 
-
 ### Ad agencies
+
 Many advertisers use an ad agency to buy and place their ads for them on the right networks and publishers.
 At EthicalAds, we deal with a number of ad agencies directly and have had good relationships with them.
 Frequently, these agencies specialize in a particular segment of the market like developer advertising.
@@ -64,8 +62,8 @@ While agencies usually have access to data like a company's analytics system,
 they may not have access to all the same data as the advertiser themselves such as direct conversions
 or conversions that happen after talking to a sales rep.
 
-
 ## Ad exchanges
+
 Ad exchanges look very similar to ad networks but they are a marketplace that connects multiple advertisers,
 the demand side, with multiple ad networks or large publishers, the supply side.
 The key difference between a network and an exchange is that the exchange is merely facilitating the sale

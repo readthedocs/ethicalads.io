@@ -6,9 +6,7 @@ authors: David Fischer
 image: /images/posts/2021-django-100-requests-second.jpg
 image_credit: <span>Photo by <a href="https://unsplash.com/@rockthechaos?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Kolleen Gladden</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
-
 **In a followup post, we discuss a traffic spike to [200 requests per second]({filename}../posts/2023-going-truly-viral.md)!**
-
 
 Usually, our blog focuses on advertising, privacy,
 and our journey in building a business around the intersection of the two.
@@ -20,9 +18,8 @@ we ran into with our ad server.
  <p>Normal throughput of our ad server peaks at about 3,500 requests per minute which is ~60 requests per second. The small drops are nights and the big ones are weekends.</p>
 </div>
 
-[comment]: # (All request timings -- eg. p50, p99 -- on this page come from New Relic)
-[comment]: # (All the times are for the AdDecisionView so we compare apples to apples)
-
+[comment]: # "All request timings -- eg. p50, p99 -- on this page come from New Relic"
+[comment]: # "All the times are for the AdDecisionView so we compare apples to apples"
 
 ## Breaking out the ad server
 
@@ -32,12 +29,10 @@ However, the process was a bit tricky since we knew that on day one this new ser
 would need to handle around 20-30 requests per second and traffic spikes could take that number to 60 or higher.
 To prepare for this, we relentlessly focused on our app performance.
 
-
 > Anecdotally, Python and Django are not considered the most performant language and framework.
 > We didn't want to do a from-scratch rewrite, however, in a more performant language.
 > There was also a strong desire to use a similar setup to Read the Docs
 > as that's what our small team (of 5 at that time) knew well.
-
 
 To improve the performance, we actually spent quite a bit of time digging through New Relic traces
 and going over each Postgres query in [Django Debug Toolbar](https://django-debug-toolbar.readthedocs.io/en/latest/).
@@ -50,7 +45,6 @@ we did some load testing to make sure it could handle the traffic.
 There were definitely a few false starts during the initial rollout
 and in the end we decided to put it through a full load test.
 
-
 ## Load testing our ad server
 
 To make sure we could handle the load we knew we were going to see once we rolled out the ad server,
@@ -61,38 +55,35 @@ After that, we used [siege](https://github.com/JoeDog/siege) to test the deploym
 at various loads up to 100 ad requests per second.
 These were real requests exactly like we'd see in production and we wanted to see how staging would cope.
 
-
 Heroku (4 Standard-2x dynos, 10 Gunicorn processes each, ~$200/mo)
 
-:   This is a pretty standard Heroku setup to handle a performance heavy application.
-    We tested it at various thoughputs but it was able to handle 100 requests per second without dropping requests.
-    However, we did see our 99th percentile performance (p99) creep up to the 550-600ms range which is pretty bad.
-    On Heroku, 100 concurrent requests would also bump us into some pricier Redis and Postgres setups
-    to handle over 100 connections.
+: This is a pretty standard Heroku setup to handle a performance heavy application.
+We tested it at various thoughputs but it was able to handle 100 requests per second without dropping requests.
+However, we did see our 99th percentile performance (p99) creep up to the 550-600ms range which is pretty bad.
+On Heroku, 100 concurrent requests would also bump us into some pricier Redis and Postgres setups
+to handle over 100 connections.
 
 Heroku (10 Standard-2x dynos, 10 Gunicorn processes each, ~$500/mo)
 
-:   In this example, we more than doubled the provisioning.
-    This setup performed much better although it didn't seem to be exactly linearly better which was a little odd.
-    Our p99 was closer to 350ms in a 100 requests per second setup and it didn't drop any requests.
-    The median performance (p50) stayed about the same at 80-90ms.
+: In this example, we more than doubled the provisioning.
+This setup performed much better although it didn't seem to be exactly linearly better which was a little odd.
+Our p99 was closer to 350ms in a 100 requests per second setup and it didn't drop any requests.
+The median performance (p50) stayed about the same at 80-90ms.
 
 AppService (4 Premium P1s, 10 Gunicorn processes each, ~$300/mo)
 
-:   This was a pretty comparable setup in Azure to the Heroku setups.
-    We ran the exact same code and the configuration was as close as possible.
-    We tested various numbers of instances and the performance scaled very linearly with instance count.
-    Performance was quite a bit better with a p50 of ~75ms and the p99 was drastically improved to ~200ms.
-    Even in longer and larger tests (with more instances in some cases),
-    we saw much better performance on AppService than on Heroku.
-
+: This was a pretty comparable setup in Azure to the Heroku setups.
+We ran the exact same code and the configuration was as close as possible.
+We tested various numbers of instances and the performance scaled very linearly with instance count.
+Performance was quite a bit better with a p50 of ~75ms and the p99 was drastically improved to ~200ms.
+Even in longer and larger tests (with more instances in some cases),
+we saw much better performance on AppService than on Heroku.
 
 The end result of the load tests was that we launched the ad server on AppService
 where got predictable performance and the right bang for the buck.
 Heroku definitely wins in ease of deployment and it has a lot of advantages and flexibility.
 However, for this kind of application where performance and predictability were critical,
 AppService was the right choice.
-
 
 <div class="postimage">
  <img class="w-100" src="{static}../images/posts/2021-adserver-performance-percentile.png" alt="Normal real-world performance from New Relic">
@@ -123,7 +114,6 @@ Improvements on our infrastructure or how we handle data would yield better resu
  <img class="w-100" src="{static}../images/posts/2021-adserver-performance-breakdown.png" alt="Performance breakdown of the ad server">
  <p>A little over half our server time is spent in Postgres while Python is just under half</p>
 </div>
-
 
 ## Our next scaling challenge
 

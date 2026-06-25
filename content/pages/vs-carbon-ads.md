@@ -14,7 +14,6 @@ However, there are some differences between EthicalAds and Carbon
 especially around privacy, transparency, and community focus.
 Let's explore them.
 
-
 <table class="w-100 my-10 table table-sm bg-transparent">
   <thead>
     <tr>
@@ -195,8 +194,8 @@ Let's explore them.
   </tbody>
 </table>
 
-
 <a id="transparency"></a>
+
 ## **Transparency**: Public and clear pricing and performance data
 
 If you're planning a new ad campaign, you want to know how much it will cost and
@@ -208,10 +207,10 @@ We have reports to show you exactly which sites are showing your ads.
 For sites showing ads from EthicalAds, we have a [revenue calculator]({filename}/pages/publisher-calculator.md)
 to help you understand and estimate how much you will earn with us.
 Just as we show advertisers where their ads appear,
-we show publishers the companies whose ads are appear on their site.
-
+we show publishers the companies whose ads appear on their site.
 
 <a id="support"></a>
+
 ## **Support**: You can always get a human on a call or email
 
 Unlike larger ad networks, we are small, scrappy, and you can always get in touch with a real person
@@ -220,8 +219,8 @@ within a day or two about any support you need.
 We are interested in building lasting relationships with both our advertisers and our publishers.
 We want them to succeed and the majority of our business comes from repeat advertisers and long-term publishers.
 
-
 <a id="privacy"></a>
+
 ## **Privacy**: We never set an ad cookie or load third-party scripts.
 
 When running a web site, if you integrate with an ad network, you expect to send data to that network. When using a provider like Carbon Ads, you are also sending data to third-parties that you didn't even know about. EthicalAds will never load JavaScript from other providers on your pages.
@@ -241,16 +240,15 @@ Carbon Ads reserves the right to set cookies on your browser session, as well as
 >
 > — Carbon Ads (BuySellAds) [Privacy Policy](https://www.buysellads.com/about/privacy)
 
-EthicalAds will never set cookies on your users, and we don't use any user-specific data to target advertising. This means [you don't need a cookie banner]({filename}../posts/2021-can-you-remove-cookie-banners.md), we are GDPR-compliant, and your users data is not being tracked across the internet.
-
+EthicalAds will never set cookies on your users, and we don't use any user-specific data to target advertising. This means [you don't need a cookie banner]({filename}../posts/2021-can-you-remove-cookie-banners.md), we are GDPR-compliant, and your users' data is not being tracked across the internet.
 
 <a id="opensource"></a>
+
 ## **Open Source**: Building on our transparency, our code is open source
 
 The code behind other networks is proprietary and incredibly complex. This is because there is a large amount of time being spent trying to figure out exactly who you are and how to target you with an ad.
 
 With EthicalAds, our code is both simple and open source. You can look at our [ethical ad server](https://github.com/readthedocs/ethical-ad-server/) and [ethical ad client](https://github.com/readthedocs/ethical-ad-client/) on GitHub. You can read the exact logic we use to select that ads that show on your website, because we don't need complex tracking logic.
-
 
 ## **Join today**: Ready to take the next step?
 

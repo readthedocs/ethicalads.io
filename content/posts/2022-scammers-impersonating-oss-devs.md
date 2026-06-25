@@ -6,12 +6,10 @@ authors: David Fischer
 image: /images/posts/2022-stopping-ad-fraud.jpg
 image_credit: <span>Photo by <a href="https://unsplash.com/@jdent?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jason Dent</a> on <a href="https://unsplash.com/s/photos/security?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>
 
-
 As we mentioned in our [newsletter recently]({filename}newsletter-july-2022.md),
 EthicalAds was targeted by an ad scam ring.
 Fortunately, we were able to see through the scam quickly and to protect ourselves and our advertisers.
 However, we thought this would make for an interesting post to discuss the brazen scams folks try to pull.
-
 
 ## Anatomy of a scam
 
@@ -34,7 +32,6 @@ This keeps both off-topic, non-developer sites as well as outright scams off our
 What we didn't expect was that we would get fake developer sites
 with fake backstories applying to join our network.
 
-
 ## Ad scammers are brazen
 
 In late July, we got some requests that appeared to come from documentation for decent sized open source libraries.
@@ -56,24 +53,22 @@ and created fake personas to impersonate the real library's devs:
 names and emails that loosely matched one of the developers on GitHub.
 There were dozens of examples but to name some specific modules:
 
-* [AsyncJS](https://caolan.github.io/async/v3/)  ([fake mirror](https://asyncjs.xyz/))
-* [DatafluxJS](https://github.com/massimocandela/dataflux)  ([fake mirror](https://dataflux-js.xyz))
-* [NobloxJS](https://noblox.js.org/)  ([fake mirror](https://nobloxjs.xyz/))
-* [Tool Cool Color Picker](https://github.com/toolcool-org/toolcool-color-picker)  ([fake mirror](https://tc-color-picker.xyz/))
-
+- [AsyncJS](https://caolan.github.io/async/v3/) ([fake mirror](https://asyncjs.xyz/))
+- [DatafluxJS](https://github.com/massimocandela/dataflux) ([fake mirror](https://dataflux-js.xyz))
+- [NobloxJS](https://noblox.js.org/) ([fake mirror](https://nobloxjs.xyz/))
+- [Tool Cool Color Picker](https://github.com/toolcool-org/toolcool-color-picker) ([fake mirror](https://tc-color-picker.xyz/))
 
 While the scammers seem to have temporarily stopped applying to our network,
 they created dozens of fake sites and dozens of fake personas
 implying that they're doing this with some scale across other ad networks as well.
 These scams weren't particularly hard to see through but were more noteworthy for how shameless they were.
-In each case, the scammers were pretending to be the real developer while attemping to monetize that person's work.
+In each case, the scammers were pretending to be the real developer while attempting to monetize that person's work.
 
 In a few examples where we could get the real developer's email address from their GitHub profile,
 we emailed the developer to see if they'd heard of this "unofficial mirror",
 but in each case they confirmed our suspicion that they hadn't.
 These developers hadn't done anything wrong,
 but most werely that surprised that somebody would try to profit from their work.
-
 
 ## Keeping our defenses strong
 

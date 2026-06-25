@@ -5,7 +5,6 @@ tags: adblock, readthedocs
 authors: David Fischer
 image: /images/posts/2018-adblocking.png
 
-
 > This post first appeared
 > on the [Read the Docs company blog](https://blog.readthedocs.com/ads-and-adblocking/)
 
@@ -17,8 +16,7 @@ with advertising. At the beginning of April, Read the Docs was added to
 one of the most popular ad block lists: the
 [Easylist](https://easylist.to/).
 
-Ad blocker fallout
-------------------
+## Ad blocker fallout
 
 <img src="{static}../images/posts/2018-readthedocs-adblocker-fallout.png" class="mw-100" alt="Effect of ad blocking on Read the Docs ad views">
 
@@ -47,8 +45,7 @@ ecosystem. The situation is not dire by any means, but it was certainly
 disappointing that we ended up on the same list with popup advertisers
 who couldn't care less about privacy.
 
-All about ad blockers
----------------------
+## All about ad blockers
 
 Ad blockers fulfill a legitimate need to mitigate the [significant
 downsides of
@@ -67,24 +64,23 @@ global web users run an ad blocker. Considering that Read the Docs'
 core audience is tech-savvy, privacy-conscious developers, it should be
 no surprise that our number is higher.
 
-What are we doing about it
---------------------------
+## What are we doing about it
 
 It will be an uphill battle to get back to where we were in terms of
 revenue and sustaining Read the Docs, here are a few things we are
 working on:
 
--   We applied to the [acceptable ads](https://acceptableads.com/) list,
-    an ad block list enabled on many ad blockers by default that enables
-    some unobtrusive advertising. We are very hopeful here but it does
-    take quite a bit longer to get on this list than it does to get
-    blocked.
--   Nagging users into allowing ads on Read the Docs. We are envisioning
-    more of a polite nag in a similar vein to
-    [jsfiddle](https://jsfiddle.net/) rather than an \"adblock wall\"
-    which prevents usage of Read the Docs until it's allowed.
--   Blogging and raising awareness of how ad blocking affects us and
-    other open source projects.
+- We applied to the [acceptable ads](https://acceptableads.com/) list,
+  an ad block list enabled on many ad blockers by default that enables
+  some unobtrusive advertising. We are very hopeful here but it does
+  take quite a bit longer to get on this list than it does to get
+  blocked.
+- Nagging users into allowing ads on Read the Docs. We are envisioning
+  more of a polite nag in a similar vein to
+  [jsfiddle](https://jsfiddle.net/) rather than an \"adblock wall\"
+  which prevents usage of Read the Docs until it's allowed.
+- Blogging and raising awareness of how ad blocking affects us and
+  other open source projects.
 
 While we could simply change our CSS and ad API to avoid blocking since
 we host our ads ourselves, we decided not to engage in a cat and mouse
@@ -101,8 +97,7 @@ challenges](https://www.fordfoundation.org/library/reports-and-studies/roads-and
 list! We will collect data over the next couple weeks and have a
 follow-up post on what effects this had on advertising.
 
-Open source advertising list
-----------------------------
+## Open source advertising list
 
 At Read the Docs, we also discovered that we are not the only open
 source project that got our advertising blocked by ad blockers. Many

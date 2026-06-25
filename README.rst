@@ -7,7 +7,7 @@ This is a landing page for EthicalAds.io, the developer network from Read the Do
 Site details
 ------------
 
-The site is built as a static site using `Pelican <https://blog.getpelican.com/>`_
+The site is built as a static site using `Pelican <https://getpelican.com/>`_
 and hosted by `Read the Docs <https://about.readthedocs.com/>`_.
 The site is automatically built and updated when there are commits on the main branch
 although it can take up to 5 minutes.
@@ -51,7 +51,7 @@ Deploying the site
 
 The site is generated automatically by GitHub Actions
 whenever there's new commits on the ``main`` branch.
-It is served by GitHub pages at https://www.ethicalads.io.
+It is served by Read the Docs at https://www.ethicalads.io.
 
 For more details on the deployment actions, see workflows_.
 
