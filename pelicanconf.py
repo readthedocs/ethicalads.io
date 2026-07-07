@@ -24,7 +24,7 @@ STATIC_PATHS = [
 
 EXTRA_PATH_METADATA = {"extras/llms.txt": {"path": "llms.txt"}}
 
-TIMEZONE = "US/Pacific"
+TIMEZONE = "America/Los_Angeles"
 DEFAULT_LANG = "en"
 DEFAULT_DATE_FORMAT = "%b %-d, %Y"
 
@@ -109,10 +109,10 @@ DEFAULT_METADATA = {
             "global": 0.7,
         },
         "datascience": {
-            "network": 4.20,
-            "eng": 6.95,
-            "blend": 5.47,
-            "weu": 4.00,
+            "network": 4.40,
+            "eng": 7.25,
+            "blend": 5.75,
+            "weu": 4.25,
             "eeu-apac": 1.9,
             "global": 0.8,
         },
