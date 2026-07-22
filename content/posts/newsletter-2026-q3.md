@@ -17,7 +17,7 @@ image_credit: <span>Photo by <a href="https://unsplash.com/@mateo_giraud?utm_sou
   we've released a [new landing page]({filename}../pages/landing-pages/ai-chatbots.md) dedicated to this space.
   This helps us better serve these newer products and the developers behind them
   and provides even richer contextual targeting for our advertisers.
-- We've now showing metrics to publishers around how much of their site
+- We're now showing metrics to publishers around how much of their site
   is indexed for [niche targeting]({filename}../pages/niche-targeting.md).
   The goal is to increase this number by making the data more transparent.
   Niche targeted campaigns yield the best results for advertisers in terms of performance
