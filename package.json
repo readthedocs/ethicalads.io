@@ -46,7 +46,7 @@
   },
   "devDependencies": {
     "css-loader": "^6.5.1",
-    "css-minimizer-webpack-plugin": "^6.0.0",
+    "css-minimizer-webpack-plugin": "^8.0.0",
     "file-loader": "^6.2.0",
     "mini-css-extract-plugin": "^2.4.5",
     "postcss": "^8.4.4",
