@@ -118,6 +118,12 @@ Django ecosystem into a single monthly buy:
   </div>
 </div>
 
+<div class="postimage text-center my-8">
+  <img class="img-fluid border rounded shadow-light-lg" src="/images/pages/sponsor-django-header-preview.png"
+       alt="The fixed header placement on djangoproject.com's community page, showing a Read the Docs sponsorship message below the site navigation">
+  <p class="small text-muted mt-3">The site-wide fixed header in action — previewed here on djangoproject.com's community page with Read the Docs as the sponsor.</p>
+</div>
+
 Every premium sponsorship also includes:
 
 - **Direct support for Django itself.**
@@ -150,12 +156,11 @@ with [AI-powered niche targeting](/advertisers/niche-targeting/).
 <div class="my-10 w-md-75 mx-auto">
   <blockquote class="blockquote mb-0 text-center">
     <p class="mb-5 mb-md-7">
-      “EthicalAds consistently delivers exceptional results effectively reaching our highly targeted IT audience and generating quality leads.”
+      “We’re happy to use EthicalAds for sponsor recognition across our web properties with centralized management and respect for privacy.”
     </p>
     <footer class="blockquote-footer">
-      <img src="/images/pages/testimonials/checkmk-tomasz.jpg" class="w-25 rounded-circle d-block mx-auto mb-3" alt="Tomasz Gambuś" />
-      <h5 class="bold">Tomasz Gambuś</h5>
-      <span>Senior Digital Growth Manager at Checkmk</span>
+      <h5 class="bold">Ee Durbin</h5>
+      <span>Director of Infrastructure, Python Software Foundation</span>
     </footer>
   </blockquote>
 </div>
