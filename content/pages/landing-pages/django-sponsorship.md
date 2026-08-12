@@ -7,8 +7,9 @@ subtitle: Put your brand at the top of the framework that powers the web — eve
 status: hidden
 
 [comment]: # "This page is an example of what we'd ship for the DSF as a premium sponsorship option — remove `status: hidden` when the partnership launches publicly."
-[comment]: # "Django reach stats are quoted from https://www.djangoproject.com/sponsor/ (retrieved August 2026). EthicalAds stats are sourced from the rest of the site: 35M+ monthly impressions (homepage), 200+ publishers and ~65% renewals (Q2 2026 newsletter). Update together when these change."
+[comment]: # "Django reach stats are quoted from https://www.djangoproject.com/sponsor/ (retrieved August 2026). Audience profile stats are from the official Django Developers Survey 2025 (DSF & JetBrains, 4,655 responses). EthicalAds stats are sourced from the rest of the site: 35M+ monthly impressions (homepage), 200+ publishers and ~65% renewals (Q2 2026 newsletter). Update together when these change."
 [comment]: # "The $10k/month price is our working number — confirm before showing externally. Same for placement details (www vs. docs fixed header, README logo mechanics) and availability/exclusivity policy."
+[comment]: # "Layout modeled on BuySellAds' marketplace property pages (discover.buysellads.com/mozilla-developer-network): property stats, audience profile, then named placements — but with public pricing, where BSA says 'pricing upon request'."
 
 For two decades, Django has been the framework serious teams reach for —
 and Django developers are exactly the audience you can't reach with tracking-based ads.
@@ -131,19 +132,83 @@ the most trusted brands in software, anchored by the documentation every Django 
 <p class="small text-muted">Reach numbers are published by the Django Software Foundation on
 <a href="https://www.djangoproject.com/sponsor/">djangoproject.com/sponsor</a>.</p>
 
-## What's included
+## Who you'll reach
 
-A premium Django sponsorship is a single monthly buy that covers the most visible
-real estate in the Django ecosystem:
+These aren't hobbyists passing through — Django's audience is experienced,
+professional developers building at work, with real influence over the tools their teams buy.
 
-- **A premium fixed header placement.**
-  Your brand in a fixed header across djangoproject.com — including the documentation
-  pages where Django developers spend their working day. Not an ad slot in a rotation:
-  a placement reserved for premium sponsors.
-- **Your logo in the Django README.**
-  In front of every developer and every team evaluating Django on GitHub.
-- **Front page sponsor recognition.**
-  Your logo and a link in the sponsorship section of djangoproject.com's front page.
+<div class="row my-8 text-center">
+  <div class="col-6 col-md-3 mb-4 mb-md-0">
+    <p class="h1 mb-0 text-primary">82%</p>
+    <p class="small mb-0">Write code professionally with Django</p>
+  </div>
+  <div class="col-6 col-md-3 mb-4 mb-md-0">
+    <p class="h1 mb-0 text-primary">80%</p>
+    <p class="small mb-0">Do full-stack development</p>
+  </div>
+  <div class="col-6 col-md-3">
+    <p class="h1 mb-0 text-primary">65%</p>
+    <p class="small mb-0">Fully employed at a company</p>
+  </div>
+  <div class="col-6 col-md-3">
+    <p class="h1 mb-0 text-primary">56%</p>
+    <p class="small mb-0">Have 6+ years of professional coding experience</p>
+  </div>
+</div>
+
+<p class="small text-muted">Audience profile from the official
+<a href="https://www.djangoproject.com/weblog/2025/oct/31/django-developers-survey-2025-results/">Django Developers Survey</a>
+(Django Software Foundation &amp; JetBrains, 4,600+ respondents).</p>
+
+## Three placements, one sponsorship
+
+A premium Django sponsorship bundles the most visible real estate in the
+Django ecosystem into a single monthly buy:
+
+<div class="row my-8">
+  <div class="col-12 col-md-4 mb-4">
+    <div class="card h-100 shadow-light-lg">
+      <div class="card-body">
+        <span class="badge badge-pill badge-primary-soft mb-3">
+          <span class="h6 text-uppercase font-weight-bold">100% share of voice</span>
+        </span>
+        <h4 class="font-weight-bold mb-1">Site-wide fixed header</h4>
+        <p class="small text-muted mb-3">Every page of djangoproject.com, docs included</p>
+        <p class="card-text">A persistent placement at the top of the pages Django developers
+        work from all day. Not a slot in a rotation — the site's single premium position.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-md-4 mb-4">
+    <div class="card h-100 shadow-light-lg">
+      <div class="card-body">
+        <span class="badge badge-pill badge-primary-soft mb-3">
+          <span class="h6 text-uppercase font-weight-bold">First impression</span>
+        </span>
+        <h4 class="font-weight-bold mb-1">Django README logo</h4>
+        <p class="small text-muted mb-3">github.com/django/django</p>
+        <p class="card-text">Your logo in the README of one of the most-starred projects on
+        GitHub — in front of every developer and every team evaluating Django.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-md-4 mb-4">
+    <div class="card h-100 shadow-light-lg">
+      <div class="card-body">
+        <span class="badge badge-pill badge-primary-soft mb-3">
+          <span class="h6 text-uppercase font-weight-bold">Official recognition</span>
+        </span>
+        <h4 class="font-weight-bold mb-1">Front page sponsor</h4>
+        <p class="small text-muted mb-3">djangoproject.com front page</p>
+        <p class="card-text">Your logo and a link in the front page sponsorship section,
+        associating your brand with Django itself.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+Every premium sponsorship also includes:
+
 - **Direct support for Django itself.**
   Sponsorship revenue funds the Django Software Foundation and the paid Fellows who
   triage, review, and ship Django — support your customers and candidates can see.
@@ -188,7 +253,8 @@ with [AI-powered niche targeting](/advertisers/niche-targeting/).
 
 ## Pricing & availability
 
-Premium Django sponsorship is **$10k per month**.
+Premium Django sponsorship is **$10k per month** — no "pricing upon request,"
+because [transparent pricing](/advertisers/pricing/) is how we do business.
 Because the fixed header is a single placement — not a rotation —
 availability is strictly limited, and sponsors are hand-approved to keep
 the placement worthy of the Django community's trust.
