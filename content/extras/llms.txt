@@ -63,6 +63,7 @@ All placements and creatives are reviewed for quality and brand safety.
 * Advertiser campaign calculator: https://www.ethicalads.io/advertisers/calculator/
 * Advertiser prospectus: https://www.ethicalads.io/prospectus/ethicalads-advertiser-prospectus.pdf
 * Publisher list (not exhaustive): https://www.ethicalads.io/publishers/list/
+* Premium placements & site takeovers: https://www.ethicalads.io/advertisers/placements/flask/
 
 
 ## Details for publishers
