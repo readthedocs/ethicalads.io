@@ -1,12 +1,6 @@
-*.html
-*.css
-*.scss
-*.js
-*.yml
-*.yaml
-# Ignore sourced files
-static-src/landkit/
-# Actually check these files
+*
+!static-src/
 !static-src/*.js
+!static-src/views/
 !static-src/views/*.js
 !webpack.config.js
