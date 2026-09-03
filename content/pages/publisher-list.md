@@ -109,7 +109,7 @@ It's a great way to get a sense of who's on our network.
 
         <!-- Image -->
         <div class="img-fluid mb-5 w-50 mx-auto">
-          <img src="/theme/img/topics-publishers/flask.png" alt="Flask">
+          <img src="/images/pages/testimonials/flask.svg" alt="Flask">
         </div>
 
         <!-- Text -->
