@@ -25,7 +25,7 @@ topics_samplead_subhead: Let us worry about putting your product in front of the
 topics_publishers_image1: <img src="/theme/img/topics-publishers/django-packages.png" alt="Django Packages">
 topics_publishers_text1: <a href="https://djangopackages.org/">Django Packages</a>
 topics_publishers_category1: project
-topics_publishers_image2: <img src="/theme/img/topics-publishers/flask.png" alt="Flask">
+topics_publishers_image2: <img src="/images/pages/testimonials/flask.svg" alt="Flask">
 topics_publishers_text2: <a href="https://flask.palletsprojects.com/en/latest/">Flask Microframework</a>
 topics_publishers_category2: module
 topics_publishers_image3: <img src="/theme/img/topics-publishers/celeryproject.png" alt="Celery">
