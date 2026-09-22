@@ -140,6 +140,14 @@ It's a great way to get a sense of who's on our network.
 
   </div><!-- /.card-deck -->
 
+  <div class="alert alert-light border mt-6 text-center">
+    <div class="d-flex align-items-center justify-content-center">
+      <span class="text-gray-800">
+        <strong>Looking to advertise to Flask developers?</strong><br>Reach Python and Flask developers directly with a <a href="/advertisers/placements/flask/">Flask documentation takeover</a>.
+      </span>
+    </div>
+  </div>
+
 </section>
 
 <section class="container py-10" id="ai-ml-publishers">
