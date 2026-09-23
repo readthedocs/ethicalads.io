@@ -219,6 +219,16 @@
 
   </div><!-- /.card-deck -->
 
+  {% if page.topics_callout %}
+    <div class="alert alert-light border mt-6 text-center">
+      <div class="d-flex align-items-center justify-content-center">
+        <span class="text-gray-800">
+          {{ page.topics_callout }}
+        </span>
+      </div>
+    </div>
+  {% endif %}
+
 </section><!-- /.container -->
 {% endblock publishers %}
 
