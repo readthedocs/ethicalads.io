@@ -1,0 +1,17 @@
+{% if not page or (page.slug != 'flask-placement' and page.url != 'advertisers/placements/flask/') %}
+<aside class="py-1 py-md-2 bg-dark text-white text-center font-size-sm" aria-label="Announcement" style="line-height: 1.35;">
+  <div class="container">
+    {# Full width only #}
+    <span class="badge badge-pill badge-primary text-uppercase mr-2 d-none d-md-inline-block align-middle">New</span>
+    <span class="d-none d-md-inline">Reach 150,000+ Python developers with an exclusive <strong>Flask documentation takeover</strong>.</span>
+
+    {# Mobile/small screens only #}
+    <span class="d-md-none">Exclusive <strong>Flask documentation takeover</strong>.</span>
+
+    {# Display always #}
+    <a href="/advertisers/placements/flask/" class="text-white font-weight-bold ml-1 ml-md-2 text-nowrap">
+      <u>Learn more</u> <i class="fe fe-arrow-right ml-1"></i>
+    </a>
+  </div>
+</aside>
+{% endif %}
