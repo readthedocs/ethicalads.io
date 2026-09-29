@@ -32,7 +32,7 @@ We will have more exclusive developer properties coming to the network soon.
 If you're a publisher running a high-traffic project or documentation site
 (which is what EthicalAds was originally designed for),
 but our traditional network wasn't the right fit or you'd like to explore this more exclusive model, we'd love to chat.
-Please [contact our publisher team]({filename}../pages/publishers.md#inbound-form) — it's just two of us and we promise you'll get a human response.
+Please [contact our publisher team]({filename}../pages/publishers.md#inbound-form) — you'll get a human response in less than a day.
 If you're an advertiser looking to own the premier spot on Flask documentation or get early access to other upcoming placements on similar prominent sites, [reserve your placement]({filename}../pages/landing-pages/flask-placement.md#inbound-form) today.
 
 <!-- this emdash above is a non-AI emdash — I'm bringing emdashes back -->
