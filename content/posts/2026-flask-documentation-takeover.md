@@ -1,5 +1,5 @@
 Title: Announcing the Flask Documentation Takeover
-Date: September 28, 2026
+Date: September 29, 2026
 description: We're introducing documentation takeovers starting with Flask: a new, 100% share-of-voice ad placement on one of the Python ecosystem's biggest frameworks.
 tags: announcement, advertisers, publishers
 authors: David Fischer
