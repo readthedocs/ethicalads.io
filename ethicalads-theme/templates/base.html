@@ -51,6 +51,10 @@
   </head>
   <body class="{% block bodyclasses %}bg-light{% endblock bodyclasses %}">
 
+    {% block top_banner %}
+      {% include 'includes/top-banner.html' %}
+    {% endblock top_banner %}
+
     {% include 'includes/navigation.html' %}
 
     <main>
