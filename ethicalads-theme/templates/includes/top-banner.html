@@ -1,4 +1,4 @@
-{% if not page or (page.slug != 'flask-placement' and page.url != 'advertisers/placements/flask/') %}
+{% if SHOW_TOP_BANNER and (not page or (page.slug != 'flask-placement' and page.url != 'advertisers/placements/flask/')) %}
 <aside class="py-1 py-md-2 bg-dark text-white text-center font-size-sm" aria-label="Announcement" style="line-height: 1.35;">
   <div class="container">
     {# Full width only #}

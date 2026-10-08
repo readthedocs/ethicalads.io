@@ -4,6 +4,9 @@ Settings for the Pelican static site generator.
 https://docs.getpelican.com/en/stable/settings.html
 """
 
+import datetime
+
+
 AUTHOR = "Read the Docs, Inc."
 SITENAME = "EthicalAds"
 SITEURL = ""
@@ -187,3 +190,11 @@ DEFAULT_PAGINATION = 10
 
 # Used by the pelican-related-posts plugin
 RELATED_POSTS_MAX = 3
+
+# Top announcement banner settings (ethicalads-theme/templates/includes/top-banner.html)
+#
+# IMPORTANT: Since Pelican is a static site generator,
+#   the banner will not automatically disappear after the expiration date.
+#   It will only disappear the next time the site is rebuilt after the expiration date (eg. the next PR)
+BANNER_EXPIRE_DATE = datetime.date(2026, 11, 15)
+SHOW_TOP_BANNER = datetime.date.today() <= BANNER_EXPIRE_DATE
