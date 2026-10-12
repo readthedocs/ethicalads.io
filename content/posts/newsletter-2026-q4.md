@@ -51,6 +51,8 @@ The major features in our upcoming roadmap for the next few months:
 
 - We are continuing to develop and test infrastructure to serve ads directly from the "edge,"
   without needing to connect to our servers at all.
+  This will make response times much faster,
+  especially for users outside of the US.
   We are aiming to launch this in the next quarter.
 - As mentioned earlier, we have a few more per-publisher docs takeover opportunities
   coming in the next few months.
