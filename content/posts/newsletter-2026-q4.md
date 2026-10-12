@@ -15,7 +15,7 @@ image_credit: <span>Photo by <a href="https://unsplash.com/@danieljschwarz?utm_s
 - We improved our [ad client's handling of dark mode](https://ethical-ad-client.readthedocs.io/en/latest/index.html#custom-dark-selector).
   Specifically, sites that have custom ways of handling dark and light mode toggles
   now have a better way to make ads look good.
-- Our advertiser reporting API added several new endpoints. We've already seen advertisers
+- Our [advertiser reporting API](https://ethical-ad-server.readthedocs.io/en/latest/user-guide/api.html) added several new endpoints. We've already seen advertisers
   use AI coding tools to build reporting dashboards with their ad data.
 - Our updated [Q4 prospectus]({static}../prospectus/ethicalads-advertiser-prospectus.pdf) is out.
   There was a small [price increase]({filename}../pages/advertisers-pricing.md)
