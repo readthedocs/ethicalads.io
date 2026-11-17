@@ -46,8 +46,8 @@
 
                   <h4 class="font-weight-bold">Your cause or initiative</h4>
 
-                  <div class="form-group">
-                    <label>What kind of initiative is your cause?</label>
+                  <fieldset class="form-group">
+                    <legend class="col-form-label p-0 mb-2">What kind of initiative is your cause?</legend>
 
                     <div class="form-check">
                       <input class="form-check-input" type="radio" name="initiative-type" value="Open Source Project" id="open-source">
@@ -61,7 +61,7 @@
                       <input class="form-check-input" type="radio" name="initiative-type" value="Other" id="other">
                       <label class="form-check-label" for="other">Other</label>
                     </div>
-                  </div>
+                  </fieldset>
 
                   <div class="form-group">
                     <label for="cause">Your cause's name</label>
@@ -98,8 +98,8 @@
                     <p class="form-text small text-muted">Useful for conferences or events that happen on a certain date</p>
                   </div>
 
-                  <div class="form-group">
-                    <label>Geographic focus (where you would like your ad to be shown)</label>
+                  <fieldset class="form-group">
+                    <legend class="col-form-label p-0 mb-2">Geographic focus (where you would like your ad to be shown)</legend>
 
                     <div class="form-check">
                       <input class="form-check-input" type="checkbox" name="geography" value="US and Canada" id="geo-usca">
@@ -121,10 +121,10 @@
                       <input class="form-check-input" type="checkbox" name="geography" value="Other" id="geo-other">
                       <label class="form-check-label" for="geo-other">Other (explain in comments)</label>
                     </div>
-                  </div>
+                  </fieldset>
 
-                  <div class="form-group">
-                    <label>Your cause's topic focus (a topic focus for your ad)</label>
+                  <fieldset class="form-group">
+                    <legend class="col-form-label p-0 mb-2">Your cause's topic focus (a topic focus for your ad)</legend>
 
                     <div class="form-check">
                       <input class="form-check-input" type="checkbox" name="audience" value="Data science and machine learning" id="datascience" {% if inbound_form_datascience %}checked{% endif %}>
@@ -146,7 +146,7 @@
                       <input class="form-check-input" type="checkbox" name="audience" value="DevOps" id="devops" {% if inbound_form_devops %}checked{% endif %}>
                       <label class="form-check-label" for="devops">DevOps</label>
                     </div>
-                  </div>
+                  </fieldset>
 
                   <div class="form-group">
                     <label for="comments">Comments/Notes</label>
