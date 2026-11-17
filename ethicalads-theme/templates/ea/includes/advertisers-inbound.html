@@ -43,8 +43,8 @@
                     <input class="form-control" type="text" id="company" name="company" required>
                   </div>
 
-                  <div class="form-group">
-                    <label>Geographic focus</label>
+                  <fieldset class="form-group">
+                    <legend class="col-form-label p-0 mb-2">Geographic focus</legend>
 
                     <div class="form-check">
                       <input class="form-check-input" type="checkbox" name="geography" value="Run of Network" id="geo-network" data-bind="checked: {% if page.inbound_form_run_of_network %}true || {% endif %}passed_region === 'network'">
@@ -66,10 +66,10 @@
                       <input class="form-check-input" type="checkbox" name="geography" value="Global" id="geo-global" data-bind="checked: passed_region === 'global'">
                       <label class="form-check-label" for="geo-global">Global</label>
                     </div>
-                  </div>
+                  </fieldset>
 
-                  <div class="form-group">
-                    <label>Topic focus</label>
+                  <fieldset class="form-group">
+                    <legend class="col-form-label p-0 mb-2">Topic focus</legend>
 
                     <div class="form-check">
                       <input class="form-check-input" type="checkbox" name="audience" value="niche" id="niche" data-bind="checked: {% if page.inbound_form_niche %}true || {% endif %}passed_topic === 'niche'">
@@ -95,7 +95,7 @@
                       <input class="form-check-input" type="checkbox" name="audience" value="DevOps" id="devops" data-bind="checked: {% if page.inbound_form_devops %}true || {% endif %}passed_topic === 'devops'">
                       <label class="form-check-label" for="devops">DevOps</label>
                     </div>
-                  </div>
+                  </fieldset>
 
                   <div class="form-group">
                     <label for="budget">Monthly budget</label>
