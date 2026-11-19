@@ -23,8 +23,8 @@ for an additional 10% discount.
 While you might setup a recurring campaign to be billed monthly,
 all our network pricing is per impression.
 
-We also offer flat-rate site takeovers for select publishers,
-such as our [Flask documentation takeover]({filename}/pages/landing-pages/flask-placement.md).
+We also offer flat-rate [documentation takeovers]({filename}/pages/landing-pages/placements.md)
+for select publishers, including Flask and SQLAlchemy.
 
 Our
 [prospectus]({static}/prospectus/ethicalads-advertiser-prospectus.pdf)
@@ -226,9 +226,8 @@ for each of main topics.
 ## Can I sponsor or take over a specific documentation site?
 
 Yes. In addition to topic-targeted and run-of-network CPM advertising,
-we offer exclusive, 100% share-of-voice takeovers on select publishers.
-For example, our [Flask documentation placement]({filename}/pages/landing-pages/flask-placement.md)
-gives a single advertiser an exclusive, premium placement across every page of Flask's official documentation along with 100% share-of-voice for a weekly or monthly campaign.
+we offer exclusive, 100% share-of-voice [documentation takeovers]({filename}/pages/landing-pages/placements.md) on select publishers like Flask and SQLAlchemy.
+These give a single advertiser an exclusive, premium placement across every page of a project's official documentation along with 100% share-of-voice for a weekly or monthly campaign.
 
 If you're interested in targeting only specific sites,
 please [get in touch]({filename}contact.md).

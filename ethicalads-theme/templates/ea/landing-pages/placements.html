@@ -1,0 +1,260 @@
+{% extends "page.html" %}
+
+
+{% block content %}
+{#
+  To add a new documentation takeover, append an entry to this list.
+  Each entry renders a card in the "Available documentation takeovers" grid below.
+#}
+{% set placements = [
+  {
+    "name": "Flask",
+    "subtitle": "Python's lightweight WSGI web framework",
+    "url": "/advertisers/placements/flask/",
+    "logo": "/images/pages/testimonials/flask.svg",
+    "logo_alt": "Flask logo",
+    "description": "Put your developer tool, API, or cloud service in front of active Python web developers with an exclusive fixed header placement across every page of Flask's official documentation.",
+    "monthly_views": "~150k",
+    "placement_type": "Fixed header",
+    "pricing": "$350/wk · $1,300/mo",
+    "highlights": [
+      "100% share of voice with zero ad rotation",
+      "~0.25% typical CTR across Flask docs",
+      "200M+ monthly PyPI downloads · 72k+ GitHub stars"
+    ]
+  },
+  {
+    "name": "SQLAlchemy",
+    "subtitle": "The Python SQL toolkit and ORM",
+    "url": "/advertisers/placements/sqlalchemy/",
+    "logo": "/images/pages/testimonials/sqlalchemy.svg",
+    "logo_alt": "SQLAlchemy logo",
+    "description": "Reach Python database engineers, data architects, and full-stack developers with an exclusive fixed sidebar placement across every page of SQLAlchemy's official documentation.",
+    "monthly_views": "195k+",
+    "placement_type": "Fixed sidebar",
+    "pricing": "$350/wk · $1,300/mo",
+    "highlights": [
+      "100% share of voice with zero ad rotation",
+      "High-intent database and backend engineering audience",
+      "320M+ monthly PyPI downloads · ~29% North America"
+    ]
+  }
+] %}
+
+<!-- Hero
+================================================== -->
+<section class="position-relative mt-5 mb-8">
+  <div class="container">
+    <div class="row justify-content-center text-center">
+      <div class="col-12 col-md-10 col-lg-8">
+
+        <span class="badge badge-pill badge-primary-soft mb-3">
+          <span class="h6 text-uppercase">Premium placements</span>
+        </span>
+
+        <!-- Heading -->
+        <h1 class="display-3 font-weight-light mb-4" data-aos="fade-up">Documentation takeovers</h1>
+
+        <!-- Text -->
+        <p class="font-size-lg text-gray-800 mb-6" data-aos="fade-up" data-aos-delay="100">
+          Own the ad placement on high-traffic open source documentation sites or other premium propertieswith flat-rate, 100% share-of-voice campaigns. Your brand is the only advertiser on the docs for the duration of your run, with zero ad rotation and direct support for open source maintainers.
+        </p>
+
+        <div class="d-flex flex-column flex-sm-row justify-content-center" data-aos="fade-up" data-aos-delay="200">
+          <a href="#takeovers" class="btn btn-primary lift mr-sm-3 mb-3 mb-sm-0">
+            <span>Browse available takeovers</span>
+          </a>
+          <a href="/contact/" class="btn btn-outline-primary lift">
+            <span>Contact us</span>
+          </a>
+        </div>
+
+      </div>
+    </div> <!-- / .row -->
+  </div> <!-- / .container -->
+</section>
+
+
+<!-- Available Takeovers
+================================================== -->
+<section class="py-10 bg-gray-100" id="takeovers">
+  <div class="container">
+    <div class="row justify-content-center text-center mb-8">
+      <div class="col-12 col-md-10 col-lg-8">
+        <h2 class="font-weight-bold mb-3">Available documentation takeovers</h2>
+        <p class="font-size-lg text-gray-800 mb-0">
+          Choose a documentation property below to see traffic details, placement screenshots, and weekly or monthly flat-rate pricing.
+        </p>
+      </div>
+    </div>
+
+    <div class="row justify-content-center align-items-stretch">
+      {% for placement in placements %}
+      <div class="col-12 col-md-6 mb-6 d-flex" data-aos="fade-up" data-aos-delay="{{ loop.index0 * 50 }}">
+        <div class="card card-border border-primary shadow-light-lg lift lift-lg w-100">
+          <div class="card-body p-6 d-flex flex-column">
+
+            <!-- Logo -->
+            <div class="d-flex align-items-center justify-content-center mb-4" style="height: 80px;">
+              <img src="{{ placement.logo }}" alt="{{ placement.logo_alt }}" class="img-fluid" style="max-height: 70px; max-width: 240px;">
+            </div>
+
+            <!-- Title & Subtitle -->
+            <div class="text-center mb-4">
+              <h3 class="font-weight-bold mb-1">
+                <a href="{{ placement.url }}" class="text-reset text-decoration-none">{{ placement.name }} documentation</a>
+              </h3>
+              <p class="small text-uppercase text-muted mb-0">{{ placement.subtitle }}</p>
+            </div>
+
+            <!-- Description -->
+            <p class="text-gray-800 mb-5">
+              {{ placement.description }}
+            </p>
+
+            <!-- Quick Stats -->
+            <div class="row text-center mb-5">
+              <div class="col-4 border-right border-gray-300">
+                <span class="h4 text-primary font-weight-bold d-block mb-0">{{ placement.monthly_views }}</span>
+                <span class="small text-muted">Monthly views</span>
+              </div>
+              <div class="col-4 border-right border-gray-300">
+                <span class="h4 text-primary font-weight-bold d-block mb-0">100%</span>
+                <span class="small text-muted">Share of voice</span>
+              </div>
+              <div class="col-4">
+                <span class="h5 text-dark font-weight-bold d-block mb-0">{{ placement.placement_type }}</span>
+                <span class="small text-muted">Placement</span>
+              </div>
+            </div>
+
+            <hr class="my-4">
+
+            <!-- Highlights -->
+            <ul class="list-unstyled mb-6 flex-grow-1">
+              {% for item in placement.highlights %}
+              <li class="d-flex mb-2">
+                <i class="fe fe-check text-primary mt-1 mr-3"></i>
+                <span class="text-gray-800">{{ item }}</span>
+              </li>
+              {% endfor %}
+              <li class="d-flex">
+                <i class="fe fe-check text-primary mt-1 mr-3"></i>
+                <span class="text-gray-800"><strong>Flat-rate pricing:</strong> {{ placement.pricing }}</span>
+              </li>
+            </ul>
+
+            <a href="{{ placement.url }}" class="btn btn-primary btn-block lift">
+              <span>View {{ placement.name }} takeover</span>
+              <i class="fe fe-arrow-right ml-2"></i>
+            </a>
+
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div> <!-- / .row -->
+
+    <div class="row justify-content-center mt-4">
+      <div class="col-12 col-lg-10">
+        <div class="alert alert-light border mb-0 text-center">
+          <span class="text-gray-800">
+            <strong>More documentation properties coming soon.</strong> Interested in sponsoring another open source project, or maintain a high-traffic docs site? <a href="/contact/">Contact us</a> or learn about <a href="/publishers/">becoming an EthicalAds publisher</a>.
+          </span>
+        </div>
+      </div>
+    </div>
+  </div> <!-- / .container -->
+</section>
+
+
+<!-- Why Documentation Takeovers Work
+================================================== -->
+<section class="py-10">
+  <div class="container">
+    <div class="row justify-content-center text-center mb-8">
+      <div class="col-12 col-md-9">
+        <h2 class="font-weight-bold mb-3">Why exclusive documentation takeovers work</h2>
+        <p class="font-size-lg text-gray-800">Stand out across trusted developer resources without surveillance tracking or ad clutter.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 col-md-4 mb-6 mb-md-0 text-center" data-aos="fade-up">
+        <div class="icon text-primary mb-3">
+          <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"></path><rect fill="#335EEA" opacity=".3" x="4" y="4" width="16" height="16" rx="2"></rect><path d="M9 9h6v6H9z" fill="#335EEA"></path></g></svg>
+        </div>
+        <h3>Complete share of voice</h3>
+        <p class="text-gray-800 mb-0">Your brand is the only advertiser on the documentation for your entire weekly or monthly run, with zero competing ads and zero rotation.</p>
+      </div>
+
+      <div class="col-12 col-md-4 mb-6 mb-md-0 text-center" data-aos="fade-up" data-aos-delay="50">
+        <div class="icon text-primary mb-3">
+          <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"></path><path d="M19 11h2a1 1 0 010 2h-2a1 1 0 010-2zM3 11h2a1 1 0 010 2H3a1 1 0 010-2zm9-9a1 1 0 011 1v2a1 1 0 01-2 0V3a1 1 0 011-1zm0 16a1 1 0 011 1v2a1 1 0 01-2 0v-2a1 1 0 011-1z" fill="#335EEA" opacity=".3"></path><circle fill="#335EEA" cx="12" cy="12" r="3"></circle></g></svg>
+        </div>
+        <h3>Predictable flat-rate pricing</h3>
+        <p class="text-gray-800 mb-0">Simple weekly and monthly pricing with no bidding wars or surprise overages, backed by transparent real-time reporting in our advertiser dashboard.</p>
+      </div>
+
+      <div class="col-12 col-md-4 text-center" data-aos="fade-up" data-aos-delay="100">
+        <div class="icon text-primary mb-3">
+          <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"></path><path d="M16.5 4.5c-1.61 0-3.492 1.825-4.5 3-1.008-1.175-2.89-3-4.5-3C4.651 4.5 3 6.722 3 9.55c0 3.133 3 6.45 9 9.95 6-3.5 9-6.75 9-9.75 0-2.828-1.651-5.25-4.5-5.25z" fill="#335EEA" opacity=".3"></path><path d="M12 19.5C6 16 3 12.683 3 9.55 3 6.722 4.651 4.5 7.5 4.5c1.61 0 3.492 1.825 4.5 3v12z" fill="#335EEA"></path></g></svg>
+        </div>
+        <h3>Direct open source support</h3>
+        <p class="text-gray-800 mb-0">Every campaign is cookie-free and tracking-free, and revenue goes directly toward sustaining the open source maintainers behind the project.</p>
+      </div>
+    </div> <!-- / .row -->
+  </div> <!-- / .container -->
+</section>
+
+
+<!-- FAQ
+================================================== -->
+<section class="py-10 bg-gray-200" id="faq">
+  <div class="container">
+    <div class="row justify-content-center text-center mb-8">
+      <div class="col-12 col-md-8">
+        <h2 class="font-weight-bold mb-3">Frequently asked questions about documentation takeovers</h2>
+        <p class="lead text-gray-800">How our exclusive sponsorships work alongside the broader EthicalAds network.</p>
+      </div>
+    </div>
+
+    <div class="row mb-5">
+      <div class="col-md-6 mb-5">
+        <h4 class="font-weight-bold" id="faq-difference">How are takeovers different from standard EthicalAds campaigns?</h4>
+        <p class="text-gray-800">
+          Standard EthicalAds campaigns are <a href="/advertisers/pricing/">priced per impression (CPM)</a> and rotate across hundreds of developer sites based on contextual topic matching. Documentation takeovers are dedicated, flat-rate sponsorships where you own 100% of the ad impressions on a single property.
+        </p>
+      </div>
+      <div class="col-md-6 mb-5">
+        <h4 class="font-weight-bold" id="faq-booking">How do booking and availability work?</h4>
+        <p class="text-gray-800">
+          Because each takeover is exclusive to one advertiser at a time, slots are reserved on a first-come, first-served basis for weekly or monthly runs. Select a property above to view details and request upcoming availability.
+        </p>
+      </div>
+    </div>
+
+    <div class="row mb-5">
+      <div class="col-md-6 mb-5">
+        <h4 class="font-weight-bold" id="faq-network-stack">Can I run a takeover alongside regular network campaigns?</h4>
+        <p class="text-gray-800">
+          Yes. Many advertisers pair a documentation takeover with a broader <a href="/advertisers/topics/backend-web/">Backend Web</a> or <a href="/advertisers/">network-wide campaign</a> to combine prominent ownership on a flagship project with reach across hundreds of developer sites.
+        </p>
+      </div>
+      <div class="col-md-6 mb-5">
+        <h4 class="font-weight-bold" id="faq-other-properties">Can I request a takeover on another documentation site?</h4>
+        <p class="text-gray-800">
+          We are actively expanding takeovers to more of our best and top-performing publishers.
+          <a href="/contact/">Contact us</a> to let us know which projects or technologies you want to reach,
+          or see our <a href="/publishers/list/">publisher list</a> for examples of sites on our network.
+        </p>
+      </div>
+    </div>
+
+    <p class="mt-4 text-center mb-0">
+      Have questions about broader network campaigns or targeting? Check our <a href="/advertisers/faq/">Advertiser FAQ</a> or <a href="/contact/">get in touch with our team</a>.
+    </p>
+  </div>
+</section>
+
+{% endblock content %}
