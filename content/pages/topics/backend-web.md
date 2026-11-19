@@ -31,4 +31,4 @@ topics_publishers_category2: module
 topics_publishers_image3: <img src="/theme/img/topics-publishers/celeryproject.png" alt="Celery">
 topics_publishers_text3: <a href="https://docs.celeryq.dev/en/stable/">Celery Distributed Tasks</a>
 topics_publishers_category3: docs
-topics_callout: <strong>Looking to advertise to Flask developers?</strong><br>Reach Python and Flask developers directly with a <a href="/advertisers/placements/flask/">Flask documentation takeover</a>.
+topics_callout: <strong>Looking for an exclusive documentation takeover?</strong><br>Reach Python backend developers directly with our <a href="/advertisers/placements/">documentation takeovers</a> on Flask and SQLAlchemy.
